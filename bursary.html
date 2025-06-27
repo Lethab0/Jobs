@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bursary Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 15px;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+    .content {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    p strong {
+      color: #003366;
+    }
+  </style>
+</head>
+<body>
+  <a href="bursaries.html" class="back-link">← Back to Bursaries</a>
+  <h1 id="bursary-title"></h1>
+  <p><strong>Closing Date:</strong> <span id="bursary-closing-date"></span></p>
+  <div id="bursary-description" class="content"></div>
+
+  <script src="bursaries.js"></script>
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    const bursaryId = getQueryParam('id');
+    const bursary = bursaries.find(b => b.id === bursaryId);
+
+    if (bursary) {
+      document.getElementById('bursary-title').textContent = bursary.title;
+      document.getElementById('bursary-closing-date').textContent = new Date(bursary.closingDate).toDateString();
+      document.getElementById('bursary-description').innerHTML = bursary.fullDescription;
+    } else {
+      document.getElementById('bursary-title').textContent = "Bursary Not Found";
+      document.getElementById('bursary-description').textContent = "Sorry, the bursary you are looking for does not exist.";
+    }
+  </script>
+</body>
+</html>

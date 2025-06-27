@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Available Bursaries</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 15px;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      color: #003366;
+      margin-bottom: 30px;
+    }
+    .bursary-card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 6px solid #003366;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .bursary-card h2 {
+      margin-top: 0;
+      color: #003366;
+    }
+    .bursary-card p {
+      margin: 5px 0;
+    }
+    .bursary-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: white;
+      background-color: #003366;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .bursary-card a:hover {
+      background-color: #002855;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-link">← Back to Jobs</a>
+  <h1>Available Bursaries</h1>
+
+  <div id="bursary-list"></div>
+
+  <script src="bursaries.js"></script>
+  <script>
+    const bursaryList = document.getElementById('bursary-list');
+    bursaries.forEach(bursary => {
+      const div = document.createElement('div');
+      div.className = 'bursary-card';
+      div.innerHTML = `
+        <h2>${bursary.title}</h2>
+        <p><strong>Closing Date:</strong> ${new Date(bursary.closingDate).toDateString()}</p>
+        <p>${bursary.shortDescription}</p>
+        <a href="bursary.html?id=${bursary.id}">View Details</a>
+      `;
+      bursaryList.appendChild(div);
+    });
+  </script>
+</body>
+</html>
