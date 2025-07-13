@@ -17,15 +17,14 @@
       background-color: #003366;
       color: white;
       padding: 20px;
-      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     header h1 {
       margin: 0;
     }
     .bursary-link {
-      position: absolute;
-      top: 20px;
-      right: 20px;
       background-color: #ffffff;
       color: #003366;
       padding: 10px 16px;
@@ -33,6 +32,7 @@
       border-radius: 5px;
       font-weight: bold;
       transition: background-color 0.3s;
+      /* Removed position absolute */
     }
     .bursary-link:hover {
       background-color: #f0f0f0;

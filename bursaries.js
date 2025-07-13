@@ -1,195 +1,139 @@
 const bursaries = [
-    {
-      id: "schoeman-coetzee",
-      title: "Schoeman Coetzee Bursary – Accounting",
-      closingDate: "2025-06-30",
-      shortDescription: "Accounting bursary closing on 30 June 2025.",
-      fullDescription: `
-        <p><strong>How to apply:</strong></p>
-        <ul>
-          <li>ID document (certified copy)</li>
-          <li>Grade 11 final results (certified copy)</li>
-          <li>Matric final results (certified copy)</li>
-          <li>Parents or guardians ID documents (certified copy)</li>
-        </ul>
-        <p>Send application to: <a href="mailto:info@schoemancoetzee.co.za">info@schoemancoetzee.co.za</a> with subject "Schoeman Coetzee Bursary 2024".</p>
-      `
-    }
-    // Add more bursaries here
-    ,  // LAW
-    {
-      id: "lpff-bursary-2026",
-      title: "Legal Practitioners Fidelity Fund (LPFF) Bursary",
-      field: "Law",
-      closingDate: "2025-08-15",
-      shortDescription: "LPFF offers bursaries for LLB students. Submit by post or hand-delivery.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Download and complete the relevant LPFF application form:</p>
-        <ul>
-          <li><a href="#">Undergraduate: LPFF Bursary Application Form 2026/2027 (.pdf)</a></li>
-          <li><a href="#">Postgraduate: LPFF Bursary Application Form 2026/2027 (.pdf)</a></li>
-        </ul>
-        <h4>Supporting Documents</h4>
-        <p><strong>Undergraduate:</strong></p>
-        <ul>
-          <li>ID document (certified)</li>
-          <li>Academic transcript incl. semester 1 results</li>
-          <li>University acceptance letter</li>
-          <li>Dean’s testimonial</li>
-        </ul>
-        <p><strong>Postgraduate:</strong></p>
-        <ul>
-          <li>ID document (certified)</li>
-          <li>Degree certificate and transcript</li>
-          <li>Salary slip</li>
-          <li>Dean’s testimonial</li>
-          <li>Bursary/financial aid info</li>
-        </ul>
-        <p><strong>Post to:</strong> Bursary Coordinator, Legal Practitioners Fidelity Fund, PO Box 3062, Cape Town, 8000</p>
-        <p><strong>Or hand-deliver to:</strong> 5th Floor, Waalburg Building, 28 Wale Street, Cape Town</p>
-      `
-    },
-    {
-      id: "hsf-bursary-2024",
-      title: "HSF Law Bursary 2024",
-      field: "Law",
-      closingDate: "2025-08-31",
-      shortDescription: "Apply online for the HSF Law Bursary. ID, CV, statement & transcripts required.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Submit your application online at: <a href="#">HSF Bursary Application 2024</a></p>
-        <h4>Supporting Documents</h4>
-        <ul>
-          <li>ID document (certified)</li>
-          <li>Full academic record/transcripts</li>
-          <li>CV/resume with background and achievements</li>
-          <li>500-word personal statement</li>
-          <li>Details of interests, hobbies, social involvement</li>
-          <li>Reference letters, certificates (advantageous)</li>
-        </ul>
-      `
-    },
-  
-    // COMPUTER SCIENCE & IT
-    {
-      id: "openserve-bursary-2024",
-      title: "Openserve Bursary 2024",
-      field: "Computer Science / IT",
-      closingDate: "2025-08-15",
-      shortDescription: "Apply online for the Openserve Bursary. Register and upload certified docs.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Submit online at: <a href="#">Openserve Bursary Application 2022</a> (Ref: TEL220711-1)</p>
-        <h4>Supporting Documents</h4>
-        <ul>
-          <li>Certified ID copy</li>
-          <li>Certified Matric certificate</li>
-          <li>Full academic transcripts (on letterhead)</li>
-        </ul>
-      `
-    },
-    {
-      id: "signa-bursary-2024",
-      title: "Signa Bursary 2024",
-      field: "Computer Science / IT",
-      closingDate: "2025-08-31",
-      shortDescription: "Signa Bursary requires online application and motivational letter.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Apply online at: <a href="#">Signa Bursary Application 2022</a></p>
-        <h4>Supporting Documents (if successful)</h4>
-        <ul>
-          <li>Certified ID or both sides of ID card</li>
-          <li>Passport & residency proof (if not SA citizen)</li>
-          <li>Matric certificate & 2020 academic results</li>
-          <li>Household income proof or affidavit</li>
-          <li>Proof of disability (if applicable)</li>
-        </ul>
-      `
-    },
-  
-    // ENGINEERING
-    {
-      id: "aeci-bursary-2024",
-      title: "AECI Bursary 2024",
-      field: "Engineering",
-      closingDate: "2025-06-30",
-      shortDescription: "Apply online for AECI Bursary. ID, academic record, registration proof required.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Submit your application at: <a href="#">AECI Bursary Application 2024</a></p>
-        <h4>Required Documents:</h4>
-        <ul>
-          <li>Certified copy of ID</li>
-          <li>Certified full academic record</li>
-          <li>Proof of registration</li>
-        </ul>
-      `
-    },
-    {
-      id: "safripol-bursary-2024",
-      title: "SAFRIPOL Bursary 2024",
-      field: "Engineering",
-      closingDate: "2025-06-30",
-      shortDescription: "Download and email SAFRIPOL form with academic & financial docs.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Download the application form or collect at participating schools.</p>
-        <p>Email to: <a href="mailto:bursarydurban@safripol.com">bursarydurban@safripol.com</a> (Subject: SAFRIPOL Community Bursary 2024)</p>
-        <h4>Required Documents:</h4>
-        <ul>
-          <li>Certified ID and Matric/Grade 11 reports</li>
-          <li>Acceptance letter or proof of enrollment</li>
-          <li>Proof of income, testimonial, and proof of residence</li>
-        </ul>
-      `
-    },
-    {
-      id: "wk-construction-bursary-2024",
-      title: "WK Construction Bursary 2024",
-      field: "Engineering",
-      closingDate: "2025-06-30",
-      shortDescription: "Download the form and email documents to WK Construction.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Download and complete the <a href="#">WK Construction Bursary Form</a></p>
-        <p>Email to: <a href="mailto:dewaal.marais@wkc.co.za">dewaal.marais@wkc.co.za</a> (Subject: WK Construction Bursary Application – Your Full Name)</p>
-        <h4>Required Documents:</h4>
-        <ul>
-          <li>Certified ID and Matric certificate</li>
-          <li>Latest academic record</li>
-          <li>Proof of registration</li>
-          <li>CV (max 2 pages)</li>
-        </ul>
-      `
-    },
-    {
-      id: "keaton-mining-bursary-2024",
-      title: "Keaton Mining Bursary 2024",
-      field: "Engineering",
-      closingDate: "2025-06-30",
-      shortDescription: "Post completed forms and documents to Keaton Energy in Bryanston.",
-      fullDescription: `
-        <h3>How to Apply</h3>
-        <p>Download the relevant form:
-          <ul>
-            <li><a href="#">Technikon Form</a></li>
-            <li><a href="#">University Form</a></li>
-          </ul>
-        </p>
-        <p>Post to:<br>
-          Group SLP Manager,<br>
-          Keaton Energy Holdings (Pty) Ltd<br>
-          Postnet Suite 464, Private Bag X51,<br>
-          Bryanston, 2021</p>
-        <h4>Required Documents:</h4>
-        <ul>
-          <li>Certified ID</li>
-          <li>Matric/Grade 11 results</li>
-          <li>Proof of enrollment</li>
-        </ul>
-      `
-    }
+  {
+    id: "siemens-engineering",
+    title: "Siemens Bursary – Engineering",
+    closingDate: "2025-07-17",
+    shortDescription: "Engineering bursary closing on 17 July 2025.",
+    fullDescription: `
+      <p><strong>How to apply:</strong> Applications must be done online at: <a href="https://jobs.siemens.com/jobs/216284" target="_blank" rel="noopener noreferrer">https://jobs.siemens.com/jobs/216284</a> (Reference number: 216284)</p>
+      <p>Required documents (certified copies):</p>
+      <ul>
+        <li>ID document</li>
+        <li>Matric certificate</li>
+        <li>Latest tertiary academic record</li>
+        <li>Proof of registration or acceptance at an accredited institution</li>
+        <li>Curriculum Vitae</li>
+      </ul>
+    `
+  },
+{
+  id: "afrimat-engineering",
+  title: "Afrimat Bursary – Engineering",
+  closingDate: "2025-07-17",
+  shortDescription: "Engineering bursary closing on 17 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Download and complete the Afrimat Bursary Application Form 2025 (PDF).</p>
+    <p>Submit the following certified documents along with your application via email to <a href="mailto:bursary.applications@afrimat.co.za">bursary.applications@afrimat.co.za</a> with the subject line “Bursary: Relevant Field”.</p>
+    <ul>
+      <li>ID document</li>
+      <li>Matric certificate</li>
+      <li>Proof of tertiary registration</li>
+      <li>Proof of residence</li>
+      <li>Curriculum Vitae</li>
+    </ul>
+  `
+},
+{
+  id: "sasol-mining-engineering",
+  title: "Sasol Mining Bursary – Engineering",
+  closingDate: "2025-07-31",
+  shortDescription: "Engineering bursary closing on 31 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Applications must be submitted online through the Sasol Bursaries platform.</p>
+    <p>New users: Register, activate your account via email, log in, and complete your application selecting undergraduate or postgraduate bursary. Returning users can log in directly or use “Forgot Password”.</p>
+    <p>Required documents (certified copies):</p>
+    <ul>
+      <li>ID document</li>
+      <li>Matric certificate (1st year students)</li>
+      <li>2023 academic results (2nd-4th year students)</li>
+      <li>Proof of tertiary registration</li>
+      <li>Proof of permanent home residence (municipality and district)</li>
+    </ul>
+  `
+},
+{
+  id: "afrox-engineering",
+  title: "Afrox Bursary – Engineering",
+  closingDate: "2025-07-31",
+  shortDescription: "Engineering bursary closing on 31 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Applications must be done online at: <a href="http://careers.afrox.co.za/?s=bursary_new" target="_blank" rel="noopener noreferrer">http://careers.afrox.co.za/?s=bursary_new</a>.</p>
+    <p>Register first at: <a href="http://careers.afrox.co.za/?s=applicant_new" target="_blank" rel="noopener noreferrer">http://careers.afrox.co.za/?s=applicant_new</a> then login: <a href="http://careers.afrox.co.za/?s=login" target="_blank" rel="noopener noreferrer">http://careers.afrox.co.za/?s=login</a>.</p>
+    <p>Required documents (certified copies):</p>
+    <ul>
+      <li>South African ID document</li>
+      <li>Matric certificate</li>
+      <li>Latest University academic results</li>
+    </ul>
+  `
+},
+{
+  id: "nmisa-engineering",
+  title: "NMISA Bursary – Engineering",
+  closingDate: "2025-07-31",
+  shortDescription: "Engineering bursary closing on 31 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Download and complete the NMISA Bursary Application Form (PDF).</p>
+    <p>Submit the completed form with the following certified documents via email, fax, or post:</p>
+    <ul>
+      <li>ID document</li>
+      <li>Grade 11 certificate</li>
+      <li>Matric latest results or Matric certificate</li>
+      <li>Full academic record</li>
+      <li>Educational qualifications</li>
+      <li>Curriculum Vitae</li>
+      <li>Motivational letter explaining why you deserve the bursary</li>
+    </ul>
+    <p><strong>Submission methods:</strong></p>
+    <ul>
+      <li>Email: <a href="mailto:hr@nmisa.org">hr@nmisa.org</a></li>
+      <li>Fax: 086 756 3451</li>
+      <li>Post: Private Bag X 34, Lynnwood Ridge, 0040</li>
+    </ul>
+  `
+},
+{
+  id: "schauenburg-education-trust-engineering",
+  title: "Schauenburg Education Trust Bursary – Engineering",
+  closingDate: "2025-07-31",
+  shortDescription: "Engineering bursary closing on 31 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Applications can be submitted online by completing the application form and uploading supporting documents, or manually by requesting the form via email and submitting it back.</p>
+    <p>Request application form by emailing:</p>
+    <ul>
+      <li><a href="mailto:Thembeka.Mpati@rsmza.co.za">Thembeka.Mpati@rsmza.co.za</a></li>
+      <li><a href="mailto:Bianca.Jooste@rsmza.co.za">Bianca.Jooste@rsmza.co.za</a></li>
+    </ul>
+    <p>Required certified documents:</p>
+    <ul>
+      <li>ID document</li>
+      <li>Matric certificate</li>
+      <li>Full academic record on tertiary letterhead</li>
+      <li>Motivational letter/cover letter (max 800 words) stating financial position and why you should be awarded the bursary</li>
+      <li>Proof of parents/guardians household income (latest payslips or affidavit)</li>
+    </ul>
+  `
+},
+{
+  id: "vw-engineering",
+  title: "Volkswagen Bursary – Accounting",
+  closingDate: "2025-07-31",
+  shortDescription: "Accounting bursary closing on 31 July 2025.",
+  fullDescription: `
+    <p><strong>How to apply:</strong> Apply online via the Volkswagen Graduate portal.</p>
+    <p>Register an account here: <a href="https://vw.graduate.erecruit.co.za/candidateapp/Register" target="_blank" rel="noopener noreferrer">https://vw.graduate.erecruit.co.za/candidateapp/Register</a></p>
+    <p>Login and apply here: <a href="https://vw.graduate.erecruit.co.za/candidateapp/Login" target="_blank" rel="noopener noreferrer">https://vw.graduate.erecruit.co.za/candidateapp/Login</a></p>
+    <p>Required certified documents:</p>
+    <ul>
+      <li>ID document</li>
+      <li>Matric certificate</li>
+      <li>Full tertiary academic record on institutional letterhead</li>
+      <li>Curriculum Vitae</li>
+      <li>Parents/guardians ID documents</li>
+      <li>Parents/guardians proof of household income</li>
+      <li>Proof of residence (if residing in Uitenhage or surrounding areas)</li>
+    </ul>
+  `
+}
   ];
   
