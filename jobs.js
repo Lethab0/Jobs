@@ -1,147 +1,117 @@
 const jobs = [
-    {
-        id: "goldman-tech-software-jhb",
-        title: "Johannesburg: Mid & Senior Software Developer/Engineers – Goldman Tech",
-        shortDescription: "Opportunity for Mid & Senior Software Developers/Engineers at Goldman Tech in Johannesburg.",
-        datePosted: "2025-06-19",
-        company: "Goldman Tech",
-        location: "Gauteng / Johannesburg",
-        closingDate: "N/A",
-        type: "Full-Time",
-        duration: "Permanent",
-        reportTo: "N/A",
-        fullDescription: `
-          <p><strong>Employer:</strong> Goldman Tech</p>
-          <p><strong>Category:</strong> Development</p>
-          <p><strong>Location:</strong> Gauteng / Johannesburg</p>
-          <h3>Job Summary</h3>
-          <p>We have an amazing opportunity for a Mid & Senior Software Developer/Engineers in Johannesburg!</p>
-          <p><strong>We require a candidate with:</strong></p>
-          <ul>
-            <li>Degree or Diploma</li>
-            <li>Development of new products, features</li>
-            <li>Maintenance of existing web applications</li>
-            <li>Skills: C#, ASP.Net (.Net Framework), MVC, JavaScript, jQuery, Kendo, Bootstrap, WCF, Windows Services, SQL Server</li>
-            <li>Mobile development and Azure/cloud hosting knowledge are a plus</li>
-          </ul>
-          <p><strong>Education:</strong> Degree/Diploma</p>
-          <p><strong>Experience:</strong> 4–6+ years</p>
-          <p>Should you not hear from us within 3 days, please consider your application unsuccessful.</p>
-          <p><strong>🔗 <a href="https://www.jobmail.co.za/jobs/it-computer/development/johannesburg/mid-senior-software-developer-engineers-id-6418184?utm_source=Organic&utm_medium=jvrjobs&utm_campaign=jvrjobsReferal" target="_blank">Apply Now</a></strong></p>
-        `
-      },
-      {
-        id: "capitec-backend-engineer-sandton",
-        title: "Software Engineer: Back-End – Capitec Bank, Sandton",
-        shortDescription: "Join Capitec as a Level III Back-End Software Engineer and help shape the future of banking.",
-        datePosted: "2025-06-20",
-        company: "Capitec Bank Ltd",
-        location: "Sandton, Gauteng",
-        closingDate: "2025-05-08",
-        type: "Full-Time",
-        duration: "Permanent",
-        reportTo: "Software Engineering Lead",
-        fullDescription: `
-          <p>We're on the lookout for energetic, self-motivated individuals who share our passion for service in the banking industry. To be part of the journey, follow the steps below:</p>
-          <ol>
-            <li>To see what life at Capitec is all about and complete a short assessment, please <strong><a href="https://careers.capitecbank.co.za" target="_blank">click here</a></strong>.</li>
-            <li>Once you have completed the above, finalize your application by clicking apply below.</li>
-          </ol>
-      
-          <h3>Who We Are</h3>
-          <p>Capitec is more than a bank — we're about enabling clients to control their financial lives through simplified, accessible banking experiences. We build a brand that earns trust through innovation, teamwork, and putting the client first.</p>
-      
-          <h3>Why Choose Us</h3>
-          <p>We live our CEO values daily: Client First, Energy, and Ownership. Employees grow in cohesive teams with great benefits, purpose-driven work, and personal development opportunities.</p>
-      
-          <h3>About the Role</h3>
-          <p>The Level III Software Engineer works on full-lifecycle development of scalable back-end systems in the business banking credit domain, contributing to robust system design, development, testing, deployment, and support.</p>
-      
-          <h4>Requirements</h4>
-          <ul>
-            <li>Grade 12 National Certificate (minimum)</li>
-            <li>Relevant tertiary IT qualification (preferred)</li>
-            <li>6+ years in front- and back-end software development</li>
-            <li>Experience with Java, Spring Boot, AWS, PostgreSQL, Kafka, Docker, Terraform</li>
-            <li>Domain-Driven Design (DDD) understanding</li>
-          </ul>
-      
-          <h4>Skills</h4>
-          <ul>
-            <li>Analytical, Problem-Solving, Communication, Relationship Management</li>
-            <li>Attention to Detail, Teamwork</li>
-          </ul>
-      
-          <p><strong>🔗 <a href="https://careers.capitecbank.co.za/job/Sandton-Software-Engineer-Back-End-GT/1195776501/?from=email&refid=24725908401&utm_source=J2WEmail&source=2&eid=146301-202523221123-29373090201&locale=en_GB" target="_blank">Apply Now</a></strong></p>
-        `
-      },
-      {
-        id: "ohs-inspector-mechanical-stanger",
-        title: "Vacancy: OHS Inspector – Mechanical Engineering (Department of Employment and Labour)",
-        shortDescription: "Apply for the OHS Inspector: Mechanical Engineering post at the Stanger Labour Centre. NQF6 in Mechanical Engineering required.",
-        datePosted: "2025-06-26",
-        company: "Department of Employment and Labour",
-        location: "Stanger, KwaZulu-Natal",
-        closingDate: "2025-07-04",
-        type: "Government – Full-Time",
-        duration: "Permanent",
-        reportTo: "Deputy Director – Stanger Labour Centre",
-        fullDescription: `
-          <p><strong>Reference Number:</strong> HR4/4/5/32</p>
-          <p><strong>Location:</strong> Labour Centre – Stanger</p>
-          <p><strong>Salary:</strong> R397,116 per annum</p>
-          <p><strong>Closing Date:</strong> 04 July 2025 (Walk-in: 16:00 | Online: 00:00)</p>
-      
-          <p>The Department of Employment and Labour invites suitably qualified candidates to apply for the position of Occupational Health and Safety (OHS) Inspector within the Mechanical Engineering discipline. This is an exciting opportunity to contribute towards creating safer and healthier working environments in line with the Occupational Health and Safety Act.</p>
-      
-          <h4>Minimum Requirements:</h4>
-          <ul>
-            <li>Senior Certificate (Matric)</li>
-            <li>3-year recognised qualification (NQF Level 6) in Mechanical Engineering</li>
-            <li>Valid driver’s license</li>
-          </ul>
-      
-          <h4>Knowledge and Skills:</h4>
-          <ul>
-            <li>OHS Act (Act 85 of 1993) and related regulations</li>
-            <li>Departmental procedures and SA National Standards (Codes)</li>
-            <li>COIDA, UIA, conflict resolution, inspections, interviewing, presentation, and analytical skills</li>
-          </ul>
-      
-          <h4>Key Responsibilities:</h4>
-          <ul>
-            <li>Conduct inspections and enforce OHS compliance</li>
-            <li>Investigate incidents and complaints under the OHS Act</li>
-            <li>Promote awareness and compile inspection reports</li>
-            <li>Appear as a State witness when required</li>
-          </ul>
-      
-          <h4>Application Process:</h4>
-          <p><strong>Walk-in Applications:</strong><br>
-          Acting Deputy Director<br>
-          Stanger Labour Centre<br>
-          12 Cato Street, Stanger<br>
-          PO Box 138, Stanger, 4450</p>
-      
-          <p><strong>Online Applications:</strong><br>
-          Email your application to: <a href="mailto:Jobs-KZN10@labour.gov.za">Jobs-KZN10@labour.gov.za</a></p>
-      
-          <h4>Important Notes:</h4>
-          <ul>
-            <li>Use the new Z83 form (from www.gov.za/documents)</li>
-            <li>Submit only Z83 and a detailed CV (as one PDF)</li>
-            <li>No JPEGs or incomplete forms</li>
-            <li>Subject line must include Job Title and Reference Number</li>
-            <li>Late or faxed applications will not be accepted</li>
-          </ul>
-      
-          <p><strong>Contact for Enquiries:</strong> Mr B Zondi – Tel: (032) 307 0989</p>
-      
-          <p>This is an opportunity to join a progressive public service team committed to workplace safety. The Department promotes representivity in line with its Employment Equity Plan.</p>
-      
-          <p><strong>🔗 <a href="https://www.labour.gov.za" target="_blank">Visit www.labour.gov.za</a></strong></p>
-        `
-      }
+   
+  {
+    id: "csir-git-electronic-engineer-pta",
+    title: "Pretoria: Graduate in Training (GIT) – Electronic Engineer – CSIR",
+    shortDescription: "Graduate in Training opportunity for Electronic Engineers at CSIR in Pretoria, focused on Aerospace Systems.",
+    datePosted: "2025-07-13",
+    company: "CSIR",
+    location: "Gauteng / Pretoria",
+    closingDate: "N/A",
+    type: "Graduate Programme",
+    duration: "12 Months",
+    reportTo: "Research Group Leader",
+    fullDescription: `
+      <p><strong>Employer:</strong> CSIR</p>
+      <p><strong>Category:</strong> Engineering / Research</p>
+      <p><strong>Location:</strong> Pretoria, Gauteng</p>
+  
+      <h3>About the Job</h3>
+      <p>The CSIR has a vacancy for a Graduate in Training in the Aerospace Systems Impact Area within the Defence and Security cluster. This program provides practical work experience under the guidance of experienced engineers and researchers. Based in Pretoria.</p>
+      <p><a href="https://www.csir.co.za/defence-and-security" target="_blank">Cluster Info</a> |
+         <a href="https://www.csir.co.za/aeronautics-systems" target="_blank">Impact Area Info</a></p>
+  
+      <h3>Key Responsibilities</h3>
+      <ul>
+        <li><strong>Wind Tunnel Plant Electrical System Management:</strong> Assist in upgrades, maintenance, and diagnostics (motors, PLCs, sensors, etc.).</li>
+        <li><strong>Project Support:</strong> Support upgrades and electrical system projects.</li>
+        <li><strong>Automation & Control:</strong> Work with VSDs, VFDs, and PCB programming.</li>
+        <li><strong>Team Development:</strong> Support technical reporting, design, and efficiency improvements.</li>
+      </ul>
+  
+      <h3>Minimum Requirements</h3>
+      <ul>
+        <li>Bachelor’s degree in Electrical and Electronic Engineering</li>
+        <li>Experience using AutoCAD / SolidWorks</li>
+        <li>Knowledge of PLCs, automation, PCB design</li>
+        <li>Proficiency in MS Office</li>
+        <li>Strong academic record & problem-solving skills</li>
+        <li>Excellent written and verbal English skills</li>
+        <li>South African citizenship required (must qualify for security clearance)</li>
+      </ul>
+  
+      <h3>Benefits</h3>
+      <ul>
+        <li>Flexible hybrid work environment</li>
+        <li>Learning & development support</li>
+        <li>Market-related salary with pension, insurance, and medical scheme</li>
+        <li>CSIR Excellence Awards recognition program</li>
+      </ul>
+  
+      <p><strong>📞 Contact:</strong> 012 841 4774 or <a href="mailto:Recruitmentinfo@csir.co.za">Recruitmentinfo@csir.co.za</a></p>
+      <p><strong>🔗 <a href="https://candidate.csir.co.za/psc/hr/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U" target="_blank">Apply Now</a></strong></p>
+  
+      <p><em>Note: Only shortlisted candidates will receive feedback. The CSIR reserves the right to withdraw the post at any time. Preference will be given to candidates from designated groups under the Employment Equity Act.</em></p>
+    `
+  },
+  {
+    id: "globaltrack-junior-industrial-engineer-sandton",
+    title: "Sandton: Junior Industrial Engineer – Globaltrack",
+    shortDescription: "Globaltrack is hiring a Junior Industrial Engineer in Sandton to optimize IoT hardware manufacturing and installation workflows.",
+    datePosted: "2025-07-13",
+    company: "Globaltrack",
+    location: "Gauteng / Sandton",
+    closingDate: "N/A",
+    type: "Full-Time",
+    duration: "Permanent",
+    reportTo: "Senior Engineers / Production Manager",
+    fullDescription: `
+      <p><strong>Employer:</strong> Globaltrack</p>
+      <p><strong>Location:</strong> 3 Maree Street, Sandton, Gauteng</p>
+      <p><strong>Type:</strong> Permanent</p>
+  
+      <h3>About Globaltrack</h3>
+      <p>Globaltrack is a specialist IoT and telematics firm with a strong footprint across Africa, the UAE, and the EU. We deliver cutting-edge fleet management solutions—including satellite & GSM tracking, automated tank gauging, and camera monitoring—for sectors like transport, logistics, mining, agriculture, and construction. Our flagship platform, Webtrack, turns complex data into actionable intelligence.</p>
+  
+      <h3>Role Overview</h3>
+      <p>As a Junior Industrial Engineer, you will contribute to optimizing processes across hardware manufacturing, installation, and field support operations.</p>
+      <p><strong>Key Responsibilities:</strong></p>
+      <ul>
+        <li>Analyze and streamline workflows for on-board device manufacturing and installations.</li>
+        <li>Support production planning, inventory management, and logistics layout design.</li>
+        <li>Collaborate with engineering, firmware, and product teams to align on requirements.</li>
+        <li>Collect and analyze data on throughput, uptime, and installation time.</li>
+        <li>Develop dashboards and KPIs to monitor yield, efficiency, and quality.</li>
+        <li>Apply Lean and Six Sigma to drive continuous improvement.</li>
+        <li>Assist in vendor selection and procurement planning.</li>
+        <li>Support ROI evaluations for automation and other initiatives.</li>
+        <li>Document SOPs and assist in technician training.</li>
+      </ul>
+  
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor’s degree in Industrial or Mechanical Engineering (or similar).</li>
+        <li>0–2 years’ experience in manufacturing, logistics, or field engineering.</li>
+        <li>Basic knowledge of Lean and Six Sigma principles.</li>
+        <li>Analytical and Excel proficient; Power BI, Tableau, or Minitab is a bonus.</li>
+        <li>Familiarity with AutoCAD or SolidWorks is advantageous.</li>
+        <li>Good communication skills; teamwork and field-readiness essential.</li>
+        <li>Willingness to travel to client and installation sites across South Africa/Africa.</li>
+      </ul>
+  
+      <h3>Why Join Us?</h3>
+      <ul>
+        <li>Work hands-on with innovative IoT and telematics tech.</li>
+        <li>Grow through mentorship and industry exposure.</li>
+        <li>Be part of a collaborative and impactful engineering team.</li>
+        <li>Competitive salary, benefits, and career progression pathways.</li>
+      </ul>
+  
+      <p><strong>🔗 <a href="https://www.globaltrack.com/vacancies/junior-industrial-engineer" target="_blank">Apply Now</a></strong></p>
+    `
+  }
+  
+  
       
       
       
