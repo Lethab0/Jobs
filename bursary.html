@@ -2,123 +2,548 @@
 <html lang="en">
 <head>
   <meta name="google-adsense-account" content="ca-pub-2755916028562913">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bursary Details</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bursary Details - Student Funding Hub</title>
+  <meta name="description" content="View complete details of bursaries for South African students. Apply before the closing date.">
+  <meta property="og:title" content="Bursary Details | StudentFunding.co.za">
+  <meta property="og:description" content="Get detailed information on available bursaries and how to apply.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
+    :root {
+      --primary-color: #2563eb;
+      --primary-dark: #1e40af;
+      --secondary-color: #e11d48;
+      --accent-color: #10b981;
+      --text-color: #1f2937;
+      --light-gray: #f3f4f6;
+      --medium-gray: #e5e7eb;
+      --dark-gray: #6b7280;
+      --white: #ffffff;
+    }
+    
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f5f7fa;
-      color: #333;
     }
-
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background-color: var(--light-gray);
+      color: var(--text-color);
+    }
+    
     .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 30px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
-
-    h1 {
-      font-size: 28px;
-      color: #2b6cb0;
-      margin-bottom: 10px;
-    }
-
-    .meta {
-      color: #666;
-      font-size: 14px;
+    
+    .breadcrumb {
+      font-size: 0.9rem;
       margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      color: var(--dark-gray);
     }
-
-    h2, h3, h4 {
-      color: #2c5282;
-      margin-top: 30px;
+    
+    .breadcrumb a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: color 0.2s;
     }
-
+    
+    .breadcrumb a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+    
+    .breadcrumb span {
+      color: var(--dark-gray);
+    }
+    
+    .main-card {
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 30px;
+      margin-bottom: 30px;
+      border: 1px solid var(--medium-gray);
+    }
+    
+    h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+    
+    .meta-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--medium-gray);
+    }
+    
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      color: var(--dark-gray);
+      background: var(--light-gray);
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    
+    .meta-item i {
+      color: var(--primary-color);
+    }
+    
+    .urgent-badge {
+      background-color: var(--secondary-color);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-left: 10px;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary-dark);
+      margin: 30px 0 15px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--medium-gray);
+    }
+    
+    h3 {
+      font-size: 1.2rem;
+      color: var(--primary-dark);
+      margin: 25px 0 10px;
+    }
+    
     p {
-      line-height: 1.7;
-      margin: 12px 0;
+      margin-bottom: 15px;
+      color: var(--text-color);
     }
-
-    ul {
-      margin: 12px 0;
-      padding-left: 20px;
+    
+    ul, ol {
+      margin: 15px 0;
+      padding-left: 25px;
     }
-
-    ul li {
+    
+    li {
       margin-bottom: 8px;
+      color: var(--text-color);
     }
-
-    .apply-btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 20px;
-      background-color: #2b6cb0;
+    
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .highlight-box {
+      background-color: #eff6ff;
+      border-left: 4px solid var(--primary-color);
+      padding: 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 25px 0;
+    }
+    
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 30px 0;
+    }
+    
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background-color: var(--primary-color);
       color: white;
       border-radius: 6px;
       text-decoration: none;
       font-weight: 600;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
     }
-
-    .apply-btn:hover {
-      background-color: #2c5282;
+    
+    .btn-primary:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-
-    .back-link {
-      display: block;
-      margin-top: 40px;
-      color: #4a5568;
+    
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background-color: var(--white);
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      border-radius: 6px;
       text-decoration: none;
-      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.3s ease;
     }
-
-    @media (max-width: 600px) {
+    
+    .btn-secondary:hover {
+      background-color: var(--light-gray);
+      transform: translateY(-2px);
+    }
+    
+    .related-bursaries {
+      margin-top: 40px;
+    }
+    
+    .related-title {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      color: var(--text-color);
+    }
+    
+    .related-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    
+    .related-card {
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: all 0.3s ease;
+      border: 1px solid var(--medium-gray);
+    }
+    
+    .related-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .related-card h4 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: var(--primary-color);
+    }
+    
+    .related-card p {
+      font-size: 0.9rem;
+      color: var(--dark-gray);
+      margin-bottom: 15px;
+    }
+    
+    .related-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9rem;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .related-card a:hover {
+      text-decoration: underline;
+    }
+    
+    .ad-container {
+      margin: 40px 0;
+      text-align: center;
+      padding: 20px;
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--medium-gray);
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 30px 0;
+      border-top: 1px solid var(--medium-gray);
+      color: var(--dark-gray);
+      font-size: 0.9rem;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 15px 0;
+    }
+    
+    .footer-links a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    
+    .document-list {
+      background: var(--light-gray);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+    }
+    
+    .document-list li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      border-left: 3px solid var(--primary-color);
+    }
+    
+    @media (max-width: 768px) {
       .container {
-        padding: 20px;
-        margin: 20px;
+        padding: 0 15px;
       }
+      
+      .main-card {
+        padding: 20px;
+      }
+      
       h1 {
-        font-size: 22px;
+        font-size: 1.6rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+      
+      .meta-container {
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .related-list {
+        grid-template-columns: 1fr;
+      }
+      
+      .btn-container {
+        flex-direction: column;
       }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div id="bursary-details">
-      <!-- Bursary details will be injected here -->
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> <span>/</span>
+      <a href="bursaries.html">Bursaries</a> <span>/</span>
+      <span id="breadcrumb-title">Bursary Details</span>
     </div>
-    <a href="bursaries.html" class="back-link">← Back to all bursaries</a>
+    
+    <div class="ad-container">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+      crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2755916028562913"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    
+    <div class="main-card">
+      <div id="bursary-details">
+        <!-- Content will be injected here -->
+      </div>
+      
+      <div class="btn-container" id="button-container">
+        <!-- Buttons will be injected here -->
+      </div>
+    </div>
+    
+    <div class="ad-container">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-format="fluid"
+           data-ad-layout-key="-gw-3+1f-3d+2z"
+           data-ad-client="ca-pub-2755916028562913"
+           data-ad-slot="9876543210"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    
+    <div class="related-bursaries">
+      <h3 class="related-title">Similar Bursaries You Might Like</h3>
+      <div class="related-list" id="related-bursaries">
+        <!-- Related bursaries will be injected here -->
+      </div>
+    </div>
   </div>
+  
+  <footer>
+    <div class="footer-links">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <p>&copy; <span id="current-year"></span> Student Funding Hub. All rights reserved.</p>
+  </footer>
 
   <script src="bursaries.js"></script>
   <script>
-    const params = new URLSearchParams(window.location.search);
-    const bursaryId = params.get("id");
-    const bursary = bursaries.find(b => b.id === bursaryId);
-
-    if (bursary) {
-      const container = document.getElementById("bursary-details");
-      container.innerHTML = `
-        <h1>${bursary.title}</h1>
-        <div class="meta">
-          📚 Field: ${bursary.field} &nbsp;&nbsp; | &nbsp;&nbsp;
-          📅 Closing Date: ${bursary.closingDate}
-        </div>
-        ${bursary.fullDescription}
-      `;
-    } else {
-      document.getElementById("bursary-details").innerHTML = "<p>Bursary not found.</p>";
-    }
+    document.addEventListener('DOMContentLoaded', function() {
+      // Set current year in footer
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      
+      // Get bursary ID from URL
+      const params = new URLSearchParams(window.location.search);
+      const bursaryId = params.get("id");
+      
+      // Find the bursary in the external data
+      const bursary = bursaries.find(b => b.id === bursaryId);
+      
+      if (bursary) {
+        // Update page title and breadcrumb
+        document.title = `${bursary.title} - Complete Bursary Details | StudentFunding.co.za`;
+        document.getElementById('breadcrumb-title').textContent = bursary.title;
+        
+        // Calculate days until closing
+        const closingDate = new Date(bursary.closingDate);
+        const today = new Date();
+        const timeDiff = closingDate - today;
+        const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+        
+        // Create urgent badge if closing soon
+        const urgentBadge = daysDiff <= 7 ? 
+          `<span class="urgent-badge"><i class="fas fa-exclamation-circle"></i> Closing in ${daysDiff} day${daysDiff !== 1 ? 's' : ''}</span>` : '';
+        
+        // Extract application URL from bursary data
+        let applicationUrl = bursary.applicationUrl || '#';
+        
+        // Format document lists in the description
+        let formattedDescription = bursary.fullDescription;
+        formattedDescription = formattedDescription.replace(/<p>Submit clear copies of the following supporting documentation[^<]*<\/p>/gi, 
+          '<h3>Required Documents</h3><div class="document-list"><ul>');
+        formattedDescription = formattedDescription.replace(/<ul>/g, '<div class="document-list"><ul>');
+        formattedDescription = formattedDescription.replace(/<\/ul>/g, '</ul></div>');
+        
+        // Inject bursary details
+        document.getElementById('bursary-details').innerHTML = `
+          <h1>${bursary.title} ${urgentBadge}</h1>
+          
+          <div class="meta-container">
+            <span class="meta-item"><i class="fas fa-graduation-cap"></i> <strong>Academic Level:</strong> ${bursary.level || 'Undergraduate'}</span>
+            <span class="meta-item"><i class="fas fa-book"></i> <strong>Field of Study:</strong> ${bursary.field || 'Various Fields'}</span>
+            <span class="meta-item"><i class="fas fa-calendar-alt"></i> <strong>Closing Date:</strong> ${closingDate.toLocaleDateString('en-ZA', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            <span class="meta-item"><i class="fas fa-building"></i> <strong>Provider:</strong> ${bursary.provider || bursary.title.split(' ')[0]}</span>
+            ${bursary.referenceNumber ? `<span class="meta-item"><i class="fas fa-hashtag"></i> <strong>Reference:</strong> ${bursary.referenceNumber}</span>` : ''}
+          </div>
+          
+          <div class="highlight-box">
+            <h3>Bursary Summary</h3>
+            <p>${bursary.shortDescription}</p>
+          </div>
+          
+          ${formattedDescription}
+          
+          ${bursary.requiresMotivationalLetter ? `
+            <div class="highlight-box">
+              <h3>Motivational Letter Requirement</h3>
+              <p>This bursary requires a motivational letter as part of your application.</p>
+            </div>
+          ` : ''}
+          
+          ${bursary.specialRequirements ? `
+            <div class="highlight-box">
+              <h3>Special Requirements</h3>
+              <p>${bursary.specialRequirements}</p>
+            </div>
+          ` : ''}
+        `;
+        
+        // Create application button
+        const buttonContainer = document.getElementById('button-container');
+        if (applicationUrl !== '#') {
+          buttonContainer.innerHTML = `
+            <a href="${applicationUrl}" class="btn-primary" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Apply Now
+            </a>
+            <a href="bursaries.html" class="btn-secondary">
+              <i class="fas fa-arrow-left"></i> Back to Bursaries
+            </a>
+          `;
+        } else if (bursary.applicationEmail) {
+          buttonContainer.innerHTML = `
+            <a href="mailto:${bursary.applicationEmail}" class="btn-primary">
+              <i class="fas fa-envelope"></i> Apply by Email
+            </a>
+            <a href="bursaries.html" class="btn-secondary">
+              <i class="fas fa-arrow-left"></i> Back to Bursaries
+            </a>
+          `;
+        } else {
+          buttonContainer.innerHTML = `
+            <a href="bursaries.html" class="btn-secondary">
+              <i class="fas fa-arrow-left"></i> Back to Bursaries
+            </a>
+          `;
+        }
+        
+        // Find and display related bursaries (same field or level)
+        const relatedContainer = document.getElementById('related-bursaries');
+        const relatedBursaries = bursaries
+          .filter(b => b.id !== bursaryId && (
+            (bursary.field && b.field && b.field.includes(bursary.field.split(',')[0])) || 
+            (bursary.level && b.level && b.level.includes(bursary.level.split(',')[0])) ||
+            (bursary.provider && b.provider && b.provider.includes(bursary.provider.split(' ')[0]))
+          ))
+          .slice(0, 3);
+        
+        if (relatedBursaries.length > 0) {
+          relatedBursaries.forEach(b => {
+            const card = document.createElement('div');
+            card.className = 'related-card';
+            card.innerHTML = `
+              <h4>${b.title}</h4>
+              <p>${b.shortDescription}</p>
+              <a href="bursary.html?id=${b.id}">View details <i class="fas fa-chevron-right"></i></a>
+            `;
+            relatedContainer.appendChild(card);
+          });
+        } else {
+          relatedContainer.innerHTML = '<p>No similar bursaries found at the moment.</p>';
+        }
+      } else {
+        document.getElementById('bursary-details').innerHTML = `
+          <h1>Bursary Not Found</h1>
+          <p>The bursary you're looking for doesn't exist or may have been removed.</p>
+          <p>Please check our <a href="bursaries.html">bursaries list</a> for current opportunities.</p>
+        `;
+      }
+    });
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-  crossorigin="anonymous"></script>
 </body>
 </html>
