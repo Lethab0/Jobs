@@ -109,6 +109,76 @@ const jobs = [
   
       <p><strong>🔗 <a href="https://www.globaltrack.com/vacancies/junior-industrial-engineer" target="_blank">Apply Now</a></strong></p>
     `
+  },
+  {
+    id: "signa-software-developer-intern-pta",
+    title: "Pretoria: Software Developer Intern – Signa Opportunity (YES Initiative)",
+    shortDescription: "Software Developer Internship for unemployed youth under the YES initiative, gaining practical JavaScript full stack exposure at Signa Opportunity in Pretoria.",
+    datePosted: "2025-08-04",
+    company: "Signa Opportunity",
+    location: "Gauteng / Pretoria",
+    closingDate: "N/A",
+    type: "Internship (YES Initiative)",
+    duration: "12 Months",
+    reportTo: "Engineering Lead / Delegated Supervisor",
+    fullDescription: `
+      <p><strong>Employer:</strong> Signa Opportunity</p>
+      <p><strong>Category:</strong> Computer / Software / IT / Internet / Web Design</p>
+      <p><strong>Location:</strong> Pretoria, Gauteng</p>
+      <p><strong>Programme:</strong> Youth Employment Service (YES) Initiative</p>
+
+      <h3>About the YES Initiative</h3>
+      <p>Signa Opportunity is recruiting unemployed youth for quality workplace experience through the Youth Employment Service (YES) initiative. This initiative was launched to provide meaningful work exposure and skills development for young South Africans.</p>
+
+      <h3>About the Role</h3>
+      <p>Support the engineering team with supervised development tasks that improve internal tools, data automation, quality assurance, and low-risk product features. Gain real-world experience across the stack without jeopardising production stability.</p>
+
+      <h3>Key Responsibilities</h3>
+      <ul>
+        <li>Set up and maintain local development environment and required accounts.</li>
+        <li>Work on low complexity tickets in a sandbox or staging environment under review.</li>
+        <li>Fix minor bugs, update documentation, improve error messages and small UI elements.</li>
+        <li>Write and run unit tests and regression checklists before releases.</li>
+        <li>Build internal scripts to transform CSV data, validate image links or generate reports.</li>
+        <li>Assist with API documentation and developer notes for partners.</li>
+        <li>Log work in the issue tracker, participate in stand-ups and code reviews.</li>
+      </ul>
+
+      <h3>Success Measures (Early Performance)</h3>
+      <ul>
+        <li>Environment configured and first reviewed pull request merged.</li>
+        <li>Agreed number of validated bug fixes or internal utility scripts delivered.</li>
+        <li>Test coverage improved in assigned modules or checklists completed before deploys.</li>
+        <li>Zero unreviewed code pushed to production.</li>
+      </ul>
+
+      <h3>Learning & Exposure</h3>
+      <p>Practical JavaScript full stack exposure, Git workflows, API integration, Node/Express backend concepts, and React frontend patterns.</p>
+
+      <h3>Minimum Requirements</h3>
+      <ul>
+        <li>South African unemployed youth between 18–34 years old.</li>
+        <li>Must not have participated in the programme before.</li>
+        <li>Matric plus post-matric certificate.</li>
+        <li>Diploma, degree, or current study in Computer Science, Information Systems, Software Development, Engineering, or similar.</li>
+        <li>Basic JavaScript knowledge, able to use Git, familiar with REST concepts.</li>
+      </ul>
+
+      <h3>Advantageous Skills</h3>
+      <ul>
+        <li>Node, React, MongoDB or SQL basics.</li>
+        <li>Python scripting, Docker familiarity.</li>
+        <li>Interest in AI or data engineering.</li>
+        <li>Previous hackathon or project portfolio.</li>
+      </ul>
+
+      <h3>Other Information</h3>
+      <p>Reports to Engineering Lead or delegated supervisor. All code changes require review before release. Duties may change as business needs evolve. Training provided. Applications from youth, women, and township communities are encouraged.</p>
+
+      <p><em>Please consider your application unsuccessful if you have not heard from the Signa Opportunity team within two weeks of submitting your application.</em></p>
+
+      <p><strong>🔗 <a href="https://www.executiveplacements.com/display_job_Details_full.asp?lKey=Ih22aApn8YtFYxPJAAkC&ID=5918276&sid=eml1&jobID=1208777" target="_blank">Apply Now</a></strong></p>
+    `
   }
   
   
