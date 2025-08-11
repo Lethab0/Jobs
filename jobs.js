@@ -180,6 +180,8 @@ const jobs = [
       <p><strong>🔗 <a href="https://www.executiveplacements.com/display_job_Details_full.asp?lKey=Ih22aApn8YtFYxPJAAkC&ID=5918276&sid=eml1&jobID=1208777" target="_blank">Apply Now</a></strong></p>
     `
   },
+
+  
   {
     id: "unilever-graduate-internships-2025-2026-durban",
     title: "Durban: Graduate Internships 2025 / 2026 – Unilever South Africa",
