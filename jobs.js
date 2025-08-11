@@ -179,7 +179,51 @@ const jobs = [
 
       <p><strong>🔗 <a href="https://www.executiveplacements.com/display_job_Details_full.asp?lKey=Ih22aApn8YtFYxPJAAkC&ID=5918276&sid=eml1&jobID=1208777" target="_blank">Apply Now</a></strong></p>
     `
+  },
+  {
+    id: "unilever-graduate-internships-2025-2026-durban",
+    title: "Durban: Graduate Internships 2025 / 2026 – Unilever South Africa",
+    shortDescription: "12-month graduate internship programme at Unilever South Africa's Maydon Wharf Factory, offering opportunities in Electrical and Mechanical Engineering.",
+    datePosted: "2025-08-11",
+    company: "Unilever South Africa",
+    location: "KwaZulu-Natal / Durban",
+    closingDate: "2025-08-14",
+    type: "Graduate Internship",
+    duration: "12 Months",
+    reportTo: "Line Manager",
+    fullDescription: `
+      <p><strong>Employer:</strong> Unilever South Africa</p>
+      <p><strong>Location:</strong> Maydon Wharf Factory, Durban, KwaZulu-Natal</p>
+      <p><strong>Type:</strong> Graduate Internship</p>
+      <p><strong>Closing Date:</strong> 14 August 2025 at 23:59</p>
+  
+      <h3>About the Programme</h3>
+      <p>The Unilever Graduate Internship Programme provides practical work learning and experience to unemployed graduates. The programme will run for 12 months.</p>
+  
+      <h3>Available Opportunities</h3>
+      <ul>
+        <li><strong>Project Execution Intern</strong> – Degree or National Diploma in Electrical Engineering.</li>
+        <li><strong>Project Planning Intern</strong> – Degree or National Diploma in Mechanical Engineering.</li>
+      </ul>
+  
+      <h3>Key Requirements</h3>
+      <ul>
+        <li>Completed Degree or National Diploma in the relevant field.</li>
+        <li>Proficient in Microsoft Excel, PowerPoint, and Word.</li>
+        <li>Good written and verbal communication skills in English.</li>
+      </ul>
+  
+      <h3>How to Apply</h3>
+      <p>Submit your CV along with proof of qualification certificates (no statement of results will be accepted). Click the Apply Now link for your preferred internship:</p>
+      <ul>
+        <li><a href="https://www.unilever.com" target="_blank">Project Execution Intern – Apply Now</a></li>
+        <li><a href="https://www.unilever.com" target="_blank">Project Planning Intern – Apply Now</a></li>
+      </ul>
+  
+      <p><em>Note: If you don’t hear from us within 14 days after applying, please consider your application unsuccessful.</em></p>
+    `
   }
+  
   
   
       
