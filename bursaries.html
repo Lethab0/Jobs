@@ -209,11 +209,35 @@
         flex-direction: column;
         gap: 8px;
       }
+      
+      .ad-container {
+        margin: 20px 0;
+        padding: 10px;
+      }
     }
 
     /* Ad container styles */
     .ad-container {
       margin: 30px 0;
+      text-align: center;
+      background: var(--white);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    
+    .ad-side-container {
+      margin: 20px 0;
+      text-align: center;
+      background: var(--white);
+      padding: 10px;
+      border-radius: 8px;
+      max-width: 300px;
+      float: right;
+      margin-left: 20px;
+    }
+    
+    .ad-feed-container {
+      margin: 25px 0;
       text-align: center;
       background: var(--white);
       padding: 15px;
@@ -241,6 +265,12 @@
         transform: rotate(360deg);
       }
     }
+    
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
   </style>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -259,6 +289,21 @@
     </div>
   </header>
 
+  <!-- Ad 1: In-Feed Above -->
+  <div class="ad-feed-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-6t+ed+2i-1n-4w"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="7392603302"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Search bursaries by name, field of study, or organization...">
     <div class="filter-options">
@@ -271,8 +316,8 @@
     </div>
   </div>
 
+  <!-- Ad 2: Original Ad (Keeping existing) -->
   <div class="ad-container">
-    <!-- AdSense Ad -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
          style="display:block"
@@ -292,8 +337,23 @@
     </div>
   </div>
 
+  <!-- Ad 3: In-Article -->
   <div class="ad-container">
-    <!-- AdSense Ad -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="1561692123"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 4: Original Ad (Keeping existing) -->
+  <div class="ad-container">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
          style="display:block"
@@ -303,6 +363,109 @@
          data-full-width-responsive="true"></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 5: Multiplex -->
+  <div class="ad-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="autorelaxed"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="5668458092"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 6: In-Feed Above -->
+  <div class="ad-feed-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-6t+ed+2i-1n-4w"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="7392603302"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 7: In-Article -->
+  <div class="ad-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="1561692123"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 8: In-Feed Side (Will be positioned with CSS) -->
+  <div class="ad-side-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-fb+5h+6p-e3+35"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="2954664849"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 9: Multiplex -->
+  <div class="ad-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="autorelaxed"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="5668458092"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 10: In-Feed Above -->
+  <div class="ad-feed-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-6t+ed+2i-1n-4w"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="7392603302"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Ad 11: In-Article -->
+  <div class="ad-container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
+     crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-2755916028562913"
+         data-ad-slot="1561692123"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
 
