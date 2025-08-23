@@ -375,12 +375,13 @@
     <header class="fixed-header">
         <div class="header-ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
+            <!-- In-Feed Ad (Above) -->
             <ins class="adsbygoogle"
                  style="display:block"
+                 data-ad-format="fluid"
+                 data-ad-layout-key="-6t+ed+2i-1n-4w"
                  data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="1234567890"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+                 data-ad-slot="7392603302"></ins>
             <script>
                  (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
@@ -575,24 +576,25 @@
                 `;
                 
                 // Buttons area
-                const buttonContainer = document.getElementById('button-container');
-                if (job.applicationLink) {
-                    // Use a button to trigger popup (ad only), then auto-redirect
-                    buttonContainer.innerHTML = `
-                        <button class="btn-primary" id="applyButton" type="button">
-                            <i class="fas fa-external-link-alt"></i> Apply Now
-                        </button>
-                        <a href="index.html" class="btn-secondary">
-                            <i class="fas fa-arrow-left"></i> Back to Jobs
-                        </a>
-                    `;
-                } else {
-                    buttonContainer.innerHTML = `
-                        <a href="index.html" class="btn-secondary">
-                            <i class="fas fa-arrow-left"></i> Back to Jobs
-                        </a>
-                    `;
-                }
+                // Create application button
+const buttonContainer = document.getElementById('button-container');
+if (job.applicationLink) {
+    buttonContainer.innerHTML = `
+        <a href="${job.applicationLink}" class="btn-primary" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Apply Now
+        </a>
+        <a href="index.html" class="btn-secondary">
+            <i class="fas fa-arrow-left"></i> Back to Jobs
+        </a>
+    `;
+} else {
+    buttonContainer.innerHTML = `
+        <a href="index.html" class="btn-secondary">
+            <i class="fas fa-arrow-left"></i> Back to Jobs
+        </a>
+    `;
+}
+
 
                 // Popup logic (ad only + auto redirect)
                 const popupOverlay = document.getElementById('popupOverlay');
