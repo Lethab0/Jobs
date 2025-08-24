@@ -475,5 +475,48 @@ const jobs = [
       <h3>How to Apply</h3>
       <p>Apply via DRA Global portal: <a href="https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0" target="_blank">Apply Here</a></p>
     `
+  },
+  {
+    id: "junior-python-developer-fintech-2025",
+    title: "Junior Python Developer – FinTech SaaS Platform",
+    shortDescription: "Join an innovative FinTech SaaS team in Johannesburg to develop scalable Python-based platforms for financial institutions.",
+    datePosted: "2025-08-24",
+    company: "Salt (Employment Agency)",
+    location: "Johannesburg, South Africa",
+    closingDate: "N/A",
+    type: "Full Time",
+    duration: "Permanent",
+    reportTo: "Team Lead / Product Manager",
+    applicationLink: "https://welovesalt.com/za/apply?job_id=JO-2507-355205",
+    tags: ["Python", "Software Development", "FinTech", "SaaS", "Developer"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Salt (Employment Agency)</p>
+      <h3>Overview</h3>
+      <p>This FinTech firm is seeking a highly motivated Junior Python Developer to join their product team in Johannesburg. The team develops a hyper-scalable SaaS platform for risk management and integration with financial institutions.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor’s degree in Mathematics, Computer Science, Engineering, or related field</li>
+        <li>1–3 years of software engineering experience, hands-on Python development</li>
+        <li>Analytical and problem-solving skills</li>
+        <li>Excellent written and verbal communication skills</li>
+        <li>Adaptable and quick learner, eager to explore AI and emerging tech</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Develop, test, and maintain Python-based SaaS applications</li>
+        <li>Support system integration with internal and external systems</li>
+        <li>Participate in full software development lifecycle and Agile processes</li>
+        <li>Propose technical solutions and optimize platform performance</li>
+      </ul>
+      <h3>Technology Stack</h3>
+      <ul>
+        <li>Python (primary focus), Golang, JavaScript/TypeScript</li>
+        <li>NoSQL/Document databases (MongoDB, DynamoDB, CouchDB)</li>
+        <li>Modern web frameworks (React, Angular, Vue)</li>
+        <li>CI/CD practices</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via Salt portal: <a href="https://welovesalt.com/za/apply?job_id=JO-2507-355205" target="_blank">Apply Here</a></p>
+    `
   }
 ];
