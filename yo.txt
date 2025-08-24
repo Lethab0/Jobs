@@ -1,1 +1,262 @@
-The popup ad needs to only display the add. No other words. Then redirect to the application url. Also keep it dynamic and get the jobs information from the js file like it did before. Why did you change that . you were supposed to keep it dynamic from the original js .
+Maintenance & Tooling Trainee/Intern
+PRETORIA Techno, ZA-GT, South Africa
+
+ID: 63118
+
+Job Description
+Forvia, a sustainable mobility technology leader
+We pioneer technology for mobility experience that matter to people.
+
+Your mission, roles and responsibilities
+Job title:              Maintenance Graduate  
+Location:             Pretoria    
+Reporting to:       Maintenance Manager  
+Contract:             12 months(FTC)    
+Closing Date:      25 August 2025
+
+ 
+
+Main purpose of the role:
+
+The Maintenance Graduate will support the Maintenance Department by assisting with equipment reliability, system efficiency, and continuous improvement initiatives. The role is designed to provide hands-on exposure to breakdown analysis, maintenance data management, project participation, and reporting, while developing technical and problem-solving skills in line with Faurecia standards.
+
+ 
+
+This position provides an opportunity to learn from experienced artisans and technicians, contribute to plant performance, and progressively take ownership of defined maintenance tasks and improvement projects. The graduate will also gain exposure to basic process engineering activities, supporting the review of process documentation and equipment improvement initiatives.
+
+ 
+
+Essential responsibilities and duties:
+
+As a Maintenance Graduate, your main responsibilities are as follow: 
+
+ Technical Support
+
+Assist in root cause analysis of recurring breakdowns and support the implementation of corrective actions.
+Keep maintenance documentation (machine history, job cards, records) updated and accurate.
+Perform data checks, generate maintenance reports, and ensure integrity of the Maintenance Management System.
+Track abnormalities, escalate overdue concerns, and follow through until closure.
+Learning & Development
+
+Participate in job shadowing with artisans/technicians during both planned and unplanned maintenance tasks.
+Support small maintenance-related projects, such as equipment upgrades, energy-saving initiatives, and safety improvements.
+Gain exposure to process improvement tools by assisting in the review of maintenance-related FMEAs and process flow diagrams.
+Reporting & Administration
+
+Capture downtime events accurately and support daily/weekly reporting.
+Contribute to OEE tracking by gathering and validating data.
+Continuous Improvement
+
+Take ownership of a specific area, becoming the "go-to" person for maintenance records and improvement activities on that line/machine.
+Lead or support a 5S/Kaizen activity to improve safety, organization, or efficiency.
+Participate in continuous improvement actions by learning and applying Faurecia problem-solving tools.
+Assist in monitoring equipment performance parameters and propose small improvements to support process reliability and efficiency.
+Health, Safety & Environment (HSE)
+
+Comply with all HSE standards and promote safe working practices in all maintenance activities.
+ 
+
+Your profile and competencies to succeed
+Qualifications and position requirements:
+
+Education: National Diploma equivalent qualification in Electrical/ Mechanical/ Idustrial Engineering.
+
+Knowledge and experience:
+
+Experience on computer system.
+Valid driver's License.
+Excellent people and teamwork skills.
+Languages: Ability to speak, write and read the English language.
+ 
+
+Leadership competences: As an employee – promote Being Faurecia 
+
+Respect of Faurecia code of ethics (Entrepreneurial mindset, autonomy and accountability, fairness and respect).Knowledge of Employee Empowerment (EE) basics
+
+What we can do for you
+At Forvia, you will find an engaging and dynamic environment where you can contribute to the development of sustainable mobility leading technologies.  
+We are the seventh-largest global automotive supplier, employing more than 157,000 people in more than 40 countries which makes a lot of opportunity for career development. 
+We welcome energetic and agile people who can thrive in a fast-changing environment. People who share our strong values. Team players with a collaborative mindset and a passion to deliver high standards for our clients. Lifelong learners. High performers. Globally minded people who aspire to work in a transforming industry, where excellence, speed, and quality count. 
+We cultivate a learning environment, dedicating tools and resources to ensure we remain at the forefront of mobility.  Our people enjoy an average of more than 22 hours of online and in-person training within FORVIA University (five campuses around the world) 
+We offer a multicultural environment that values diversity and international collaboration. We believe that diversity is a strength. To create an inclusive culture where all forms of diversity create real value for the company, we have adopted gender diversity targets and inclusion action plans. 
+Achieving CO2 Net Zero as a pioneer of the automotive industry is a priority: In June 2022, Forvia became the first global automotive group to be certified with the new SBTI Net-Zero Standard (the most ambitious standard of SBTi), aligned with the ambition of the 2015 Paris Agreement of limiting global warming to 1.5°C. Three principles guide our action: use less, use better and use longer, with a focus on recyclability and circular economy. 
+apply at  https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all
+
+
+
+
+
+
+
+
+job 2
+Apply : https://docs.google.com/forms/d/e/1FAIpQLSeTOdLFc5i19Q_iUESlQg3-0HZvWN2oFT4fFQVIyRDstDEDhA/viewform
+Graduate Engineer – SCADA
+About
+Description
+SOLA, a South African renewable energy solutions provider, is offering a Graduate Engineer – SCADA internship in utility-scale solar PV projects. The role involves hands-on experience in SCADA design, commissioning, and support. Applicants need a BTech or BEng in Electrical, Electronic, Computer, or Mechatronic Engineering. The role involves technical support, network design, and troubleshooting. The successful candidate will collaborate with senior engineers to deliver robust, reliable, and well-documented SCADA systems.
+
+Responsibilities
+Contribute to network design and documentation, signal mapping, and IP address configuration
+Configure SCADA-related devices, troubleshooting issues
+Analysing performance data post-commissioning
+Support the preparation of drawings, schematics, test procedures, and design reports
+Ensuring all documents meet the standards of accuracy and version control
+Collaborate with project engineers and commissioning teams, liaising with vendors
+Qualifications
+BTech or BEng in Electrical, Electronic, Computer, or Mechatronic Engineering
+Excellent written and verbal communication skills
+
+
+
+
+job 3
+Graduate Mechanical Engineer
+
+About
+Description
+DRA Global is seeking a Graduate Mechanical Engineer (GRAD004) to join their contract role in the mining and engineering sector. The role requires hands-on experience in project engineering, site & commissioning, business acumen, and personal development. The ideal candidate should have a Bachelor's degree, be a South African citizen, demonstrate strong academic performance, enjoy problem-solving, thrive in team environments, and be curious about shaping the future of mining and engineering.
+
+Responsibilities
+Gain hands-on experience in mechanical design and project execution
+Engage directly in operational environments, bringing designs to life on remote project sites
+Learn how engineering decisions impact broader business outcomes beyond just technical delivery
+Grow into a professional with support from mentors and tailored learning initiatives
+Qualifications
+Bachelor’s degree in Mechanical Engineering
+Strong academic performance
+Enjoy solving problems and thinking analytically
+DRA Global
+
+Employment Type: internship
+
+Job Location: Sandton, Gauteng, South Africa
+
+Base Salary: Market Related
+
+Closing Date:29-08-2025
+apply : https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0
+
+
+
+
+
+
+
+
+job 4 
+Graduate Civil Engineer
+About
+Description
+DRA's 2026 Graduate Program offers a comprehensive two-year experience in Civil Engineering, focusing on Project Engineering, Site and Commissioning, Business Acumen, and Personal Development. Requirements include a Bachelor's degree, a valid driver's license, strong academic record, problem-solving skills, effective communication, and enthusiasm for exploring new concepts.
+
+Responsibilities
+Assist with design and implementation of civil works including structures, infrastructure, and earthworks
+Support on-site operations, ensuring systems are safely and effectively erected and commissioned
+Work with multi-disciplinary teams, aligning civil contributions with broader project requirements
+Ensure compliance with technical, quality, and safety specifications in all civil activities
+Qualifications
+Bachelor’s degree in Civil Engineering
+Strong academic record with a passion for continuous learning
+Exceptional problem-solving skills
+DRA Global
+
+Employment Type: internship
+
+Job Location: Sandton, Gauteng, South Africa
+
+Base Salary: Market Related
+
+Closing Date:29-08-2025
+apply : https://applybe.com/dracareers/search/vacancy/all/1/6660878?FeedID=6132&a=742A3B667.0
+
+
+
+
+Job 5 
+Graduate Metallurgical/Chemical Engineer
+
+About
+Description
+DRA's 2026 Graduate Program offers a comprehensive two-year experience in Civil Engineering, focusing on Project Engineering, Site and Commissioning, Business Acumen, and Personal Development. Requirements include a Bachelor's degree, a valid driver's license, strong academic record, problem-solving skills, effective communication, and enthusiasm for exploring new concepts.
+
+Responsibilities
+Assist in the design, analysis, and optimisation of process flows and unit operations such as comminution, flotation, leaching
+Contribute to feasibility studies, engineering design tasks, and detailed project support within metallurgical or chemical processing environments
+Exposure Gain hands-on experience in operational environments, supporting commissioning, process troubleshooting
+Work with multidisciplinary teams spanning mechanical, civil, electrical, and process disciplines to align project execution with metallurgical requirements
+Qualifications
+Bachelor's degree in Metallurgical Engineering, Chemical Engineering, or related field
+Strong academic record
+DRA Global
+
+Employment Type: internship
+
+Job Location: Sandton, Gauteng, South Africa
+
+Base Salary: Market Related
+
+Closing Date:29-08-2025
+appy : https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0
+
+
+
+
+
+
+
+
+
+Job 6
+Junior Python Developer
+Technology
+Johannesburg Permanent
+Junior Python Developer – FinTech SaaS Platform
+Role Summary
+I am helping my client, a specialist FinTech firm based in, Johannesburg, to look for a highly motivated Junior Python Developer to join their innovative product team. The team develops a cutting-edge risk management platform and integration platform, delivering hyper-scalable, customer-centric Software-as-a-Service (SaaS) solutions. These solutions empower financial institutions to comply with regulatory requirements, enhance performance, and connect trading platforms with third-party systems like the DTCC and the South African Reserve Bank. As a Junior Python Developer, you will contribute to the technical vision, design, and delivery of these transformative platforms, actively participating in the full software development lifecycle.
+
+Responsibilities and Skills
+Software Development: Contribute to the entire software development lifecycle, including designing, testing, and developing robust, scalable solutions using Python.
+Problem Solving & Optimisation: Apply analytical skills to diagnose technical challenges, propose effective solutions, and optimize system performance.
+System Integration: Support seamless integrations between the platform and various internal and external systems.
+Continuous Improvement: Participate in initiatives to enhance and optimize existing systems, keeping the platform innovative.
+Quality & Standards: Adhere to coding standards, performance benchmarks, and security protocols in all development tasks.
+Agile Development: Engage in Agile methodologies to ensure efficient, collaborative, and continuous delivery cycles.
+Innovation: Show enthusiasm for learning and exploring new technologies, particularly in Artificial Intelligence, and their applications within the platform.
+Not Required, but Beneficial
+Experience in product development within a FinTech SaaS environment.
+Requirements
+Passion for creative problem-solving in a collaborative, dynamic financial markets environment, focusing on simplifying complex processes.
+Strong analytical and reasoning skills, with the ability to visualize complex technical processes and outcomes.
+Bachelor’s degree in Mathematics, Computer Science, Engineering, or a related technical field.
+1-3 years of experience in a Software Engineering role, with hands-on Python development.
+Proven ability to translate business needs into technical solutions with exceptional analytical skills.
+Capability to document proposed and existing solutions clearly and comprehensively.
+Track record of delivering high-quality results in a fast-paced environment.
+Excellent written and verbal communication skills, with the ability to articulate technical concepts clearly.
+Enthusiasm for working in a product-build, startup-like environment within an established organization, embracing innovation and continuous learning.
+Strong interpersonal skills and a highly collaborative working style.
+Quick learner, adaptable to new and rapidly changing technologies and environments.
+Ability to manage multiple priorities with minimal supervision.
+Exposure to cloud computing and designing/implementing distributed applications.
+Technology Stack
+Python (primary focus)
+Golang (or equivalent procedural languages like Rust, C, or Erlang)
+NoSQL/Document databases (e.g., MongoDB, DynamoDB, CouchDB)
+JavaScript/TypeScript
+Modern web frameworks (e.g., React, Angular, Vue)
+CI/CD tools and practices
+Salt is acting as an Employment Agency in relation to this vacancy.
+
+
+
+Job Information
+Job Reference: JO-2507-355205
+Salary:
+Salary per: month
+Job Duration:
+Job Start Date: 01/11/2025
+Job Industries: Technology
+Job Locations: Johannesburg
+Job Types: Permanent
+Appy : https://welovesalt.com/za/apply?job_id=JO-2507-355205

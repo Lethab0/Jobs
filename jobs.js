@@ -306,5 +306,79 @@ const jobs = [
         <li>Proficiency in MS Office and understanding of construction processes.</li>
       </ul>
     `
+  },
+
+  {
+    id: "maintenance-graduate-forvia-2025",
+    title: "Maintenance & Tooling Trainee/Intern – Forvia (2025)",
+    shortDescription: "12-month graduate contract in Pretoria supporting equipment reliability, maintenance data management, and improvement initiatives.",
+    datePosted: "2025-08-21",
+    company: "Forvia",
+    location: "Pretoria, South Africa",
+    closingDate: "2025-08-25",
+    type: "Graduate Internship (12 Months, FTC)",
+    category: "Mechanical/Electrical/Industrial Engineering",
+    applicationLink: "https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all"
+  },
+  {
+    id: "graduate-engineer-scada-sola-2025",
+    title: "Graduate Engineer – SCADA – SOLA (2025)",
+    shortDescription: "Internship in SCADA design, commissioning, and support for solar PV projects at SOLA, focusing on network design and troubleshooting.",
+    datePosted: "2025-08-21",
+    company: "SOLA",
+    location: "South Africa",
+    closingDate: "N/A",
+    type: "Graduate Internship",
+    category: "Electrical/Electronic/Computer/Mechatronic Engineering",
+    applicationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeTOdLFc5i19Q_iUESlQg3-0HZvWN2oFT4fFQVIyRDstDEDhA/viewform"
+  },
+  {
+    id: "graduate-mechanical-engineer-dra-2025",
+    title: "Graduate Mechanical Engineer – DRA Global (2025)",
+    shortDescription: "Graduate programme in mining engineering with hands-on design, site commissioning, and career development support.",
+    datePosted: "2025-08-21",
+    company: "DRA Global",
+    location: "Sandton, Gauteng, South Africa",
+    closingDate: "2025-08-29",
+    type: "Graduate Internship",
+    category: "Mechanical Engineering",
+    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0"
+  },
+  {
+    id: "graduate-civil-engineer-dra-2026",
+    title: "Graduate Civil Engineer – DRA Global (2026)",
+    shortDescription: "Two-year graduate programme focusing on civil project engineering, site support, and compliance with quality & safety standards.",
+    datePosted: "2025-08-21",
+    company: "DRA Global",
+    location: "Sandton, Gauteng, South Africa",
+    closingDate: "2025-08-29",
+    type: "Graduate Programme (2 Years)",
+    category: "Civil Engineering",
+    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6660878?FeedID=6132&a=742A3B667.0"
+  },
+  {
+    id: "graduate-metallurgical-engineer-dra-2026",
+    title: "Graduate Metallurgical/Chemical Engineer – DRA Global (2026)",
+    shortDescription: "Graduate programme supporting metallurgical and chemical process design, feasibility studies, and commissioning projects.",
+    datePosted: "2025-08-21",
+    company: "DRA Global",
+    location: "Sandton, Gauteng, South Africa",
+    closingDate: "2025-08-29",
+    type: "Graduate Programme (2 Years)",
+    category: "Metallurgical/Chemical Engineering",
+    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0"
+  },
+  {
+    id: "junior-python-developer-fintech-2025",
+    title: "Junior Python Developer – FinTech SaaS (2025)",
+    shortDescription: "Permanent role in Johannesburg developing scalable FinTech platforms, focusing on risk management and integrations.",
+    datePosted: "2025-07-01",
+    company: "FinTech SaaS Client (via Salt Recruitment)",
+    location: "Johannesburg, South Africa",
+    closingDate: "N/A",
+    type: "Permanent",
+    category: "Software Engineering",
+    applicationLink: "https://welovesalt.com/za/apply?job_id=JO-2507-355205"
   }
+  
 ];
