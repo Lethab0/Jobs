@@ -518,5 +518,40 @@ const jobs = [
       <h3>How to Apply</h3>
       <p>Apply via Salt portal: <a href="https://welovesalt.com/za/apply?job_id=JO-2507-355205" target="_blank">Apply Here</a></p>
     `
+  },
+  {
+    id: "graduate-metallurgical-chemical-engineer-dra-2026",
+    title: "Graduate Metallurgical/Chemical Engineer – DRA 2026 Programme",
+    shortDescription: "Comprehensive two-year graduate programme offering hands-on experience in metallurgical and chemical engineering within mining projects.",
+    datePosted: "2025-08-24",
+    company: "DRA Global",
+    location: "Sandton, Gauteng, South Africa",
+    closingDate: "2025-08-29",
+    type: "Internship / Graduate Programme",
+    duration: "2 Years",
+    reportTo: "Project Engineer / Mentor",
+    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0",
+    tags: ["Metallurgical Engineering", "Chemical Engineering", "Graduate Programme", "Mining"],
+    fullDescription: `
+      <p><strong>Employer:</strong> DRA Global</p>
+      <h3>Overview</h3>
+      <p>DRA Global’s 2026 Graduate Programme offers a comprehensive two-year experience in metallurgical and chemical engineering. The programme focuses on project engineering, site commissioning, process optimization, business acumen, and personal development.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor's degree in Metallurgical Engineering, Chemical Engineering, or related field</li>
+        <li>Strong academic record</li>
+        <li>Analytical and problem-solving skills</li>
+        <li>Teamwork and curiosity for mining/metallurgical processes</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Assist in design, analysis, and optimization of process flows and unit operations such as comminution, flotation, and leaching</li>
+        <li>Contribute to feasibility studies, engineering design tasks, and detailed project support within metallurgical/chemical processing environments</li>
+        <li>Gain hands-on experience in operational environments, supporting commissioning and process troubleshooting</li>
+        <li>Collaborate with multidisciplinary teams to align project execution with metallurgical requirements</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via DRA Global portal: <a href="https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0" target="_blank">Apply Here</a></p>
+    `
   }
 ];
