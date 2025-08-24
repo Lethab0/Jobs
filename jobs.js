@@ -307,78 +307,173 @@ const jobs = [
       </ul>
     `
   },
-
   {
-    id: "maintenance-graduate-forvia-2025",
-    title: "Maintenance & Tooling Trainee/Intern – Forvia (2025)",
-    shortDescription: "12-month graduate contract in Pretoria supporting equipment reliability, maintenance data management, and improvement initiatives.",
+    id: "graduate-mechanical-engineer-kirby-2025",
+    title: "Graduate Mechanical Engineer – Kirby (2025)",
+    shortDescription: "Kickstart your engineering career with Kirby’s mechanical contracting team, gaining hands-on experience in data centres and mission-critical facilities.",
     datePosted: "2025-08-21",
+    company: "Kirby",
+    location: "South Africa",
+    closingDate: "N/A",
+    type: "Graduate Programme",
+    duration: "2 years",
+    reportTo: "Engineering Manager",
+    applicationLink: "https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all",
+    tags: ["Mechanical Engineering", "Graduate Program", "HVAC", "Data Centres", "Manufacturing"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Kirby</p>
+      <h3>Overview</h3>
+      <p>This role provides hands-on experience across all project stages, mentoring from senior engineers, and a clear path into mechanical design engineering.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor's degree in Mechanical Engineering</li>
+        <li>Strong academic record</li>
+        <li>Excellent communication and teamwork skills</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Assist in design and execution of mechanical projects</li>
+        <li>Support manufacturing and product testing activities</li>
+        <li>Collaborate with senior engineers on innovation and problem-solving initiatives</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply directly via the Kirby careers portal: <a href="https://careers.kirbygroup.com/job/graduate-mechanical-engineer/" target="_blank">https://careers.kirbygroup.com/job/graduate-mechanical-engineer/</a></p>
+    `
+  },
+  {
+    id: "engineering-intern-hilti-2025",
+    title: "Engineering Intern (Civil/Structural) – Hilti (2025)",
+    shortDescription: "Gain real-world experience as an Engineering Intern at Hilti South Africa, supporting civil and structural engineering projects.",
+    datePosted: "2025-08-20",
+    company: "Hilti South Africa",
+    location: "South Africa",
+    closingDate: "N/A",
+    type: "Internship",
+    duration: "3–6 months",
+    reportTo: "Engineering Team Lead",
+    applicationLink: "https://careers.hilti.group/en-us/jobs/wd-0038757-en/engineering-intern/?source=LinkedIn",
+    tags: ["Civil Engineering", "Structural Engineering", "Internship", "Construction Technology"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Hilti South Africa</p>
+      <h3>Overview</h3>
+      <p>Hilti is a global leader in construction technologies. This internship offers experience supporting engineering and sales teams in civil/structural projects.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor's degree in civil/structural engineering or construction management</li>
+        <li>At least 1 year of postgraduate experience in the construction industry</li>
+        <li>Proficiency in MS Excel, Word, and PowerPoint</li>
+        <li>Strong teamwork and communication skills</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Address engineering support inquiries</li>
+        <li>Load project leads on internal CRM</li>
+        <li>Provide design support for anchors, fire protection, and post-installed rebar queries</li>
+        <li>Assist in project reporting and tracking</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via Hilti careers portal: <a href="https://careers.hilti.group/en-us/jobs/wd-0038757-en/engineering-intern/?source=LinkedIn" target="_blank">Apply Here</a></p>
+    `
+  },
+  {
+    id: "maintenance-trainee-forvia-2025",
+    title: "Maintenance & Tooling Trainee/Intern – Forvia (2025)",
+    shortDescription: "12-month trainee program supporting the Maintenance Department at Forvia, gaining hands-on experience in equipment reliability and continuous improvement.",
+    datePosted: "2025-08-18",
     company: "Forvia",
     location: "Pretoria, South Africa",
     closingDate: "2025-08-25",
-    type: "Graduate Internship (12 Months, FTC)",
-    category: "Mechanical/Electrical/Industrial Engineering",
-    applicationLink: "https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all"
+    type: "Internship",
+    duration: "12 Months (Fixed-term contract)",
+    reportTo: "Maintenance Manager",
+    applicationLink: "https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all",
+    tags: ["Maintenance", "Mechanical Engineering", "Electrical Engineering", "Internship", "Process Improvement"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Forvia</p>
+      <h3>Overview</h3>
+      <p>The Maintenance Graduate will assist the Maintenance Department with equipment reliability, system efficiency, and continuous improvement initiatives. Hands-on experience in breakdown analysis, data management, and small projects is provided.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>National Diploma in Electrical/Mechanical/Industrial Engineering</li>
+        <li>Valid Driver's License</li>
+        <li>Computer literate</li>
+        <li>Strong teamwork and communication skills</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Assist in root cause analysis and corrective actions</li>
+        <li>Maintain machine history and maintenance records</li>
+        <li>Participate in job shadowing and small maintenance projects</li>
+        <li>Support continuous improvement initiatives (5S/Kaizen)</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via Forvia careers portal: <a href="https://jobs.faurecia.com/careers/job/563087407096302?domain=faurecia.com&jobPipeline=Spane4all" target="_blank">Apply Here</a></p>
+    `
   },
   {
     id: "graduate-engineer-scada-sola-2025",
-    title: "Graduate Engineer – SCADA – SOLA (2025)",
-    shortDescription: "Internship in SCADA design, commissioning, and support for solar PV projects at SOLA, focusing on network design and troubleshooting.",
-    datePosted: "2025-08-21",
+    title: "Graduate Engineer – SCADA (SOLA, 2025)",
+    shortDescription: "Graduate internship in utility-scale solar PV SCADA systems, offering hands-on experience in design, commissioning, and technical support.",
+    datePosted: "2025-08-19",
     company: "SOLA",
     location: "South Africa",
     closingDate: "N/A",
-    type: "Graduate Internship",
-    category: "Electrical/Electronic/Computer/Mechatronic Engineering",
-    applicationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeTOdLFc5i19Q_iUESlQg3-0HZvWN2oFT4fFQVIyRDstDEDhA/viewform"
+    type: "Internship",
+    duration: "6–12 Months",
+    reportTo: "Project Engineer",
+    applicationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeTOdLFc5i19Q_iUESlQg3-0HZvWN2oFT4fFQVIyRDstDEDhA/viewform",
+    tags: ["Electrical Engineering", "SCADA", "Renewable Energy", "Internship"],
+    fullDescription: `
+      <p><strong>Employer:</strong> SOLA</p>
+      <h3>Overview</h3>
+      <p>Hands-on experience in SCADA design, commissioning, and support for utility-scale solar PV projects.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>BTech or BEng in Electrical, Electronic, Computer, or Mechatronic Engineering</li>
+        <li>Strong written and verbal communication skills</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Network design and documentation</li>
+        <li>SCADA device configuration and troubleshooting</li>
+        <li>Support drawings, schematics, test procedures, and design reports</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via Google Form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTOdLFc5i19Q_iUESlQg3-0HZvWN2oFT4fFQVIyRDstDEDhA/viewform" target="_blank">Apply Here</a></p>
+    `
   },
   {
     id: "graduate-mechanical-engineer-dra-2025",
     title: "Graduate Mechanical Engineer – DRA Global (2025)",
-    shortDescription: "Graduate programme in mining engineering with hands-on design, site commissioning, and career development support.",
-    datePosted: "2025-08-21",
+    shortDescription: "Hands-on mechanical engineering experience in mining and engineering projects with site and commissioning exposure.",
+    datePosted: "2025-08-19",
     company: "DRA Global",
     location: "Sandton, Gauteng, South Africa",
     closingDate: "2025-08-29",
-    type: "Graduate Internship",
-    category: "Mechanical Engineering",
-    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0"
-  },
-  {
-    id: "graduate-civil-engineer-dra-2026",
-    title: "Graduate Civil Engineer – DRA Global (2026)",
-    shortDescription: "Two-year graduate programme focusing on civil project engineering, site support, and compliance with quality & safety standards.",
-    datePosted: "2025-08-21",
-    company: "DRA Global",
-    location: "Sandton, Gauteng, South Africa",
-    closingDate: "2025-08-29",
-    type: "Graduate Programme (2 Years)",
-    category: "Civil Engineering",
-    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6660878?FeedID=6132&a=742A3B667.0"
-  },
-  {
-    id: "graduate-metallurgical-engineer-dra-2026",
-    title: "Graduate Metallurgical/Chemical Engineer – DRA Global (2026)",
-    shortDescription: "Graduate programme supporting metallurgical and chemical process design, feasibility studies, and commissioning projects.",
-    datePosted: "2025-08-21",
-    company: "DRA Global",
-    location: "Sandton, Gauteng, South Africa",
-    closingDate: "2025-08-29",
-    type: "Graduate Programme (2 Years)",
-    category: "Metallurgical/Chemical Engineering",
-    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0"
-  },
-  {
-    id: "junior-python-developer-fintech-2025",
-    title: "Junior Python Developer – FinTech SaaS (2025)",
-    shortDescription: "Permanent role in Johannesburg developing scalable FinTech platforms, focusing on risk management and integrations.",
-    datePosted: "2025-07-01",
-    company: "FinTech SaaS Client (via Salt Recruitment)",
-    location: "Johannesburg, South Africa",
-    closingDate: "N/A",
-    type: "Permanent",
-    category: "Software Engineering",
-    applicationLink: "https://welovesalt.com/za/apply?job_id=JO-2507-355205"
+    type: "Internship",
+    duration: "2 years",
+    reportTo: "Project Engineer",
+    applicationLink: "https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0",
+    tags: ["Mechanical Engineering", "Graduate Program", "Mining", "Site Engineering"],
+    fullDescription: `
+      <p><strong>Employer:</strong> DRA Global</p>
+      <h3>Overview</h3>
+      <p>This graduate program offers mechanical engineering experience, project execution exposure, and mentorship to build skills in mining and engineering operations.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Bachelor’s degree in Mechanical Engineering</li>
+        <li>Strong academic performance</li>
+        <li>Analytical and problem-solving skills</li>
+        <li>Teamwork and curiosity for mining industry</li>
+      </ul>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Hands-on experience in mechanical design and project execution</li>
+        <li>Engage in operational environments on remote sites</li>
+        <li>Learn the impact of engineering decisions on business outcomes</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply via DRA Global portal: <a href="https://applybe.com/dracareers/search/vacancy/all/1/6661015?FeedID=6132&a=942A45129.0" target="_blank">Apply Here</a></p>
+    `
   }
-  
 ];
