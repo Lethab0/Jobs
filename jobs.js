@@ -553,5 +553,71 @@ const jobs = [
       <h3>How to Apply</h3>
       <p>Apply via DRA Global portal: <a href="https://applybe.com/dracareers/search/vacancy/all/1/6662921?FeedID=6132&a=742A82187.0" target="_blank">Apply Here</a></p>
     `
+  },
+
+   {
+    id: "work-experience-tronox-kzn-sands-2025-2026",
+    title: "Work Experience Opportunities – Tronox KZN Sands",
+    shortDescription: "Exceptional work experience opportunities for students in engineering and mining disciplines at Tronox KZN Sands (Empangeni & Mtunzini).",
+    datePosted: "2025-08-22",
+    company: "Tronox KZN Sands",
+    location: "Empangeni & Mtunzini, KwaZulu-Natal, South Africa",
+    closingDate: "2025-09-03",
+    type: "Work Integrated Learning / Internship",
+    duration: "12 Months (University of Technology) or 2 Years (TVET College)",
+    reportTo: "Programme Supervisors",
+    applicationLink: "mailto:Recruitment.KZNSands@Tronox.com",
+    tags: ["Work Integrated Learning", "Mining", "Engineering", "TVET", "University of Technology"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Tronox KZN Sands</p>
+      <h3>Overview</h3>
+      <p>Tronox KZN Sands, a leading global manufacturer of titanium dioxide pigments and processor of titanium ore and zircon minerals, offers exceptional work experience opportunities for students in engineering and mining disciplines. The programme is based in Empangeni and Mtunzini, KwaZulu-Natal, and develops the next generation of industry professionals through hands-on practical exposure.</p>
+      
+      <h3>Programme Duration</h3>
+      <ul>
+        <li><strong>University of Technology students:</strong> 12 months</li>
+        <li><strong>TVET College students:</strong> 2 years</li>
+      </ul>
+
+      <h3>Available Disciplines</h3>
+      <ul>
+        <li>Electrical Engineering (Heavy Current) – Power systems and industrial applications</li>
+        <li>Mechanical Engineering – Equipment design, maintenance, and optimization</li>
+        <li>Chemical Engineering (Mineral Processing) – Advanced processing techniques and quality control</li>
+        <li>Mining Surveying – Precision measurement and resource mapping</li>
+        <li>Instrumentation (Light Current) – Control systems and monitoring technology</li>
+        <li>Mining Engineering – Extraction planning and operational efficiency</li>
+      </ul>
+
+      <h3>Requirements</h3>
+      <ul>
+        <li>Completed S4 or N6 qualification in one of the listed disciplines</li>
+        <li>South African citizen</li>
+        <li>Institutional validation confirming work experience is a mandatory academic requirement</li>
+      </ul>
+
+      <h3>Preferred Applicant Profile</h3>
+      <p>Priority is given to candidates from the following Traditional Council areas: Kwa Dube, Kwa Nzuza, Kwa Mkhwanazi, Ogagwini, Somopho, Macambini, and Madlebe. Residents of Umhlathuze, Umlalazi, and Mandeni municipalities are also encouraged to apply.</p>
+
+      <h3>Selection Process</h3>
+      <ul>
+        <li>Pre-screening evaluations</li>
+        <li>Medical assessments</li>
+        <li>Psychometric testing (if required)</li>
+      </ul>
+
+      <h3>What Tronox Offers</h3>
+      <p>Participants benefit from competitive compensation, hands-on industry exposure, professional development, and the opportunity to contribute to sustainable global operations.</p>
+
+      <h3>Application Process</h3>
+      <p>Submit applications with the following documents:</p>
+      <ul>
+        <li>Certified copy of identity document</li>
+        <li>Grade 12 certificate</li>
+        <li>Institutional validation letter</li>
+        <li>Proof of residence</li>
+      </ul>
+      <p>Applications must be emailed to <a href="mailto:Recruitment.KZNSands@Tronox.com">Recruitment.KZNSands@Tronox.com</a> with the discipline clearly in the subject line, or submitted via the Applicant Stack portal. Incomplete or late applications will not be considered.</p>
+    `
   }
 ];
