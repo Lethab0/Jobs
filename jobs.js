@@ -619,5 +619,54 @@ const jobs = [
       </ul>
       <p>Applications must be emailed to <a href="mailto:Recruitment.KZNSands@Tronox.com">Recruitment.KZNSands@Tronox.com</a> with the discipline clearly in the subject line, or submitted via the Applicant Stack portal. Incomplete or late applications will not be considered.</p>
     `
+  },
+  {
+    id: "unilever-yes-programme-2025-2026",
+    title: "Unilever YES Programme – Future Leaders",
+    shortDescription: "12-month Youth Employment Service (YES) programme providing practical work experience across multiple business functions at Unilever.",
+    datePosted: "2025-08-20",
+    company: "Unilever",
+    location: "Johannesburg, South Africa",
+    closingDate: "N/A",
+    type: "YES Internship",
+    duration: "12 Months",
+    reportTo: "Function Supervisors",
+    applicationLink: "https://careers.unilever.com/job/south-africa/yes-programme-12-month-internship/34155/85287558224",
+    tags: [
+      "YES Programme",
+      "Youth Employment",
+      "Customer Development",
+      "Culinary",
+      "Marketing",
+      "Supply Chain",
+      "Human Resources",
+      "Finance",
+      "IT",
+      "Mechanical Engineering",
+      "Safety Health and Environment",
+      "Communications",
+      "Learning & Rewards"
+    ],
+    fullDescription: `
+      <p><strong>Employer:</strong> Unilever</p>
+      <h3>Overview</h3>
+      <p>The Unilever YES Programme is a 12-month initiative aimed at empowering South African youth by providing meaningful work experience across multiple business functions including Customer Development, Culinary, Marketing, Supply Chain, Human Resources, Finance, IT, Mechanical Engineering, Safety Health and Environment, Communications, and Learning & Rewards.</p>
+      <h3>Requirements</h3>
+      <ul>
+        <li>South African citizen, aged 18–34</li>
+        <li>Currently unemployed and not studying full-time</li>
+        <li>Completed Matric certificate (Grade 12)</li>
+        <li>Relevant tertiary qualifications advantageous</li>
+        <li>Maximum of 2 years’ work experience</li>
+        <li>Commitment to the full 12-month programme</li>
+        <li>Must not have completed a YES Programme previously</li>
+        <li>Strong academic record and computer literacy</li>
+        <li>Good written and verbal communication skills</li>
+        <li>Positive attitude and collaborative mindset</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Submit your updated CV and copy of highest qualification via the application link below: </p>
+    `
   }
+  
 ];
