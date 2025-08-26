@@ -667,6 +667,127 @@ const jobs = [
       <h3>How to Apply</h3>
       <p>Submit your updated CV and copy of highest qualification via the application link below: </p>
     `
+  },
+
+  {
+    id: "junior-software-developer-broad-media-2025",
+    title: "Junior Software Developer – Broad Media",
+    shortDescription: "Develop and maintain internal systems and standalone apps across multiple platforms within a fast-paced media tech environment.",
+    datePosted: "2025-08-26",
+    company: "Broad Media",
+    location: "Centurion, South Africa",
+    closingDate: "N/A",
+    type: "Full Time",
+    duration: "Permanent",
+    reportTo: "Technical Lead / Engineering Manager",
+    applicationLink: "https://broadmedia.co.za/careers/jobs/junior-software-developer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic#applicationForm",
+    tags: ["Software Development", "Junior Developer", "Apps", "Full Stack", "IT"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Broad Media</p>
+      <h3>Overview</h3>
+      <p>Broad Media is expanding its technical team and seeks a Junior Software Developer to build and maintain internal systems and standalone apps. You will work end-to-end across a variety of technologies and platforms in a supportive environment with strong training and growth opportunities.</p>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Design, develop, debug, and optimize software for internal systems and standalone applications.</li>
+        <li>Work across multiple platforms and tech stacks from concept to deployment.</li>
+        <li>Collaborate with the broader technical team to deliver high-quality code.</li>
+      </ul>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Familiarity with developing, debugging, and optimizing software.</li>
+        <li>Degree in Computer Science, Engineering, or related field.</li>
+        <li>Strong desire to learn new tools and technologies; commitment to quality.</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply online below: </p>
+    `
+  },
+  {
+    id: "rock-engineering-graduate-intern-seriti-2025-2029",
+    title: "Rock Engineering Graduate Internship – Seriti (2025–2029)",
+    shortDescription: "Structured graduate internship in the mining environment with a 42-month development pathway leading to substantive roles within Seriti.",
+    datePosted: "2025-08-26",
+    company: "Seriti",
+    location: "Emalahleni, Mpumalanga, South Africa",
+    closingDate: "2025-08-26",
+    type: "Graduate Internship",
+    duration: "Up to 42 Months (Structured Development Programme)",
+    reportTo: "Operational Management Team / Technical Mentor",
+    applicationLink: "https://seritiza.simplify.hr/Vacancy/Apply/upjmkm",
+    tags: ["Mining", "Rock Engineering", "Graduate Programme", "Geology", "Mining Engineering"],
+    fullDescription: `
+      <p><strong>Employer:</strong> Seriti</p>
+      <h3>Overview</h3>
+      <p>Seriti invites unemployed graduates to its Rock Engineering Graduate Internship (2025–2029). This developmental role provides experiential learning in mining environments through a structured programme. Successful candidates present learnings after each phase and complete a capstone project in year two.</p>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Present phase learnings to Operational Management; identify and deliver a second-year project.</li>
+        <li>Attend formal courses and seminars; participate in rotational opportunities.</li>
+        <li>Act in related roles when required and contribute improvement suggestions.</li>
+        <li>Research and benchmark value-add initiatives; engage with a technical coach/mentor.</li>
+      </ul>
+      <h3>Requirements</h3>
+      <ul>
+        <li><strong>External applicants:</strong> BSc Engineering (Mining) / BSc Geology (Hons) / BEng Tech (Hons).</li>
+        <li><strong>Internal applicants:</strong> RPL considered for mining production, geology, and/or mine planning experience; advantage for starting/completing Strata Control Certificate (Coal).</li>
+        <li>Strong references, proven academic knowledge, project exposure, MS Office skills.</li>
+        <li>Valid driver’s license and ability to obtain Certificate of Fitness.</li>
+        <li>Self-starter, motivated; sound business writing, planning, and organization skills.</li>
+      </ul>
+      <h3>Notes</h3>
+      <ul>
+        <li>Applications must include a CV, certified qualifications (within 3 months), ID, and driver’s license.</li>
+        <li>Employment Equity principles apply; only shortlisted candidates will be contacted.</li>
+      </ul>
+      <h3>How to Apply</h3>
+      <p>Apply online: </p>
+    `
+  },
+  {
+    id: "psg-financial-services-graduate-programme-2026",
+    title: "PSG Financial Services Graduate Programme 2026",
+    shortDescription: "12-month graduate programme with mentorship, technical and soft skills training, and potential for permanent placement.",
+    datePosted: "2025-08-05",
+    company: "PSG Financial Services",
+    location: "The Edge, Tygerfalls, Western Cape, South Africa",
+    closingDate: "2025-11-30",
+    type: "Graduate Internship / Traineeship",
+    duration: "12 Months (Fixed-Term Contract)",
+    reportTo: "Programme Manager / Assigned Mentor",
+    applicationLink: "https://myfocus.psg.co.za/CareerFocus/System/Register.aspx?qs=xcTTPuANwflZov8DRxFSTHQSnQhjfh2eDcetUV91e%2Fvc%2BvzUDUpGiWad9jD42O8r4ulBRZznX%2BlHqLiQ9sMUpQiBZ0sSodeqK9MOrwJCg%2FiW2BlC%2FWCEwSAbaBweitDJ",
+    tags: ["Finance", "Actuarial", "Computer Science", "Engineering", "Graduate Programme", "Western Cape"],
+    fullDescription: `
+      <p><strong>Employer:</strong> PSG Financial Services</p>
+      <h3>Overview</h3>
+      <p>PSG offers a 12-month graduate programme designed to accelerate career growth through on-the-job learning, structured training, mentorship, and performance-based opportunities for full-time employment.</p>
+      <h3>What We Offer</h3>
+      <ul>
+        <li>12-month fixed-term contract with on-the-job training.</li>
+        <li>Soft and technical skills training, mentorship, and buddy support.</li>
+        <li>Competitive benefits and potential permanent placement based on performance.</li>
+      </ul>
+      <h3>Minimum Requirements</h3>
+      <ul>
+        <li>Valid South African ID; average of 65% or above.</li>
+        <li>Bachelor’s, Honours, Master’s, or PhD degree.</li>
+      </ul>
+      <h3>Fields of Study</h3>
+      <ul>
+        <li><strong>BSc:</strong> Actuarial Science, Computer Science, Mathematical Science</li>
+        <li><strong>Engineering (BSc/BEng):</strong> Chemical, Computer, Industrial, Mechanical, Electrical & Electronic</li>
+        <li><strong>BCom:</strong> Law, Finance, Financial Planning, Accounting, Economics, Investment Management, Information Systems</li>
+      </ul>
+      <h3>Required Documents</h3>
+      <ul>
+        <li>South African ID copy</li>
+        <li>Curriculum Vitae</li>
+        <li>Updated academic record</li>
+      </ul>
+      <h3>Disclaimer</h3>
+      <p>Ensure CV, transcript, and ID are uploaded—missing documents may result in disqualification. If you do not hear back within 4 weeks, consider your application unsuccessful.</p>
+      <h3>How to Apply</h3>
+      <p>Register and apply online: </p>
+    `
   }
   
 ];
