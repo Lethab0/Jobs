@@ -789,137 +789,81 @@ const jobs = [
       <p>Register and apply online: </p>
     `
   },
+
   {
-    id: "software-developer-intern-at-the-beekman-group",
-    title: "Software Developer Intern At The Beekman Group",
-    shortDescription: "Port Shepstone, KwaZulu-Natal, South Africa About The Beekman Group The Beekman Group stands as South Africa’s premier corporate leader in property development and leisure sector management. With our head office strategically located in the vibrant coastal town of Port Shepstone, we have established ourselves as industry pioneers, consistently delivering innovative solutions and exceptional results across…",
-    datePosted: "2025-08-26T10:25:34+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
-    closingDate: "N/A",
-    type: "Full-time",
+    id: "junior-engineer-creative-leadership-solutions-pta000013-mm-1",
+    title: "Junior Engineer",
+    company: "Creative Leadership Solutions",
+    location: "Tshwane (Pretoria), South Africa",
+    type: "Permanent • Full-time",
     duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "https://www.beekmangroup.com/job/software-developer-intern/",
-    tags: [
-      "Internship",
-      "Graduate Programme",
-      "Software Development"
-    ],
-    fullDescription: `<div>
-<h1></h1>
-<p><br/><em>Port Shepstone, KwaZulu-Natal, South Africa</em></p>
-<hr />
-<h2>About The Beekman Group</h2>
-<p>The Beekman Group stands as South Africa’s premier corporate leader in property development and leisure sector management...</p>
-</div>`
-  },
-  {
-    id: "operational-security-intern-opportunity-at-gijima",
-    title: "OPERATIONAL SECURITY INTERN OPPORTUNITY at Gijima",
-    shortDescription: "Gijima seeks motivated Operational Security Intern in Pietermaritzburg. Gain hands-on cybersecurity experience monitoring security systems, vulnerability assessments, threat detection, and incident response. Perfect opportunity to launch your cybersecurity career with industry experts.",
-    datePosted: "2025-08-26T09:31:19+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
+    reportTo: "Not Specified",
+    datePosted: "2025-08-26T00:00:00+02:00",
     closingDate: "N/A",
-    type: "Full-time",
-    duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?id=gijima_youth&VacRef=JHB000147&preview=b8c099fecb34eed31842a1782227e9ac",
-    tags: [
-      "Internship",
-      "Work Integrated Learning"
-    ],
+    applicationLink: "https://www.clshr.co.za/vacancies/",
+    reference: "PTA000013-MM-1",
+    tags: ["Engineering", "Entry Level"],
+    shortDescription:
+      "Junior Engineer to analyse, design, and optimise business processes for a startup-focused software & marketing firm in Brooklyn, Pretoria.",
+  
     fullDescription: `<div>
-<h1></h1>
-<h2>Gijima – Pietermaritzburg</h2>
-<p><strong>Position:</strong> Operational Security Intern...</p>
-</div>`
-  },
-  {
-    id: "graduate-intern-it-pps-insco",
-    title: "Graduate Intern: IT – PPS InsCo",
-    shortDescription: "Join PPS InsCo’s IT team in Johannesburg! Gain hands-on experience in cloud computing, cybersecurity, and data analytics. Support innovative technology solutions while developing skills in digital transformation. Perfect opportunity for IT graduates to launch their tech careers.",
-    datePosted: "2025-08-26T05:28:13+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
-    closingDate: "N/A",
-    type: "Full-time",
-    duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "https://pps.erecruit.co/candidateapp/Jobs/View/PPS250825-9?source=Indeed",
-    tags: [
-      "Internship",
-      "Graduate Programme",
-      "Work Integrated Learning"
-    ],
-    fullDescription: `<div>
-<h1></h1>
-<p><strong>Reference Number:</strong> PPS250825-9...</p>
-</div>`
-  },
-  {
-    id: "internship-programme-2025-2026-roads-agency-limpopo-soc-limited",
-    title: "INTERNSHIP PROGRAMME 2025/2026 Roads Agency Limpopo SOC Limited",
-    shortDescription: "Roads Agency Limpopo offers a 24-month internship programme with R7,210 monthly remuneration. Multiple positions available across Engineering, Finance, Corporate Services, and CEO divisions. South African graduates aged 18-35 welcome. Applications close December 2024.",
-    datePosted: "2025-08-25T11:19:53+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
-    closingDate: "N/A",
-    type: "Full-time",
-    duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "",
-    tags: [
-      "Engineering",
-      "Internship",
-      "Graduate Programme",
-      "Work Integrated Learning",
-      "Finance"
-    ],
-    fullDescription: `<div>
-<h1></h1>
-<h2></h2>
-<p><strong>Together for Better Roads</strong>...</p>
-</div>`
-  },
-  {
-    id: "civil-engineering-technician-ground-penetrating-radar-3-positions-available",
-    title: "Civil Engineering Technician (Ground Penetrating Radar) – 3 Positions Available",
-    shortDescription: "# Civil Engineering Technician (GPR) – 40 Word Excerpt ARRB Systems seeks three Civil Engineering Technicians for pavement investigation projects using Ground Penetrating Radar technology. National Diploma required, 0-2 years experience preferred. Excel proficiency essential. Westmead-based role offering specialized training and career development opportunities.",
-    datePosted: "2025-08-22T08:34:57+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
-    closingDate: "N/A",
-    type: "Full-time",
-    duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "",
-    tags: [
-      "Engineering"
-    ],
-    fullDescription: `<div>
-<h1></h1>
-<p><strong>Company:</strong> ARRB Systems...</p>
-</div>`
-  },
-  {
-    id: "careers-platform",
-    title: "careers platform",
-    shortDescription: "Coega Development Corporation invites young graduates to apply for its 2025 Internship Programme in Gqeberha. Opportunities span Operations, Business Development, and ICT. Applicants must hold relevant diplomas, be under 35, and eager to gain professional experience. Apply by 03 Sept 2025.",
-    datePosted: "2025-08-21T11:23:06+00:00",
-    company: "Company Not Specified",
-    location: "Location Not Specified",
-    closingDate: "N/A",
-    type: "Full-time",
-    duration: "Not Specified",
-    reportTo: "Programme Supervisors",
-    applicationLink: "",
-    tags: [],
-    fullDescription: `<div>
-<h1></h1>
-<p>Coega Development Corporation Internship Programme...</p>
-</div>`
+    <p><em>Creative Leadership Solutions — Brooklyn, Pretoria</em></p>
+    <p><strong>Reference:</strong> PTA000013-MM-1</p>
+    <p><strong>Type:</strong> Permanent • Full-time</p>
+    <hr />
+    <h2>Introduction</h2>
+    <p>Our client supports the growth of startups through innovative software solutions and marketing excellence, offering Software Engineering, Marketing as a Service, and Innovation as a Service.</p>
+  
+    <h2>Job Purpose</h2>
+    <p>The Junior Engineer will analyse, design, and optimise business process flows to enhance efficiency and support client growth objectives, collaborating across departments for seamless integration and continuous improvement.</p>
+  
+    <h2>Requirements</h2>
+    <ul>
+      <li><strong>Education:</strong> Bachelor’s degree in Engineering or related field.</li>
+      <li><strong>Experience:</strong> 0–2 years in a similar role.</li>
+      <li><strong>Experience Nature:</strong> Business process analysis & documentation; optimisation; cross-functional teamwork.</li>
+      <li><strong>Skills:</strong> Strong analytical/problem-solving; excellent communication & presentation; resilience under pressure; teamwork & collaboration.</li>
+      <li><strong>Other:</strong> Proficiency in Microsoft Office and process mapping tools; own transport & driver’s licence (advantageous).</li>
+    </ul>
+  
+    <h2>Key Performance Areas</h2>
+    <h3>Process Analysis & Documentation</h3>
+    <ul>
+      <li>Evaluate existing processes and identify improvements.</li>
+      <li>Document current flows and create detailed process maps.</li>
+      <li>Gather/analyse data to support initiatives.</li>
+    </ul>
+  
+    <h3>Process Optimisation</h3>
+    <ul>
+      <li>Develop and implement enhancement strategies with the team.</li>
+      <li>Monitor effectiveness and recommend adjustments.</li>
+    </ul>
+  
+    <h3>Stakeholder Collaboration</h3>
+    <ul>
+      <li>Communicate findings and recommendations clearly.</li>
+      <li>Work with departments to understand requirements and challenges.</li>
+      <li>Build relationships to drive improvement initiatives.</li>
+    </ul>
+  
+    <h3>Continuous Improvement</h3>
+    <ul>
+      <li>Identify opportunities for efficiency and innovation.</li>
+      <li>Stay current on best practices in process engineering.</li>
+      <li>Support integration of technology into workflows.</li>
+    </ul>
+  
+    <h3>Reporting & Support</h3>
+    <ul>
+      <li>Prepare accurate reports on evaluations and outcomes.</li>
+      <li>Support senior engineers and management as required.</li>
+      <li>Ensure alignment of processes with company goals.</li>
+    </ul>
+  
+    <p><strong>Apply:</strong> <a href="https://webapp.placementpartner.com/wi/application_form.php?id=cls&vacancy_ref=PTA000013-MM-1&source=pnet">Submit your application</a></p>
+  </div>`
   }
+  
   
 ];
