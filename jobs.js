@@ -863,6 +863,75 @@ const jobs = [
   
     <p><strong>Apply:</strong> <a href="https://webapp.placementpartner.com/wi/application_form.php?id=cls&vacancy_ref=PTA000013-MM-1&source=pnet">Submit your application</a></p>
   </div>`
+  },
+  {
+    id: "graduate-engineering-internship-ann-swann-jhb002179-js",
+    title: "Graduate Engineering Internship",
+    company: "Ann Swann Personnel",
+    location: "Johannesburg, South Africa",
+    type: "Internship • Full-time",
+    duration: "Not Specified",
+    reportTo: "Senior Engineers",
+    datePosted: "2025-08-29T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "N/A", // replace with actual link if provided
+    reference: "JHB002179/JS",
+    tags: [
+      "Engineering",
+      "Graduate Internship",
+      "Mechanical",
+      "Electrical",
+      "Industrial",
+      "Entry Level"
+    ],
+    shortDescription:
+      "Kickstart your career with a Graduate Engineering Internship in Johannesburg. Open to BEng/BSc graduates eager for hands-on experience.",
+    fullDescription: `Assist senior engineers with design work, calculations, and technical drawings. Ensure compliance with safety and quality standards, support project planning, and engage in professional development. Requirements: Completed or recent BEng/BSc in Engineering (Mechanical, Electrical, Industrial, or similar). Proficiency in MS Office, knowledge of AutoCAD/SolidWorks/MATLAB advantageous.`
+  },
+  {
+    id: "engineering-internship-baker-hughes-r135906",
+    title: "6 - 18 Weeks University Internship – Engineering Intern 2025",
+    company: "Baker Hughes",
+    location: "Century City, Western Cape, South Africa",
+    type: "Internship",
+    duration: "6–18 Weeks",
+    reportTo: "Assigned Mentor/Manager",
+    datePosted: "2024-11-26T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://careers.bakerhughes.com/global/en/job/R135906/6-18-Weeks-University-Internship-Engineering-Intern-2025-Opportunities-Century-City?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    reference: "R135906",
+    tags: [
+      "Engineering",
+      "Internship",
+      "STEM",
+      "Energy",
+      "Global Opportunity"
+    ],
+    shortDescription:
+      "Global engineering internship (6–18 weeks) with Baker Hughes in Century City. Gain hands-on experience, mentorship, and exposure to energy innovation.",
+    fullDescription: `Join Baker Hughes' 2025 Engineering Internship. Participate in training, projects, and mentoring. Requirements: Enrolled or recently graduated in Engineering/STEM program, GPA ≥3.0, English proficiency, legal work eligibility.`
+  },
+  {
+    id: "wil-civil-internship-power-construction-uo8un2",
+    title: "Work-Integrated Learning Opportunity: National Diploma in Civil",
+    company: "Power Construction (Pty) Ltd",
+    location: "Swellendam, Western Cape, South Africa",
+    type: "Contract • Internship",
+    duration: "6 Months",
+    reportTo: "Site Supervisor",
+    datePosted: "2025-08-05T00:00:00+02:00",
+    closingDate: "2025-08-31T23:59:59+02:00",
+    applicationLink: "https://powergrp.simplify.hr/vacancy/uo8un2",
+    reference: "N/A",
+    tags: [
+      "Civil Engineering",
+      "Internship",
+      "Work-Integrated Learning",
+      "Entry Level"
+    ],
+    shortDescription:
+      "6-month WIL opportunity in Civil Engineering with Power Construction in Swellendam. Ideal for diploma students needing placement.",
+    fullDescription: `Civil Engineering WIL placement for National Diploma students. Requirements: Current enrolment in ND: Civil, leadership ability, flexibility, English fluency, SA citizenship. Added advantage: driver’s licence. Application must include CV, ID, academic record, WIL confirmation letter, and supporting docs.`
   }
   
   
