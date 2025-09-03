@@ -932,6 +932,198 @@ const jobs = [
     shortDescription:
       "6-month WIL opportunity in Civil Engineering with Power Construction in Swellendam. Ideal for diploma students needing placement.",
     fullDescription: `Civil Engineering WIL placement for National Diploma students. Requirements: Current enrolment in ND: Civil, leadership ability, flexibility, English fluency, SA citizenship. Added advantage: driver’s licence. Application must include CV, ID, academic record, WIL confirmation letter, and supporting docs.`
+  },
+  {
+    id: "industrial-engineer-intern-restonic",
+    title: "Industrial Engineer Intern – Restonic",
+    company: "Restonic",
+    location: "Epping, Cape Town, Western Cape",
+    type: "Internship • Full-time",
+    duration: "12-Month Fixed-Term",
+    reportTo: "Operations Manager",
+    datePosted: "2025-09-03T07:20:05+00:00",
+    closingDate: "2025-09-11",
+    applicationLink: "https://restonicsa.erecruit.co/candidateapp/Jobs/View/SLE250902-1?source=Indeed",
+    reference: "SLE250902-1",
+    tags: [
+      "Engineering",
+      "Internship",
+      "Graduate Programme",
+      "Work Integrated Learning",
+      "Manufacturing"
+    ],
+    shortDescription: "12-month Industrial Engineer Internship at Restonic, Cape Town for recent BSc Industrial Engineering graduates. Gain hands-on experience in process optimization and continuous improvement.",
+    fullDescription: `Work with Operations team in manufacturing environment. Responsibilities include process optimization, cost management, continuous improvement, asset management, and cross-functional collaboration. Requirements: BSc Industrial Engineering, Grade 12, Microsoft Office proficiency. Seeking self-motivated individuals with strong problem-solving skills.`
+  },
+  {
+    id: "technical-consulting-trainee-thales",
+    title: "Technical Consulting Trainee – Shape Tomorrow's Technology Today",
+    company: "Thales",
+    location: "Johannesburg, South Africa",
+    type: "Full-time • Trainee",
+    duration: "Not Specified",
+    reportTo: "Senior Consultants",
+    datePosted: "2025-09-02T16:57:12+00:00",
+    closingDate: "Open until filled",
+    applicationLink: "https://careers.thalesgroup.com/global/en/job/R0298159/Technical-Consulting-Trainee?utm_source",
+    reference: "R0298159",
+    tags: [
+      "Internship",
+      "Graduate Programme",
+      "Work Integrated Learning",
+      "Technology",
+      "Consulting"
+    ],
+    shortDescription: "Technical Consulting Trainee at Thales Johannesburg. Implement smart card solutions, work with global teams. Computer Science degree required.",
+    fullDescription: `Translate customer technical requirements into solutions, implement delivery processes, apply Smart Card Industry Standards. Manage project priorities and ensure quality deliverables. Requirements: Bachelor's in Computer Science or related field, basic coding proficiency, strong analytical skills. Excellent English communication required.`
+  },
+  {
+    id: "industrial-engineering-trainee-national-brands",
+    title: "Industrial Engineering In-service Trainee",
+    company: "National Brands Limited",
+    location: "Rosslyn, Pretoria, Gauteng",
+    type: "Contract • Trainee",
+    duration: "Not Specified",
+    reportTo: "Site Industrial Engineer",
+    datePosted: "2025-09-02T15:42:11+00:00",
+    closingDate: "2025-09-16",
+    applicationLink: "https://nationalbrandslimited.simplify.hr/vacancy/883t74?utm_source=Indeed&utm_medium=Organic&utm_campaign=organic_feed",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Work Integrated Learning",
+      "FMCG",
+      "Manufacturing"
+    ],
+    shortDescription: "Industrial Engineering In-service Trainees for National Brands Limited at Rosslyn Factory. Drive process optimization in biscuit manufacturing.",
+    fullDescription: `Hands-on manufacturing experience with iconic biscuit brands. Responsibilities: process optimization, operational excellence, labour analysis, capital investment projects, quality assurance. Requirements: BSc/BEng/BTech in Industrial Engineering, min 70% average, strong analytical skills. Must be flexible for travel and shift work.`
+  },
+  {
+    id: "engineer-in-training-control-instrumentation",
+    title: "Engineer In Training – Control & Instrumentation",
+    company: "Lesedi Nuclear Division",
+    location: "Cape Town, Western Cape",
+    type: "Contract • EIT Programme",
+    duration: "Not Specified",
+    reportTo: "Design Group Lead",
+    datePosted: "2025-09-02T06:25:34+00:00",
+    closingDate: "2025-09-11",
+    applicationLink: "https://lesedins.simplify.hr/vacancy/q4zhol?utm_source=Indeed&utm_medium=Organic&utm_campaign=organic_feed",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Graduate Programme",
+      "Work Integrated Learning",
+      "Nuclear"
+    ],
+    shortDescription: "Control & Instrumentation Engineer In Training at Lesedi Nuclear. Gain hands-on project experience working toward ECSA registration.",
+    fullDescription: `Work in Design Group on diverse nuclear projects. Responsibilities: apply engineering principles, produce technical deliverables, ensure compliance with standards, support project milestones. Requirements: Bachelor's in Electronics, Mechatronics or related C&I field. Strong computer literacy and foundation in engineering principles required.`
+  },
+  {
+    id: "mechatronic-technician-intern-rheinmetall",
+    title: "Mechatronic Technician Intern",
+    company: "Rheinmetall Denel Munition",
+    location: "Potchefstroom, South Africa",
+    type: "Internship • Full-time",
+    duration: "Not Specified",
+    reportTo: "Simulation and Testing Group",
+    datePosted: "2025-09-02T06:13:27+00:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.rheinmetall.com/de/job/mechatronic_technician_intern_/821612",
+    reference: "ZA00711",
+    tags: [
+      "Engineering",
+      "Internship",
+      "Graduate Programme",
+      "Defense Technology"
+    ],
+    shortDescription: "Mechatronic Technician Intern at Rheinmetall Denel Munition. Design and fabricate custom mechatronic systems for defense applications.",
+    fullDescription: `Join simulation and testing group in defense technology. Responsibilities: circuit fabrication, technical support, data analytics, hardware development, supply chain management. Requirements: NQF Level 6 in Mechanical, Mechatronic or Electronic Engineering. Interest in motors, gears, microelectronics, and sensors. Clear security screening required.`
+  },
+  {
+    id: "endpoint-security-intern-gijima",
+    title: "Endpoint Security Intern",
+    company: "Gijima",
+    location: "Midrand, Gauteng",
+    type: "Internship • Full-time",
+    duration: "4 Days (Potential Error)",
+    reportTo: "Cyber Security Team",
+    datePosted: "2025-09-01T10:32:34+00:00",
+    closingDate: "2025-09-04",
+    applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?id=gijima_youth&VacRef=JHB000150&preview=ed7c3d2ba7ecc99da1a72a5977263259",
+    reference: "JHB000150",
+    tags: [
+      "Internship",
+      "Work Integrated Learning",
+      "Cybersecurity",
+      "IT"
+    ],
+    shortDescription: "Endpoint Security Intern for Gijima's Cyber Security team. Gain hands-on experience with enterprise security tools and threat detection.",
+    fullDescription: `Work with cybersecurity team on endpoint security. Requirements: Completed 3-year IT degree/diploma (not WIL program). Must be South African citizen under 35, unemployed, Gauteng resident. Technical skills: OS knowledge, endpoint security tools, networking fundamentals, security concepts. Strong documentation and ethical responsibility required.`
+  },
+  {
+    id: "information-technology-intern-elkanah",
+    title: "Information Technology Intern",
+    company: "Elkanah House (ADvTECH)",
+    location: "Sunningdale, Western Cape",
+    type: "Internship • Contract",
+    duration: "Not Specified",
+    reportTo: "IT Team",
+    datePosted: "2025-09-01T09:54:05+00:00",
+    closingDate: "2025-09-05",
+    applicationLink: "https://elkanahhouse.simplify.hr/vacancy/xe4zpa?utm_source=Indeed&utm_medium=Organic&utm_campaign=organic_feed",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Internship",
+      "Work Integrated Learning",
+      "Education Technology"
+    ],
+    shortDescription: "IT Intern at Elkanah House. Assist with software projects, provide technical support, research emerging technologies in educational environment.",
+    fullDescription: `Join educational technology team at prestigious school. Responsibilities: software development, technical research, user support, system maintenance, project collaboration. Requirements: enrolled in IT/Computer Science degree, proficiency in Java/C++/Python, strong analytical skills. Excellent mentorship and networking opportunities.`
+  },
+  {
+    id: "healthcare-technology-trainee-siemens",
+    title: "Junior Customer Service Engineer Software Trainee",
+    company: "Siemens Healthineers",
+    location: "Midrand, Gauteng",
+    type: "Fixed Term • Full-time",
+    duration: "Not Specified",
+    reportTo: "Varian Business Unit",
+    datePosted: "2025-09-01T06:29:53+00:00",
+    closingDate: "N/A",
+    applicationLink: "https://jobs.siemens.com/careers/job/563156127141230?hl=en&utm_source=indeed&domain=siemens.com",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Internship",
+      "Healthcare",
+      "Medical Technology"
+    ],
+    shortDescription: "Healthcare Technology Trainee at Siemens Healthineers. Join Y.E.S. program to develop expertise in cutting-edge medical equipment.",
+    fullDescription: `Join Varian Business Unit in medical technology. Responsibilities: install/maintain medical equipment, provide customer support, contribute to process improvement. Requirements: Diploma in Electronics/Mechatronics/Electrical/Clinical Engineering. Must have driver's license, flexibility for overtime/weekends, South African citizenship. Part of Y.E.S. initiative.`
+  },
+  {
+    id: "junior-project-engineer-pumpab-centurion",
+    title: "Junior Project Engineer",
+    company: "Pumpab",
+    location: "Centurion, South Africa",
+    type: "Full-time • Entry Level",
+    duration: "Permanent",
+    reportTo: "International Project Engineer",
+    datePosted: "2025-09-04T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:geo@pumpab.co.za",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Graduate Programme",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Project Management"
+    ],
+    shortDescription: "Junior Project Engineer position in Centurion for graduates with 0-1 year experience. Support international projects for Australian branch, proposal drafting, and project execution.",
+    fullDescription: `Seeking motivated Junior Project Engineer to join engineering team. Support International Project Engineer in drafting proposals, project execution, and handling application engineering queries for Australian branch. Must be willing to work across multiple time zones. Responsibilities include proposal support, project execution support, application engineering assistance, and administrative tasks. Requirements: B.Eng or B.Tech in Mechanical, Chemical or related engineering, 1 year in project-based environment, proficiency with Microsoft Office, basic understanding of engineering principles. Strong analytical and communication skills required.`
   }
   
   
