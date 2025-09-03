@@ -1113,7 +1113,7 @@ const jobs = [
     reportTo: "International Project Engineer",
     datePosted: "2025-09-04T00:00:00+02:00",
     closingDate: "N/A",
-    applicationLink: "mailto:geo@pumpab.co.za",
+    applicationLink: "",
     reference: "N/A",
     tags: [
       "Engineering",
@@ -1123,7 +1123,8 @@ const jobs = [
       "Project Management"
     ],
     shortDescription: "Junior Project Engineer position in Centurion for graduates with 0-1 year experience. Support international projects for Australian branch, proposal drafting, and project execution.",
-    fullDescription: `Seeking motivated Junior Project Engineer to join engineering team. Support International Project Engineer in drafting proposals, project execution, and handling application engineering queries for Australian branch. Must be willing to work across multiple time zones. Responsibilities include proposal support, project execution support, application engineering assistance, and administrative tasks. Requirements: B.Eng or B.Tech in Mechanical, Chemical or related engineering, 1 year in project-based environment, proficiency with Microsoft Office, basic understanding of engineering principles. Strong analytical and communication skills required.`
+    fullDescription: `Seeking motivated Junior Project Engineer to join engineering team. Support International Project Engineer in drafting proposals, project execution, and handling application engineering queries for Australian branch. Must be willing to work across multiple time zones. Responsibilities include proposal support, project execution support, application engineering assistance, and administrative tasks. Requirements: B.Eng or B.Tech in Mechanical, Chemical or related engineering, 1 year in project-based environment, proficiency with Microsoft Office, basic understanding of engineering principles. Strong analytical and communication skills required.
+     email your cv to mailto:geo@pumpab.co.za`
   }
   
   
