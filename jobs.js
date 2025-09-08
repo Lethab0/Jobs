@@ -1125,6 +1125,98 @@ const jobs = [
     shortDescription: "Junior Project Engineer position in Centurion for graduates with 0-1 year experience. Support international projects for Australian branch, proposal drafting, and project execution.",
     fullDescription: `Seeking motivated Junior Project Engineer to join engineering team. Support International Project Engineer in drafting proposals, project execution, and handling application engineering queries for Australian branch. Must be willing to work across multiple time zones. Responsibilities include proposal support, project execution support, application engineering assistance, and administrative tasks. Requirements: B.Eng or B.Tech in Mechanical, Chemical or related engineering, 1 year in project-based environment, proficiency with Microsoft Office, basic understanding of engineering principles. Strong analytical and communication skills required.
      email your cv to mailto:geo@pumpab.co.za`
+  },
+  {
+    id: "electrical-mechanical-engineer-learnership-oneconnect",
+    title: "Electrical/Mechanical Engineer Learnership",
+    company: "Oneconnect",
+    location: "JHB - Eastern Suburbs",
+    type: "Fixed Term • Full-time",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2025-08-25T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://webapp.placementpartner.com/wi/application_form.php?id=oneconnect_solutions&vacancy_ref=JHB000122-Admin-1&source=pnet",
+    reference: "JHB000122-Admin-1",
+    tags: [
+      "Engineering",
+      "Learnership",
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ],
+    shortDescription: "Structured Learnership Program for Master's graduates in Electrical or Mechanical Engineering to gain hands-on industry experience.",
+    fullDescription: "Are you a Master's graduate in Electrical or Mechanical Engineering looking to gain hands-on experience? This structured Learnership Program is designed to bridge the gap between academia and industry. Ideal for highly motivated individuals eager to apply their advanced theoretical knowledge. What You'll Gain: Practical industry experience, mentorship from experienced professionals, exposure to real projects and advanced technologies, and a pathway to future career opportunities. Requirements: Completed Master's degree or Honors in Electrical or Mechanical Engineering, 0-2 years of experience, strong academic track record, passion for innovation, problem-solving, and continuous learning, excellent communication and teamwork skills."
+  },
+  {
+    id: "graduate-programme-2026-ey",
+    title: "Graduate Programme 2026",
+    company: "Ernst & Young (EY) South Africa",
+    location: "Johannesburg, Gauteng; Bloemfontein, Free State; Cape Town, Western Cape",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2025-09-07T00:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://www.gilejobs.co.za/internship/ernst-young-ey-south-africa-graduate-programme-2026/",
+    reference: "N/A",
+    tags: [
+      "Graduate Programme",
+      "Finance",
+      "Economics",
+      "Actuarial",
+      "Engineering",
+      "Information Technology",
+      "Cybersecurity",
+      "Supply Chain",
+      "Industrial Engineering",
+      "Tax",
+      "Accounting",
+      "Assurance"
+    ],
+    shortDescription: "Multiple graduate opportunities across Strategy & Transactions, Digital Risk, Supply Chain, FAAS Regulatory, Tax, and Assurance in Johannesburg, Bloemfontein, and Cape Town.",
+    fullDescription: "Ernst & Young (EY) South Africa invites unemployed graduates to apply for its 2026 Graduate Programme. Opportunities include: 1. Strategy & Transactions: For graduates in Finance, Economics, Actuarial, Statistics, Maths, or Engineering (Electrical, Mining, Software, Civil, Mechanical). 2. Digital Risk: For IT, Cybersecurity, Business, Internal Audit graduates. 3. Supply Chain & Operations Consulting: For final year BEng/BSc Hons (Industrial Engineering) students. 4. FAAS Regulatory: For final year/Honours students in Finance, Economics with Risk Management, Banking, or Investment Management. 5. Tax SAICA: Requires CTA level 02 or BSc/BCom Hons in Accounting for the trainee programme, or BCom Hons in Economics for Transfer Pricing. 6. Assurance: For BCom Accounting CA Stream or equivalent graduates who are CTA/PGDA qualified."
+  },
+  {
+    id: "engineering-graduates-network-engineering-centurion",
+    title: "Engineering Graduates",
+    company: "Network Engineering",
+    location: "Centurion",
+    type: "Permanent • Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2025-09-03T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://webapp.placementpartner.com/wi/application_form.php?id=network2&vacancy_ref=NES022602-SV-1&source=pnet",
+    reference: "NES022602-SV-1",
+    tags: [
+      "Engineering",
+      "Graduate Programme",
+      "Electronic Engineering",
+      "Mechatronic Engineering",
+      "Mechanical Engineering"
+    ],
+    shortDescription: "Opportunity for Electronic and Mechatronic Graduates to work with state-of-the-art systems and jump-start their careers in cutting-edge technology.",
+    fullDescription: "Attention Electronic and Mechatronic Graduates! Are you ready to jump-start your career in cutting-edge technology? My client offers an exciting opportunity to work with state-of-the-art electronic and mechatronic systems, allowing you to apply your skills and knowledge in a real-world setting. Take the next step towards success and be part of a team that shapes the future. Requirements: BEng / BSc in Electrical / Electronic / Mechatronic / Mechanical Engineering. An average of 70% and above and an interesting final year project are required."
+  },
+  {
+    id: "graduate-electrical-engineer-network-finance-jhb-north",
+    title: "Graduate Electrical Engineer",
+    company: "Network Finance",
+    location: "Johannesburg North",
+    type: "Permanent • Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2025-09-08T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.jobmail.co.za/jobs/management/general-management/johannesburg-north/graduate-electrical-engineer-id-7319032",
+    reference: "NES022827/KSE",
+    tags: [
+      "Engineering",
+      "Graduate Programme",
+      "Electrical Engineering"
+    ],
+    shortDescription: "Graduate role to assist with the design, development, and testing of electrical systems and components in a project engineering environment.",
+    fullDescription: "Seeking a Graduate Electrical Engineer to assist with the design, development, and testing of electrical systems and components. Responsibilities include: preparing technical drawings, calculations, and documentation; supporting project engineers in delivering electrical designs that meet client and regulatory requirements; conducting site visits, inspections, and assisting with commissioning activities; collaborating with cross-functional teams; and staying up to date with industry standards. Requirements: Bachelor's Degree in Electrical Engineering, strong academic record, proficiency in MS Office, exposure to design software (e.g., AutoCAD, EPLAN, ETAP) is advantageous, excellent problem-solving and communication skills, driver's license and willingness to travel."
   }
   
   
