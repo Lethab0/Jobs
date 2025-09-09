@@ -661,6 +661,142 @@ const jobs = [
     ],
     shortDescription: "Graduate role to assist with the design, development, and testing of electrical systems and components in a project engineering environment.",
     fullDescription: "Seeking a Graduate Electrical Engineer to assist with the design, development, and testing of electrical systems and components. Responsibilities include: preparing technical drawings, calculations, and documentation; supporting project engineers in delivering electrical designs that meet client and regulatory requirements; conducting site visits, inspections, and assisting with commissioning activities; collaborating with cross-functional teams; and staying up to date with industry standards. Requirements: Bachelor's Degree in Electrical Engineering, strong academic record, proficiency in MS Office, exposure to design software (e.g., AutoCAD, EPLAN, ETAP) is advantageous, excellent problem-solving and communication skills, driver's license and willingness to travel."
+  },
+  {
+    id: "graduate-software-developers-shape-the-future-of-ai-driven-enterprise-solutions",
+    title: "Graduate Software Developers – Shape the Future of AI-Driven Enterprise Solutions",
+    company: "Leading Technology Solutions Provider",
+    location: "Pretoria, Gauteng",
+    type: "Permanent • Full-time",
+    duration: "Permanent",
+    reportTo: "Programme Supervisors",
+    datePosted: "2025-09-08T06:49:28+00:00",
+    closingDate: "2025-09-11",
+    applicationLink: "https://jobs.recruit360.co.za/jobs/graduate-software-developers?source=indeed",
+    reference: "N/A",
+    tags: [
+      "Graduate Programme",
+      "Work Integrated Learning",
+      "Software Development",
+      "AI",
+      "C#",
+      ".NET",
+      "AWS"
+    ],
+    shortDescription: "Join our dynamic team developing cutting-edge AI solutions for modern enterprises. We seek talented graduates with strong mathematical backgrounds to build innovative software using C#/.NET, AWS, and machine learning technologies in Pretoria.",
+    fullDescription: "Graduate Software Developer role focusing on AI-driven enterprise solutions. Requirements: BSc in Computer Science/IT, 80%+ in Grade 12 Pure Mathematics, proficiency in C#/.NET, AWS, and fluency in Afrikaans & English. Salary: ZAR 25,000-27,000/month."
+  },
+  {
+    id: "instrumentation-technician-intern-rheinmetall-denel-munition-rf-pty-ltd-potchefstroom",
+    title: "Instrumentation Technician Intern",
+    company: "Rheinmetall Denel Munition",
+    location: "Potchefstroom",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "Programme Supervisors",
+    datePosted: "2025-09-08T05:42:01+00:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.rheinmetall.com/de/job/instrumentation_technician_intern/680800",
+    reference: "ZA00555",
+    tags: [
+      "Engineering",
+      "Internship",
+      "Graduate Programme",
+      "Work Integrated Learning",
+      "Industrial Instrumentation"
+    ],
+    shortDescription: "Rheinmetall Denel Munition seeks motivated Instrumentation Technician Intern in Potchefstroom. Maintain instruments, perform calibrations, interpret technical drawings, conduct loop checks.",
+    fullDescription: "Instrumentation Technician Intern role requiring National Diploma in Industrial Instrumentation. Responsibilities include instrument maintenance, calibration, technical drawing interpretation, PLC programming (Siemens), and safety compliance."
+  },
+  {
+    id: "launch-your-engineering-career-with-schneider-electric-s-2026-graduate-trainee-program",
+    title: "Schneider Electric's 2026 Graduate Trainee Program",
+    company: "Schneider Electric",
+    location: "South Africa (Hybrid)",
+    type: "Full-time • Graduate Programme",
+    duration: "24-Month Program",
+    reportTo: "Programme Supervisors",
+    datePosted: "2025-09-05T10:24:33+00:00",
+    closingDate: "N/A",
+    applicationLink: "https://careers.se.com/global/jobs/97235?lang=en-us&previousLocale=en-US",
+    reference: "N/A",
+    tags: [
+      "Engineering",
+      "Graduate Programme",
+      "STEM",
+      "Electrification",
+      "Automation"
+    ],
+    shortDescription: "Join Schneider Electric's 2026 Graduate Trainee Program - 24-month program with hands-on experience, mentorship, and guaranteed permanent placement for STEM graduates.",
+    fullDescription: "24-month graduate program for STEM graduates (Electrical, Mechatronics, Computer, Mechanical Engineering). Requires 70%+ in Math/Physics, 60%+ in English, 65%+ tertiary average. Includes competitive salary, mentorship, and international opportunities."
+  },
+  {
+    id: "software-engineering-graduate-program-betway-jackpot-city",
+    title: "Software Engineering Graduate Program",
+    company: "Betway/Jackpot City",
+    location: "Johannesburg & Cape Town",
+    type: "Full-time • Graduate Program",
+    duration: "Not Specified",
+    reportTo: "Programme Supervisors",
+    datePosted: "2025-09-05T09:53:15+00:00",
+    closingDate: "2025-09-30",
+    applicationLink: "https://supergroupgraduates.com/southafrica#reg",
+    reference: "N/A",
+    tags: [
+      "Software Development",
+      "Graduate Programme",
+      "iGaming",
+      "C#",
+      "SQL"
+    ],
+    shortDescription: "Join our Software Engineering Graduate Program! Work with cutting-edge technology in sports betting and iGaming. Perfect for recent Computer Science graduates.",
+    fullDescription: "Software Engineering Graduate Program for Computer Science/IT graduates. Work with C#, SQL Server, JavaScript, Angular. Requires passion for sports/technology and strong problem-solving skills. Locations: Johannesburg & Cape Town."
+  },
+  {
+    id: "it-administrator-officer-learner-momentum-life",
+    title: "IT Administrator Officer Learner",
+    company: "Momentum Life",
+    location: "Centurion, Gauteng",
+    type: "Temporary • Full-time",
+    duration: "Not Specified",
+    reportTo: "Programme Supervisors",
+    datePosted: "2025-09-04T08:02:55+00:00",
+    closingDate: "2025-09-05",
+    applicationLink: "https://momentumgroupltd.internal.erecruit.co/candidateapp/Jobs/View/MMH250826-4?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
+    reference: "MMH250826-4",
+    tags: [
+      "IT",
+      "Internship",
+      "Work Integrated Learning",
+      "Administration"
+    ],
+    shortDescription: "Entry-level IT administrative support role managing schedules, asset inventories, user support, and documentation. Requires Matric plus IT Diploma/Degree.",
+    fullDescription: "IT Administrator Officer Learner role requiring Matric + IT Diploma/Degree. Responsibilities include IT administration, asset management, user support, documentation, and training coordination. Remote work options available."
+  },
+  {
+    id: "mining-career-internships-p1p2-harmony-gold-2025",
+    title: "Internship and P1/P2 Opportunities 2025",
+    company: "Harmony Gold Mining Company",
+    location: "Multiple Operations (Gauteng, Free State, North West)",
+    type: "Internship • P1/P2 Experiential Learning",
+    duration: "2025 Program",
+    reportTo: "N/A",
+    datePosted: "2025-09-09T00:00:00+02:00",
+    closingDate: "2024-09-27",
+    applicationLink: "mailto:Interns.WE@Harmony.co.za",
+    reference: "N/A",
+    tags: [
+      "Mining",
+      "Internship",
+      "P1/P2",
+      "Engineering",
+      "Geology",
+      "Metallurgy",
+      "Human Resources",
+      "Finance"
+    ],
+    shortDescription: "Harmony Gold offers 2025 Internship and P1/P2 opportunities for South African graduates in Mining Engineering, Geology, Metallurgy, HR, and more across multiple operations.",
+    fullDescription: "Unlock your potential with Harmony Gold's 2025 Internship and P1/P2 Experiential Learning opportunities. Available disciplines: Mining Engineering, Rock Engineering, Mechanical/Electrical Engineering, Metallurgy, Geology, Analytical Chemistry, Human Resources, Finance, Mine Planning, Health and Safety, Environmental Management, and Community Development. Locations include Doornkop, Joel, Kalgold, Kusasalethu, Masimong, Moab Khotsong, Mponeng, Target, and Tshepong Operations. Eligibility: South African citizens under 35, residents of Free State, North West (Kenneth Kaunda District), or Gauteng, recent graduates/diplomats with a full tertiary qualification. Apply by 27 September 2024."
   }
   
   
