@@ -797,7 +797,53 @@ const jobs = [
     ],
     shortDescription: "Harmony Gold offers 2025 Internship and P1/P2 opportunities for South African graduates in Mining Engineering, Geology, Metallurgy, HR, and more across multiple operations.",
     fullDescription: "Unlock your potential with Harmony Gold's 2025 Internship and P1/P2 Experiential Learning opportunities. Available disciplines: Mining Engineering, Rock Engineering, Mechanical/Electrical Engineering, Metallurgy, Geology, Analytical Chemistry, Human Resources, Finance, Mine Planning, Health and Safety, Environmental Management, and Community Development. Locations include Doornkop, Joel, Kalgold, Kusasalethu, Masimong, Moab Khotsong, Mponeng, Target, and Tshepong Operations. Eligibility: South African citizens under 35, residents of Free State, North West (Kenneth Kaunda District), or Gauteng, recent graduates/diplomats with a full tertiary qualification. Apply by 27 September 2024."
-  }
+  },
+  {
+    "id": "engineering-graduate-business-development-gsi-centurion",
+    "title": "Engineering Graduate - Business Development",
+    "company": "GSI Talent Solutions Pty Ltd",
+    "location": "Centurion",
+    "type": "Permanent • Full-time",
+    "duration": "Permanent",
+    "reportTo": "N/A",
+    "datePosted": "2025-09-03T00:00:00+02:00", // Estimated: "Published: 6 days ago" from ~Sep 9
+    "closingDate": "N/A",
+    "applicationLink": "https://www.pnet.co.za/jobs--Engineering-Graduate-Centurion-GSI-Talent-Solutions-Pty-Ltd--4038175-inline.html",
+    "reference": "N/A",
+    "tags": [
+    "Engineering",
+    "Graduate Programme",
+    "Business Development",
+    "Sales",
+    "Defense Industry",
+    "International"
+    ],
+    "shortDescription": "Unique graduate role blending engineering knowledge with business development in the international defense industry. Drive sales, develop client relationships, and travel globally.",
+    "fullDescription": "An international Defense Industry company seeks an Engineering Graduate for a Business Development role. This position focuses on driving sustainable financial growth by boosting sales, developing products/solutions, and forging strong client relationships. Responsibilities include promoting company products/services, preparing sales contracts, developing growth strategies, researching new markets, contacting potential clients, and attending international conferences. Requirements: Bachelor’s Degree in Engineering (Mechanical, Mechatronics, Electrical, Aeronautical, Industrial) or BCom. Must have 85% average in Matric results (non-negotiable), valid passport for international travel, own reliable transport, and be well presented. No work experience required. Immediate availability is advantageous."
+    },
+    {
+      "id": "graduate-internship-programme-electro-mechanical-ar-engineering-2025",
+      "title": "Graduate Internship Programme 2025/2026",
+      "company": "A & R Engineering Group",
+      "location:": "Potchefstroom",
+      "type": "Internship • Full-time",
+      "duration": "18 Months",
+      "reportTo": "N/A",
+      "datePosted": "2025-09-11T00:00:00+02:00",
+      "closingDate": "2025-09-12T16:00:00+02:00",
+      "applicationLink": "mailto:hr@areng.co.za",
+      "reference": "N/A",
+      "tags": [
+      "Engineering",
+      "Internship",
+      "Graduate Programme",
+      "Electro-Mechanical",
+      "Instrumentation",
+      "Mining Industry"
+      ],
+      "shortDescription": "18-month graduate internship in Electro-Mechanical Engineering and Instrumentation for the mining industry. Includes monthly allowance of R7,000 + additional benefits. Based in Potchefstroom.",
+      "fullDescription": "A & R Engineering Group is offering an 18-month internship programme for 3 graduates in Electro-Mechanical Engineering and Instrumentation. The programme aims to develop graduates for employment in the mining sector through mentorship and skills transfer. Requirements: Diploma/Higher Diploma or N6+Diploma in Electro-Mechanical Engineering and Instrumentation Mechanician, medically fit for mining industry, unemployed, South African citizen, and own accommodation. Benefits include: R7,000 monthly allowance, R1,000 travel allowance, R1,500 housing allowance, and basic medical cover. Applications must be submitted by 12 September 2025 at 16:00 to hr@areng.co.za."
+      }
   
   
 ];
