@@ -843,6 +843,114 @@ const jobs = [
       ],
       "shortDescription": "18-month graduate internship in Electro-Mechanical Engineering and Instrumentation for the mining industry. Includes monthly allowance of R7,000 + additional benefits. Based in Potchefstroom.",
       "fullDescription": "A & R Engineering Group is offering an 18-month internship programme for 3 graduates in Electro-Mechanical Engineering and Instrumentation. The programme aims to develop graduates for employment in the mining sector through mentorship and skills transfer. Requirements: Diploma/Higher Diploma or N6+Diploma in Electro-Mechanical Engineering and Instrumentation Mechanician, medically fit for mining industry, unemployed, South African citizen, and own accommodation. Benefits include: R7,000 monthly allowance, R1,000 travel allowance, R1,500 housing allowance, and basic medical cover. Applications must be submitted by 12 September 2025 at 16:00 to hr@areng.co.za."
+      },
+      {
+        id: "business-analyst-graduate-shape-africa-s-financial-future",
+        title: "Business Analyst Graduate",
+        company: "Absa Group",
+        location: "Johannesburg (Hybrid)",
+        type: "Full-time • Graduate Program",
+        duration: "Not Specified",
+        reportTo: "Programme Supervisors",
+        datePosted: "2025-09-12T06:43:53+00:00",
+        closingDate: "2025-09-26",
+        applicationLink: "https://absa.wd3.myworkdayjobs.com/en-US/ABSAcareersite/job/Johannesburg/Business-Analyst-Graduate_R-15979452",
+        reference: "N/A",
+        tags: [
+          "Graduate Programme",
+          "Business Analysis",
+          "Finance",
+          "Banking"
+        ],
+        shortDescription: "Join Absa Group's graduate program as a Business Analyst. Shape Africa's financial future through requirements gathering and stakeholder collaboration.",
+        fullDescription: "Business Analyst Graduate role at Absa Group focusing on requirements gathering, process analysis, and stakeholder collaboration. Requirements: NQF Level 7 qualification in IT, Computer Science or related fields. Perfect for recent graduates passionate about problem-solving and digital transformation in banking."
+      },
+      {
+        id: "graduate-project-engineer-launch-your-engineering-career-at-cape-town-harbour",
+        title: "Graduate Project Engineer",
+        company: "3C Metal Group - Cinco Engineering",
+        location: "Cape Town Harbour",
+        type: "Permanent • Full-time",
+        duration: "Permanent",
+        reportTo: "Programme Supervisors",
+        datePosted: "2025-09-12T03:29:03+00:00",
+        closingDate: "N/A",
+        applicationLink: "https://3cmetal-career.talent-soft.com/job/job-graduate-project-engineer_292.aspx",
+        reference: "2025-292",
+        tags: [
+          "Engineering",
+          "Graduate Programme",
+          "Mechanical Engineering",
+          "Maritime"
+        ],
+        shortDescription: "Graduate Project Engineer role at Cape Town Harbour. Work on steel fabrication, industrial piping, ship repair and maritime engineering projects.",
+        fullDescription: "Graduate Project Engineer position with Cinco Engineering (3C Metal Group) at Cape Town Harbour. Requires Bachelor's degree in Mechanical Engineering. Work on diverse projects including steel structure fabrication, industrial piping, mechanical fitting, ship repair, and maintenance operations in the maritime industry."
+      },
+      {
+        id: "transport-intern-launch-your-career-in-energy-logistics",
+        title: "Transport Intern",
+        company: "TotalEnergies",
+        location: "Johannesburg",
+        type: "Internship • Full-time",
+        duration: "Not Specified",
+        reportTo: "Programme Supervisors",
+        datePosted: "2025-09-10T10:30:12+00:00",
+        closingDate: "N/A",
+        applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Transport-Internship/70506?Codes=9999#",
+        reference: "N/A",
+        tags: [
+          "Internship",
+          "Logistics",
+          "Supply Chain",
+          "Energy"
+        ],
+        shortDescription: "Transport Intern at TotalEnergies. Gain experience in logistics operations, vehicle scheduling, compliance verification and safety protocols.",
+        fullDescription: "Transport Internship at TotalEnergies for graduates in Industrial Engineering, Logistics, or Supply Chain Management. Responsibilities include vehicle compliance verification, load scheduling, HSSE standards implementation, and transport operations management in the energy sector."
+      },
+      {
+        id: "graduate-software-developers-shape-the-future-of-ai-driven-enterprise-solutions",
+        title: "Graduate Software Developers - AI Solutions",
+        company: "Leading Technology Solutions Provider",
+        location: "Pretoria, Gauteng",
+        type: "Permanent • Full-time",
+        duration: "Permanent",
+        reportTo: "Programme Supervisors",
+        datePosted: "2025-09-08T06:49:28+00:00",
+        closingDate: "2025-09-11",
+        applicationLink: "https://jobs.recruit360.co.za/jobs/graduate-software-developers?source=indeed",
+        reference: "N/A",
+        tags: [
+          "Software Development",
+          "Graduate Programme",
+          "AI",
+          "C#",
+          ".NET",
+          "AWS"
+        ],
+        shortDescription: "Graduate Software Developer role focusing on AI-driven enterprise solutions using C#/.NET and AWS cloud technologies.",
+        fullDescription: "Graduate Software Developer role focusing on AI and cloud computing solutions. Requirements: BSc in Computer Science/IT, 80%+ in Grade 12 Pure Mathematics, proficiency in C#/.NET, AWS, and fluency in Afrikaans & English. Salary: ZAR 25,000-27,000/month."
+      },
+      {
+        id: "instrumentation-technician-intern-rheinmetall-denel-munition-rf-pty-ltd-potchefstroom",
+        title: "Instrumentation Technician Intern",
+        company: "Rheinmetall Denel Munition",
+        location: "Potchefstroom",
+        type: "Full-time • Internship",
+        duration: "Not Specified",
+        reportTo: "Programme Supervisors",
+        datePosted: "2025-09-08T05:42:01+00:00",
+        closingDate: "N/A",
+        applicationLink: "https://www.rheinmetall.com/de/job/instrumentation_technician_intern/680800",
+        reference: "ZA00555",
+        tags: [
+          "Engineering",
+          "Internship",
+          "Instrumentation",
+          "PLC",
+          "Defense"
+        ],
+        shortDescription: "Instrumentation Technician Intern at Rheinmetall Denel Munition. Work with industrial instrumentation, PLC programming and technical systems.",
+        fullDescription: "Instrumentation Technician Intern role requiring National Diploma in Industrial Instrumentation. Responsibilities include instrument maintenance, calibration, technical drawing interpretation, PLC programming (Siemens), and safety compliance in defense industry."
       }
   
   
