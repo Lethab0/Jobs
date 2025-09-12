@@ -951,7 +951,30 @@ const jobs = [
         ],
         shortDescription: "Instrumentation Technician Intern at Rheinmetall Denel Munition. Work with industrial instrumentation, PLC programming and technical systems.",
         fullDescription: "Instrumentation Technician Intern role requiring National Diploma in Industrial Instrumentation. Responsibilities include instrument maintenance, calibration, technical drawing interpretation, PLC programming (Siemens), and safety compliance in defense industry."
-      }
+      },
+      {
+        "id": "graduate-junior-mechanical-engineer-pretoria-jenrec",
+        "title": "Graduate/Junior Mechanical Engineer",
+        "company": "Not Specified (via JenRec Recruitment)",
+        "location": "Pretoria",
+        "type:": "Full-time • Graduate/Junior Level",
+        "duration": "Not Specified",
+        "reportTo": "Senior Engineers",
+        "datePosted": "2025-09-12T00:00:00+02:00",
+        "closingDate": "N/A",
+        "applicationLink": "mailto:recruitment@jenrec.com",
+        "reference": "N/A",
+        "tags": [
+        "Engineering",
+        "Graduate Programme",
+        "Mechanical Engineering",
+        "Mechatronics",
+        "R&D",
+        "Design"
+        ],
+        "shortDescription": "Graduate/Junior Mechanical Engineer role in Pretoria. Gain hands-on experience across full design process from ideation to prototype development with multidisciplinary teams.",
+        "fullDescription": "Graduate/Junior Mechanical Engineer position in Pretoria. Join an innovative team to work on R&D lifecycle and prototype development. Responsibilities include mechanical design, calculations, simulations, testing, maintaining technical documentation, and participating in design reviews. Requirements: Bachelor's degree in Mechanical Engineering or Mechatronics (BSc/BEng), familiarity with CAD (SolidWorks, Autodesk Inventor), valid driver's license, and passion for engineering projects. Gain mentorship from experienced engineers and exposure to full product lifecycle."
+        }
   
   
 ];
