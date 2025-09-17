@@ -974,7 +974,52 @@ const jobs = [
         ],
         "shortDescription": "Graduate/Junior Mechanical Engineer role in Pretoria. Gain hands-on experience across full design process from ideation to prototype development with multidisciplinary teams.",
         "fullDescription": "Graduate/Junior Mechanical Engineer position in Pretoria. Join an innovative team to work on R&D lifecycle and prototype development. Responsibilities include mechanical design, calculations, simulations, testing, maintaining technical documentation, and participating in design reviews. Requirements: Bachelor's degree in Mechanical Engineering or Mechatronics (BSc/BEng), familiarity with CAD (SolidWorks, Autodesk Inventor), valid driver's license, and passion for engineering projects. Gain mentorship from experienced engineers and exposure to full product lifecycle."
-        }
+        },
+        {
+          "id": "mining-engineering-internship-hlogirati-24month",
+          "title:": "Mining Engineering Internship",
+          "company": "Hlogirati (Pty) Ltd",
+          "location": "New Clydesdale Colliery Area",
+          "type": "Internship • Full-time",
+          "duration": "24 Months",
+          "reportTo": "N/A",
+          "datePosted": "2025-09-16T00:00:00+02:00",
+          "closingDate": "2025-09-19",
+          "applicationLink": "mailto:hr@hlogirati.com",
+          "reference": "N/A",
+          "tags": [
+          "Mining",
+          "Internship",
+          "Engineering",
+          "Mechanical Engineering",
+          "Metallurgical Engineering"
+          ],
+          "shortDescription": "24-month internship program in Mining, Mechanical or Metallurgical Engineering for graduates near New Clydesdale Colliery. Comprehensive organizational support provided.",
+          "fullDescription": "Hlogirati (Pty) Ltd offers a 24-month internship program for graduates in Mining Engineering, Mechanical Engineering, or Metallurgical Engineering. Requirements: relevant degree, unemployed, aged 18-35, no criminal record, South African citizen. Priority given to communities surrounding New Clydesdale Colliery. Applications must include CV, certified ID, matric certificate, degree certificate, academic record, and proof of residence."
+          }
+          
+          {
+          "id": "in-service-training-programme-cef-2025",
+          "title": "In-Service Training Programme 2025/2026",
+          "company": "CEF Group",
+          "location": "Sandton & SANPC Refinery",
+          "type": "In-Service Training • Full-time",
+          "duration": "Not Specified",
+          "reportTo": "N/A",
+          "datePosted": "2025-09-16T00:00:00+02:00",
+          "closingDate": "N/A",
+          "applicationLink": "N/A",
+          "reference": "N/A",
+          "tags": [
+          "In-Service Training",
+          "Engineering",
+          "Management",
+          "Public Administration",
+          "Finance"
+          ],
+          "shortDescription": "10 in-service training opportunities at CEF Group for N6 qualified students in various fields including engineering, management, and finance.",
+          "fullDescription": "CEF Group offers 10 in-service training positions (8 in Sandton, 2 at SANPC Refinery) for students with N6 qualifications in Management, Public Administration, Business Management, Supply Chain/Logistics, Financial Management, Chemical, Civil, or Electrical Engineering. Requirements: matric certificate, N6 qualification, letter from institution confirming need for in-service training, age 16-25, South African citizen, not enrolled in other programs."
+          }
   
   
 ];
