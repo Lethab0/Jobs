@@ -996,7 +996,7 @@ const jobs = [
           ],
           "shortDescription": "24-month internship program in Mining, Mechanical or Metallurgical Engineering for graduates near New Clydesdale Colliery. Comprehensive organizational support provided.",
           "fullDescription": "Hlogirati (Pty) Ltd offers a 24-month internship program for graduates in Mining Engineering, Mechanical Engineering, or Metallurgical Engineering. Requirements: relevant degree, unemployed, aged 18-35, no criminal record, South African citizen. Priority given to communities surrounding New Clydesdale Colliery. Applications must include CV, certified ID, matric certificate, degree certificate, academic record, and proof of residence."
-          }
+          },
           
           {
           "id": "in-service-training-programme-cef-2025",
