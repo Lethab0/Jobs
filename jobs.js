@@ -1019,7 +1019,184 @@ const jobs = [
           ],
           "shortDescription": "10 in-service training opportunities at CEF Group for N6 qualified students in various fields including engineering, management, and finance.",
           "fullDescription": "CEF Group offers 10 in-service training positions (8 in Sandton, 2 at SANPC Refinery) for students with N6 qualifications in Management, Public Administration, Business Management, Supply Chain/Logistics, Financial Management, Chemical, Civil, or Electrical Engineering. Requirements: matric certificate, N6 qualification, letter from institution confirming need for in-service training, age 16-25, South African citizen, not enrolled in other programs."
-          }
+          },
+          {
+            "id": "mechanical-electrical-engineers-in-training-mc-design",
+            "title": "Mechanical & Electrical Engineers in Training",
+            "company": "MC Design & Contracting",
+            "location": "Port Elizabeth",
+            "type": "Graduate Programme • Full-time",
+            "duration": "Not Specified",
+            "reportTo": "Engineering Team",
+            "datePosted": "2025-09-20T00:00:00+02:00",
+            "closingDate": "2025-10-03",
+            "applicationLink": "mailto:recruitment@modesign.co.za",
+            "reference": "N/A",
+            "tags": [
+            "Engineering",
+            "Graduate Programme",
+            "Mechanical Engineering",
+            "Electrical Engineering",
+            "EIT"
+            ],
+            "shortDescription": "Graduate Engineer positions for Mechanical and Electrical Engineers at MC Design & Contracting in Port Elizabeth. No experience required - gain hands-on experience in engineering team.",
+            "fullDescription": "MC Design & Contracting is offering Engineer in Training positions for two Graduate Engineers in Mechanical or Electrical Engineering. Requirements: National Diploma or BEng Tech in Mechanical/Electrical Engineering. No experience required. Looking for candidates with attention to detail, deadline-driven approach, teamwork ability, good communication skills, and eagerness to learn. Based in Port Elizabeth head office. Apply via email to recruitment@modesign.co.za by 3 October 2025."
+            },
+            {
+              "id": "fire-safety-technician-electrical-wrees",
+              "title": "Fire Safety Technician (Electrical)",
+              "company": "WREES",
+              "location": "Not Specified",
+              "type": "Full-time • Entry Level",
+              "duration": "Not Specified",
+              "reportTo": "N/A",
+              "datePosted": "2025-09-20T00:00:00+02:00",
+              "closingDate": "N/A",
+              "applicationLink": "mailto:hr@wrees.co.za",
+              "reference": "N/A",
+              "tags": [
+              "Electrical Engineering",
+              "Fire Safety",
+              "Technician",
+              "Entry Level",
+              "Maintenance"
+              ],
+              "shortDescription": "Fire Safety Technician role for Electrical Engineering N6 graduates. Inspect, test and maintain fire safety equipment and systems. Stipend R4500-R8000.",
+              "fullDescription": "Fire Safety Technician position requiring minimum N6 in Electrical Engineering. Responsibilities include: performing regular inspections and reporting fire safety violations; inspecting, testing and maintaining fire safety equipment (alarms, sprinklers, extinguishers); investigating suspicious fires; dismantling and repairing extinguishers. Requirements: 0-3 years experience, below age 30, valid driver's license. Trade test is a bonus. Stipend: R4500-R8000. Email applications to hr@wrees.co.za"
+              },
+            
+            {
+            "id": "electrical-engineer-in-training-actom-x3",
+            "title": "Electrical Engineer in Training (x3)",
+            "company": "ACTOM (Pty) Ltd",
+            "location": "Redfordview, Johannesburg",
+            "type": "Graduate Programme • Full-time",
+            "duration": "Not Specified",
+            "reportTo": "N/A",
+            "datePosted": "2025-09-20T00:00:00+02:00",
+            "closingDate": "2025-09-25",
+            "applicationLink": "mailto:hr@actom.co.za",
+            "reference": "N/A",
+            "tags": [
+            "Engineering",
+            "Graduate Programme",
+            "Electrical Engineering",
+            "EIT",
+            "ECSA"
+            ],
+            "shortDescription": "Three Electrical Engineer in Training positions at ACTOM. Requires BSc/BEng in Electrical Engineering. Work towards ECSA registration with comprehensive training programme.",
+            "fullDescription": "ACTOM is offering three Electrical Engineer in Training positions. Requirements: BSc/BEng degree in Electrical Engineering. No work experience required. Responsibilities include project assessment, performance measurement, CAD software use (Autodesk INVENTOR/AUTOCAD), customer liaison, research, product testing, report writing, and working towards ECSA professional registration. Looking for candidates with technical skills, problem-solving ability, teamwork, and computer literacy. Apply by emailing CV and supporting documents to hr@actom.co.za by 25 September 2025."
+            },
+            {
+              id: "graduate-mechanical-engineer-3d-scanning-dimensional-analysis",
+              title: "Graduate Mechanical Engineer - 3D Scanning & Dimensional Analysis",
+              company: "Weir Minerals",
+              location: "Port Elizabeth",
+              type: "Full-time • Graduate Programme",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-19T08:36:33+00:00",
+              closingDate: "2025-09-25",
+              applicationLink: "https://weir.wd3.myworkdayjobs.com/en-US/Weir_External_Careers/job/Port-Elizabeth/Graduate--Mechanical-Engineer_R0033358",
+              reference: "R0033358",
+              tags: [
+                "Engineering",
+                "Graduate Programme",
+                "Mechanical Engineering",
+                "3D Scanning",
+                "Mining"
+              ],
+              shortDescription: "Graduate Mechanical Engineer role specializing in 3D scanning technology using Romer Absolute Arm and PolyWorks software at Weir Minerals.",
+              fullDescription: "Graduate Mechanical Engineer position at Weir Minerals focusing on 3D scanning and dimensional analysis. Requires Bachelor's degree in Mechanical Engineering with minimum 60% average. Full training provided in Romer Absolute Arm technology and PolyWorks software. Responsibilities include 3D scanning of components, dimensional inspection reports, quality processes, and supporting engineering teams in mining solutions."
+            },
+            {
+              id: "it-intern-opportunities-resort-technology-division-the-beekman-group-port-shepstone-kwazulu-natal",
+              title: "IT Intern - Resort Technology",
+              company: "The Beekman Group",
+              location: "Port Shepstone, KwaZulu-Natal",
+              type: "Internship • Full-time",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-18T03:27:26+00:00",
+              closingDate: "N/A",
+              applicationLink: "https://www.beekmangroup.com/job/3-x-it-intern-resorts/",
+              reference: "36/09",
+              tags: [
+                "IT",
+                "Internship",
+                "Hospitality",
+                "Technology",
+                "Technical Support"
+              ],
+              shortDescription: "Three IT Intern positions at Beekman Group's resort operations. Gain experience in hardware installation, server maintenance, and technical support.",
+              fullDescription: "IT Intern positions at The Beekman Group's resort technology division. Requires IT qualifications and A+/N+/MCP certifications. Responsibilities include installing/maintaining computer hardware and software, server monitoring, network systems maintenance, and providing technical support. Physical capability for working in confined spaces and safety protocol adherence required."
+            },
+            {
+              id: "business-analyst-graduate-shape-africa-s-financial-future",
+              title: "Business Analyst Graduate",
+              company: "Absa Group",
+              location: "Johannesburg (Hybrid)",
+              type: "Full-time • Graduate Program",
+              duration: "Not Specified",
+              reportTo: "Programme Supervisors",
+              datePosted: "2025-09-12T06:43:53+00:00",
+              closingDate: "2025-09-26",
+              applicationLink: "https://absa.wd3.myworkdayjobs.com/en-US/ABSAcareersite/job/Johannesburg/Business-Analyst-Graduate_R-15979452",
+              reference: "R-15979452",
+              tags: [
+                "Business Analysis",
+                "Graduate Programme",
+                "Finance",
+                "Banking",
+                "IT"
+              ],
+              shortDescription: "Business Analyst Graduate role at Absa Group. Shape Africa's financial future through requirements gathering and digital transformation.",
+              fullDescription: "Business Analyst Graduate position at Absa Group. Requires NQF Level 7 qualification in IT, Computer Science or related fields. Responsibilities include requirements gathering, process analysis, stakeholder collaboration, JAD sessions, and supporting business initiative implementations. Focus on digital transformation in banking across 12 African countries."
+            },
+            {
+              id: "graduate-project-engineer-launch-your-engineering-career-at-cape-town-harbour",
+              title: "Graduate Project Engineer",
+              company: "3C Metal Group - Cinco Engineering",
+              location: "Cape Town Harbour",
+              type: "Permanent • Full-time",
+              duration: "Permanent",
+              reportTo: "N/A",
+              datePosted: "2025-09-12T03:29:03+00:00",
+              closingDate: "N/A",
+              applicationLink: "https://3cmetal-career.talent-soft.com/job/job-graduate-project-engineer_292.aspx",
+              reference: "2025-292",
+              tags: [
+                "Engineering",
+                "Graduate Programme",
+                "Mechanical Engineering",
+                "Maritime",
+                "Project Engineering"
+              ],
+              shortDescription: "Graduate Project Engineer role at Cape Town Harbour working on maritime engineering projects including steel fabrication and ship repair.",
+              fullDescription: "Graduate Project Engineer position with Cinco Engineering (3C Metal Group) at Cape Town Harbour. Requires Bachelor's degree in Mechanical Engineering. Work on diverse projects including steel structure fabrication, industrial piping, mechanical fitting, ship repair, and maintenance operations in the maritime industry."
+            },
+            {
+              id: "transport-intern-launch-your-career-in-energy-logistics",
+              title: "Transport Intern - Energy Logistics",
+              company: "TotalEnergies",
+              location: "Johannesburg",
+              type: "Internship • Full-time",
+              duration: "Not Specified",
+              reportTo: "Programme Supervisors",
+              datePosted: "2025-09-10T10:30:12+00:00",
+              closingDate: "N/A",
+              applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Transport-Internship/70506?Codes=9999#",
+              reference: "N/A",
+              tags: [
+                "Logistics",
+                "Internship",
+                "Supply Chain",
+                "Energy",
+                "Transport"
+              ],
+              shortDescription: "Transport Intern at TotalEnergies gaining experience in logistics operations, vehicle scheduling, and safety protocols.",
+              fullDescription: "Transport Internship at TotalEnergies for graduates in Industrial Engineering, Logistics, or Supply Chain Management. Responsibilities include vehicle compliance verification, load scheduling, HSSE standards implementation, transport operations management, and safety compliance in the energy sector."
+            },
   
   
 ];
