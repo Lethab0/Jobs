@@ -1197,6 +1197,116 @@ const jobs = [
               shortDescription: "Transport Intern at TotalEnergies gaining experience in logistics operations, vehicle scheduling, and safety protocols.",
               fullDescription: "Transport Internship at TotalEnergies for graduates in Industrial Engineering, Logistics, or Supply Chain Management. Responsibilities include vehicle compliance verification, load scheduling, HSSE standards implementation, transport operations management, and safety compliance in the energy sector."
             },
+            {
+              id: "intern-developer-goldman-tech-johannesburg",
+              title: "Intern Developer",
+              company: "Goldman Tech",
+              location: "Johannesburg",
+              type: "Full-time • Internship",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-20T00:00:00+02:00",
+              closingDate: "N/A",
+              applicationLink: "mailto:it.careers@goldmantech.co.za",
+              reference: "Interndev2021",
+              tags: [
+                "IT",
+                "Internship",
+                "Development",
+                "Web Development",
+                "Programming"
+              ],
+              shortDescription: "Intern Developer role at Goldman Tech requiring IT degree and 0-6 months experience. Work with Python/PHP, mobile and web technologies in Johannesburg.",
+              fullDescription: "Intern Developer position at Goldman Tech. Requirements: IT-related BSc Degree, 0-6 months experience. Technical skills needed: Python or PHP, PERL, mobile technologies, web technologies, HTML5, CSS styling, pure div layouts, hand-coding XHTML/CSS. Email applications to it.careers@goldmantech.co.za"
+            },
+            {
+              id: "mechanical-draughtsman-namaqua-engineering-vredendal",
+              title: "Mechanical Draughtsman",
+              company: "Namaqua Engineering",
+              location: "Vredendal, West Coast",
+              type: "Full-time • Permanent",
+              duration: "Permanent",
+              reportTo: "Head of Projects",
+              datePosted: "2025-09-22T00:00:00+02:00",
+              closingDate: "2025-09-26",
+              applicationLink: "mailto:berlus@namaqua-eng.co.za",
+              reference: "N/A",
+              tags: [
+                "Engineering",
+                "Draughting",
+                "Mechanical",
+                "SolidWorks",
+                "Mining",
+                "Construction"
+              ],
+              shortDescription: "Mechanical Draughtsman role at Namaqua Engineering creating 3D models on SolidWorks, technical drawings, and BOMs for mining/construction industry.",
+              fullDescription: "Mechanical Draughtsman position requiring SolidWorks and AutoCAD/Draftsight proficiency. Responsibilities include 3D modeling, technical drawings, BOM creation, and client communication. Must have Grade 12 and be prepared for long hours. Diploma/Certificate in Draughting preferred. Email applications to berlus@namaqua-eng.co.za"
+            },
+            {
+              id: "process-industrial-engineer-graduates-makhawini-recruitment",
+              title: "Process/Industrial Engineer Graduates",
+              company: "Makhawini Recruitment",
+              location: "Not Specified",
+              type: "Full-time • Graduate",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-22T00:00:00+02:00",
+              closingDate: "N/A",
+              applicationLink: "mailto:recruitment@makhawinirecruitment.co.za",
+              reference: "N/A",
+              tags: [
+                "Engineering",
+                "Graduate Programme",
+                "Process Engineering",
+                "Industrial Engineering"
+              ],
+              shortDescription: "Graduate Mechanical Engineers needed for Process Engineer and Industrial Engineer roles. Recent graduates encouraged to apply.",
+              fullDescription: "Seeking Mechanical Engineering graduates for Process Engineer and Industrial Engineer positions. Ideal for recent graduates looking to start their career in engineering. Email CV to recruitment@makhawinirecruitment.co.za"
+            },
+            {
+              id: "engineering-learnership-programme-atns-2026-2027",
+              title: "Engineering Learnership Programme 2026-2027",
+              company: "ATNS (Air Traffic and Navigation Services)",
+              location: "Johannesburg (Bonaero Park)",
+              type: "Learnership • Full-time",
+              duration: "24 Months",
+              reportTo: "N/A",
+              datePosted: "2025-09-22T00:00:00+02:00",
+              closingDate: "2025-09-25",
+              applicationLink: "https://atns.cl.br/",
+              reference: "N/A",
+              tags: [
+                "Engineering",
+                "Learnership",
+                "Electrical Engineering",
+                "Electronics",
+                "Aviation"
+              ],
+              shortDescription: "24-month Engineering Learnership for Electrical/Electronics Engineering students at ATNS Aviation Training Academy.",
+              fullDescription: "ATNS Engineering Learnership Programme for 2026-2027. 24-month programme with 8 months training at Aviation Training Academy and 16 months operational exposure. For Electrical/Electronics Engineering students. Register CV at career junction by 25 September 2025."
+            },
+            {
+              id: "civil-engineering-intern-mine-rehabilitation-mintek",
+              title: "Civil Engineering Intern - Mine Rehabilitation",
+              company: "Mintek",
+              location: "Randburg, Gauteng",
+              type: "Internship • Full-time",
+              duration: "2025/2026 Programme",
+              reportTo: "N/A",
+              datePosted: "2025-09-22T00:00:00+02:00",
+              closingDate: "2025-09-25",
+              applicationLink: "https://mintek.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=afdab9a4-d448-4fcc-b246-2f8dab95a546",
+              reference: "minte_000359",
+              tags: [
+                "Civil Engineering",
+                "Internship",
+                "Mining",
+                "Rehabilitation",
+                "Environmental"
+              ],
+              shortDescription: "Civil Engineering internship at Mintek focusing on mine rehabilitation projects, site monitoring, and technical investigations.",
+              fullDescription: "MME Internship Programme at Mintek for Civil Engineering graduates. Assist in mine rehabilitation programme, site monitoring, technical investigations, and project management. Requires Bachelor's degree in Civil Engineering with 60% average. Apply online by 25 September 2025."
+            },
   
   
 ];
