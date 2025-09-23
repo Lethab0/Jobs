@@ -1307,6 +1307,116 @@ const jobs = [
               shortDescription: "Civil Engineering internship at Mintek focusing on mine rehabilitation projects, site monitoring, and technical investigations.",
               fullDescription: "MME Internship Programme at Mintek for Civil Engineering graduates. Assist in mine rehabilitation programme, site monitoring, technical investigations, and project management. Requires Bachelor's degree in Civil Engineering with 60% average. Apply online by 25 September 2025."
             },
+            {
+              id: "engineer-in-training-industrial-engineering-eskom",
+              title: "Engineer in Training - Industrial Engineering",
+              company: "Eskom",
+              location: "Sunninghill, Gauteng (Megawatt Park)",
+              type: "Internship • Full-time",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-22T14:01:05+00:00",
+              closingDate: "2025-09-30",
+              applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=62e21f1f-41c3-4a08-88bf-51ffb05b9c89",
+              reference: "N/A",
+              tags: [
+                "Engineering",
+                "Internship",
+                "Industrial Engineering",
+                "Energy",
+                "Graduate Programme"
+              ],
+              shortDescription: "Engineer in Training positions at Eskom for Industrial Engineering graduates. Comprehensive development program with hands-on experience across power utility operations.",
+              fullDescription: "Two Engineer in Training positions at Eskom for recent BEng/BSc Industrial Engineering graduates. Structured development program combining institutionalized training with practical experience across Eskom operations. Based at Megawatt Park in Sunninghill. Market-related remuneration. Apply by 30 September 2025."
+            },
+            {
+              id: "fintech-internship-programme-2026-mtn",
+              title: "Fintech Internship Programme 2026",
+              company: "MTN",
+              location: "South Africa (Remote/On-site)",
+              type: "Internship • Full-time",
+              duration: "2026 Programme",
+              reportTo: "N/A",
+              datePosted: "2025-09-22T13:37:36+00:00",
+              closingDate: "2025-09-22",
+              applicationLink: "https://leap.ly/opportunities/927",
+              reference: "N/A",
+              tags: [
+                "Fintech",
+                "Internship",
+                "IT",
+                "Finance",
+                "Graduate Programme"
+              ],
+              shortDescription: "MTN Fintech Internship Programme 2026 for graduates in various fields including IT, Engineering, Finance, and Business.",
+              fullDescription: "MTN Fintech Internship Programme 2026 offering 16 positions across South Africa. For graduates with 1-3 years experience and 65%+ academic average. Fields include IT, Engineering, Finance, Business, and more. Hands-on experience in digital payments, mobile money, and product innovation. Apply by 22 September 2025."
+            },
+            {
+              id: "engineering-learnership-programme-aviation-atns",
+              title: "Engineering Learnership Programme - Aviation",
+              company: "ATNS (Air Traffic and Navigation Services)",
+              location: "Johannesburg (Bonaero Park)",
+              type: "Learnership • Full-time",
+              duration: "24 Months",
+              reportTo: "N/A",
+              datePosted: "2025-09-21T14:25:24+00:00",
+              closingDate: "2025-09-30",
+              applicationLink: "https://atns.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=74437f99-995c-47e2-b770-a95fd538a55c",
+              reference: "atns_000732",
+              tags: [
+                "Engineering",
+                "Learnership",
+                "Aviation",
+                "Electrical Engineering",
+                "Electronics"
+              ],
+              shortDescription: "24-month Engineering Learnership Programme at ATNS for Electrical/Electronics Engineering graduates in aviation industry.",
+              fullDescription: "ATNS Engineering Learnership Programme for 2026-2027. 24-month programme with 3 months training at Aviation Training Academy and 21 months operational deployment. For Electrical/Electronics Engineering graduates. Potential permanent placement upon completion. Apply by 30 September 2025."
+            },
+            {
+              id: "facilities-intern-engineering-momentum",
+              title: "Facilities Intern - Engineering",
+              company: "Momentum Group",
+              location: "Bellville, Western Cape",
+              type: "Temporary • Internship",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-20T12:34:06+00:00",
+              closingDate: "2025-09-30",
+              applicationLink: "https://momentumgroupltd.internal.erecruit.co/candidateapp/Jobs/View/MMH250210-9?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
+              reference: "MMH250210-9",
+              tags: [
+                "Engineering",
+                "Internship",
+                "Facilities Management",
+                "Electrical Engineering",
+                "Mechanical Engineering"
+              ],
+              shortDescription: "Facilities Intern at Momentum Group for Engineering graduates. Hands-on experience with electrical, mechanical, and HVAC systems.",
+              fullDescription: "Facilities Intern position at Momentum Group for Engineering diploma/degree holders. Gain experience in electrical, mechanical, and HVAC systems maintenance, safety compliance, and sustainability projects. Based in Bellville, Western Cape. Apply by 30 September 2025."
+            },
+            {
+              id: "graduate-mechanical-engineer-3d-scanning-weir-minerals",
+              title: "Graduate Mechanical Engineer - 3D Scanning",
+              company: "Weir Minerals",
+              location: "Port Elizabeth",
+              type: "Full-time • Graduate Programme",
+              duration: "Not Specified",
+              reportTo: "N/A",
+              datePosted: "2025-09-19T08:36:33+00:00",
+              closingDate: "2025-09-25",
+              applicationLink: "https://weir.wd3.myworkdayjobs.com/en-US/Weir_External_Careers/job/Port-Elizabeth/Graduate--Mechanical-Engineer_R0033358",
+              reference: "R0033358",
+              tags: [
+                "Engineering",
+                "Graduate Programme",
+                "Mechanical Engineering",
+                "3D Scanning",
+                "Mining"
+              ],
+              shortDescription: "Graduate Mechanical Engineer role specializing in 3D scanning technology at Weir Minerals.",
+              fullDescription: "Graduate Mechanical Engineer position at Weir Minerals focusing on 3D scanning and dimensional analysis. Requires Bachelor's degree in Mechanical Engineering with 60%+ average. Full training in Romer Absolute Arm and PolyWorks software. Based in Port Elizabeth. Apply by 25 September 2025."
+            },
   
   
 ];
