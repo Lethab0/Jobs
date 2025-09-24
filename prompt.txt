@@ -32,11 +32,30 @@ const jobs = [
     closingDate: "YYYY-MM-DD", // Extract or use "N/A"
     applicationLink: "URL or mailto:email@company.com", // Always use the actual link or email from the post
     reference: "Reference Code", // Extract or use "N/A"
-    tags: ["Tag1", "Tag2", "Tag3"], // Create relevant tags based on title, field, and type (e.g., "Engineering", "Internship", "Graduate Programme")
+    tags: ["Tag1", "Tag2", "Tag3"], // Create relevant tags based on qualifications, field of study, and type
     shortDescription: "A 1-2 sentence summary from the posting.",
     fullDescription: "A more detailed 2-3 sentence summary, focusing on key responsibilities and requirements."
   }
 ];
+CATEGORIZATION REQUIREMENTS:
+When creating tags, ensure they align with the following categories for proper display on the index page:
+
+Mechanical Engineering: Mechanical, Mechatronics, Draughting, 3D Scanning, Automotive, Aeronautical
+
+Electrical Engineering: Electrical, Electronics, Instrumentation, Power Systems, Renewable Energy
+
+Mining & Metallurgy: Mining, Metallurgical Engineering, Metallurgy, Geology, Rock Engineering
+
+Software Development: Software Development, Programming, AI, Machine Learning, C#, Python, Java
+
+IT & Technology: IT, Technology, Business Analysis, Systems, Network, Cybersecurity
+
+Civil Engineering: Civil Engineering, Construction, Infrastructure, Structural
+
+Industrial Engineering: Industrial Engineering, Process Engineering, Manufacturing, Supply Chain
+
+Chemical Engineering: Chemical Engineering, Process Engineering, Petrochemical
+
 STEP 2: WHATSAPP NOTIFICATION SPECIFICATION
 After the JavaScript object, create a WhatsApp notification. Follow this exact template, using relevant emojis and including the specific application link at the bottom.
 
@@ -66,6 +85,8 @@ CRITICAL INSTRUCTIONS:
 ID Creation: The id in the JS object and the link in the WhatsApp message MUST MATCH EXACTLY.
 
 For Email Applications: If the applicationLink is a mailto: email, include the email in the JS fullDescription field, but DO NOT include it in the public WhatsApp message. Only use the https://jobs-miy4.onrender.com link.
+
+Categorization: Carefully analyze qualifications and field requirements to assign correct tags that match the category options above.
 
 Inference: If information is missing (e.g., company, location), make a logical guess based on the context of the posting or use "Not Specified".
 
