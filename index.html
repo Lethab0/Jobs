@@ -92,11 +92,121 @@
         
         .intro-section {
             text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: var(--white);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .intro-section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+        
+        .intro-section p {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        
+        .category-box {
+            background: linear-gradient(135deg, var(--white) 0%, #f8fafc 100%);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .category-box:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .category-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .category-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-dark);
+        }
+        
+        .category-count {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .jobs-section {
+            display: none;
+            margin-top: 40px;
+        }
+        
+        .jobs-section.active {
+            display: block;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background-color: var(--medium-gray);
+            color: var(--text-color);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .back-button:hover {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+        
+        .selected-category {
+            display: flex;
+            align-items: center;
+            gap: 15px;
             margin-bottom: 30px;
             padding: 20px;
             background-color: var(--white);
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .selected-category-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+        
+        .selected-category-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-dark);
         }
         
         .job-listings {
@@ -193,33 +303,6 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         
-        .ad-side-container {
-            margin: 20px 0;
-            text-align: center;
-            padding: 15px;
-            background: var(--white);
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            max-width: 300px;
-            float: right;
-            margin-left: 20px;
-            margin-bottom: 20px;
-        }
-        
-        @media (max-width: 768px) {
-            .ad-side-container {
-                float: none;
-                margin: 20px auto;
-                max-width: 100%;
-            }
-        }
-        
-        .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        
         footer {
             text-align: center;
             margin-top: 60px;
@@ -256,12 +339,22 @@
             font-weight: bold;
             margin-left: 10px;
         }
+        
+        .no-jobs {
+            text-align: center;
+            padding: 60px 40px;
+            color: var(--text-color);
+            font-style: italic;
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <h1>Latest Job Opportunities</h1>
+            <h1>Engineering & IT Job Portal</h1>
             <a href="bursaries.html" class="bursary-link">
                 <i class="fas fa-graduation-cap"></i> View Bursaries
             </a>
@@ -285,14 +378,18 @@
         </div>
 
         <div class="intro-section">
-            <h2>Find Your Next Career Opportunity</h2>
-            <p>Browse our curated list of job openings and bursaries for South African students and graduates.</p>
+            <h2>Find Your Dream Career</h2>
+            <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
 
-        <!-- Ad 2: Original Ad (Keeping existing) -->
+        <!-- Categories Grid -->
+        <div class="categories-grid" id="categories-grid">
+            <!-- Categories will be injected here -->
+        </div>
+
+        <!-- Ad 2 -->
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
-            <!-- Vertical 1 -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-2755916028562913"
@@ -304,11 +401,23 @@
             </script>
         </div>
 
-        <div class="job-listings" id="job-list">
-            <!-- Jobs will be injected here -->
+        <!-- Jobs Section (Hidden by default) -->
+        <div class="jobs-section" id="jobs-section">
+            <button class="back-button" id="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Categories
+            </button>
+            
+            <div class="selected-category" id="selected-category">
+                <i class="fas fa-cogs selected-category-icon" id="selected-icon"></i>
+                <h2 class="selected-category-title" id="selected-title">Mechanical Engineering</h2>
+            </div>
+
+            <div class="job-listings" id="job-list">
+                <!-- Jobs will be injected here when category is clicked -->
+            </div>
         </div>
 
-        <!-- Ad 3: In-Article -->
+        <!-- Ad 3 -->
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
              crossorigin="anonymous"></script>
@@ -323,34 +432,7 @@
             </script>
         </div>
 
-        <!-- Ad 4: Original Ad (Keeping existing) -->
-        <div class="ad-container">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
-            <!-- Vertical 1 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="6226242747"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-
-        <!-- Ad 5: Multiplex -->
-        <div class="ad-container">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-             crossorigin="anonymous"></script>
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-format="autorelaxed"
-                 data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="5668458092"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+    </div>
 
     <footer>
         <div class="footer-links">
@@ -368,32 +450,157 @@
             // Set current year in footer
             document.getElementById('current-year').textContent = new Date().getFullYear();
             
+            const categoriesGrid = document.getElementById('categories-grid');
+            const jobsSection = document.getElementById('jobs-section');
+            const backButton = document.getElementById('back-button');
+            const selectedCategory = document.getElementById('selected-category');
+            const selectedIcon = document.getElementById('selected-icon');
+            const selectedTitle = document.getElementById('selected-title');
             const jobList = document.getElementById('job-list');
             const today = new Date();
             const oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-            jobs.forEach(job => {
-                const jobDate = new Date(job.datePosted);
-                const isNew = jobDate > oneWeekAgo;
+            // Define categories with their icons and associated tags
+            const categories = {
+                'mechanical': {
+                    name: 'Mechanical Engineering',
+                    icon: 'fas fa-cogs',
+                    tags: ['Mechanical Engineering', 'Mechanical', 'Mechatronics', 'Draughting', '3D Scanning', 'Automotive', 'Aeronautical']
+                },
+                'electrical': {
+                    name: 'Electrical Engineering',
+                    icon: 'fas fa-bolt',
+                    tags: ['Electrical Engineering', 'Electrical', 'Electronics', 'Instrumentation', 'Power Systems', 'Renewable Energy']
+                },
+                'mining': {
+                    name: 'Mining & Metallurgy',
+                    icon: 'fas fa-mountain',
+                    tags: ['Mining', 'Metallurgical Engineering', 'Metallurgy', 'Mine Rehabilitation', 'Geology', 'Rock Engineering']
+                },
+                'software': {
+                    name: 'Software Development',
+                    icon: 'fas fa-code',
+                    tags: ['Software Development', 'Programming', 'Web Development', 'AI', 'Machine Learning', 'C#', 'Python', 'Java']
+                },
+                'it': {
+                    name: 'IT & Technology',
+                    icon: 'fas fa-laptop-code',
+                    tags: ['IT', 'Technology', 'Business Analysis', 'Systems', 'Network', 'Cybersecurity', 'Database']
+                },
+                'civil': {
+                    name: 'Civil Engineering',
+                    icon: 'fas fa-hard-hat',
+                    tags: ['Civil Engineering', 'Construction', 'Infrastructure', 'Structural', 'Geotechnical', 'Transportation']
+                },
+                'industrial': {
+                    name: 'Industrial Engineering',
+                    icon: 'fas fa-industry',
+                    tags: ['Industrial Engineering', 'Process Engineering', 'Manufacturing', 'Supply Chain', 'Logistics', 'Quality Control']
+                },
+                'chemical': {
+                    name: 'Chemical Engineering',
+                    icon: 'fas fa-flask',
+                    tags: ['Chemical Engineering', 'Process Engineering', 'Petrochemical', 'Pharmaceutical', 'Biochemical']
+                }
+            };
+
+            // Count jobs for each category
+            function countJobsInCategory(categoryKey) {
+                const category = categories[categoryKey];
+                return jobs.filter(job => {
+                    return category.tags.some(tag => 
+                        job.tags.some(jobTag => 
+                            jobTag.toLowerCase().includes(tag.toLowerCase())
+                        )
+                    );
+                }).length;
+            }
+
+            // Create category boxes
+            Object.keys(categories).forEach(categoryKey => {
+                const category = categories[categoryKey];
+                const jobCount = countJobsInCategory(categoryKey);
                 
-                const jobCard = document.createElement('div');
-                jobCard.className = 'job-card';
-                jobCard.innerHTML = `
-                    <h2>
-                        ${job.title}
-                        ${isNew ? '<span class="new-badge">NEW</span>' : ''}
-                    </h2>
-                    <div class="job-meta">
-                        <span><i class="fas fa-building"></i> ${job.company}</span>
-                        <span><i class="fas fa-map-marker-alt"></i> ${job.location}</span>
-                        <span><i class="fas fa-calendar-alt"></i> ${jobDate.toLocaleDateString('en-ZA')}</span>
-                    </div>
-                    <p>${job.shortDescription}</p>
-                    <a href="job.html?id=${job.id}" class="view-btn">
-                        <i class="fas fa-eye"></i> View Details
-                    </a>
+                const categoryBox = document.createElement('div');
+                categoryBox.className = 'category-box';
+                categoryBox.dataset.category = categoryKey;
+                categoryBox.innerHTML = `
+                    <i class="${category.icon} category-icon"></i>
+                    <h3 class="category-title">${category.name}</h3>
+                    <div class="category-count">${jobCount} Jobs</div>
                 `;
-                jobList.appendChild(jobCard);
+                categoriesGrid.appendChild(categoryBox);
+            });
+
+            // Filter jobs by category
+            function showJobsByCategory(categoryKey) {
+                const category = categories[categoryKey];
+                jobList.innerHTML = '';
+
+                const filteredJobs = jobs.filter(job => {
+                    return category.tags.some(tag => 
+                        job.tags.some(jobTag => 
+                            jobTag.toLowerCase().includes(tag.toLowerCase())
+                        )
+                    );
+                });
+
+                if (filteredJobs.length === 0) {
+                    jobList.innerHTML = '<div class="no-jobs">No jobs available in this category at the moment. Please check back later.</div>';
+                    return;
+                }
+
+                filteredJobs.forEach(job => {
+                    const jobDate = new Date(job.datePosted);
+                    const isNew = jobDate > oneWeekAgo;
+                    
+                    const jobCard = document.createElement('div');
+                    jobCard.className = 'job-card';
+                    jobCard.innerHTML = `
+                        <h2>
+                            ${job.title}
+                            ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+                        </h2>
+                        <div class="job-meta">
+                            <span><i class="fas fa-building"></i> ${job.company}</span>
+                            <span><i class="fas fa-map-marker-alt"></i> ${job.location}</span>
+                            <span><i class="fas fa-calendar-alt"></i> ${jobDate.toLocaleDateString('en-ZA')}</span>
+                        </div>
+                        <p>${job.shortDescription}</p>
+                        <a href="job.html?id=${job.id}" class="view-btn">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                    `;
+                    jobList.appendChild(jobCard);
+                });
+            }
+
+            // Category box click event
+            document.querySelectorAll('.category-box').forEach(box => {
+                box.addEventListener('click', function() {
+                    const categoryKey = this.dataset.category;
+                    const category = categories[categoryKey];
+                    
+                    // Update selected category display
+                    selectedIcon.className = `${category.icon} selected-category-icon`;
+                    selectedTitle.textContent = category.name;
+                    
+                    // Show jobs for this category
+                    showJobsByCategory(categoryKey);
+                    
+                    // Switch to jobs view
+                    categoriesGrid.style.display = 'none';
+                    jobsSection.classList.add('active');
+                    
+                    // Scroll to top of jobs section
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            });
+
+            // Back button event
+            backButton.addEventListener('click', function() {
+                jobsSection.classList.remove('active');
+                categoriesGrid.style.display = 'grid';
             });
         });
     </script>
