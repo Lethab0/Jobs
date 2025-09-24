@@ -9,7 +9,7 @@
     <meta property="og:title" content="Latest Job Opportunities & Bursaries | StudentFunding.co.za">
     <meta property="og:description" content="Discover current job openings and bursary opportunities for South African students and graduates.">
     <meta property="og:type" content="website">
-    <title>Latest Job Opportunities & Bursaries | StudentFunding.co.za</title>
+    <title>Engineering & IT Job Portal | StudentFunding.co.za</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -444,8 +444,209 @@
         <p>&copy; <span id="current-year"></span> Student Funding Hub. All rights reserved.</p>
     </footer>
 
-    <script src="jobs.js"></script>
     <script>
+        // Sample job data - replace with your actual jobs.js content
+        const jobs = [
+            {
+                id: "graduate-mechanical-engineer-3d-scanning-weir-minerals",
+                title: "Graduate Mechanical Engineer - 3D Scanning",
+                company: "Weir Minerals",
+                location: "Port Elizabeth",
+                type: "Full-time • Graduate Programme",
+                duration: "Not Specified",
+                reportTo: "N/A",
+                datePosted: "2025-09-19T08:36:33+00:00",
+                closingDate: "2025-09-25",
+                applicationLink: "https://weir.wd3.myworkdayjobs.com/en-US/Weir_External_Careers/job/Port-Elizabeth/Graduate--Mechanical-Engineer_R0033358",
+                reference: "R0033358",
+                tags: [
+                    "Engineering",
+                    "Graduate Programme",
+                    "Mechanical Engineering",
+                    "3D Scanning",
+                    "Mining"
+                ],
+                shortDescription: "Graduate Mechanical Engineer role specializing in 3D scanning technology at Weir Minerals.",
+                fullDescription: "Graduate Mechanical Engineer position at Weir Minerals focusing on 3D scanning and dimensional analysis. Requires Bachelor's degree in Mechanical Engineering with 60%+ average. Full training in Romer Absolute Arm and PolyWorks software. Based in Port Elizabeth. Apply by 25 September 2025."
+            },
+            {
+                id: "engineer-in-training-industrial-engineering-eskom",
+                title: "Engineer in Training - Industrial Engineering",
+                company: "Eskom",
+                location: "Sunninghill, Gauteng (Megawatt Park)",
+                type: "Internship • Full-time",
+                duration: "Not Specified",
+                reportTo: "N/A",
+                datePosted: "2025-09-22T14:01:05+00:00",
+                closingDate: "2025-09-30",
+                applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=62e21f1f-41c3-4a08-88bf-51ffb05b9c89",
+                reference: "N/A",
+                tags: [
+                    "Engineering",
+                    "Internship",
+                    "Industrial Engineering",
+                    "Energy",
+                    "Graduate Programme"
+                ],
+                shortDescription: "Engineer in Training positions at Eskom for Industrial Engineering graduates.",
+                fullDescription: "Two Engineer in Training positions at Eskom for recent BEng/BSc Industrial Engineering graduates. Structured development program combining institutionalized training with practical experience across Eskom operations. Based at Megawatt Park in Sunninghill. Market-related remuneration. Apply by 30 September 2025."
+            },
+            {
+                id: "fintech-internship-programme-2026-mtn",
+                title: "Fintech Internship Programme 2026",
+                company: "MTN",
+                location: "South Africa (Remote/On-site)",
+                type: "Internship • Full-time",
+                duration: "2026 Programme",
+                reportTo: "N/A",
+                datePosted: "2025-09-22T13:37:36+00:00",
+                closingDate: "2025-09-22",
+                applicationLink: "https://leap.ly/opportunities/927",
+                reference: "N/A",
+                tags: [
+                    "Fintech",
+                    "Internship",
+                    "IT",
+                    "Finance",
+                    "Graduate Programme"
+                ],
+                shortDescription: "MTN Fintech Internship Programme 2026 for graduates in various fields including IT, Engineering, Finance, and Business.",
+                fullDescription: "MTN Fintech Internship Programme 2026 offering 16 positions across South Africa. For graduates with 1-3 years experience and 65%+ academic average. Fields include IT, Engineering, Finance, Business, and more. Hands-on experience in digital payments, mobile money, and product innovation. Apply by 22 September 2025."
+            },
+            {
+                id: "engineering-learnership-programme-aviation-atns",
+                title: "Engineering Learnership Programme - Aviation",
+                company: "ATNS (Air Traffic and Navigation Services)",
+                location: "Johannesburg (Bonaero Park)",
+                type: "Learnership • Full-time",
+                duration: "24 Months",
+                reportTo: "N/A",
+                datePosted: "2025-09-21T14:25:24+00:00",
+                closingDate: "2025-09-30",
+                applicationLink: "https://atns.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=74437f99-995c-47e2-b770-a95fd538a55c",
+                reference: "atns_000732",
+                tags: [
+                    "Engineering",
+                    "Learnership",
+                    "Aviation",
+                    "Electrical Engineering",
+                    "Electronics"
+                ],
+                shortDescription: "24-month Engineering Learnership Programme at ATNS for Electrical/Electronics Engineering graduates in aviation industry.",
+                fullDescription: "ATNS Engineering Learnership Programme for 2026-2027. 24-month programme with 3 months training at Aviation Training Academy and 21 months operational deployment. For Electrical/Electronics Engineering graduates. Potential permanent placement upon completion. Apply by 30 September 2025."
+            },
+            {
+                id: "facilities-intern-engineering-momentum",
+                title: "Facilities Intern - Engineering",
+                company: "Momentum Group",
+                location: "Bellville, Western Cape",
+                type: "Temporary • Internship",
+                duration: "Not Specified",
+                reportTo: "N/A",
+                datePosted: "2025-09-20T12:34:06+00:00",
+                closingDate: "2025-09-30",
+                applicationLink: "https://momentumgroupltd.internal.erecruit.co/candidateapp/Jobs/View/MMH250210-9?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
+                reference: "MMH250210-9",
+                tags: [
+                    "Engineering",
+                    "Internship",
+                    "Facilities Management",
+                    "Electrical Engineering",
+                    "Mechanical Engineering"
+                ],
+                shortDescription: "Facilities Intern at Momentum Group for Engineering graduates. Hands-on experience with electrical, mechanical, and HVAC systems.",
+                fullDescription: "Facilities Intern position at Momentum Group for Engineering diploma/degree holders. Gain experience in electrical, mechanical, and HVAC systems maintenance, safety compliance, and sustainability projects. Based in Bellville, Western Cape. Apply by 30 September 2025."
+            },
+            {
+                id: "it-intern-opportunities-resort-technology-division-the-beekman-group-port-shepstone-kwazulu-natal",
+                title: "IT Intern - Resort Technology",
+                company: "The Beekman Group",
+                location: "Port Shepstone, KwaZulu-Natal",
+                type: "Internship • Full-time",
+                duration: "Not Specified",
+                reportTo: "N/A",
+                datePosted: "2025-09-18T03:27:26+00:00",
+                closingDate: "N/A",
+                applicationLink: "https://www.beekmangroup.com/job/3-x-it-intern-resorts/",
+                reference: "36/09",
+                tags: [
+                    "IT",
+                    "Internship",
+                    "Hospitality",
+                    "Technology",
+                    "Technical Support"
+                ],
+                shortDescription: "Three IT Intern positions at Beekman Group's resort operations. Gain experience in hardware installation, server maintenance, and technical support.",
+                fullDescription: "IT Intern positions at The Beekman Group's resort technology division. Requires IT qualifications and A+/N+/MCP certifications. Responsibilities include installing/maintaining computer hardware and software, server monitoring, network systems maintenance, and providing technical support. Physical capability for working in confined spaces and safety protocol adherence required."
+            },
+            {
+                id: "business-analyst-graduate-shape-africa-s-financial-future",
+                title: "Business Analyst Graduate",
+                company: "Absa Group",
+                location: "Johannesburg (Hybrid)",
+                type: "Full-time • Graduate Program",
+                duration: "Not Specified",
+                reportTo: "Programme Supervisors",
+                datePosted: "2025-09-12T06:43:53+00:00",
+                closingDate: "2025-09-26",
+                applicationLink: "https://absa.wd3.myworkdayjobs.com/en-US/ABSAcareersite/job/Johannesburg/Business-Analyst-Graduate_R-15979452",
+                reference: "R-15979452",
+                tags: [
+                    "Business Analysis",
+                    "Graduate Programme",
+                    "Finance",
+                    "Banking",
+                    "IT"
+                ],
+                shortDescription: "Business Analyst Graduate role at Absa Group. Shape Africa's financial future through requirements gathering and digital transformation.",
+                fullDescription: "Business Analyst Graduate position at Absa Group. Requires NQF Level 7 qualification in IT, Computer Science or related fields. Responsibilities include requirements gathering, process analysis, stakeholder collaboration, JAD sessions, and supporting business initiative implementations. Focus on digital transformation in banking across 12 African countries."
+            },
+            {
+                id: "graduate-project-engineer-launch-your-engineering-career-at-cape-town-harbour",
+                title: "Graduate Project Engineer",
+                company: "3C Metal Group - Cinco Engineering",
+                location: "Cape Town Harbour",
+                type: "Permanent • Full-time",
+                duration: "Permanent",
+                reportTo: "N/A",
+                datePosted: "2025-09-12T03:29:03+00:00",
+                closingDate: "N/A",
+                applicationLink: "https://3cmetal-career.talent-soft.com/job/job-graduate-project-engineer_292.aspx",
+                reference: "2025-292",
+                tags: [
+                    "Engineering",
+                    "Graduate Programme",
+                    "Mechanical Engineering",
+                    "Maritime",
+                    "Project Engineering"
+                ],
+                shortDescription: "Graduate Project Engineer role at Cape Town Harbour working on maritime engineering projects including steel fabrication and ship repair.",
+                fullDescription: "Graduate Project Engineer position with Cinco Engineering (3C Metal Group) at Cape Town Harbour. Requires Bachelor's degree in Mechanical Engineering. Work on diverse projects including steel structure fabrication, industrial piping, mechanical fitting, ship repair, and maintenance operations in the maritime industry."
+            },
+            {
+                id: "transport-intern-launch-your-career-in-energy-logistics",
+                title: "Transport Intern - Energy Logistics",
+                company: "TotalEnergies",
+                location: "Johannesburg",
+                type: "Internship • Full-time",
+                duration: "Not Specified",
+                reportTo: "Programme Supervisors",
+                datePosted: "2025-09-10T10:30:12+00:00",
+                closingDate: "N/A",
+                applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Transport-Internship/70506?Codes=9999#",
+                reference: "N/A",
+                tags: [
+                    "Logistics",
+                    "Internship",
+                    "Supply Chain",
+                    "Energy",
+                    "Transport"
+                ],
+                shortDescription: "Transport Intern at TotalEnergies gaining experience in logistics operations, vehicle scheduling, and safety protocols.",
+                fullDescription: "Transport Internship at TotalEnergies for graduates in Industrial Engineering, Logistics, or Supply Chain Management. Responsibilities include vehicle compliance verification, load scheduling, HSSE standards implementation, transport operations management, and safety compliance in the energy sector."
+            }
+        ];
+
         document.addEventListener('DOMContentLoaded', function() {
             // Set current year in footer
             document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -532,7 +733,7 @@
                 categoriesGrid.appendChild(categoryBox);
             });
 
-            // Filter jobs by category
+            // Filter jobs by category and sort by date (newest first)
             function showJobsByCategory(categoryKey) {
                 const category = categories[categoryKey];
                 jobList.innerHTML = '';
@@ -543,6 +744,11 @@
                             jobTag.toLowerCase().includes(tag.toLowerCase())
                         )
                     );
+                });
+
+                // Sort jobs by date (newest first)
+                filteredJobs.sort((a, b) => {
+                    return new Date(b.datePosted) - new Date(a.datePosted);
                 });
 
                 if (filteredJobs.length === 0) {
