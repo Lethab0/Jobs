@@ -228,6 +228,9 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             border-left: 4px solid var(--primary-color);
             transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         
         .job-card:hover {
@@ -260,6 +263,29 @@
             color: var(--primary-color);
             font-size: 0.9rem;
         }
+
+        .job-card .tags-container {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .job-card .tag {
+            background-color: var(--light-gray);
+            color: var(--primary-dark);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .job-card .date-info {
+            font-size: 0.85rem;
+            color: #6b7280; 
+            margin-bottom: 15px;
+        }
         
         .job-card p {
             margin-bottom: 15px;
@@ -278,6 +304,8 @@
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s ease;
+            width: 100%; 
+            justify-content: center;
         }
         
         .view-btn:hover {
@@ -285,6 +313,12 @@
             transform: translateY(-2px);
         }
         
+        .view-btn.disabled {
+            background-color: var(--medium-gray);
+            cursor: not-allowed;
+            color: #9ca3af;
+        }
+
         .ad-container {
             margin: 40px 0;
             text-align: center;
@@ -348,7 +382,9 @@
             background-color: var(--white);
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            grid-column: 1 / -1;
         }
+        
     </style>
 </head>
 <body>
@@ -362,18 +398,17 @@
     </header>
 
     <div class="container">
-        <!-- Ad 1: In-Feed Above -->
         <div class="ad-feed-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-             crossorigin="anonymous"></script>
+                crossorigin="anonymous"></script>
             <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-format="fluid"
-                 data-ad-layout-key="-6t+ed+2i-1n-4w"
-                 data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="7392603302"></ins>
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-6t+ed+2i-1n-4w"
+                data-ad-client="ca-pub-2755916028562913"
+                data-ad-slot="7392603302"></ins>
             <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
+                (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
 
@@ -382,53 +417,47 @@
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
 
-        <!-- Categories Grid -->
         <div class="categories-grid" id="categories-grid">
-            <!-- Categories will be injected here -->
-        </div>
+            </div>
 
-        <!-- Ad 2 -->
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
             <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="6226242747"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+                style="display:block"
+                data-ad-client="ca-pub-2755916028562913"
+                data-ad-slot="6226242747"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
             <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
+                (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
 
-        <!-- Jobs Section (Hidden by default) -->
         <div class="jobs-section" id="jobs-section">
             <button class="back-button" id="back-button">
                 <i class="fas fa-arrow-left"></i> Back to Categories
             </button>
             
-            <div class="selected-category" id="selected-category">
-                <i class="fas fa-cogs selected-category-icon" id="selected-icon"></i>
-                <h2 class="selected-category-title" id="selected-title">Mechanical Engineering</h2>
+            <div class="selected-category" id="selected-category-display">
+                <i class="fas selected-category-icon" id="selected-icon"></i>
+                <h2 class="selected-category-title" id="selected-title"></h2>
             </div>
 
             <div class="job-listings" id="job-list">
-                <!-- Jobs will be injected here when category is clicked -->
-            </div>
+                </div>
         </div>
 
-        <!-- Ad 3 -->
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-             crossorigin="anonymous"></script>
+                crossorigin="anonymous"></script>
             <ins class="adsbygoogle"
-                 style="display:block; text-align:center;"
-                 data-ad-layout="in-article"
-                 data-ad-format="fluid"
-                 data-ad-client="ca-pub-2755916028562913"
-                 data-ad-slot="1561692123"></ins>
+                style="display:block; text-align:center;"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-2755916028562913"
+                data-ad-slot="1561692123"></ins>
             <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
+                (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
 
@@ -444,221 +473,27 @@
         <p>&copy; <span id="current-year"></span> Student Funding Hub. All rights reserved.</p>
     </footer>
 
-    <script>
-        // Sample job data - replace with your actual jobs.js content
-        const jobs = [
-            {
-                id: "graduate-mechanical-engineer-3d-scanning-weir-minerals",
-                title: "Graduate Mechanical Engineer - 3D Scanning",
-                company: "Weir Minerals",
-                location: "Port Elizabeth",
-                type: "Full-time • Graduate Programme",
-                duration: "Not Specified",
-                reportTo: "N/A",
-                datePosted: "2025-09-19T08:36:33+00:00",
-                closingDate: "2025-09-25",
-                applicationLink: "https://weir.wd3.myworkdayjobs.com/en-US/Weir_External_Careers/job/Port-Elizabeth/Graduate--Mechanical-Engineer_R0033358",
-                reference: "R0033358",
-                tags: [
-                    "Engineering",
-                    "Graduate Programme",
-                    "Mechanical Engineering",
-                    "3D Scanning",
-                    "Mining"
-                ],
-                shortDescription: "Graduate Mechanical Engineer role specializing in 3D scanning technology at Weir Minerals.",
-                fullDescription: "Graduate Mechanical Engineer position at Weir Minerals focusing on 3D scanning and dimensional analysis. Requires Bachelor's degree in Mechanical Engineering with 60%+ average. Full training in Romer Absolute Arm and PolyWorks software. Based in Port Elizabeth. Apply by 25 September 2025."
-            },
-            {
-                id: "engineer-in-training-industrial-engineering-eskom",
-                title: "Engineer in Training - Industrial Engineering",
-                company: "Eskom",
-                location: "Sunninghill, Gauteng (Megawatt Park)",
-                type: "Internship • Full-time",
-                duration: "Not Specified",
-                reportTo: "N/A",
-                datePosted: "2025-09-22T14:01:05+00:00",
-                closingDate: "2025-09-30",
-                applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=62e21f1f-41c3-4a08-88bf-51ffb05b9c89",
-                reference: "N/A",
-                tags: [
-                    "Engineering",
-                    "Internship",
-                    "Industrial Engineering",
-                    "Energy",
-                    "Graduate Programme"
-                ],
-                shortDescription: "Engineer in Training positions at Eskom for Industrial Engineering graduates.",
-                fullDescription: "Two Engineer in Training positions at Eskom for recent BEng/BSc Industrial Engineering graduates. Structured development program combining institutionalized training with practical experience across Eskom operations. Based at Megawatt Park in Sunninghill. Market-related remuneration. Apply by 30 September 2025."
-            },
-            {
-                id: "fintech-internship-programme-2026-mtn",
-                title: "Fintech Internship Programme 2026",
-                company: "MTN",
-                location: "South Africa (Remote/On-site)",
-                type: "Internship • Full-time",
-                duration: "2026 Programme",
-                reportTo: "N/A",
-                datePosted: "2025-09-22T13:37:36+00:00",
-                closingDate: "2025-09-22",
-                applicationLink: "https://leap.ly/opportunities/927",
-                reference: "N/A",
-                tags: [
-                    "Fintech",
-                    "Internship",
-                    "IT",
-                    "Finance",
-                    "Graduate Programme"
-                ],
-                shortDescription: "MTN Fintech Internship Programme 2026 for graduates in various fields including IT, Engineering, Finance, and Business.",
-                fullDescription: "MTN Fintech Internship Programme 2026 offering 16 positions across South Africa. For graduates with 1-3 years experience and 65%+ academic average. Fields include IT, Engineering, Finance, Business, and more. Hands-on experience in digital payments, mobile money, and product innovation. Apply by 22 September 2025."
-            },
-            {
-                id: "engineering-learnership-programme-aviation-atns",
-                title: "Engineering Learnership Programme - Aviation",
-                company: "ATNS (Air Traffic and Navigation Services)",
-                location: "Johannesburg (Bonaero Park)",
-                type: "Learnership • Full-time",
-                duration: "24 Months",
-                reportTo: "N/A",
-                datePosted: "2025-09-21T14:25:24+00:00",
-                closingDate: "2025-09-30",
-                applicationLink: "https://atns.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=74437f99-995c-47e2-b770-a95fd538a55c",
-                reference: "atns_000732",
-                tags: [
-                    "Engineering",
-                    "Learnership",
-                    "Aviation",
-                    "Electrical Engineering",
-                    "Electronics"
-                ],
-                shortDescription: "24-month Engineering Learnership Programme at ATNS for Electrical/Electronics Engineering graduates in aviation industry.",
-                fullDescription: "ATNS Engineering Learnership Programme for 2026-2027. 24-month programme with 3 months training at Aviation Training Academy and 21 months operational deployment. For Electrical/Electronics Engineering graduates. Potential permanent placement upon completion. Apply by 30 September 2025."
-            },
-            {
-                id: "facilities-intern-engineering-momentum",
-                title: "Facilities Intern - Engineering",
-                company: "Momentum Group",
-                location: "Bellville, Western Cape",
-                type: "Temporary • Internship",
-                duration: "Not Specified",
-                reportTo: "N/A",
-                datePosted: "2025-09-20T12:34:06+00:00",
-                closingDate: "2025-09-30",
-                applicationLink: "https://momentumgroupltd.internal.erecruit.co/candidateapp/Jobs/View/MMH250210-9?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
-                reference: "MMH250210-9",
-                tags: [
-                    "Engineering",
-                    "Internship",
-                    "Facilities Management",
-                    "Electrical Engineering",
-                    "Mechanical Engineering"
-                ],
-                shortDescription: "Facilities Intern at Momentum Group for Engineering graduates. Hands-on experience with electrical, mechanical, and HVAC systems.",
-                fullDescription: "Facilities Intern position at Momentum Group for Engineering diploma/degree holders. Gain experience in electrical, mechanical, and HVAC systems maintenance, safety compliance, and sustainability projects. Based in Bellville, Western Cape. Apply by 30 September 2025."
-            },
-            {
-                id: "it-intern-opportunities-resort-technology-division-the-beekman-group-port-shepstone-kwazulu-natal",
-                title: "IT Intern - Resort Technology",
-                company: "The Beekman Group",
-                location: "Port Shepstone, KwaZulu-Natal",
-                type: "Internship • Full-time",
-                duration: "Not Specified",
-                reportTo: "N/A",
-                datePosted: "2025-09-18T03:27:26+00:00",
-                closingDate: "N/A",
-                applicationLink: "https://www.beekmangroup.com/job/3-x-it-intern-resorts/",
-                reference: "36/09",
-                tags: [
-                    "IT",
-                    "Internship",
-                    "Hospitality",
-                    "Technology",
-                    "Technical Support"
-                ],
-                shortDescription: "Three IT Intern positions at Beekman Group's resort operations. Gain experience in hardware installation, server maintenance, and technical support.",
-                fullDescription: "IT Intern positions at The Beekman Group's resort technology division. Requires IT qualifications and A+/N+/MCP certifications. Responsibilities include installing/maintaining computer hardware and software, server monitoring, network systems maintenance, and providing technical support. Physical capability for working in confined spaces and safety protocol adherence required."
-            },
-            {
-                id: "business-analyst-graduate-shape-africa-s-financial-future",
-                title: "Business Analyst Graduate",
-                company: "Absa Group",
-                location: "Johannesburg (Hybrid)",
-                type: "Full-time • Graduate Program",
-                duration: "Not Specified",
-                reportTo: "Programme Supervisors",
-                datePosted: "2025-09-12T06:43:53+00:00",
-                closingDate: "2025-09-26",
-                applicationLink: "https://absa.wd3.myworkdayjobs.com/en-US/ABSAcareersite/job/Johannesburg/Business-Analyst-Graduate_R-15979452",
-                reference: "R-15979452",
-                tags: [
-                    "Business Analysis",
-                    "Graduate Programme",
-                    "Finance",
-                    "Banking",
-                    "IT"
-                ],
-                shortDescription: "Business Analyst Graduate role at Absa Group. Shape Africa's financial future through requirements gathering and digital transformation.",
-                fullDescription: "Business Analyst Graduate position at Absa Group. Requires NQF Level 7 qualification in IT, Computer Science or related fields. Responsibilities include requirements gathering, process analysis, stakeholder collaboration, JAD sessions, and supporting business initiative implementations. Focus on digital transformation in banking across 12 African countries."
-            },
-            {
-                id: "graduate-project-engineer-launch-your-engineering-career-at-cape-town-harbour",
-                title: "Graduate Project Engineer",
-                company: "3C Metal Group - Cinco Engineering",
-                location: "Cape Town Harbour",
-                type: "Permanent • Full-time",
-                duration: "Permanent",
-                reportTo: "N/A",
-                datePosted: "2025-09-12T03:29:03+00:00",
-                closingDate: "N/A",
-                applicationLink: "https://3cmetal-career.talent-soft.com/job/job-graduate-project-engineer_292.aspx",
-                reference: "2025-292",
-                tags: [
-                    "Engineering",
-                    "Graduate Programme",
-                    "Mechanical Engineering",
-                    "Maritime",
-                    "Project Engineering"
-                ],
-                shortDescription: "Graduate Project Engineer role at Cape Town Harbour working on maritime engineering projects including steel fabrication and ship repair.",
-                fullDescription: "Graduate Project Engineer position with Cinco Engineering (3C Metal Group) at Cape Town Harbour. Requires Bachelor's degree in Mechanical Engineering. Work on diverse projects including steel structure fabrication, industrial piping, mechanical fitting, ship repair, and maintenance operations in the maritime industry."
-            },
-            {
-                id: "transport-intern-launch-your-career-in-energy-logistics",
-                title: "Transport Intern - Energy Logistics",
-                company: "TotalEnergies",
-                location: "Johannesburg",
-                type: "Internship • Full-time",
-                duration: "Not Specified",
-                reportTo: "Programme Supervisors",
-                datePosted: "2025-09-10T10:30:12+00:00",
-                closingDate: "N/A",
-                applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Transport-Internship/70506?Codes=9999#",
-                reference: "N/A",
-                tags: [
-                    "Logistics",
-                    "Internship",
-                    "Supply Chain",
-                    "Energy",
-                    "Transport"
-                ],
-                shortDescription: "Transport Intern at TotalEnergies gaining experience in logistics operations, vehicle scheduling, and safety protocols.",
-                fullDescription: "Transport Internship at TotalEnergies for graduates in Industrial Engineering, Logistics, or Supply Chain Management. Responsibilities include vehicle compliance verification, load scheduling, HSSE standards implementation, transport operations management, and safety compliance in the energy sector."
-            }
-        ];
+    <script src="jobs.js"></script> 
 
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Set current year in footer
+            // Check if the global 'jobs' array is loaded from jobs.js
+            if (typeof jobs === 'undefined' || !Array.isArray(jobs)) {
+                console.error("Error: 'jobs' data array not found. Ensure jobs.js is linked before this script block.");
+                return;
+            }
+
+            // DOM Elements
             document.getElementById('current-year').textContent = new Date().getFullYear();
-            
             const categoriesGrid = document.getElementById('categories-grid');
             const jobsSection = document.getElementById('jobs-section');
             const backButton = document.getElementById('back-button');
-            const selectedCategory = document.getElementById('selected-category');
             const selectedIcon = document.getElementById('selected-icon');
             const selectedTitle = document.getElementById('selected-title');
             const jobList = document.getElementById('job-list');
+            
             const today = new Date();
+            // Use one week (7 days) to determine if a job is "NEW"
             const oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
 
             // Define categories with their icons and associated tags
@@ -666,148 +501,222 @@
                 'mechanical': {
                     name: 'Mechanical Engineering',
                     icon: 'fas fa-cogs',
-                    tags: ['Mechanical Engineering', 'Mechanical', 'Mechatronics', 'Draughting', '3D Scanning', 'Automotive', 'Aeronautical']
+                    tags: ['Mechanical Engineering']
                 },
                 'electrical': {
                     name: 'Electrical Engineering',
                     icon: 'fas fa-bolt',
-                    tags: ['Electrical Engineering', 'Electrical', 'Electronics', 'Instrumentation', 'Power Systems', 'Renewable Energy']
+                    tags: ['Electrical Engineering', 'Power Systems']
                 },
                 'mining': {
                     name: 'Mining & Metallurgy',
                     icon: 'fas fa-mountain',
-                    tags: ['Mining', 'Metallurgical Engineering', 'Metallurgy', 'Mine Rehabilitation', 'Geology', 'Rock Engineering']
+                    tags: ['Mining & Metallurgy']
                 },
                 'software': {
                     name: 'Software Development',
                     icon: 'fas fa-code',
-                    tags: ['Software Development', 'Programming', 'Web Development', 'AI', 'Machine Learning', 'C#', 'Python', 'Java']
+                    tags: ['Software Development']
                 },
                 'it': {
                     name: 'IT & Technology',
                     icon: 'fas fa-laptop-code',
-                    tags: ['IT', 'Technology', 'Business Analysis', 'Systems', 'Network', 'Cybersecurity', 'Database']
+                    tags: ['IT & Technology', 'Desktop Support', 'Technical Support']
                 },
                 'civil': {
                     name: 'Civil Engineering',
                     icon: 'fas fa-hard-hat',
-                    tags: ['Civil Engineering', 'Construction', 'Infrastructure', 'Structural', 'Geotechnical', 'Transportation']
+                    tags: ['Civil Engineering', 'Transport Infrastructure', 'Highways', 'Rail']
                 },
                 'industrial': {
                     name: 'Industrial Engineering',
                     icon: 'fas fa-industry',
-                    tags: ['Industrial Engineering', 'Process Engineering', 'Manufacturing', 'Supply Chain', 'Logistics', 'Quality Control']
+                    tags: ['Industrial Engineering']
                 },
                 'chemical': {
                     name: 'Chemical Engineering',
                     icon: 'fas fa-flask',
-                    tags: ['Chemical Engineering', 'Process Engineering', 'Petrochemical', 'Pharmaceutical', 'Biochemical']
+                    tags: ['Chemical Engineering']
                 }
             };
 
-            // Count jobs for each category
+            /**
+             * Filters the global 'jobs' array to count items matching the category's tags.
+             * @param {string} categoryKey - The key of the category to count.
+             * @returns {number} The count of matching jobs.
+             */
             function countJobsInCategory(categoryKey) {
                 const category = categories[categoryKey];
+                if (!category) return 0;
+                
                 return jobs.filter(job => {
-                    return category.tags.some(tag => 
-                        job.tags.some(jobTag => 
-                            jobTag.toLowerCase().includes(tag.toLowerCase())
-                        )
-                    );
+                    // Check if any job tag matches any of the category's tags
+                    return job.tags.some(jobTag => category.tags.includes(jobTag));
                 }).length;
             }
 
-            // Create category boxes
-            Object.keys(categories).forEach(categoryKey => {
-                const category = categories[categoryKey];
-                const jobCount = countJobsInCategory(categoryKey);
+            /**
+             * Creates the HTML for a single job card.
+             * @param {object} job - The job object.
+             * @returns {string} The HTML string for the job card.
+             */
+            function createJobCardHTML(job) {
+                const jobDate = new Date(job.datePosted);
+                const isNew = jobDate > oneWeekAgo;
+                const closingDate = job.closingDate && job.closingDate !== 'N/A' ? new Date(job.closingDate) : null;
+                const isClosed = closingDate && closingDate < today;
+                const isClosingSoon = closingDate && closingDate >= today && (closingDate - today) / (1000 * 60 * 60 * 24) <= 7;
                 
-                const categoryBox = document.createElement('div');
-                categoryBox.className = 'category-box';
-                categoryBox.dataset.category = categoryKey;
-                categoryBox.innerHTML = `
-                    <i class="${category.icon} category-icon"></i>
-                    <h3 class="category-title">${category.name}</h3>
-                    <div class="category-count">${jobCount} Jobs</div>
-                `;
-                categoriesGrid.appendChild(categoryBox);
-            });
-
-            // Filter jobs by category and sort by date (newest first)
-            function showJobsByCategory(categoryKey) {
-                const category = categories[categoryKey];
-                jobList.innerHTML = '';
-
-                const filteredJobs = jobs.filter(job => {
-                    return category.tags.some(tag => 
-                        job.tags.some(jobTag => 
-                            jobTag.toLowerCase().includes(tag.toLowerCase())
-                        )
-                    );
+                // Format Date Posted
+                const postedDate = jobDate.toLocaleDateString('en-ZA', { 
+                    year: 'numeric', 
+                    month: 'short', 
+                    day: 'numeric' 
                 });
 
-                // Sort jobs by date (newest first)
+                // Format Closing Date
+                let closingInfo = 'N/A';
+                let closingBadge = '';
+                let buttonClass = '';
+
+                if (isClosed) {
+                    closingInfo = 'Closed';
+                    closingBadge = `<span class="tag" style="background-color: #fca5a5; color: #dc2626;">CLOSED</span>`;
+                    buttonClass = 'disabled';
+                } else if (closingDate) {
+                    const formattedClosingDate = closingDate.toLocaleDateString('en-ZA', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric' 
+                    });
+                    closingInfo = formattedClosingDate;
+
+                    if (isClosingSoon) {
+                        closingBadge = `<span class="tag" style="background-color: #fcd34d; color: #b45309;">Closing Soon!</span>`;
+                    }
+                }
+
+                // Meta info (Location, Type, Duration)
+                const metaHtml = `
+                    <span><i class="fas fa-map-marker-alt"></i> ${job.location || 'Not Specified'}</span>
+                    <span><i class="fas fa-clock"></i> ${job.type || 'N/A'}</span>
+                    <span><i class="fas fa-calendar-alt"></i> ${job.duration || 'N/A'}</span>
+                `;
+
+                // Tags HTML (Excluding 'Finance' for simplicity in this engineering/IT portal context)
+                const tagsHtml = job.tags
+                    .filter(tag => tag !== 'Finance')
+                    .map(tag => `<span class="tag">${tag}</span>`)
+                    .join('');
+
+                return `
+                    <div class="job-card">
+                        <div>
+                            <h2>
+                                ${job.title}
+                                ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+                            </h2>
+                            <p class="date-info">
+                                Posted: ${postedDate} | Closing: ${closingInfo}
+                                ${closingBadge}
+                            </p>
+                            <p><strong>Company:</strong> ${job.company}</p>
+                            <div class="job-meta">
+                                ${metaHtml}
+                            </div>
+                            <p>${job.shortDescription}</p>
+                            <div class="tags-container">${tagsHtml}</div>
+                        </div>
+                        <a href="${job.applicationLink}" target="_blank" rel="noopener noreferrer" class="view-btn ${buttonClass}" 
+                           ${isClosed ? 'aria-disabled="true"' : ''}
+                           onclick="${isClosed ? 'event.preventDefault();' : ''}">
+                            <i class="fas fa-external-link-alt"></i> ${isClosed ? 'Closed' : 'View & Apply'}
+                        </a>
+                    </div>
+                `;
+            }
+
+            /**
+             * Renders the category grid on the main view.
+             */
+            function renderCategories() {
+                categoriesGrid.innerHTML = '';
+                Object.keys(categories).forEach(key => {
+                    const category = categories[key];
+                    const jobCount = countJobsInCategory(key);
+                    
+                    const categoryBox = document.createElement('div');
+                    categoryBox.className = 'category-box';
+                    categoryBox.dataset.category = key;
+                    
+                    categoryBox.innerHTML = `
+                        <i class="${category.icon} category-icon"></i>
+                        <h3 class="category-title">${category.name}</h3>
+                        <div class="category-count">${jobCount} Jobs</div>
+                    `;
+
+                    // Add click handler to switch views
+                    categoryBox.addEventListener('click', () => {
+                        showJobsByCategory(key);
+                    });
+
+                    categoriesGrid.appendChild(categoryBox);
+                });
+            }
+
+            /**
+             * Renders the list of jobs for a selected category.
+             * @param {string} categoryKey - The key of the selected category.
+             */
+            function showJobsByCategory(categoryKey) {
+                const category = categories[categoryKey];
+                
+                // Filter jobs
+                const filteredJobs = jobs.filter(job => 
+                    job.tags.some(jobTag => category.tags.includes(jobTag))
+                );
+
+                // Sort: Newest first (descending datePosted)
                 filteredJobs.sort((a, b) => {
                     return new Date(b.datePosted) - new Date(a.datePosted);
                 });
 
+                // Update category display
+                selectedIcon.className = `fas selected-category-icon ${category.icon}`;
+                selectedTitle.textContent = `${category.name} Jobs (${filteredJobs.length})`;
+
+                // Populate job listings
+                jobList.innerHTML = '';
                 if (filteredJobs.length === 0) {
-                    jobList.innerHTML = '<div class="no-jobs">No jobs available in this category at the moment. Please check back later.</div>';
-                    return;
+                    jobList.innerHTML = '<div class="no-jobs">No jobs currently listed for this category. Please check back later.</div>';
+                } else {
+                    filteredJobs.forEach(job => {
+                        jobList.innerHTML += createJobCardHTML(job);
+                    });
                 }
 
-                filteredJobs.forEach(job => {
-                    const jobDate = new Date(job.datePosted);
-                    const isNew = jobDate > oneWeekAgo;
-                    
-                    const jobCard = document.createElement('div');
-                    jobCard.className = 'job-card';
-                    jobCard.innerHTML = `
-                        <h2>
-                            ${job.title}
-                            ${isNew ? '<span class="new-badge">NEW</span>' : ''}
-                        </h2>
-                        <div class="job-meta">
-                            <span><i class="fas fa-building"></i> ${job.company}</span>
-                            <span><i class="fas fa-map-marker-alt"></i> ${job.location}</span>
-                            <span><i class="fas fa-calendar-alt"></i> ${jobDate.toLocaleDateString('en-ZA')}</span>
-                        </div>
-                        <p>${job.shortDescription}</p>
-                        <a href="job.html?id=${job.id}" class="view-btn">
-                            <i class="fas fa-eye"></i> View Details
-                        </a>
-                    `;
-                    jobList.appendChild(jobCard);
-                });
+                // Switch views
+                categoriesGrid.style.display = 'none';
+                document.querySelector('.intro-section').style.display = 'none';
+                jobsSection.classList.add('active');
             }
 
-            // Category box click event
-            document.querySelectorAll('.category-box').forEach(box => {
-                box.addEventListener('click', function() {
-                    const categoryKey = this.dataset.category;
-                    const category = categories[categoryKey];
-                    
-                    // Update selected category display
-                    selectedIcon.className = `${category.icon} selected-category-icon`;
-                    selectedTitle.textContent = category.name;
-                    
-                    // Show jobs for this category
-                    showJobsByCategory(categoryKey);
-                    
-                    // Switch to jobs view
-                    categoriesGrid.style.display = 'none';
-                    jobsSection.classList.add('active');
-                    
-                    // Scroll to top of jobs section
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                });
-            });
-
-            // Back button event
-            backButton.addEventListener('click', function() {
+            /**
+             * Switches back to the category view.
+             */
+            function showCategories() {
                 jobsSection.classList.remove('active');
                 categoriesGrid.style.display = 'grid';
-            });
+                document.querySelector('.intro-section').style.display = 'block';
+            }
+
+            // --- Initial Setup and Event Listeners ---
+
+            // 1. Render categories on load
+            renderCategories();
+
+            // 2. Add listener to the back button
+            backButton.addEventListener('click', showCategories);
         });
     </script>
 </body>
