@@ -911,38 +911,74 @@ const jobs = [
                 reference: "N/A",
                 tags: ["Civil Engineering", "Environmental Engineering", "Quantity Surveying", "Urban Planning", "Graduate Programme", "Public Service"],
                 shortDescription: "25 engineering graduate positions across 5 district municipalities in Free State for 24-month internship programme with on-the-job development training.",
-                fullDescription: "The Office of the Premier, Free State Province invites applications for 25 engineering graduates to participate in a 24-month Graduate Internship Programme and Work Integrated Learning. Successful candidates will be placed across 5 District Municipalities (Motheo, Thabo Mofutsanyana, Lejweleputswa, Fezile Dabi, and Xhariep) and will undergo comprehensive on-the-job development training in technical, professional, public service, and life skills. The programme aims to enhance employability of unemployed graduates while improving service delivery in district municipalities. Required qualifications include National Diploma/Degree/B-Tech in Civil Engineering, Civil Engineering Project Management, Hydrology and Water Resources Engineering, Environmental Water Management, Quantity Surveying, Urban and Rural Planning, or Engineering Studies. A stipend will be paid according to the revised Directive on Developmental Programme in the Public Service. Applications must include updated CV with certified copies of qualifications, ID, and academic transcripts submitted to respective district coordinators.\n\nEmail applications to: linie.nkemele@fryremier.gov.za"
-                },
-                {
-                id: "electronics-instrumentation-technician-petrogistix-saudi-arabia",
-                title: "Electronics and Instrumentation Technician",
-                company: "Petroleum & Energy Logistics & Services Co. (Petrogistix)",
-                location: "Khobar City, Saudi Arabia",
-                type: "Full-time • Permanent",
-                duration: "Permanent",
-                reportTo: "Technical Manager",
-                datePosted: "2025-09-30T00:00:00+02:00",
-                closingDate: "2025-10-25",
-                applicationLink: "mailto:jobs@petrogistix.com",
-                reference: "N/A",
-                tags: ["Electrical Engineering", "Electronics", "Instrumentation", "Oil & Gas", "International"],
-                shortDescription: "Electronics and Instrumentation Technician role at Petrogistix in Saudi Arabia, focusing on installation, maintenance and repair of electronic systems in Oil & Gas equipment.",
-                fullDescription: "Petrogistix, a 100% Saudi company headquartered in Khobar providing innovative services to regional Oil & Gas operators, seeks an Electronics and Instrumentation Technician. The role involves installing, maintaining, and repairing electronic systems and instrumentation in PGX equipment, testing and calibrating sensors and control devices, performing routine inspections and preventive maintenance, and ensuring compliance with safety protocols. The ideal candidate should have 0-3 years experience with calibration, maintenance and installation of electronic instruments and sensors, knowledge of PLC systems and basic programming, ability to read wiring diagrams and schematics, and proficiency with diagnostic tools like multimeters. Requirements include High School or Diploma qualification, any nationality accepted, strong problem-solving and communication skills, and basic English language proficiency. Applications accepted until 25 October 2025 via email with job title in subject line.\n\nEmail applications to: jobs@petrogistix.com"
-                },
-                {
-                id: "junior-project-engineer-renewable-energy-cape-town",
-                title: "Junior Project Engineer - Renewable Energy",
-                company: "Leading Independent Power Producer (IPP)",
-                location: "Cape Town, Western Cape",
-                type: "Full-time • Permanent",
-                duration: "Permanent",
-                reportTo: "Project Manager",
-                datePosted: "2025-09-30T00:00:00+02:00",
-                closingDate: "N/A",
-                applicationLink: "mailto:engineering.vacancy@stand-outstaffing.co.za",
-                reference: "N/A",
-                tags: ["Electrical Engineering", "Civil Engineering", "Renewable Energy", "Project Engineering", "Energy Sector"],
-                shortDescription: "Junior Project Engineer position in Cape Town for renewable energy projects, ideal for recent graduates or new professionals passionate about sustainable energy.",
-                fullDescription: "A leading Independent Power Producer (IPP) in the renewable energy sector is seeking a Junior Project Engineer to join their team in Cape Town. This position offers an excellent opportunity for new professionals or recent graduates with a passion for renewable energy to gain valuable experience. The role requires a BSc Electrical Engineering, BSc Civil Engineering, BTech Electrical Engineering or BTech Civil Engineering qualification with minimum 1 year experience. Key responsibilities include participating in engineering design, developing and compiling tenders, contractor oversight, quality assurance, serving as technical interface between clients, contractors and management, and supporting time and budget objectives. The successful candidate must be willing to occasionally travel for short-term assignments and possess excellent written and verbal communication skills with ability to work both individually and in teams.\n\nEmail applications to: engineering.vacancy@stand-outstaffing.co.za"
+                fullDescription: `
+                The Office of the Premier, Free State Province invites applications for 25 engineering graduates to participate in a 24-month Graduate Internship Programme and Work Integrated Learning.
+                
+                Successful candidates will be placed across 5 District Municipalities (Motheo, Thabo Mofutsanyana, Lejweleputswa, Fezile Dabi, and Xhariep) and will undergo comprehensive on-the-job development training in technical, professional, public service, and life skills.
+                
+                The programme aims to enhance employability of unemployed graduates while improving service delivery in district municipalities.
+                
+                Required qualifications include National Diploma/Degree/B-Tech in:
+                • Civil Engineering
+                • Civil Engineering Project Management
+                • Hydrology and Water Resources Engineering
+                • Environmental Water Management
+                • Quantity Surveying
+                • Urban and Rural Planning
+                • Engineering Studies
+                
+                A stipend will be paid according to the revised Directive on Developmental Programme in the Public Service.
+                
+                Applications must include updated CV with certified copies of qualifications, ID, and academic transcripts submitted to respective district coordinators.
+                
+                Email applications to: linie.nkemele@fryremier.gov.za
+                }, { id: "electronics-instrumentation-technician-petrogistix-saudi-arabia", title: "Electronics and Instrumentation Technician", company: "Petroleum & Energy Logistics & Services Co. (Petrogistix)", location: "Khobar City, Saudi Arabia", type: "Full-time • Permanent", duration: "Permanent", reportTo: "Technical Manager", datePosted: "2025-09-30T00:00:00+02:00", closingDate: "2025-10-25", applicationLink: "mailto:jobs@petrogistix.com", reference: "N/A", tags: ["Electrical Engineering", "Electronics", "Instrumentation", "Oil & Gas", "International"], shortDescription: "Electronics and Instrumentation Technician role at Petrogistix in Saudi Arabia, focusing on installation, maintenance and repair of electronic systems in Oil & Gas equipment.", fullDescription:
+                Petrogistix, a 100% Saudi company headquartered in Khobar providing innovative services to regional Oil & Gas operators, seeks an Electronics and Instrumentation Technician.
+                
+                Key Responsibilities:
+                • Install, maintain, and repair electronic systems and instrumentation in PGX equipment
+                • Test, calibrate, and troubleshoot sensors and control devices
+                • Perform routine inspections and preventive maintenance
+                • Ensure compliance with safety protocols and accurate instrument readings
+                • Assist in system upgrades to improve efficiency and reliability
+                
+                Required Skills and Qualifications:
+                • 0-3 years experience with calibration, maintenance and installation of electronic instruments
+                • Knowledge of PLC systems and basic programming
+                • Ability to read wiring diagrams, P&IDs, and schematics
+                • Proficiency with diagnostic tools like multimeters
+                • Understanding of analog and digital signals
+                • High School or Diploma qualification
+                • Strong problem-solving, communication, and teamwork skills
+                • Basic computer skills for data logging and documentation
+                • Basic English language proficiency
+                
+                Applications accepted until 25 October 2025 via email with job title in subject line.
+                
+                Email applications to: jobs@petrogistix.com
+                }, { id: "junior-project-engineer-renewable-energy-cape-town", title: "Junior Project Engineer - Renewable Energy", company: "Leading Independent Power Producer (IPP)", location: "Cape Town, Western Cape", type: "Full-time • Permanent", duration: "Permanent", reportTo: "Project Manager", datePosted: "2025-09-30T00:00:00+02:00", closingDate: "N/A", applicationLink: "mailto:engineering.vacancy@stand-outstaffing.co.za", reference: "N/A", tags: ["Electrical Engineering", "Civil Engineering", "Renewable Energy", "Project Engineering", "Energy Sector"], shortDescription: "Junior Project Engineer position in Cape Town for renewable energy projects, ideal for recent graduates or new professionals passionate about sustainable energy.", fullDescription:
+                A leading Independent Power Producer (IPP) in the renewable energy sector is seeking a Junior Project Engineer to join their team in Cape Town.
+                
+                This position offers an excellent opportunity for new professionals or recent graduates with a passion for renewable energy to gain valuable experience in the growing sustainable energy sector.
+                
+                Key Responsibilities:
+                • Participate in engineering design and development
+                • Develop and compile tenders and project documentation
+                • Provide contractor oversight and quality assurance
+                • Serve as technical interface between clients, contractors and management
+                • Support time and budget objectives for projects
+                • Ensure compliance with engineering standards and regulations
+                
+                Role Requirements:
+                • BSc Electrical Engineering or BSc Civil Engineering
+                • BTech Electrical Engineering or BTech Civil Engineering
+                • Minimum 1 year relevant experience
+                • Willingness to occasionally travel for short-term assignments
+                • Ability to work both individually and in teams
+                • Excellent written and verbal communication skills
+                • Strong problem-solving and analytical abilities
+                
+                Email applications to: engineering.vacancy@stand-outstaffing.co.za
+                `
                 }
   ];
