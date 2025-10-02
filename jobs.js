@@ -911,74 +911,190 @@ const jobs = [
                 reference: "N/A",
                 tags: ["Civil Engineering", "Environmental Engineering", "Quantity Surveying", "Urban Planning", "Graduate Programme", "Public Service"],
                 shortDescription: "25 engineering graduate positions across 5 district municipalities in Free State for 24-month internship programme with on-the-job development training.",
-                fullDescription: `
-                The Office of the Premier, Free State Province invites applications for 25 engineering graduates to participate in a 24-month Graduate Internship Programme and Work Integrated Learning.
-                
-                Successful candidates will be placed across 5 District Municipalities (Motheo, Thabo Mofutsanyana, Lejweleputswa, Fezile Dabi, and Xhariep) and will undergo comprehensive on-the-job development training in technical, professional, public service, and life skills.
-                
-                The programme aims to enhance employability of unemployed graduates while improving service delivery in district municipalities.
-                
-                Required qualifications include National Diploma/Degree/B-Tech in:
-                • Civil Engineering
-                • Civil Engineering Project Management
-                • Hydrology and Water Resources Engineering
-                • Environmental Water Management
-                • Quantity Surveying
-                • Urban and Rural Planning
-                • Engineering Studies
-                
-                A stipend will be paid according to the revised Directive on Developmental Programme in the Public Service.
-                
-                Applications must include updated CV with certified copies of qualifications, ID, and academic transcripts submitted to respective district coordinators.
-                
-                Email applications to: linie.nkemele@fryremier.gov.za
-                }, { id: "electronics-instrumentation-technician-petrogistix-saudi-arabia", title: "Electronics and Instrumentation Technician", company: "Petroleum & Energy Logistics & Services Co. (Petrogistix)", location: "Khobar City, Saudi Arabia", type: "Full-time • Permanent", duration: "Permanent", reportTo: "Technical Manager", datePosted: "2025-09-30T00:00:00+02:00", closingDate: "2025-10-25", applicationLink: "mailto:jobs@petrogistix.com", reference: "N/A", tags: ["Electrical Engineering", "Electronics", "Instrumentation", "Oil & Gas", "International"], shortDescription: "Electronics and Instrumentation Technician role at Petrogistix in Saudi Arabia, focusing on installation, maintenance and repair of electronic systems in Oil & Gas equipment.", fullDescription:
-                Petrogistix, a 100% Saudi company headquartered in Khobar providing innovative services to regional Oil & Gas operators, seeks an Electronics and Instrumentation Technician.
-                
-                Key Responsibilities:
-                • Install, maintain, and repair electronic systems and instrumentation in PGX equipment
-                • Test, calibrate, and troubleshoot sensors and control devices
-                • Perform routine inspections and preventive maintenance
-                • Ensure compliance with safety protocols and accurate instrument readings
-                • Assist in system upgrades to improve efficiency and reliability
-                
-                Required Skills and Qualifications:
-                • 0-3 years experience with calibration, maintenance and installation of electronic instruments
-                • Knowledge of PLC systems and basic programming
-                • Ability to read wiring diagrams, P&IDs, and schematics
-                • Proficiency with diagnostic tools like multimeters
-                • Understanding of analog and digital signals
-                • High School or Diploma qualification
-                • Strong problem-solving, communication, and teamwork skills
-                • Basic computer skills for data logging and documentation
-                • Basic English language proficiency
-                
-                Applications accepted until 25 October 2025 via email with job title in subject line.
-                
-                Email applications to: jobs@petrogistix.com
-                }, { id: "junior-project-engineer-renewable-energy-cape-town", title: "Junior Project Engineer - Renewable Energy", company: "Leading Independent Power Producer (IPP)", location: "Cape Town, Western Cape", type: "Full-time • Permanent", duration: "Permanent", reportTo: "Project Manager", datePosted: "2025-09-30T00:00:00+02:00", closingDate: "N/A", applicationLink: "mailto:engineering.vacancy@stand-outstaffing.co.za", reference: "N/A", tags: ["Electrical Engineering", "Civil Engineering", "Renewable Energy", "Project Engineering", "Energy Sector"], shortDescription: "Junior Project Engineer position in Cape Town for renewable energy projects, ideal for recent graduates or new professionals passionate about sustainable energy.", fullDescription:
-                A leading Independent Power Producer (IPP) in the renewable energy sector is seeking a Junior Project Engineer to join their team in Cape Town.
-                
-                This position offers an excellent opportunity for new professionals or recent graduates with a passion for renewable energy to gain valuable experience in the growing sustainable energy sector.
-                
-                Key Responsibilities:
-                • Participate in engineering design and development
-                • Develop and compile tenders and project documentation
-                • Provide contractor oversight and quality assurance
-                • Serve as technical interface between clients, contractors and management
-                • Support time and budget objectives for projects
-                • Ensure compliance with engineering standards and regulations
-                
-                Role Requirements:
-                • BSc Electrical Engineering or BSc Civil Engineering
-                • BTech Electrical Engineering or BTech Civil Engineering
-                • Minimum 1 year relevant experience
-                • Willingness to occasionally travel for short-term assignments
-                • Ability to work both individually and in teams
-                • Excellent written and verbal communication skills
-                • Strong problem-solving and analytical abilities
-                
-                Email applications to: engineering.vacancy@stand-outstaffing.co.za
-                `
+                fullDescription: "The Office of the Premier, Free State Province invites applications for 25 engineering graduates to participate in a 24-month Graduate Internship Programme and Work Integrated Learning. Successful candidates will be placed across 5 District Municipalities (Motheo, Thabo Mofutsanyana, Lejweleputswa, Fezile Dabi, and Xhariep) and will undergo comprehensive on-the-job development training in technical, professional, public service, and life skills. The programme aims to enhance employability of unemployed graduates while improving service delivery in district municipalities. Required qualifications include National Diploma/Degree/B-Tech in Civil Engineering, Civil Engineering Project Management, Hydrology and Water Resources Engineering, Environmental Water Management, Quantity Surveying, Urban and Rural Planning, or Engineering Studies. A stipend will be paid according to the revised Directive on Developmental Programme in the Public Service. Applications must include updated CV with certified copies of qualifications, ID, and academic transcripts submitted to respective district coordinators.\n\nEmail applications to: linie.nkemele@fryremier.gov.za"
+                },
+                {
+                id: "electronics-instrumentation-technician-petrogistix-saudi-arabia",
+                title: "Electronics and Instrumentation Technician",
+                company: "Petroleum & Energy Logistics & Services Co. (Petrogistix)",
+                location: "Khobar City, Saudi Arabia",
+                type: "Full-time • Permanent",
+                duration: "Permanent",
+                reportTo: "Technical Manager",
+                datePosted: "2025-09-30T00:00:00+02:00",
+                closingDate: "2025-10-25",
+                applicationLink: "mailto:jobs@petrogistix.com",
+                reference: "N/A",
+                tags: ["Electrical Engineering", "Electronics", "Instrumentation", "Oil & Gas", "International"],
+                shortDescription: "Electronics and Instrumentation Technician role at Petrogistix in Saudi Arabia, focusing on installation, maintenance and repair of electronic systems in Oil & Gas equipment.",
+                fullDescription: "Petrogistix, a 100% Saudi company headquartered in Khobar providing innovative services to regional Oil & Gas operators, seeks an Electronics and Instrumentation Technician. The role involves installing, maintaining, and repairing electronic systems and instrumentation in PGX equipment, testing and calibrating sensors and control devices, performing routine inspections and preventive maintenance, and ensuring compliance with safety protocols. The ideal candidate should have 0-3 years experience with calibration, maintenance and installation of electronic instruments and sensors, knowledge of PLC systems and basic programming, ability to read wiring diagrams and schematics, and proficiency with diagnostic tools like multimeters. Requirements include High School or Diploma qualification, any nationality accepted, strong problem-solving and communication skills, and basic English language proficiency. Applications accepted until 25 October 2025 via email with job title in subject line.\n\nEmail applications to: jobs@petrogistix.com"
+                },
+                {
+                id: "junior-project-engineer-renewable-energy-cape-town",
+                title: "Junior Project Engineer - Renewable Energy",
+                company: "Leading Independent Power Producer (IPP)",
+                location: "Cape Town, Western Cape",
+                type: "Full-time • Permanent",
+                duration: "Permanent",
+                reportTo: "Project Manager",
+                datePosted: "2025-09-30T00:00:00+02:00",
+                closingDate: "N/A",
+                applicationLink: "mailto:engineering.vacancy@stand-outstaffing.co.za",
+                reference: "N/A",
+                tags: ["Electrical Engineering", "Civil Engineering", "Renewable Energy", "Project Engineering", "Energy Sector"],
+                shortDescription: "Junior Project Engineer position in Cape Town for renewable energy projects, ideal for recent graduates or new professionals passionate about sustainable energy.",
+                fullDescription: "A leading Independent Power Producer (IPP) in the renewable energy sector is seeking a Junior Project Engineer to join their team in Cape Town. This position offers an excellent opportunity for new professionals or recent graduates with a passion for renewable energy to gain valuable experience. The role requires a BSc Electrical Engineering, BSc Civil Engineering, BTech Electrical Engineering or BTech Civil Engineering qualification with minimum 1 year experience. Key responsibilities include participating in engineering design, developing and compiling tenders, contractor oversight, quality assurance, serving as technical interface between clients, contractors and management, and supporting time and budget objectives. The successful candidate must be willing to occasionally travel for short-term assignments and possess excellent written and verbal communication skills with ability to work both individually and in teams.\n\nEmail applications to: engineering.vacancy@stand-outstaffing.co.za"
+                },
+                {
+                  id: "engineers-in-training-eskom-cape-coastal-cluster",
+                  title: "Engineers in Training – Eskom Cape Coastal Cluster",
+                  company: "Eskom",
+                  location: "Cape Town, Western Cape",
+                  type: "Internship • Fixed-term Contract",
+                  duration: "Programme Duration",
+                  reportTo: "Programme Supervisors",
+                  datePosted: "2025-10-01T12:35:14+02:00",
+                  closingDate: "2025-10-13",
+                  applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=c2b4f1ec-832a-49b5-850e-efce9d665410",
+                  reference: "eskom_000226",
+                  tags: ["Electrical Engineering", "Graduate Programme", "Power Generation"],
+                  shortDescription: "Eskom seeks engineering graduates for our Cape Coastal Cluster Engineers in Training programme. Launch your career with South Africa's premier electricity utility. Gain hands-on experience in power operations while developing professional engineering expertise.",
+                  fullDescription: `Eskom, South Africa's premier electricity utility company, is seeking talented and ambitious engineering graduates to join our Engineers in Training programme at our Cape Coastal Cluster.
+              
+              Reference Number: eskom_000226
+              Location: Western Cape, Cape Town
+              Department: Maintenance & Operations
+              Business Unit: Cape Coastal Cluster
+              Task Grade: L7
+              Contract Type: Internship Programme
+              Remuneration: Market Related
+              Closing Date: 13 October 2025
+              
+              QUALIFICATIONS REQUIRED:
+              • B.Eng./B.Sc. in Electrical Engineering
+              • B.Eng./B.Sc. in Mechatronics/Electronics Engineering
+              
+              ESSENTIAL SKILLS AND COMPETENCIES:
+              • Strong Communication Skills
+              • Technical Aptitude with solid grasp of engineering principles
+              • Safety Consciousness and commitment to workplace safety
+              • Self-Discipline and Conscientiousness
+              • Responsibility and Commitment
+              • Emotional Resilience
+              • Physical Capability for hands-on technical work
+              • Positive Attitude and solution-oriented mindset
+              • Team Collaboration abilities
+              
+              PROGRAMME BENEFITS:
+              • Work alongside experienced professionals and industry experts
+              • Gain exposure to cutting-edge technology and infrastructure
+              • Develop practical skills in maintenance and operations
+              • Build foundation for professional engineering registration
+              • Contribute to South Africa's energy transformation
+              • Access structured mentorship and career development
+              
+              Eskom is dedicated to fostering equality, employment equity, and workplace diversity. Preference may be given to candidates from under-represented designated groups.
+              
+              Submit your application online through our careers portal before the closing date of 13 October 2025. Include comprehensive CV, certified copies of academic qualifications, ID document, and relevant certificates.`
+                },
+                {
+                  id: "data-analyst-internship-boksburg",
+                  title: "Data Analyst Internship",
+                  company: "Ann Swann Personnel Client",
+                  location: "Boksburg, Gauteng",
+                  type: "Internship • Fixed-term Contract",
+                  duration: "1 Month (Sep 30 - Oct 30 2025)",
+                  reportTo: "Senior Analysts",
+                  datePosted: "2025-10-01T06:34:44+02:00",
+                  closingDate: "2025-10-30",
+                  applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?id=annswann_personnel&vacancy_ref=JHB002199&source=Indeed",
+                  reference: "JHB002199",
+                  tags: ["IT & Technology", "Software Development", "Data Analytics"],
+                  shortDescription: "Launch your data analytics career in Boksburg! Join our client as a Data Analyst Intern to gain hands-on experience with SQL, Excel, Power BI, and QlikView. Work alongside senior analysts and turn data into actionable business insights.",
+                  fullDescription: `Exciting Data Analyst Internship opportunity with a forward-thinking organization in Boksburg, designed to provide hands-on experience in the dynamic field of data analytics.
+              
+              Location: Boksburg, Gauteng
+              Duration: Fixed-term (September 30, 2025 – October 30, 2025)
+              Employment Type: Permanent Internship
+              Reference: JHB002199
+              Level: Graduate
+              
+              ROLE RESPONSIBILITIES:
+              • Data Management & Preparation: Gathering information from various sources, cleaning datasets, and preparing data for analysis
+              • Reporting & Visualization: Using SQL, Microsoft Excel, QlikView, and Power BI to create compelling reports and interactive dashboards
+              • Quality Assurance & Documentation: Validating data accuracy and maintaining thorough documentation
+              • Insight Generation: Identifying trends, patterns, and opportunities within data
+              • Cross-functional Collaboration: Providing data support across organizational departments
+              • Process Improvement: Contributing to streamlining data processes and enhancing reporting efficiency
+              
+              REQUIRED QUALIFICATIONS:
+              • Completed degree in Computer Science, Information Technology, Data Analytics, Statistics, Information Systems, or related field
+              • Proficiency in Microsoft Excel with solid understanding of formulas, pivot tables, and data manipulation
+              • Basic knowledge of SQL for querying and managing databases
+              • Familiarity with data visualization tools such as Power BI or QlikView
+              
+              KEY COMPETENCIES:
+              • Strong analytical mindset with exceptional attention to detail
+              • Excellent written and verbal communication skills
+              • Genuine passion for problem-solving and continuous learning
+              • Ability to work collaboratively in team environment
+              • Self-motivated with proactive approach to challenges
+              
+              ADVANTAGEOUS:
+              • Knowledge of Salesforce or other CRM platforms
+              
+              This internship offers exposure to enterprise-level tools, work on meaningful projects, mentorship from experienced professionals, and portfolio development.`
+                },
+                {
+                  id: "electrical-engineering-graduate-lit-south-africa",
+                  title: "Graduate Programme: Electrical Engineering",
+                  company: "LIT South Africa",
+                  location: "Multiple Locations",
+                  type: "Graduate Programme • Fixed-term Contract",
+                  duration: "12 Months",
+                  reportTo: "Programme Mentors",
+                  datePosted: "2025-10-01T06:24:56+02:00",
+                  closingDate: "2025-10-13",
+                  applicationLink: "https://liquidtech.mcidirecthire.com/External/Application?Ref=Dc9J8GiWNLXwr1SXGVaCPL69u%2b6mLfQDHWVqJg55uUAFZ3%2b9TJGgKQHOKmAa2%2fcEfda4QlO%2boWl5iwfXBylsyg%3d%3d",
+                  reference: "MICT SETA Supported",
+                  tags: ["Electrical Engineering", "Graduate Programme", "Professional Development"],
+                  shortDescription: "Launch your Electrical Engineering career with LIT South Africa's 12-month Graduate Programme. Gain practical experience, develop professional skills, and work alongside industry experts. MICT SETA supported opportunity for recent NQF 5/6 graduates.",
+                  fullDescription: `LIT South Africa's comprehensive 12-month Electrical Engineering Graduate Programme, supported by MICT SETA, designed to bridge the gap between academic qualification and professional excellence.
+              
+              Programme Duration: 12 Months (Fixed-Term Contract)
+              Qualification Level: NQF 5/6
+              Support: MICT SETA Supported
+              
+              PROGRAMME OBJECTIVES:
+              • Practical Work Experience: Hands-on exposure across various departments and projects
+              • Skills Development: Build technical competencies and professional skills
+              • Career Exploration: Discover specific areas within Electrical Engineering
+              • Mentorship: Work alongside experienced professionals
+              • Industry Knowledge: Understand real-world applications of academic training
+              
+              ESSENTIAL REQUIREMENTS:
+              • Valid Matric Certificate
+              • Completed NQF Level 5 or 6 qualification in Electrical Engineering from recognized institution
+              • South African Citizenship with valid ID Book or Card
+              • Proficiency in Microsoft Office Suite
+              • Computer literacy with solid understanding of technology
+              • Strong written and verbal communication skills in English
+              
+              ELIGIBILITY CRITERIA:
+              • Candidates who have previously completed an internship programme are not eligible
+              • Candidates with more than two years of work experience will not qualify
+              • Programme specifically designed for recent graduates entering workforce
+              
+              PROGRAMME OFFERINGS:
+              • Structured 12-month learning programme with clear developmental objectives
+              • Exposure to diverse projects and operational areas within Electrical Engineering
+              • Professional mentorship and guidance from industry experts
+              • Supportive environment encouraging innovation and growth
+              • Foundation for engineering career
+              
+              EMPLOYMENT EQUITY:
+              LIT South Africa is committed to transformation and creating an inclusive workplace. Preference will be given to Employment Equity (EE) candidates from designated groups.
+              
+              Submit applications including comprehensive CV, certified copies of qualifications, certified copy of ID, and Matric Certificate.`
                 }
   ];
