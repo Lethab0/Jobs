@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Upload Form</title>
+</head>
+<body>
+
+<div id="upload-container">
+    <style>
+        /* Simple Styling for the form */
+        #upload-container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        select, input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #status-message {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    </style>
+
+    <h2>CV Upload Form</h2>
+    <form id="cv-upload-form" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="field-select">1. Select Your Field of Study:</label>
+            <select id="field-select" name="field" required>
+                <option value="">-- Choose Field --</option>
+                <optgroup label="Engineering">
+                    <option value="Aeronautical">Aeronautical</option>
+                    <option value="Chemical">Chemical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Computer">Computer (Eng.)</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="Industrial">Industrial</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Metallurgical">Metallurgical</option>
+                    <option value="Mining">Mining</option>
+                </optgroup>
+                <optgroup label="Computer Science & IT">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Information Technology">Information Technology</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="cv-file">2. Upload Your CV (PDF, DOCX, Images):</label>
+            <input type="file" id="cv-file" name="cvFile" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
+        </div>
+
+        <button type="submit" id="submit-btn">Upload CV</button>
+
+        <div id="status-message"></div>
+    </form>
+
+    <script>
+        // *** UPDATED WITH YOUR NEW WEB APP URL ***
+        const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwk1fxarcH_FKYBsB1lb1j_w708WVDlLTSQKBhbx_VzHw903k_CmI9LUiCZ_2ztGMZq/exec";
+
+        document.getElementById('cv-upload-form').addEventListener('submit', async function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            const form = event.target;
+            const statusMessage = document.getElementById('status-message');
+            const submitBtn = document.getElementById('submit-btn');
+
+            // Reset status message
+            statusMessage.textContent = 'Uploading... Please wait.';
+            statusMessage.className = '';
+            submitBtn.disabled = true;
+
+            try {
+                // Collect form data as multipart/form-data
+                const formData = new FormData(form);
+                
+                // Fetch request to the Google Apps Script Web App
+                const response = await fetch(WEB_APP_URL, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                // The GAS Web App returns a raw HTML string.
+                const htmlResponse = await response.text();
+
+                // Find the content inside the <h1> and <p> tags in the response HTML for the custom message.
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlResponse, 'text/html');
+                const title = doc.querySelector('h1') ? doc.querySelector('h1').textContent : 'Response';
+                const paragraph = doc.querySelector('p') ? doc.querySelector('p').textContent : '';
+
+                // Display success or error
+                if (title.toLowerCase().includes('success')) {
+                    statusMessage.innerHTML = `<strong>${title}</strong><br>${paragraph}`;
+                    statusMessage.className = 'success';
+                    // Optional: form.reset(); // Clear form on successful upload
+                } else {
+                    // Handles server-side errors returned by GAS
+                    statusMessage.innerHTML = `<strong>${title}</strong><br>${paragraph}`;
+                    statusMessage.className = 'error';
+                }
+
+            } catch (error) {
+                // Handles network or fetch-related errors
+                statusMessage.innerHTML = `<strong>Network Error:</strong> Could not connect to the server.`;
+                statusMessage.className = 'error';
+                console.error('Fetch error:', error);
+            } finally {
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</div>
+
+</body>
+</html>
