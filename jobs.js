@@ -1112,45 +1112,45 @@ const jobs = [
                   reference: "N/A",
                   tags: ["Mining & Metallurgy", "Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
                   shortDescription: "Northern Coal offers 12-month Engineering Graduate Internships in Carolina, Mpumalanga for Mining, Mechanical, Electrical, and Chemical Engineering graduates. Gain practical mining industry experience with mentorship. Email: Recruitment@northerncoal.co.za",
-                  fullDescription: `Northern Coal (Pty) Ltd invites unemployed South African graduates to apply for the 2025/2026 Engineering Graduate Internship Programme in Carolina, Mpumalanga.
+                  fullDescription: `<div>Northern Coal (Pty) Ltd invites unemployed South African graduates to apply for the 2025/2026 Engineering Graduate Internship Programme in Carolina, Mpumalanga.</div>
               
-              Location: Carolina, Mpumalanga, South Africa
-              Duration: 12 Months
-              Closing Date: 30 November 2025
+              <div><strong>Location:</strong> Carolina, Mpumalanga, South Africa</div>
+              <div><strong>Duration:</strong> 12 Months</div>
+              <div><strong>Closing Date:</strong> 30 November 2025</div>
               
-              ABOUT NORTHERN COAL:
-              Northern Coal is a leading coal-mining company committed to responsible mining practices, sustainability, and community development. The company operates with integrity, fairness, diversity, and innovation.
+              <div><strong>ABOUT NORTHERN COAL:</strong></div>
+              <div>Northern Coal is a leading coal-mining company committed to responsible mining practices, sustainability, and community development. The company operates with integrity, fairness, diversity, and innovation.</div>
               
-              INTERNSHIP DISCIPLINES:
-              • Mining Engineering
-              • Mechanical Engineering
-              • Electrical Engineering
-              • Chemical Engineering
+              <div><strong>INTERNSHIP DISCIPLINES:</strong></div>
+              <div>• Mining Engineering</div>
+              <div>• Mechanical Engineering</div>
+              <div>• Electrical Engineering</div>
+              <div>• Chemical Engineering</div>
               
-              MINIMUM REQUIREMENTS:
-              • South African citizens aged between 18 and 35 years
-              • Degree or National Diploma in listed engineering fields
-              • Unemployed with no previous full-time work experience in related discipline
-              • Reside near the mine (proof of residence required via municipal account or affidavit)
-              • Able to pass certificate of fitness examination as required by Mine Health and Safety Act
+              <div><strong>MINIMUM REQUIREMENTS:</strong></div>
+              <div>• South African citizens aged between 18 and 35 years</div>
+              <div>• Degree or National Diploma in listed engineering fields</div>
+              <div>• Unemployed with no previous full-time work experience in related discipline</div>
+              <div>• Reside near the mine (proof of residence required via municipal account or affidavit)</div>
+              <div>• Able to pass certificate of fitness examination as required by Mine Health and Safety Act</div>
               
-              REQUIRED DOCUMENTS:
-              • Comprehensive and updated CV
-              • Certified copies of ID, qualifications, and academic transcript
-              • Proof of residence (municipal account or affidavit)
+              <div><strong>REQUIRED DOCUMENTS:</strong></div>
+              <div>• Comprehensive and updated CV</div>
+              <div>• Certified copies of ID, qualifications, and academic transcript</div>
+              <div>• Proof of residence (municipal account or affidavit)</div>
               
-              DESIRED ATTRIBUTES:
-              • Strong analytical and problem-solving abilities
-              • Effective communication and teamwork skills
-              • Disciplined and safety-conscious approach to work
-              • Willingness to learn and grow within mining sector
-              • Ability to adapt to fast-paced industrial environment
+              <div><strong>DESIRED ATTRIBUTES:</strong></div>
+              <div>• Strong analytical and problem-solving abilities</div>
+              <div>• Effective communication and teamwork skills</div>
+              <div>• Disciplined and safety-conscious approach to work</div>
+              <div>• Willingness to learn and grow within mining sector</div>
+              <div>• Ability to adapt to fast-paced industrial environment</div>
               
-              APPLICATION PROCESS:
-              Submit applications via email to Recruitment@northerncoal.co.za with subject line:
-              "Northern Coal Internship Application 2025 / 2026 – [Your Field, e.g. Mechanical Engineering]"
+              <div><strong>APPLICATION PROCESS:</strong></div>
+              <div>Submit applications via email to Recruitment@northerncoal.co.za with subject line:</div>
+              <div>"Northern Coal Internship Application 2025 / 2026 – [Your Field, e.g. Mechanical Engineering]"</div>
               
-              Preference given to applicants from local communities in line with Employment Equity and Social and Labour Plan commitments.`
+              <div>Preference given to applicants from local communities in line with Employment Equity and Social and Labour Plan commitments.</div>`
                 },
                 {
                   id: "electrical-engineering-in-service-training-cja-telecoms",
@@ -1166,43 +1166,43 @@ const jobs = [
                   reference: "N/A",
                   tags: ["Electrical Engineering", "Work Integrated Learning", "Telecommunications"],
                   shortDescription: "CJA Telecommunications offers in-service training for Electrical Engineering students completing P1/P2 requirements. Gain hands-on experience in telecommunications projects with industry professionals in Pretoria.",
-                  fullDescription: `CJA Telecommunications offers exceptional in-service training opportunity for Electrical Engineering students seeking to complete P1 and/or P2 practical requirements.
+                  fullDescription: `<div>CJA Telecommunications offers exceptional in-service training opportunity for Electrical Engineering students seeking to complete P1 and/or P2 practical requirements.</div>
               
-              Company: CJA Telecommunications
-              Location: Pretoria, South Africa
-              Since: 2004 (Leading Turnkey Services Solutions Provider)
+              <div><strong>Company:</strong> CJA Telecommunications</div>
+              <div><strong>Location:</strong> Pretoria, South Africa</div>
+              <div><strong>Since:</strong> 2004 (Leading Turnkey Services Solutions Provider)</div>
               
-              LEARNING JOURNEY INCLUDES:
-              Hands-On Technical Development:
-              • Assist with electrical design, installations, maintenance, and troubleshooting
-              • Gain practical experience with professional-grade tools and safety protocols
-              • Participate in ongoing engineering projects and site work
-              • Learn to navigate real-world challenges and problem-solving
+              <div><strong>LEARNING JOURNEY INCLUDES:</strong></div>
+              <div><strong>Hands-On Technical Development:</strong></div>
+              <div>• Assist with electrical design, installations, maintenance, and troubleshooting</div>
+              <div>• Gain practical experience with professional-grade tools and safety protocols</div>
+              <div>• Participate in ongoing engineering projects and site work</div>
+              <div>• Learn to navigate real-world challenges and problem-solving</div>
               
-              Professional Growth:
-              • Work closely with qualified engineers and technical specialists
-              • Contribute to technical documentation and engineering reports
-              • Develop workplace competencies including communication and teamwork
-              • Build professional network in telecommunications and electrical engineering
+              <div><strong>Professional Growth:</strong></div>
+              <div>• Work closely with qualified engineers and technical specialists</div>
+              <div>• Contribute to technical documentation and engineering reports</div>
+              <div>• Develop workplace competencies including communication and teamwork</div>
+              <div>• Build professional network in telecommunications and electrical engineering</div>
               
-              REQUIREMENTS:
-              • N6 or S4 Certificate in Electrical Engineering (Heavy Current or Light Current)
-              • Official letter from educational institution requesting in-service training for P1/P2 completion
-              • Strong interpersonal and communication skills
-              • Genuine enthusiasm for learning in dynamic environments
-              • Proficiency in basic computer applications (MS Office suite)
-              • CAD software knowledge advantageous
-              • Valid driver's license for site visits and fieldwork
+              <div><strong>REQUIREMENTS:</strong></div>
+              <div>• N6 or S4 Certificate in Electrical Engineering (Heavy Current or Light Current)</div>
+              <div>• Official letter from educational institution requesting in-service training for P1/P2 completion</div>
+              <div>• Strong interpersonal and communication skills</div>
+              <div>• Genuine enthusiasm for learning in dynamic environments</div>
+              <div>• Proficiency in basic computer applications (MS Office suite)</div>
+              <div>• CAD software knowledge advantageous</div>
+              <div>• Valid driver's license for site visits and fieldwork</div>
               
-              APPLICATION DOCUMENTS:
-              • Comprehensive, updated curriculum vitae
-              • Certified copy of South African ID document
-              • Certified copy of valid driver's license
-              • Complete academic transcripts
-              • N6/S4 Certificate (certified copy)
-              • Official letter from educational institution
+              <div><strong>APPLICATION DOCUMENTS:</strong></div>
+              <div>• Comprehensive, updated curriculum vitae</div>
+              <div>• Certified copy of South African ID document</div>
+              <div>• Certified copy of valid driver's license</div>
+              <div>• Complete academic transcripts</div>
+              <div>• N6/S4 Certificate (certified copy)</div>
+              <div>• Official letter from educational institution</div>
               
-              CJA Telecommunications is committed to providing equal opportunities and fostering diversity in the workplace.`
+              <div>CJA Telecommunications is committed to providing equal opportunities and fostering diversity in the workplace.</div>`
                 },
                 {
                   id: "intern-test-technician-siemens-mobility-randburg",
@@ -1218,40 +1218,40 @@ const jobs = [
                   reference: "481568",
                   tags: ["Electrical Engineering", "Internship", "Work Integrated Learning"],
                   shortDescription: "Join Siemens Mobility as an Intern Test Technician for 12-month contract in Randburg. Test interlocking systems with global mobility leader. Requirements: Matric (N3) and Electrical trade qualification.",
-                  fullDescription: `Siemens Mobility seeks a motivated Intern Test Technician for a 12-month fixed-term contract in Randburg, South Africa.
+                  fullDescription: `<div>Siemens Mobility seeks a motivated Intern Test Technician for a 12-month fixed-term contract in Randburg, South Africa.</div>
               
-              Location: North Riding, Randburg (with occasional on-site assignments)
-              Schedule: Monday to Thursday (7:00 AM – 4:00 PM), Friday (7:00 AM – 1:00 PM)
-              Contract Duration: 12 months
+              <div><strong>Location:</strong> North Riding, Randburg (with occasional on-site assignments)</div>
+              <div><strong>Schedule:</strong> Monday to Thursday (7:00 AM – 4:00 PM), Friday (7:00 AM – 1:00 PM)</div>
+              <div><strong>Contract Duration:</strong> 12 months</div>
               
-              ABOUT SIEMENS MOBILITY:
-              Siemens Mobility stands at the forefront of transportation innovation, delivering cutting-edge solutions that revolutionize how millions of people travel worldwide. We drive digital transformation of transport sector prioritizing efficiency, safety, and environmental sustainability.
+              <div><strong>ABOUT SIEMENS MOBILITY:</strong></div>
+              <div>Siemens Mobility stands at the forefront of transportation innovation, delivering cutting-edge solutions that revolutionize how millions of people travel worldwide. We drive digital transformation of transport sector prioritizing efficiency, safety, and environmental sustainability.</div>
               
-              RESPONSIBILITIES:
-              • Prepare and execute comprehensive test programs according to established procedures
-              • Conduct systematic testing sequences and document results with precision
-              • Perform diagnostic assessments and implement corrective measures
-              • Contribute to continuous improvement initiatives in quality assurance
-              • Provide electrical and mechanical support for peripheral equipment
-              • Conduct low-level testing of interlocking systems
-              • Maintain accurate testing documentation and manuals
+              <div><strong>RESPONSIBILITIES:</strong></div>
+              <div>• Prepare and execute comprehensive test programs according to established procedures</div>
+              <div>• Conduct systematic testing sequences and document results with precision</div>
+              <div>• Perform diagnostic assessments and implement corrective measures</div>
+              <div>• Contribute to continuous improvement initiatives in quality assurance</div>
+              <div>• Provide electrical and mechanical support for peripheral equipment</div>
+              <div>• Conduct low-level testing of interlocking systems</div>
+              <div>• Maintain accurate testing documentation and manuals</div>
               
-              ESSENTIAL QUALIFICATIONS:
-              • Matric (N3) certification
-              • Electrical trade qualification or National Diploma in Electrical Engineering
-              • No prior work experience necessary
+              <div><strong>ESSENTIAL QUALIFICATIONS:</strong></div>
+              <div>• Matric (N3) certification</div>
+              <div>• Electrical trade qualification or National Diploma in Electrical Engineering</div>
+              <div>• No prior work experience necessary</div>
               
-              PERSONAL ATTRIBUTES:
-              • Self-motivated with strong initiative
-              • Disciplined approach to work
-              • Excellent attention to detail
-              • Commitment to safety and quality standards
+              <div><strong>PERSONAL ATTRIBUTES:</strong></div>
+              <div>• Self-motivated with strong initiative</div>
+              <div>• Disciplined approach to work</div>
+              <div>• Excellent attention to detail</div>
+              <div>• Commitment to safety and quality standards</div>
               
-              WORKING ARRANGEMENTS:
-              • Occasional overtime and weekend work may be required
-              • Strict preference given to female candidates with disabilities
-              • Inclusive environment committed to diversity and inclusion
+              <div><strong>WORKING ARRANGEMENTS:</strong></div>
+              <div>• Occasional overtime and weekend work may be required</div>
+              <div>• Strict preference given to female candidates with disabilities</div>
+              <div>• Inclusive environment committed to diversity and inclusion</div>
               
-              Siemens Mobility is an equal opportunity employer committed to diversity, inclusion, and compliance with the Employment Equity Act.`
-                }
+              <div>Siemens Mobility is an equal opportunity employer committed to diversity, inclusion, and compliance with the Employment Equity Act.</div>`
+                },
   ];
