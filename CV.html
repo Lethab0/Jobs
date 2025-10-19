@@ -1,155 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base target="_top">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Upload Form</title>
-</head>
-<body>
-
-<div id="upload-container">
+    <title>CareerConnect | CV Upload</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Simple Styling for the form */
-        #upload-container {
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-family: Arial, sans-serif;
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #3b82f6;
+            --secondary: #1e40af;
+            --accent: #60a5fa;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --background: #f0f9ff;
+            --white: #ffffff;
+            --border: #e2e8f0;
+            --shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+            --radius: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 1.6;
+            color: var(--text);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+        }
+
+        .form-card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .main-folder {
+            margin-bottom: 15px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .main-folder.active {
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+        }
+
+        .folder-header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .folder-header:hover {
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary));
+        }
+
+        .folder-icon {
+            font-size: 1.3rem;
+            margin-right: 12px;
+        }
+
+        .folder-title {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        .folder-arrow {
+            transition: var(--transition);
+            font-size: 1.2rem;
+        }
+
+        .main-folder.active .folder-arrow {
+            transform: rotate(180deg);
+        }
+
+        .subfolders-container {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            background: #f8fafc;
+        }
+
+        .main-folder.active .subfolders-container {
+            max-height: 500px;
+        }
+
+        .fields-grid {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+        }
+
+        .field-option {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: var(--transition);
+            background: var(--white);
+        }
+
+        .field-option:hover {
+            border-color: var(--primary-light);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+        }
+
+        .field-option.selected {
+            border-color: var(--primary);
+            background: #eff6ff;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+        }
+
+        .field-radio {
+            display: none;
+        }
+
+        .field-icon {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+        }
+
+        .field-label {
+            font-weight: 500;
+            color: var(--text);
+            flex: 1;
+        }
+
+        .selected-field-display {
+            background: #eff6ff;
+            border: 2px solid var(--primary);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+            display: none;
+            align-items: center;
+            gap: 12px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .selected-field-display.show {
+            display: flex;
+        }
+
+        .selected-field-icon {
+            font-size: 1.5rem;
+        }
+
+        .selected-field-text {
+            flex: 1;
+        }
+
+        .selected-field-name {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .selected-field-category {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .change-field-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .change-field-btn:hover {
+            background: var(--primary-dark);
+        }
+
         .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .file-upload-area {
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            background: #f8fafc;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .file-upload-area:hover {
+            border-color: var(--primary-light);
+            background: #f0f9ff;
+        }
+
+        .file-upload-area.dragover {
+            border-color: var(--primary);
+            background: #eff6ff;
+        }
+
+        .upload-icon {
+            font-size: 3rem;
+            color: var(--primary-light);
             margin-bottom: 15px;
         }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
+
+        .upload-text {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
         }
-        select, input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+
+        .upload-subtext {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
         }
-        button {
-            background-color: #007bff;
+
+        .browse-btn {
+            background: var(--primary);
             color: white;
-            padding: 10px 15px;
             border: none;
-            border-radius: 4px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
             cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
+            transition: var(--transition);
         }
-        button:hover {
-            background-color: #0056b3;
+
+        .browse-btn:hover {
+            background: var(--primary-dark);
         }
-        #status-message {
-            margin-top: 20px;
-            padding: 10px;
-            border-radius: 4px;
+
+        #fileInput {
+            display: none;
+        }
+
+        .file-info {
+            margin-top: 15px;
+            padding: 12px;
+            background: #eff6ff;
+            border-radius: 8px;
+            display: none;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-info.show {
+            display: flex;
+        }
+
+        .file-icon {
+            font-size: 1.2rem;
+            color: var(--primary);
+        }
+
+        .file-details {
+            flex: 1;
+        }
+
+        .file-name {
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        .file-size {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+            border: none;
+            padding: 16px 24px;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .submit-btn:disabled {
+            background: #94a3b8;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .button-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .loading-spinner {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid transparent;
+            border-top: 2px solid var(--white);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .message {
+            margin-top: 25px;
+            padding: 16px;
+            border-radius: 12px;
             text-align: center;
-            font-weight: bold;
+            font-weight: 500;
+            animation: slideIn 0.3s ease-out;
         }
-        .success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
-        .error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.success {
+            background: #f0f9ff;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
+        }
+
+        .message.error {
+            background: #fef2f2;
+            color: #dc2626;
+            border: 1px solid #fecaca;
+        }
+
+        .message.info {
+            background: #f0f9ff;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            .form-card {
+                padding: 30px 25px;
+            }
+
+            .title {
+                fontSize: 1.75rem;
+            }
+
+            .fields-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
     </style>
-
-    <h2>CV Upload Form</h2>
-    <form id="cv-upload-form" enctype="multipart/form-data">
-
-        <div class="form-group">
-            <label for="field-select">1. Select Your Field of Study:</label>
-            <select id="field-select" name="field" required>
-                <option value="">-- Choose Field --</option>
-                <optgroup label="Engineering">
-                    <option value="Aeronautical">Aeronautical</option>
-                    <option value="Chemical">Chemical</option>
-                    <option value="Civil">Civil</option>
-                    <option value="Computer">Computer (Eng.)</option>
-                    <option value="Electrical">Electrical</option>
-                    <option value="Industrial">Industrial</option>
-                    <option value="Mechanical">Mechanical</option>
-                    <option value="Metallurgical">Metallurgical</option>
-                    <option value="Mining">Mining</option>
-                </optgroup>
-                <optgroup label="Computer Science & IT">
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Data Science">Data Science</option>
-                    <option value="Information Technology">Information Technology</option>
-                </optgroup>
-            </select>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">📄</div>
+            <h1 class="title">Upload Your CV</h1>
+            <p class="subtitle">Select your field and upload your resume</p>
         </div>
 
-        <div class="form-group">
-            <label for="cv-file">2. Upload Your CV (PDF, DOCX, Images):</label>
-            <input type="file" id="cv-file" name="cvFile" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
+        <div class="form-card">
+            <form id="uploadForm">
+                <!-- Selected Field Display -->
+                <div class="selected-field-display" id="selectedFieldDisplay">
+                    <span class="selected-field-icon" id="selectedFieldIcon">💼</span>
+                    <div class="selected-field-text">
+                        <div class="selected-field-name" id="selectedFieldName">No field selected</div>
+                        <div class="selected-field-category" id="selectedFieldCategory">Please choose a field below</div>
+                    </div>
+                    <button type="button" class="change-field-btn" id="changeFieldBtn">Change</button>
+                </div>
+
+                <!-- Engineering Main Folder -->
+                <div class="main-folder" id="engineeringFolder">
+                    <div class="folder-header">
+                        <div class="folder-title">
+                            <span class="folder-icon">🔧</span>
+                            Engineering Fields
+                        </div>
+                        <span class="folder-arrow">▼</span>
+                    </div>
+                    <div class="subfolders-container">
+                        <div class="fields-grid">
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Mining" class="field-radio">
+                                <span class="field-icon">⛏️</span>
+                                <span class="field-label">Mining Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Metallurgical" class="field-radio">
+                                <span class="field-icon">🔥</span>
+                                <span class="field-label">Metallurgical Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Mechanical" class="field-radio">
+                                <span class="field-icon">⚙️</span>
+                                <span class="field-label">Mechanical Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Industrial" class="field-radio">
+                                <span class="field-icon">🏭</span>
+                                <span class="field-label">Industrial Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Electrical" class="field-radio">
+                                <span class="field-icon">⚡</span>
+                                <span class="field-label">Electrical Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Computer" class="field-radio">
+                                <span class="field-icon">💻</span>
+                                <span class="field-label">Computer Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Civil" class="field-radio">
+                                <span class="field-icon">🏗️</span>
+                                <span class="field-label">Civil Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Chemical" class="field-radio">
+                                <span class="field-icon">🧪</span>
+                                <span class="field-label">Chemical Engineering</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Aeronautical" class="field-radio">
+                                <span class="field-icon">✈️</span>
+                                <span class="field-label">Aeronautical Engineering</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Computer Science & IT Main Folder -->
+                <div class="main-folder" id="csItFolder">
+                    <div class="folder-header">
+                        <div class="folder-title">
+                            <span class="folder-icon">💻</span>
+                            Computer Science & IT
+                        </div>
+                        <span class="folder-arrow">▼</span>
+                    </div>
+                    <div class="subfolders-container">
+                        <div class="fields-grid">
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Information Technology" class="field-radio">
+                                <span class="field-icon">🌐</span>
+                                <span class="field-label">Information Technology</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Data Science" class="field-radio">
+                                <span class="field-icon">📊</span>
+                                <span class="field-label">Data Science</span>
+                            </label>
+                            <label class="field-option">
+                                <input type="radio" name="field" value="Computer Science" class="field-radio">
+                                <span class="field-icon">👨‍💻</span>
+                                <span class="field-label">Computer Science</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- File Upload Section -->
+                <div class="form-group">
+                    <label class="form-label">Upload Your CV</label>
+                    <div class="file-upload-area" id="uploadArea">
+                        <div class="upload-icon">📤</div>
+                        <div class="upload-text">Drag & drop your CV here</div>
+                        <div class="upload-subtext">Supports: PDF, DOC, DOCX (Max 5MB)</div>
+                        <button type="button" class="browse-btn">Browse Files</button>
+                        <input type="file" id="fileInput" accept=".pdf,.doc,.docx">
+                    </div>
+                    <div class="file-info" id="fileInfo">
+                        <span class="file-icon">📎</span>
+                        <div class="file-details">
+                            <div class="file-name" id="fileName">No file selected</div>
+                            <div class="file-size" id="fileSize"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <div class="button-content">
+                        <span id="buttonText">Upload CV</span>
+                        <div class="loading-spinner" id="loadingSpinner"></div>
+                    </div>
+                </button>
+            </form>
+
+            <div id="message"></div>
         </div>
-
-        <button type="submit" id="submit-btn">Upload CV</button>
-
-        <div id="status-message"></div>
-    </form>
+    </div>
 
     <script>
-        // *** UPDATED WITH YOUR NEW WEB APP URL ***
-        const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwk1fxarcH_FKYBsB1lb1j_w708WVDlLTSQKBhbx_VzHw903k_CmI9LUiCZ_2ztGMZq/exec";
+        // Check if user has already uploaded a file
+        if (localStorage.getItem('cvUploaded')) {
+            document.addEventListener('DOMContentLoaded', function() {
+                disableForm();
+                showMessage('You have already uploaded your CV. Thank you!', 'info');
+            });
+        }
 
-        document.getElementById('cv-upload-form').addEventListener('submit', async function(event) {
-            event.preventDefault(); // Prevent default form submission
-            
-            const form = event.target;
-            const statusMessage = document.getElementById('status-message');
-            const submitBtn = document.getElementById('submit-btn');
+        // Main folder toggle functionality
+        const engineeringFolder = document.getElementById('engineeringFolder');
+        const csItFolder = document.getElementById('csItFolder');
+        const selectedFieldDisplay = document.getElementById('selectedFieldDisplay');
+        const selectedFieldName = document.getElementById('selectedFieldName');
+        const selectedFieldCategory = document.getElementById('selectedFieldCategory');
+        const selectedFieldIcon = document.getElementById('selectedFieldIcon');
+        const changeFieldBtn = document.getElementById('changeFieldBtn');
 
-            // Reset status message
-            statusMessage.textContent = 'Uploading... Please wait.';
-            statusMessage.className = '';
-            submitBtn.disabled = true;
+        // Close all folders
+        function closeAllFolders() {
+            engineeringFolder.classList.remove('active');
+            csItFolder.classList.remove('active');
+        }
 
-            try {
-                // Collect form data as multipart/form-data
-                const formData = new FormData(form);
-                
-                // Fetch request to the Google Apps Script Web App
-                const response = await fetch(WEB_APP_URL, {
-                    method: 'POST',
-                    body: formData,
+        // Toggle folder
+        function toggleFolder(folder) {
+            if (folder.classList.contains('active')) {
+                folder.classList.remove('active');
+            } else {
+                closeAllFolders();
+                folder.classList.add('active');
+            }
+        }
+
+        engineeringFolder.querySelector('.folder-header').addEventListener('click', () => {
+            toggleFolder(engineeringFolder);
+        });
+
+        csItFolder.querySelector('.folder-header').addEventListener('click', () => {
+            toggleFolder(csItFolder);
+        });
+
+        // Field selection handling
+        document.querySelectorAll('.field-radio').forEach(radio => {
+            radio.addEventListener('change', function() {
+                // Remove selected class from all options
+                document.querySelectorAll('.field-option').forEach(option => {
+                    option.classList.remove('selected');
                 });
-
-                // The GAS Web App returns a raw HTML string.
-                const htmlResponse = await response.text();
-
-                // Find the content inside the <h1> and <p> tags in the response HTML for the custom message.
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(htmlResponse, 'text/html');
-                const title = doc.querySelector('h1') ? doc.querySelector('h1').textContent : 'Response';
-                const paragraph = doc.querySelector('p') ? doc.querySelector('p').textContent : '';
-
-                // Display success or error
-                if (title.toLowerCase().includes('success')) {
-                    statusMessage.innerHTML = `<strong>${title}</strong><br>${paragraph}`;
-                    statusMessage.className = 'success';
-                    // Optional: form.reset(); // Clear form on successful upload
-                } else {
-                    // Handles server-side errors returned by GAS
-                    statusMessage.innerHTML = `<strong>${title}</strong><br>${paragraph}`;
-                    statusMessage.className = 'error';
+                
+                // Add selected class to parent label
+                if (this.checked) {
+                    this.closest('.field-option').classList.add('selected');
+                    
+                    // Update selected field display
+                    const fieldName = this.value;
+                    const fieldIcon = this.closest('.field-option').querySelector('.field-icon').textContent;
+                    const category = this.closest('.main-folder').querySelector('.folder-title').textContent.trim();
+                    
+                    selectedFieldName.textContent = fieldName;
+                    selectedFieldCategory.textContent = category;
+                    selectedFieldIcon.textContent = fieldIcon;
+                    selectedFieldDisplay.classList.add('show');
+                    
+                    // Close all folders after selection
+                    closeAllFolders();
                 }
+            });
+        });
 
-            } catch (error) {
-                // Handles network or fetch-related errors
-                statusMessage.innerHTML = `<strong>Network Error:</strong> Could not connect to the server.`;
-                statusMessage.className = 'error';
-                console.error('Fetch error:', error);
-            } finally {
-                submitBtn.disabled = false;
+        // Change field button
+        changeFieldBtn.addEventListener('click', function() {
+            // Clear selection
+            document.querySelectorAll('.field-radio').forEach(radio => {
+                radio.checked = false;
+            });
+            document.querySelectorAll('.field-option').forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // Hide selected field display
+            selectedFieldDisplay.classList.remove('show');
+            
+            // Open engineering folder by default
+            closeAllFolders();
+            engineeringFolder.classList.add('active');
+        });
+
+        // File upload handling
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const fileSize = document.getElementById('fileSize');
+        const browseBtn = uploadArea.querySelector('.browse-btn');
+
+        browseBtn.addEventListener('click', () => fileInput.click());
+        
+        fileInput.addEventListener('change', handleFileSelect);
+        
+        // Drag and drop functionality
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            if (e.dataTransfer.files.length) {
+                fileInput.files = e.dataTransfer.files;
+                handleFileSelect();
             }
         });
-    </script>
-</div>
 
+        function handleFileSelect() {
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                fileName.textContent = file.name;
+                fileSize.textContent = formatFileSize(file.size);
+                fileInfo.classList.add('show');
+            }
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        // Form submission
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Check if user has already uploaded
+            if (localStorage.getItem('cvUploaded')) {
+                showMessage('You have already uploaded your CV. Thank you!', 'info');
+                return;
+            }
+            
+            const selectedField = document.querySelector('input[name="field"]:checked');
+            const fileInput = document.getElementById('fileInput');
+            const messageDiv = document.getElementById('message');
+            const submitBtn = document.getElementById('submitBtn');
+            const buttonText = document.getElementById('buttonText');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const file = fileInput.files[0];
+
+            // Create ripple effect
+            createRipple(e);
+            
+            // Validation
+            if (!selectedField) {
+                showMessage('Please select your career field.', 'error');
+                return;
+            }
+            
+            if (!file) {
+                showMessage('Please select a CV file to upload.', 'error');
+                return;
+            }
+            
+            // File type validation
+            const allowedTypes = [
+                'application/pdf', 
+                'application/msword', 
+                'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+            ];
+            if (!allowedTypes.includes(file.type)) {
+                showMessage('Please upload only PDF, DOC, or DOCX files.', 'error');
+                return;
+            }
+            
+            // File size validation (5MB)
+            if (file.size > 5 * 1024 * 1024) {
+                showMessage('File size too large. Please upload files smaller than 5MB.', 'error');
+                return;
+            }
+            
+            // Update UI
+            submitBtn.disabled = true;
+            buttonText.textContent = 'Uploading...';
+            loadingSpinner.style.display = 'block';
+            showMessage('Uploading your CV... Please wait.', 'info');
+            
+            // Read file as base64
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const fileData = {
+                    name: file.name,
+                    mimeType: file.type,
+                    data: e.target.result.split(',')[1]
+                };
+                
+                // Use Google Apps Script's built-in method
+                google.script.run
+                    .withSuccessHandler(function(result) {
+                        if (result.status === 'success') {
+                            // Set the upload flag in localStorage
+                            localStorage.setItem('cvUploaded', 'true');
+                            showMessage(result.message, 'success');
+                            // Disable the form after successful upload
+                            disableForm();
+                        } else {
+                            showMessage(result.message, 'error');
+                        }
+                        resetButton();
+                    })
+                    .withFailureHandler(function(error) {
+                        showMessage(error, 'error');
+                        resetButton();
+                    })
+                    .uploadCV(selectedField.value, fileData);
+            };
+            
+            reader.onerror = function() {
+                showMessage('Error reading file. Please try again.', 'error');
+                resetButton();
+            };
+            
+            reader.readAsDataURL(file);
+            
+            function resetButton() {
+                submitBtn.disabled = false;
+                buttonText.textContent = 'Upload CV';
+                loadingSpinner.style.display = 'none';
+            }
+        });
+
+        function createRipple(event) {
+            const button = event.currentTarget;
+            const circle = document.createElement("span");
+            const diameter = Math.max(button.clientWidth, button.clientHeight);
+            const radius = diameter / 2;
+
+            circle.style.width = circle.style.height = `${diameter}px`;
+            circle.style.left = `${event.clientX - button.getBoundingClientRect().left - radius}px`;
+            circle.style.top = `${event.clientY - button.getBoundingClientRect().top - radius}px`;
+            circle.classList.add("ripple");
+
+            const ripple = button.getElementsByClassName("ripple")[0];
+            if (ripple) {
+                ripple.remove();
+            }
+
+            button.appendChild(circle);
+        }
+        
+        function showMessage(text, type) {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = `<p>${text}</p>`;
+            messageDiv.className = `message ${type}`;
+        }
+        
+        function disableForm() {
+            // Disable all form elements
+            document.querySelectorAll('.field-radio').forEach(radio => {
+                radio.disabled = true;
+            });
+            document.getElementById('fileInput').disabled = true;
+            document.getElementById('submitBtn').disabled = true;
+            document.getElementById('submitBtn').querySelector('#buttonText').textContent = 'Already Uploaded';
+            document.querySelector('.browse-btn').disabled = true;
+            
+            // Visual indication of disabled state
+            const uploadArea = document.getElementById('uploadArea');
+            uploadArea.style.opacity = '0.6';
+            uploadArea.style.cursor = 'not-allowed';
+            
+            document.querySelectorAll('.folder-header').forEach(header => {
+                header.style.opacity = '0.6';
+                header.style.cursor = 'not-allowed';
+            });
+            
+            document.querySelectorAll('.field-option').forEach(option => {
+                option.style.cursor = 'not-allowed';
+            });
+        }
+
+    </script>
 </body>
 </html>
