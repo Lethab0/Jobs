@@ -1277,4 +1277,338 @@ const jobs = [
               <br>
               <div>Siemens Mobility is an equal opportunity employer committed to diversity, inclusion, and compliance with the Employment Equity Act.</div>`
                 },
+
+                {
+                  id: "engineering-graduate-internships-northern-coal-carolina",
+                  title: "Engineering Graduate Internships 2025 / 2026",
+                  company: "Northern Coal (Pty) Ltd",
+                  location: "Carolina, Mpumalanga",
+                  type: "Internship • Fixed-term Contract",
+                  duration: "12 Months",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-23T08:00:00+02:00",
+                  closingDate: "2025-11-30",
+                  applicationLink: "mailto:Recruitment@northerncoal.co.za",
+                  reference: "N/A",
+                  tags: ["Mining & Metallurgy", "Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
+                  shortDescription: "Northern Coal offers 12-month Engineering Graduate Internships for 2025/2026 in Carolina, Mpumalanga. Opportunities in Mining, Mechanical, Electrical, and Chemical Engineering for unemployed South African graduates.",
+                  fullDescription: `<div>Northern Coal (Pty) Ltd invites unemployed South African graduates to apply for the 2025/2026 Engineering Graduate Internship Programme.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Carolina, Mpumalanga, South Africa</div>
+              <div><strong>Duration:</strong> 12 Months</div>
+              <div><strong>Closing Date:</strong> 30 November 2025</div>
+              
+              <br>
+              <div><strong>INTERNSHIP DISCIPLINES:</strong></div>
+              <div>• Mining Engineering</div>
+              <div>• Mechanical Engineering</div>
+              <div>• Electrical Engineering</div>
+              <div>• Chemical Engineering</div>
+              
+              <br>
+              <div><strong>MINIMUM REQUIREMENTS:</strong></div>
+              <div>• South African citizens aged between 18 and 35 years</div>
+              <div>• Degree or National Diploma in listed engineering fields</div>
+              <div>• Unemployed with no previous full-time work experience in related discipline</div>
+              <div>• Reside near the mine (proof of residence required)</div>
+              <div>• Able to pass certificate of fitness examination as required by Mine Health and Safety Act</div>
+              
+              <br>
+              <div><strong>REQUIRED DOCUMENTS:</strong></div>
+              <div>• Comprehensive and updated CV</div>
+              <div>• Certified copies of ID, qualifications, and academic transcript</div>
+              <div>• Proof of residence (municipal account or affidavit)</div>
+              
+              <br>
+              <div><strong>APPLICATION PROCESS:</strong></div>
+              <div>Submit applications via email to Recruitment@northerncoal.co.za</div>
+              <div>Use subject line: "Northern Coal Internship Application 2025 / 2026 – [Your Engineering Field]"</div>
+              
+              <br>
+              <div>Preference given to applicants from local communities in line with Employment Equity commitments.</div>`
+                },
+                {
+                  id: "it-intern-fixed-term-contract-advtech-sandton",
+                  title: "IT Intern (Fixed-Term Contract)",
+                  company: "ADvTECH - Emeris Division",
+                  location: "Sandton, Gauteng",
+                  type: "Internship • Fixed-term Contract",
+                  duration: "Not Specified",
+                  reportTo: "Senior ICT Support",
+                  datePosted: "2025-10-23T08:00:00+02:00",
+                  closingDate: "2025-10-31",
+                  applicationLink: "https://varsitycollege.simplify.hr",
+                  reference: "N/A",
+                  tags: ["IT & Technology", "Internship", "Graduate Programme"],
+                  shortDescription: "ADvTECH offers IT Intern fixed-term contract at Sandton Campus. Provide first-line support for computer systems, lecture venues, hardware and software. Ideal for recent IT graduates.",
+                  fullDescription: `<div>ADvTECH Emeris Division invites applications for an IT Intern fixed-term contract at the Sandton Campus.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Sandton, Gauteng, South Africa</div>
+              <div><strong>Division:</strong> Emeris | Business Unit: Sandton Campus</div>
+              <div><strong>Reports To:</strong> Senior ICT Support</div>
+              <div><strong>Working Hours:</strong> Monday to Friday: 08:00 – 17:00</div>
+              
+              <br>
+              <div><strong>DUTIES AND RESPONSIBILITIES:</strong></div>
+              
+              <br>
+              <div><strong>Lecture Room Support:</strong></div>
+              <div>• First line support for computer and lecture venues</div>
+              <div>• Ensure operational state of computer and lecture venues</div>
+              <div>• Daily checks of copiers, printers, motorised screens and projectors</div>
+              <div>• Ensure operational state of wireless infrastructure</div>
+              
+              <br>
+              <div><strong>Hardware Support:</strong></div>
+              <div>• Assisting users with calls relating to Desktops and Laptops</div>
+              <div>• Assisting users with calls relating to photocopiers and printers</div>
+              <div>• Installation of desktops, laptops, printers and peripheral components</div>
+              <div>• Setup projectors for classrooms</div>
+              
+              <br>
+              <div><strong>Software Support:</strong></div>
+              <div>• Installing relevant software for users</div>
+              <div>• Ensuring software is kept updated</div>
+              <div>• Assisting users with calls related to software (Microsoft Office etc.)</div>
+              <div>• Administration of software licensing</div>
+              
+              <br>
+              <div><strong>Administration and Documentation:</strong></div>
+              <div>• Ensure calls are logged with the Service Desk</div>
+              <div>• Updating hardware/software asset register</div>
+              <div>• Prepare and analyse photocopier and telephone reports</div>
+              
+              <br>
+              <div><strong>COMPETENCIES REQUIRED:</strong></div>
+              <div>• Problem Solving Skills</div>
+              <div>• Computer Literacy and Systems application</div>
+              <div>• Communication Skills</div>
+              <div>• Time Management skills</div>
+              <div>• Interpersonal skills</div>
+              
+              <br>
+              <div><strong>MINIMUM QUALIFICATION REQUIREMENTS:</strong></div>
+              <div>• Minimum of Higher Certificate / Occupational Certificate Level 5 (NQF Level 5)</div>
+              <div>• OR A+ / N+ Certification</div>
+              <div>• No prior experience required – suited for a Graduate</div>`
+                },
+                {
+                  id: "graduate-intern-programme-2026-translution-software",
+                  title: "Graduate Intern Programme 2026",
+                  company: "TransLution™ Software",
+                  location: "Bushbuckridge, Mpumalanga",
+                  type: "Graduate Internship • Fixed-term Contract",
+                  duration: "6 Months",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-23T08:00:00+02:00",
+                  closingDate: "2025-11-15",
+                  applicationLink: "https://www.gilejobs.co.za/internship/translution-software-graduate-internships-2026/",
+                  reference: "N/A",
+                  tags: ["Software Development", "IT & Technology", "Industrial Engineering"],
+                  shortDescription: "TransLution Software offers 6-month Graduate Intern Programme 2026 in Bushbuckridge. Focus on SQL development, Business Process Analysis, and ERP knowledge for engineering and computer science graduates.",
+                  fullDescription: `<div>TransLution Software invites graduates and final year students to apply for the Graduate Intern Programme 2026.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Bushbuckridge, Mpumalanga, South Africa</div>
+              <div><strong>Duration:</strong> 6 Months</div>
+              <div><strong>Program Structure:</strong> 4 months training + 2 months practical application</div>
+              
+              <br>
+              <div><strong>PROGRAMME OVERVIEW:</strong></div>
+              <div>Transformative 6-month journey designed for recently qualified graduates with commitment to continuous learning.</div>
+              <div>First 4 months: Master SQL development, Business Process Analysis, and ERP knowledge</div>
+              <div>Following 2 months: Put theory into practice in business analysis and solution design</div>
+              <div>Focus on optimizing client processes within supply chain and manufacturing industries</div>
+              
+              <br>
+              <div><strong>QUALIFICATIONS REQUIRED:</strong></div>
+              <div>We invite applications from graduates and final year students in the following fields:</div>
+              <div>• Engineering</div>
+              <div>• Computer Science</div>
+              <div>• Mathematics & Applied Mathematics</div>
+              <div>• Statistics</div>
+              <div>• Information Systems</div>
+              
+              <br>
+              <div><strong>BENEFITS AND LEARNING OUTCOMES:</strong></div>
+              <div>• Proficiency in SQL, an indispensable language in today's data-driven world</div>
+              <div>• Understanding of ERP systems, the backbone of business processes management</div>
+              <div>• Experience with low-code logic system to become a process optimisation expert</div>
+              <div>• See how theoretical solutions transform into practical, real-world implementations</div>
+              
+              <br>
+              <div><strong>ADDITIONAL INFORMATION:</strong></div>
+              <div>Prior knowledge or experience with IT or programming is beneficial but not required.</div>
+              <div>Enthusiasm, curiosity, and willingness to learn are most important.</div>`
+                },
+                {
+                  id: "junior-mechanical-engineer-thermofluids-somerset-west",
+                  title: "Junior Mechanical Engineer (Thermofluids)",
+                  company: "Jenrec Aerospace",
+                  location: "Somerset West, Western Cape",
+                  type: "Permanent • Full-time",
+                  duration: "Permanent",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-22T09:35:16+02:00",
+                  closingDate: "N/A",
+                  applicationLink: "mailto:recruitment@jenrec.com",
+                  reference: "N/A",
+                  tags: ["Mechanical Engineering", "Aerospace", "Engineering"],
+                  shortDescription: "Junior Mechanical Engineer role in aerospace focusing on thermofluids. Work on rocket and high-speed vehicle projects. Requires excellence in Fluid Dynamics, Thermodynamics, and Mathematics. Email: recruitment@jenrec.com",
+                  fullDescription: `<div>Calling all exceptional Mechanical Engineering graduates! Join a small, expert aerospace team working on rocket and high-speed vehicle projects.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Somerset West, Western Cape</div>
+              <div><strong>Experience:</strong> 0-3 Years</div>
+              <div><strong>Focus Areas:</strong> Thermofluids, Fluid Dynamics, Thermodynamics, Mathematics</div>
+              
+              <br>
+              <div><strong>REQUIREMENTS:</strong></div>
+              <div>• Mechanical Engineering degree</div>
+              <div>• Excellence in Fluid Dynamics, Thermodynamics, and Mathematics</div>
+              <div>• 0-3 years of experience</div>
+              
+              <br>
+              <div><strong>ROLE HIGHLIGHTS:</strong></div>
+              <div>• Hands-on role with wide technical exposure</div>
+              <div>• Work on rocket and high-speed vehicle projects</div>
+              <div>• Opportunity to learn, grow, and make an impact</div>
+              <div>• Small, expert aerospace team environment</div>
+              
+              <br>
+              <div><strong>APPLICATION PROCESS:</strong></div>
+              <div>Email your CV, NSC, academic transcripts, and degree to recruitment@jenrec.com</div>
+              
+              <br>
+              <div>Start your aerospace career today!</div>`
+                },
+                {
+                  id: "graduate-programme-2026-h-i-construction-cape-town",
+                  title: "2026 Graduate Programme",
+                  company: "H&I Construction",
+                  location: "Cape Town, Western Cape",
+                  type: "Graduate Programme • Fixed-term Contract",
+                  duration: "Programme Duration",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-22T09:35:15+02:00",
+                  closingDate: "2025-10-31",
+                  applicationLink: "mailto:recruitment@hiconstruction.co.za",
+                  reference: "N/A",
+                  tags: ["Civil Engineering", "Mechanical Engineering", "Electrical Engineering"],
+                  shortDescription: "H&I Construction 2026 Graduate Programme for Civil, Mechanical, Electrical Engineering and Land Surveying graduates. Must be South African citizens under 25 with valid driver's license. Email: recruitment@hiconstruction.co.za",
+                  fullDescription: `<div>H&I Construction invites prospective technicians, technologists and engineers to apply for our 2026 Graduate Programme.</div>
+              
+              <br>
+              <div><strong>Company:</strong> H&I Construction (Leading multidisciplinary contractor)</div>
+              <div><strong>Location:</strong> Cape Town, Western Cape</div>
+              <div><strong>Application Closes:</strong> 31 October 2025</div>
+              
+              <br>
+              <div><strong>ELIGIBLE FIELDS:</strong></div>
+              <div>• Civil Engineering</div>
+              <div>• Mechanical Engineering</div>
+              <div>• Electrical Engineering</div>
+              <div>• Land Surveying</div>
+              
+              <br>
+              <div><strong>ELIGIBILITY CRITERIA:</strong></div>
+              <div>• South African Citizen</div>
+              <div>• Completing Advanced Diploma, BEngTech, BEng, or BSc in 2025</div>
+              <div>• Under 25 years of age</div>
+              <div>• Valid driver's license</div>
+              
+              <br>
+              <div><strong>APPLICATION PROCESS:</strong></div>
+              <div>Email latest academic transcripts, short CV, and ID to recruitment@hiconstruction.co.za</div>
+              <div>Email Subject: Graduate Programme 2026</div>
+              
+              <br>
+              <div>Contact: +27 21 976 1110 | www.hiconstruction.co.za</div>`
+                },
+                {
+                  id: "it-intern-advtech-sandton",
+                  title: "IT Intern",
+                  company: "ADvTECH - Emeris Division",
+                  location: "Sandton, Gauteng",
+                  type: "Internship • Fixed-term Contract",
+                  duration: "Contract Duration",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-22T09:35:14+02:00",
+                  closingDate: "N/A",
+                  applicationLink: "https://lnkd.in/dQ9cTTgf",
+                  reference: "N/A",
+                  tags: ["IT & Technology", "Internship", "Graduate Programme"],
+                  shortDescription: "IT Intern role at ADvTECH Emeris Division in Sandton. 20 vacancies available for recent graduates with NQF Level 5 / A+ / N Cert. No experience required.",
+                  fullDescription: `<div>Emeris (part of ADvTECH) is hiring 20 IT Interns for a Fixed-Term Contract in Sandton, Johannesburg.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Sandton, Johannesburg, South Africa</div>
+              <div><strong>Vacancies:</strong> 20 Positions</div>
+              <div><strong>Experience:</strong> 0 Years Required</div>
+              <div><strong>Role:</strong> IT Intern</div>
+              
+              <br>
+              <div><strong>QUALIFICATIONS:</strong></div>
+              <div>• Minimum NQF Level 5 / A+ / N Cert</div>
+              <div>• Recent graduates welcome</div>
+              <div>• No prior experience required</div>
+              
+              <br>
+              <div><strong>RESPONSIBILITIES:</strong></div>
+              <div>• Lecture room support</div>
+              <div>• Hardware and software installation</div>
+              <div>• Administration tasks</div>
+              <div>• Gain hands-on IT experience</div>
+              
+              <br>
+              <div><strong>BENEFITS:</strong></div>
+              <div>• Full-time, entry-level role</div>
+              <div>• Perfect for recent graduates</div>
+              <div>• Hands-on experience in ICT</div>
+              <div>• First breakthrough opportunity in IT</div>`
+                },
+                {
+                  id: "mechanical-design-engineer-pumps-johannesburg",
+                  title: "Mechanical Design Engineer - Pumps",
+                  company: "International Pump Company",
+                  location: "Johannesburg, Gauteng",
+                  type: "Permanent • Full-time",
+                  duration: "Permanent",
+                  reportTo: "N/A",
+                  datePosted: "2025-10-22T09:35:13+02:00",
+                  closingDate: "N/A",
+                  applicationLink: "tel:0117041302",
+                  reference: "N/A",
+                  tags: ["Mechanical Engineering", "Design Engineering", "Manufacturing"],
+                  shortDescription: "Mechanical Design Engineer specializing in pumps for international company in Johannesburg. Requires 2-4 years mechanical design experience and N6 or higher qualification. Salary: R38,000 - R43,000 basic + benefits.",
+                  fullDescription: `<div>International pump company based in Johannesburg requires a Mechanical Design Engineer with 2-4 years relevant mechanical design experience.</div>
+              
+              <br>
+              <div><strong>Location:</strong> Johannesburg, Gauteng</div>
+              <div><strong>Salary:</strong> R38,000 – R43,000 basic + benefits</div>
+              <div><strong>Experience:</strong> 2-4 years mechanical design experience</div>
+              
+              <br>
+              <div><strong>REQUIREMENTS:</strong></div>
+              <div>• N6 or higher in Mechanical Engineering</div>
+              <div>• 2-4 years mechanical design (CAD) and engineering experience</div>
+              <div>• Pump design and testing experience advantageous</div>
+              
+              <br>
+              <div><strong>RESPONSIBILITIES:</strong></div>
+              <div>• Design of pump parts, pump systems and drive components</div>
+              <div>• Create new part system designs from specifications</div>
+              <div>• Create product structures and manufacturing drawings</div>
+              <div>• Processing of ECNs (Engineering Change Notices)</div>
+              <div>• Plant investigations and upgrades</div>
+              <div>• Definition of testing, design of test equipment</div>
+              <div>• Interpretation of test results</div>
+              <div>• Value engineering and product cost optimisation</div>
+              
+              <br>
+              <div><strong>CONTACT:</strong></div>
+              <div>Scott on 011 704 1302</div>`
+                },
   ];
