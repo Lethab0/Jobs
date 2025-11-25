@@ -159,17 +159,23 @@
             margin: 30px 0;
         }
         
-        .btn-primary {
+        .btn-primary, .btn-secondary {
+            /* Styles shared between anchor and button */
             display: inline-flex;
             align-items: center;
             gap: 8px;
             padding: 12px 24px;
-            background-color: var(--primary-color);
-            color: white;
             border-radius: 6px;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
+            cursor: pointer; /* Ensure button looks clickable */
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
         }
         
         .btn-primary:hover {
@@ -179,17 +185,9 @@
         }
         
         .btn-secondary {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 24px;
             background-color: var(--white);
             color: var(--primary-color);
             border: 1px solid var(--primary-color);
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
         }
         
         .btn-secondary:hover {
@@ -282,7 +280,6 @@
         
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <!-- In-Feed Ad (Above) -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-format="fluid"
@@ -296,13 +293,10 @@
         
         <div class="main-card">
             <div id="job-details">
-                <!-- Job details will be injected here -->
-            </div>
+                </div>
             
-            <!-- Ad after job title section -->
             <div class="ad-container">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-                <!-- Multiplex Ad -->
                 <ins class="adsbygoogle"
                      style="display:block"
                      data-ad-format="autorelaxed"
@@ -314,13 +308,10 @@
             </div>
             
             <div class="btn-container" id="button-container">
-                <!-- Buttons will be injected here -->
-            </div>
+                </div>
             
-            <!-- Ad after buttons -->
             <div class="ad-container">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-                <!-- In-Article Ad -->
                 <ins class="adsbygoogle"
                      style="display:block; text-align:center;"
                      data-ad-layout="in-article"
@@ -335,7 +326,6 @@
         
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <!-- In-Feed Ad (Side) -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-format="fluid"
@@ -349,7 +339,6 @@
         
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <!-- Multiplex Ad -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-format="autorelaxed"
@@ -363,7 +352,6 @@
         
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <!-- Vertical 1 -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-1486635931470536"
@@ -388,6 +376,24 @@
 
     <script src="jobs.js"></script>
     <script>
+        /**
+         * Function to show an alert popup with application instructions and
+         * then initiate a mailto link.
+         * @param {string} email - The application email address.
+         * @param {string} jobTitle - The title of the job.
+         */
+        function showEmailPopup(email, jobTitle) {
+            // 1. Define the clear message for the user
+            const message = `To apply for this job, please send your CV and required documents directly to the following email address:\n\n${email}\n\nPlease remember to include the Job Title in your email's subject line.`;
+
+            // 2. Show the alert popup
+            alert(message);
+
+            // 3. Automatically open the mail client with pre-filled details
+            const encodedSubject = encodeURIComponent(`Application for: ${jobTitle}`);
+            window.location.href = `mailto:${email}?subject=${encodedSubject}`;
+        }
+        
         document.addEventListener('DOMContentLoaded', function() {
             // Set current year in footer
             document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -396,7 +402,7 @@
             const params = new URLSearchParams(window.location.search);
             const jobId = params.get("id");
             
-            // Find the job in the external data
+            // Find the job in the external data (assuming 'jobs' array is loaded from jobs.js)
             const job = jobs.find(j => j.id === jobId);
             
             if (job) {
@@ -412,17 +418,17 @@
                 const timeDiff = closingDate ? closingDate - today : 0;
                 const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
                 
-                const urgentBadge = closingDate && daysDiff <= 7 ? 
-                  `<span class="urgent-badge"><i class="fas fa-exclamation-circle"></i> Closing in ${daysDiff} day${daysDiff !== 1 ? 's' : ''}</span>` : '';
+                const urgentBadge = closingDate && daysDiff <= 7 && daysDiff > 0 ? 
+                    `<span class="urgent-badge"><i class="fas fa-exclamation-circle"></i> Closing in ${daysDiff} day${daysDiff !== 1 ? 's' : ''}</span>` : '';
                 
-                // Format requirements if they exist
+                // Format requirements if they exist (unchanged)
                 let formattedDescription = job.fullDescription;
                 if (formattedDescription.includes('Requirements:')) {
                     formattedDescription = formattedDescription.replace('Requirements:', '<h3>Requirements</h3><div class="requirement-list"><ul>');
-                    formattedDescription = formattedDescription.replace('<ul>', '</ul></div><h3>Responsibilities</h3>');
+                    formattedDescription = formattedDescription.replace('<ul>', '</ul></div><h3>Responsibilities</h3>'); 
                 }
                 
-                // Inject job details
+                // Inject job details (unchanged)
                 document.getElementById('job-details').innerHTML = `
                     <h1>${job.title} ${urgentBadge}</h1>
                     
@@ -441,18 +447,41 @@
                     ${formattedDescription}
                 `;
                 
-                // Create application button
+                // 🚀 FINAL UPDATED APPLICATION BUTTON LOGIC 🚀
                 const buttonContainer = document.getElementById('button-container');
+                
                 if (job.applicationLink) {
+                    // Check if the link contains an '@' sign (indicating an email address)
+                    const isEmailApplication = job.applicationLink.includes('@');
+
+                    let applyButtonHTML;
+
+                    if (isEmailApplication) {
+                        // Scenario 1: It's an Email Address -> Use the Popup/Mailto function
+                        applyButtonHTML = `
+                            <button onclick="showEmailPopup('${job.applicationLink}', '${job.title}')" class="btn-primary">
+                                <i class="fas fa-envelope"></i> Apply by Email
+                            </button>
+                        `;
+                    } else {
+                        // Scenario 2: It's a Direct Link (URL) -> Use the standard external link
+                        applyButtonHTML = `
+                            <a href="${job.applicationLink}" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Apply Now
+                            </a>
+                        `;
+                    }
+
+                    // Inject the appropriate button along with the Back to Jobs button
                     buttonContainer.innerHTML = `
-                        <a href="${job.applicationLink}" class="btn-primary" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt"></i> Apply Now
-                        </a>
+                        ${applyButtonHTML}
                         <a href="index.html" class="btn-secondary">
                             <i class="fas fa-arrow-left"></i> Back to Jobs
                         </a>
                     `;
+
                 } else {
+                    // No application link provided
                     buttonContainer.innerHTML = `
                         <a href="index.html" class="btn-secondary">
                             <i class="fas fa-arrow-left"></i> Back to Jobs
@@ -460,6 +489,7 @@
                     `;
                 }
             } else {
+                // Job Not Found case
                 document.getElementById('job-details').innerHTML = `
                     <h1>Job Not Found</h1>
                     <p>The job you're looking for doesn't exist or may have been removed.</p>

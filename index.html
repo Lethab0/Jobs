@@ -92,7 +92,7 @@
         
         .intro-section {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 20px; /* Reduced margin to bring CV section closer */
             padding: 30px;
             background-color: var(--white);
             border-radius: 12px;
@@ -111,6 +111,52 @@
             max-width: 600px;
             margin: 0 auto;
         }
+
+        /* --- NEW CV SUBMISSION SECTION STYLES --- */
+        .cv-submission-section {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: #dbeafe; /* Very light primary background */
+            border-radius: 12px;
+            border: 1px solid var(--primary-color);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .cv-submission-section h3 {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+        }
+        
+        .cv-submission-section p {
+            font-size: 1rem;
+            color: var(--text-color);
+            margin-bottom: 20px;
+        }
+
+        .cv-submit-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 25px;
+            background-color: var(--secondary-color); /* Prominent secondary color */
+            color: var(--white);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cv-submit-btn:hover {
+            background-color: #c5163b;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        /* -------------------------------------- */
         
         .categories-grid {
             display: grid;
@@ -391,6 +437,7 @@
     <header>
         <div class="header-content">
             <h1>Engineering & IT Job Portal</h1>
+            
             <a href="bursaries.html" class="bursary-link">
                 <i class="fas fa-graduation-cap"></i> View Bursaries
             </a>
@@ -416,9 +463,16 @@
             <h2>Find Your Dream Career</h2>
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
-
+        
+        <div class="cv-submission-section">
+            <h3>Don't See Your Role Listed?</h3>
+            <p>Submit your CV/Resume to our database today. We share suitable candidates directly with our hiring network across Engineering, Mining, and IT sectors.</p>
+            <a href="https://script.google.com/macros/s/AKfycbzhQ2YCZWJfTaHBA4BWSaxm0Crjl7KZdtvkFMdSmM6gUfH17ChVJ-dQq8biFjHmR3WN/exec" class="cv-submit-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-upload"></i> Submit Your CV Here
+            </a>
+        </div>
         <div class="categories-grid" id="categories-grid">
-            </div>
+        </div>
 
         <div class="ad-container">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
@@ -444,7 +498,7 @@
             </div>
 
             <div class="job-listings" id="job-list">
-                </div>
+            </div>
         </div>
 
         <div class="ad-container">
@@ -506,17 +560,17 @@
                 'electrical': {
                     name: 'Electrical Engineering',
                     icon: 'fas fa-bolt',
-                    tags: ['Electrical Engineering', 'Power Systems']
+                    tags: ['Electrical Engineering', 'Power Systems', 'Instrumentation']
                 },
                 'mining': {
                     name: 'Mining & Metallurgy',
                     icon: 'fas fa-mountain',
-                    tags: ['Mining & Metallurgy']
+                    tags: ['Mining & Metallurgy', 'Geology', 'Mining Engineering', 'Rock Engineering']
                 },
                 'software': {
                     name: 'Software Development',
                     icon: 'fas fa-code',
-                    tags: ['Software Development']
+                    tags: ['Software Development', 'Full Stack', 'Apps']
                 },
                 'it': {
                     name: 'IT & Technology',
@@ -526,17 +580,17 @@
                 'civil': {
                     name: 'Civil Engineering',
                     icon: 'fas fa-hard-hat',
-                    tags: ['Civil Engineering', 'Transport Infrastructure', 'Highways', 'Rail']
+                    tags: ['Civil Engineering', 'Transport Infrastructure', 'Construction', 'Structural']
                 },
                 'industrial': {
                     name: 'Industrial Engineering',
                     icon: 'fas fa-industry',
-                    tags: ['Industrial Engineering']
+                    tags: ['Industrial Engineering', 'Supply Chain', 'Manufacturing', 'Process']
                 },
                 'chemical': {
                     name: 'Chemical Engineering',
                     icon: 'fas fa-flask',
-                    tags: ['Chemical Engineering']
+                    tags: ['Chemical Engineering', 'Process', 'Petrochemical']
                 }
             };
 
@@ -603,11 +657,15 @@
                     <span><i class="fas fa-calendar-alt"></i> ${job.duration || 'N/A'}</span>
                 `;
 
-                // Tags HTML (Excluding 'Finance' for simplicity in this engineering/IT portal context)
+                // Tags HTML (Excluding irrelevant tags like 'Finance', 'HR', 'Marketing' for this portal)
+                const excludedTags = ['Finance', 'Human Resources', 'Marketing'];
                 const tagsHtml = job.tags
-                    .filter(tag => tag !== 'Finance')
+                    .filter(tag => !excludedTags.includes(tag))
                     .map(tag => `<span class="tag">${tag}</span>`)
                     .join('');
+
+                // *** CRITICAL CHANGE: Link to job.html detail page, not direct application link ***
+                const detailPageLink = `job.html?id=${job.id}`;
 
                 return `
                     <div class="job-card">
@@ -627,10 +685,10 @@
                             <p>${job.shortDescription}</p>
                             <div class="tags-container">${tagsHtml}</div>
                         </div>
-                        <a href="${job.applicationLink}" target="_blank" rel="noopener noreferrer" class="view-btn ${buttonClass}" 
-                           ${isClosed ? 'aria-disabled="true"' : ''}
-                           onclick="${isClosed ? 'event.preventDefault();' : ''}">
-                            <i class="fas fa-external-link-alt"></i> ${isClosed ? 'Closed' : 'View & Apply'}
+                        <a href="${detailPageLink}" class="view-btn ${buttonClass}" 
+                            ${isClosed ? 'aria-disabled="true"' : ''}
+                            onclick="${isClosed ? 'event.preventDefault();' : ''}">
+                            <i class="fas fa-search"></i> ${isClosed ? 'Closed' : 'View Details'}
                         </a>
                     </div>
                 `;
@@ -698,6 +756,7 @@
                 // Switch views
                 categoriesGrid.style.display = 'none';
                 document.querySelector('.intro-section').style.display = 'none';
+                document.querySelector('.cv-submission-section').style.display = 'none'; // Hide CV section when showing jobs
                 jobsSection.classList.add('active');
             }
 
@@ -708,6 +767,7 @@
                 jobsSection.classList.remove('active');
                 categoriesGrid.style.display = 'grid';
                 document.querySelector('.intro-section').style.display = 'block';
+                document.querySelector('.cv-submission-section').style.display = 'block'; // Show CV section when showing categories
             }
 
             // --- Initial Setup and Event Listeners ---

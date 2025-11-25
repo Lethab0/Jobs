@@ -15,6 +15,8 @@ JavaScript array must be complete, valid, and ready for code use
 
 WhatsApp message must use emojis, hashtags, and be mobile-optimized
 
+If a job posting has a phone number ignore it competely and move on to the next.
+
 JAVASCRIPT OBJECT SPECIFICATION:
 
 javascript

@@ -1569,46 +1569,4 @@ const jobs = [
               <div>• Hands-on experience in ICT</div>
               <div>• First breakthrough opportunity in IT</div>`
                 },
-                {
-                  id: "mechanical-design-engineer-pumps-johannesburg",
-                  title: "Mechanical Design Engineer - Pumps",
-                  company: "International Pump Company",
-                  location: "Johannesburg, Gauteng",
-                  type: "Permanent • Full-time",
-                  duration: "Permanent",
-                  reportTo: "N/A",
-                  datePosted: "2025-10-22T09:35:13+02:00",
-                  closingDate: "N/A",
-                  applicationLink: "tel:0117041302",
-                  reference: "N/A",
-                  tags: ["Mechanical Engineering", "Design Engineering", "Manufacturing"],
-                  shortDescription: "Mechanical Design Engineer specializing in pumps for international company in Johannesburg. Requires 2-4 years mechanical design experience and N6 or higher qualification. Salary: R38,000 - R43,000 basic + benefits.",
-                  fullDescription: `<div>International pump company based in Johannesburg requires a Mechanical Design Engineer with 2-4 years relevant mechanical design experience.</div>
-              
-              <br>
-              <div><strong>Location:</strong> Johannesburg, Gauteng</div>
-              <div><strong>Salary:</strong> R38,000 – R43,000 basic + benefits</div>
-              <div><strong>Experience:</strong> 2-4 years mechanical design experience</div>
-              
-              <br>
-              <div><strong>REQUIREMENTS:</strong></div>
-              <div>• N6 or higher in Mechanical Engineering</div>
-              <div>• 2-4 years mechanical design (CAD) and engineering experience</div>
-              <div>• Pump design and testing experience advantageous</div>
-              
-              <br>
-              <div><strong>RESPONSIBILITIES:</strong></div>
-              <div>• Design of pump parts, pump systems and drive components</div>
-              <div>• Create new part system designs from specifications</div>
-              <div>• Create product structures and manufacturing drawings</div>
-              <div>• Processing of ECNs (Engineering Change Notices)</div>
-              <div>• Plant investigations and upgrades</div>
-              <div>• Definition of testing, design of test equipment</div>
-              <div>• Interpretation of test results</div>
-              <div>• Value engineering and product cost optimisation</div>
-              
-              <br>
-              <div><strong>CONTACT:</strong></div>
-              <div>Scott on 011 704 1302</div>`
-                },
   ];
