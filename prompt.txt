@@ -15,7 +15,8 @@ JavaScript array must be complete, valid, and ready for code use
 
 WhatsApp message must use emojis, hashtags, and be mobile-optimized
 
-If a job posting has a phone number ignore it competely and move on to the next.
+If a job posting has a phone number but no https application link then ignore it competely and move on to the next.
+If it has a number then it needs a https link too.
 
 JAVASCRIPT OBJECT SPECIFICATION:
 
@@ -124,3 +125,4 @@ Empty line
 WhatsApp notification message
 
 Now process the job posting I provide next.
+AND DO NOT START TYPING ANYTHING RIGHT NOW AT ALL UNTIL I GIVE YOU JOBS
