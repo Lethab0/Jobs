@@ -1781,7 +1781,117 @@ const jobs = [
                     tags: ["IT & Technology", "Computer Sciences", "Information Systems", "Network"],
                     shortDescription: "Datacentrix offers unemployed ICT graduates a 12-month trainee programme with real work experience and specialized training. Apply by 9 January 2026 for positions in Midrand, Cape Town, or Durban. No prior work experience required—just passion and the right qualifications. Email applications to LearningAcademy@datacentrix.co.za.",
                     fullDescription: '<div><strong>PROGRAMME OVERVIEW:</strong></div><br><div>Datacentrix is offering a 12-month Graduate Trainee Programme for unemployed ICT graduates in Midrand, Cape Town, and Durban. The program provides real work experience, specialized training, and supports South Africa’s National Skills Development Plan.</div><br><div><strong>QUALIFICATIONS REQUIRED:</strong></div><br><div>• Bachelor’s degree/BTech Degree/Diploma/National Diploma in one of the following fields:</div><div>• Information and Communication Technology</div><div>• Information/Electronics Engineering</div><div>• Information Systems/Informatics</div><div>• Information Technology</div><div>• Network and Security</div><div>• Computer Sciences</div><br><div><strong>ADDITIONAL REQUIREMENTS:</strong></div><br><div>• No work experience is required</div><div>• Applicants must NOT have previously participated in any graduate, internship, or learnership programme</div><div>• Must be between 20-35 years old</div><br><div><strong>REQUIRED DOCUMENTATION (Certified Copies):</strong></div><br><div>• Detailed CV (including contact number/email)</div><div>• South African ID</div><div>• Grade 12 certificate</div><div>• University Degree/Diploma Certificates</div><div>• Statement of academic results/transcripts</div><br><div><strong>APPLICATION PROCESS:</strong></div><br><div>Submit your application via email to: <strong>LearningAcademy@datacentrix.co.za</strong></div><div>Indicate your preferred location: Midrand, Cape Town, or Durban office.</div><div>Closing Date: Friday, 9 January 2026</div>'
-                  }, 
+                  },
+                  
+                  {
+                    id: "business-operations-intern-oracle-johannesburg",
+                    title: "Business Operations Intern",
+                    company: "Oracle",
+                    location: "Johannesburg, Gauteng",
+                    type: "Internship • Fixed-Term",
+                    duration: "12 months",
+                    reportTo: "Sales Operations Manager",
+                    datePosted: "2024-12-11T10:53:00+02:00",
+                    closingDate: "N/A",
+                    applicationLink:
+                      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/318483?location=South+Africa&locationId=300000000149367&locationLevel=country&mode=location",
+                    reference: "318483",
+                    tags: ["IT & Technology", "Software Development", "Business Analysis"],
+                    shortDescription:
+                      "12-month internship assisting with sales operations, data management, and pipeline health in a leading tech company. Apply via the Oracle careers portal.",
+                    fullDescription: `
+                <div><strong>JOB TITLE:</strong> Business Operations Intern</div><br>
+                <div><strong>COMPANY:</strong> Oracle</div><br>
+                <div><strong>LOCATION:</strong> Woodmead, Johannesburg, Gauteng</div><br>
+                <div><strong>JOB TYPE:</strong> Internship • Fixed-Term (12-month program)</div><br>
+                <div><strong>PROGRAM START:</strong> 1 April 2026</div><br>
+                <div><strong>REFERENCE:</strong> 318483</div><br>
+                <div><strong>OVERVIEW:</strong><br>
+                Join as a Business Operations Intern to assist the Sales Operations Manager in streamlining daily operations, ensuring data quality, and improving sales force productivity within a leading global tech company.</div><br>
+                <div><strong>PURPOSE OF THE ROLE:</strong><br>
+                You will focus on managing sales pipeline health, providing system support, and working with Business Operations and Sales teams to drive operational efficiency and accurate forecasting.</div><br>
+                <div><strong>KEY RESPONSIBILITIES:</strong><br>
+                • Assist in streamlining operations and workflows.<br>
+                • Monitor and manage sales pipeline data quality and health.<br>
+                • Ensure forecast accuracy and consistency between Sales Reps and Managers.<br>
+                • Extract and analyze weekly reports to track deal updates.<br>
+                • Participate in Commercial and Public Sector Sales meetings.<br>
+                • Attend Account Planning sessions, take minutes, and conduct customer research.<br>
+                • Collaborate with Pre-Sales teams and Sales Reps.<br>
+                • Complete relevant Oracle certifications.<br>
+                • Provide administrative support to the Business Operations team.<br>
+                • Attend customer/partner meetings and follow up on action items.</div><br>
+                <div><strong>MINIMUM QUALIFICATIONS:</strong><br>
+                • B.Com in Finance, Economics, Supply Chain, IT, or Informatics.</div><br>
+                <div><strong>DESIRED QUALIFICATIONS:</strong><br>
+                • B.Com or BSc in Finance, Economics, Supply Chain, IT, Business Administration, or related fields.</div><br>
+                <div><strong>DESIRED SKILLS & EXPERIENCE:</strong><br>
+                • Ability to learn new concepts quickly.<br>
+                • Strong numerical reasoning and analytical skills.<br>
+                • Excellent communication skills (written and verbal).<br>
+                • Highly organized, self-driven, and able to meet deadlines.<br>
+                • Interest in technology trends and cloud computing.<br>
+                • Proficiency in MS Office (Excel, PowerPoint, Word, Outlook) is mandatory.<br>
+                • Good problem-solving skills and attention to detail.</div><br>
+                <div><strong>ELIGIBILITY:</strong><br>
+                • Open to graduates who have not previously participated in an internship or held a permanent role for over 12 months.<br>
+                • In line with the Employment Equity Act, preference will be given to candidates from designated groups.</div><br>
+                <div><strong>APPLICATION REQUIREMENTS:</strong><br>
+                • CV<br>
+                • Copy of ID<br>
+                • Academic transcript<br>
+                • Any relevant certificates<br>
+                • Incomplete applications will not be considered.</div><br>
+                <div><strong>HOW TO APPLY:</strong><br>
+                Apply via the official Oracle careers portal using the application link.</div>
+                    `
+                  },
+                  {
+                    id: "software-engineering-graduate-programme-fdm-south-africa",
+                    title: "Software Engineering Graduate Programme",
+                    company: "FDM Group",
+                    location: "Nationwide, South Africa",
+                    type: "Graduate Programme • Consultant",
+                    duration: "Minimum 2 years",
+                    reportTo: "N/A",
+                    datePosted: "2024-12-01T09:00:00+02:00",
+                    closingDate: "N/A",
+                    applicationLink:
+                      "https://careers.fdmgroup.com/vacancies/2060/software-engineering-graduate-programme--south-africa.html",
+                    reference: "N/A",
+                    tags: ["Software Development", "IT & Technology", "Business Analysis"],
+                    shortDescription:
+                      "Join FDM's Software Engineering Team for an exciting career in IT transformation. Work on client assignments across various roles and specialisms.",
+                    fullDescription: `
+                <div><strong>JOB TITLE:</strong> Software Engineering Graduate Programme</div><br>
+                <div><strong>COMPANY:</strong> FDM Group</div><br>
+                <div><strong>LOCATION:</strong> Nationwide, South Africa (Client assignments across the country)</div><br>
+                <div><strong>JOB TYPE:</strong> Graduate Programme • Consultant</div><br>
+                <div><strong>DURATION:</strong> Minimum commitment of two years employment with FDM</div><br>
+                <div><strong>OVERVIEW:</strong><br>
+                Launch a fast-paced career in IT transformation with FDM. Join our Software Engineering Team and work on client assignments involving new product development, technology modernisation, quality engineering, and application support.</div><br>
+                <div><strong>ABOUT THE ROLE:</strong><br>
+                You will join as a Consultant within the Software Engineering Practice, delivering projects for clients across a wide portfolio. You'll have opportunities to take on roles such as Software Engineer, Tester, DevOps Engineer, Analyst, or Cloud Platform Engineer.</div><br>
+                <div><strong>MINIMUM QUALIFICATIONS:</strong><br>
+                • Bachelor’s degree with a minimum overall grade of 60% in a STEM degree.<br>
+                • Eligibility to work in South Africa.<br>
+                • English level B2 or higher.<br>
+                • Excellent communication skills and proven ability to work in a team.<br>
+                • Demonstrable interest and desire to work in technology.<br>
+                • Commitment to at least two years of employment with FDM.<br>
+                • Flexibility to accept client assignments across South Africa.</div><br>
+                <div><strong>WHY JOIN FDM:</strong><br>
+                • Career coaching and access to upskilling throughout your career.<br>
+                • Initial accredited upskilling pre-assignment.<br>
+                • Assignments with global companies and opportunities to work abroad.<br>
+                • Opportunity to obtain certifications from Microsoft, Salesforce, Cisco and more.<br>
+                • Non-linear career journey with a Skills Lab for guidance.</div><br>
+                <div><strong>ABOUT FDM:</strong><br>
+                FDM is a business and technology consultancy and a leading UK employer, recruiting talent to become the innovators of tomorrow. We have a global workforce and are listed on the FTSE4Good Index.</div><br>
+                <div><strong>HOW TO APPLY:</strong><br>
+                Apply via the official FDM Group careers website using the application link provided.</div>
+                    `
+                  },
 
 
 
