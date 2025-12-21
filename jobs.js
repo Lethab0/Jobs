@@ -1893,6 +1893,57 @@ const jobs = [
                     `
                   },
 
+                  {
+                    id: "graduate-internship-programme-modikwa-platinum-mine",
+                    title: "Graduate Internship Programme",
+                    company: "Modikwa Platinum Mine",
+                    location: "Burgersfort, Limpopo",
+                    type: "Internship • Fixed-Term",
+                    duration: "Fixed-Term",
+                    reportTo: "N/A",
+                    datePosted: "2024-12-19T12:00:00+02:00",
+                    closingDate: "2026-01-18",
+                    applicationLink: "mailto:Modikwacentralrecruit@angloamerican.com",
+                    reference: "N/A",
+                    tags: [
+                      "Mining & Metallurgy",
+                      "Electrical Engineering",
+                      "Mechanical Engineering"
+                    ],
+                    shortDescription:
+                      "Inviting unemployed graduates for internships in Mining, Electrical, and Mechanical Engineering. Apply via email to Modikwacentralrecruit@angloamerican.com.",
+                    fullDescription: `
+                  <div><strong>JOB TITLE:</strong> Graduate Internship Programme</div><br>
+                  <div><strong>COMPANY:</strong> Modikwa Platinum Mine</div><br>
+                  <div><strong>LOCATION:</strong> Burgersfort, Limpopo</div><br>
+                  <div><strong>JOB TYPE:</strong> Internship • Fixed-Term</div><br>
+                  <div><strong>CLOSING DATE:</strong> 18 January 2026</div><br>
+                  <div><strong>OVERVIEW:</strong><br>
+                  Modikwa Platinum Mine invites unemployed graduates to apply for internships to gain hands-on experience in a world-class platinum mining operation.</div><br>
+                  <div><strong>AVAILABLE DISCIPLINES:</strong><br>
+                  • Mining Engineering<br>
+                  • Electrical Engineering<br>
+                  • Mechanical Engineering</div><br>
+                  <div><strong>ELIGIBILITY REQUIREMENTS:</strong><br>
+                  • Valid South African ID<br>
+                  • Diploma or Degree in a specified mining-related discipline from a HET institution<br>
+                  • Proof of residential address<br>
+                  • Must be currently unemployed<br>
+                  • Must not have been in any previous SETA-registered internship programme</div><br>
+                  <div><strong>SELECTION PROCESS:</strong><br>
+                  • Preference to candidates from Modikwa Mining affected communities<br>
+                  • Consideration of Mining Charter and Employment Equity Act objectives<br>
+                  • May include panel interviews and psychometric assessments</div><br>
+                  <div><strong>APPLICATION REQUIREMENTS:</strong><br>
+                  • Comprehensive Curriculum Vitae (CV)<br>
+                  • Certified copies of all academic qualifications<br>
+                  • Certified copy of valid South African ID<br>
+                  • Proof of residential address</div><br>
+                  <div><strong>HOW TO APPLY:</strong><br>
+                  Submit your complete application via email to: Modikwacentralrecruit@angloamerican.com</div>
+                    `
+                  },
+
 
 
   ];
