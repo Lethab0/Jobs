@@ -1944,6 +1944,71 @@ const jobs = [
                     `
                   },
 
+                  {
+                    id: "west-wits-mining-multiple-opportunities-johannesburg",
+                    title: "Multiple Graduate Internships & Bursaries",
+                    company: "West Wits Mining",
+                    location: "Johannesburg, Gauteng",
+                    type: "Multiple Roles • Internships/Bursaries/Permanent",
+                    duration: "Varies by position",
+                    reportTo: "N/A",
+                    datePosted: "2024-12-01T09:00:00+02:00",
+                    closingDate: "2026-01-31",
+                    applicationLink: "https://westwitsmining.com/careers/",
+                    reference: "N/A",
+                    tags: [
+                      "Mining & Metallurgy",
+                      "Electrical Engineering",
+                      "Mechanical Engineering",
+                      "Chemical Engineering",
+                      "Civil Engineering",
+                      "Industrial Engineering"
+                    ],
+                    shortDescription:
+                      "Multiple opportunities including graduate internships, bursaries, and permanent roles across mining and engineering disciplines. Apply via the West Wits Mining careers portal.",
+                    fullDescription: `
+                  <div><strong>JOB TITLE:</strong> Multiple Graduate Internships, Bursaries & Permanent Roles</div><br>
+                  <div><strong>COMPANY:</strong> West Wits Mining</div><br>
+                  <div><strong>LOCATION:</strong> City of Joburg region C and D, Gauteng, South Africa</div><br>
+                  <div><strong>APPLICATION PORTAL:</strong> https://westwitsmining.com/careers/</div><br>
+                  <div><strong>CLOSING DATES:</strong><br>
+                  • Internships & Facilitator Role: 31 January 2026<br>
+                  • Bursaries: 30 January 2026</div><br>
+                  
+                  <div><strong>AVAILABLE GRADUATE INTERNSHIPS (Closes 31 Jan 2026):</strong><br>
+                  • Mine Planner Graduate<br>
+                  • Chemical Engineering Graduate<br>
+                  • Environmental Studies Graduate<br>
+                  • Mine Surveying Graduate<br>
+                  • Rock Engineering Graduate<br>
+                  • Health & Safety Graduate<br>
+                  • Mine Ventilation Graduate<br>
+                  • Mining Engineer Graduate<br>
+                  • Occupational Health Graduate<br>
+                  • Finance Graduate<br>
+                  • Geology Graduate</div><br>
+                  
+                  <div><strong>AVAILABLE BURSARIES (Closes 30 Jan 2026):</strong><br>
+                  • Electrical Engineering Bursary<br>
+                  • Finance Bursary<br>
+                  • Geology Bursary<br>
+                  • Mechanical Engineering Bursary<br>
+                  • Mining Engineering Bursary</div><br>
+                  
+                  <div><strong>AVAILABLE PERMANENT POSITION (Closes 31 Jan 2026):</strong><br>
+                  • Skills Development Facilitator (Full-time)</div><br>
+                  
+                  <div><strong>GENERAL ELIGIBILITY (May Vary):</strong><br>
+                  • Relevant qualification or current study in the specific field<br>
+                  • South African citizenship or residency<br>
+                  • Strong academic record<br>
+                  • Passion for the mining industry</div><br>
+                  
+                  <div><strong>HOW TO APPLY:</strong><br>
+                  All applications must be submitted through the official West Wits Mining careers portal.</div>
+                    `
+                  },
+
 
 
   ];
