@@ -3,49 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STEMCLUB | Resource Test Page</title>
+    <title>STEMCLUB | Student Resource Center</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; text-align: center; }
-        .container { max-width: 600px; margin: 50px auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: #007bff; margin-bottom: 10px; }
-        p { line-height: 1.6; color: #666; }
-        .download-box { margin-top: 30px; padding: 20px; border: 2px dashed #007bff; border-radius: 8px; background-color: #f0f7ff; }
-        .btn { background-color: #007bff; color: white; padding: 15px 30px; border: none; border-radius: 6px; cursor: pointer; font-size: 18px; font-weight: bold; transition: background 0.3s; text-decoration: none; display: inline-block; }
-        .btn:hover { background-color: #0056b3; }
-        .footer { margin-top: 50px; font-size: 12px; color: #999; }
+        /* Professional STEM Styling */
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background-color: #f0f2f5; 
+            color: #1c1e21; 
+            margin: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #004a99;
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .card {
+            background: white;
+            max-width: 500px;
+            width: 90%;
+            margin-top: 50px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        h1 { margin-top: 0; font-size: 24px; color: #004a99; }
+        p { color: #606770; line-height: 1.5; margin-bottom: 30px; }
+        
+        .download-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 18px 35px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+        }
+        .footer {
+            margin-top: auto;
+            padding: 20px;
+            font-size: 12px;
+            color: #8a8d91;
+        }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>STEMCLUB Beta Test</h1>
-        <p>Welcome to the publisher testing area for the STEMCLUB platform.</p>
-        
-        <div class="download-box">
-            <h3>Ready to Download?</h3>
-            <p>Click the button below to access the <strong>Engineering Mathematics Study Notes</strong>.</p>
-            
-            <button class="btn" onclick="handleTestClick()">Download Resource (Test)</button>
-        </div>
+    <div class="header">
+        <h2 style="margin:0;">STEMCLUB</h2>
+    </div>
 
-        <p style="margin-top: 20px; font-style: italic;">
-            Note: The Social Bar ad should appear automatically at the top or bottom of this screen.
+    <div class="card">
+        <h1>Resource Ready</h1>
+        <p>Your requested <strong>Engineering Mathematics Study Guide (PDF)</strong> is ready for access.</p>
+        
+        <button class="download-btn" onclick="startSecureDownload()">
+            Download Resource
+        </button>
+
+        <p style="margin-top: 25px; font-size: 13px;">
+            <em>Clicking will open a secure ad partner in a new tab to keep our resources free.</em>
         </p>
     </div>
 
     <div class="footer">
-        &copy; 2025 STEMCLUB Community | South Africa
+        &copy; 2025 STEMCLUB South Africa | Built for Students
     </div>
 
     <script>
-        function handleTestClick() {
-            // 1. Open your SmartLink in a NEW tab (Revenue generation)
-            window.open("https://www.effectivegatecpm.com/f72ikr4db8?key=6b67e1888dc12ac14ee70f3c2fba409f", "_blank");
+        function startSecureDownload() {
+            // 1. YOUR SMARTLINK (Opens in New Tab)
+            const adUrl = "https://www.effectivegatecpm.com/f72ikr4db8?key=6b67e1888dc12ac14ee70f3c2fba409f";
+            
+            // 2. RESOURCE URL (Current Tab Redirect)
+            // Replace 'https://www.google.com' with your actual file or job link
+            const resourceUrl = "https://www.google.com"; 
 
-            // 2. Redirect this tab to the "success" message (User satisfaction)
-            alert("Success! The ad opened in a new tab, and your resource would now start downloading in this tab.");
-            // In a real scenario, change the line below to your actual file link:
-            // window.location.href = "https://your-website.com/notes.pdf";
+            // Execute the profitable open
+            window.open(adUrl, '_blank');
+
+            // Execute the user-friendly redirect
+            window.location.href = resourceUrl;
         }
     </script>
 
