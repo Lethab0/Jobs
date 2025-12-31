@@ -4,9 +4,9 @@
   <meta name="google-adsense-account" content="ca-pub-2755916028562913">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | StudentFunding.co.za</title>
-  <meta name="description" content="Learn about StudentFunding.co.za - Your trusted source for bursaries and job opportunities for South African students and graduates.">
-  <meta name="keywords" content="about us, student funding, bursaries, scholarships, jobs, South Africa">
+  <title>About Us | STEMCLUB.co.za - Engineering & IT Careers SA</title>
+  <meta name="description" content="Discover STEMCLUB.co.za: South Africa's leading platform connecting STEM students and professionals with Engineering, IT, and Mining opportunities.">
+  <meta name="keywords" content="STEM jobs South Africa, Engineering bursaries, IT internships, Mining careers, STEMCLUB about">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
@@ -19,11 +19,7 @@
       --white: #ffffff;
     }
     
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     
     body {
       font-family: 'Inter', sans-serif;
@@ -32,16 +28,12 @@
       color: var(--text-color);
     }
     
-    .container {
-      max-width: 1000px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
+    .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
     
     header {
       background-color: var(--primary-dark);
       color: var(--white);
-      padding: 30px 0;
+      padding: 40px 0;
       text-align: center;
     }
     
@@ -50,57 +42,28 @@
       margin-bottom: 30px;
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
       gap: 5px;
-      color: var(--text-color);
     }
     
-    .breadcrumb a {
-      color: var(--primary-color);
-      text-decoration: none;
-    }
-    
-    .breadcrumb a:hover {
-      text-decoration: underline;
-    }
+    .breadcrumb a { color: var(--primary-color); text-decoration: none; }
     
     .about-section {
       background: var(--white);
       border-radius: 12px;
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-      padding: 30px;
+      padding: 40px;
       margin-bottom: 30px;
     }
     
-    h1 {
-      font-size: 2.2rem;
-      color: var(--primary-dark);
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    
-    h2 {
-      font-size: 1.6rem;
-      color: var(--primary-dark);
-      margin: 30px 0 15px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--medium-gray);
-    }
-    
-    h3 {
-      font-size: 1.3rem;
-      color: var(--primary-dark);
-      margin: 25px 0 10px;
-    }
-    
-    p {
-      margin-bottom: 15px;
-    }
-    
+    h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    h2 { font-size: 1.6rem; color: var(--primary-dark); margin: 40px 0 15px; border-bottom: 1px solid var(--medium-gray); padding-bottom: 10px;}
+    h3 { font-size: 1.2rem; margin-bottom: 10px; color: var(--primary-dark); }
+    p { margin-bottom: 20px; }
+
     .mission-vision {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 30px;
+      gap: 20px;
       margin: 30px 0;
     }
     
@@ -108,211 +71,163 @@
       background: var(--light-gray);
       padding: 25px;
       border-radius: 8px;
-      border-left: 4px solid var(--primary-color);
-    }
-    
-    .team-section {
-      margin-top: 40px;
-    }
-    
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 25px;
-      margin-top: 20px;
-    }
-    
-    .team-member {
-      background: var(--white);
-      border-radius: 8px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    
-    .team-member img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
-      border: 3px solid var(--primary-color);
+      border-top: 4px solid var(--primary-color);
     }
     
     .values-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 20px;
-      margin: 25px 0;
+      margin-top: 20px;
     }
     
     .value-item {
-      background: var(--white);
+      text-align: center;
+      padding: 20px;
+      background: #f9fafb;
+      border-radius: 8px;
+    }
+
+    .value-item i { font-size: 2rem; color: var(--primary-color); margin-bottom: 15px; }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .team-member {
+      background: #fff;
+      border: 1px solid var(--medium-gray);
       padding: 20px;
       border-radius: 8px;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
-    
-    .value-item i {
-      font-size: 2rem;
-      color: var(--primary-color);
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
       margin-bottom: 15px;
+      background: #eee;
     }
-    
+
+    .impact-list { margin: 20px 0 20px 20px; }
+    .impact-list li { margin-bottom: 10px; }
+
     .btn-primary {
       display: inline-block;
-      padding: 12px 24px;
+      padding: 12px 28px;
       background-color: var(--primary-color);
       color: white;
       border-radius: 6px;
       text-decoration: none;
       font-weight: 600;
-      margin-top: 20px;
-      transition: all 0.3s ease;
+      transition: background 0.3s;
     }
-    
-    .btn-primary:hover {
-      background-color: var(--primary-dark);
-      transform: translateY(-2px);
-    }
-    
+
+    footer { text-align: center; padding: 40px 0; color: #666; font-size: 0.9rem; }
+    footer a { margin: 0 10px; color: var(--primary-color); text-decoration: none; }
+
     @media (max-width: 768px) {
-      .mission-vision {
-        grid-template-columns: 1fr;
-      }
-      
-      .team-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      h1 {
-        font-size: 1.8rem;
-      }
-      
-      h2 {
-        font-size: 1.4rem;
-      }
+      .mission-vision { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
+
   <header>
     <div class="container">
-      <h1>About StudentFunding.co.za</h1>
-      <p>Your trusted partner in connecting students with funding and career opportunities</p>
+      <h1>Empowering the Next Generation of STEM Leaders</h1>
+      <p>Bridging the gap between South African talent and the Engineering, IT, and Mining sectors.</p>
     </div>
   </header>
 
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Home</a> <span>/</span>
-      <span>About Us</span>
+      <a href="index.html">Home</a> <span>/</span> <span>About STEMCLUB</span>
     </div>
     
     <div class="about-section">
-      <h2>Our Story</h2>
-      <p>Founded in 2020, StudentFunding.co.za began as a small initiative to help South African students navigate the complex world of educational funding and career opportunities. What started as a simple directory has grown into the most comprehensive bursary and job platform for students in South Africa.</p>
+      <h2>The STEMCLUB Story</h2>
+      <p>STEMCLUB.co.za was established to solve a critical challenge in the South African economy: the disconnect between high-potential STEM students and the industries that need them most. We focus exclusively on Science, Technology, Engineering, and Mathematics to provide a specialized ecosystem for local talent.</p>
       
-      <p>We understand the challenges students face in accessing quality education and launching their careers. Our platform was created to bridge the gap between talented students and the organizations that want to support them.</p>
+      <p>Our platform serves as a specialized career hub where Engineering, Mining, and Technology professionals find vetted opportunities, industry insights, and educational resources tailored to the South African landscape.</p>
       
       <div class="mission-vision">
         <div class="mission-card">
-          <h3>Our Mission</h3>
-          <p>To democratize access to education and career opportunities by providing a centralized, up-to-date platform that connects students with funding sources and employers across South Africa.</p>
+          <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+          <p>To accelerate the careers of South African STEM students by providing transparent access to bursaries, internships, and high-impact job opportunities in technical fields.</p>
         </div>
         
         <div class="vision-card">
-          <h3>Our Vision</h3>
-          <p>A South Africa where no deserving student misses out on education due to financial constraints, and where graduates seamlessly transition into meaningful careers.</p>
+          <h3><i class="fas fa-eye"></i> Our Vision</h3>
+          <p>To become the primary digital infrastructure for STEM talent acquisition in South Africa, contributing to the growth of our nation’s industrial and technological capabilities.</p>
         </div>
       </div>
       
-      <h2>Our Values</h2>
+      <h2>Core Specializations</h2>
       <div class="values-list">
         <div class="value-item">
-          <i class="fas fa-graduation-cap"></i>
-          <h3>Accessibility</h3>
-          <p>We believe education funding information should be freely available to all students.</p>
+          <i class="fas fa-drafting-compass"></i>
+          <h3>Engineering</h3>
+          <p>Mechanical, Civil, Electrical, and Chemical engineering pathways.</p>
         </div>
-        
         <div class="value-item">
-          <i class="fas fa-hand-holding-heart"></i>
-          <h3>Integrity</h3>
-          <p>We verify all opportunities and maintain strict editorial standards.</p>
+          <i class="fas fa-microchip"></i>
+          <h3>Technology</h3>
+          <p>Software development, IT infrastructure, and Data Science roles.</p>
         </div>
-        
         <div class="value-item">
-          <i class="fas fa-lightbulb"></i>
-          <h3>Innovation</h3>
-          <p>We continuously improve our platform to better serve students.</p>
-        </div>
-        
-        <div class="value-item">
-          <i class="fas fa-users"></i>
-          <h3>Community</h3>
-          <p>We foster connections between students, funders, and employers.</p>
+          <i class="fas fa-hard-hat"></i>
+          <h3>Mining</h3>
+          <p>Geology, Metallurgy, and specialized Mining Engineering opportunities.</p>
         </div>
       </div>
-      
-      <h2>Our Impact</h2>
-      <p>Since our launch, we've helped thousands of students find funding and career opportunities. Our platform lists hundreds of bursaries and jobs annually, with a success rate that speaks for itself:</p>
-      
-      <ul>
-        <li>Over 50,000 monthly visitors</li>
-        <li>500+ bursaries listed annually</li>
-        <li>1,000+ job opportunities posted each year</li>
-        <li>Partnerships with major universities and corporations</li>
+
+      <h2>Our Editorial Standard</h2>
+      <p>At STEMCLUB, integrity is our foundation. Every opportunity listed on our platform undergoes a verification process. We ensure that:</p>
+      <ul class="impact-list">
+        <li>All bursary and job listings are from legitimate South African entities.</li>
+        <li>We prioritize data privacy and comply with the <strong>POPI Act</strong>.</li>
+        <li>We maintain a strict policy against listing fraudulent "pay-to-apply" schemes.</li>
+        <li><strong>Safety First:</strong> We manually audit descriptions to ensure no unauthorized contact details or telephone numbers are exposed to protect our community from spam.</li>
       </ul>
-      
-      <h2>Meet The Team</h2>
-      <div class="team-section">
-        <div class="team-grid">
-          <div class="team-member">
-            <img src="https://via.placeholder.com/150" alt="Nomsa Khumalo">
-            <h3>Nomsa Khumalo</h3>
-            <p>Founder & CEO</p>
-            <p>Former financial aid officer with 15 years experience in student funding.</p>
-          </div>
-          
-          <div class="team-member">
-            <img src="https://via.placeholder.com/150" alt="Thabo Mbeki">
-            <h3>Thabo Mbeki</h3>
-            <p>Technical Director</p>
-            <p>Ensures our platform remains cutting-edge and user-friendly.</p>
-          </div>
-          
-          <div class="team-member">
-            <img src="https://via.placeholder.com/150" alt="Lerato Smith">
-            <h3>Lerato Smith</h3>
-            <p>Content Manager</p>
-            <p>Curates and verifies all bursary and job listings.</p>
-          </div>
-          
-          <div class="team-member">
-            <img src="https://via.placeholder.com/150" alt="Student Advisory Board">
-            <h3>Student Advisors</h3>
-            <p>Current students who help shape our platform's direction.</p>
-          </div>
+
+      <h2>The STEMCLUB Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://via.placeholder.com/100" alt="Founder">
+          <h3>Technical Director</h3>
+          <p>Strategic Lead</p>
+          <p>Expert in STEM career placement with a focus on South African industrial growth.</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/100" alt="Editor">
+          <h3>Content Editor</h3>
+          <p>Verification Specialist</p>
+          <p>Ensures every technical job and bursary listing meets our high editorial standards.</p>
         </div>
       </div>
-      
-      <h2>Get Involved</h2>
-      <p>We're always looking to partner with organizations that share our vision for accessible education and employment. Whether you're a corporation looking to list opportunities or an individual who wants to contribute, we'd love to hear from you.</p>
-      
-      <a href="contact.html" class="btn-primary">Contact Our Team</a>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <h2>Partner With Us</h2>
+        <p>Are you an employer or a funding organization looking for South Africa's best STEM talent?</p>
+        <a href="contact.html" class="btn-primary">Get in Touch</a>
+      </div>
     </div>
   </div>
 
   <footer>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="bursaries.html">Bursaries</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy Policy</a>
+    <div class="container">
+      <div style="margin-bottom: 20px;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <p>&copy; <span id="current-year"></span> STEMCLUB.co.za. All rights reserved.</p>
     </div>
-    <p>&copy; <span id="current-year"></span> StudentFunding.co.za. All rights reserved.</p>
   </footer>
 
   <script>
