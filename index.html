@@ -465,13 +465,23 @@
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
         
-        <div class="cv-submission-section">
+       <!-- <div class="cv-submission-section">
             <h3>Don't See Your Role Listed?</h3>
             <p>Submit your CV/Resume to our database today. We share suitable candidates directly with our hiring network across Engineering, Mining, and IT sectors.</p>
             <a href="https://script.google.com/macros/s/AKfycbxTNFdup9Y-blaaWvh8LIaROXOp93_RSBKwH2mQBHBgADBK_gZQuLLjV5JEXw-rNowp/exec" class="cv-submit-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-file-upload"></i> Submit Your CV Here
             </a>
+        </div>  -->
+        <div class="cv-submission-section">
+            <h3>Don't See Your Role Listed?</h3>
+            <p>Submit your CV/Resume to our database today. We share suitable candidates directly with our hiring network across Engineering, Mining, and IT sectors.</p>
+            
+            <button onclick="handleCVSubmission()" class="cv-submit-btn" style="cursor: pointer; border: none; display: inline-flex; align-items: center; text-decoration: none;">
+                <i class="fas fa-file-upload" style="margin-right: 8px;"></i> Submit Your CV Here
+            </button>
         </div>
+
+
         <div class="categories-grid" id="categories-grid">
         </div>
 <!--
@@ -546,6 +556,19 @@
             const selectedIcon = document.getElementById('selected-icon');
             const selectedTitle = document.getElementById('selected-title');
             const jobList = document.getElementById('job-list');
+
+            function handleCVSubmission() {
+    // 1. YOUR SMARTLINK (Opens in a new tab)
+    const adUrl = "https://www.effectivegatecpm.com/f72ikr4db8?key=6b67e1888dc12ac14ee70f3c2fba409f";
+    
+    // 2. YOUR CV SUBMISSION LINK (Current Tab Redirect)
+    const cvFormUrl = "https://script.google.com/macros/s/AKfycbxTNFdup9Y-blaaWvh8LIaROXOp93_RSBKwH2mQBHBgADBK_gZQuLLjV5JEXw-rNowp/exec";
+
+    // Action: Open ad in new window/tab
+    window.open(adUrl, '_blank');
+
+    // Action: Move user to the CV form in the same tab
+    window.location.href = cvFormUrl;
             
             const today = new Date();
             // Use one week (7 days) to determine if a job is "NEW"
