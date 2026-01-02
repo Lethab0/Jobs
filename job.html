@@ -266,18 +266,7 @@
 
         <div class="main-card">
             <div id="job-details"></div>
-           <!-- 
-            <div class="ad-container">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-format="autorelaxed"
-                     data-ad-client="ca-pub-1486635931470536"
-                     data-ad-slot="5668458092"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>-->
+            
             <div class="ad-container">
             <script>
                 atOptions = {
@@ -308,18 +297,38 @@
     <script src="jobs.js"></script>
     <script>
         function handleApply(link, isEmail, title) {
-            // Open Smartlink in a new tab
+            // 1. Open Smartlink in a new tab
             window.open("https://www.effectivegatecpm.com/f72ikr4db8?key=6b67e1888dc12ac14ee70f3c2fba409f", "_blank");
             
-            // Proceed with application logic
-            if (isEmail) {
-                const message = `To apply for this job, please send your CV and required documents directly to the following email address:\n\n${link}\n\nPlease remember to include the Job Title in your email's subject line.`;
-                alert(message);
-                const encodedSubject = encodeURIComponent(`Application for: ${title}`);
-                window.location.href = `mailto:${link}?subject=${encodedSubject}`;
-            } else {
-                window.location.href = link;
-            }
+            const btnContainer = document.getElementById('button-container');
+            const originalContent = btnContainer.innerHTML;
+            let seconds = 10;
+
+            // 2. Start Countdown on the button
+            const countdownInterval = setInterval(() => {
+                seconds--;
+                if (seconds > 0) {
+                    btnContainer.innerHTML = `
+                        <button class="btn-primary" style="background-color: #6b7280; cursor: wait;">
+                            <i class="fas fa-spinner fa-spin"></i> Redirecting in ${seconds}s...
+                        </button>
+                        <a href="index.html" class="btn-secondary"><i class="fas fa-arrow-left"></i> Back to Jobs</a>
+                    `;
+                } else {
+                    clearInterval(countdownInterval);
+                    btnContainer.innerHTML = originalContent;
+                    
+                    // 3. Final Redirection
+                    if (isEmail) {
+                        const message = `To apply for this job, please send your CV and required documents directly to the following email address:\n\n${link}\n\nPlease remember to include the Job Title in your email's subject line.`;
+                        alert(message);
+                        const encodedSubject = encodeURIComponent(`Application for: ${title}`);
+                        window.location.href = `mailto:${link}?subject=${encodedSubject}`;
+                    } else {
+                        window.location.href = link;
+                    }
+                }
+            }, 1000);
         }
         
         document.addEventListener('DOMContentLoaded', function() {
@@ -353,7 +362,7 @@
                         <span class="meta-item"><i class="fas fa-calendar-alt"></i> <strong>Posted:</strong> ${postedDate.toLocaleDateString('en-ZA')}</span>
                         ${closingDate ? `<span class="meta-item"><i class="fas fa-clock"></i> <strong>Closes:</strong> ${closingDate.toLocaleDateString('en-ZA')}</span>` : ''}
                     </div>
-                    <div class="highlight-box">
+                    <div class="highlight-box"> 
                         <h3>Job Summary</h3>
                         <p>${job.shortDescription}</p>
                     </div>
