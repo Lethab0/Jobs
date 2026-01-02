@@ -2009,6 +2009,55 @@ const jobs = [
                     `
                   },
 
+                  {
+                    id: "p1-p2-student-training-programme-minopex-nationally",
+                    title: "P1 & P2 Student Training Programme",
+                    company: "Minopex",
+                    location: "Nationally",
+                    type: "Fixed Term • Student",
+                    duration: "12 Months",
+                    reportTo: "N/A",
+                    datePosted: "2026-01-02T10:52:34+02:00",
+                    closingDate: "2026-01-12",
+                    applicationLink: "mailto:idilie@apply.simplify.hr",
+                    reference: "idilie",
+                    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering", "Software Development"],
+                    shortDescription: "Work Integrated Learning for students requiring P1 & P2 training in engineering and data science fields. Apply via email to idilie@apply.simplify.hr.",
+                    fullDescription: "<div><strong>INTRODUCTION:</strong><br>Minopex is offering Work Integrated Learning for Students to gain exposure to the work environment as part of our P1 & P2 Training Programme (12-month programme). These positions will be based at various sites nationally.</div><br><div><strong>APPLICANT REQUIREMENTS:</strong><br>• Applicants must be registered for and have completed up to S4 for their National Diploma in: Metallurgical or Chemical Engineering, Mechanical Engineering, Electrical Engineering, Chemical Engineering (Mineral processing), or Data Scientist/Computer science/Data Analyst<br>• Applicants must be South African Citizens<br>• Applicants must have a minimum pass rate of 60% and above<br>• Applicants will be subjected to background checking as well as undergoing a Medical Fitness Assessment</div><br><div><strong>APPLICATION SUBMISSION REQUIREMENTS:</strong><br>• Brief Curriculum Vitae<br>• Certified copy of Academic Record and a letter from the tertiary institution of learning confirming the required in-service training for the field of study<br>• A valid South African Identity Document (South African Citizen)</div><br><div><strong>APPLICATION PROCESS:</strong><br>• Submit your CV via email to: idilie@apply.simplify.hr</div>"
+                  },
+                  {
+                    id: "internship-programme-2026-assmang-pty-ltd-northern-cape",
+                    title: "Internship Programme 2026",
+                    company: "ASSMANG Pty Ltd",
+                    location: "Black Rock Mine, Northern Cape",
+                    type: "Internship • Fixed Term",
+                    duration: "N/A",
+                    reportTo: "N/A",
+                    datePosted: "2026-01-01T00:00:00+02:00",
+                    closingDate: "2026-01-10",
+                    applicationLink: "https://assmang.ci.hr/applicant/index.php",
+                    reference: "N/A",
+                    tags: ["Mining & Metallurgy", "IT & Technology", "Civil Engineering", "Industrial Engineering"],
+                    shortDescription: "Structured Graduate Development Programme for unemployed graduates in Geology, IT, Environmental, and more at Black Rock Mine Operations.",
+                    fullDescription: "<div><strong>INTRODUCTION:</strong><br>ASSMANG Pty Ltd invites applications from qualified and unemployed graduates to join our Internship Programme at Black Rock Mine Operations. This initiative is designed to address critical and scarce skills while offering a structured Graduate Development Programme (GDP).</div><br><div><strong>AVAILABLE DISCIPLINES:</strong><br>• Geologist: BSc Geology (Honours)<br>• Environmental: B Degree / B Tech in Environmental Management or Environmental Science<br>• Enterprise and Supplier Development: B Degree / B Tech in Business Management, Supply Chain, or Entrepreneurship<br>• Psychometrist: Honours Degree in Psychology (registered for Psychometry)<br>• Occupational Therapist: BSc Occupational Therapy (HPCSA registered)<br>• Rock Engineer: BSc Geology or Natural Sciences<br>• Information Technology: B Degree / B Tech in IT or Computer Science</div><br><div><strong>MINIMUM REQUIREMENTS:</strong><br>• South African Citizen<br>• Currently unemployed<br>• Aged between 18 and 35<br>• No active criminal record<br>• Not currently participating in any other internship programme</div><br><div><strong>APPLICATION SUBMISSION REQUIREMENTS:</strong><br>• Comprehensive CV<br>• Proof of qualification obtained<br>• Certified copy of South African ID<br>• Proof of residential address</div><br><div><strong>APPLICATION PROCESS:</strong><br>• Please apply online via the Assmang career portal. Ensure you reference the correct advert number for your chosen discipline.</div>"
+                  },
+                  {
+                    id: "engineering-talent-pool-sappi-southern-africa-umhlanga",
+                    title: "Engineering Talent Pool",
+                    company: "Sappi Southern Africa",
+                    location: "Umhlanga, KwaZulu-Natal",
+                    type: "Permanent • Full-time",
+                    duration: "Permanent",
+                    reportTo: "N/A",
+                    datePosted: "2025-11-18T00:00:00+02:00",
+                    closingDate: "N/A",
+                    applicationLink: "https://careers.sappi.com/job/Umhlanga-Engineering-Talent-Pool-Kwaz/794714801/",
+                    reference: "794714801",
+                    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering", "Industrial Engineering"],
+                    shortDescription: "Sappi is seeking various engineering specialists to join their talent pipeline for opportunities in KwaZulu-Natal and Mpumalanga.",
+                    fullDescription: "<div><strong>INTRODUCTION:</strong></div><div>Sappi is recruiting and you could become part of our innovative, solutions-driven company with your unique skillset. If you are ready to accelerate your career, we are looking for the right talent within our engineering and technical pipeline. We have several opportunities at our business, based in the beautiful provinces of KwaZulu-Natal and Mpumalanga.</div><br><div><strong>ROLES SOUGHT:</strong></div><div>• Maintenance Engineers<br>• Mechanical Engineers<br>• Electrical/Electronic Engineers<br>• Instruments & Automation Engineer<br>• Reliability Engineers<br>• Business Process & Systems Engineers<br>• Chemical & Process Engineers<br>• Mechatronic Engineers<br>• Other Technical positions</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Relevant Engineering Degree or Diploma in the specified disciplines<br>• Resilient and energetic personality<br>• Solution-driven mindset<br>• Looking for a new challenge at competitive market rates</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Interested candidates should click apply to add their details to the Sappi Engineering talent pool for consideration in future vacancies.</div>"
+                  },
+
 
 
   ];
