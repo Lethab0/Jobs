@@ -465,23 +465,13 @@
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
         
-       <!-- <div class="cv-submission-section">
+        <div class="cv-submission-section">
             <h3>Don't See Your Role Listed?</h3>
             <p>Submit your CV/Resume to our database today. We share suitable candidates directly with our hiring network across Engineering, Mining, and IT sectors.</p>
             <a href="https://script.google.com/macros/s/AKfycbxTNFdup9Y-blaaWvh8LIaROXOp93_RSBKwH2mQBHBgADBK_gZQuLLjV5JEXw-rNowp/exec" class="cv-submit-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-file-upload"></i> Submit Your CV Here
             </a>
-        </div>  -->
-        <div class="cv-submission-section">
-            <h3>Don't See Your Role Listed?</h3>
-            <p>Submit your CV/Resume to our database today. We share suitable candidates directly with our hiring network across Engineering, Mining, and IT sectors.</p>
-            
-            <button onclick="handleCVSubmission()" class="cv-submit-btn" style="cursor: pointer; border: none; display: inline-flex; align-items: center; text-decoration: none;">
-                <i class="fas fa-file-upload" style="margin-right: 8px;"></i> Submit Your CV Here
-            </button>
         </div>
-
-
         <div class="categories-grid" id="categories-grid">
         </div>
 <!--
@@ -541,30 +531,15 @@
     <script src="jobs.js"></script> 
 
     <script>
-        // --- STEMCLUB ADSTERRA INTEGRATION ---
-        // handleCVSubmission: Opens SmartLink in new tab + CV Form in current tab
-        function handleCVSubmission() {
-            const adUrl = "https://www.effectivegatecpm.com/f72ikr4db8?key=6b67e1888dc12ac14ee70f3c2fba409f";
-            const cvFormUrl = "https://script.google.com/macros/s/AKfycbxTNFdup9Y-blaaWvh8LIaROXOp93_RSBKwH2mQBHBgADBK_gZQuLLjV5JEXw-rNowp/exec";
-    
-            // Open Adsterra SmartLink in background
-            window.open(adUrl, '_blank');
-    
-            // Move user to CV submission in main window
-            window.location.href = cvFormUrl;
-        }
-    
         document.addEventListener('DOMContentLoaded', function() {
             // Check if the global 'jobs' array is loaded from jobs.js
             if (typeof jobs === 'undefined' || !Array.isArray(jobs)) {
                 console.error("Error: 'jobs' data array not found. Ensure jobs.js is linked before this script block.");
                 return;
             }
-    
+
             // DOM Elements
-            const currentYearEl = document.getElementById('current-year');
-            if (currentYearEl) currentYearEl.textContent = new Date().getFullYear();
-            
+            document.getElementById('current-year').textContent = new Date().getFullYear();
             const categoriesGrid = document.getElementById('categories-grid');
             const jobsSection = document.getElementById('jobs-section');
             const backButton = document.getElementById('back-button');
@@ -573,26 +548,73 @@
             const jobList = document.getElementById('job-list');
             
             const today = new Date();
+            // Use one week (7 days) to determine if a job is "NEW"
             const oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
-    
-            // Define categories
+
+            // Define categories with their icons and associated tags
             const categories = {
-                'mechanical': { name: 'Mechanical Engineering', icon: 'fas fa-cogs', tags: ['Mechanical Engineering'] },
-                'electrical': { name: 'Electrical Engineering', icon: 'fas fa-bolt', tags: ['Electrical Engineering', 'Power Systems', 'Instrumentation'] },
-                'mining': { name: 'Mining & Metallurgy', icon: 'fas fa-mountain', tags: ['Mining & Metallurgy', 'Geology', 'Mining Engineering', 'Rock Engineering'] },
-                'software': { name: 'Software Development', icon: 'fas fa-code', tags: ['Software Development', 'Full Stack', 'Apps'] },
-                'it': { name: 'IT & Technology', icon: 'fas fa-laptop-code', tags: ['IT & Technology', 'Desktop Support', 'Technical Support'] },
-                'civil': { name: 'Civil Engineering', icon: 'fas fa-hard-hat', tags: ['Civil Engineering', 'Transport Infrastructure', 'Construction', 'Structural'] },
-                'industrial': { name: 'Industrial Engineering', icon: 'fas fa-industry', tags: ['Industrial Engineering', 'Supply Chain', 'Manufacturing', 'Process'] },
-                'chemical': { name: 'Chemical Engineering', icon: 'fas fa-flask', tags: ['Chemical Engineering', 'Process', 'Petrochemical'] }
+                'mechanical': {
+                    name: 'Mechanical Engineering',
+                    icon: 'fas fa-cogs',
+                    tags: ['Mechanical Engineering']
+                },
+                'electrical': {
+                    name: 'Electrical Engineering',
+                    icon: 'fas fa-bolt',
+                    tags: ['Electrical Engineering', 'Power Systems', 'Instrumentation']
+                },
+                'mining': {
+                    name: 'Mining & Metallurgy',
+                    icon: 'fas fa-mountain',
+                    tags: ['Mining & Metallurgy', 'Geology', 'Mining Engineering', 'Rock Engineering']
+                },
+                'software': {
+                    name: 'Software Development',
+                    icon: 'fas fa-code',
+                    tags: ['Software Development', 'Full Stack', 'Apps']
+                },
+                'it': {
+                    name: 'IT & Technology',
+                    icon: 'fas fa-laptop-code',
+                    tags: ['IT & Technology', 'Desktop Support', 'Technical Support']
+                },
+                'civil': {
+                    name: 'Civil Engineering',
+                    icon: 'fas fa-hard-hat',
+                    tags: ['Civil Engineering', 'Transport Infrastructure', 'Construction', 'Structural']
+                },
+                'industrial': {
+                    name: 'Industrial Engineering',
+                    icon: 'fas fa-industry',
+                    tags: ['Industrial Engineering', 'Supply Chain', 'Manufacturing', 'Process']
+                },
+                'chemical': {
+                    name: 'Chemical Engineering',
+                    icon: 'fas fa-flask',
+                    tags: ['Chemical Engineering', 'Process', 'Petrochemical']
+                }
             };
-    
+
+            /**
+             * Filters the global 'jobs' array to count items matching the category's tags.
+             * @param {string} categoryKey - The key of the category to count.
+             * @returns {number} The count of matching jobs.
+             */
             function countJobsInCategory(categoryKey) {
                 const category = categories[categoryKey];
                 if (!category) return 0;
-                return jobs.filter(job => job.tags.some(jobTag => category.tags.includes(jobTag))).length;
+                
+                return jobs.filter(job => {
+                    // Check if any job tag matches any of the category's tags
+                    return job.tags.some(jobTag => category.tags.includes(jobTag));
+                }).length;
             }
-    
+
+            /**
+             * Creates the HTML for a single job card.
+             * @param {object} job - The job object.
+             * @returns {string} The HTML string for the job card.
+             */
             function createJobCardHTML(job) {
                 const jobDate = new Date(job.datePosted);
                 const isNew = jobDate > oneWeekAgo;
@@ -600,92 +622,163 @@
                 const isClosed = closingDate && closingDate < today;
                 const isClosingSoon = closingDate && closingDate >= today && (closingDate - today) / (1000 * 60 * 60 * 24) <= 7;
                 
-                const postedDate = jobDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short', day: 'numeric' });
+                // Format Date Posted
+                const postedDate = jobDate.toLocaleDateString('en-ZA', { 
+                    year: 'numeric', 
+                    month: 'short', 
+                    day: 'numeric' 
+                });
+
+                // Format Closing Date
                 let closingInfo = 'N/A';
                 let closingBadge = '';
                 let buttonClass = '';
-    
+
                 if (isClosed) {
                     closingInfo = 'Closed';
                     closingBadge = `<span class="tag" style="background-color: #fca5a5; color: #dc2626;">CLOSED</span>`;
                     buttonClass = 'disabled';
                 } else if (closingDate) {
-                    closingInfo = closingDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short', day: 'numeric' });
-                    if (isClosingSoon) closingBadge = `<span class="tag" style="background-color: #fcd34d; color: #b45309;">Closing Soon!</span>`;
+                    const formattedClosingDate = closingDate.toLocaleDateString('en-ZA', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric' 
+                    });
+                    closingInfo = formattedClosingDate;
+
+                    if (isClosingSoon) {
+                        closingBadge = `<span class="tag" style="background-color: #fcd34d; color: #b45309;">Closing Soon!</span>`;
+                    }
                 }
-    
+
+                // Meta info (Location, Type, Duration)
                 const metaHtml = `
                     <span><i class="fas fa-map-marker-alt"></i> ${job.location || 'Not Specified'}</span>
                     <span><i class="fas fa-clock"></i> ${job.type || 'N/A'}</span>
                     <span><i class="fas fa-calendar-alt"></i> ${job.duration || 'N/A'}</span>
                 `;
-    
+
+                // Tags HTML (Excluding irrelevant tags like 'Finance', 'HR', 'Marketing' for this portal)
                 const excludedTags = ['Finance', 'Human Resources', 'Marketing'];
-                const tagsHtml = job.tags.filter(tag => !excludedTags.includes(tag)).map(tag => `<span class="tag">${tag}</span>`).join('');
+                const tagsHtml = job.tags
+                    .filter(tag => !excludedTags.includes(tag))
+                    .map(tag => `<span class="tag">${tag}</span>`)
+                    .join('');
+
+                // *** CRITICAL CHANGE: Link to job.html detail page, not direct application link ***
                 const detailPageLink = `job.html?id=${job.id}`;
-    
+
                 return `
                     <div class="job-card">
                         <div>
-                            <h2>${job.title} ${isNew ? '<span class="new-badge">NEW</span>' : ''}</h2>
-                            <p class="date-info">Posted: ${postedDate} | Closing: ${closingInfo} ${closingBadge}</p>
+                            <h2>
+                                ${job.title}
+                                ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+                            </h2>
+                            <p class="date-info">
+                                Posted: ${postedDate} | Closing: ${closingInfo}
+                                ${closingBadge}
+                            </p>
                             <p><strong>Company:</strong> ${job.company}</p>
-                            <div class="job-meta">${metaHtml}</div>
+                            <div class="job-meta">
+                                ${metaHtml}
+                            </div>
                             <p>${job.shortDescription}</p>
                             <div class="tags-container">${tagsHtml}</div>
                         </div>
-                        <a href="${detailPageLink}" class="view-btn ${buttonClass}" ${isClosed ? 'aria-disabled="true" onclick="event.preventDefault();"' : ''}>
+                        <a href="${detailPageLink}" class="view-btn ${buttonClass}" 
+                            ${isClosed ? 'aria-disabled="true"' : ''}
+                            onclick="${isClosed ? 'event.preventDefault();' : ''}">
                             <i class="fas fa-search"></i> ${isClosed ? 'Closed' : 'View Details'}
                         </a>
-                    </div>`;
+                    </div>
+                `;
             }
-    
+
+            /**
+             * Renders the category grid on the main view.
+             */
             function renderCategories() {
-                if (!categoriesGrid) return;
                 categoriesGrid.innerHTML = '';
                 Object.keys(categories).forEach(key => {
                     const category = categories[key];
                     const jobCount = countJobsInCategory(key);
+                    
                     const categoryBox = document.createElement('div');
                     categoryBox.className = 'category-box';
+                    categoryBox.dataset.category = key;
+                    
                     categoryBox.innerHTML = `
                         <i class="${category.icon} category-icon"></i>
                         <h3 class="category-title">${category.name}</h3>
-                        <div class="category-count">${jobCount} Jobs</div>`;
-                    categoryBox.addEventListener('click', () => showJobsByCategory(key));
+                        <div class="category-count">${jobCount} Jobs</div>
+                    `;
+
+                    // Add click handler to switch views
+                    categoryBox.addEventListener('click', () => {
+                        showJobsByCategory(key);
+                    });
+
                     categoriesGrid.appendChild(categoryBox);
                 });
             }
-    
+
+            /**
+             * Renders the list of jobs for a selected category.
+             * @param {string} categoryKey - The key of the selected category.
+             */
             function showJobsByCategory(categoryKey) {
                 const category = categories[categoryKey];
-                const filteredJobs = jobs.filter(job => job.tags.some(jobTag => category.tags.includes(jobTag)));
-                filteredJobs.sort((a, b) => new Date(b.datePosted) - new Date(a.datePosted));
-    
+                
+                // Filter jobs
+                const filteredJobs = jobs.filter(job => 
+                    job.tags.some(jobTag => category.tags.includes(jobTag))
+                );
+
+                // Sort: Newest first (descending datePosted)
+                filteredJobs.sort((a, b) => {
+                    return new Date(b.datePosted) - new Date(a.datePosted);
+                });
+
+                // Update category display
                 selectedIcon.className = `fas selected-category-icon ${category.icon}`;
                 selectedTitle.textContent = `${category.name} Jobs (${filteredJobs.length})`;
-    
-                jobList.innerHTML = filteredJobs.length === 0 
-                    ? '<div class="no-jobs">No jobs currently listed for this category.</div>' 
-                    : filteredJobs.map(job => createJobCardHTML(job)).join('');
-    
+
+                // Populate job listings
+                jobList.innerHTML = '';
+                if (filteredJobs.length === 0) {
+                    jobList.innerHTML = '<div class="no-jobs">No jobs currently listed for this category. Please check back later.</div>';
+                } else {
+                    filteredJobs.forEach(job => {
+                        jobList.innerHTML += createJobCardHTML(job);
+                    });
+                }
+
+                // Switch views
                 categoriesGrid.style.display = 'none';
                 document.querySelector('.intro-section').style.display = 'none';
-                document.querySelector('.cv-submission-section').style.display = 'none';
+                document.querySelector('.cv-submission-section').style.display = 'none'; // Hide CV section when showing jobs
                 jobsSection.classList.add('active');
             }
-    
+
+            /**
+             * Switches back to the category view.
+             */
             function showCategories() {
                 jobsSection.classList.remove('active');
                 categoriesGrid.style.display = 'grid';
                 document.querySelector('.intro-section').style.display = 'block';
-                document.querySelector('.cv-submission-section').style.display = 'block';
+                document.querySelector('.cv-submission-section').style.display = 'block'; // Show CV section when showing categories
             }
-    
+
+            // --- Initial Setup and Event Listeners ---
+
+            // 1. Render categories on load
             renderCategories();
-            if (backButton) backButton.addEventListener('click', showCategories);
+
+            // 2. Add listener to the back button
+            backButton.addEventListener('click', showCategories);
         });
     </script>
-    <script src="https://pl28372890.effectivegatecpm.com/28/88/e8/2888e8644117ad858f36438eeed8b163.js"></script>
 </body>
 </html>
