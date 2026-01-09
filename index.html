@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <script>
-        // If the user visits stemclub.co.za, send them to the Render URL immediately
-        window.location.replace("https://jobs-miy4.onrender.com");
+        if (
+          window.location.hostname === "stemclub.co.az" ||
+          window.location.hostname === "www.stemclub.co.az"
+        ) {
+          window.location.replace("https://jobs-miy4.onrender.com");
+        }
       </script>
     <meta name="google-adsense-account" content="ca-pub-1486635931470536">
     <meta charset="UTF-8">
