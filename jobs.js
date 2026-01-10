@@ -2058,6 +2058,39 @@ const jobs = [
                     fullDescription: "<div><strong>INTRODUCTION:</strong></div><div>Sappi is recruiting and you could become part of our innovative, solutions-driven company with your unique skillset. If you are ready to accelerate your career, we are looking for the right talent within our engineering and technical pipeline. We have several opportunities at our business, based in the beautiful provinces of KwaZulu-Natal and Mpumalanga.</div><br><div><strong>ROLES SOUGHT:</strong></div><div>• Maintenance Engineers<br>• Mechanical Engineers<br>• Electrical/Electronic Engineers<br>• Instruments & Automation Engineer<br>• Reliability Engineers<br>• Business Process & Systems Engineers<br>• Chemical & Process Engineers<br>• Mechatronic Engineers<br>• Other Technical positions</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Relevant Engineering Degree or Diploma in the specified disciplines<br>• Resilient and energetic personality<br>• Solution-driven mindset<br>• Looking for a new challenge at competitive market rates</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Interested candidates should click apply to add their details to the Sappi Engineering talent pool for consideration in future vacancies.</div>"
                   },
 
+                    {
+                      id: "graduate-internship-programme-modikwa-platinum-mine-limpopo",
+                      title: "Graduate Internship Programme",
+                      company: "Modikwa Platinum Mine",
+                      location: "Modikwa, Limpopo",
+                      type: "Full-time • Internship",
+                      duration: "Not Specified",
+                      reportTo: "N/A",
+                      datePosted: "2026-01-10T22:20:45+02:00",
+                      closingDate: "2026-01-18",
+                      applicationLink: "mailto:Modikwacentralrecruit@angloamerican.com",
+                      reference: "N/A",
+                      tags: ["Mining & Metallurgy", "Electrical Engineering", "Mechanical Engineering"],
+                      shortDescription: "Modikwa Platinum Mine is offering internships for graduates in Mining, Electrical, and Mechanical Engineering. Apply via email: Modikwacentralrecruit@angloamerican.com.",
+                      fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>Modikwa Platinum Mine invites suitably qualified and unemployed graduates to apply for our Graduate Internship Programme. This is an exceptional opportunity to gain hands-on experience in the mining industry within a world-class platinum mining operation.</div><br><div><strong>AVAILABLE DISCIPLINES:</strong></div><div>• Mining Engineering<br>• Electrical Engineering<br>• Mechanical Engineering</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Diploma or Degree in Mining, Electrical, or Mechanical Engineering from a recognized HET institution<br>• Valid South African ID<br>• Proof of residential address<br>• Must be currently unemployed<br>• Must not have been enrolled in any previous SETA registered internship programmes</div><br><div><strong>SELECTION PROCESS:</strong></div><div>• Panel interviews to assess suitability and competency<br>• Psychometric assessments<br>• Selection preference given to candidates from Modikwa Mining affected communities</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit a comprehensive CV, certified copies of academic qualifications, certified ID copy, and proof of residential address to Modikwacentralrecruit@angloamerican.com.</div>"
+                    },
 
+                      {
+                        id: "graduate-software-development-internship-konsise-remote",
+                        title: "Graduate Software Development Internship",
+                        company: "Konsise",
+                        location: "Remote, South Africa",
+                        type: "Full-time • Internship",
+                        duration: "Not Specified",
+                        reportTo: "N/A",
+                        datePosted: "2026-01-10T22:30:15+02:00",
+                        closingDate: "N/A",
+                        applicationLink: "https://www.konsise.com/graduate-software-development-internship/",
+                        reference: "N/A",
+                        tags: ["Software Development", "IT & Technology"],
+                        shortDescription: "Konsise is looking for recent graduates or final-year students for a fully remote Software Development Graduate Program.",
+                        fullDescription: "<div><strong>ABOUT THE PROGRAM:</strong></div><div>Konsise is excited to announce openings for our Software Development Graduate Program. This opportunity is ideal for recent graduates and final-year students eager to kick-start their career in a forward-thinking, fully remote team.</div><br><div><strong>KEY DELIVERABLES:</strong></div><div>• Develop and deliver innovative software solutions across diverse client environments<br>• Collaborate with cross-functional teams to translate requirements into technical designs<br>• Participate in end-to-end software development (coding, testing, deployment, and maintenance)<br>• Apply best practices in Agile development, DevOps, and cloud technologies like Azure<br>• Upskill in technologies including SAP, Oracle, Java, C#, HTML5, JavaScript, and Angular</div><br><div><strong>REQUIREMENTS:</strong></div><div>• BSc Computer Science, BSc IT, BCom Informatics, or related technology field (2024/25 graduates)<br>• Strong foundation in IT and software engineering with hands-on programming experience<br>• Ability to work independently in a remote environment<br>• Verifiable academic qualifications and no criminal record<br>• Proficiency in written and verbal English</div><br><div><strong>WHAT WE OFFER:</strong></div><div>• Hands-on experience with cutting-edge technologies<br>• Exposure to real-world software projects and client environments<br>• Mentorship, coaching, and structured workplace learning</div>"
+                      },
+                
 
   ];
