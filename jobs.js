@@ -2091,6 +2091,55 @@ const jobs = [
                         shortDescription: "Konsise is looking for recent graduates or final-year students for a fully remote Software Development Graduate Program.",
                         fullDescription: "<div><strong>ABOUT THE PROGRAM:</strong></div><div>Konsise is excited to announce openings for our Software Development Graduate Program. This opportunity is ideal for recent graduates and final-year students eager to kick-start their career in a forward-thinking, fully remote team.</div><br><div><strong>KEY DELIVERABLES:</strong></div><div>• Develop and deliver innovative software solutions across diverse client environments<br>• Collaborate with cross-functional teams to translate requirements into technical designs<br>• Participate in end-to-end software development (coding, testing, deployment, and maintenance)<br>• Apply best practices in Agile development, DevOps, and cloud technologies like Azure<br>• Upskill in technologies including SAP, Oracle, Java, C#, HTML5, JavaScript, and Angular</div><br><div><strong>REQUIREMENTS:</strong></div><div>• BSc Computer Science, BSc IT, BCom Informatics, or related technology field (2024/25 graduates)<br>• Strong foundation in IT and software engineering with hands-on programming experience<br>• Ability to work independently in a remote environment<br>• Verifiable academic qualifications and no criminal record<br>• Proficiency in written and verbal English</div><br><div><strong>WHAT WE OFFER:</strong></div><div>• Hands-on experience with cutting-edge technologies<br>• Exposure to real-world software projects and client environments<br>• Mentorship, coaching, and structured workplace learning</div>"
                       },
+
+                      {
+                        id: "data-engineer-intern-micro-dev-solutions-remote",
+                        title: "Data Engineer Intern",
+                        company: "Micro Dev Solutions",
+                        location: "Remote, South Africa",
+                        type: "Full-time • Internship",
+                        duration: "Not Specified",
+                        reportTo: "N/A",
+                        datePosted: "2026-01-12T17:32:03+02:00",
+                        closingDate: "N/A",
+                        applicationLink: "mailto:contact@microdevsolutions.com",
+                        reference: "N/A",
+                        tags: ["IT & Technology", "Software Development"],
+                        shortDescription: "Micro Dev Solutions is seeking a Data Engineer Intern with SQL and Python knowledge. Apply via email to contact@microdevsolutions.com.",
+                        fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Education: BS in IT / CS or related field<br>• Knowledge of data fundamentals and handling concepts<br>• Understanding of databases and basic SQL queries<br>• Basic Python programming skills<br>• Quick learner and passionate about data</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your resume to contact@microdevsolutions.com.</div>"
+                      },
+                      {
+                        id: "it-intern-msm-unify-remote",
+                        title: "IT Intern",
+                        company: "MSM Unify",
+                        location: "Remote, Global",
+                        type: "Full-time • Internship",
+                        duration: "Not Specified",
+                        reportTo: "N/A",
+                        datePosted: "2026-01-12T17:32:04+02:00",
+                        closingDate: "N/A",
+                        applicationLink: "mailto:terryanne.owuor@msmunify.com",
+                        reference: "N/A",
+                        tags: ["IT & Technology"],
+                        shortDescription: "MSM Unify is looking for IT Interns for a global remote role. Email your CV to terryanne.owuor@msmunify.com.",
+                        fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Join our team to support our technology and systems operations. This is a great opportunity for fresh graduates or students looking to gain hands-on experience in a global, remote environment.</div><br><div><strong>OFFERING:</strong></div><div>• Fully remote work environment<br>• Open to fresh graduates and students globally<br>• Exposure to IT support, systems, and digital tools</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates should send their CV to terryanne.owuor@msmunify.com.</div>"
+                      },
+                      {
+                        id: "engineer-in-training-intern-espcg-johannesburg",
+                        title: "Engineer-in-Training/ Intern",
+                        company: "ESPCG",
+                        location: "Johannesburg or Cape Town, South Africa",
+                        type: "Full-time • Graduate Programme",
+                        duration: "2 Years",
+                        reportTo: "N/A",
+                        datePosted: "2026-01-12T17:32:04+02:00",
+                        closingDate: "2026-01-30",
+                        applicationLink: "mailto:recruitment@espcg.com",
+                        reference: "EIT-2026-0505",
+                        tags: ["Electrical Engineering", "Industrial Engineering", "Software Development"],
+                        shortDescription: "ESPCG is seeking Electrical Engineering graduates for a 2-year EIT programme. Apply via email to recruitment@espcg.com.",
+                        fullDescription: "<div><strong>JOB DESCRIPTION:</strong></div><div>The company is looking for new graduates and young engineers to work alongside highly experienced experts on cutting-edge local and international projects. The role involves:</div><div>• Power system modelling and planning studies<br>• Grid impact and compliance studies for renewables<br>• Modelling new technologies like grid-forming inverters and hydrogen production<br>• Developing automation for power system analysis tools<br>• Design and specification for HV substations and renewable power projects</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• BSc Elec Eng or BTech qualifications with specialisation in heavy current or power systems<br>• South African citizens or individuals with valid SA Permanent Residence Permits<br>• Strong analytical and problem-solving skills<br>• Advantageous: ECSA registration, industry experience, and Python coding</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV and supporting documents to recruitment@espcg.com by 30/01/2026.</div>"
+                      },
                 
 
   ];
