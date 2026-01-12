@@ -2140,6 +2140,23 @@ const jobs = [
                         shortDescription: "ESPCG is seeking Electrical Engineering graduates for a 2-year EIT programme. Apply via email to recruitment@espcg.com.",
                         fullDescription: "<div><strong>JOB DESCRIPTION:</strong></div><div>The company is looking for new graduates and young engineers to work alongside highly experienced experts on cutting-edge local and international projects. The role involves:</div><div>• Power system modelling and planning studies<br>• Grid impact and compliance studies for renewables<br>• Modelling new technologies like grid-forming inverters and hydrogen production<br>• Developing automation for power system analysis tools<br>• Design and specification for HV substations and renewable power projects</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• BSc Elec Eng or BTech qualifications with specialisation in heavy current or power systems<br>• South African citizens or individuals with valid SA Permanent Residence Permits<br>• Strong analytical and problem-solving skills<br>• Advantageous: ECSA registration, industry experience, and Python coding</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV and supporting documents to recruitment@espcg.com by 30/01/2026.</div>"
                       },
+
+                      {
+                        id: "software-development-intern-edutec-global-remote",
+                        title: "Software Development Intern",
+                        company: "Edutec Global",
+                        location: "Remote, South Africa",
+                        type: "Full-time • Internship",
+                        duration: "Not Specified",
+                        reportTo: "N/A",
+                        datePosted: "2026-01-12T22:35:00+02:00",
+                        closingDate: "2026-01-19",
+                        applicationLink: "mailto:info@edutecna.com",
+                        reference: "N/A",
+                        tags: ["Software Development", "IT & Technology"],
+                        shortDescription: "Edutec Global is hiring Software Development Interns with knowledge of PHP, Javascript, and Flutter. Apply via email to info@edutecna.com.",
+                        fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Grade 12 Certificate</div><div>• PHP | Javascript | Flutter</div><div>• Remote with reliable internet</div><div>• BONUS: AI knowledge</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply Now! Send your application to info@edutecna.com by 19 January 2026. Only shortlisted candidates will be contacted.</div>"
+                      },
                 
 
   ];
