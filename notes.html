@@ -7,30 +7,145 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
     
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background: #f0f4f8; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            padding: 20px; 
+            position: relative;
+        }
         
-        .ad-container { width: 100%; max-width: 500px; margin: 20px 0; min-height: 100px; }
+        .ad-container { 
+            width: 100%; 
+            max-width: 500px; 
+            margin: 20px 0; 
+            min-height: 100px; 
+        }
 
-        .status-card { background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); text-align: center; width: 100%; max-width: 450px; }
+        /* TOP BANNER AD - Highest visibility */
+        .top-banner-ad {
+            width: 100%;
+            max-width: 728px;
+            margin: 0 auto 30px auto;
+            min-height: 90px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .status-card { 
+            background: white; 
+            padding: 2.5rem; 
+            border-radius: 16px; 
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1); 
+            text-align: center; 
+            width: 100%; 
+            max-width: 450px; 
+            position: relative;
+            z-index: 5;
+        }
         
-        .spinner { border: 5px solid #f3f3f3; border-top: 5px solid #0053b5; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 20px auto; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .spinner { 
+            border: 5px solid #f3f3f3; 
+            border-top: 5px solid #0053b5; 
+            border-radius: 50%; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+            margin: 20px auto; 
+        }
+        
+        @keyframes spin { 
+            0% { transform: rotate(0deg); } 
+            100% { transform: rotate(360deg); } 
+        }
         
         #successMessage { display: none; }
         
-        button { background: #0053b5; color: white; border: none; padding: 14px 28px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem; }
+        button { 
+            background: #0053b5; 
+            color: white; 
+            border: none; 
+            padding: 14px 28px; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            font-size: 1rem; 
+        }
+
+        /* STICKY BOTTOM AD - Always visible during the 5 seconds */
+        .sticky-ad-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            padding: 10px;
+            z-index: 1000;
+            text-align: center;
+            display: none; /* Initially hidden for mobile */
+        }
+
+        .sticky-ad-inner {
+            max-width: 728px;
+            margin: 0 auto;
+            min-height: 90px;
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .top-banner-ad {
+                max-width: 320px;
+                min-height: 100px;
+            }
+            
+            .sticky-ad-container {
+                display: block; /* Show on mobile */
+            }
+            
+            body {
+                padding-bottom: 120px; /* Space for sticky ad */
+            }
+        }
+
+        @media (min-width: 769px) {
+            .sticky-ad-container {
+                display: block; /* Show on desktop */
+            }
+            
+            body {
+                padding-bottom: 120px;
+            }
+        }
+
+        /* Ad label */
+        .ad-label {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="ad-container">
+    <!-- AD 1: TOP BANNER AD (Highest CPM) -->
+    <div class="top-banner-ad">
+        <div class="ad-label">Advertisement</div>
         <ins class="adsbygoogle"
-             style="display:block"
+             style="display:block; width: 100%;"
              data-ad-client="ca-pub-1486635931470536"
              data-ad-slot="3867909383"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
 
     <div class="status-card">
@@ -47,17 +162,24 @@
         </div>
     </div>
 
-    <div class="ad-container">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-1486635931470536"
-             data-ad-slot="3440711584"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    <!-- AD 2: STICKY BOTTOM AD (High visibility, always in view) -->
+    <div class="sticky-ad-container">
+        <div class="ad-label">Advertisement</div>
+        <div class="sticky-ad-inner">
+            <ins class="adsbygoogle"
+                 style="display:block; width: 100%;"
+                 data-ad-client="ca-pub-1486635931470536"
+                 data-ad-slot="3440711584"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
 
     <script>
+        // Show loading for 5 seconds
         setTimeout(() => {
             document.getElementById('loadingArea').style.display = 'none';
             document.getElementById('successMessage').style.display = 'block';
@@ -67,6 +189,26 @@
             // Replace with your actual Google Apps Script URL
             window.location.href = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
         }
+
+        // Force ad refresh every 2 seconds to maximize impressions during the 5-second wait
+        let adRefreshCount = 0;
+        const adRefreshInterval = setInterval(() => {
+            if (adRefreshCount < 2) { // Refresh ads twice during the 5-second wait
+                try {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    adRefreshCount++;
+                } catch(e) {
+                    console.log("Ad refresh attempt", adRefreshCount);
+                }
+            } else {
+                clearInterval(adRefreshInterval);
+            }
+        }, 2000);
+
+        // Stop refreshing ads once success message shows
+        setTimeout(() => {
+            clearInterval(adRefreshInterval);
+        }, 5000);
     </script>
 </body>
 </html>
