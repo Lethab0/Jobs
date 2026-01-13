@@ -46,6 +46,7 @@
             max-width: 450px; 
             position: relative;
             z-index: 5;
+            margin: 20px 0;
         }
         
         .spinner { 
@@ -73,27 +74,25 @@
             border-radius: 8px; 
             font-weight: bold; 
             cursor: pointer; 
-            font-size: 1rem; 
+            font-size: 1rem;
+            margin-top: 20px;
         }
 
-        /* STICKY BOTTOM AD - Always visible during the 5 seconds */
+        /* STICKY BOTTOM AD - Fixed at bottom but not overlapping */
         .sticky-ad-container {
             position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
+            bottom: 20px; /* Positioned above the very bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 728px;
             background: white;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            padding: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            padding: 12px;
             z-index: 1000;
             text-align: center;
-            display: none; /* Initially hidden for mobile */
-        }
-
-        .sticky-ad-inner {
-            max-width: 728px;
-            margin: 0 auto;
-            min-height: 90px;
+            border-radius: 8px;
+            display: none; /* We'll show it with JavaScript */
         }
 
         /* Mobile optimizations */
@@ -104,21 +103,13 @@
             }
             
             .sticky-ad-container {
-                display: block; /* Show on mobile */
+                width: 95%;
+                bottom: 15px;
+                padding: 10px;
             }
             
-            body {
-                padding-bottom: 120px; /* Space for sticky ad */
-            }
-        }
-
-        @media (min-width: 769px) {
-            .sticky-ad-container {
-                display: block; /* Show on desktop */
-            }
-            
-            body {
-                padding-bottom: 120px;
+            .status-card {
+                margin-bottom: 150px; /* Extra space for sticky ad on mobile */
             }
         }
 
@@ -126,9 +117,19 @@
         .ad-label {
             font-size: 11px;
             color: #666;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+
+        /* Container to ensure content is visible */
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 150px; /* Space for sticky ad */
         }
     </style>
 </head>
@@ -148,41 +149,52 @@
         </script>
     </div>
 
-    <div class="status-card">
-        <div id="loadingArea">
-            <div class="spinner"></div>
-            <h2 style="color: #0053b5;">Verifying Request...</h2>
-            <p style="color: #666;">This will take 5 seconds.</p>
-        </div>
+    <div class="content-wrapper">
+        <div class="status-card">
+            <div id="loadingArea">
+                <div class="spinner"></div>
+                <h2 style="color: #0053b5; margin-top: 20px;">Verifying Request...</h2>
+                <p style="color: #666; margin-top: 10px;">This will take 5 seconds.</p>
+            </div>
 
-        <div id="successMessage">
-            <h2 style="color: #2e7d32;">✅ Complete</h2>
-            <p>Your action was recorded successfully.</p>
-            <button onclick="goBack()">Return to Notes Portal</button>
+            <div id="successMessage">
+                <h2 style="color: #2e7d32; margin-top: 20px;">✅ Complete</h2>
+                <p>Your action was recorded successfully.</p>
+                <button onclick="goBack()">Return to Notes Portal</button>
+            </div>
         </div>
     </div>
 
-    <!-- AD 2: STICKY BOTTOM AD (High visibility, always in view) -->
-    <div class="sticky-ad-container">
+    <!-- AD 2: STICKY BOTTOM AD - Appears after 1 second, disappears after completion -->
+    <div class="sticky-ad-container" id="stickyAd">
         <div class="ad-label">Advertisement</div>
-        <div class="sticky-ad-inner">
-            <ins class="adsbygoogle"
-                 style="display:block; width: 100%;"
-                 data-ad-client="ca-pub-1486635931470536"
-                 data-ad-slot="3440711584"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+        <ins class="adsbygoogle"
+             style="display:block; width: 100%;"
+             data-ad-client="ca-pub-1486635931470536"
+             data-ad-slot="3440711584"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
 
     <script>
+        // Show sticky ad after 1 second (so user sees content first)
+        setTimeout(() => {
+            document.getElementById('stickyAd').style.display = 'block';
+        }, 1000);
+
         // Show loading for 5 seconds
         setTimeout(() => {
             document.getElementById('loadingArea').style.display = 'none';
             document.getElementById('successMessage').style.display = 'block';
+            
+            // Hide sticky ad when process completes
+            document.getElementById('stickyAd').style.display = 'none';
+            
+            // Reduce padding when ad disappears
+            document.querySelector('.content-wrapper').style.paddingBottom = '50px';
         }, 5000);
 
         function goBack() {
@@ -190,10 +202,10 @@
             window.location.href = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
         }
 
-        // Force ad refresh every 2 seconds to maximize impressions during the 5-second wait
+        // Force ad refresh to maximize impressions during the 5-second wait
         let adRefreshCount = 0;
         const adRefreshInterval = setInterval(() => {
-            if (adRefreshCount < 2) { // Refresh ads twice during the 5-second wait
+            if (adRefreshCount < 3) { // Refresh ads 3 times during the 5-second wait
                 try {
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     adRefreshCount++;
@@ -203,12 +215,24 @@
             } else {
                 clearInterval(adRefreshInterval);
             }
-        }, 2000);
+        }, 1500);
 
         // Stop refreshing ads once success message shows
         setTimeout(() => {
             clearInterval(adRefreshInterval);
         }, 5000);
+
+        // Handle window resize to ensure ad stays properly positioned
+        window.addEventListener('resize', function() {
+            const stickyAd = document.getElementById('stickyAd');
+            if (window.innerWidth < 768) {
+                stickyAd.style.width = '95%';
+                stickyAd.style.bottom = '15px';
+            } else {
+                stickyAd.style.width = '90%';
+                stickyAd.style.bottom = '20px';
+            }
+        });
     </script>
 </body>
 </html>
