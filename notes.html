@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processing Your Request...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa 0%, #bbdefb 100%); /* Lighter, calming gradient */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center content vertically */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: #004d40; /* Dark teal for text */
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px; /* Max width for content */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Ad Wrapper Styling */
+        .ad-wrapper {
+            width: 100%;
+            max-width: 336px; /* Typical responsive ad width */
+            margin: 20px auto; /* Center ads with spacing */
+            text-align: center;
+            background: #ffffff; /* White background for ad container */
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden; /* Ensures ad doesn't break layout */
+        }
+        /* Specific styling for the top banner ad to ensure it spans full width */
+        .ad-banner {
+            max-width: 728px; /* Standard leaderboard size */
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        /* Uploading Animation */
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 8px solid #00796b; /* Teal */
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+            margin-bottom: 25px;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        h1 {
+            color: #004d40; /* Dark Teal */
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+
+        #message {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            display: none; /* Hidden initially */
+            animation: fadeIn 0.8s ease-out forwards;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        #message p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #37474f; /* Dark grey text */
+        }
+
+        #backButton {
+            background: linear-gradient(135deg, #00796b, #009688); /* Teal gradient */
+            color: white;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.05em;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 121, 107, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        #backButton:hover {
+            background: linear-gradient(135deg, #00695c, #00796b);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(0, 121, 107, 0.4);
+        }
+
+        /* Responsive adjustments for ads */
+        @media (max-width: 768px) {
+            .ad-banner {
+                max-width: 100%; /* Full width on smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            .ad-wrapper {
+                max-width: 100%;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="ad-banner">
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-1486635931470536"
+                 data-ad-slot="1111111111"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <div class="loader"></div>
+        <h1>Processing your request...</h1>
+
+        <div class="ad-wrapper">
+            <ins class="adsbygoogle"
+                 style="display:block; text-align:center;"
+                 data-ad-layout="in-article"
+                 data-ad-format="fluid"
+                 data-ad-client="ca-pub-1486635931470536"
+                 data-ad-slot="2222222222"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <div id="message">
+            <p>Your action has been processed!</p>
+            <button id="backButton" onclick="window.location.href = 'YOUR_APP_SCRIPT_URL';">Go Back to Notes Portal</button>
+        </div>
+
+        <div class="ad-wrapper">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-format="autorelaxed"
+                 data-ad-client="ca-pub-1486635931470536"
+                 data-ad-slot="3333333333"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <script>
+        // REPLACE THIS WITH YOUR ACTUAL GOOGLE APPS SCRIPT WEB APP URL
+        const YOUR_APP_SCRIPT_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"; 
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const messageDiv = document.getElementById('message');
+            const loaderDiv = document.querySelector('.loader');
+            const heading = document.querySelector('h1');
+
+            setTimeout(() => {
+                loaderDiv.style.display = 'none';
+                heading.style.display = 'none';
+                messageDiv.style.display = 'block'; // Show the message
+                
+                // Set the back button's href dynamically
+                document.getElementById('backButton').onclick = function() {
+                    window.location.href = YOUR_APP_SCRIPT_URL;
+                };
+
+            }, 5000); // 5 seconds
+        });
+    </script>
+</body>
+</html>
