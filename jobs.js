@@ -2157,6 +2157,55 @@ const jobs = [
                         shortDescription: "Edutec Global is hiring Software Development Interns with knowledge of PHP, Javascript, and Flutter. Apply via email to info@edutecna.com.",
                         fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Grade 12 Certificate</div><div>• PHP | Javascript | Flutter</div><div>• Remote with reliable internet</div><div>• BONUS: AI knowledge</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply Now! Send your application to info@edutecna.com by 19 January 2026. Only shortlisted candidates will be contacted.</div>"
                       },
+
+                      {
+    id: "junior-cloud-software-developer-phuthukisa-brooklyn-pretoria",
+    title: "Junior Cloud / Software Developer",
+    company: "Phuthukisa",
+    location: "Brooklyn, Pretoria",
+    type: "Full-time • Permanent",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-14T11:51:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:nozipho@phuthukisa.co.za",
+    reference: "N/A",
+    tags: ["Software Development", "IT & Technology", "Business Analysis"],
+    shortDescription: "Phuthukisa is hiring a Junior Cloud/Software Developer in Pretoria. Experience with .NET Core and Azure is preferred. Apply via email: nozipho@phuthukisa.co.za.",
+    fullDescription: "<div><strong>ROLE SUMMARY:</strong></div><div>Join Phuthukisa as a Junior Cloud / Software Developer based in Brooklyn, Pretoria. We are looking for motivated individuals with a strong foundation in cloud computing and back-end development.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• 1-2+ years' experience in/with Cloud and Back-End Web Development</div><div>• BCom Information Systems or Software Development</div><div>• Cloud Computing experience (Azure preferred)</div><br><div><strong>SKILLS & COMPETENCIES:</strong></div><div>• .NET Core, APIs & Azure Functions</div><div>• SOLID programming principles</div><div>• Problem-solving & collaboration skills</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates should send their CV to nozipho@phuthukisa.co.za.</div>"
+  },
+  {
+    id: "data-analyst-recruitment-lab-jhb-north",
+    title: "Data Analyst",
+    company: "Recruitment Lab",
+    location: "JHB North, Gauteng",
+    type: "Full-time • Hybrid",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-14T11:51:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:kelly@recruitmentlab.co.za",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development", "Business Analysis"],
+    shortDescription: "Recruitment Lab is seeking a Data Analyst for a hybrid role in JHB North. Requires strong skills in Power BI, Excel, and SQL. Email CV to kelly@recruitmentlab.co.za.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>We are hiring a Data Analyst for a full-time, hybrid working role in JHB North. The successful candidate will build analytics frameworks and translate data into stories for non-technical teams.</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Build and optimise analytics & tracking frameworks (GA4, UTMs, funnels, events)</div><div>• Analyse marketing performance across LinkedIn Ads, Google Ads, CRM & survey data</div><div>• Design impactful Power BI dashboards that give real-time clarity</div><div>• Develop lead scoring and source attribution models</div><br><div><strong>REQUIREMENTS:</strong></div><div>• 2+ years' experience in analytics / BI (or a strong learning mindset)</div><div>• Strong skills in GA4, Power BI, Excel & SQL</div><div>• Solid understanding of digital marketing metrics & attribution</div><div>• Naturally curious, detail-oriented, and eager to keep learning</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV to kelly@recruitmentlab.co.za.</div>"
+  },
+  {
+    id: "msc-engineering-graduates-irecruitmentt-various",
+    title: "MSc Engineering Graduate Opportunities",
+    company: "iRecruitmentt",
+    location: "Various, South Africa",
+    type: "Full-time • Graduate",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-14T11:51:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:Mitchelle@irecruitmentt.co.za",
+    reference: "N/A",
+    tags: ["Electrical Engineering", "Civil Engineering", "Mechanical Engineering"],
+    shortDescription: "Seeking university graduates with a Masters of Science (MSc) in Engineering or Chemistry. Apply via email to Mitchelle@irecruitmentt.co.za.",
+    fullDescription: "<div><strong>OPPORTUNITY DETAILS:</strong></div><div>iRecruitmentt is looking for university graduates who hold a Masters of Science (MSc) in specific technical fields.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical Engineering</div><div>• Civil Engineering</div><div>• Mechanical Engineering</div><div>• Chemical Engineering</div><div>• Chemistry</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>If you meet these requirements, kindly send your CV to Mitchelle@irecruitmentt.co.za.</div>"
+  },
                 
 
   ];
