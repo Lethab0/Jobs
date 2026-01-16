@@ -2206,6 +2206,88 @@ const jobs = [
     shortDescription: "Seeking university graduates with a Masters of Science (MSc) in Engineering or Chemistry. Apply via email to Mitchelle@irecruitmentt.co.za.",
     fullDescription: "<div><strong>OPPORTUNITY DETAILS:</strong></div><div>iRecruitmentt is looking for university graduates who hold a Masters of Science (MSc) in specific technical fields.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical Engineering</div><div>• Civil Engineering</div><div>• Mechanical Engineering</div><div>• Chemical Engineering</div><div>• Chemistry</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>If you meet these requirements, kindly send your CV to Mitchelle@irecruitmentt.co.za.</div>"
   },
+
+  {
+    id: "graduate-junior-process-engineer-minerals-processing-elchemie-recruitment-steelpoort",
+    title: "Graduate/Junior Process Engineer – Minerals Processing",
+    company: "Elchemie Recruitment",
+    location: "Steelpoort, Limpopo",
+    type: "Permanent • Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-16T17:18:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?share_string=elchemie_recruitment_CPT000026&id=elchemie_recruitment&VacRef=CPT000026&refreshId=696a5382c0890&source=whatsapp",
+    reference: "CPT000026",
+    tags: ["Mining & Metallurgy", "Chemical Engineering", "Industrial Engineering"],
+    shortDescription: "A leading mineral processing firm is seeking a Graduate/Junior Process Engineer for their Steelpoort team. Bachelor’s Degree in Metallurgy or Chemical Engineering required.",
+    fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Our client, a leading player in the mineral processing industry with seven operational plants across South Africa, is seeking a Graduate/Junior Process Engineer to join their Steelpoort (Limpopo) team. This role offers hands-on experience in process operations, engineering, and project management.</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Provide technical support to operational sites and troubleshoot process issues<br>• Implement improvements to optimize plant performance<br>• Drive data collection and analysis initiatives to enhance efficiency and quality<br>• Participate in project planning, coordination, and execution<br>• Manage the in-house laboratory and coordinate pilot-scale test work</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s Degree in Metallurgy or Chemical Engineering (completed)<br>• 0 – 2 years of relevant working experience<br>• Fully bilingual in English and Afrikaans<br>• Valid South African ID and driver's license with own vehicle<br>• Based in or willing to relocate to Steelpoort, Limpopo<br>• Willingness to travel for work</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online via the placement partner portal. If you do not hear back within 3 months, consider your application unsuccessful.</div>"
+  },
+
+  {
+    id: "tech-interns-codveda-remote",
+    title: "Tech Interns",
+    company: "Codveda",
+    location: "Remote, South Africa",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-16T17:28:45+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.codveda.com",
+    reference: "N/A",
+    tags: ["Software Development", "IT & Technology", "AI & Machine Learning"],
+    shortDescription: "Codveda is hiring interns for multiple technical tracks including Web, Java, Python, and Machine Learning. Apply via codveda.com.",
+    fullDescription: "<div><strong>INTERNSHIP TRACKS:</strong></div><div>Codveda is empowering growth with IT Innovation. We are hiring for the following internship positions:</div><br><div>• C/C++ Development Interns</div><div>• Web Development Interns</div><div>• Java Development Interns</div><div>• Python Development Interns</div><div>• Data Analysis Interns</div><div>• Machine Learning Interns</div><div>• Frontend Development Interns</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Scan the QR code on the official poster or visit www.codveda.com to apply.</div><div>• You can also engage with their social media by commenting #interested.</div>"
+  },
+  {
+    id: "mechanical-engineering-internship-belgotex-pietermaritzburg",
+    title: "Mechanical Engineering Internship",
+    company: "Belgotex",
+    location: "Pietermaritzburg, KwaZulu-Natal",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-14T17:29:55+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://belgotex.mcidirecthire.com/External/Application?Ref=xwr6NsCQyKSpCxkaBZyKoPXLwrc8WNZ0IWGrTvTkOUPVyCJd8%2bnC73uGuiF%2bcGdP0BdYITe7lqIvpH%2bpfeEJxA%3d%3d",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Industrial Engineering"],
+    shortDescription: "Belgotex is seeking Mechanical Engineering graduates to join their team in Pietermaritzburg for hands-on technical experience.",
+    fullDescription: "<div><strong>ROLE PURPOSE:</strong></div><div>This internship provides hands-on experience within our mechanical department. Under mentorship, you will assist in carrying out mechanical engineering work while adhering to safe and efficient practices.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Measure and evaluate the performance of mechanical components and devices.</div><div>• Assist in maintaining, modifying, and improving equipment to ensure safety and reliability.</div><div>• Use CAD and modeling software to support engineering projects.</div><div>• Assist senior engineers in product design, testing, and development.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Grade 12 certificate.</div><div>• Degree, Diploma, or BTech in Mechanical Engineering.</div><div>• Strong initiative, curiosity, and willingness to learn.</div><div>• Commitment to continuous professional development.</div>"
+  },
+  {
+    id: "electrical-engineering-internship-belgotex-pietermaritzburg",
+    title: "Electrical Engineering Internship",
+    company: "Belgotex",
+    location: "Pietermaritzburg, KwaZulu-Natal",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-14T17:29:55+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://belgotex.mcidirecthire.com/External/Application?Ref=xwr6NsCQyKSpCxkaBZyKoPXLwrc8WNZ0IWGrTvTkOUPVyCJd8%2bnC73uGuiF%2bcGdP0BdYITe7lqIvpH%2bpfeEJxA%3d%3d",
+    reference: "N/A",
+    tags: ["Electrical Engineering", "Industrial Engineering"],
+    shortDescription: "Launch your career with an industry leader. Belgotex is hiring Electrical Engineering interns for their manufacturing environment.",
+    fullDescription: "<div><strong>ROLE PURPOSE:</strong></div><div>This internship offers hands-on experience in electrical engineering within a manufacturing environment. Under expert mentorship, you’ll assist our electrical department while learning safe work practices.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Identify, label, and understand various electrical components and their applications.</div><div>• Perform testing and troubleshooting on electrical systems.</div><div>• Learn medium voltage switchgear operations, including transformers and safety relays.</div><div>• Collaborate with skilled artisans to understand electrical department operations.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Grade 12 certificate.</div><div>• Degree, Diploma, or BTech in Electrical Engineering.</div><div>• Strong problem-solving abilities and a curious mind.</div><div>• Excellent communication skills (verbal and written).</div>"
+  },
+  {
+    id: "it-graduate-saat-kempton-park",
+    title: "IT Graduate",
+    company: "SAAT",
+    location: "Kempton Park, Gauteng",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "Project Manager: AMEP",
+    datePosted: "2026-01-16T17:34:00+02:00",
+    closingDate: "2026-01-22",
+    applicationLink: "https://saat.erecruit.co/candidateapp/Jobs/View/SAA260115-1?source=Indeed",
+    reference: "SAA260115-1",
+    tags: ["IT & Technology", "Software Development", "Cybersecurity"],
+    shortDescription: "SAAT is hiring two IT Graduates in Kempton Park to assist with technical support, systems administration, and data integrity tasks.",
+    fullDescription: "<div><strong>JOB PURPOSE:</strong></div><div>The IT Graduate will provide technical support under the guidance of IT administrators and the AMEP Project Manager. The role focuses on system administration, digital tool improvement, data integrity, and technology infrastructure support.</div><br><div><strong>PRINCIPAL ACCOUNTABILITIES:</strong></div><div>• Provide hardware, software, and connectivity support to staff<br>• Configure laptops, mobile devices, and peripherals<br>• Assist with account creation, user access control, and permission changes<br>• Monitor system performance and support routine maintenance (updates, backups)<br>• Assist with data extraction, cleaning, and routine quality checks<br>• Apply cybersecurity practices and monitor for suspicious activity<br>• Contribute to IT projects like system rollouts and software implementations<br>• Maintain inventory of IT supplies and coordinate with vendors</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s degree or National Diploma in Information Technology, Computer Science, or Information Systems<br>• Basic knowledge of hardware, software, networking, and cloud-based systems<br>• Understanding of operating systems (Windows, macOS)<br>• Familiarity with collaboration tools (Microsoft 365, Slack, Teams)<br>• Strong problem-solving and communication skills</div>"
+  },
                 
 
   ];
