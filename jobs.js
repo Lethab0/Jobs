@@ -2288,6 +2288,23 @@ const jobs = [
     shortDescription: "SAAT is hiring two IT Graduates in Kempton Park to assist with technical support, systems administration, and data integrity tasks.",
     fullDescription: "<div><strong>JOB PURPOSE:</strong></div><div>The IT Graduate will provide technical support under the guidance of IT administrators and the AMEP Project Manager. The role focuses on system administration, digital tool improvement, data integrity, and technology infrastructure support.</div><br><div><strong>PRINCIPAL ACCOUNTABILITIES:</strong></div><div>• Provide hardware, software, and connectivity support to staff<br>• Configure laptops, mobile devices, and peripherals<br>• Assist with account creation, user access control, and permission changes<br>• Monitor system performance and support routine maintenance (updates, backups)<br>• Assist with data extraction, cleaning, and routine quality checks<br>• Apply cybersecurity practices and monitor for suspicious activity<br>• Contribute to IT projects like system rollouts and software implementations<br>• Maintain inventory of IT supplies and coordinate with vendors</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s degree or National Diploma in Information Technology, Computer Science, or Information Systems<br>• Basic knowledge of hardware, software, networking, and cloud-based systems<br>• Understanding of operating systems (Windows, macOS)<br>• Familiarity with collaboration tools (Microsoft 365, Slack, Teams)<br>• Strong problem-solving and communication skills</div>"
   },
+  {
+    id: "dynamx-trainee-programme-sab-ab-inbev-sandton",
+    title: "DynamX Trainee Programme",
+    company: "SAB / AB InBev",
+    location: "Sandton, Gauteng",
+    type: "Full-time • Graduate Programme",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-01-19T17:15:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://wd1.myworkdaysite.com/en-US/recruiting/abinbev/SAB/job/HQ-Sandton/XMLNAME--DynamX-Trainee-Programme_30030667",
+    reference: "30030667",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Industrial Engineering", "Chemical Engineering"],
+    shortDescription: "SAB is inviting all Engineering graduates to join their 24-month rotational DynamX Trainee Programme in Sandton.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>The DynamX Trainee Program develops graduates by building technical capability through 6-month rotational cycles within a fast-paced corporate environment. The program follows a 70-20-10 learning model, emphasizing hands-on project experience.</div><br><div><strong>ELIGIBLE ENGINEERING DISCIPLINES:</strong></div><div>• Mechanical Engineering</div><div>• Electrical Engineering</div><div>• Industrial Engineering</div><div>• Chemical Engineering</div><div>• Civil Engineering and other related fields</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Minimum Bachelor’s degree in Engineering or related technical field</div><div>• No more than 2 years of total full-time formal working experience</div><div>• Full South African citizenship</div><div>• Geographical mobility within South Africa</div><div>• Proficiency in Microsoft Excel and ability to adapt to new systems</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Innovate with an 'Owner mindset' to contribute to AB InBev’s success</div><div>• Collaborate across functions and connect with people at all levels</div><div>• Use insight and technology to stay ahead of the curve</div><div>• Demonstrate resilience and courage in a fast-paced culture</div>"
+  },
+  
                 
 
   ];
