@@ -2304,7 +2304,87 @@ const jobs = [
     shortDescription: "SAB is inviting all Engineering graduates to join their 24-month rotational DynamX Trainee Programme in Sandton.",
     fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>The DynamX Trainee Program develops graduates by building technical capability through 6-month rotational cycles within a fast-paced corporate environment. The program follows a 70-20-10 learning model, emphasizing hands-on project experience.</div><br><div><strong>ELIGIBLE ENGINEERING DISCIPLINES:</strong></div><div>• Mechanical Engineering</div><div>• Electrical Engineering</div><div>• Industrial Engineering</div><div>• Chemical Engineering</div><div>• Civil Engineering and other related fields</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Minimum Bachelor’s degree in Engineering or related technical field</div><div>• No more than 2 years of total full-time formal working experience</div><div>• Full South African citizenship</div><div>• Geographical mobility within South Africa</div><div>• Proficiency in Microsoft Excel and ability to adapt to new systems</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Innovate with an 'Owner mindset' to contribute to AB InBev’s success</div><div>• Collaborate across functions and connect with people at all levels</div><div>• Use insight and technology to stay ahead of the curve</div><div>• Demonstrate resilience and courage in a fast-paced culture</div>"
   },
-  
+  {
+    id: "data-engineer-intern-micro-dev-solutions-remote",
+    title: "Data Engineer Intern",
+    company: "Micro Dev Solutions",
+    location: "Remote, South Africa",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-12T17:32:03+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:contact@microdevsolutions.com",
+    reference: "N/A",
+    tags: ["Software Development", "IT & Technology"],
+    shortDescription: "Join Micro Dev Solutions as a Data Engineer Intern. Knowledge of SQL and Python is essential. Apply via email to contact@microdevsolutions.com.",
+    fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Education: BS in IT / CS or related field</div><div>• Knowledge of data fundamentals and handling concepts</div><div>• Understanding databases and basic SQL queries</div><div>• Basic Python programming skills</div><div>• Quick learner and passionate about data</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your resume to contact@microdevsolutions.com.</div>"
+  },
+  {
+    id: "it-interns-msm-unify-remote",
+    title: "IT Interns",
+    company: "MSM Unify",
+    location: "Remote, Global",
+    type: "Full-time • Internship",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-12T17:32:04+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:terryanne.owuor@msmunify.com",
+    reference: "N/A",
+    tags: ["IT & Technology"],
+    shortDescription: "MSM Unify is seeking IT Interns for a global remote role. This is open to fresh graduates and students.",
+    fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Join our team to support our technology and systems operations in a global, remote environment. This is an excellent opportunity for fresh graduates or students to gain hands-on experience.</div><br><div><strong>KEY HIGHLIGHTS:</strong></div><div>• Fully remote work setup</div><div>• Open to fresh graduates and students globally</div><div>• Exposure to IT support, systems, and digital tools</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates should send their CV to terryanne.owuor@msmunify.com.</div>"
+  },
+  {
+    id: "engineer-in-training-intern-espcg-johannesburg",
+    title: "Engineer-in-Training/ Intern",
+    company: "ESPCG",
+    location: "Johannesburg or Cape Town, South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "2 Years",
+    reportTo: "N/A",
+    datePosted: "2026-01-12T17:32:04+02:00",
+    closingDate: "2026-01-30",
+    applicationLink: "mailto:recruitment@espcg.com",
+    reference: "EIT-2026-0505",
+    tags: ["Electrical Engineering", "Software Development", "Industrial Engineering"],
+    shortDescription: "ESPCG is seeking Electrical Engineering graduates for a 2-year EIT programme. Apply via email to recruitment@espcg.com.",
+    fullDescription: "<div><strong>JOB DESCRIPTION:</strong></div><div>The company is looking for new graduates and young engineers to join our Engineer-in-Training (EIT) programme. You will work alongside highly experienced experts on cutting-edge local and international projects. At the end of the 2-year period, candidates may be placed in a permanent position based on performance.</div><br><div><strong>KEY TRAINING AREAS:</strong></div><div>• Power system modelling, planning, and operational studies</div><div>• Grid impact and compliance studies for renewable plants</div><div>• Modelling state-of-the-art technologies (hydrogen, inverters)</div><div>• Automation for power system analysis tools</div><div>• Design and specifications for HV substations and transmission lines</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• BSc Elec Eng or BTech (Heavy Current / Power Systems)</div><div>• South African citizen or valid Permanent Residence Permit holder</div><div>• Strong analytical and problem-solving skills</div><div>• Advantageous: Python coding, ECSA registration, or industry experience</div>"
+  },
+  {
+    id: "graduate-placement-opportunity-tongaat-hulett-various",
+    title: "Graduate Placement Opportunity",
+    company: "Tongaat Hulett",
+    location: "Various, South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "Not Specified",
+    reportTo: "N/A",
+    datePosted: "2026-01-21T10:43:09+02:00",
+    closingDate: "2026-01-22",
+    applicationLink: "https://www.surveymonkey.com/r/GradAppl2026",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering", "Industrial Engineering", "IT & Technology"],
+    shortDescription: "Tongaat Hulett has multiple graduate placements in Engineering, IT, and HR. Apply online by 22 January 2026.",
+    fullDescription: "<div><strong>AVAILABLE DISCIPLINES:</strong></div><div>• Mechanical Engineering</div><div>• Electrical Engineering (Heavy Current)</div><div>• Chemical Engineering</div><div>• Industrial Engineering</div><div>• Information Technology</div><div>• Human Resource, Marketing and Sales, SHEQ, Agriculture</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Relevant tertiary qualification for the specified disciplines</div><div>• Must be a South African citizen</div><div>• Energetic, self-disciplined, and willing to learn</div><div>• High levels of integrity and work ethic</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>Must be attached in one document: Motivational Letter, CV (with ID, Matric, and Qualification), and Full Academic Report.</div>"
+  },
+  {
+    id: "software-engineer-intern-kenya",
+    title: "Software Engineer Intern",
+    company: "Talent Arise",
+    location: "Hybrid, Kenya",
+    type: "Full-time • Internship",
+    duration: "6 Months",
+    reportTo: "N/A",
+    datePosted: "2026-01-21T10:43:10+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:talentarishr@gmail.com",
+    reference: "N/A",
+    tags: ["Software Development", "IT & Technology"],
+    shortDescription: "Hybrid Software Engineer Internship in Kenya with a KES 30,000 monthly stipend. Requires PHP and Laravel knowledge.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Join our team to work on real-world web applications. The role offers hands-on experience, mentorship, and potential retention after 6 months based on performance.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Knowledge of PHP and/or Laravel</div><div>• Understanding of HTML, CSS, and JavaScript</div><div>• Basic MySQL / SQL knowledge</div><div>• Experience in mobile app development (Android, iOS) is required</div><div>• Ability to join immediately and willingness to learn</div><br><div><strong>OFFER:</strong></div><div>• KES 30,000 monthly stipend</div><div>• Hybrid work setup</div>"
+  },
+
                 
 
   ];
