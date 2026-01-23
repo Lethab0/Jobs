@@ -2402,10 +2402,12 @@ const jobs = [
       "Electrical Engineering",
       "Industrial Engineering",
       "Chemical Engineering",
-      "Data Science"
+      "Mining & Metallurgy",
+      "Software Development",
+      "IT & Technology"
     ],
-    shortDescription: "Zutari is seeking final-year engineering students with a 65%+ average for their Graduate Talent Community across multiple SA locations.",
-    fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Zutari, a leading multi-disciplinary engineering consultancy, is inviting passionate graduates to join their talent community. This is a pathway to becoming a registered professional engineer through structured practical experience and mentorship.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Civil Engineering (Infrastructure, Water, Transport)<br>• Structural Engineering (Bridges)<br>• Mechanical Engineering<br>• Electrical, Electronic, and Mechatronic Engineering<br>• Industrial & Chemical Engineering<br>• Data Science / Data Engineering<br>• Geotechnical Engineering & Geology</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Final-year BSc or BEng students, or Master’s candidates<br>• Overall academic average of 65% or above<br>• South African ID or Passport holder<br>• Optimistic mindset and a 'can-do' spirit</div><br><div><strong>LOCATIONS:</strong></div><div>Pretoria (Primary), Johannesburg (Rosebank), Cape Town, Polokwane, and East London.</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>Submit a comprehensive CV, Copy of ID/Passport, and Full Academic Transcripts. Incomplete applications will not be considered.</div>"
+    shortDescription: "Zutari is seeking engineering graduates (65%+ average) for their Talent Community. Includes Data Science and Data Engineering tracks.",
+    fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Zutari is inviting passionate graduates to join their talent community to work on Africa's infrastructure challenges. This pathway leads to professional registration through structured mentorship and project experience.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Civil, Structural, and Geotechnical Engineering</div><div>• Mechanical, Electrical, and Mechatronic Engineering</div><div>• Industrial and Chemical Engineering</div><div>• Data Science and Data Engineering</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Final-year BSc/BEng or Master’s candidates</div><div>• Minimum 65% overall academic average</div><div>• South African ID or Passport holder</div>"
   },
 
                 
