@@ -2384,6 +2384,29 @@ const jobs = [
     shortDescription: "Hybrid Software Engineer Internship in Kenya with a KES 30,000 monthly stipend. Requires PHP and Laravel knowledge.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Join our team to work on real-world web applications. The role offers hands-on experience, mentorship, and potential retention after 6 months based on performance.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Knowledge of PHP and/or Laravel</div><div>• Understanding of HTML, CSS, and JavaScript</div><div>• Basic MySQL / SQL knowledge</div><div>• Experience in mobile app development (Android, iOS) is required</div><div>• Ability to join immediately and willingness to learn</div><br><div><strong>OFFER:</strong></div><div>• KES 30,000 monthly stipend</div><div>• Hybrid work setup</div>"
   },
+  {
+    id: "graduate-engineer-talent-community-zutari-various",
+    title: "Graduate Engineer – Graduate Talent Community",
+    company: "Zutari",
+    location: "Pretoria, Johannesburg, Cape Town, Polokwane, East London",
+    type: "Full-time • Permanent",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-21T09:45:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://zutari.hua.hrsmart.com/hr/ats/Posting/view/1251?source=LinkedIn",
+    reference: "G-Eng-1.2",
+    tags: [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Industrial Engineering",
+      "Chemical Engineering",
+      "Data Science"
+    ],
+    shortDescription: "Zutari is seeking final-year engineering students with a 65%+ average for their Graduate Talent Community across multiple SA locations.",
+    fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Zutari, a leading multi-disciplinary engineering consultancy, is inviting passionate graduates to join their talent community. This is a pathway to becoming a registered professional engineer through structured practical experience and mentorship.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Civil Engineering (Infrastructure, Water, Transport)<br>• Structural Engineering (Bridges)<br>• Mechanical Engineering<br>• Electrical, Electronic, and Mechatronic Engineering<br>• Industrial & Chemical Engineering<br>• Data Science / Data Engineering<br>• Geotechnical Engineering & Geology</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Final-year BSc or BEng students, or Master’s candidates<br>• Overall academic average of 65% or above<br>• South African ID or Passport holder<br>• Optimistic mindset and a 'can-do' spirit</div><br><div><strong>LOCATIONS:</strong></div><div>Pretoria (Primary), Johannesburg (Rosebank), Cape Town, Polokwane, and East London.</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>Submit a comprehensive CV, Copy of ID/Passport, and Full Academic Transcripts. Incomplete applications will not be considered.</div>"
+  },
 
                 
 
