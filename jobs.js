@@ -2256,6 +2256,7 @@ const jobs = [
     shortDescription: "Belgotex is seeking Mechanical Engineering graduates to join their team in Pietermaritzburg for hands-on technical experience.",
     fullDescription: "<div><strong>ROLE PURPOSE:</strong></div><div>This internship provides hands-on experience within our mechanical department. Under mentorship, you will assist in carrying out mechanical engineering work while adhering to safe and efficient practices.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Measure and evaluate the performance of mechanical components and devices.</div><div>• Assist in maintaining, modifying, and improving equipment to ensure safety and reliability.</div><div>• Use CAD and modeling software to support engineering projects.</div><div>• Assist senior engineers in product design, testing, and development.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Grade 12 certificate.</div><div>• Degree, Diploma, or BTech in Mechanical Engineering.</div><div>• Strong initiative, curiosity, and willingness to learn.</div><div>• Commitment to continuous professional development.</div>"
   },
+  
   {
     id: "electrical-engineering-internship-belgotex-pietermaritzburg",
     title: "Electrical Engineering Internship",
@@ -2408,6 +2409,47 @@ const jobs = [
     ],
     shortDescription: "Zutari is seeking engineering graduates (65%+ average) for their Talent Community. Includes Data Science and Data Engineering tracks.",
     fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Zutari is inviting passionate graduates to join their talent community to work on Africa's infrastructure challenges. This pathway leads to professional registration through structured mentorship and project experience.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Civil, Structural, and Geotechnical Engineering</div><div>• Mechanical, Electrical, and Mechatronic Engineering</div><div>• Industrial and Chemical Engineering</div><div>• Data Science and Data Engineering</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Final-year BSc/BEng or Master’s candidates</div><div>• Minimum 65% overall academic average</div><div>• South African ID or Passport holder</div>"
+  },
+  {
+    id: "project-engineer-trainee-gecric-integrity-accra",
+    title: "Project Engineer Trainee",
+    company: "GECRIC Integrity",
+    location: "Accra, Ghana",
+    type: "Full-time • Graduate Programme",
+    duration: "Traineeship",
+    reportTo: "Senior Engineers",
+    datePosted: "2026-01-23T08:00:00+02:00",
+    closingDate: "2026-02-15",
+    applicationLink: "mailto:hr@gecricintegrity.com",
+    reference: "N/A",
+    tags: [
+      "Mechanical Engineering",
+      "Industrial Engineering",
+      "Mining & Metallurgy",
+      "Civil Engineering"
+    ],
+    shortDescription: "GECRIC Integrity is offering an engineering traineeship for graduates with a Bachelor's degree. National Service completion is essential.",
+    fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>This trainee position provides hands-on exposure to real-world engineering projects in asset integrity operations. You will support the planning, tracking, and delivery of projects while working alongside experienced professionals.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assisting with technical documentation and engineering drawings (AutoCAD)</div><div>• Managing project data and information systems</div><div>• Coordinating project activities and participating in meetings</div><div>• Supporting quality assurance and operational best practices</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s Degree in Mechanical, Marine, Petroleum, or Industrial Engineering, or Drafting Technology</div><div>• Successful completion of the National Service Programme is essential</div><div>• Advantageous: Practical exposure to AutoCAD, piping design, or structural drafting</div><br><div><strong>HOW TO APPLY:</strong></div><div>Email your CV and a motivational statement to hr@gecricintegrity.com by 15th February 2026.</div>"
+  },
+  {
+    id: "junior-software-developer-cbrta-pretoria",
+    title: "Junior Software Developer",
+    company: "C-BRTA (Cross-Border Road Transport Agency)",
+    location: "Pretoria, Gauteng",
+    type: "Full-time • Permanent",
+    duration: "Permanent",
+    reportTo: "IT Team Lead",
+    datePosted: "2026-01-22T08:00:00+02:00",
+    closingDate: "2026-01-27",
+    applicationLink: "https://cbrta.mcidirecthire.com/External/Application?Ref=d8CmazDo%2bRhp5ZAy2xH4VXTFlO21sSaG%2bbbBACYW%2fwmsl5ZEQW4VpqkCt8bLjJa9cB7jnE8TLD7eQhHOXOAj%2fg%3d%3d",
+    reference: "N/A",
+    tags: [
+      "Software Development",
+      "IT & Technology",
+      "Electrical Engineering"
+    ],
+    shortDescription: "C-BRTA is seeking a Junior .NET Developer in Pretoria to support South Africa’s road transport industry. Salary: R84,000 p.a.",
+    fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>The Cross-Border Road Transport Agency (C-BRTA) is looking for an emerging developer to join their IT team. You will work with .NET technology to design, develop, and optimize software applications powering critical internal systems.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Design and develop robust applications using .NET frameworks</div><div>• Conduct unit and integration testing to ensure quality standards</div><div>• Debug, fix, and optimize performance of existing applications</div><div>• Maintain accurate technical documentation and participate in code reviews</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s Degree or National Diploma in Computer Science, IT Systems, or Electrical Engineering</div><div>• Strong aptitude for .NET development and problem-solving</div><div>• Self-motivated with excellent communication skills</div><br><div><strong>REMUNERATION:</strong></div><div>R84,000 per annum (all-inclusive package)</div>"
   },
 
                 
