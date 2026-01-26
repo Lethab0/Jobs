@@ -2452,6 +2452,82 @@ const jobs = [
     shortDescription: "Goldwind offers a 12-month renewable energy internship for graduates near Swellendam. Engineering and Health & Safety disciplines welcome.",
     fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>Goldwind is offering a 12-month Graduate Internship at their Overberg Project facility. This program provides hands-on experience and mentorship in the fast-growing renewable energy sector.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical Engineering</div><div>• Mechanical Engineering</div><div>• Civil Engineering</div><div>• Industrial Engineering</div><div>• Health and Safety</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Completed Diploma or Degree in specified fields</div><div>• South African citizens aged 18-35</div><div>• <strong>Must be from municipalities bordering Swellendam Municipality</strong></div><div>• Valid driver’s license (advantageous)</div><br><div><strong>HOW TO APPLY:</strong></div><div>Send your CV, certified qualification, and certified ID to moroesi.lebenya@goldwind.com by 6 February 2026.</div>"
   },
+  {
+    id: "chemical-engineer-graduates-ceramic-industries-various",
+    title: "Chemical Engineer Graduates",
+    company: "Ceramic Industries Group",
+    location: "South Africa (Various)",
+    type: "Full-time • Graduate Role",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-26T08:45:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:molosiR@italtile.co.za",
+    reference: "N/A",
+    tags: [
+      "Chemical Engineering"
+    ],
+    shortDescription: "Ceramic Industries is hiring Chemical Engineering graduates for laboratory operations and raw material analysis. 24hr shift work required.",
+    fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Join a leader in ceramic tile and bathroomware manufacture. Graduates will be exposed to laboratory operations, analysis of raw materials, and end-product composition.</div><br><div><strong>GROWTH OPPORTUNITIES:</strong></div><div>Career paths include Lab Management, Head of Department, and Factory Management roles across the Group of companies.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• B.Sc or B.Eng in Analytical Chemistry, Chemical Engineering or similar</div><div>• Post-graduate qualifications are ideal</div><div>• Own transport (beneficial)</div><div>• Leadership experience within school or university</div><br><div><strong>WORKING HOURS:</strong></div><div>Operations run on a 24hr basis. Shifts include:<br>• Monday – Friday: 6am – 6pm<br>• Saturdays: Every 2nd Saturday (6hr shift)</div><br><div><strong>HOW TO APPLY:</strong></div><div>Email your CV to molosiR@italtile.co.za.</div>"
+  },
+  {
+    id: "internship-programme-sedibeng-iron-ore-postmasburg",
+    title: "Internship Programme 2025/2026",
+    company: "Sedibeng Iron Ore (PTY) Ltd",
+    location: "Postmasburg, Northern Cape",
+    type: "Full-time • Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-01-24T08:00:00+02:00",
+    closingDate: "2026-01-31",
+    applicationLink: "mailto:recruitment@seio.co.za",
+    reference: "See Tags for Codes",
+    tags: [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Mining & Metallurgy"
+    ],
+    shortDescription: "Sedibeng Iron Ore is offering internships in Electrical and Mechanical Engineering, Geology, and Mine Surveying at their Postmasburg operation.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>Sedibeng Iron Ore is providing unemployed graduates with practical experience across multiple mining disciplines for the 2025/2026 financial year. Interns will gain hands-on industry experience at the Sedibeng operation in the Northern Cape.</div><br><div><strong>AVAILABLE FIELDS & CODES:</strong></div><div>• Electrical Engineering (Heavy Current) - INT01_2025/2026</div><div>• Environmental Health & Management - INT02_2025/2026</div><div>• Geology - INT03_2025/2026</div><div>• Mine Survey - INT04_2025/2026</div><div>• Mechanical Engineering - INT05_2025/2026</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Completed tertiary qualification in the relevant field</div><div>• South African citizenship</div><div>• Valid Certificate of Fitness (MSHA requirements)</div><div>• Preference given to local applicants from surrounding communities</div><br><div><strong>HOW TO APPLY:</strong></div><div>Email your CV, certified qualifications, and a motivation letter to recruitment@seio.co.za by 31 January 2026. Ensure the relevant position code is in the subject line.</div>"
+  },
+  {
+    id: "misa-young-graduate-programme-2025-26-various",
+    title: "Young Graduate Programme 2025/26",
+    company: "MISA (Municipal Infrastructure Support Agent)",
+    location: "National (All 9 Provinces)",
+    type: "Full-time • Internship",
+    duration: "36 Months",
+    reportTo: "Professional Mentors",
+    datePosted: "2026-01-25T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "mailto:young.graduates2025@misa.gov.za",
+    reference: "MISA 2025/26",
+    tags: [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "IT & Technology"
+    ],
+    shortDescription: "MISA is offering a 3-year internship for Civil and Electrical Engineering graduates to gain professional registration while developing municipal infrastructure.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>MISA, a government entity under the DCoG, is seeking graduates for a 36-month structured workplace development programme. The programme focuses on facilitating professional registration as Technicians, Technologists, or Engineers.</div><br><div><strong>AVAILABLE DISCIPLINE:</strong></div><div>• Civil Engineering (BTech/BSc/B.Eng)</div><div>• Electrical Engineering (BTech/BSc/B.Eng)</div><div>• Town & Regional Planning (BTech/BSc)</div><br><div><strong>ELIGIBILITY CRITERIA:</strong></div><div>• Graduates from previously disadvantaged communities who finished studies during or after 2024/25</div><div>• South African Citizens or permanent residents</div><div>• Females and people with disabilities are particularly encouraged to apply</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Compile the following into ONE PDF DOCUMENT and email to young.graduates2025@misa.gov.za:</div><div>• Completed MISA application form and cover letter</div><div>• Detailed CV and certified ID</div><div>• Certified qualifications and proof of residential address</div>"
+  },
+  {
+    id: "junior-metallurgist-sylvania-thaba-jv",
+    title: "Junior Metallurgist",
+    company: "Sylvania Platinum Limited (Thaba JV)",
+    location: "Thaba JV, South Africa",
+    type: "Full-time • Junior Role",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-26T09:24:00+02:00",
+    closingDate: "2026-02-05",
+    applicationLink: "mailto:thabarecruitment@sylvania.co.za",
+    reference: "Junior Metallurgist - Thaba JV",
+    tags: [
+      "Mining & Metallurgy"
+    ],
+    shortDescription: "Sylvania Platinum is seeking a Junior Metallurgist for their Thaba JV operation. Apply by 05 February 2026.",
+    fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Sylvania Platinum Limited has a vacancy for a Junior Metallurgist at the Thaba JV operation.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application to thabarecruitment@sylvania.co.za.</div><br><div><strong>CLOSING DATE:</strong></div><div>05 February 2026.</div>"
+  },
 
                 
 
