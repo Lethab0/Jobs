@@ -2528,6 +2528,25 @@ const jobs = [
     shortDescription: "Sylvania Platinum is seeking a Junior Metallurgist for their Thaba JV operation. Apply by 05 February 2026.",
     fullDescription: "<div><strong>ABOUT THE OPPORTUNITY:</strong></div><div>Sylvania Platinum Limited has a vacancy for a Junior Metallurgist at the Thaba JV operation.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application to thabarecruitment@sylvania.co.za.</div><br><div><strong>CLOSING DATE:</strong></div><div>05 February 2026.</div>"
   },
+  {
+    id: "junior-it-technician-yes-redheads-pretoria",
+    title: "Junior IT Technician (YES Programme)",
+    company: "Redheads Engineering Solutions",
+    location: "Lynnwood, Pretoria",
+    type: "Full-time • Contract",
+    duration: "12 Months",
+    reportTo: "IT Manager",
+    datePosted: "2025-12-19T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://careers.redheads.co.za/job/44382/junior-it-technician-yes/pretoria",
+    reference: "44382",
+    tags: [
+      "IT & Technology",
+      "Software Development"
+    ],
+    shortDescription: "Redheads is hiring a Junior IT Technician under the YES Programme for first-line support, M365 admin, and hardware troubleshooting in Pretoria.",
+    fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Join the IT team under the YES Programme focusing on first-line technical support and day-to-day IT operations. This role involves hands-on support for systems, hardware, and cybersecurity.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Provide first-level on-site and remote technical support</div><div>• Diagnose hardware/software issues and maintain 3CX VoIP systems</div><div>• Administer Microsoft 365, SharePoint libraries, and OneDrive</div><div>• Monitor security platforms (EDR) and identify phishing threats</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• CompTIA A+ Certification (Required)</div><div>• 1–2 years’ experience in technical support or IT-related roles</div><div>• Valid driver’s licence (travel required)</div><div>• Knowledge of M365 administration and networking (TCP/IP, DNS)</div><br><div><strong>YES PROGRAMME ELIGIBILITY:</strong></div><div>• Must be 35 years or younger</div><div>• Must have been unemployed for at least the last 2 months</div><div>• Clear criminal record</div><br><div><strong>REMUNERATION:</strong></div><div>R10,000.00 – R15,000.00 per month</div>"
+  },
 
                 
 
