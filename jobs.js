@@ -2547,6 +2547,27 @@ const jobs = [
     shortDescription: "Redheads is hiring a Junior IT Technician under the YES Programme for first-line support, M365 admin, and hardware troubleshooting in Pretoria.",
     fullDescription: "<div><strong>ABOUT THE ROLE:</strong></div><div>Join the IT team under the YES Programme focusing on first-line technical support and day-to-day IT operations. This role involves hands-on support for systems, hardware, and cybersecurity.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Provide first-level on-site and remote technical support</div><div>• Diagnose hardware/software issues and maintain 3CX VoIP systems</div><div>• Administer Microsoft 365, SharePoint libraries, and OneDrive</div><div>• Monitor security platforms (EDR) and identify phishing threats</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• CompTIA A+ Certification (Required)</div><div>• 1–2 years’ experience in technical support or IT-related roles</div><div>• Valid driver’s licence (travel required)</div><div>• Knowledge of M365 administration and networking (TCP/IP, DNS)</div><br><div><strong>YES PROGRAMME ELIGIBILITY:</strong></div><div>• Must be 35 years or younger</div><div>• Must have been unemployed for at least the last 2 months</div><div>• Clear criminal record</div><br><div><strong>REMUNERATION:</strong></div><div>R10,000.00 – R15,000.00 per month</div>"
   },
+  {
+    id: "campus-recruitment-program-huawei-south-africa-various",
+    title: "Graduate & Bursary Program 2025/2026",
+    company: "Huawei South Africa",
+    location: "South Africa (Various)",
+    type: "Full-time • Graduate Program / Bursary",
+    duration: "Permanent (for Graduates)",
+    reportTo: "N/A",
+    datePosted: "2026-01-27T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "mailto:sagraduate@huawei.com",
+    reference: "Campus Recruitment 2026",
+    tags: [
+      "Electrical Engineering",
+      "Software Development",
+      "IT & Technology",
+      "Industrial Engineering"
+    ],
+    shortDescription: "Huawei South Africa is recruiting 2025/2026 graduates and offering bursaries for Engineering, IT, Computer Science, and Business students.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAM:</strong></div><div>Huawei South Africa’s Campus Recruitment Program offers structured learning, mentorship, and hands-on experience on cutting-edge technology projects. The program includes both Graduate placements and Bursaries for current students.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical, Electronic, and Computer Engineering</div><div>• Information Technology, ICT, and Information Systems</div><div>• Computer Science and Artificial Intelligence</div><div>• Supply Chain, Procurement, Finance, and Human Resources</div><br><div><strong>AVAILABLE ROLES:</strong></div><div>• Technical: Network Engineer, Product Manager, Power Engineer, Site Engineer</div><div>• Business: Account Manager, Project Finance Controller</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Graduates from the classes of 2025 or 2026</div><div>• Undergraduate or Postgraduate students (for Bursary)</div><div>• Passion for technology and innovation</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your comprehensive CV, valid ID, and academic transcripts to sagraduate@huawei.com.</div>"
+  },
 
                 
 
