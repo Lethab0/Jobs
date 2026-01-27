@@ -2569,6 +2569,8 @@ const jobs = [
     fullDescription: "<div><strong>ABOUT THE PROGRAM:</strong></div><div>Huawei South Africa’s Campus Recruitment Program offers structured learning, mentorship, and hands-on experience on cutting-edge technology projects. The program includes both Graduate placements and Bursaries for current students.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical, Electronic, and Computer Engineering</div><div>• Information Technology, ICT, and Information Systems</div><div>• Computer Science and Artificial Intelligence</div><div>• Supply Chain, Procurement, Finance, and Human Resources</div><br><div><strong>AVAILABLE ROLES:</strong></div><div>• Technical: Network Engineer, Product Manager, Power Engineer, Site Engineer</div><div>• Business: Account Manager, Project Finance Controller</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Graduates from the classes of 2025 or 2026</div><div>• Undergraduate or Postgraduate students (for Bursary)</div><div>• Passion for technology and innovation</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your comprehensive CV, valid ID, and academic transcripts to sagraduate@huawei.com.</div>"
   },
 
+  
+
                 
 
   ];
