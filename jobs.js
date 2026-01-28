@@ -2568,6 +2568,68 @@ const jobs = [
     shortDescription: "Huawei South Africa is recruiting 2025/2026 graduates and offering bursaries for Engineering, IT, Computer Science, and Business students.",
     fullDescription: "<div><strong>ABOUT THE PROGRAM:</strong></div><div>Huawei South Africa’s Campus Recruitment Program offers structured learning, mentorship, and hands-on experience on cutting-edge technology projects. The program includes both Graduate placements and Bursaries for current students.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>• Electrical, Electronic, and Computer Engineering</div><div>• Information Technology, ICT, and Information Systems</div><div>• Computer Science and Artificial Intelligence</div><div>• Supply Chain, Procurement, Finance, and Human Resources</div><br><div><strong>AVAILABLE ROLES:</strong></div><div>• Technical: Network Engineer, Product Manager, Power Engineer, Site Engineer</div><div>• Business: Account Manager, Project Finance Controller</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Graduates from the classes of 2025 or 2026</div><div>• Undergraduate or Postgraduate students (for Bursary)</div><div>• Passion for technology and innovation</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your comprehensive CV, valid ID, and academic transcripts to sagraduate@huawei.com.</div>"
   },
+ 
+  {
+    id: "engineer-in-training-haggie-steel-wire-rope-various",
+    title: "Engineer-in-Training (Mechanical & Metallurgy)",
+    company: "Haggie Steel Wire Rope",
+    location: "South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "Training Programme",
+    reportTo: "Sales and Marketing Department",
+    datePosted: "2026-01-28T08:00:00+02:00",
+    closingDate: "2026-02-06",
+    applicationLink: "mailto:SWRRecruitment@haggie.co.za",
+    reference: "#EITMetallurgy / #EITMechanical",
+    tags: [
+      "Mechanical Engineering",
+      "Mining & Metallurgy"
+    ],
+    shortDescription: "Haggie Steel Wire Rope is recruiting Mechanical (x4) and Metallurgical (x2) graduates for their 2026 EIT program.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>Join a world-class manufacturing environment through a comprehensive Engineer-in-Training (EIT) program. Candidates will gain practical exposure to production, maintenance, and quality environments while receiving structured mentorship.</div><br><div><strong>AVAILABLE POSITIONS:</strong></div><div>• <strong>Metallurgical Engineering (x2):</strong> Focus on manufacturing metallurgy and process environments (Ref: #EITMetallurgy)</div><div>• <strong>Mechanical Engineering (x4):</strong> Focus on production, maintenance, and reliability engineering (Ref: #EITMechanical)</div><br><div><strong>REQUIREMENTS:</strong></div><div>• BEng/BSc/BTech in Metallurgical or Mechanical Engineering</div><div>• WITS or UJ qualifications are advantageous</div><div>• Willingness to work in a heavy industrial environment</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit a comprehensive CV and the <strong>official Haggie Internal Application Form</strong> to SWRRecruitment@haggie.co.za by 6 February 2026. Application forms must be obtained from the Human Resources Department.</div>"
+  },
+
+  {
+    id: "geotechnical-engineer-dayenu-mining-consultants",
+    title: "Geotechnical Engineer",
+    company: "Dayenu Mining Consultants",
+    location: "South Africa",
+    type: "Full-time • Professional Role",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-01-28T18:38:00+02:00",
+    closingDate: "2026-02-06",
+    applicationLink: "mailto:Admin@dayenu.co.za",
+    reference: "Geotechnical Engineer",
+    tags: [
+      "Mining & Metallurgy",
+      "Civil Engineering"
+    ],
+    shortDescription: "Dayenu Mining Consultants is hiring a Geotechnical Engineer with at least one year of experience in Open Pit or Underground operations.",
+    fullDescription: "<div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• BSc in Engineering Geology, Geotechnical Engineering or Mining Engineering</div><div>• At least one year of experience in an Open Pit or Underground Operation</div><div>• SCO/Rock Engineer certificate will be an advantage</div><br><div><strong>HOW TO APPLY:</strong></div><div>Please send your CV to Admin@dayenu.co.za.</div><br><div><strong>CLOSING DATE:</strong></div><div>06 February 2026.</div>"
+  },
+  {
+    id: "2026-rheinmetall-resonant-sa-engineering-graduate-programme-pretoria",
+    title: "2026 Engineering Graduate Programme",
+    company: "Rheinmetall Resonant South Africa",
+    location: "Pretoria, South Africa",
+    type: "Full-time • Internship",
+    duration: "Graduate Programme",
+    reportTo: "Technical Mentors",
+    datePosted: "2026-01-28T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://www.rheinmetall.com/de/job/2026_rheinmetall_resonant_south_africa_engineering_graduate_programme/957203",
+    reference: "ZA00784",
+    tags: [
+      "Chemical Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Mechatronic Engineering"
+    ],
+    shortDescription: "Rheinmetall Resonant SA is recruiting high-achieving BEng graduates (75% average) for a structured 2026 program in Pretoria.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>This programme is designed to develop young engineering talent through structured training, professional mentorship, and hands-on exposure within a technical design environment. Graduates will contribute to real-world engineering challenges at a world-class organization.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Chemical Engineering</div><div>• Electrical and Electronic Engineering</div><div>• Mechanical and Mechatronic Engineering</div><div>• Civil Engineering</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African citizen with a valid ID</div><div>• Final-year student or completed BEng degree</div><div>• <strong>Minimum academic average of 75%</strong></div><div>• Detailed academic transcript required</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application via the Rheinmetall careers portal.</div>"
+  },
 
   
 
