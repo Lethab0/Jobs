@@ -2631,6 +2631,28 @@ const jobs = [
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>This programme is designed to develop young engineering talent through structured training, professional mentorship, and hands-on exposure within a technical design environment. Graduates will contribute to real-world engineering challenges at a world-class organization.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Chemical Engineering</div><div>• Electrical and Electronic Engineering</div><div>• Mechanical and Mechatronic Engineering</div><div>• Civil Engineering</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African citizen with a valid ID</div><div>• Final-year student or completed BEng degree</div><div>• <strong>Minimum academic average of 75%</strong></div><div>• Detailed academic transcript required</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application via the Rheinmetall careers portal.</div>"
   },
 
+  {
+    id: "hikvision-surveillance-graduate-programme-quarphix",
+    title: "Hikvision Surveillance Graduate Programme",
+    company: "Hikvision / Quarphix",
+    location: "South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "Contract",
+    reportTo: "N/A",
+    datePosted: "2026-01-29T15:16:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://forms.monday.com/forms/6347c55d66c6b90ff91c797e59230953?r=euc1",
+    reference: "N/A",
+    tags: [
+      "Electrical Engineering",
+      "IT & Technology",
+      "Software Development",
+      "Industrial Engineering"
+    ],
+    shortDescription: "Join the Hikvision Surveillance Graduate Programme powered by Quarphix to gain industry-ready skills in security and surveillance systems.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>This programme is designed to provide IT, technology, and engineering graduates with industry-ready skills in cutting-edge security and surveillance systems. It offers a blend of structured learning and practical field experience.</div><br><div><strong>PROGRAMME BENEFITS:</strong></div><div>• Practical, job-ready skills in a high-demand industry</div><div>• Exposure to real-world client environments</div><div>• Certification pathways and professional development support</div><div>• Work-readiness training</div><br><div><strong>REQUIREMENTS:</strong></div><div>• IT / Technology / Engineering graduate</div><div>• Passion for technology, networks, or security systems</div><div>• Eager to grow through practical field experience</div><div>• Open to learning about surveillance technology</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application via the provided link today, as spaces are limited.</div>"
+  },
+
   
 
                 
