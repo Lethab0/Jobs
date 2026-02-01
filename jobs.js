@@ -2652,6 +2652,62 @@ const jobs = [
     shortDescription: "Join the Hikvision Surveillance Graduate Programme powered by Quarphix to gain industry-ready skills in security and surveillance systems.",
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>This programme is designed to provide IT, technology, and engineering graduates with industry-ready skills in cutting-edge security and surveillance systems. It offers a blend of structured learning and practical field experience.</div><br><div><strong>PROGRAMME BENEFITS:</strong></div><div>• Practical, job-ready skills in a high-demand industry</div><div>• Exposure to real-world client environments</div><div>• Certification pathways and professional development support</div><div>• Work-readiness training</div><br><div><strong>REQUIREMENTS:</strong></div><div>• IT / Technology / Engineering graduate</div><div>• Passion for technology, networks, or security systems</div><div>• Eager to grow through practical field experience</div><div>• Open to learning about surveillance technology</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application via the provided link today, as spaces are limited.</div>"
   },
+  {
+    id: "graduate-technologist-engineer-makhaotse-narasimulu-pietermaritzburg",
+    title: "Graduate Technologist / Engineer",
+    company: "Makhaotse, Narasimulu & Associates (Pty) Ltd",
+    location: "Pietermaritzburg, South Africa",
+    type: "Full-time • Graduate Role",
+    duration: "Limited Period Contract",
+    reportTo: "Senior Supervision",
+    datePosted: "2026-01-31T06:37:00+02:00",
+    closingDate: "2026-02-10",
+    applicationLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=W5hNIJKU_kqIwNtcKURqVeElFdtxkHZAvySL7I0TpNlUNVZKMEpPUjUwWTBQNFE1VFYwTUdKSlE2SC4u",
+    reference: "Buildings and Civil Department",
+    tags: [
+      "Civil Engineering"
+    ],
+    shortDescription: "Join the Buildings and Civil Department in PMB as a Graduate Technologist or Engineer. 0-2 years experience required.",
+    fullDescription: "<div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Qualification: BSc / B Eng / BTech / Adv Diploma.</div><div>• Experience: 0-2 years post-qualification.</div><div>• Mindset: A technically curious and analytical graduate eager to apply engineering principles.</div><br><div><strong>ROLE DESCRIPTION:</strong></div><div>You will learn under senior supervision and contribute to high-quality, compliant design outputs through collaboration and problem-solving.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Complete the application form via the provided link by 10 February 2026.</div>"
+  },
+  {
+    id: "junior-mechanical-electrical-engineer-jcm-consultants",
+    title: "Junior Mechanical/Electrical Engineer",
+    company: "JCM Consultants",
+    location: "South Africa",
+    type: "Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-02-01T20:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "mailto:cvs@jcmconsultants.org",
+    reference: "N/A",
+    tags: [
+      "Mechanical Engineering",
+      "Electrical Engineering"
+    ],
+    shortDescription: "JCM Consultants is hiring a Junior Mechanical or Electrical Engineer with a focus on HVAC and Ventilation systems.",
+    fullDescription: "<div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor’s Degree in Mechanical or Electrical Engineering (completed within the last 5 years)</div><div>• Strong interest or experience in HVAC Systems, Air Quality Control, or Ventilation Engineering</div><div>• Basic understanding of Project Management principles (formal training or practical exposure is advantageous)</div><br><div><strong>HOW TO APPLY:</strong></div><div>Send your CV to cvs@jcmconsultants.org.</div>"
+  },
+  {
+    id: "civil-engineering-technician-martin-east-south-africa",
+    title: "Civil Engineering Technician",
+    company: "Martin & East",
+    location: "South Africa (Willing to travel)",
+    type: "Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-02-01T20:10:00+02:00",
+    closingDate: "2026-02-18",
+    applicationLink: "http://www.martin-east.co.za",
+    reference: "Martin & East Technician",
+    tags: [
+      "Civil Engineering"
+    ],
+    shortDescription: "Martin & East is hiring a Civil Engineering Technician with a National Diploma and a valid driver's license for infrastructure projects.",
+    fullDescription: "<div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• National Diploma in Civil Engineering or Equivalent</div><div>• Valid Driver’s license</div><div>• Applicants must be willing to travel</div><div>• Experience will be an advantage</div><br><div><strong>EXPERIENCE / SKILLS:</strong></div><div>• Planning and organising</div><div>• Efficient utilisation of resources and materials</div><div>• Effective decision making and problem solving</div><div>• Timeous monthly measurements and data for progress statements</div><br><div><strong>HOW TO APPLY:</strong></div><div>Apply directly via the company website by 18 February 2026.</div>"
+  },
+  
 
   
 
