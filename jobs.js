@@ -2707,7 +2707,47 @@ const jobs = [
     shortDescription: "Martin & East is hiring a Civil Engineering Technician with a National Diploma and a valid driver's license for infrastructure projects.",
     fullDescription: "<div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• National Diploma in Civil Engineering or Equivalent</div><div>• Valid Driver’s license</div><div>• Applicants must be willing to travel</div><div>• Experience will be an advantage</div><br><div><strong>EXPERIENCE / SKILLS:</strong></div><div>• Planning and organising</div><div>• Efficient utilisation of resources and materials</div><div>• Effective decision making and problem solving</div><div>• Timeous monthly measurements and data for progress statements</div><br><div><strong>HOW TO APPLY:</strong></div><div>Apply directly via the company website by 18 February 2026.</div>"
   },
-  
+
+  {
+    id: "project-engineer-junior-graduate-energy-partners-bellville",
+    title: "Project Engineer (Graduate or Junior Engineer)",
+    company: "Energy Partners",
+    location: "Bellville, Cape Town",
+    type: "Full-time",
+    duration: "Permanent",
+    reportTo: "Senior Engineers",
+    datePosted: "2026-02-02T10:32:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://energypartners.co.za/",
+    reference: "Junior/ Graduate Engineer",
+    tags: [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "IT & Technology"
+    ],
+    shortDescription: "Energy Partners is hiring a Graduate or Junior Project Engineer in Bellville to support the design and execution of Solar PV systems.",
+    fullDescription: "<div><strong>PURPOSE OF THE POSITION:</strong></div><div>To support the successful planning, execution, and delivery of engineering projects by assisting senior engineers in managing project tasks and coordinating with stakeholders.</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Design of Solar PV systems (rooftop, ground-mount, and storage)</div><div>• Compiling Bills of Quantities (BOQ) and driving regulatory approvals</div><div>• Management of suppliers, subcontractors, budget, and quality</div><div>• Site visits to support project development teams</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Minimum Engineering Degree</div><div>• 0-3 years of experience (Junior to Senior will be considered)</div><div>• Proficiency in English (verbal and written)</div><div>• Software Competence: PVSyst, Sketchup, AutoCAD, and MS Office</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit your application via the company website or contact the careers department directly.</div>"
+  },
+  {
+    id: "data-engineer-intern-microdev-solutions-south-africa",
+    title: "Data Engineer Intern",
+    company: "Microdev Solutions",
+    location: "South Africa",
+    type: "Full-time • Internship",
+    duration: "Internship",
+    reportTo: "N/A",
+    datePosted: "2026-02-02T10:38:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://microdevsolutions.com",
+    reference: "Data Engineer Intern",
+    tags: [
+      "IT & Technology",
+      "Software Development"
+    ],
+    shortDescription: "Microdev Solutions is hiring a Data Engineer Intern. Ideal for IT or Computer Science graduates with basic SQL and Python knowledge.",
+    fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Education: BS in IT / CS or related field</div><div>• Knowledge of data fundamentals and data handling concepts</div><div>• Understanding of databases</div><div>• Basic SQL queries and Basic Python</div><div>• Quick learner and passionate about data</div><br><div><strong>HOW TO APPLY:</strong></div><div>Apply directly via the company website.</div>"
+  },
+
 
   
 
