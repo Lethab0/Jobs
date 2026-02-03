@@ -2747,6 +2747,31 @@ const jobs = [
     shortDescription: "Microdev Solutions is hiring a Data Engineer Intern. Ideal for IT or Computer Science graduates with basic SQL and Python knowledge.",
     fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Education: BS in IT / CS or related field</div><div>• Knowledge of data fundamentals and data handling concepts</div><div>• Understanding of databases</div><div>• Basic SQL queries and Basic Python</div><div>• Quick learner and passionate about data</div><br><div><strong>HOW TO APPLY:</strong></div><div>Apply directly via the company website.</div>"
   },
+  {
+    id: "ppb-data-science-graduate-programme-standard-bank-johannesburg",
+    title: "Personal & Private Banking (PPB) Data Science Graduate Programme",
+    company: "Standard Bank",
+    location: "30 Baker Street, Johannesburg, South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "Permanent",
+    reportTo: "Data Science Guild",
+    datePosted: "2026-02-02T08:00:00+02:00",
+    closingDate: "2026-05-31",
+    applicationLink: "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs/job-detail?jobID=744000106845958",
+    reference: "80418654A-0001",
+    tags: [
+      "Data Science",
+      "IT & Technology",
+      "Software Development",
+      "Mathematics",
+      "Industrial Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering"
+    ],
+    shortDescription: "Standard Bank is recruiting high-performing Honours and Master's graduates for their 2027 Data Science intake in Johannesburg.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join the heartbeat of innovation at Standard Bank. This programme focuses on structured training and professional excellence, placing graduates at the center of data-led solutions for client problems.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Developing machine learning models and computational algorithms.</div><div>• Data pre-processing, visualization, and deriving new features.</div><div>• Collaborating with the Data Science Guild and subject matter experts.</div><div>• Utilizing HDFS, Spark, Kafka, R, and Python for distributed data processing.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African citizen.</div><div>• Work experience must not exceed 24 months.</div><div>• <strong>Academic Averages:</strong> 70% for 3rd year undergrad; 65% for Honours or Master's studies.</div><div>• Must complete an Honours or Master's degree by 31 December 2026.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>Data Science, Analytics, Statistics, Computer Science, Applied Mathematics, Quantitative Risk Management, and all major Engineering disciplines (Computer, Industrial, Electronic, Electrical, Mechatronic, Mechanical, Chemical).</div>"
+  },
 
 
   
