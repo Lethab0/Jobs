@@ -2772,6 +2772,32 @@ const jobs = [
     shortDescription: "Standard Bank is recruiting high-performing Honours and Master's graduates for their 2027 Data Science intake in Johannesburg.",
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join the heartbeat of innovation at Standard Bank. This programme focuses on structured training and professional excellence, placing graduates at the center of data-led solutions for client problems.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Developing machine learning models and computational algorithms.</div><div>• Data pre-processing, visualization, and deriving new features.</div><div>• Collaborating with the Data Science Guild and subject matter experts.</div><div>• Utilizing HDFS, Spark, Kafka, R, and Python for distributed data processing.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African citizen.</div><div>• Work experience must not exceed 24 months.</div><div>• <strong>Academic Averages:</strong> 70% for 3rd year undergrad; 65% for Honours or Master's studies.</div><div>• Must complete an Honours or Master's degree by 31 December 2026.</div><br><div><strong>ELIGIBLE FIELDS:</strong></div><div>Data Science, Analytics, Statistics, Computer Science, Applied Mathematics, Quantitative Risk Management, and all major Engineering disciplines (Computer, Industrial, Electronic, Electrical, Mechatronic, Mechanical, Chemical).</div>"
   },
+  
+  {
+    id: "psg-financial-services-graduate-programme-2027",
+    title: "PSG Financial Services Graduate Programme 2027",
+    company: "PSG Financial Services",
+    location: "Gauteng & Western Cape (Tygerfalls), South Africa",
+    type: "Full-time • Graduate Programme",
+    duration: "12-Month Fixed-Term Contract",
+    reportTo: "N/A",
+    datePosted: "2026-02-09T17:34:00+02:00",
+    closingDate: "2026-11-30",
+    applicationLink: "https://myfocus.psg.co.za/CareerFocus/Vacancy/HRF_VACANCY_REPORT.aspx?qs=mlpeS3%2FjZLwAyYPCqyBIJYqcbtukORPruqiK2vk3Ca%2FhShJnFDTWsR2VR0a1%2FP9hNkNxn4X6h93oXtt7ka22gx%2Bj4Lhe%2FIa3hy7iqLpFEhiMh1XeMyjPQQkERRlnWba%2BbYuGMtHkK4%2BNZGsXTWz3gahruLS8otye0Crjq3lXqEo%3D",
+    reference: "POS06060",
+    tags: [
+      "IT & Technology",
+      "Software Development",
+      "Mathematics",
+      "Data Science",
+      "Industrial Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering"
+    ],
+    shortDescription: "PSG Financial Services is seeking high-achieving graduates for their 2027 intake. Requires a 65%+ average in Commerce, Engineering, or Science.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join one of South Africa’s most respected advice-led financial technology firms. This 12-month programme offers structured on-the-job training, mentorship, and a clear pathway toward permanent employment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Academic Average: 65% or higher across Bachelor’s, Honours, Master’s, or PhD degrees.</div><div>• Citizenship: Must provide a certified copy of a South African ID.</div><div>• Documentation: Comprehensive CV and complete updated academic record are required.</div><br><div><strong>ELIGIBLE FIELDS OF STUDY:</strong></div><div>• <strong>Engineering:</strong> Computer, Chemical, Electrical & Electronic, Industrial, and Mechanical.</div><div>• <strong>Science:</strong> Data Science, Computer Science, Actuarial Science, Mathematics, and Statistics.</div><div>• <strong>Commerce:</strong> Accounting, Economics, Finance, Investments, Law, and Information Systems.</div><br><div><strong>BENEFITS:</strong></div><div>• Competitive salary package and comprehensive employee benefits.</div><div>• Personalized support through a dedicated mentorship and buddy system.</div><div>• Real-world experience solving business challenges in financial technology.</div>"
+  },
 
 
   
