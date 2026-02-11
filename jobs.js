@@ -2798,6 +2798,70 @@ const jobs = [
     shortDescription: "PSG Financial Services is seeking high-achieving graduates for their 2027 intake. Requires a 65%+ average in Commerce, Engineering, or Science.",
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join one of South Africa’s most respected advice-led financial technology firms. This 12-month programme offers structured on-the-job training, mentorship, and a clear pathway toward permanent employment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Academic Average: 65% or higher across Bachelor’s, Honours, Master’s, or PhD degrees.</div><div>• Citizenship: Must provide a certified copy of a South African ID.</div><div>• Documentation: Comprehensive CV and complete updated academic record are required.</div><br><div><strong>ELIGIBLE FIELDS OF STUDY:</strong></div><div>• <strong>Engineering:</strong> Computer, Chemical, Electrical & Electronic, Industrial, and Mechanical.</div><div>• <strong>Science:</strong> Data Science, Computer Science, Actuarial Science, Mathematics, and Statistics.</div><div>• <strong>Commerce:</strong> Accounting, Economics, Finance, Investments, Law, and Information Systems.</div><br><div><strong>BENEFITS:</strong></div><div>• Competitive salary package and comprehensive employee benefits.</div><div>• Personalized support through a dedicated mentorship and buddy system.</div><div>• Real-world experience solving business challenges in financial technology.</div>"
   },
+  {
+    id: "data-analyst-attain-people-south-africa",
+    title: "Data Analyst",
+    company: "Attain People",
+    location: "South Africa",
+    type: "Full-time",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-02-11T12:33:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://attainpeople.co.za",
+    reference: "N/A",
+    tags: [
+      "Data Science",
+      "IT & Technology",
+      "Software Development",
+      "Mathematics"
+    ],
+    shortDescription: "Attain People is hiring a Data Analyst with proficiency in Python and R to generate actionable insights from complex datasets.",
+    fullDescription: "<div><strong>REQUIREMENTS:</strong></div><div>• Bachelor’s degree (or postgraduate studies in progress) in Data Science, Computer Science, Statistics, Mathematics, or a related field.</div><div>• Strong data analysis and statistical fundamentals.</div><div>• Proficiency in Python and R for data analysis and modelling.</div><div>• Experience analysing large, complex datasets to generate actionable insights.</div><div>• Exposure to data pipelines, data integration, and automation.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Apply directly via the company website or LinkedIn portal.</div>"
+  },
+  {
+    id: "graduate-internship-opportunities-thos-begbie-south-africa",
+    title: "Graduate & Internship Opportunities",
+    company: "Thos Begbie & Co (Pty) Ltd",
+    location: "South Africa",
+    type: "Full-time • Graduate & Internship",
+    duration: "Contract",
+    reportTo: "Human Resources Department",
+    datePosted: "2026-02-11T12:31:00+02:00",
+    closingDate: "2026-02-12",
+    applicationLink: "https://thosbegbie.com",
+    reference: "N/A",
+    tags: [
+      "Mining & Metallurgy",
+      "Electrical Engineering",
+      "Finance & Accounting",
+      "Business & Management"
+    ],
+    shortDescription: "Thos Begbie & Co is recruiting Interns and Graduate Trainees across Metallurgy, Engineering, Finance, and Supply Chain.",
+    fullDescription: "<div><strong>AVAILABLE OPPORTUNITIES:</strong></div><div><strong>Graduate Trainees:</strong></div><div>• Metallurgy</div><div>• Electrical Engineering</div><br><div><strong>Internships:</strong></div><div>• Supply Chain & Logistics</div><div>• Financial Management</div><div>• Business Management</div><div>• Human Resource Management</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Graduate Trainees:</strong> University Diploma or Degree in Metallurgy or Electrical Engineering.</div><div>• <strong>Internships:</strong> N4–N6 Diploma in the relevant field.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Submit a detailed CV and certified qualification certificates via the company portal by 12 February 2026.</div>"
+  },
+  {
+    id: "systems-design-engineer-in-training-rockwell-automation-randburg",
+    title: "Engineer in Training - Systems Design Engineer",
+    company: "Rockwell Automation",
+    location: "Randburg, Gauteng, South Africa",
+    type: "Full-time • Hybrid",
+    duration: "Permanent",
+    reportTo: "Engineering Manager",
+    datePosted: "2026-01-21T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Randburg-Gauteng-South-Africa/Engineer-in-Training---Systems-Design-Engineer_R25-9570?codes=IND",
+    reference: "R25-9570",
+    tags: [
+      "Electrical Engineering",
+      "Industrial Engineering",
+      "IT & Technology",
+      "Mechatronic Engineering"
+
+    ],
+    shortDescription: "Rockwell Automation is hiring an Engineer in Training (EIT) in Randburg to develop and commission industrial control system solutions.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>As a System Design Engineer in Training, you will help develop and commission industrial control system solutions for global manufacturers. This hybrid role is based in Randburg and involves collaborating with engineering teams and panel shops.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Analyse customer requirements and define complete control system architectures.</div><div>• Develop conceptual hardware designs and determine control strategies aligned with safety standards.</div><div>• Prepare technical specifications, project documentation, and engineering reports.</div><div>• Support factory acceptance tests (FAT) and participate in on-site system startup and troubleshooting.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor's degree or Diploma in Electrical, Electronic, Computer, or Mechatronic Engineering.</div><div>• Valid South African driver's license.</div><div>• Ability to travel up to 50% of the time for project sites.</div><div>• Legal right to work in South Africa.</div><br><div><strong>WHAT THEY OFFER:</strong></div><div>• Volunteer Paid Time Off and donation matching program.</div><div>• On-demand digital course library for professional development.</div><div>• Comprehensive mindfulness programs and Employee Assistance Program.</div>"
+  },
 
 
   
