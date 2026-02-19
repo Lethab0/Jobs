@@ -327,11 +327,13 @@
 
     <script src="jobs.js"></script>
     <script>
-        function showEmailPopup(email, jobTitle) {
-            const message = `To apply for this job, please send your CV and required documents directly to:\n\n${email}\n\nPlease remember to include the Job Title in your subject line.`;
+        function showEmailPopup(emailData, jobTitle) {
+            // Updated to handle both raw emails and 'mailto:' strings
+            const cleanEmail = emailData.replace('mailto:', '');
+            const message = `To apply for this job, please send your CV and required documents directly to:\n\n${cleanEmail}\n\nPlease remember to include the Job Title in your subject line.`;
             alert(message);
             const encodedSubject = encodeURIComponent(`Application for: ${jobTitle}`);
-            window.location.href = `mailto:${email}?subject=${encodedSubject}`;
+            window.location.href = `mailto:${cleanEmail}?subject=${encodedSubject}`;
         }
         
         document.addEventListener('DOMContentLoaded', function() {
@@ -375,10 +377,15 @@
                 
                 const buttonContainer = document.getElementById('button-container');
                 if (job.applicationLink) {
+                    // Improved check for email vs website
                     const isEmailApplication = job.applicationLink.includes('@');
-                    let applyButtonHTML = isEmailApplication ? 
-                        `<button onclick="showEmailPopup('${job.applicationLink}', '${job.title}')" class="btn-primary"><i class="fas fa-envelope"></i> Apply by Email</button>` :
-                        `<a href="${job.applicationLink}" class="btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Apply Now</a>`;
+                    let applyButtonHTML = '';
+
+                    if (isEmailApplication) {
+                        applyButtonHTML = `<button onclick="showEmailPopup('${job.applicationLink}', '${job.title}')" class="btn-primary"><i class="fas fa-envelope"></i> Apply by Email</button>`;
+                    } else {
+                        applyButtonHTML = `<a href="${job.applicationLink}" class="btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Apply Now</a>`;
+                    }
 
                     buttonContainer.innerHTML = `${applyButtonHTML} <a href="index.html" class="btn-secondary"><i class="fas fa-arrow-left"></i> Back to Jobs</a>`;
                 } else {
