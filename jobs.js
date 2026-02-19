@@ -2862,6 +2862,109 @@ const jobs = [
     shortDescription: "Rockwell Automation is hiring an Engineer in Training (EIT) in Randburg to develop and commission industrial control system solutions.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>As a System Design Engineer in Training, you will help develop and commission industrial control system solutions for global manufacturers. This hybrid role is based in Randburg and involves collaborating with engineering teams and panel shops.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Analyse customer requirements and define complete control system architectures.</div><div>• Develop conceptual hardware designs and determine control strategies aligned with safety standards.</div><div>• Prepare technical specifications, project documentation, and engineering reports.</div><div>• Support factory acceptance tests (FAT) and participate in on-site system startup and troubleshooting.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor's degree or Diploma in Electrical, Electronic, Computer, or Mechatronic Engineering.</div><div>• Valid South African driver's license.</div><div>• Ability to travel up to 50% of the time for project sites.</div><div>• Legal right to work in South Africa.</div><br><div><strong>WHAT THEY OFFER:</strong></div><div>• Volunteer Paid Time Off and donation matching program.</div><div>• On-demand digital course library for professional development.</div><div>• Comprehensive mindfulness programs and Employee Assistance Program.</div>"
   },
+  {
+    id: "evander-mines-external-internship-programme-2026",
+    title: "External Internship Programme",
+    company: "Evander Gold Mining",
+    location: "South Africa",
+    type: "Full-time • Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-19T09:00:00+02:00",
+    closingDate: "2026-03-03",
+    applicationLink: "mailto:Sibulelo.Madlolo@Emines.co.za",
+    reference: "External Internship Programme",
+    tags: [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Chemical Engineering",
+      "Mining & Metallurgy"
+    ],
+    shortDescription: "Evander Gold Mining is inviting Diplomates in Engineering and Metallurgy to join their 2026 internship programme.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Gain hands-on industry experience in a dynamic gold mining environment. This programme bridges the gap between academic qualifications and professional experience through technical problem-solving and operational exposure.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> National Diploma or BEng in Mechanical, Electrical, or Chemical Engineering, or Extraction Metallurgy.</div><div>• <strong>Age:</strong> Applicants must be between 20 and 35 years old.</div><div>• <strong>Attributes:</strong> Self-starter, hardworking, and enthusiastic about working in a mining environment.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit a CV, certified ID copy, and certified qualification copies to the provided email address. <strong>Note:</strong> Applications without certified documents will not be considered.</div><br><div><strong>BENEFITS:</strong></div><div>• Applicable stipend for the duration of the programme.</div><div>• Mentorship from seasoned industry professionals.</div>"
+  },
+  {
+    id: "digital-data-intern-totalenergies-johannesburg",
+    title: "Digital Data Intern",
+    company: "TotalEnergies Marketing South Africa (Pty) Ltd",
+    location: "Johannesburg, Biermann Avenue, South Africa",
+    type: "Internship",
+    duration: "24 Months",
+    reportTo: "Information Systems Domain",
+    datePosted: "2026-02-19T09:20:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Digital-Data-Intern/77047",
+    reference: "77047",
+    tags: [
+      "IT & Technology",
+      "Data Science",
+      "Mathematics",
+      "Software Development"
+    ],
+    shortDescription: "TotalEnergies is seeking high-performing graduates in Computer Science or Mathematics for a 24-month Digital Data Internship in Johannesburg.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join a global multi-energy company committed to innovation and sustainability. This 24-month internship provides the opportunity to work alongside highly skilled professionals in the Information Systems domain, gaining valuable industry experience in digital data.</div><br><div><strong>QUALIFICATIONS REQUIRED:</strong></div><div>Bachelor’s Degree and/or Honours Degree in the following fields:</div><div>• Mathematical Sciences</div><div>• Computer Science and Informatics</div><div>• Any other computer science-related degree</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Record:</strong> Minimum average of 65%.</div><div>• <strong>Experience:</strong> Less than 1 year of total work experience.</div><div>• <strong>Skills:</strong> Analytical thinking, attention to detail, systems orientation, and computer literacy (MS Office).</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>Candidates must submit an updated CV, certified copy of ID, certified copies of qualifications, and their full academic record.</div>"
+  },
+  {
+    id: "pq-testing-technician-assistant-wil-rheinmetall-denel-somerset-west",
+    title: "PQ Testing Technician Assistant (Work Integrated Learner)",
+    company: "Rheinmetall Denel Munition (RF) (Pty) Ltd",
+    location: "Somerset West, Cape Town",
+    type: "Full-time • Student Trainee (WIL)",
+    duration: "Contract",
+    reportTo: "N/A",
+    datePosted: "2026-02-19T09:15:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://www.rheinmetall.com/de/job/pq_testing_technician_assistant__work_integrated_learner_/970208",
+    reference: "ZA00837",
+    tags: [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Industrial Engineering"
+    ],
+    shortDescription: "Rheinmetall Denel Munition is looking for a WIL student in Mechanical or Electrical Engineering to assist with testing 40mm and Pyrotechnics.",
+    fullDescription: "<div><strong>PURPOSE OF THE JOB:</strong></div><div>The PQ Testing Technician Assistant (WIL) will assist in maintaining Quality systems and provide support for acceptance/proofing and testing of various 40mm, Pyrotechnics and High Explosives (HE).</div><br><div><strong>KEY PERFORMANCE AREAS:</strong></div><div>• Ensure products conform to Quality and Client requirements.</div><div>• Assist in serviceability and stock checks for weapons, jigs, and fixtures used in tests.</div><div>• Assist with test setup, execution, data capture, and database maintenance.</div><div>• Comply with all SHE requirements and ISO standards.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> N6/NQF 5 qualification or currently studying towards a Diploma with a compulsory experiential learning component.</div><div>• <strong>Field:</strong> Mechanical Engineering, Mechatronics, Electrical, or equivalent.</div><div>• <strong>Driver’s license:</strong> Valid Code B is required.</div><div>• <strong>Security:</strong> Must have a clear security screening record.</div><div>• <strong>Flexibility:</strong> Able to work off-site for short periods.</div>"
+  },
+  {
+    id: "armscor-talent-development-programme-2026",
+    title: "2026 Talent and Development Programme (TDP)",
+    company: "Armscor",
+    location: "South Africa (Relocation may be required)",
+    type: "Full-time • Graduate Programme",
+    duration: "24-Month Fixed-Term Contract",
+    reportTo: "N/A",
+    datePosted: "2026-02-13T08:00:00+02:00",
+    closingDate: "2026-02-28",
+    applicationLink: "mailto:TDP@armscor.co.za",
+    reference: "Armscor TDP 2026",
+    tags: [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "IT & Technology",
+      "Software Development"
+    ],
+    shortDescription: "Armscor is recruiting graduates for a 24-month Talent Development Programme in Engineering, ICT, and Geoinformatics.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Armscor TDP is a comprehensive 24-month graduate development initiative designed to bridge the gap between academic learning and professional expertise in the defense and technology sectors. Participants receive structured on-the-job training and mentorship while contributing to national defense capabilities.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• <strong>Engineering:</strong> Mechanical, Mechatronics, Electronics, and Electrical Engineering (Diploma/BEng/BSc).</div><div>• <strong>ICT & Data:</strong> Computer Science, IT, AI, and Software Engineering (Diploma/BSc).</div><div>• <strong>Geospatial:</strong> Geoinformatics and Geospatial Sciences (BSc).</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Citizenship:</strong> Must be a South African citizen.</div><div>• <strong>Age:</strong> Maximum age of 35 years.</div><div>• <strong>Experience:</strong> No prior experience required; training is provided.</div><div>• <strong>Record:</strong> Must have a clear criminal record and pass security verification.</div><br><div><strong>BENEFITS:</strong></div><div>• Market-related monthly stipend based on qualification level.</div><div>• Exposure to real-world projects impacting South Africa's defense industry.</div><div>• Industry-relevant skills and professional networking opportunities.</div>"
+  },
+  {
+    id: "sintrex-developer-intern-cape-town-g-hbs0226",
+    title: "Developer Intern",
+    company: "Sintrex",
+    location: "Bellville, Cape Town",
+    type: "Internship",
+    duration: "Contract",
+    reportTo: "Development Department",
+    datePosted: "2026-02-12T08:00:00+02:00",
+    closingDate: "Not Specified",
+    applicationLink: "https://sintrex.com/careers/vacancy/developer-intern-g-hbs0226",
+    reference: "G-HBS0226",
+    tags: [
+      "IT & Technology",
+      "Software Development",
+      "Mathematics"
+    ],
+    shortDescription: "Sintrex is looking for a Developer Intern in Cape Town proficient in PHP, Java, C#, or JavaScript to join their high-pressure development team.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>The successful candidate will be part of a team in a highly pressured environment, focusing on delivering end-to-end IT management solutions. This internship emphasizes self-learning, ownership, and technical excellence.</div><br><div><strong>CORE OUTPUTS:</strong></div><div>• Complete and pass all assigned tasks and tests within the Internship Programme.</div><div>• Successfully integrate with the Sintrex Team.</div><div>• Achieve practical tasks and assignments while on-site.</div><br><div><strong>ESSENTIAL REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Recognised IT Certificate or Diploma in Development.</div><div>• <strong>Languages:</strong> Proficiency in PHP, Java, C#, or JavaScript.</div><div>• <strong>Databases:</strong> SQL (MySQL) or NoSQL (Mongo/Elastic Search).</div><div>• <strong>Operating Systems:</strong> Knowledge of Windows or Linux.</div><br><div><strong>APPLICATION REQUIREMENTS:</strong></div><div>Applicants must provide all qualifications, certified copies of ID, and details of all previous work experience. Incomplete applications will be automatically disqualified.</div>"
+  },
 
 
   
