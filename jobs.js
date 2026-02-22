@@ -3009,8 +3009,7 @@ const jobs = [
     shortDescription: "Harmony Gold is offering 2026 Internships and P1/P2 opportunities across multiple operations for South African graduates and diplomates.",
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Harmony Gold invites qualified candidates to gain hands-on exposure in the mining industry. The programme duration is 24 months for Core disciplines (Mining, Metallurgy, Engineering) and 12 months for non-core disciplines.</div><br><div><strong>AVAILABLE DISCIPLINES:</strong></div><div>Opportunities exist in Mining Engineering, Rock Engineering, Metallurgy, Geology, Mine Survey, Mechanical/Electrical Engineering, Human Resources, Finance, Occupational Hygiene, Analytical Chemistry, Graphics Design, and more.</div><br><div><strong>ELIGIBILITY CRITERIA:</strong></div><div>• <strong>Nationality:</strong> South African citizens only.</div><div>• <strong>Age:</strong> Under 35 years old.</div><div>• <strong>Education:</strong> Graduates/Diplomates from accredited SA institutions.</div><div>• <strong>P1/P2 Applicants:</strong> Must provide a letter from their institution confirming the need for experiential learning.</div><div>• <strong>Residency:</strong> Must reside in specific districts within Free State, North West, or Gauteng.</div><br><div><strong>APPLICATION REQUIREMENTS:</strong></div><div>Submit a CV, certified ID, certified qualifications/academic records, and proof of residence. <strong>Subject Line:</strong> Operation, Discipline, and Municipality.</div>"
   },
-  JavaScript
-const jobs = [
+  
   {
     id: "sawea-wiip-internship-programme-2026",
     title: "Wind Industry Internship Programme (WIIP) 2026",
@@ -3054,6 +3053,23 @@ const jobs = [
     shortDescription: "City Power, in partnership with National Treasury, invites unemployed Electrical Engineering graduates for a 3-year 'Road to Professionalisation' programme.",
     fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>A 3-year fixed-term 'Road to Professionalisation' initiative aimed at providing unemployed graduates with professional registration requirements.</div><br><div><strong>CRITICAL REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> BSc/BEng (NQF 7) in Electrical Engineering.</div><div>• <strong>Status:</strong> Must be unemployed.</div><div>• <strong>Eligibility:</strong> South African citizen with a valid ID, under 35 years of age.</div><div>• <strong>License:</strong> Valid Code 08 driver’s licence is an advantage.</div><div>• <strong>Academic:</strong> Background must align with professional registration requirements.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Applications must include the relevant application forms found on the City Power careers website.</div>"
   },
+  {
+    id: "sasria-graduate-internship-learnership-2026-sandton",
+    title: "2026 Internship & Learnership Programme",
+    company: "Sasria SOC Limited",
+    location: "Sandton, Gauteng",
+    type: "Internship / Learnership • Fixed-Term",
+    duration: "12-24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-21T08:00:00+02:00",
+    closingDate: "2026-02-24",
+    applicationLink: "https://sasria.erecruit.co/candidateapp/jobs/categories/",
+    reference: "Sasria 2026 Intake",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Sasria is hiring graduates and matriculants for their 2026 intake in Sandton. Applications via https://sasria.erecruit.co/candidateapp/jobs/categories/",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Sasria SOC Limited invites ambitious graduates and matriculants to join their 2026 Internship and Learnership Programme based in Sandton.</div><br><div><strong>AVAILABLE POSITIONS:</strong></div><div>• Human Capital Intern: Degree in HR or Organisational Psychology</div><div>• Governance Intern: LLB or BCom Law</div><div>• Procurement Intern: Diploma/Degree in Supply Chain or Logistics</div><div>• Multimedia Design Intern: Portfolio required</div><div>• Quality Assurance Intern: Degree/Diploma in Auditing or Risk</div><div>• Developer Intern: BSc/BTech in Computer Science or Software Engineering</div><div>• Claims Learnership: Matric only, no experience required</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizen</div><div>• Recent graduate or currently unemployed</div><div>• No previous internship or learnership participation</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online at https://sasria.erecruit.co/candidateapp/jobs/categories/ before 24 February 2026.</div>`
+  },
+  
 
 
   
