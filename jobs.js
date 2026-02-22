@@ -2965,6 +2965,95 @@ const jobs = [
     shortDescription: "Sintrex is looking for a Developer Intern in Cape Town proficient in PHP, Java, C#, or JavaScript to join their high-pressure development team.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>The successful candidate will be part of a team in a highly pressured environment, focusing on delivering end-to-end IT management solutions. This internship emphasizes self-learning, ownership, and technical excellence.</div><br><div><strong>CORE OUTPUTS:</strong></div><div>• Complete and pass all assigned tasks and tests within the Internship Programme.</div><div>• Successfully integrate with the Sintrex Team.</div><div>• Achieve practical tasks and assignments while on-site.</div><br><div><strong>ESSENTIAL REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Recognised IT Certificate or Diploma in Development.</div><div>• <strong>Languages:</strong> Proficiency in PHP, Java, C#, or JavaScript.</div><div>• <strong>Databases:</strong> SQL (MySQL) or NoSQL (Mongo/Elastic Search).</div><div>• <strong>Operating Systems:</strong> Knowledge of Windows or Linux.</div><br><div><strong>APPLICATION REQUIREMENTS:</strong></div><div>Applicants must provide all qualifications, certified copies of ID, and details of all previous work experience. Incomplete applications will be automatically disqualified.</div>"
   },
+  {
+    id: "two-rivers-platinum-graduate-programme-2026",
+    title: "Graduate Programme (Metallurgy & Finance)",
+    company: "Two Rivers Platinum Mine",
+    location: "Burgersfort, Limpopo",
+    type: "Full-time • Graduate Programme",
+    duration: "24 Months",
+    reportTo: "Talent & OD Coordinator",
+    datePosted: "2026-02-12T08:00:00+02:00",
+    closingDate: "2026-02-18",
+    applicationLink: "talent@trp.co.za",
+    reference: "Ref-138/25 / Ref-140/25",
+    tags: [
+      "Metallurgy",
+      "Chemical Engineering",
+      "Accounting",
+      "Finance"
+    ],
+    shortDescription: "Two Rivers Platinum is offering 24-month graduate opportunities for Metallurgy and Finance graduates near Burgersfort.",
+    fullDescription: "<div><strong>ABOUT THE PROGRAMME:</strong></div><div>Two Rivers Platinum (a joint venture between ARM and Implats) is seeking exceptional graduates for a 24-month development programme. The programme is designed to bridge the gap between academic theory and practical mining operations.</div><br><div><strong>AVAILABLE ROLES & QUALIFICATIONS:</strong></div><div>• <strong>Metallurgist Graduate:</strong> Degree/BTech in Metallurgy, or BSc/BEng in Extractive Metallurgy or Chemical Engineering.</div><div>• <strong>Finance Graduate:</strong> Degree in Accounting or Finance.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Experience:</strong> No experience required.</div><div>• <strong>Health:</strong> Must be declared medically fit as per the Mine Health and Safety Act.</div><div>• <strong>Vetting:</strong> Willingness to undergo job-related assessments, credit, criminal, and reference checks.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete all prescribed modules within the 24-month period.</div><div>• Demonstrate proactive engagement in learning and apply theoretical knowledge to practical operations.</div>"
+  },
+  {
+    id: "harmony-gold-internship-p1-p2-programme-2026",
+    title: "2026 Internship & P1/P2 Experiential Learning",
+    company: "Harmony Gold Mining Company Limited",
+    location: "Various (Gauteng, Free State, North West)",
+    type: "Full-time • Internship / P1/P2",
+    duration: "12-24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-19T08:00:00+02:00",
+    closingDate: "2026-02-27",
+    applicationLink: "mailto:interns.WE@Harmony.co.za",
+    reference: "Harmony 2026 Internship",
+    tags: [
+      "Mining Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Metallurgy",
+      "Finance",
+      "Human Resources"
+    ],
+    shortDescription: "Harmony Gold is offering 2026 Internships and P1/P2 opportunities across multiple operations for South African graduates and diplomates.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Harmony Gold invites qualified candidates to gain hands-on exposure in the mining industry. The programme duration is 24 months for Core disciplines (Mining, Metallurgy, Engineering) and 12 months for non-core disciplines.</div><br><div><strong>AVAILABLE DISCIPLINES:</strong></div><div>Opportunities exist in Mining Engineering, Rock Engineering, Metallurgy, Geology, Mine Survey, Mechanical/Electrical Engineering, Human Resources, Finance, Occupational Hygiene, Analytical Chemistry, Graphics Design, and more.</div><br><div><strong>ELIGIBILITY CRITERIA:</strong></div><div>• <strong>Nationality:</strong> South African citizens only.</div><div>• <strong>Age:</strong> Under 35 years old.</div><div>• <strong>Education:</strong> Graduates/Diplomates from accredited SA institutions.</div><div>• <strong>P1/P2 Applicants:</strong> Must provide a letter from their institution confirming the need for experiential learning.</div><div>• <strong>Residency:</strong> Must reside in specific districts within Free State, North West, or Gauteng.</div><br><div><strong>APPLICATION REQUIREMENTS:</strong></div><div>Submit a CV, certified ID, certified qualifications/academic records, and proof of residence. <strong>Subject Line:</strong> Operation, Discipline, and Municipality.</div>"
+  },
+  JavaScript
+const jobs = [
+  {
+    id: "sawea-wiip-internship-programme-2026",
+    title: "Wind Industry Internship Programme (WIIP) 2026",
+    company: "South African Wind Energy Association (SAWEA)",
+    location: "Various, South Africa",
+    type: "Full-time • Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-19T08:00:00+02:00",
+    closingDate: "2026-03-09",
+    applicationLink: "https://sawea.org.za/form/wiip-intern-2026",
+    reference: "WIIP 2026",
+    tags: [
+      "Renewable Energy",
+      "Engineering",
+      "Environmental Science",
+      "Finance",
+      "IT",
+      "Law"
+    ],
+    shortDescription: "SAWEA is inviting recently qualified graduates to apply for the 2026 Wind Industry Internship Programme (WIIP), a 12-month placement in the clean energy sector.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The WIIP is a flagship initiative implemented in partnership with EWSETA, designed to bridge the gap between academic training and real-world industry experience within the wind energy value chain. This 12-month programme prepares the next generation of clean energy professionals through practical workplace exposure.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>The programme is incredibly diverse, seeking graduates in:</div><div>• <strong>Technical:</strong> Engineering, Energy & Power, IT, Infrastructure & Industrialisation.</div><div>• <strong>Environment & Science:</strong> Environmental Sciences, Climate & Green Growth, Statistics.</div><div>• <strong>Business & Legal:</strong> Finance, Law, Procurement, HR, Governance, PR, and Communication.</div><div>• <strong>Social Sciences:</strong> Town Planning, Social Sciences, Gender Studies, and Language Services.</div><br><div><strong>WHO SHOULD APPLY:</strong></div><div>• Recently qualified graduates passionate about renewable energy.</div><div>• Individuals holding a qualification in any of the listed professional disciplines.</div><br><div><strong>WHY JOIN?</strong></div><div>Participants gain direct access to industry networks, mentorship from seasoned professionals, and the specific practical experience currently in high demand within South Africa's rapidly growing wind sector.</div>"
+  },
+  {
+    id: "city-power-isdg-graduate-programme-2026",
+    title: "Infrastructure Skills Development Grant (ISDG) Graduate Programme",
+    company: "City Power Johannesburg",
+    location: "Johannesburg",
+    type: "Graduate Programme",
+    duration: "3-Year Fixed-Term",
+    reportTo: "Professionalisation Programme",
+    datePosted: "2026-02-22T08:00:00+02:00",
+    closingDate: "2026-03-04",
+    applicationLink: "recruitment.ISDG@citypower.co.za",
+    reference: "ISDG Graduate Programme",
+    tags: [
+      "Electrical Engineering",
+      "Infrastructure",
+      "Professional Registration"
+    ],
+    shortDescription: "City Power, in partnership with National Treasury, invites unemployed Electrical Engineering graduates for a 3-year 'Road to Professionalisation' programme.",
+    fullDescription: "<div><strong>PROGRAMME OVERVIEW:</strong></div><div>A 3-year fixed-term 'Road to Professionalisation' initiative aimed at providing unemployed graduates with professional registration requirements.</div><br><div><strong>CRITICAL REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> BSc/BEng (NQF 7) in Electrical Engineering.</div><div>• <strong>Status:</strong> Must be unemployed.</div><div>• <strong>Eligibility:</strong> South African citizen with a valid ID, under 35 years of age.</div><div>• <strong>License:</strong> Valid Code 08 driver’s licence is an advantage.</div><div>• <strong>Academic:</strong> Background must align with professional registration requirements.</div><br><div><strong>HOW TO APPLY:</strong></div><div>Applications must include the relevant application forms found on the City Power careers website.</div>"
+  },
 
 
   
