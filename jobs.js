@@ -3069,6 +3069,54 @@ const jobs = [
     shortDescription: "Sasria is hiring graduates and matriculants for their 2026 intake in Sandton. Applications via https://sasria.erecruit.co/candidateapp/jobs/categories/",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Sasria SOC Limited invites ambitious graduates and matriculants to join their 2026 Internship and Learnership Programme based in Sandton.</div><br><div><strong>AVAILABLE POSITIONS:</strong></div><div>• Human Capital Intern: Degree in HR or Organisational Psychology</div><div>• Governance Intern: LLB or BCom Law</div><div>• Procurement Intern: Diploma/Degree in Supply Chain or Logistics</div><div>• Multimedia Design Intern: Portfolio required</div><div>• Quality Assurance Intern: Degree/Diploma in Auditing or Risk</div><div>• Developer Intern: BSc/BTech in Computer Science or Software Engineering</div><div>• Claims Learnership: Matric only, no experience required</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizen</div><div>• Recent graduate or currently unemployed</div><div>• No previous internship or learnership participation</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online at https://sasria.erecruit.co/candidateapp/jobs/categories/ before 24 February 2026.</div>`
   },
+  {
+    id: "takealot-engineering-graduate-opportunity-johannesburg",
+    title: "Engineering Graduate Opportunity",
+    company: "Takealot Group",
+    location: "Johannesburg, Gauteng",
+    type: "Graduate Programme • Contract",
+    duration: "Contract",
+    reportTo: "N/A",
+    datePosted: "2026-02-27T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://job-boards.greenhouse.io/takealotcom/jobs/7493109?gh_src=s853wjac1us",
+    reference: "N/A",
+    tags: ["Industrial Engineering", "IT & Technology", "Software Development"],
+    shortDescription: "Takealot is seeking an Industrial Engineering Graduate to join its Johannesburg team for hands-on experience in e-commerce operations and data analysis.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Takealot Group invites Industrial Engineering graduates to join its dynamic Johannesburg team to gain experience across takealot.com, Takealot Fulfilment Solutions (TFS), and Mr D.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Degree in Industrial Engineering</div><div>• Strong computer literacy and proficiency in MS Office (Word, Excel, PowerPoint)</div><div>• Ability to interpret and present data</div><div>• Excellent attention to detail and communication skills</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Collecting, analysing, and interpreting operational data</div><div>• Assisting with planning and execution of engineering and operational projects</div><div>• Preparing dashboards, reports, and presentations for stakeholders</div><div>• Collaborating with cross-functional teams including IT, Logistics, and Supply Chain</div><div>• Supporting development of Standard Operating Procedures (SOPs)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online via the Takealot Greenhouse job board.</div>`
+  },
+  {
+    id: "sabs-youth-development-programme-2026-various",
+    title: "SABS Youth Development Programme 2026",
+    company: "South African Bureau of Standards (SABS)",
+    location: "Pretoria & Secunda",
+    type: "Internship • Fixed-Term",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-22T08:00:00+02:00",
+    closingDate: "2026-03-06",
+    applicationLink: "https://sabs.erecruit.co/candidateapp/jobs/categories/",
+    reference: "SABS 2026 Intake",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Software Development", "Mining & Metallurgy"],
+    shortDescription: "SABS is offering a 12-month Youth Development Programme for unemployed graduates with a R8,000 monthly stipend. Apply via https://sabs.erecruit.co/candidateapp/jobs/categories/",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The SABS invites unemployed South African graduates to apply for a 12-month internship offering practical work exposure and mentoring.</div><br><div><strong>AVAILABLE FIELDS:</strong></div><div>• <strong>Engineering:</strong> Mechanical, Electrical, Civil, Chemical, Industrial, and Mining Engineering</div><div>• <strong>Science & Labs:</strong> Analytical Chemistry, Food Technology, Microbiology, Metallurgy, and Textile Technology</div><div>• <strong>IT & Digital:</strong> ICT, Computer Science, Data Science, and Information Systems</div><div>• <strong>Business & Humanities:</strong> Finance, HR, Supply Chain, Law, Journalism, Marketing, and Library Science</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizen aged 18-35</div><div>• Completed relevant qualification</div><div>• <strong>Minimum average of 80% or above</strong></div><div>• No formal work experience in field of study</div><br><div><strong>STIPEND:</strong></div><div>R8,000 per month</div>`
+  },
+  {
+    id: "pele-green-energy-graduate-in-training-engineering-computer-science-sandton",
+    title: "Graduate in Training: Engineering & Computer Science",
+    company: "Pele Green Energy",
+    location: "Sandton, Gauteng",
+    type: "Graduate Programme • Fixed-Term",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-02-23T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:recruitment@peleenergygroup.com",
+    reference: "GIT Programme 2026",
+    tags: ["Electrical Engineering", "Mechanical Engineering", "Software Development", "Industrial Engineering"],
+    shortDescription: "Pele Green Energy is seeking Engineering and Computer Science graduates for a 24-month structured development journey in renewable energy. Apply via recruitment@peleenergygroup.com",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Pele Green Energy offers a 24-month Graduate in Training (GIT) Programme designed to prepare ambitious graduates for leadership roles in the renewable energy sector.</div><br><div><strong>ROTATIONAL EXPOSURE:</strong></div><div>Graduates will rotate through key functions including:</div><div>• Project Development</div><div>• Engineering & Energy Operations</div><div>• Investment and Funding</div><div>• Business Development</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Final-year student or recent graduate with a BSc, BEng, or Honours degree</div><div>• Fields: Electrical, Mechanical, Civil, or Industrial Engineering or Computer Science</div><div>• Analytical mindset with strong detail orientation and communication skills</div><div>• Adaptable self-starter eager to work in a fast-paced environment</div><br><div><strong>BENEFITS:</strong></div><div>• Real-world project ownership and expert mentorship</div><div>• Structured technical and leadership development</div><div>• Opportunity to transition into a permanent role upon successful completion</div>`
+  },
   
 
 
