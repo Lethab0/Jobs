@@ -3117,6 +3117,71 @@ const jobs = [
     shortDescription: "Pele Green Energy is seeking Engineering and Computer Science graduates for a 24-month structured development journey in renewable energy. Apply via recruitment@peleenergygroup.com",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Pele Green Energy offers a 24-month Graduate in Training (GIT) Programme designed to prepare ambitious graduates for leadership roles in the renewable energy sector.</div><br><div><strong>ROTATIONAL EXPOSURE:</strong></div><div>Graduates will rotate through key functions including:</div><div>• Project Development</div><div>• Engineering & Energy Operations</div><div>• Investment and Funding</div><div>• Business Development</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Final-year student or recent graduate with a BSc, BEng, or Honours degree</div><div>• Fields: Electrical, Mechanical, Civil, or Industrial Engineering or Computer Science</div><div>• Analytical mindset with strong detail orientation and communication skills</div><div>• Adaptable self-starter eager to work in a fast-paced environment</div><br><div><strong>BENEFITS:</strong></div><div>• Real-world project ownership and expert mentorship</div><div>• Structured technical and leadership development</div><div>• Opportunity to transition into a permanent role upon successful completion</div>`
   },
+
+  {
+    id: "lesaka-technologies-internship-programme-2026-south-africa",
+    title: "Lesaka Internship Programme 2026",
+    company: "Lesaka Technologies",
+    location: "South Africa",
+    type: "Internship • Fixed-Term",
+    duration: "Structured Programme",
+    reportTo: "N/A",
+    datePosted: "2026-02-20T08:00:00+02:00",
+    closingDate: "2026-03-13",
+    applicationLink: "https://lesakatech.simplify.hr/Vacancy/Apply/p6uhj5",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Lesaka Technologies is seeking ambitious graduates for their 2026 Fintech Internship. Apply online at https://lesakatech.simplify.hr/Vacancy/Apply/p6uhj5",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Lesaka Technologies invites ambitious graduates to join their 2026 Internship Programme to gain practical experience in the dynamic fintech sector.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizen</div><div>• Completed a relevant tertiary qualification</div><div>• Currently unemployed and available for the programme</div><div>• Strong interpersonal and problem-solving skills</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Certified copy of South African ID</div><div>• Certified copy of qualifications</div><div>• Updated CV</div><br><div><strong>WHY APPLY?</strong></div><div>Interns will receive professional mentorship, exposure to the fintech industry, and hands-on technical training to enhance employability.</div>`
+  },
+  {
+    id: "rheinmetall-denel-munitions-internship-programme-2026",
+    title: "Internship Opportunities 2026",
+    company: "Rheinmetall Denel Munitions (RDM)",
+    location: "Somerset West, Wellington & Potchefstroom",
+    type: "Internship • Fixed-Term",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-03T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.rheinmetall.com/de/job/pq_test_technician_intern/985901",
+    reference: "RDM 2026 Intake",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering", "IT & Technology"],
+    shortDescription: "Rheinmetall Denel Munitions is offering multiple internships across South Africa in Engineering, Chemistry, and HR. Apply via https://www.rheinmetall.com/de/job/pq_test_technician_intern/985901",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>RDM invites motivated graduates to apply for internships providing hands-on experience in industrial, chemical, and technical processes.</div><br><div><strong>AVAILABLE OPPORTUNITIES:</strong></div><div>• <strong>PQ Test Technician (Somerset West):</strong> NQF 6 in Mechanical, Electrical, or Electronic Engineering</div><div>• <strong>Analytical Chemist (Wellington):</strong> BTech/BSc in Analytical Chemistry (NQF 7)</div><div>• <strong>Quality Technologist (Potchefstroom):</strong> National Diploma in Chemistry or Chemical Engineering</div><div>• <strong>Employee Assistant Program (Somerset West):</strong> NQF 5 in Human Resources</div><br><div><strong>GENERAL REQUIREMENTS:</strong></div><div>• Relevant NQF qualification as specified per role</div><div>• South African citizen</div><div>• Computer literate (MS Office)</div><div>• Valid driver’s license for most technical roles</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Each role has a specific link. Engineering applicants should use the provided primary application link.</div>`
+  },
+  {
+    id: "ezemvelo-kzn-wildlife-graduate-development-programme-2026",
+    title: "Graduate Development Programme 2026",
+    company: "Ezemvelo KZN Wildlife",
+    location: "KwaZulu-Natal",
+    type: "Graduate Programme • Fixed-Term",
+    duration: "36 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-03T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:ayanda.ngubane@kznwildlife.com",
+    reference: "Graduate Development Programme 2026",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Ezemvelo KZN Wildlife is offering a 36-month Graduate Development Programme for unemployed SA citizens. Apply via ayanda.ngubane@kznwildlife.com",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join Ezemvelo KZN Wildlife for a 36-month journey providing structured workplace experience and mentorship within conservation and ecotourism.</div><br><div><strong>AVAILABLE FIELDS:</strong></div><div>• <strong>Information Technology:</strong> Diploma/BSc in IT, Computer Science, or Web Development</div><div>• <strong>Scientific Services:</strong> BSc in Biological Sciences, Zoology, Botany, or Ecology</div><div>• <strong>Finance & SCM:</strong> Diploma/Degree in Accounting, BCom, or Supply Chain Management</div><div>• <strong>Internal Audit:</strong> National Diploma in Internal Auditing</div><div>• <strong>Commercial Services:</strong> Diploma in Tourism or Hospitality Management</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Unemployed South African citizen under 45 years of age</div><div>• Minimum 3-year formal qualification (NQF 6/7/8)</div><div>• Valid driver’s licence is mandatory</div><div>• Commitment to the full 36-month duration</div><br><div><strong>STIPEND:</strong></div><div>R5,000 – R7,000 per month depending on qualification</div>`
+  },
+  {
+    id: "petrosa-graduate-in-training-git-mosselbay",
+    title: "Graduate in Training - GIT",
+    company: "PetroSA",
+    location: "Mosselbay, Western Cape",
+    type: "Entry Level • Part time",
+    duration: "Structured Programme",
+    reportTo: "N/A",
+    datePosted: "2026-03-05T18:38:00+02:00",
+    closingDate: "2026-03-11",
+    applicationLink: "https://www.petrosarecruitment.co.za/job-details.php?id=20",
+    reference: "External Only",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Industrial Engineering", "Mining & Metallurgy"],
+    shortDescription: "PetroSA is offering a Graduate in Training (GIT) programme in Mosselbay for Engineering and NDT graduates. Apply via https://www.petrosarecruitment.co.za/job-details.php?id=20",
+    fullDescription: `<div><strong>JOB PURPOSE:</strong></div><div>This program provides structured workplace exposure and skills development within a dynamic engineering and projects environment.</div><br><div><strong>REQUIREMENTS & QUALIFICATIONS:</strong></div><div>• Mechanical Engineering (BSc / B Eng / B Tech)</div><div>• Control Systems / Electronics (BSc / B Eng / B Tech)</div><div>• Industrial Engineering (BSc / B Eng / B Tech)</div><div>• Metallurgical Engineering / Metallurgy (N Diploma / B-Tech/ BSc)</div><div>• Non-Destructive Testing (NDT) (N Diploma / B-Tech)</div><br><div><strong>OTHER REQUIREMENTS:</strong></div><div>• South African Citizen</div><div>• Recently qualified, unemployed, and physically fit</div><div>• No previous graduate internship experience</div><div>• Must NOT be currently studying or planning to study in 2026</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Shadowing experienced professionals to learn workflows</div><div>• Assisting with project tasks and initiatives</div><div>• Conducting research, analysis, and documentation</div>`
+  },
   
 
 
