@@ -3182,6 +3182,71 @@ const jobs = [
     shortDescription: "PetroSA is offering a Graduate in Training (GIT) programme in Mosselbay for Engineering and NDT graduates. Apply via https://www.petrosarecruitment.co.za/job-details.php?id=20",
     fullDescription: `<div><strong>JOB PURPOSE:</strong></div><div>This program provides structured workplace exposure and skills development within a dynamic engineering and projects environment.</div><br><div><strong>REQUIREMENTS & QUALIFICATIONS:</strong></div><div>• Mechanical Engineering (BSc / B Eng / B Tech)</div><div>• Control Systems / Electronics (BSc / B Eng / B Tech)</div><div>• Industrial Engineering (BSc / B Eng / B Tech)</div><div>• Metallurgical Engineering / Metallurgy (N Diploma / B-Tech/ BSc)</div><div>• Non-Destructive Testing (NDT) (N Diploma / B-Tech)</div><br><div><strong>OTHER REQUIREMENTS:</strong></div><div>• South African Citizen</div><div>• Recently qualified, unemployed, and physically fit</div><div>• No previous graduate internship experience</div><div>• Must NOT be currently studying or planning to study in 2026</div><br><div><strong>RESPONSIBILITIES:</strong></div><div>• Shadowing experienced professionals to learn workflows</div><div>• Assisting with project tasks and initiatives</div><div>• Conducting research, analysis, and documentation</div>`
   },
+  {
+    id: "dffe-internship-programme-2026-2028-various",
+    title: "INTERNSHIP PROGRAMME 2026–2028 (24 MONTHS)",
+    company: "Department of Forestry, Fisheries and the Environment",
+    location: "Various Provinces, South Africa",
+    type: "Internship • Fixed-Term",
+    duration: "24 Months",
+    reportTo: "Director-General, DFFE",
+    datePosted: "2026-03-06T08:00:00+02:00",
+    closingDate: "2026-03-31",
+    applicationLink: "https://www.dffe.gov.za/careers",
+    reference: "255 Posts - Various Ref Numbers",
+    tags: ["Civil Engineering", "IT & Technology", "Chemical Engineering", "Software Development"],
+    shortDescription: "The DFFE invites graduates to apply for 255 internship positions across South Africa. Apply via InternshipInland@dffe.gov.za or province-specific emails.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Department of Forestry, Fisheries and the Environment (DFFE) is offering 255 internship opportunities across all nine provinces for the 2026–2028 cycle.</div><br><div><strong>AVAILABLE FIELDS (Select Examples):</strong></div><div>• <strong>Engineering:</strong> Chemical, Process, and Environmental Engineering</div><div>• <strong>IT & Technology:</strong> System Development, Computer Science, Information Systems, AI, and Cyber Security</div><div>• <strong>Environmental:</strong> Forestry, Nature Conservation, Horticulture, and Biological Sciences</div><div>• <strong>Business:</strong> Finance, HRM, Public Administration, and Supply Chain Management</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Unemployed South African graduates</div><div>• Relevant Degree or National Diploma (NQF 6/7/8+)</div><div>• Must be between 18 and 35 years old</div><br><div><strong>STIPEND:</strong></div><div>R7,860.50 per month</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit a signed Z83 form and CV to the relevant regional email (e.g., InternshipInland@dffe.gov.za for inland provinces).</div>`
+  },
+  {
+    id: "boxfusion-graduate-programmes-2026-midrand",
+    title: "Boxfusion Graduate Programmes 2026",
+    company: "Boxfusion",
+    location: "Midrand, Gauteng (Relocation Required)",
+    type: "Graduate Programme • Fixed-Term/Permanent",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-07T17:40:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://boxfusion.io/graduate-programme/",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development", "Software Testing"],
+    shortDescription: "Boxfusion is recruiting graduates for its 2026 intake in Software Engineering, Testing, BA, and more. Apply via https://boxfusion.io/graduate-programme/",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Boxfusion offers structured graduate programmes designed to equip young professionals with practical skills, technical expertise, and mentorship in the fintech and gov-tech space.</div><br><div><strong>AVAILABLE PROGRAMMES:</strong></div><div>• Software Engineering</div><div>• Software Testing</div><div>• Business Analyst</div><div>• System Support Analyst</div><div>• Human Resources</div><div>• Sales</div><br><div><strong>ELIGIBILITY CRITERIA:</strong></div><div>• Age: 18 – 34 years old</div><div>• Qualification: Final year of study or relevant completed degree/diploma</div><div>• Experience: For IT roles, applicants must be entering their <strong>first</strong> IT job (no prior IT work experience)</div><div>• Relocation: Must be willing to relocate to Midrand</div><br><div><strong>BENEFITS & INCENTIVES:</strong></div><div>• Welcome pack (Laptop, branded merch, accessories)</div><div>• Training, certifications, and professional mentorship</div><div>• Performance bonuses and salary increases post-programme</div><div>• Potential for permanent employment based on performance</div>`
+  },
+  {
+    id: "eskom-engineer-in-training-mechanical-sunninghill",
+    title: "Engineer in Training (Mechanical)",
+    company: "Eskom",
+    location: "Sunninghill, Gauteng",
+    type: "Internship • L07",
+    duration: "Structured Training",
+    reportTo: "Technology and Engineering",
+    datePosted: "2026-03-07T17:50:00+02:00",
+    closingDate: "2026-03-12",
+    applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=d4331bea-2d06-4677-bdec-1332364bb47b",
+    reference: "eskom_003703",
+    tags: ["Mechanical Engineering", "Industrial Engineering", "IT & Technology"],
+    shortDescription: "Eskom Distribution is hiring a Mechanical Engineering graduate for on-the-job training at Megawatt Park. Apply via https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=d4331bea-2d06-4677-bdec-1332364bb47b",
+    fullDescription: `<div><strong>POSITION SUMMARY:</strong></div><div>Eskom Distribution Division is looking for an Engineer in Training (Grade L07) to join the Technology and Engineering department at Sunninghill Megawatt Park.</div><br><div><strong>CORE RESPONSIBILITIES:</strong></div><div>• Undergo structured on-the-job training within the Distribution division</div><div>• Support technical engineering projects and concepts</div><div>• Maintain high standards of safety and professional discipline</div><br><div><strong>REQUIREMENTS:</strong></div><div>• BEng/BSc degree in Mechanical Engineering</div><div>• No prior work experience required (Entry Level)</div><div>• Ability to perform physical work and work effectively in a team</div><div>• Strong communication skills and emotional resilience</div><br><div><strong>NOTE:</strong></div><div>This is a re-advertisement. Eskom is an equal opportunity employer and encourages candidates with disabilities to apply.</div>`
+  },
+  {
+    id: "momentum-investments-intern-programme-2026-centurion",
+    title: "Momentum Investment Intern",
+    company: "Momentum Investments",
+    location: "Centurion, Gauteng (Hybrid)",
+    type: "Internship • Temporary",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-05T08:00:00+02:00",
+    closingDate: "2026-03-08",
+    applicationLink: "https://momentumgroupltd.erecruit.co/candidateapp/Jobs/View/MMH260305-10",
+    reference: "MMH260305-10",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Momentum Investments is offering 12-month internships in Marketing, Finance, and Investment Admin in Centurion. Apply via https://momentumgroupltd.erecruit.co/candidateapp/Jobs/View/MMH260305-10",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Momentum Investments invites motivated graduates to join a 12-month internship designed to provide real-world experience and professional networking within the financial services industry.</div><br><div><strong>AVAILABLE BUSINESS AREAS:</strong></div><div>• Marketing</div><div>• Client Services</div><div>• Finance</div><div>• Investment Administration</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizens aged 18–29</div><div>• Completed a 3-year Diploma/Degree (NQF 6) in Finance, Accounting, Investments, Business Admin, or Marketing</div><div>• <strong>Must not</strong> have previously participated in an INSETA Internship Programme</div><div>• Financial Markets Diploma is advantageous</div><br><div><strong>KEY COMPETENCIES:</strong></div><div>• Analytical thinking and problem-solving skills</div><div>• Strong communication and proactive drive</div><div>• Ability to collaborate in a team environment</div>`
+  },
+  
   
 
 
