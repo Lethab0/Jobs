@@ -3246,7 +3246,23 @@ const jobs = [
     shortDescription: "Momentum Investments is offering 12-month internships in Marketing, Finance, and Investment Admin in Centurion. Apply via https://momentumgroupltd.erecruit.co/candidateapp/Jobs/View/MMH260305-10",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Momentum Investments invites motivated graduates to join a 12-month internship designed to provide real-world experience and professional networking within the financial services industry.</div><br><div><strong>AVAILABLE BUSINESS AREAS:</strong></div><div>• Marketing</div><div>• Client Services</div><div>• Finance</div><div>• Investment Administration</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizens aged 18–29</div><div>• Completed a 3-year Diploma/Degree (NQF 6) in Finance, Accounting, Investments, Business Admin, or Marketing</div><div>• <strong>Must not</strong> have previously participated in an INSETA Internship Programme</div><div>• Financial Markets Diploma is advantageous</div><br><div><strong>KEY COMPETENCIES:</strong></div><div>• Analytical thinking and problem-solving skills</div><div>• Strong communication and proactive drive</div><div>• Ability to collaborate in a team environment</div>`
   },
-  
+  {
+    id: "geeks4learning-tech-learnership-2026",
+    title: "Tech Learnership Opportunity",
+    company: "Geeks4Learning",
+    location: "South Africa",
+    type: "Learnership • Entry Level",
+    duration: "Structured Programme",
+    reportTo: "N/A",
+    datePosted: "2026-03-07T17:30:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://lnkd.in/duWCk-dQ",
+    reference: "Geeks4Learning Tech Intake",
+    tags: ["IT & Technology", "Software Development", "Software Testing", "Data Science", "AI Developers"],
+    shortDescription: "Geeks4Learning is offering learnerships for graduates in AI, Data Science, Java Development, SCRUM, and Business Analysis. Apply via https://lnkd.in/duWCk-dQ",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Kickstart your career in tech with a learnership opportunity specifically designed for graduates looking to gain specialized skills in high-demand fields.</div><br><div><strong>AVAILABLE STREAMS:</strong></div><div>• AI Developers</div><div>• Data Science</div><div>• Java Developers</div><div>• SCRUM Masters</div><div>• Business Analysts</div><br><div><strong>ELIGIBILITY:</strong></div><div>• Open to Graduates</div><div>• Passion for technology and digital transformation</div>`
+  },
+
   
 
 
