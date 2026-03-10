@@ -3262,7 +3262,54 @@ const jobs = [
     shortDescription: "Geeks4Learning is offering learnerships for graduates in AI, Data Science, Java Development, SCRUM, and Business Analysis. Apply via https://lnkd.in/duWCk-dQ",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Kickstart your career in tech with a learnership opportunity specifically designed for graduates looking to gain specialized skills in high-demand fields.</div><br><div><strong>AVAILABLE STREAMS:</strong></div><div>• AI Developers</div><div>• Data Science</div><div>• Java Developers</div><div>• SCRUM Masters</div><div>• Business Analysts</div><br><div><strong>ELIGIBILITY:</strong></div><div>• Open to Graduates</div><div>• Passion for technology and digital transformation</div>`
   },
-
+  {
+    id: "nedbank-gia-graduate-programme-2026-johannesburg",
+    title: "2026 Group Internal Audit (GIA) Graduate Programme",
+    company: "Nedbank",
+    location: "Johannesburg, ZA",
+    type: "Graduate Programme • Professional",
+    duration: "Structured Programme",
+    reportTo: "Thembi Mtshali",
+    datePosted: "2026-03-04T08:00:00+02:00",
+    closingDate: "2026-03-13",
+    applicationLink: "https://jobs.nedbank.co.za/job/Johannesburg-2026-Group-Internal-Audit-%28GIA%29-Graduate-Programme/1369884433/",
+    reference: "144445",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Nedbank is recruiting graduates for its 2026 GIA Programme in Cyber, Markets, Credit, and ESG. Apply at https://jobs.nedbank.co.za/job/Johannesburg-2026-Group-Internal-Audit-%28GIA%29-Graduate-Programme/1369884433/",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Join Nedbank's Group Internal Audit (GIA) as a Next Gen Impact Maker. This programme provides independent, risk-based assurance across banking processes, technology, and regulatory compliance.</div><br><div><strong>SPECIALIZED STREAMS & REQUIREMENTS:</strong></div><div>• <strong>Cyber Graduate:</strong> BSc/BCom in IT or Cybersecurity; CompTIA Security+ is a plus. Requires exposure to networking or service desk environments.</div><div>• <strong>Markets Graduate:</strong> BCom in Internal Audit/Finance or BSc in Financial Engineering/Maths. Requires prior exposure to trading or CIB environments.</div><div>• <strong>Credit / ESG Graduates:</strong> BCom in Internal Auditing/Accounting Sciences/Finance. Requires prior banking exposure.</div><div>• <strong>Business & Commercial Banking:</strong> BCom in Internal Auditing/Accounting Sciences. Requires prior audit exposure in financial services.</div><br><div><strong>CORE RESPONSIBILITIES:</strong></div><div>• Execute walkthroughs, sampling, and data analytics.</div><div>• Identify control deficiencies and draft evidence-based findings with root cause analysis.</div><div>• Support continuous auditing and contribute to analytics dashboards.</div><br><div><strong>GENERAL ELIGIBILITY:</strong></div><div>• 1-2 years of minimum experience.</div><div>• Honours in Internal Auditing is preferred for all streams.</div>`
+  },
+  {
+    id: "ford-young-professional-program-manufacturing-2026-silverton",
+    title: "Young Professional Program - Manufacturing",
+    company: "Ford Motor Company of Southern Africa",
+    location: "Silverton, Pretoria, GP (On-site)",
+    type: "Graduate Programme • Full-time",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-04T12:09:00+02:00",
+    closingDate: "2026-03-12",
+    applicationLink: "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/60237?utm_medium=jobboard&utm_source=linkedin",
+    reference: "60237",
+    tags: ["Industrial Engineering", "Mechanical Engineering", "Chemical Engineering", "Electrical Engineering", "Computer Engineering"],
+    shortDescription: "Ford is hiring ambitious graduates for its 1-year Young Professional Program in Pretoria. Apply by 12 March 2026 at https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/60237?utm_medium=jobboard&utm_source=linkedin",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Ford Motor Company of Southern Africa offers a highly successful 1-year training program for graduates to gain practical experience in a world-class manufacturing environment.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Industrial, Mechanical, Chemical, Electrical, Computer, and Mechatronics Engineering</div><div>• Logistics & Supply Chain</div><div>• Human Resources, Law, and Business Management</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed Degree in the relevant discipline with a 65% pass rate or higher</div><div>• Applicants must have already concluded their studies to be considered</div><div>• Age: 18 – 35 years old</div><br><div><strong>REQUIRED DOCUMENTS (MUST BE ATTACHED):</strong></div><div>• Full CV</div><div>• Copy of ID, Matric Certificate, and Qualification Certificate</div><div>• Full University Academic Transcripts</div><div><em>Note: Combine into a single PDF if you have trouble uploading multiple files.</em></div>`
+  },
+  {
+    id: "iguardsa-cybersecurity-analyst-learnership-2026-bryanston",
+    title: "Cybersecurity Analyst Learnership (NQF 5)",
+    company: "iGuardSA",
+    location: "Bryanston, Johannesburg",
+    type: "Learnership • QCTO Accredited",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-06T08:00:00+02:00",
+    closingDate: "2026-03-20",
+    applicationLink: "https://iguardsa.net/applications/",
+    reference: "iGuardSA 2026 Intake",
+    tags: ["IT & Technology", "Cybersecurity", "Software Development"],
+    shortDescription: "iGuardSA is recruiting graduates for a 12-month Cybersecurity Analyst Learnership in Bryanston. Apply via https://iguardsa.net/applications/",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The iGuardSA Cybersecurity Learnership is a 12-month structured work-based experience running from 1 April 2026 to 31 March 2027. It leads to a nationally recognised QCTO-Accredited Cybersecurity Analyst qualification at NQF Level 5.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizens between the ages of 21 and 28</div><div>• Degree in IT, Computer Science, Engineering, or a BSc/BCom with an IT/IS focus</div><div>• Basic understanding of information systems, networks, or cybersecurity fundamentals</div><div>• Must not have previously participated in a similar NQF Level 5 QCTO learnership</div><br><div><strong>WHAT YOU WILL GAIN:</strong></div><div>• Hands-on exposure to live cybersecurity systems and threat response</div><div>• Mentorship from experienced cybersecurity specialists</div><div>• Foundation in risk management and information security policies</div>`
+  },
   
 
 
