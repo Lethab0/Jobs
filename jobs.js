@@ -3310,6 +3310,55 @@ const jobs = [
     shortDescription: "iGuardSA is recruiting graduates for a 12-month Cybersecurity Analyst Learnership in Bryanston. Apply via https://iguardsa.net/applications/",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The iGuardSA Cybersecurity Learnership is a 12-month structured work-based experience running from 1 April 2026 to 31 March 2027. It leads to a nationally recognised QCTO-Accredited Cybersecurity Analyst qualification at NQF Level 5.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• South African citizens between the ages of 21 and 28</div><div>• Degree in IT, Computer Science, Engineering, or a BSc/BCom with an IT/IS focus</div><div>• Basic understanding of information systems, networks, or cybersecurity fundamentals</div><div>• Must not have previously participated in a similar NQF Level 5 QCTO learnership</div><br><div><strong>WHAT YOU WILL GAIN:</strong></div><div>• Hands-on exposure to live cybersecurity systems and threat response</div><div>• Mentorship from experienced cybersecurity specialists</div><div>• Foundation in risk management and information security policies</div>`
   },
+  {
+    id: "mega-graduate-internship-programme-2026-mpumalanga",
+    title: "Graduate Internship Programme 2026",
+    company: "Mpumalanga Economic Growth Agency (MEGA)",
+    location: "Mpumalanga (Nelspruit, Ekandustria, Secunda)",
+    type: "Internship • Government",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-10T08:00:00+02:00",
+    closingDate: "2026-03-13",
+    applicationLink: "mailto:recruits@mega.gov.za",
+    reference: "As per department",
+    tags: ["Finance", "IT & Technology", "Risk Management", "Internal Audit", "Human Resources"],
+    shortDescription: "MEGA is inviting graduates for its 2026 Internship Programme in Finance, IT, Legal, and more. Apply by 13 March 2026 via recruits@mega.gov.za.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Mpumalanga Economic Growth Agency (MEGA) is offering a 12-month internship to provide graduates with practical experience in economic development.</div><br><div><strong>AVAILABLE DEPARTMENTS:</strong></div><div>• <strong>Information Technology (IT):</strong> Computer Science or IT (Nelspruit & Ekandustria)</div><div>• <strong>Finance:</strong> Accounting, Financial Management, or SCM (Nelspruit)</div><div>• <strong>Funding:</strong> Economics, Finance, or Developmental Studies (Nelspruit, Ekandustria, Secunda)</div><div>• <strong>Internal Audit & Risk:</strong> Internal Audit or Risk Management (Nelspruit)</div><div>• <strong>Legal Services:</strong> Legal Assistance, Paralegal Studies, or Criminology (Nelspruit)</div><div>• <strong>HCM:</strong> HR or Payroll Management (Nelspruit)</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• NQF Level 6 or 7 qualification in the relevant field</div><div>• Recent graduate seeking practical experience</div><div>• Strong communication and interpersonal skills</div><br><div><strong>STIPEND:</strong></div><div>R5,000 per month</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>• Detailed CV</div><div>• Certified copies of academic qualifications</div><div>• Certified copy of SA ID</div>`
+  },
+  {
+    id: "youth-at-work-yes-programme-2026-multi-location",
+    title: "youth@WORK YES Programme 2026",
+    company: "youth@WORK",
+    location: "East London, Pretoria, & Isando",
+    type: "12-Month Contract • YES Programme",
+    duration: "12 Months",
+    reportTo: "Host Employers",
+    datePosted: "2026-03-10T08:00:00+02:00",
+    closingDate: "2026-03-13",
+    applicationLink: "https://auth.sayouth.mobi/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D4F4133BA-117B-4E4E-932C-CAE6F58E944A%26redirect_uri%3Dhttps%253A%252F%252Fsayouth.mobi%252Fsignin-oidc%26response_type%3Dcode%26scope%3Dopenid%2520profile%26code_challenge%3D2vZsPIkHDfmojYwz80j9TmkcC4isWmVclZAkHvGdloU%26code_challenge_method%3DS256%26response_mode%3Dform_post%26nonce%3D639087682853190033.YmIyZWU1NjAtMjdkMy00MmY3LTg4NWMtM2U0ODE5MzRjMWY1MWViZjZjMjUtNmExZC00Zjc2LWFkYWMtZDdmNWFiODQ2Njc3%26txnID%3Deaf51caa-603e-4b7a-b450-616cf259288a%26state%3DCfDJ8BJ0zQ5piidMuYMfT2Jnx8nPyWe0BIRdSOaZKUXe4HzkP21fks2UUFbs0RdeeopB9aB4CiYJ6MtOoZwpPiLWY1FBd4FB8FVsEs5h-yVviFehFyZPq65Pablg8cW1tYY_Jzykk5uFJXILAohCSgHJKqAH_QDeDCQYHzZmvLJyPpz25nyGZh4LoJImsVJLwOumKwVezfkND0ziuhwG6VBccMLrGeuPcEuzZB-i9AfBG_IiFIvXZU8n1W8LzP3Nm9I2hydRfnuEGUf98C-cjetM_SFylSbNkTrCc1NyXpS7h3cxaEqSZ7XHvhk1SuaKysxR9cpuoYY8Sq2WevpE33OeUgA3uMY94DvT4IBjz1vXH146RtJA1sD8FqKjg8w8P5D7t14EmgOG7CNDEynkRi6cgKTe1dsM1jofC2DGNJeQjuBbelmbEjFoa6WI7brvjg5r08JVVhjqsNYVE-WRz1oA8GK9LpLHRU9e31i7XFYrt7mq7s7VU1Ueu4kL_mmWUqGVmljf4MrKelBeSTNQJRl6r42uqxSBnQYLxhUH123D0rsFlCEHPl4yp-bTEfKdoK0uicQL7d8JFWzFpDCRpvl38nwsPaQMVeJX-OAb9VbQcGMnrfDYBlWJEl5CLJcpZzxQQOCjKsk-UELnoyURPb26iyoH3RaUPprZUoIpfYnwYIBpcoJmC79p8jYtGZ0uFCy3Ng%26x-client-SKU%3DID_NET8_0%26x-client-ver%3D7.5.1.0",
+    reference: "YES 2026 Intake",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering", "Mechanical Engineering", "Electrical Engineering"],
+    shortDescription: "youth@WORK is recruiting graduates for YES internships in HR, IT, Engineering, and Finance across EL, Pretoria, and Isando. Apply by 13 March 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>youth@WORK is a leading partner for the Youth Employment Service (YES) Programme, offering a 12-month work experience initiative to tackle youth unemployment.</div><br><div><strong>AVAILABLE ROLES BY LOCATION:</strong></div><div>• <strong>East London:</strong> HR, Software Development, Mechanical Engineering, Electrical Engineering, Metrology Engineering, IT, Data Science, Finance/Accounting, Logistics/Supply Chain, Digital Marketing, Industrial Engineering.</div><div>• <strong>Pretoria:</strong> HR, IT, Business Administration, Logistics/Supply Chain, LLB/Law, Policy & Compliance, Sales & Marketing.</div><div>• <strong>Isando:</strong> Industrial Engineering, Safety Management.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Age: 18 – 34 years old (South African citizen).</div><div>• Education: Matric certificate AND a relevant completed post-school qualification.</div><div>• Status: Currently unemployed.</div><div>• Residency: Must reside in or around East London, Pretoria, or Isando.</div><div>• Meet B-BBEE requirements.</div><br><div><strong>COMPENSATION:</strong></div><div>• Monthly Stipend: R5,241.</div>`
+  },
+  {
+    id: "metttus-ai-internship-programme-2026-sandton",
+    title: "AI Internship Programme 2026",
+    company: "Metttus",
+    location: "Sandton, Johannesburg",
+    type: "Internship • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-03-12T18:12:04+02:00",
+    closingDate: "2026-03-19",
+    applicationLink: "mailto:recruitment@metttus.co.za",
+    reference: "AI Internship Programme Application",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Metttus is seeking Engineering and STEM graduates for an AI Internship in Sandton. Apply via recruitment@metttus.co.za",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>An exciting opportunity is available for recent graduates interested in Artificial Intelligence and emerging technologies. This programme is designed for those eager to grow in the tech space.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Engineering and STEM backgrounds</div><div>• Recent graduates</div><div>• No prior experience is required just passion, curiosity, and the drive to learn</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Send your CV to: recruitment@metttus.co.za</div><div>• Use Subject line: AI Internship Programme Application</div>`
+  },
+
   
 
 
