@@ -3359,7 +3359,86 @@ const jobs = [
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>An exciting opportunity is available for recent graduates interested in Artificial Intelligence and emerging technologies. This programme is designed for those eager to grow in the tech space.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Engineering and STEM backgrounds</div><div>• Recent graduates</div><div>• No prior experience is required just passion, curiosity, and the drive to learn</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Send your CV to: recruitment@metttus.co.za</div><div>• Use Subject line: AI Internship Programme Application</div>`
   },
 
-  
+  {
+    id: "gijima-data-analyst-interns-midrand",
+    title: "Data Analyst Interns",
+    company: "Gijima",
+    location: "Midrand, Gauteng",
+    type: "Internship • Graduate",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-17T11:34:22+02:00",
+    closingDate: "2026-03-20",
+    applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?id=gijima_youth&VacRef=JHB000161&preview=65d13f2d6ffda92cd9b94e08ea3de587",
+    reference: "JHB000161",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "Gijima is recruiting 4 Data Analyst interns for a 12-month programme in Midrand. Apply at https://webapp.placementpartner.com/wi/vacancy/?id=gijima_youth&VacRef=JHB000161",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Gijima is looking for 4 dedicated Data Analyst interns to join a 12-month internship based in Midrand. The role involves data governance, numerical analysis, and supporting technical operations.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed 3-year tertiary qualification (Diploma/Degree) in IT, Information Systems, Informatics, or Computer Science</div><div>• Must be currently unemployed and not participating in another programme</div><div>• Must not be currently studying (including distance learning)</div><div>• Must live in the greater Midrand area (No relocation)</div><div>• South African Citizen under the age of 35 (as of 1 April 2026)</div><div>• No criminal record</div><br><div><strong>TECHNICAL COMPETENCIES:</strong></div><div>• Advanced MS Excel (Pivot Tables, VLOOKUP/XLOOKUP, Data Validation)</div><div>• Strong numerical and analytical capability</div><div>• Data governance discipline and meticulous attention to detail</div><div>• Excellent command of English (Verbal and Written)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Applications must be submitted via the Gijima Placement Partner portal by Friday, 20 March 2026.</div>`
+  },
+  {
+    id: "sarb-data-science-graduate-development-programme-2027",
+    title: "Data Science Graduate Development Programme 2027",
+    company: "South African Reserve Bank (SARB)",
+    location: "Pretoria, Gauteng",
+    type: "Graduate Programme • Data Science",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-15T08:00:00+02:00",
+    closingDate: "2026-04-30",
+    applicationLink: "https://fa-evra-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/SARB/job/1557",
+    reference: "1557",
+    tags: ["Software Development", "IT & Technology", "Industrial Engineering"],
+    shortDescription: "The SARB is recruiting postgraduate Data Science, AI, and Statistics graduates for a 12-month programme starting in 2027. Apply at https://fa-evra-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/SARB/job/1557",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The SARB Data Science Graduate Development Programme is a one-year initiative (Feb 2027 – Jan 2028) designed to build deep capabilities in advanced analytics within a central banking context. Graduates will work in a dedicated Data Lab on real-world use cases.</div><br><div><strong>MINIMUM QUALIFICATIONS:</strong></div><div>• Postgraduate qualification (completed or in final stages) in Data Science, Machine Learning, AI, Statistics, Applied Mathematics, Fintech, or Economics with Econometrics</div><div>• Overall academic average of 70% or above</div><div>• South African citizenship</div><br><div><strong>TECHNICAL REQUIREMENTS:</strong></div><div>• Proficiency in coding with R and/or Python</div><div>• Strong analytical ability and innovation-led mindset</div><div>• Fintech experience (advantageous)</div><br><div><strong>WHAT TO EXPECT:</strong></div><div>• Structured learning at the SARB Academy</div><div>• Technical training modules and real-world project collaboration</div><div>• Exposure to central banking operations and macroeconomic policy</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the SARB Oracle Cloud recruitment portal before 30 April 2026.</div>`
+  },
+  {
+    id: "sacpcmp-ict-internship-programme-2026-pretoria",
+    title: "ICT Internship Programme 2026",
+    company: "SACPCMP",
+    location: "Pretoria, Gauteng",
+    type: "Internship • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-03-12T08:00:00+02:00",
+    closingDate: "2026-03-20",
+    applicationLink: "mailto:recruitment@sacpcmp.org.za",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development", "Systems Administration"],
+    shortDescription: "SACPCMP is hiring ICT Interns in Pretoria. Apply by 20 March 2026 via recruitment@sacpcmp.org.za with your CV and certified documents.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The South African Council for the Project and Construction Management Professions (SACPCMP) offers a structured ICT internship to provide graduates with hands-on experience in a professional regulatory environment.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Provide first-line technical support and troubleshoot hardware/software issues</div><div>• Install and configure computers, printers, and software applications</div><div>• Support LAN/WAN maintenance and security monitoring</div><div>• Manage ICT asset inventory and documentation</div><div>• Assist with user training and audit preparations</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Grade 12 certificate</div><div>• Degree or Diploma in IT, Computer Science, Software Development, or related field</div><div>• A+, N+, and Security+ certifications (distinct advantage)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Submit a detailed CV, certified copies of qualifications, and ID copy to: recruitment@sacpcmp.org.za</div>`
+  },
+  {
+    id: "greenro-solutions-control-instrumentation-technician-pretoria",
+    title: "Control & Instrumentation Technician",
+    company: "Greenro Solutions",
+    location: "Pretoria, Gauteng",
+    type: "Permanent • Professional",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-03-17T11:28:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://greenro.zohorecruit.com/jobs/Careers/830934000001539031?source=Linkedin",
+    reference: "830934000001539031",
+    tags: ["Electrical Engineering", "Industrial Engineering", "IT & Technology"],
+    shortDescription: "Greenro Solutions is hiring a C&I Technician to design, test, and maintain control systems. Apply at https://greenro.zohorecruit.com/jobs/Careers/830934000001539031",
+    fullDescription: `<div><strong>JOB PURPOSE:</strong></div><div>Research, analyse, and evaluate requirements for Control & Instrumentation systems. Design, develop, test, commission, and maintain C&I systems and review outsourced work.</div><br><div><strong>QUALIFICATIONS:</strong></div><div>• Matric (Grade 12)</div><div>• National Diploma in Electrical Engineering (Electronics or Instrumentation)</div><br><div><strong>KNOWLEDGE & SKILLS:</strong></div><div>• PLC Programming, SCADA & HMI design (Schneider, Allen Bradley, Siemens, etc.)</div><div>• Industrial Networking (Ethernet, MODBUS, Profibus, etc.)</div><div>• Basic Electrical systems design (MCCs, Soft Starters, and Drives)</div><div>• Computer Aided Design (AutoCAD Electrical)</div><br><div><strong>EXPERIENCE:</strong></div><div>• 1 Year experience is an advantage.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Applications must be submitted online via the Greenro Solutions recruitment portal.</div>`
+  },
+  {
+    id: "totalenergies-logistics-intern-operations-alberton",
+    title: "Logistics Intern – Operations",
+    company: "TotalEnergies Marketing South Africa (Pty) Ltd",
+    location: "Alberton, Gauteng",
+    type: "Internship • Graduate",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-03-14T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://jobs.totalenergies.com/en_US/careers/JobDetail/Logistics-Intern-Operations-Alrode-Depot/77183",
+    reference: "77183",
+    tags: ["Industrial Engineering", "Mechanical Engineering", "Electrical Engineering"],
+    shortDescription: "TotalEnergies is offering a 24-month Logistics Internship at the Alrode Depot for Commerce or Engineering graduates with a 65% average.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>TotalEnergies Marketing South Africa (TMSA) is offering a 24-month internship at the Alrode Depot. This role provides hands-on training in depot operations, inventory management, and distribution processes within a global multi-energy company.</div><br><div><strong>KEY FOCUS AREAS:</strong></div><div>• Inventory management and distribution processes</div><div>• Health and safety (HSE) compliance</div><div>• Operational efficiency in a fast-paced logistics environment</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed Bachelor’s degree in Commerce or Engineering (Mechanical, Electrical, Industrial, or related)</div><div>• Minimum academic average of 65%</div><div>• Less than one year of formal work experience</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Updated CV</div><div>• Certified copy of ID</div><div>• Certified copies of academic qualifications</div><div>• Academic record reflecting the 65% minimum average</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the TotalEnergies careers portal.</div>`
+  },
 
 
   
