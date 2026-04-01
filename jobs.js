@@ -3583,7 +3583,70 @@ const jobs = [
     shortDescription: "SaiKet Systems is hiring freshers for various roles including Web Development, Data Science, and Python/Java Development. Apply via their website.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>SaiKet Systems is looking for motivated freshers to join their team across multiple technology disciplines. This is an ideal entry point for those looking to start their professional journey in software and data.</div><br><div><strong>OPEN POSITIONS:</strong></div><div>• Web Development</div><div>• Data Scientist & Data Analyst</div><div>• Python & Java Developer</div><div>• Machine Learning</div><div>• Power BI</div><div>• Software Development</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Freshers are encouraged to apply</div><div>• Passion for innovation and excellence</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Visit: www.saiketsystem.in</div><div>• Email inquiries: info@saiket.in</div>`
   },
-  
+  {
+    id: "kpmg-management-consulting-graduate-programme-fy2027",
+    title: "Management Consulting Graduate Programme - FY2027",
+    company: "KPMG",
+    location: "South Africa",
+    type: "Graduate Programme • Consulting",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-01T09:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://kpmgza.taleo.net/careersection/kpmg_external/jobdetail.ftl?job=50480",
+    reference: "2600002O / 50480",
+    tags: ["Industrial Engineering", "Mechanical Engineering", "Civil Engineering", "Software Development", "IT & Technology", "Data Science"],
+    shortDescription: "KPMG is inviting graduates from Engineering, IT, Finance, and Design fields for a 2-year rotational Management Consulting programme starting in 2027.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The KPMG Management Consulting Graduate Programme is a two-year rotational journey designed for forward-thinking graduates. You will work in high-performing teams across multiple industries to solve complex business problems, redesign processes, and support digital transformation.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Execute project scopes using innovative software and technology tools</div><div>• Create client deliverables including data models, reports, and presentations</div><div>• Identify areas for improvement in technology, governance, and organizational structures</div><div>• Conduct research to stress-test client challenges and requirements</div><div>• Assist with project control (tracking, risk management, and budget analysis)</div><div>• Support business development and the creation of industry thought leadership</div><br><div><strong>QUALIFICATIONS:</strong></div><div>Applicants must hold or be completing an Undergraduate, Honours, or Master’s degree in:</div><div>• <strong>Engineering:</strong> Industrial, Mechanical, Civil, Chemical, Mining, Mechatronics, Software, or Computer Engineering</div><div>• <strong>IT & Data:</strong> Computer Science, Data Science, AI, Informatics, Business Analytics, or Information Systems</div><div>• <strong>Finance & Economics:</strong> BCom Finance, Investment Management, Economics, or Quantitative Finance</div><div>• <strong>Design:</strong> UI/UX, Digital Design, Multimedia, or Fine Arts</div><div>• <strong>Built Environment:</strong> Quantity Surveying, Construction Management, or Property Studies</div><div>• <strong>Other:</strong> Industrial Psychology (Masters only), BCom Law, or LLB</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the KPMG Taleo recruitment portal.</div>`
+  },
+  {
+    id: "sarb-data-science-graduate-development-programme-2027",
+    title: "Data Science Graduate Development Programme 2027",
+    company: "South African Reserve Bank (SARB)",
+    location: "Pretoria, Gauteng",
+    type: "Graduate Programme • Data Science",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-01T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://fa-evra-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/SARB/job/1557",
+    reference: "1557",
+    tags: ["Data Science", "IT & Technology", "Software Development"],
+    shortDescription: "The SARB is seeking postgraduate Data Science, AI, and Statistics graduates for a one-year development programme starting February 2027.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The SARB Data Science Graduate Development Programme is designed to develop deep capabilities in advanced analytics within a central banking context. Graduates will be placed in Central Bank Departments from February 2027 to January 2028.</div><br><div><strong>KEY ACTIVITIES:</strong></div><div>• Attend learning interventions at the SARB Academy, including technical training</div><div>• Work in a Data Lab environment on various use cases</div><div>• Extract knowledge and insights from structured and unstructured data using scientific methods</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed or currently completing a postgraduate qualification in: Data Science, Machine Learning, AI, Predictive Analytics, Statistics, Applied Mathematics, IT, Fintech, or Economics with Econometrics</div><div>• Overall academic average of 70% and above</div><div>• South African citizenship</div><div>• Proficiency in coding with R and/or Python</div><br><div><strong>ADVANTAGEOUS:</strong></div><div>• Fintech experience</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the SARB Oracle Cloud recruitment portal.</div>`
+  },
+  {
+    id: "gibela-maintenance-technician-graduate-programme-pretoria",
+    title: "Graduate Programme: Maintenance Technician",
+    company: "Gibela Rail Transport Manufacturing",
+    location: "Wolmerton, Pretoria",
+    type: "Graduate Programme • Engineering",
+    duration: "24 Months",
+    reportTo: "Maintenance Team Leader",
+    datePosted: "2026-03-30T08:00:00+02:00",
+    closingDate: "2026-04-03",
+    applicationLink: "https://jobsearch.alstom.com/job/Pretoria-Maintenance-Technician-Graduate-%28Wolmerton%29-GT/1376082333/",
+    reference: "1376082333",
+    tags: ["Electrical Engineering"],
+    shortDescription: "Gibela is hiring Electrical/Electronic Engineering graduates for a 24-month Maintenance Technician programme at Wolmerton Depot.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Gibela, Africa’s largest train manufacturer, is offering a 24-month Graduate Programme for Maintenance Technicians. Based at the Wolmerton Depot, this role provides hands-on exposure to rolling stock maintenance and rail engineering.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Perform troubleshooting and repairs according to engineering standards</div><div>• Uphold quality, safety, and compliance requirements</div><div>• Maintain accurate technical documentation and operational reports</div><div>• Collaborate with cross-functional teams on rail products and systems</div><div>• Responsible handling of specialized tools and equipment</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• National Diploma in Electrical or Electronic Engineering</div><div>• South African Citizen aged 18–35</div><div>• No previous work experience required (Recent graduates)</div><div>• Proficiency in Microsoft Office and English communication</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Updated comprehensive CV</div><div>• Certified copies of qualifications and academic transcripts</div><div>• Certified copy of SA Identity Document</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Alstom/Gibela job search portal before 3 April 2026.</div>`
+  },
+  {
+    id: "transnet-trim-young-professional-in-training-programme-2026",
+    title: "Young Professional-in-Training Programme 2026",
+    company: "Transnet Rail Infrastructure Manager (TRIM)",
+    location: "Johannesburg & Parktown, Gauteng",
+    type: "Graduate Programme • Multiple Disciplines",
+    duration: "24 Months",
+    reportTo: "Senior People Business Partner",
+    datePosted: "2026-03-23T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://transnettalentportal.csod.com/ux/ats/careersite/1/home?c=transnettalentportal",
+    reference: "req4667, req4665, req4662, req4661, req4660, req4659, req4658",
+    tags: ["IT & Technology", "Data Science", "Software Development"],
+    shortDescription: "Transnet TRIM is recruiting unemployed graduates for a 2-year structured programme in IT, Data Science, Finance, and more. Apply via the Transnet Talent Portal.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The TRIM Young Professional-in-Training initiative is a structured 24-month development pathway designed to bridge the gap between academic study and professional experience. Progress is formally assessed every six months.</div><br><div><strong>AVAILABLE ROLES & LOCATIONS:</strong></div><div>• <strong>IT / Computer Science</strong> (Parktown) – req4665</div><div>• <strong>Data Science / Mathematical Science</strong> (Parktown) – req4658</div><div>• <strong>Real Estate / Property</strong> (Johannesburg) – req4667</div><div>• <strong>Business Management</strong> (Johannesburg) – req4662</div><div>• <strong>Financial Management</strong> (Johannesburg) – req4661</div><div>• <strong>Digital Marketing</strong> (Johannesburg) – req4660</div><div>• <strong>HR / Industrial Psychology</strong> (Johannesburg) – req4659</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor’s degree, BTech, or Diploma (NQF Level 6 minimum)</div><div>• Unemployed South African citizen aged 18–35</div><div>• No prior work experience in the respective field of study</div><div>• Computer literate with strong communication and administrative skills</div><br><div><strong>CORE COMPETENCIES:</strong></div><div>• Integrity, professionalism, and a customer-focused approach</div><div>• Ability to work in a team and liaise with diverse stakeholders</div><div>• Proactive, energetic, and assertive self-starter</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Transnet Talent Portal. Search using the specific reference numbers (req codes) provided above.</div>`
+  },
 
 
   
