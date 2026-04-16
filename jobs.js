@@ -3759,6 +3759,22 @@ const jobs = [
     shortDescription: "Woodlands Dairy is hiring an ICT Coordinator Intern in Humansdorp. Open to IT/IS graduates. Gain experience in ICT procurement, asset management, and governance.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Woodlands Dairy is offering an internship for a detail-oriented graduate to join its ICT Department in Humansdorp. This role provides hands-on exposure to ICT operations, procurement, and project coordination within a leading dairy production environment.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist with ICT procurement and finance processes</div><div>• Support the management and tracking of ICT assets</div><div>• Provide administrative assistance to ongoing ICT projects</div><div>• Maintain accurate ICT documentation and records</div><div>• Liaise with internal stakeholders and external vendors</div><div>• Compile basic reports and management information for the department</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Diploma or Degree in Information Technology, Information Systems, or a related field</div><div>• Proficiency in Microsoft Office applications</div><div>• Strong administrative, organizational, and time-management skills</div><div>• High attention to detail and professional reliability</div><div>• Proactive attitude with a commitment to confidentiality</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Woodlands Dairy recruitment portal (Simplify.hr) before 22 April 2026.</div>`
   },
+  {
+    id: "merseta-internship-programme-2026-national",
+    title: "24-Month Internship Programme",
+    company: "merSETA",
+    location: "Johannesburg & Regional Offices",
+    type: "Internship • Graduate",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-16T15:49:00+02:00",
+    closingDate: "2026-04-20",
+    applicationLink: "mailto:recruit@rapidrecruiting.co.za",
+    reference: "merSETA Intern 2026",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
+    shortDescription: "merSETA is hiring graduates for a 24-month internship across IT, Engineering, Finance, and more. Stipends up to R12,000. Apply by 20 April 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>merSETA is inviting South African graduates for a structured 24-month internship. Positions are available at the Head Office in Parktown and across 8 regions. Monthly stipends range from R10,000 to R12,000 depending on NQF level.</div><br><div><strong>AVAILABLE DEPARTMENTS:</strong></div><div>• <strong>ICT:</strong> Networks, Development, Library and Information</div><div>• <strong>Engineering & Quality:</strong> Quality Systems, Engineering units</div><div>• <strong>Business & Finance:</strong> Finance, SCM, Assets, Project Management</div><div>• <strong>Support Services:</strong> HR, Legal, Marketing, Communications, Admin</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• SA Citizen (Aged 18–35)</div><div>• National Diploma or Degree in relevant fields</div><div>• No prior work experience</div><div>• Must NOT have previously participated in an internship</div><br><div><strong>STIPEND STRUCTURE:</strong></div><div>• National Diploma (NQF 6): R10,000</div><div>• Bachelor’s/BTech (NQF 7): R11,000</div><div>• Honours/Postgrad (NQF 8+): R12,000</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Email CV to <strong>recruit@rapidrecruiting.co.za</strong> or <strong>shanelle@rapidrecruiting.co.za</strong></div><div>• WhatsApp: 033 880 0263</div><div>• Apply via PNet or LinkedIn (Search: Rapid Recruiting)</div>`
+  },
 
 
   
