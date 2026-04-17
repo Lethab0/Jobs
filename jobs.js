@@ -3774,7 +3774,55 @@ const jobs = [
     tags: ["IT & Technology", "Software Development", "Industrial Engineering"],
     shortDescription: "merSETA is hiring graduates for a 24-month internship across IT, Engineering, Finance, and more. Stipends up to R12,000. Apply by 20 April 2026.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>merSETA is inviting South African graduates for a structured 24-month internship. Positions are available at the Head Office in Parktown and across 8 regions. Monthly stipends range from R10,000 to R12,000 depending on NQF level.</div><br><div><strong>RELEVANT QUALIFICATIONS:</strong></div><div>National Diploma or Bachelor’s degree in:</div><div>• Engineering, ICT, Quality Systems</div><div>• Business Administration, Finance, Accounting, Supply Chain Management</div><div>• Law, Labour Relations, Human Resources, Industrial Psychology</div><div>• Journalism, Marketing, Communications, Public Relations</div><div>• Project Management, Library and Information Science, Social Sciences</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• SA Citizen (Aged 18–35)</div><div>• Relevant Diploma or Degree</div><div>• No prior work or internship experience</div><br><div><strong>STIPEND STRUCTURE:</strong></div><div>• National Diploma (NQF 6): R10,000</div><div>• Bachelor’s/BTech (NQF 7): R11,000</div><div>• Honours/Postgrad (NQF 8+): R12,000</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Email CV to <strong>recruit@rapidrecruiting.co.za</strong> or <strong>shanelle@rapidrecruiting.co.za</strong></div><div>• WhatsApp: 033 880 0263</div>`
-  }
+  },
+  {
+    id: "mindworx-academy-software-engineer-data-science-learnership-2026",
+    title: "Software Engineer or Data Science Practitioner Learnership",
+    company: "Mindworx Academy",
+    location: "Cape Town (or willing to relocate)",
+    type: "Learnership • Graduate",
+    duration: "18 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-17T20:31:00+02:00",
+    closingDate: "2026-04-24",
+    applicationLink: "https://script.google.com/macros/s/AKfycbxfyPCs3di8ZYqn55Fsv_5h9v4IwJDiZcaIwa0OwWklCB6vNjR7pAhC-29fFDua2I6k/exec",
+    reference: "Mindworx STEM 2026",
+    tags: ["Software Development", "Data Science", "IT & Technology", "Industrial Engineering"],
+    shortDescription: "Mindworx Academy is offering an 18-month learnership in Software Engineering and Data Science for STEM Honours graduates. Apply by 24 April 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Mindworx Academy is looking for high-caliber STEM graduates to join a work-based learning programme. This 18-month learnership combines classroom-based training with on-the-job experience, leading to a nationally recognised qualification.</div><br><div><strong>KEY REQUIREMENTS:</strong></div><div>• Currently unemployed</div><div>• Based in Cape Town or willing to relocate to Cape Town</div><div>• <strong>Education:</strong> Relevant STEM degree at <strong>Honours level</strong> (Computer Science, Actuarial Science, Maths, Science, or Engineering - Chemical, Electrical, etc.)</div><div>• Strong analytical and creative problem-solving skills</div><div>• Ability to work independently on projects with high attention to detail</div><br><div><strong>WHAT TO EXPECT:</strong></div><div>• Proficiency training to become a Software Engineer or Data Practitioner</div><div>• Fast-paced, AI-driven learning environment</div><div>• Structured journey designed to bridge the gap between academic theory and workplace practice</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the portal before Friday, 24 April 2026.</div>`
+  },
+  {
+    id: "columbus-stainless-production-training-2026-middelburg",
+    title: "Production Training Opportunities 2026",
+    company: "Columbus Stainless",
+    location: "Middelburg, Mpumalanga",
+    type: "Contract • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-04-16T08:00:00+02:00",
+    closingDate: "2026-04-30",
+    applicationLink: "https://columbus.mcidirecthire.com/External/Job?Ref=TEkBhDYErs0qhHgueWeCgt_yRI-cnPLR1MRk1RR6Cpou3ktpvROhSqni_BGkK6j00EBUefiitEZEWh1bt1pD5wnN5TNE3-2mBEc0RCep0aDXdZs8OMARjcTsBzQeOhqyhuWuQL60Rxm00PI5MyHz8A",
+    reference: "PRODTR2026",
+    tags: ["Mechanical Engineering", "Metallurgical Engineering", "Business Operations"],
+    shortDescription: "Columbus Stainless is offering Production Training in Middelburg for Metallurgical, Mechanical, Instrumentation, and Business Ops graduates. Apply by 30 April 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Columbus Stainless invites qualified graduates to join their Production Training Programme in Middelburg. This initiative is designed to bridge the gap between academic theory and professional practice within a leading stainless steel manufacturing environment. Training commences 1 July 2026.</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>National Diploma or BEng Tech in:</div><div>• Metallurgical Engineering</div><div>• Mechanical Engineering</div><div>• Instrumentation</div><div>• Business Operations</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed National Diploma or BEng Tech in a relevant field</div><div>• Full qualification in hand or a letter of completion</div><div>• Valid South African ID</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>• Comprehensive CV</div><div>• Copy of ID (Front and Back)</div><div>• Full Academic Record</div><div>• Qualification Certificate or Letter of Completion</div><div>• Matric Certificate</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Register a profile and apply via the Columbus Stainless online recruitment portal before the closing date.</div>`
+  },
+  {
+    id: "standard-bank-transaction-banking-graduate-programme-2026",
+    title: "Transaction Banking Graduate Programme",
+    company: "Standard Bank of South Africa",
+    location: "Johannesburg, Gauteng",
+    type: "Graduate Programme • Full-time",
+    duration: "18 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-14T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs/job-detail?jobID=744000120679177",
+    reference: "80451546A-0001",
+    tags: ["Engineering", "Data Science", "Computer Science", "Information Systems"],
+    shortDescription: "Standard Bank is recruiting graduates with a Postgrad in Engineering, Data Science, or Finance for an 18-month Transaction Banking Programme in Johannesburg.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Standard Bank's Transaction Banking business is critical in enabling Trade, Commerce, and Economic growth across Africa. This 18-month programme offers graduates the opportunity to work alongside professionals building scalable, client-centric solutions in Payments, Trade, and Investor Services.</div><br><div><strong>WHY APPLY:</strong></div><div>• Gain exposure to cutting-edge Payments innovation, Data, and AI</div><div>• Contribute to real client challenges with continental and global impact</div><div>• Supportive culture that values curiosity and bold thinking</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>Post Graduate qualification (Completed or Completing in 2026) in:</div><div>• Engineering</div><div>• Data Science</div><div>• Computer Science / Information Systems</div><div>• Finance / Economics / Accounting / Business Science</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African Citizen</div><div>• Maximum of two years’ work experience</div><div>• Minimum of 65% academic average across all years of study</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Standard Bank careers portal.</div>`
+  },
 
 
   
