@@ -3823,6 +3823,54 @@ const jobs = [
     shortDescription: "Standard Bank is recruiting graduates with a Postgrad in Engineering, Data Science, or Finance for an 18-month Transaction Banking Programme in Johannesburg.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Standard Bank's Transaction Banking business is critical in enabling Trade, Commerce, and Economic growth across Africa. This 18-month programme offers graduates the opportunity to work alongside professionals building scalable, client-centric solutions in Payments, Trade, and Investor Services.</div><br><div><strong>WHY APPLY:</strong></div><div>• Gain exposure to cutting-edge Payments innovation, Data, and AI</div><div>• Contribute to real client challenges with continental and global impact</div><div>• Supportive culture that values curiosity and bold thinking</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>Post Graduate qualification (Completed or Completing in 2026) in:</div><div>• Engineering</div><div>• Data Science</div><div>• Computer Science / Information Systems</div><div>• Finance / Economics / Accounting / Business Science</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African Citizen</div><div>• Maximum of two years’ work experience</div><div>• Minimum of 65% academic average across all years of study</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Standard Bank careers portal.</div>`
   },
+  {
+    id: "dept-labour-ohs-inspector-upington-2026",
+    title: "OHS Inspector",
+    company: "Department of Employment and Labour",
+    location: "Upington, Northern Cape",
+    type: "Permanent • Government",
+    duration: "N/A",
+    reportTo: "Labour Centre Manager",
+    datePosted: "2026-04-19T08:00:00+02:00",
+    closingDate: "2026-04-24",
+    applicationLink: "mailto:Jobs-NCUPI@labour.gov.za",
+    reference: "HR4/4/8/160",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
+    shortDescription: "The Department of Employment and Labour is hiring an OHS Inspector in Upington. Requires an NQF6 in Engineering or Science. Salary: R397 116 p.a. Apply by 24 April 2026.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Safeguard the health and safety of workers by ensuring employer compliance with the Occupational Health and Safety Act (Act 85 of 1993). This role involves conducting inspections, investigating incidents, and performing advocacy work across the Upington region.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Plan and conduct independent workplace inspections for OHS Act compliance</div><div>• Investigate workplace incidents and complaints; appear as a State witness in court</div><div>• Execute proactive inspection plans and compile detailed analytical reports</div><div>• Conduct advocacy campaigns on labour legislation and analyze their impact</div><div>• Assist in drafting and maintaining regional inspection plans and statistics</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> 3-year tertiary qualification (NQF 6) in: Mechanical, Mechatronic, Electrical, or Chemical Engineering; Chemistry, Biology, Microbiology, Biotechnology, Biochemistry, Environmental Health, or Construction</div><div>• <strong>Valid Driver’s Licence:</strong> Essential</div><div>• <strong>Knowledge:</strong> OHS Act & Regulations, COIDA, UI Act, and SANS standards</div><br><div><strong>SALARY:</strong></div><div>• R397 116 per annum</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Submit a <strong>new Z83 form</strong> and updated CV as a <strong>single PDF</strong>.</div><div>• Email: <strong>Jobs-NCUPI@labour.gov.za</strong> (Use Ref: HR4/4/8/160 in subject).</div><div>• Hand Deliver: Laboria House, c/o Pniel & Compound Street, Kimberley.</div>`
+  },
+  {
+    id: "the-dtic-graduate-internship-programme-2026-2028",
+    title: "Graduate Internship Programme 2026–2028",
+    company: "Department of Trade, Industry and Competition (the dtic)",
+    location: "Sunnyside, Pretoria",
+    type: "Internship • Graduate",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-19T08:00:00+02:00",
+    closingDate: "2026-05-06",
+    applicationLink: "mailto:intern2026@thedtic.gov.za",
+    reference: "Intern 2026",
+    tags: ["Software Development", "Industrial Engineering"],
+    shortDescription: "The dtic is recruiting unemployed graduates for a 24-month internship in Pretoria. Covers IT, Engineering, Law, and more. Stipend: R7 860.50 pm. Apply by 06 May 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Department of Trade, Industry and Competition (the dtic) is offering a 24-month structured internship based in Pretoria. This programme is designed to equip graduates with practical experience in policy, administration, and economic development processes. The programme runs from 1 July 2026 to 30 June 2028.</div><br><div><strong>RELEVANT QUALIFICATIONS (NQF 6+):</strong></div><div>• <strong>Engineering & Science:</strong> Mining Engineering, Metallurgy, Bioengineering, Microbiology, Biochemistry, Biotechnology, Natural Sciences, Occupational Health and Safety.</div><div>• <strong>IT & Digital:</strong> Software Development.</div><div>• <strong>Economics & Finance:</strong> Economics, Statistics, Econometrics, Accounting, Financial Management, Risk Management, Internal Auditing.</div><div>• <strong>Business & Law:</strong> Business Management, Public Administration, Law, International Politics, SCM/Procurement.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Unemployed South African graduate</div><div>• Completed NQF Level 6 qualification or higher in a relevant field</div><div>• Professional, analytical, and strong communication skills</div><div>• Understanding of government processes is advantageous</div><br><div><strong>STIPEND:</strong></div><div>• R7 860.50 per month</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Email a signed Z83 form and detailed CV (listing final year modules) to <strong>intern2026@thedtic.gov.za</strong>.</div><div>• Use your field of study as the subject line (e.g., Intern2026 – Software Development).</div>`
+  },
+  {
+    id: "kpmg-management-consulting-graduate-programme-fy2027",
+    title: "Management Consulting Graduate Programme - FY2027",
+    company: "KPMG South Africa",
+    location: "South Africa (Various Offices)",
+    type: "Graduate Programme • Full-time",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-20T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://kpmgza.taleo.net/careersection/kpmg_external/jobdetail.ftl?job=50480",
+    reference: "2600002O",
+    tags: ["IT & Technology", "Software Development", "Industrial Engineering", "Mechanical Engineering", "Data Science"],
+    shortDescription: "KPMG is recruiting graduates across Engineering, IT, Finance, and Law for a 2-year Management Consulting rotation programme starting in 2027.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The KPMG Management Consulting Graduate Programme is a 24-month structured journey designed for forward-thinking graduates. You will rotate through various business units, gaining exposure to multiple industries while solving complex problems for leading organisations.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Execute project scope using innovative software and technology tools</div><div>• Create and present client deliverables including data models and reports</div><div>• Identify solutions to streamline client technology, governance, and processes</div><div>• Conduct research and stress-test client perspectives</div><div>• Support business development and the creation of industry thought leadership</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>Applicants must hold or be completing a degree in:</div><div>• <strong>Engineering:</strong> Mechanical, Industrial, Civil, Chemical, Mining, Computer, Software, Mechatronics</div><div>• <strong>IT & Tech:</strong> Computer Science, Data Science, AI, Informatics, Information Systems</div><div>• <strong>Finance & Econ:</strong> BCom/BBusSci Finance, Economics, Investment Management, Accounting</div><div>• <strong>Built Environment:</strong> Quantity Surveying, Construction Management, Property Studies</div><div>• <strong>Others:</strong> Law (LLB/LLM), Industrial Psychology (Masters), UI/UX Design, Mathematics, Statistics</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the KPMG Taleo recruitment portal.</div>`
+  },
 
 
   
