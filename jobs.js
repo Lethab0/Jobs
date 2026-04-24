@@ -3951,7 +3951,54 @@ const jobs = [
     shortDescription: "Siemens Mobility is offering a 9-week Fit4Rail Vacation Program for Engineering and Business students to gain hands-on exposure to modern railway systems.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Fit4Rail Vacation Program is a 9-week structured learning experience designed to introduce undergraduate students to the world of modern rail and mobility. You will gain exposure to rolling stock, rail automation, electrification, and intelligent traffic systems.</div><br><div><strong>WHAT YOU WILL DO:</strong></div><div>• Complete structured onboarding and orientation on Siemens operations and safety</div><div>• Gain hands-on exposure to railway sub-systems relevant to your field</div><div>• Support host teams with supervised technical or business-related tasks</div><div>• Attend technical sessions and site visits to experience real-world operations</div><div>• Receive coaching and feedback from an assigned mentor</div><br><div><strong>WHO SHOULD APPLY:</strong></div><div>Currently enrolled undergraduate students or recent graduates in:</div><div>• <strong>Engineering:</strong> Electrical, Mechanical, Electronics, Mechatronics, or IT</div><div>• <strong>Business:</strong> Relevant business-related fields</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Strong academic performance</div><div>• Genuine enthusiasm for engineering and infrastructure</div><div>• Analytical thinking and good communication skills</div><div>• Professional and team-oriented attitude</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Applications must be submitted through the Siemens talent portal. Do not submit via email due to POPIA/GDPR compliance.</div>`
   },
-  
+  {
+    id: "mtn-group-2026-ict-internship-programme",
+    title: "2026 ICT Internship Programme",
+    company: "MTN Group",
+    location: "Fairland, Roodepoort, Gauteng",
+    type: "Internship • Full-time",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-04-23T19:36:00+02:00",
+    closingDate: "2026-04-26",
+    applicationLink: "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7340",
+    reference: "7340",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "MTN Group is inviting unemployed Gauteng-based youth with an NQF 5+ qualification to apply for a 12-month ICT Internship in Roodepoort. Apply by 26 April 2026.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>MTN Group is offering a 12-month ICT Internship Programme designed to build critical technical skills and provide meaningful workplace experience. This opportunity is based at the MTN Head Office (Innovation Centre) in Fairland, Roodepoort.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Completed NQF Level 5 or higher qualification in a relevant ICT field from a recognised South African institution or TVET</div><div>• <strong>Residency:</strong> Must reside in the <strong>Gauteng Province</strong></div><div>• <strong>Citizenship:</strong> South African citizen aged 18–35</div><div>• <strong>Experience:</strong> No prior work experience</div><div>• <strong>Commitment:</strong> Ability to commit to the full 12-month duration</div><br><div><strong>KEY ATTRIBUTES:</strong></div><div>• Demonstrated professionalism</div><div>• Strong willingness to learn</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the MTN Oracle Cloud portal before the <strong>deadline of 02:00 AM on 26 April 2026</strong>.</div><div>• If you do not receive feedback within four weeks of the closing date, consider your application unsuccessful.</div>`
+  },
+  {
+    id: "dept-labour-ohs-inspector-upington-2026",
+    title: "OHS Inspector",
+    company: "Department of Employment and Labour",
+    location: "Upington, Northern Cape",
+    type: "Permanent • Government",
+    duration: "N/A",
+    reportTo: "Labour Centre Manager",
+    datePosted: "2026-04-19T08:00:00+02:00",
+    closingDate: "2026-04-24",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=dept-labour-ohs-inspector-upington-2026",
+    reference: "HR4/4/8/160",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
+    shortDescription: "The Department of Employment and Labour is hiring an OHS Inspector in Upington. Requires an NQF6 in Engineering or Science. Salary: R397 116 p.a.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Safeguard the health and safety of workers by ensuring employer compliance with the Occupational Health and Safety Act (Act 85 of 1993). This role involves conducting inspections, investigating incidents, and performing advocacy work across the Upington region.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Plan and conduct independent workplace inspections for OHS Act compliance</div><div>• Investigate workplace incidents and complaints; appear as a State witness in court</div><div>• Execute proactive inspection plans and compile detailed analytical reports</div><div>• Conduct advocacy campaigns on labour legislation and analyze their impact</div><div>• Assist in drafting and maintaining regional inspection plans and statistics</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> 3-year tertiary qualification (NQF 6) in: Mechanical, Mechatronic, Electrical, or Chemical Engineering; Chemistry, Biology, Microbiology, Biotechnology, Biochemistry, Environmental Health, or Construction</div><div>• <strong>Valid Driver’s Licence:</strong> Essential</div><div>• <strong>Knowledge:</strong> OHS Act & Regulations, COIDA, UI Act, and SANS standards</div><br><div><strong>SALARY:</strong></div><div>• R397 116 per annum</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Submit a <strong>new Z83 form</strong> and updated CV as a <strong>single PDF</strong>.</div><div>• Email: <strong>Jobs-NCUPI@labour.gov.za</strong> (Use Ref: HR4/4/8/160 in subject).</div><div>• Hand Deliver: Laboria House, c/o Pniel & Compound Street, Kimberley.</div>`
+  },
+  {
+    id: "maksure-risk-solutions-graduate-trainee-programme-2026",
+    title: "2026 Graduate Trainee Programme",
+    company: "Maksure Risk Solutions",
+    location: "South Africa",
+    type: "Graduate Programme • Full-time",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-04-24T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=maksure-risk-solutions-graduate-trainee-programme-2026",
+    reference: "Maksure Grad 2026",
+    tags: ["Electrical Engineering", "IT & Technology", "Computer Science"],
+    shortDescription: "Maksure Risk Solutions is recruiting 12 high-achieving graduates in Engineering, IT, Finance, and Risk for its 2026 Trainee Programme. 70% average required.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Maksure Risk Solutions, an authorised financial services provider (FSP: 44889), is seeking 12 exceptional graduates for its 2026 Graduate Trainee Programme. This initiative is designed to fast-track talented individuals into high-impact roles through focused development and dedicated mentorship.</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>Graduates from the following fields are encouraged to apply:</div><div>• <strong>Technology & Engineering:</strong> Electrical Engineering, Computer Science, Information Technology (IT)</div><div>• <strong>Quantitative & Risk:</strong> Statistics, Mathematics, Insurance & Risk Management</div><div>• <strong>Financial & Business Sciences:</strong> Accounting, Economics, Finance, B.Com Studies</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Excellence:</strong> Proven track record with an average pass mark of 70% or above</div><div>• <strong>Ambition:</strong> Strong desire to learn and grow in a demanding industry</div><div>• <strong>Character:</strong> Self-confidence and a proactive, solutions-driven approach</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>Interested candidates must submit:</div><div>• Updated CV</div><div>• Certified Degree Certificates</div><div>• Academic Transcript</div><div>• Identification Document (ID)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Submit your application via email to <strong>info@maksure.co.za</strong>. Ensure all documents are attached as incomplete applications will not be considered.</div>`
+  },
 
 
   
