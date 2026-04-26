@@ -3999,6 +3999,22 @@ const jobs = [
     shortDescription: "Maksure Risk Solutions is recruiting 12 high-achieving graduates in Engineering, IT, Finance, and Risk for its 2026 Trainee Programme. 70% average required.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Maksure Risk Solutions, an authorised financial services provider (FSP: 44889), is seeking 12 exceptional graduates for its 2026 Graduate Trainee Programme. This initiative is designed to fast-track talented individuals into high-impact roles through focused development and dedicated mentorship.</div><br><div><strong>QUALIFYING DISCIPLINES:</strong></div><div>Graduates from the following fields are encouraged to apply:</div><div>• <strong>Technology & Engineering:</strong> Electrical Engineering, Computer Science, Information Technology (IT)</div><div>• <strong>Quantitative & Risk:</strong> Statistics, Mathematics, Insurance & Risk Management</div><div>• <strong>Financial & Business Sciences:</strong> Accounting, Economics, Finance, B.Com Studies</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Excellence:</strong> Proven track record with an average pass mark of 70% or above</div><div>• <strong>Ambition:</strong> Strong desire to learn and grow in a demanding industry</div><div>• <strong>Character:</strong> Self-confidence and a proactive, solutions-driven approach</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>Interested candidates must submit:</div><div>• Updated CV</div><div>• Certified Degree Certificates</div><div>• Academic Transcript</div><div>• Identification Document (ID)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Submit your application via email to <strong>info@maksure.co.za</strong>. Ensure all documents are attached as incomplete applications will not be considered.</div>`
   },
+  {
+    id: "gauteng-office-premier-data-analysis-intern-2026",
+    title: "Data Analysis Intern",
+    company: "Office of the Premier (Gauteng)",
+    location: "Johannesburg",
+    type: "Internship • Government",
+    duration: "24 Months",
+    reportTo: "Directorate: Service Delivery Interventions",
+    datePosted: "2026-04-26T08:00:00+02:00",
+    closingDate: "2026-05-08",
+    applicationLink: "https://jobs.gauteng.gov.za/Public/ViewJob.aspx?u=0Xma/PLViB3WiBmQR26cMQ==",
+    reference: "REFS/048447",
+    tags: ["Data Science", "IT & Technology", "Industrial Engineering"],
+    shortDescription: "The Gauteng Office of the Premier is hiring 10 Data Analysis Interns for a 24-month programme. Requires NQF 6+ in Data Science, IT, or Engineering.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Gauteng Office of the Premier is offering a 24-month Internship Programme for the 2026 cycle. This initiative provides recent graduates with meaningful workplace experience in Data Analysis to complement their academic studies within a supportive, developmental environment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> NQF Level 6, 7, or 8 in Data Science, Information Technology, Statistics, Business Intelligence, Applied Mathematics, Computer Science, Engineering, Econometrics, or Quantitative Analysis.</div><div>• <strong>Citizenship:</strong> South African citizen.</div><div>• <strong>Residency:</strong> Must reside in the Gauteng Province.</div><div>• <strong>Eligibility:</strong> Unemployed graduates who have NOT previously participated in a government internship programme.</div><br><div><strong>STIPEND:</strong></div><div>• R94,324.68 per annum (depending on the level of qualification).</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Applications must be submitted <strong>online only</strong> via the Gauteng Professional Job Centre.</div><div>• Required documents: New Z83 form (obtainable from DPSA website), a covering letter, and a detailed CV.</div><div>• <strong>Note:</strong> Faxed, emailed, or hand-delivered applications will NOT be considered.</div>`
+  }
 
 
   
