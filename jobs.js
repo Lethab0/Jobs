@@ -4014,7 +4014,39 @@ const jobs = [
     tags: ["Data Science", "IT & Technology", "Industrial Engineering"],
     shortDescription: "The Gauteng Office of the Premier is hiring 10 Data Analysis Interns for a 24-month programme. Requires NQF 6+ in Data Science, IT, or Engineering.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>The Gauteng Office of the Premier is offering a 24-month Internship Programme for the 2026 cycle. This initiative provides recent graduates with meaningful workplace experience in Data Analysis to complement their academic studies within a supportive, developmental environment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> NQF Level 6, 7, or 8 in Data Science, Information Technology, Statistics, Business Intelligence, Applied Mathematics, Computer Science, Engineering, Econometrics, or Quantitative Analysis.</div><div>• <strong>Citizenship:</strong> South African citizen.</div><div>• <strong>Residency:</strong> Must reside in the Gauteng Province.</div><div>• <strong>Eligibility:</strong> Unemployed graduates who have NOT previously participated in a government internship programme.</div><br><div><strong>STIPEND:</strong></div><div>• R94,324.68 per annum (depending on the level of qualification).</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Applications must be submitted <strong>online only</strong> via the Gauteng Professional Job Centre.</div><div>• Required documents: New Z83 form (obtainable from DPSA website), a covering letter, and a detailed CV.</div><div>• <strong>Note:</strong> Faxed, emailed, or hand-delivered applications will NOT be considered.</div>`
-  }
+  },
+  {
+    id: "surveya-software-development-data-projects-internship-2026",
+    title: "Software Development & Data Projects Internship",
+    company: "Surveya",
+    location: "South Africa",
+    type: "Internship • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-04-27T08:00:00+02:00",
+    closingDate: "2026-05-20",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=surveya-software-development-data-projects-internship-2026",
+    reference: "N/A",
+    tags: ["Software Development", "Data Science", "IT & Technology"],
+    shortDescription: "Surveya is recruiting IT and Data Science graduates for an internship focusing on digital platforms, data systems, and agile project delivery. Apply by 20 May 2026.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Surveya is offering an internship for motivated graduates to work on real-world technology projects involving bespoke digital platforms, data collection systems, and analytics solutions. You will work alongside experienced developers in a professional environment that supports socio-economic reporting and governance.</div><br><div><strong>WHAT YOU WILL BE EXPOSED TO:</strong></div><div>• Real software and data projects from inception to delivery</div><div>• End-to-end lifecycle of digital platforms in governance environments</div><div>• Software testing, User Acceptance Testing (UAT), and data validation</div><div>• Project documentation and professional reporting standards</div><div>• Agile methodologies within multi-disciplinary teams</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Recent graduate in Information Technology, Computer Science, Data Science, or Information Systems</div><div>• Strong interest in digital platforms, data, and software development</div><div>• Ability to work ethically with confidential information</div><div>• Proactive self-starter comfortable in an agile, fast-moving environment</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Email your CV and relevant certifications to <strong>submitcv@surveya.co.za</strong>.</div><div>• Use the subject line: <strong>“Software Development and Data Projects Internship”</strong>.</div>`
+  },
+  {
+    id: "eskom-learner-plant-maintenance-programme-2026",
+    title: "Learner – Plant Maintenance Programme",
+    company: "Eskom",
+    location: "Various Eskom Sites, South Africa",
+    type: "Learnership • Technical",
+    duration: "24 Months",
+    reportTo: "Turbo Gen Services",
+    datePosted: "2026-04-27T08:00:00+02:00",
+    closingDate: "2026-05-01",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=eskom-learner-plant-maintenance-programme-2026",
+    reference: "Task Grade I03",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Mechatronics"],
+    shortDescription: "Eskom is recruiting 10 technical learners for a 2-year Plant Maintenance programme. Requires an S4 in Mechatronics, Mechanical, or Electrical Engineering.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Eskom's Turbo Gen Services is offering a 24-month learning programme for 10 individuals to become competent technical professionals in Plant Maintenance. You will be responsible for the upkeep of critical plant infrastructure across various national sites.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> S4 qualification in Mechatronics, Mechanical Engineering, Electrical Engineering, or Electronics (Control & Instrumentation)</div><div>• <strong>Advantage:</strong> Electrical (Power Plant) specialisation</div><div>• <strong>Experience:</strong> No prior work experience required</div><br><div><strong>CORE COMPETENCIES:</strong></div><div>• Ability to use Mechanical, Electrical, and Instrumentation measuring equipment</div><div>• Ability to read and interpret technical drawings, tolerances, and international codes</div><div>• Proficiency in basic hand tools and computer literacy</div><div>• Understanding of quality systems and high standards of workmanship</div><br><div><strong>KEY ATTRIBUTES:</strong></div><div>• Reliable, honest, and adaptable</div><div>• Good communication and interpersonal skills</div><div>• Ability to work under pressure and follow technical specifications</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply via the Eskom recruitment portal by 01 May 2026.</div><div>• For assistance, contact: <strong>recruitmenteri@eskom.co.za</strong>.</div>`
+  },
 
 
   
