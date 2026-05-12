@@ -4223,6 +4223,54 @@ const jobs = [
     shortDescription: "Enza Construction is inviting high-potential graduates to join its Graduate Development Programme, offering mentorship from experienced leaders and career growth.",
     fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Enza Construction’s Graduate Development Programme is designed to attract and develop the next generation of talent in the construction industry. The company prides itself on being an employer of choice, offering a compelling employee value proposition and a culture that fosters performance and professional advancement.</div><br><div><strong>WHAT ENZA OFFERS:</strong></div><div>• <strong>Mentorship:</strong> Access to an experienced team of leadership resources to coach and provide guidance.</div><div>• <strong>Career Growth:</strong> Clear pathways for advancement and skill development.</div><div>• <strong>Fair Remuneration:</strong> A non-discriminatory policy focused on internal and external parity.</div><div>• <strong>Recognition:</strong> A reward system that recognizes contributions beyond just financial incentives.</div><br><div><strong>WHO SHOULD APPLY:</strong></div><div>Enza is looking for graduates who believe they can thrive in a high-performance environment and make significant contributions to the company's success. Typical fields in this sector include:</div><div>• Civil Engineering</div><div>• Quantity Surveying</div><div>• Construction Management</div><div>• Mechanical or Electrical Engineering (Project dependent)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Interested candidates should complete the application process via the ‘Apply Here’ link on the Enza Construction careers portal.</div>`
   },
+  {
+    id: "schneider-electric-graduate-associate-csq-ccc-2026",
+    title: "Graduate Associate - Customer Satisfaction & Quality (CSQ) and Customer Care Centre (CCC)",
+    company: "Schneider Electric",
+    location: "Gauteng, South Africa",
+    type: "Internship • Graduate",
+    duration: "12 Months",
+    reportTo: "Director - CCC & CSQ",
+    datePosted: "2026-05-07T08:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://careers.se.com/jobs/115667?lang=en-us",
+    reference: "115667",
+    tags: ["Industrial Engineering", "Electrical Engineering", "Mechanical Engineering", "Mechatronics", "Business"],
+    shortDescription: "Schneider Electric is seeking a Graduate Associate for a 12-month role in Gauteng. Focus on quality management (NCR), customer experience, and continuous improvement.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>This 12-month development role is designed for early-career talent to build a strong foundation in customer experience and quality management. You will support operational activities within the Customer Care Centre (CCC) and Customer Satisfaction & Quality (CSQ) departments of a global leader in energy management and automation.</div><br><div><strong>WHAT YOU WILL DO:</strong></div><div>• Support end-to-end customer experience processes and operational activities.</div><div>• Manage Non-Conformance Reports (NCR), tracking actions and engaging stakeholders.</div><div>• Collaborate with Sales, Finance, and Operations to resolve service quality issues.</div><div>• Conduct root cause analysis and contribute to continuous improvement initiatives.</div><div>• Maintain documentation accuracy and ensure adherence to quality standards.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Recently completed or final-year Diploma or Degree.</div><div>• <strong>Preferred Fields:</strong> Engineering (Industrial, Electrical, Mechanical, Mechatronics), Quality, Operations, Manufacturing, Supply Chain, or Business with a technical focus.</div><div>• <strong>Experience:</strong> No prior work experience required.</div><div>• <strong>Attributes:</strong> Analytical mindset, high learning agility, and strong attention to detail.</div><br><div><strong>WHAT'S IN IT FOR YOU:</strong></div><div>• 12-month contract in a purpose-driven global organisation.</div><div>• Hands-on learning in quality systems and mentorship from industry leaders.</div><div>• Exposure to critical business processes with real-world impact.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Schneider Electric careers portal. Position remains open until filled.</div>`
+  },
+  {
+    id: "eskom-engineer-in-training-real-estate-2026",
+    title: "Engineer in Training X5 (Mechanical, Electrical, Civil, Chemical, Industrial)",
+    company: "Eskom",
+    location: "Sunninghill / Megawatt Park, Gauteng",
+    type: "Internship • Graduate",
+    duration: "24 Months",
+    reportTo: "Eskom Real Estate",
+    datePosted: "2026-05-12T08:00:00+02:00",
+    closingDate: "2026-05-21",
+    applicationLink: "https://eskomcareers.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=dd28dc4b-7432-412a-b3d6-678f8b936d0d",
+    reference: "eskom_004768 / 50946108CD",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "Chemical Engineering", "Industrial Engineering"],
+    shortDescription: "Eskom Real Estate is hiring 5 Engineers in Training for a 24-month programme. Open to BSc/B.Eng graduates in various disciplines for design and technical solutions.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>This is a 24-month Graduate Engineering training programme within the Eskom Real Estate department. The successful candidates will be provided with both institutionalised and on-the-job training, focusing on providing engineering designs and technical solutions for Eskom's property and infrastructure portfolio.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Develop engineering designs and technical solutions.</div><div>• Apply engineering theory and design codes/standards to real-world projects.</div><div>• Conduct technical problem-solving and analytical evaluations.</div><div>• Perform cost analysis and economic evaluations for engineering projects.</div><div>• Prepare and deliver technical reports and presentations.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> BSc or B.Eng degree in Engineering (NQF Level 8 with 480 credits).</div><div>• <strong>Disciplines:</strong> Mechanical, Electrical, Civil, Chemical, or Industrial Engineering.</div><div>• <strong>Experience:</strong> No prior work experience required.</div><br><div><strong>SKILLS & COMPETENCIES:</strong></div><div>• Knowledge of engineering technology, policies, and legislation.</div><div>• Strong drive to learn and results-oriented mindset.</div><div>• Integrity, professionalism, and safety consciousness.</div><div>• Ability to build effective relationships and communicate clearly.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Apply online via the Eskom Careers portal by 21 May 2026.</div><div>• If you are not contacted within 28 days after the closing date, consider your application unsuccessful.</div>`
+  },
+  {
+    id: "zutari-graduate-talent-community-2026",
+    title: "Zutari Graduate Talent Community 2026 | Engineering Graduate Programme",
+    company: "Zutari",
+    location: "Pretoria, Johannesburg, Cape Town, Paarl, eThekwini",
+    type: "Graduate Programme • Consulting",
+    duration: "N/A",
+    reportTo: "Project Engineering Teams",
+    datePosted: "2026-05-08T08:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://zutari.hua.hrsmart.com/hr/ats/Posting/view/1921",
+    reference: "1921",
+    tags: ["Civil Engineering", "Mechanical Engineering", "Electrical Engineering", "Chemical Engineering", "Industrial Engineering", "Data Science", "Mechatronics"],
+    shortDescription: "Zutari is recruiting final-year and master’s students across 14 disciplines for its Graduate Talent Community. Work toward professional registration on complex African infrastructure projects.",
+    fullDescription: `<div><strong>THE OPPORTUNITY:</strong></div><div>Zutari is a multi-disciplinary engineering consultancy looking for ambitious graduates to bridge the gap between academic theory and professional practice. You will be immersed in live project environments, working alongside industry experts to deliver human-centred infrastructure solutions across Africa and the Middle East.</div><br><div><strong>THE GRADUATE EXPERIENCE:</strong></div><div>• <strong>Professional Registration:</strong> Structured to set you on the path toward professional registration as an engineer.</div><div>• <strong>Technical Mastery:</strong> Hands-on exposure to complex, meaningful engineering projects.</div><div>• <strong>Holistic Growth:</strong> Focus on technical skills, digital innovation, and creative intelligence.</div><div>• <strong>Collaboration:</strong> Work alongside experienced engineers, planners, and specialists.</div><br><div><strong>DISCIPLINES IN DEMAND:</strong></div><div>• <strong>Civil & Structural:</strong> Infrastructure, Structures, Water, Transport, Bridges, Geotechnical.</div><div>• <strong>Mechanical & Electrical:</strong> Mechanical, Electrical, Electronic, and Mechatronic Engineering.</div><div>• <strong>Specialised:</strong> Data Science/Engineering, Geoinformatics, Industrial Engineering, Chemical Engineering, and Environmental/Engineering Geology.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Final-year BSc, BEng, or Master’s degree students.</div><div>• <strong>Academic Record:</strong> Minimum overall average of 65%.</div><div>• <strong>Attributes:</strong> Optimistic, curious, and driven to create a real-world impact.</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>• Comprehensive CV.</div><div>• Copy of South African ID or Passport.</div><div>• Certified copies of academic qualifications and full transcripts.</div>`
+  },
 
 
   
