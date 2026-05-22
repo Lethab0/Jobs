@@ -4271,7 +4271,55 @@ const jobs = [
     shortDescription: "Zutari is recruiting final-year and master’s students across 14 disciplines for its Graduate Talent Community. Work toward professional registration on complex African infrastructure projects.",
     fullDescription: `<div><strong>THE OPPORTUNITY:</strong></div><div>Zutari is a multi-disciplinary engineering consultancy looking for ambitious graduates to bridge the gap between academic theory and professional practice. You will be immersed in live project environments, working alongside industry experts to deliver human-centred infrastructure solutions across Africa and the Middle East.</div><br><div><strong>THE GRADUATE EXPERIENCE:</strong></div><div>• <strong>Professional Registration:</strong> Structured to set you on the path toward professional registration as an engineer.</div><div>• <strong>Technical Mastery:</strong> Hands-on exposure to complex, meaningful engineering projects.</div><div>• <strong>Holistic Growth:</strong> Focus on technical skills, digital innovation, and creative intelligence.</div><div>• <strong>Collaboration:</strong> Work alongside experienced engineers, planners, and specialists.</div><br><div><strong>DISCIPLINES IN DEMAND:</strong></div><div>• <strong>Civil & Structural:</strong> Infrastructure, Structures, Water, Transport, Bridges, Geotechnical.</div><div>• <strong>Mechanical & Electrical:</strong> Mechanical, Electrical, Electronic, and Mechatronic Engineering.</div><div>• <strong>Specialised:</strong> Data Science/Engineering, Geoinformatics, Industrial Engineering, Chemical Engineering, and Environmental/Engineering Geology.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Final-year BSc, BEng, or Master’s degree students.</div><div>• <strong>Academic Record:</strong> Minimum overall average of 65%.</div><div>• <strong>Attributes:</strong> Optimistic, curious, and driven to create a real-world impact.</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>• Comprehensive CV.</div><div>• Copy of South African ID or Passport.</div><div>• Certified copies of academic qualifications and full transcripts.</div>`
   },
-
+{
+    id: "ksholdings-electrical-engineer-intern-roodepoort-2026",
+    title: "Electrical Engineer Intern (Urgent Hire)",
+    company: "KS Holdings",
+    location: "Roodepoort, Gauteng",
+    type: "Internship • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-05-20T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=ksholdings-electrical-engineer-intern-roodepoort-2026",
+    reference: "N/A",
+    tags: ["Electrical Engineering"],
+    shortDescription: "KS Holdings is urgently hiring an Electrical Engineer Intern in Roodepoort. Requires a BTech in Electrical Engineering and offers a R15K monthly stipend.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>This is an urgent hire for an Electrical Engineer Intern based in Roodepoort. The role is targeted at early-career engineering talent looking to gain practical workplace exposure.</div><br><div><strong>REMUNERATION & BENEFITS:</strong></div><div>• <strong>Stipend:</strong> R15,000 per month</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> BTech in Electrical Engineering</div><div>• <strong>Attributes:</strong> Ready to start immediately (Urgent Hire)</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Please apply through the link provided on the jobs portal.</div>`
+  },
+  {
+    id: "aperture-venture-software-development-intern-2026",
+    title: "Software Development Intern – Remote Opportunity",
+    company: "Aperture Venture",
+    location: "Toronto, Canada (Remote)",
+    type: "Internship • Remote",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-05-19T08:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=aperture-venture-software-development-intern-2026",
+    reference: "N/A",
+    tags: ["Computer Science", "IT & Technology", "Software Engineering"],
+    shortDescription: "Aperture Venture is seeking a remote Software Development Intern to assist with coding, debugging, testing, and feature implementation in a collaborative startup environment.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Aperture Venture is seeking an enthusiastic Software Development Intern to support ongoing technical projects and product development initiatives. This role is ideal for individuals looking to gain practical software development experience in a collaborative startup environment.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist in software and application development projects.</div><div>• Support debugging, testing, and implementation of new features.</div><div>• Collaborate with developers on technical assignments and internal workflows.</div><div>• Participate in product discussions and development planning.</div><div>• Document technical processes and updates when required.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Currently pursuing or recently completed studies in Computer Science, Software Engineering, IT, or related fields.</div><div>• <strong>Technical Skills:</strong> Basic understanding of programming concepts and familiarity with one or more languages (Python, JavaScript, Java, or C++).</div><div>• <strong>Core Competencies:</strong> Good communication, problem-solving skills, and a strong willingness to learn in a team environment.</div><br><div><strong>PREFERRED SKILLS:</strong></div><div>• Familiarity with GitHub, APIs, databases, or web development frameworks.</div><div>• Experience with personal, academic, or freelance coding projects is a plus.</div><br><div><strong>WHAT'S IN IT FOR YOU:</strong></div><div>• Real-world software development experience in a startup environment.</div><div>• Flexible remote working setup.</div><div>• Performance-based growth opportunities and certification.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Please apply through the portal link provided. Ensure your subject line matches guidelines if prompted by the platform.</div>`
+  },
+  {
+    id: "redpanda-software-engineer-intern-rp16-2026",
+    title: "Software Engineer Intern (RP16)",
+    company: "RedPanda Software",
+    location: "Cape Town, Western Cape",
+    type: "Internship • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-05-21T08:00:00+02:00",
+    closingDate: "2026-05-29",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=redpanda-software-engineer-intern-rp16-2026",
+    reference: "RP16",
+    tags: ["Computer Science", "IT & Technology", "Software Engineering"],
+    shortDescription: "RedPanda Software is hiring a Software Engineer Intern (RP16) based in Cape Town. Open to SA citizens with an accredited NQF 5 to 8 qualification and no prior SETA internship experience.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>RedPanda Software is offering a Software Engineer Internship opportunity (Reference: RP16) for early-career tech professionals at their Cape Town office. This program provides practical workplace exposure and structured skill development in an enterprise software engineering environment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Location:</strong> Must be based in Cape Town.</div><div>• <strong>Education:</strong> A completed and accredited Degree or Diploma is compulsory (NQF Level 5 to Level 8 qualification).</div><div>• <strong>Internship History:</strong> Strictly no previous SETA-related internship experience.</div><div>• <strong>Citizenship:</strong> Must be a South African Citizen.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• <strong>Closing Date:</strong> 29 May 2026</div><div>• Candidates must submit their application online through the official portal link provided.</div>`
+  },
+  
 
   
 
