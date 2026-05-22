@@ -4271,7 +4271,7 @@ const jobs = [
     shortDescription: "Zutari is recruiting final-year and master’s students across 14 disciplines for its Graduate Talent Community. Work toward professional registration on complex African infrastructure projects.",
     fullDescription: `<div><strong>THE OPPORTUNITY:</strong></div><div>Zutari is a multi-disciplinary engineering consultancy looking for ambitious graduates to bridge the gap between academic theory and professional practice. You will be immersed in live project environments, working alongside industry experts to deliver human-centred infrastructure solutions across Africa and the Middle East.</div><br><div><strong>THE GRADUATE EXPERIENCE:</strong></div><div>• <strong>Professional Registration:</strong> Structured to set you on the path toward professional registration as an engineer.</div><div>• <strong>Technical Mastery:</strong> Hands-on exposure to complex, meaningful engineering projects.</div><div>• <strong>Holistic Growth:</strong> Focus on technical skills, digital innovation, and creative intelligence.</div><div>• <strong>Collaboration:</strong> Work alongside experienced engineers, planners, and specialists.</div><br><div><strong>DISCIPLINES IN DEMAND:</strong></div><div>• <strong>Civil & Structural:</strong> Infrastructure, Structures, Water, Transport, Bridges, Geotechnical.</div><div>• <strong>Mechanical & Electrical:</strong> Mechanical, Electrical, Electronic, and Mechatronic Engineering.</div><div>• <strong>Specialised:</strong> Data Science/Engineering, Geoinformatics, Industrial Engineering, Chemical Engineering, and Environmental/Engineering Geology.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Final-year BSc, BEng, or Master’s degree students.</div><div>• <strong>Academic Record:</strong> Minimum overall average of 65%.</div><div>• <strong>Attributes:</strong> Optimistic, curious, and driven to create a real-world impact.</div><br><div><strong>APPLICATION DOCUMENTS:</strong></div><div>• Comprehensive CV.</div><div>• Copy of South African ID or Passport.</div><div>• Certified copies of academic qualifications and full transcripts.</div>`
   },
-{
+  {
     id: "ksholdings-electrical-engineer-intern-roodepoort-2026",
     title: "Electrical Engineer Intern (Urgent Hire)",
     company: "KS Holdings",
@@ -4281,7 +4281,7 @@ const jobs = [
     reportTo: "N/A",
     datePosted: "2026-05-20T08:00:00+02:00",
     closingDate: "N/A",
-    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=ksholdings-electrical-engineer-intern-roodepoort-2026",
+    applicationLink: "mailto:Kagisho.Sebe@ksholdings.co.za",
     reference: "N/A",
     tags: ["Electrical Engineering"],
     shortDescription: "KS Holdings is urgently hiring an Electrical Engineer Intern in Roodepoort. Requires a BTech in Electrical Engineering and offers a R15K monthly stipend.",
@@ -4297,29 +4297,60 @@ const jobs = [
     reportTo: "N/A",
     datePosted: "2026-05-19T08:00:00+02:00",
     closingDate: "Until Filled",
-    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=aperture-venture-software-development-intern-2026",
+    applicationLink: "mailto:Aperture.Venture.Studio@TheGAOGroup.com",
     reference: "N/A",
     tags: ["Computer Science", "IT & Technology", "Software Engineering"],
     shortDescription: "Aperture Venture is seeking a remote Software Development Intern to assist with coding, debugging, testing, and feature implementation in a collaborative startup environment.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Aperture Venture is seeking an enthusiastic Software Development Intern to support ongoing technical projects and product development initiatives. This role is ideal for individuals looking to gain practical software development experience in a collaborative startup environment.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist in software and application development projects.</div><div>• Support debugging, testing, and implementation of new features.</div><div>• Collaborate with developers on technical assignments and internal workflows.</div><div>• Participate in product discussions and development planning.</div><div>• Document technical processes and updates when required.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Currently pursuing or recently completed studies in Computer Science, Software Engineering, IT, or related fields.</div><div>• <strong>Technical Skills:</strong> Basic understanding of programming concepts and familiarity with one or more languages (Python, JavaScript, Java, or C++).</div><div>• <strong>Core Competencies:</strong> Good communication, problem-solving skills, and a strong willingness to learn in a team environment.</div><br><div><strong>PREFERRED SKILLS:</strong></div><div>• Familiarity with GitHub, APIs, databases, or web development frameworks.</div><div>• Experience with personal, academic, or freelance coding projects is a plus.</div><br><div><strong>WHAT'S IN IT FOR YOU:</strong></div><div>• Real-world software development experience in a startup environment.</div><div>• Flexible remote working setup.</div><div>• Performance-based growth opportunities and certification.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Please apply through the portal link provided. Ensure your subject line matches guidelines if prompted by the platform.</div>`
   },
   {
-    id: "redpanda-software-engineer-intern-rp16-2026",
-    title: "Software Engineer Intern (RP16)",
-    company: "RedPanda Software",
-    location: "Cape Town, Western Cape",
-    type: "Internship • Graduate",
+    id: "motorola-solutions-project-management-intern-2026",
+    title: "Project Management Intern",
+    company: "Motorola Solutions",
+    location: "Bryanston, South Africa",
+    type: "Internship • Full-time",
     duration: "N/A",
-    reportTo: "N/A",
-    datePosted: "2026-05-21T08:00:00+02:00",
-    closingDate: "2026-05-29",
-    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=redpanda-software-engineer-intern-rp16-2026",
-    reference: "RP16",
-    tags: ["Computer Science", "IT & Technology", "Software Engineering"],
-    shortDescription: "RedPanda Software is hiring a Software Engineer Intern (RP16) based in Cape Town. Open to SA citizens with an accredited NQF 5 to 8 qualification and no prior SETA internship experience.",
-    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>RedPanda Software is offering a Software Engineer Internship opportunity (Reference: RP16) for early-career tech professionals at their Cape Town office. This program provides practical workplace exposure and structured skill development in an enterprise software engineering environment.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Location:</strong> Must be based in Cape Town.</div><div>• <strong>Education:</strong> A completed and accredited Degree or Diploma is compulsory (NQF Level 5 to Level 8 qualification).</div><div>• <strong>Internship History:</strong> Strictly no previous SETA-related internship experience.</div><div>• <strong>Citizenship:</strong> Must be a South African Citizen.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• <strong>Closing Date:</strong> 29 May 2026</div><div>• Candidates must submit their application online through the official portal link provided.</div>`
+    reportTo: "System Integration Team",
+    datePosted: "2026-05-13T08:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bryanston-South-Africa-ZSA31/Project-Management-Intern_R63495?source=LinkedIn",
+    reference: "R63495",
+    tags: ["Engineering", "IT & Technology", "Business"],
+    shortDescription: "Motorola Solutions is looking for a Project Management Intern to join its System Integration team in Bryanston. Open to recent graduates or final-year students.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Motorola Solutions is seeking a Project Manager Intern to join the System Integration team in South Africa. This role is designed for a recent graduate looking to build a career in project management within a technology-driven environment. You will support the delivery of complex integration projects that enable mission-critical communications and safety solutions.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support Project Managers in the planning and execution of system integration projects.</div><div>• Assist with project scheduling, tracking milestones, and maintaining project plans.</div><div>• Coordinate with internal teams including engineering, sales, finance, and operations.</div><div>• Prepare project documentation, status reports, and track risks or dependencies.</div><div>• Assist in managing project budgets, purchase orders, and invoicing processes.</div><div>• Participate in project meetings and capture key actions and decisions.</div><br><div><strong>MINIMUM QUALIFICATIONS:</strong></div><div>• <strong>Education:</strong> Bachelor’s degree (or final year) in Engineering (Electrical, Electronic, Industrial), Information Systems / IT, Business Management, or a related field.</div><div>• <strong>Academic Record:</strong> Strong academic record.</div><div>• <strong>Experience:</strong> No prior work experience required (internship or part-time experience is advantageous).</div><br><div><strong>SKILLS & COMPETENCIES:</strong></div><div>• Proficiency with MS Office suite (Word, PowerPoint, Excel, Project, Visio).</div><div>• Strong organizational, planning, and multi-tasking skills.</div><div>• Problem-solving mindset with clear written and verbal communication.</div><br><div><strong>WHAT THEY OFFER:</strong></div><div>• Exposure to global projects and industry-leading technology.</div><div>• Structured learning and a solid foundation in project management.</div><div>• Collaborative, high-performance team environment.</div>`
   },
-  
+  {
+    id: "tharisa-minerals-graduate-in-training-north-west-2026",
+    title: "Graduate In Training Programme (North West)",
+    company: "Tharisa Minerals",
+    location: "North West, South Africa",
+    type: "Graduate Programme • Contract",
+    duration: "2 - 3 Years",
+    reportTo: "N/A",
+    datePosted: "2026-05-19T00:00:00+02:00",
+    closingDate: "2026-05-27",
+    applicationLink: "https://tharisa.mcidirecthire.com/External/Job?Ref=TEkBhDYErs0qhHgueWeCgt_yRI-cnPLR1MRk1RR6Cpou3ktpvROhSqni_BGkK6j0FtOecSaCWH4sh_E2XkxTPJt9-piTjkY7jTG9MoT7V_OFepLBw9mbuFbJ07jsB6be4634vS_hw40T5tg_OkQDpw",
+    reference: "GIT0085DM",
+    tags: ["Mechanical Engineering", "Chemical Engineering", "IT & Technology"],
+    shortDescription: "Tharisa Minerals is offering a 2-year Graduate in Training programme in the North West for recent engineering and IT graduates to develop critical competencies within the mining sector.",
+    fullDescription: `<div><strong>PROGRAMME OVERVIEW:</strong></div><div>Tharisa Minerals aims to provide recently graduated individuals with an opportunity to gain exposure to the work environment through a limited 2-year contract as a Graduate in Training (GIT). This unique programme provides technical exposure in the mining industry and helps candidates develop critical business competencies.</div><br><div><strong>DISCIPLINES AVAILABLE:</strong></div><div>• Mechanical Engineering (Ref: GIT26-MCE)</div><div>• Metallurgy / Chemical Engineering (Ref: GIT26-M/CE)</div><div>• Information Technology (Ref: GIT26-IT)</div><div>• Employee Relations / Human Resources (Ref: GIT26-ER)</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Must hold a National Diploma or Degree in one of the specified fields.</div><div>• <strong>Experience:</strong> Must be a recent graduate with no prior work experience.</div><div>• <strong>Citizenship:</strong> South African Citizens only.</div><div>• <strong>Health:</strong> Must be inherently medically fit to work in a mining or industrial environment.</div><br><div><strong>ADDITIONAL DETAILS:</strong></div><div>• Preference will be given to applicants from the local community and labour-sending areas.</div><div>• No accommodation will be provided.</div><div>• Aligned with Employment Equity targets.</div>`
+  },
+  {
+    id: "moyo-graduate-programme-2027",
+    title: "Graduate Programme 2027",
+    company: "MOYO",
+    location: "South Africa",
+    type: "Graduate Programme • Full-time",
+    duration: "N/A",
+    reportTo: "Consulting Project Teams",
+    datePosted: "2026-05-22T08:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://mymoyo.csod.com/ux/ats/careersite/1/home/requisition/188?c=mymoyo",
+    reference: "188",
+    tags: ["Computer Science", "IT & Technology", "Industrial Engineering"],
+    shortDescription: "MOYO is recruiting forward-thinking graduates for its 2027 Graduate Programme. Gain hands-on exposure to IT consulting projects and grow into specialized technology roles.",
+    fullDescription: `<div><strong>THE OPPORTUNITY:</strong></div><div>MOYO is looking for curious, driven, and forward-thinking graduates who are ready to learn fast, think differently, and grow into future leaders. You will support real IT consulting projects across a variety of clients and industries, working alongside experienced consultants to shape practical, impactful technology solutions.</div><br><div><strong>FUTURE SPECIALISATIONS:</strong></div><div>• Business Analysis</div><div>• Software Development</div><div>• Business Intelligence</div><div>• Data Engineering</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support the design, development, and delivery of technology-driven initiatives.</div><div>• Participate in client workshops, discussions, and collaborative problem-solving sessions.</div><div>• Help identify, troubleshoot, and solve complex client challenges.</div><div>• Create and contribute to professional project deliverables and documentation.</div><div>• Collaborate closely within energetic, cross-functional consulting teams.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Must hold or be completing a Degree in IT, Information Systems, Informatics, Computer Science, Industrial Engineering, or BIT.</div><div>• <strong>Attributes:</strong> Takes initiative, enjoys problem-solving, and is eager to learn new tools and consulting approaches.</div>`
+  },
 
   
 
