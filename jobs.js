@@ -4351,6 +4351,38 @@ const jobs = [
     shortDescription: "MOYO is recruiting forward-thinking graduates for its 2027 Graduate Programme. Gain hands-on exposure to IT consulting projects and grow into specialized technology roles.",
     fullDescription: `<div><strong>THE OPPORTUNITY:</strong></div><div>MOYO is looking for curious, driven, and forward-thinking graduates who are ready to learn fast, think differently, and grow into future leaders. You will support real IT consulting projects across a variety of clients and industries, working alongside experienced consultants to shape practical, impactful technology solutions.</div><br><div><strong>FUTURE SPECIALISATIONS:</strong></div><div>• Business Analysis</div><div>• Software Development</div><div>• Business Intelligence</div><div>• Data Engineering</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support the design, development, and delivery of technology-driven initiatives.</div><div>• Participate in client workshops, discussions, and collaborative problem-solving sessions.</div><div>• Help identify, troubleshoot, and solve complex client challenges.</div><div>• Create and contribute to professional project deliverables and documentation.</div><div>• Collaborate closely within energetic, cross-functional consulting teams.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Must hold or be completing a Degree in IT, Information Systems, Informatics, Computer Science, Industrial Engineering, or BIT.</div><div>• <strong>Attributes:</strong> Takes initiative, enjoys problem-solving, and is eager to learn new tools and consulting approaches.</div>`
   },
+  {
+    id: "implats-graduate-intern-chemical-engineer-2026",
+    title: "Graduate Intern: Chemical Engineer",
+    company: "Impala Platinum Limited (Implats)",
+    location: "Springs, South Africa",
+    type: "Internship • Graduate",
+    duration: "24 Months",
+    reportTo: "Human Resources / Engineering Department",
+    datePosted: "2026-05-04T08:00:00+02:00",
+    closingDate: "2026-05-29",
+    applicationLink: "https://jobs-miy4.onrender.com/job.html?id=implats-graduate-intern-chemical-engineer-2026",
+    reference: "W3555WX6",
+    tags: [],
+    shortDescription: "Implats invites qualified, unemployed Chemical Engineering or Metallurgy graduates (NQF 7) to apply for a 24-month Graduate Internship Program in Springs starting January 2027.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>As part of our commitment to youth development, Implats invites suitably qualified graduates to apply for the Chemical Engineering Graduate Internship Program. The program aims to provide unemployed graduates with structured, meaningful workplace experience required within the Platinum Group Metals (PGM) industry. Interns will gain exposure to operational, technical, safety, and managerial aspects of engineering within a production environment.</div><br><div><strong>PROGRAM DETAILS:</strong></div><div>• <strong>Duration:</strong> 24 months</div><div>• <strong>Commencement Date:</strong> January 2027</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Successful completion of a set 24-month internship training program.</div><div>• Participate in all required training and development interventions, compiling and submitting training reports.</div><div>• Provide technical and engineering support to operational areas to assist in meeting business and production targets.</div><div>• Contribute to continuous improvement initiatives through innovative technical and business solutions.</div><br><div><strong>MINIMUM QUALIFICATIONS AND REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> A completed NQF Level 7 qualification in Chemical Engineering / Metallurgy.</div><div>• <strong>Knowledge:</strong> Sound understanding of Chemical Engineering and/or Metallurgical principles.</div><div>• <strong>Eligibility:</strong> Applicants must be currently unemployed and must not have previously participated in any graduate program.</div><div>• <strong>Health:</strong> Medically fit for different operations (Concentrator, Smelting, PMR, or BMR).</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• <strong>Closing Date:</strong> 29 May 2026</div><div>• Please apply online via the official portal link provided. Attach your CV, ID, qualification, statement of results, and an institutional confirmation letter if applicable.</div>`
+  },
+  {
+    id: "department-of-employment-and-labour-ohs-inspector-2026",
+    title: "OHS Inspector (X2 Posts)",
+    company: "Department of Employment and Labour",
+    location: "Northern Cape",
+    type: "Full-time • Permanent",
+    duration: "N/A",
+    reportTo: "Chief Director: Provincial Operations",
+    datePosted: "2026-05-25T08:00:00+02:00",
+    closingDate: "2026-06-08",
+    applicationLink: "mailto:Jobs-NCKIM@labour.gov.za",
+    reference: "Kimberley: HR4/4/8/164 | Kuruman: HR4/4/8/165",
+    tags: [],
+    shortDescription: "The Department of Employment and Labour is hiring two OHS Inspectors for its Labour Centres in Kimberley and Kuruman. Requires a valid driver's license and an NQF Level 6 qualification in Engineering, Chemistry, or Health Sciences.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The Department of Employment and Labour is inviting suitably qualified candidates to apply for two (2) OHS Inspector positions based in the Northern Cape. This is an excellent opportunity for professionals in engineering, health sciences, or related disciplines to serve the public by promoting and enforcing occupational health and safety standards across South African workplaces.</div><br><div><strong>REMUNERATION:</strong></div><div>• <strong>Salary:</strong> R413 001 per annum</div><br><div><strong>CENTRES & REFERENCES:</strong></div><div>• Labour Centre Kimberley (Ref: HR4/4/8/164)</div><div>• Labour Centre Kuruman (Ref: HR4/4/8/165)</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Plan and independently conduct workplace inspections to ensure employer compliance with the Occupational Health and Safety Act (Act 85 of 1993).</div><div>• Plan, investigate, and finalise incidents and complaints reported under the OHS Act, and enforce compliance including appearing in court as a State witness.</div><div>• Conduct scheduled proactive inspections and compile detailed inspection reports.</div><div>• Plan and independently conduct advocacy campaigns on labour legislation.</div><div>• Contribute to the planning, drafting, and maintenance of regional inspection plans, and prepare statistical reports.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> A three-year tertiary qualification (NQF Level 6) in Environmental Health, Mechanical Engineering, Mechatronic Engineering, Electrical Engineering, Chemical Engineering, Chemistry, Construction, Biology, Microbiology, Biomedical Sciences, Biotechnology, or Biochemistry.</div><div>• <strong>Licence:</strong> A valid driver’s licence is essential.</div><div>• <strong>Knowledge:</strong> Sound knowledge of the Occupational Health and Safety Act, OHS Regulations, SANS Codes, COIDA, and the Unemployment Insurance Act.</div><div>• <strong>Skills:</strong> Strong planning, communication, analytical, negotiation, and problem-solving skills.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• <strong>Closing Date:</strong> 08 June 2026</div><div>• Applications must be submitted on the new Z83 form together with an updated CV, combined into a single PDF document.</div><div>• Email application to: Jobs-NCKIM@labour.gov.za</div>`
+  },
 
   
 
