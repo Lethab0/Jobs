@@ -4415,6 +4415,38 @@ const jobs = [
     shortDescription: "Quantium is hiring Graduate Data & AI Analysts in Johannesburg. The program offers intensive learning, team rotations, and hands-on experience using SQL, Python, and Snowflake.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>You have a unique opportunity to play a major role in the data-driven initiatives within Quantium South Africa. You will utilise your analytical mindset and problem-solving skills to help deliver innovative solutions, provide actionable insights and recommendations, and become a trusted advisor for our stakeholders, clients, and partners. Our Graduate program offers intensive learning opportunities for the development of key analytical, technical, and commercial skills, as well as a comprehensive understanding of Quantium's business.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Perform exploratory data analysis, data reconciliation, and data wrangling including cleaning and pipelines.</div><div>• Build model features and work directly with AI/ML frameworks and models.</div><div>• Interpret data results, develop insights, and present findings via spreadsheets, PowerPoint, and data visualization tools.</div><div>• Collaborate with cross-functional teams and maintain ongoing stakeholder interaction regarding project progress.</div><br><div><strong>TOOLS & TECHNOLOGIES:</strong></div><div>• SQL, Snowflake, Python, GitHub, Tableau, Azure, GCP, Vertex AI, Claude.ai, and more.</div><br><div><strong>PROGRAM BENEFITS:</strong></div><div>• A structured graduate academy with a dedicated program manager and targeted learning workshops.</div><div>• Team rotations designed to maximize your exposure and accelerate professional growth.</div><div>• On-the-job mentoring through a dedicated buddy and team leaders.</div><div>• "Advance" program support assisting your transition into a permanent post-program role.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> In your final year of tertiary study or have completed your studies within the 18 months prior to starting.</div><div>• <strong>Work Rights:</strong> South African citizens, Permanent Residents, or eligible visa holders.</div><div>• <strong>Mandatory Document:</strong> Academic transcripts must be submitted together with your CV.</div>`
   },
+  {
+    id: "sacaa-internship-opportunity-centurion-2026",
+    title: "Internship Opportunity",
+    company: "South African Civil Aviation Authority (SACAA)",
+    location: "Centurion",
+    type: "Internship • Contract",
+    duration: "1 - 2 Years",
+    reportTo: "N/A",
+    datePosted: "2026-05-27T08:00:00+02:00",
+    closingDate: "2026-06-09",
+    applicationLink: "https://sacaa.mcidirecthire.com/External/Job?Ref=TEkBhDYErs0qhHgueWeCgt_yRI-cnPLR1MRk1RR6Cpou3ktpvROhSqni_BGkK6j0nLY93QeL7OBvxX6VW-hDeq5AmIloHffHR0zQpbU6v_gVoXOkheEJorgByyCNF1j2ZaJh2CSvGAQuAsKRR7KstQ",
+    reference: "SA-453",
+    tags: ["IT & Technology"],
+    shortDescription: "SACAA is offering a 1-2 year Internship Opportunity in Centurion. Open to graduates with a National Diploma or Bachelor's degree in Information Technology, Administration, or related fields.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Civil Aviation Authority (SACAA) is looking for graduates to join their team in Centurion for a 1 to 2-year internship contract. This role focuses on general administration, document control, and departmental support workflows within a regulated aviation safety framework.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Prepare documents, screen, classify, and record files for easy tracking and retrieval.</div><div>• Collate administrative information for internal reporting and package documentation for meetings.</div><div>• Develop and maintain a secure department-wide filing and archiving system.</div><div>• Circulate, receive, and relay official information safely to corresponding stakeholders.</div><div>• Coordinate departmental functions, logistics, and scheduling for meetings.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Matric (Grade 12) along with a completed National Diploma or Bachelor's degree in Information Technology, Administrative Management, Business Administration, Business Management, Commerce, Communication Sciences, Human Resources Management, LLB, Logistics, Marketing, Office Administration, Organisational Psychology, Public Administration, or Supply Chain Management.</div><div>• <strong>Vetting:</strong> Appointments are subject to Section 98 of the Civil Aviation Act, requiring all successful candidates to undergo formal security vetting.</div>`
+  },
+  {
+    id: "e-square-engineering-junior-civil-engineer-2026",
+    title: "Junior / Entry-Level Civil Engineer",
+    company: "E-Square Engineering",
+    location: "South Africa",
+    type: "Full-time • Graduate",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-05-21T08:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:teboho@esquareholdings.com",
+    reference: "N/A",
+    tags: ["Civil Engineering"],
+    shortDescription: "E-Square Engineering is seeking a recent graduate for a Junior/Entry-Level Civil Engineer position. Requires a BSc or a 4-year Civil Engineering degree with no experience required.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Are you a recent Civil Engineering graduate ready to kick-start your career and work on real-world engineering projects that shape communities? E-Square Engineering is looking for a Junior / Entry-Level Civil Engineer to join our growing team. This is a great opportunity for a recent graduate who is ready to move from textbooks to site visits, drawings, designs, teamwork, problem-solving, and building a meaningful engineering career.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> A Bachelor of Science in Civil Engineering or a minimum four-year Civil Engineering degree.</div><div>• <strong>Experience:</strong> No experience required — just the right qualification and drive!</div><div>• <strong>Attributes:</strong> Fresh ideas, curiosity, a willingness to learn, a positive attitude, and a strong work ethic.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>• Interested candidates should send their CVs directly via email to Teboho at the provided address.</div>`
+  },
 
   
 
