@@ -4607,7 +4607,38 @@ const jobs = [
     shortDescription: "Eskom is hiring a Maintenance Technician (Control & Instrumentation) for Kriel Power Station. Requires a National Diploma or National N Diploma with 2 years of related experience or completed P1 and P2 experiential training.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Eskom is recruiting a Technician Maintenance (Task Grade T11) for their Control and Instrumentation Maintenance department at Kriel Power Station in Mpumalanga. The primary objective of this role is to assure the optimum reliability and availability of the power plant.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Maintain optimization of the allocated Control and Instrumentation (C&I) systems.</div><div>• Verify that correct technical components, spares, and services are procured.</div><div>• Assist with modifications to improve the overall reliability of the generation plant.</div><div>• Perform project and contract supervision activities while complying with the permit to work system.</div><div>• Perform standard administrative activities and advise/assist with staff development.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Grade 12 plus a National Diploma or National N Diploma (Technical).</div><div>• <strong>Experience:</strong> Minimum of 2 years of related experience, OR completed P1 & P2 Experiential Training.</div><div>• <strong>Knowledge:</strong> Extensive knowledge of National and International Engineering Codes and standards, plant fundamental policies, safety knowledge, plant safety regulations, and quality control.</div><div>• <strong>Skills:</strong> Analyzing, diagnostic, computer literacy, problem-solving, and communication skills.</div>`
   },
-
+{
+    id: "gijima-wil-internship-program-2026",
+    title: "WIL INTERNSHIP PROGRAM",
+    company: "Gijima",
+    location: "Gauteng",
+    type: "Internship • Workplace Integrated Learning (WIL)",
+    duration: "6 Months",
+    reportTo: "N/A",
+    datePosted: "N/A",
+    closingDate: "2026-06-15",
+    applicationLink: "https://webapp.placementpartner.com/wi/vacancy/?id=gijima_youth&VacRef=JHB000165&preview=d40ef44b8b14ce87f71ddb48d38250b2",
+    reference: "JHB000165",
+    tags: ["Computer Science", "IT & Technology"],
+    shortDescription: "Gijima is recruiting 50 Information Technology interns for a 6-month WIL Internship Program in Gauteng. Open to students requiring experiential learning to complete their 3-year IT qualification.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Gijima is recruiting 50 interns for a 6-month Workplace Integrated Learning (WIL) Internship Program in Gauteng. This opportunity is strictly designed for currently unemployed students who need to complete practical industry exposure to qualify for their 3-year tertiary qualification in Information Technology.</div><br><div><strong>ELIGIBLE FIELDS OF STUDY:</strong></div><div>• Communications Networks, Informatics, Computer Systems Engineering, BSc IT, Computer Science, Multi-media Computing, or a Diploma in IT.</div><br><div><strong>CRITERA & REQUIREMENTS:</strong></div><div>• <strong>WIL Confirmation:</strong> Must possess an official recommendation letter from a Tertiary Institution confirming that WIL is explicitly required (pre-WIL letters are not accepted).</div><div>• <strong>Academic Records:</strong> Must provide the latest academic results stamped by the institution and recently certified.</div><div>• <strong>Education:</strong> Completed Matric with English and Mathematics.</div><div>• <strong>Age & Citizenship:</strong> South African Citizen, between the ages of 18 and 35 as of 1 July 2026.</div><div>• <strong>Location:</strong> Must currently reside in Gauteng (relocation is not an option).</div><div>• <strong>Clearance & Status:</strong> Must have no criminal record, be currently unemployed, and not participating in any other learnership or internship program.</div>`
+  },
+  {
+    id: "unilever-production-engineering-intern-boksburg-2026",
+    title: "Production Engineering Intern",
+    company: "Unilever",
+    location: "Anderbolt Factory, Boksburg, South Africa",
+    type: "Internship • Full-time • On-site",
+    duration: "12 Months",
+    reportTo: "Unit Manager / Operational Lead",
+    datePosted: "N/A",
+    closingDate: "N/A",
+    applicationLink: "https://careers.unilever.com/en/job/-/-/34155/95887487968?utm_source=glassdoor.com&utm_medium=job_posting%20&source=glassdoor.com",
+    reference: "34155/95887487968",
+    tags: ["Chemical Engineering", "Electrical Engineering", "Mechanical Engineering"],
+    shortDescription: "Unilever is hiring a Production Engineering Intern for a 12-month on-site internship at the Anderbolt Factory in Boksburg. Open to Chemical, Mechanical, Industrial, or Electrical Engineering graduates.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>This role exists to support safe, stable, high-quality, and efficient packaging operations through the application and learning of Unilever Manufacturing System (UMS) methodologies, with a strong focus on packaging optimization. The Packaging Production Intern assists in identifying inefficiencies within packaging lines, supporting process improvement initiatives, and contributing to waste and loss reduction under the guidance of experienced engineers. The role includes exposure to line balancing, time studies, and packaging optimization techniques. This position requires 100% of time attendance on-site in Boksburg.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support elimination of waste and losses on packaging lines using UMS methodologies (AM, PM, FI, Q pillars).</div><div>• Collect, validate, and analyse packaging line data (throughput, downtime, rejects, OEE) to identify improvement opportunities.</div><div>• Assist in line performance analysis, including time studies, line balancing, and capacity optimization.</div><div>• Support Root Cause Analysis (RCA) of packaging-related losses and assist in implementing corrective actions.</div><div>• Contribute to Run-to-Standard (R2S) by helping define and sustain optimal machine settings and operating conditions.</div><div>• Support SMED (changeover reduction) and other continuous improvement activities to enhance line flexibility and uptime.</div><div>• Collaborate with operations, maintenance, and quality teams to address day-to-day packaging challenges.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> B.Sc. or B.Tech in Chemical Engineering, Mechanical Engineering, Industrial Engineering, or Electrical Engineering.</div><div>• <strong>Skills:</strong> Foundational understanding or proficiency in WCM tools (AM, PM, FI, QC), Root Cause Analysis (RCA), and data analysis.</div><div>• <strong>Work Rights:</strong> Ability to work lawfully in South Africa (South African Employment Equity and Broad-Based Black Economic Empowerment Legislation will be considered).</div>`
+  },
   
 
                 
