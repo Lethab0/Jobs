@@ -4666,7 +4666,7 @@ const jobs = [
     reportTo: "N/A",
     datePosted: "2026-06-09T00:00:00+02:00",
     closingDate: "2026-06-19",
-    applicationLink: "mailto: whatsapp 060 014 4225 to submit Cv",
+    applicationLink: "https://wa.me/27600144225",
     reference: "N/A",
     tags: ["Mechanical Engineering", "Electrical Engineering", "Mining Engineering"],
     shortDescription: "Bokoni Platinum Mines is offering internship opportunities for unemployed graduates in HR, Mining, Mechanical Engineering, Electrical Engineering, Geology, Mine Survey, and Social Performance.",
