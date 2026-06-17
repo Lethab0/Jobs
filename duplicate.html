@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCalendar Duplicate Remover</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 12px;
+            border: 1px solid #d2d2d7;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            resize: vertical;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        textarea:focus {
+            outline: none;
+            border-color: #0071e3;
+            box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.1);
+        }
+        .actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 12px;
+        }
+        button {
+            background-color: #0071e3;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        button:hover {
+            background-color: #0077ed;
+        }
+        button.secondary {
+            background-color: #e8e8ed;
+            color: #1d1d1f;
+        }
+        button.secondary:hover {
+            background-color: #d2d2d7;
+        }
+        .status {
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .success { color: #1d9129; }
+        .error { color: #de350b; }
+    </style>
+</head>
+<body>
+
+    <h1>iCalendar Duplicate Remover</h1>
+    <p>Paste the raw text of your <code>.ics</code> file below to filter out duplicate events automatically.</p>
+    
+    <textarea id="icsInput" placeholder="Paste BEGIN:VCALENDAR... text here"></textarea>
+    
+    <div class="actions">
+        <button onclick="processCalendar()">Remove Duplicates</button>
+        <button id="downloadBtn" class="secondary" onclick="downloadCleanedFile()" style="display: none;">Download Cleaned .ics</button>
+    </div>
+
+    <div id="statusMessage" class="status"></div>
+
+    <script>
+        let cleanedIcsContent = "";
+
+        function processCalendar() {
+            const input = document.getElementById('icsInput').value.trim();
+            const statusDiv = document.getElementById('statusMessage');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            if (!input) {
+                statusDiv.className = "status error";
+                statusDiv.innerText = "Please paste some .ics content first.";
+                return;
+            }
+
+            // Normalize line endings and unfolding lines
+            const normalized = input.replace(/\r\n/g, '\n').replace(/\n /g, '');
+            
+            // Extract global header/footer wrappers and event blocks
+            const headerMatch = normalized.match(/^([\s\S]*?)(?=BEGIN:VEVENT)/i);
+            const footerMatch = normalized.match(/(END:VEVENT[\s\S]*?)$/i);
+            
+            const header = headerMatch ? headerMatch[1] : "BEGIN:VCALENDAR\nVERSION:2.0\n";
+            let footer = "END:VCALENDAR";
+            
+            if (footerMatch) {
+                const footerText = footerMatch[1];
+                const endVeventIndex = footerText.indexOf("END:VEVENT");
+                footer = footerText.substring(endVeventIndex + 10).trim() || "END:VCALENDAR";
+            }
+
+            // Regex to grab each individual VEVENT block safely
+            const eventRegex = /BEGIN:VEVENT[\s\S]*?END:VEVENT/gi;
+            const events = normalized.match(eventRegex);
+
+            if (!events) {
+                statusDiv.className = "status error";
+                statusDiv.innerText = "No valid events (BEGIN:VEVENT...END:VEVENT) found in the text.";
+                downloadBtn.style.display = "none";
+                return;
+            }
+
+            const uniqueEvents = [];
+            const seenIdentifiers = new Set();
+
+            events.forEach(eventBlock => {
+                // Determine uniqueness using SUMMARY text
+                const summaryMatch = eventBlock.match(/SUMMARY:(.*)/i);
+                const summaryKey = summaryMatch ? summaryMatch[1].trim().toLowerCase() : eventBlock;
+
+                if (!seenIdentifiers.has(summaryKey)) {
+                    seenIdentifiers.add(summaryKey);
+                    uniqueEvents.push(eventBlock);
+                }
+            });
+
+            // Reconstruct the clean file layout
+            cleanedIcsContent = header.trim() + "\n" + uniqueEvents.join("\n") + "\n" + footer.trim();
+
+            // UI updates
+            const removedCount = events.length - uniqueEvents.length;
+            statusDiv.className = "status success";
+            statusDiv.innerText = `Successfully processed! Total events found: ${events.length}. Duplicates removed: ${removedCount}.`;
+            
+            // Show download option
+            downloadBtn.style.display = "inline-block";
+        }
+
+        function downloadCleanedFile() {
+            if (!cleanedIcsContent) return;
+
+            const blob = new Blob([cleanedIcsContent], { type: 'text/calendar;charset=utf-8;' });
+            const link = document.createElement("a");
+            
+            if (navigator.msSaveBlob) { // IE 10+
+                navigator.msSaveBlob(blob, "cleaned_calendar.ics");
+            } else {
+                link.href = URL.createObjectURL(blob);
+                link.setAttribute("download", "cleaned_calendar.ics");
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+    </script>
+</body>
+</html>

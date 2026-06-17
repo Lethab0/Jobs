@@ -1,211 +1,383 @@
-const bursaries = [
-  {
-    id: "ska-south-africa-bursaries",
-    title: "SKA South Africa Bursary",
-    closingDate: "2025-08-08",
-    shortDescription: "Bursary for students in relevant fields closing on 8 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE SCHOLARSHIP</h3>
-      <p>Applications must be done online at: <a href="https://skagrants.nrf.ac.za/FPF/" target="_blank" rel="noopener noreferrer">https://skagrants.nrf.ac.za/FPF/</a></p>
-      <p>You will be required to Register an account before you can Login and apply.</p>
-      
-      <h3>REQUIRED DOCUMENTS</h3>
-      <p>Submit clear copies of the following supporting documentation along with your online application (the submission of these documents is compulsory – if any items are missing, your application be disregarded):</p>
-      <ul>
-        <li>ID document (certified copy)</li>
-        <li>Matric certificate (certified copy)</li>
-        <li>Latest tertiary results (certified copy)</li>
-        <li>Proof of University registration</li>
-      </ul>
-    `,
-    field: "Astronomy, Engineering, Physics, Computer Science",
-    level: "Undergraduate, Postgraduate",
-    provider: "SKA South Africa",
-    applicationUrl: "https://skagrants.nrf.ac.za/FPF/",
-    applicationEmail: null,
-    applicationFax: null,
-    referenceNumber: null,
-    requiresMotivationalLetter: false,
-    specialRequirements: null,
-    location: "South Africa",
-    tags: ["astronomy", "engineering", "physics", "science", "computer-science"]
-  },
-  {
-    id: "ix-engineers-bursary",
-    title: "iX Engineers Bursary",
-    closingDate: "2025-08-16",
-    shortDescription: "Engineering bursary opportunity closing on 16 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE BURSARY</h3>
-      <p>Students who meet all of the above mentioned eligibility criteria and who would like to apply, must do so by submitting clear copies of the following supporting documentation (the submission of these documents is compulsory – if any items are missing, your application be disregarded):</p>
-      <ul>
-        <li>South African ID document (certified copy)</li>
-        <li>Matric certificate (certified copy)</li>
-        <li>Latest University academic record (certified copy)</li>
-        <li>Proof of tertiary registration (on University letterhead)</li>
-        <li>Shortened Curriculum Vitae</li>
-      </ul>
+// Engineering Bursary Deadlines Data
+// Categories are derived based on the specific focus areas of the bursary links.
+// Duplicate entries have been removed.
 
-      <h3>SUBMISSION INSTRUCTIONS</h3>
-      <p>Applications must be submitted electronically via email to: <a href="mailto:careers@ixengineers.co.za">careers@ixengineers.co.za</a></p>
-      <p><strong>Note:</strong> Insert the words "iX Engineers Bursary Application – Your Full Name" in the email subject line.</p>
-    `,
-    field: "Engineering",
-    level: "Undergraduate",
-    provider: "iX Engineers",
-    applicationUrl: null,
-    applicationEmail: "careers@ixengineers.co.za",
-    applicationFax: null,
-    referenceNumber: null,
-    requiresMotivationalLetter: false,
-    specialRequirements: null,
-    location: "South Africa",
-    tags: ["engineering", "civil", "consulting"]
-  },
-  {
-    id: "bigen-bursary",
-    title: "Bigen Bursary – Engineering",
-    closingDate: "2025-08-30",
-    shortDescription: "Engineering bursary opportunity closing on 30 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE BIGEN BURSARY</h3>
-      <p>Applications must be submitted online at: <a href="https://www.bigenafrica.com/careers/bursaries" target="_blank" rel="noopener noreferrer">Bigen Bursary Application</a></p>
+const bursaryDeadlines = {
+  accounting: [
+    {
+      name: "saipa scholarship",
+      deadline: "2026-01-15",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/saipa-scholarship/"
+    },
+    {
+      name: "cape gate erwin robert balde bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/cape-gate-erwin-robert-balde-bursary/"
+    },
+    {
+      name: "moore bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/moore-bursary/"
+    },
+    {
+      name: "fasset outstanding study debt assistance grant",
+      deadline: "2026-02-28",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-outstanding-study-debt-assistance-grant/"
+    },
+    {
+      name: "institute of management accounting and strategy imas bursary",
+      deadline: "2026-04-14",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/institute-of-management-accounting-and-strategy-imas-bursary/"
+    },
+    {
+      name: "unisa bankseta bursary",
+      deadline: "2026-06-26",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/unisa-bankseta-bursary/"
+    },
+    {
+      name: "schoeman coetzee bursary",
+      deadline: "2026-06-30",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/schoeman-coetzee-bursary/"
+    },
+    {
+      name: "femef mike ilsley memorial scholarship",
+      deadline: "2026-08-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/femef-mike-ilsley-memorial-scholarship/"
+    },
+    {
+      name: "pricewaterhousecoopers bursary south africa",
+      deadline: "2026-08-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/pricewaterhousecoopers-bursary-south-africa/"
+    },
+    {
+      name: "thuthuka bursary fund",
+      deadline: "2026-08-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/thuthuka-bursary-fund/"
+    },
+    {
+      name: "a2a kopano inc bursary",
+      deadline: "2026-09-30",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/a2a-kopano-inc-bursary/"
+    },
+    {
+      name: "old mutual accounting bursary",
+      deadline: "2026-09-30",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/old-mutual-accounting-bursary/"
+    },
+    {
+      name: "standard bank bursary",
+      deadline: "2026-10-05",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/standard-bank-bursary/"
+    },
+    {
+      name: "auditor general bursary",
+      deadline: "2026-10-15",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/auditor-general-bursary/"
+    },
+    {
+      name: "kpmg bursary",
+      deadline: "2026-10-30",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/kpmg-bursary/"
+    },
+    {
+      name: "manitou bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/manitou-bursary/"
+    },
+    {
+      name: "bdo south africa incorporated bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/bdo-south-africa-incorporated-bursary/"
+    },
+    {
+      name: "ernst young bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/ernst-young-bursary/"
+    },
+    {
+      name: "momentum investments bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/momentum-investments-bursary/"
+    },
+    {
+      name: "mazars bursary",
+      deadline: "2026-11-12",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/mazars-bursary/"
+    },
+    {
+      name: "fasset bursary",
+      deadline: "2026-12-31",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-bursary/"
+    }
+  ],
+  engineering: [
+    {
+      name: "afrox accounting engineering bursary south africa",
+      deadline: "2026-07-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/afrox-accounting-engineering-bursary-south-africa/"
+    },
+    {
+      name: "schauenburg education trust bursary",
+      deadline: "2026-07-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/schauenburg-education-trust-bursary/"
+    },
+    {
+      name: "abb education trust bursary",
+      deadline: "2026-11-14",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/abb-education-trust-bursary/"
+    },
+    {
+      name: "gold one bursary",
+      deadline: "2026-01-02",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/gold-one-bursary/"
+    },
+    {
+      name: "royal bafokeng platinum bursary",
+      deadline: "2026-01-02",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/royal-bafokeng-platinum-bursary/"
+    },
+    {
+      name: "cape gate isaac joffe fellowship bursary",
+      deadline: "2026-01-09",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/cape-gate-isaac-joffe-fellowship-bursary/"
+    },
+    {
+      name: "sawise angus scholarship",
+      deadline: "2026-01-10",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/sawise-angus-scholarship/"
+    },
+    {
+      name: "vbkom bursary",
+      deadline: "2026-01-12",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/vbkom-bursary/"
+    },
+    {
+      name: "siyanda resources bursary",
+      deadline: "2026-01-20",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/siyanda-resources-bursary/"
+    },
+    {
+      name: "de beers bursary",
+      deadline: "2026-01-21",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/de-beers-bursary/"
+    },
+    {
+      name: "foskor bursary",
+      deadline: "2026-01-22",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/foskor-bursary/"
+    },
+    {
+      name: "sapref bursary",
+      deadline: "2026-01-28",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/sapref-bursary/"
+    },
+    {
+      name: "pilanesberg platinum mines ppm bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/pilanesberg-platinum-mines-ppm-bursary/"
+    },
+    {
+      name: "safripol community bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/safripol-community-bursary/"
+    },
+    {
+      name: "tcta bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/tcta-bursary/"
+    },
+    {
+      name: "saice spebs bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/engineering-bursaries-south-africa/saice-spebs-bursary/"
+    }
+  ],
+  education: [
+    {
+      name: "the funza lushaka bursary programme south africa",
+      deadline: "2026-01-26",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/the-funza-lushaka-bursary-programme-south-africa/"
+    },
+    {
+      name: "cida empowerment trust bursary",
+      deadline: "2026-06-18",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/cida-empowerment-trust-bursary/"
+    },
+    {
+      name: "funza lushaka bursary district based",
+      deadline: "2026-07-28",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/funza-lushaka-bursary-district-based/"
+    },
+    {
+      name: "jakes gerwel fellowship bursary",
+      deadline: "2026-07-31",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/jakes-gerwel-fellowship-bursary/"
+    },
+    {
+      name: "sacee norah taylor bursary",
+      deadline: "2026-07-31",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/sacee-norah-taylor-bursary/"
+    },
+    {
+      name: "rsm education trust bursary",
+      deadline: "2026-10-15",
+      url: "https://www.zabursaries.co.za/accounting-bursaries-south-africa/rsm-education-trust-bursary/"
+    },
+    {
+      name: "advtech student teacher bursary",
+      deadline: "2026-11-16",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/advtech-student-teacher-bursary/"
+    },
+    {
+      name: "brain jar skills development bursary",
+      deadline: "2026-11-30",
+      url: "https://www.zabursaries.co.za/education-bursaries-south-africa/brain-jar-skills-development-bursary/"
+    }
+  ],
+  constructionAndBuiltEnvironment: [
+    {
+      name: "construction education and training authority ceta bursary",
+      deadline: "2026-01-30",
+      url: "https://www.zabursaries.co.za/construction-and-built-environment-bursaries-south-africa/construction-education-and-training-authority-ceta-bursary/"
+    },
+    {
+      name: "arup education trust bursary",
+      deadline: "2026-12-31",
+      url: "https://www.zabursaries.co.za/construction-and-built-environment-bursaries-south-africa/arup-education-trust-bursary/"
+    }
+  ],
+  general: [
+    {
+      name: "south deep education trust sdet bursary",
+      deadline: "2026-01-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/south-deep-education-trust-sdet-bursary/"
+    },
+    {
+      name: "jb marks education trust fund bursary",
+      deadline: "2026-07-01",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/jb-marks-education-trust-fund-bursary/"
+    },
+    {
+      name: "africa cosmos education trust bursary",
+      deadline: "2026-07-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/africa-cosmos-education-trust-bursary/"
+    },
+    {
+      name: "old mutual education trust omet bursary",
+      deadline: "2026-08-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/old-mutual-education-trust-omet-bursary/"
+    },
+    {
+      name: "immerse education essay scholarship competition",
+      deadline: "2026-09-12",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/immerse-education-essay-scholarship-competition/"
+    },
+    {
+      name: "margaret mcnamara education grants mmeg bursary",
+      deadline: "2026-09-14",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/margaret-mcnamara-education-grants-mmeg-bursary/"
+    },
+    {
+      name: "asset association for educational transformation sa bursary",
+      deadline: "2026-09-30",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/asset-association-for-educational-transformation-sa-bursary/"
+    },
+    {
+      name: "epilepsy south africa educational trust bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/epilepsy-south-africa-educational-trust-bursary/"
+    },
+    {
+      name: "neet national economic education trust bursary",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/neet-national-economic-education-trust-bursary/"
+    },
+    {
+      name: "spirit education foundation trust high school scholarship",
+      deadline: "2026-10-31",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/spirit-education-foundation-trust-high-school-scholarship/"
+    },
+    {
+      name: "education empowerment and development fund eedf bursary",
+      deadline: "2026-11-01",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/education-empowerment-and-development-fund-eedf-bursary/"
+    },
+    {
+      name: "imfundo enhle education trust bursary",
+      deadline: "2026-11-30",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/imfundo-enhle-education-trust-bursary/"
+    },
+    {
+      name: "peermont education trust bursary",
+      deadline: "2026-11-30",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/peermont-education-trust-bursary/"
+    },
+    {
+      name: "cyril ramaphosa education trust cret bursary",
+      deadline: "2026-12-13",
+      url: "https://www.zabursaries.co.za/general-bursaries-south-africa/cyril-ramaphosa-education-trust-cret-bursary/"
+    }
+  ],
+  universitiesAndPostgrad: [
+    {
+      name: "john davidson educational trust bursary",
+      deadline: "2026-02-07",
+      url: "https://www.zabursaries.co.za/universities/john-davidson-educational-trust-bursary/"
+    },
+    {
+      name: "milpark education wrseta bursary",
+      deadline: "2026-09-12",
+      url: "https://www.zabursaries.co.za/universities/milpark-education-wrseta-bursary/"
+    },
+    {
+      name: "sheila brand educational trust bursary",
+      deadline: "2026-09-30",
+      url: "https://www.zabursaries.co.za/universities/sheila-brand-educational-trust-bursary/"
+    },
+    {
+      name: "uwc faculty of education bursary",
+      deadline: "2026-12-03",
+      url: "https://www.zabursaries.co.za/mba-postgraduate/uwc-faculty-of-education-bursary/"
+    }
+  ],
+  medical: [
+    {
+      name: "spes bona initiative for medical education vesalius scholarship",
+      deadline: "2026-02-20",
+      url: "https://www.zabursaries.co.za/medical-bursaries-south-africa/spes-bona-initiative-for-medical-education-vesalius-scholarship/"
+    }
+  ],
+  science: [
+    {
+      name: "energy mobility education trust scholarship",
+      deadline: "2026-10-17",
+      url: "https://www.zabursaries.co.za/science-bursaries-south-africa/energy-mobility-education-trust-scholarship/"
+    },
+    {
+      name: "sugar industry trust fund for education sitfe bursary",
+      deadline: "2026-11-21",
+      url: "https://www.zabursaries.co.za/science-bursaries-south-africa/sugar-industry-trust-fund-for-education-sitfe-bursary/"
+    },
+    {
+      name: "globeleq education trust bursary",
+      deadline: "2026-12-12",
+      url: "https://www.zabursaries.co.za/science-bursaries-south-africa/globeleq-education-trust-bursary/"
+    }
+  ],
+  computerScienceAndIT: [
+    {
+      name: "korbicom education trust bursary",
+      deadline: "2026-11-10",
+      url: "https://www.zabursaries.co.za/computer-science-it-bursaries-south-africa/korbicom-education-trust-bursary/"
+    }
+  ],
+  government: [
+    {
+      name: "eastern cape department of education ecdoe",
+      deadline: "2026-12-02",
+      url: "https://www.zabursaries.co.za/government-bursaries-south-africa/eastern-cape-department-of-education-ecdoe/"
+    }
+  ]
+};
 
-      <h3>REQUIRED DOCUMENTS</h3>
-      <p>Submit clear copies of the following supporting documentation along with your online application (the submission of these documents is compulsory – if any items are missing, your application may be disqualified):</p>
-      <ul>
-        <li>ID document or Smart ID card (certified copy)</li>
-        <li>Matric certificate</li>
-        <li>Full academic record</li>
-        <li>Proof of university registration (certified copy)</li>
-        <li>Curriculum Vitae (in pdf format)</li>
-        <li>Proof of banking details (bank statement or stamped letter from bank only)</li>
-        <li>Proof of residential address (original municipal account, bank statement, account statement or original letter from Tribal Authority or Councillor)</li>
-      </ul>
-    `,
-    field: "Engineering",
-    level: "Undergraduate",
-    provider: "Bigen Africa",
-    applicationUrl: "https://www.bigenafrica.com/careers/bursaries",
-    applicationEmail: null,
-    applicationFax: null,
-    referenceNumber: null,
-    requiresMotivationalLetter: false,
-    specialRequirements: null,
-    location: "South Africa",
-    tags: ["engineering", "infrastructure", "civil"]
-  },
-  {
-    id: "altech-bursary",
-    title: "Altech Bursary – Engineering",
-    closingDate: "2025-08-31",
-    shortDescription: "Engineering bursary opportunity closing on 31 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE BURSARY</h3>
-      <p>Application forms must be downloaded from: <a href="http://www.altechacademy.co.za/undergraduate-bursaries" target="_blank" rel="noopener noreferrer">Altech Academy Bursaries Page</a></p>
-      <p>Alternatively, you can request an application form by emailing: <a href="mailto:bursaries@altech.co.za">bursaries@altech.co.za</a></p>
-
-      <h3>REQUIRED DOCUMENTS</h3>
-      <p>Submit clear copies of the following supporting documentation along with your completed application form (the submission of these documents is compulsory – if any items are missing, your application be disregarded):</p>
-      <ul>
-        <li>ID document (certified copy)</li>
-        <li>Matric certificate (certified copy)</li>
-        <li>Full academic transcript/record (on tertiary institution letterhead)</li>
-      </ul>
-
-      <h3>SUBMISSION METHODS</h3>
-      <p>Applications must be submitted in one of the following ways:</p>
-      <ol>
-        <li><strong>Email:</strong> <a href="mailto:bursaries@altech.co.za">bursaries@altech.co.za</a></li>
-        <li><strong>Fax:</strong> 011 715 9046</li>
-        <li><strong>Post:</strong><br>
-          Training and Development Manager<br>
-          P. O. Box 153<br>
-          Bergvlei<br>
-          Johannesburg<br>
-          2012</li>
-      </ol>
-    `,
-    field: "Engineering",
-    level: "Undergraduate",
-    provider: "Altech",
-    applicationUrl: "http://www.altechacademy.co.za/undergraduate-bursaries",
-    applicationEmail: "bursaries@altech.co.za",
-    applicationFax: "011 715 9046",
-    referenceNumber: null,
-    requiresMotivationalLetter: false,
-    specialRequirements: null,
-    location: "South Africa",
-    tags: ["engineering", "electronics", "telecoms"]
-  },
-  {
-    id: "openserve-bursary",
-    title: "Openserve Bursary – IT & Computer Science",
-    closingDate: "2025-08-15",
-    shortDescription: "IT and Computer Science bursary closing on 15 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE OPENSERVE BURSARY</h3>
-      <p>Applications must be submitted online at: <a href="https://openserve.co.za/careers/bursaries" target="_blank" rel="noopener noreferrer">Openserve Bursary Application</a></p>
-      <p><strong>Reference Number:</strong> TEL220711-1</p>
-      <p>Applicants will be required to Register an account before they can Login and apply.</p>
-
-      <h3>REQUIRED DOCUMENTS</h3>
-      <p>Submit clear copies of the following supporting documentation along with your application (the submission of these documents is compulsory – if any items are missing, your application may be disqualified):</p>
-      <ul>
-        <li>ID document (certified copy)</li>
-        <li>Matric certificate (certified copy)</li>
-        <li>Full academic transcripts/record (on institution's letterhead)</li>
-      </ul>
-    `,
-    field: "IT, Computer Science",
-    level: "Undergraduate",
-    provider: "Openserve",
-    applicationUrl: "https://openserve.co.za/careers/bursaries",
-    applicationEmail: null,
-    applicationFax: null,
-    referenceNumber: "TEL220711-1",
-    requiresMotivationalLetter: false,
-    specialRequirements: null,
-    location: "South Africa",
-    tags: ["it", "telecoms", "computer-science"]
-  },
-  {
-    id: "signa-bursary",
-    title: "Signa Bursary – IT & Computer Science",
-    closingDate: "2025-08-31",
-    shortDescription: "IT and Computer Science bursary closing on 31 August 2025.",
-    fullDescription: `
-      <h3>HOW TO APPLY FOR THE SIGNA BURSARY</h3>
-      <p>Applications must be done online at: <a href="https://www.signagroup.co.za/bursaries" target="_blank" rel="noopener noreferrer">Signa Bursary Application</a></p>
-      <p>Candidates will also be required to submit a motivational letter, stating why you should be selected to receive the bursary and your future plans and dreams.</p>
-
-      <h3>REQUIRED DOCUMENTS FOR SUCCESSFUL CANDIDATES</h3>
-      <p>Successful candidates will be required to submit the following supporting documentation (ensure that you have these documents ready and available, as the submission of these documents will be compulsory – if you are unable to provide these documents, the bursary will be cancelled):</p>
-      <ul>
-        <li>ID document or both sides of ID card (certified copy)</li>
-        <li>Passport and proof of residency, if not a citizen (certified copy)</li>
-        <li>Matric Certificate (certified copy)</li>
-        <li>Most recent academic record or results from 2020 studies (certified copy)</li>
-        <li>Parents/guardians proof of total household income:
-          <ul>
-            <li>Latest payslips or affidavit if employed</li>
-            <li>Affidavit if unemployed</li>
-            <li>Proof of pension or SASSA grants if applicable</li>
-          </ul>
-        </li>
-        <li>Proof of disability, if applicable</li>
-      </ul>
-    `,
-    field: "IT, Computer Science",
-    level: "Undergraduate",
-    provider: "Signa Group",
-    applicationUrl: "https://www.signagroup.co.za/bursaries",
-    applicationEmail: null,
-    applicationFax: null,
-    referenceNumber: null,
-    requiresMotivationalLetter: true,
-    specialRequirements: "Proof of household income and disability documentation if applicable",
-    location: "South Africa",
-    tags: ["it", "computer-science", "private-sector"]
-  }
-];
+export default bursaryDeadlines;

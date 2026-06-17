@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//STEMCLUB//Bursary Deadlines System//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bursary-it_and_computer_science-0-20261110@stemclub.co.za
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+SUMMARY:KORBICOM EDUCATION TRUST BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/computer-science-it-bursaries-south-africa/korbicom-education-trust-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-south-africa/korbicom-education-trust-bursary/
+END:VEVENT
+END:VCALENDAR

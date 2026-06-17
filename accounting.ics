@@ -1,533 +1,173 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sebbo.net//ical-generator//EN
-NAME:Engineering Bursary Deadlines
-X-WR-CALNAME:Engineering Bursary Deadlines
-TIMEZONE-ID:Africa/Johannesburg
-X-WR-TIMEZONE:Africa/Johannesburg
+PRODID:-//STEMCLUB//Bursary Deadlines System//EN
+CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:b78a51fc-aa94-4cbb-b279-cc92e0cb6caa
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-0-20260115@stemclub.co.za
+DTSTAMP:20260115T000000Z
 DTSTART;VALUE=DATE:20260115
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:saipa scholarship Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/saipa-scholarship/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:saipa scholarship Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/saipa-scholarship/
+SUMMARY:SAIPA SCHOLARSHIP DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/saipa-scholarship/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/saipa-scholarship/
 END:VEVENT
 BEGIN:VEVENT
-UID:27767c07-e4cd-45bd-87b3-38560a9e3b21
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-1-20260131@stemclub.co.za
+DTSTAMP:20260131T000000Z
 DTSTART;VALUE=DATE:20260131
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:cape gate erwin robert balde bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/cape-gate-erwin-robert-balde-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:cape gate erwin robert balde bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/cape-gate-erwin-robert-balde-bursary/
+SUMMARY:CAPE GATE ERWIN ROBERT BALDE BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/cape-gate-erwin-robert-balde-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/cape-gate-erwin-robert-balde-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:7f2fb805-b3e2-48c1-8089-d8ebc3591b5c
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-2-20260131@stemclub.co.za
+DTSTAMP:20260131T000000Z
 DTSTART;VALUE=DATE:20260131
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:moore bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/moore-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:moore bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/moore-bursary/
+SUMMARY:MOORE BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/moore-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/moore-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:5e99600a-be6e-4abe-96a3-ca992848fadc
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-3-20260228@stemclub.co.za
+DTSTAMP:20260228T000000Z
 DTSTART;VALUE=DATE:20260228
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:fasset outstanding study debt assistance grant Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/fasset-outstanding-study-debt-assistance-grant/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:fasset outstanding study debt assistance grant Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/fasset-outstanding-study-debt-assistance-grant/
+SUMMARY:FASSET OUTSTANDING STUDY DEBT ASSISTANCE GRANT DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-outstanding-study-debt-assistance-grant/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-outstanding-study-debt-assistance-grant/
 END:VEVENT
 BEGIN:VEVENT
-UID:17499221-8f42-4451-9853-33374e161b89
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-4-20260414@stemclub.co.za
+DTSTAMP:20260414T000000Z
 DTSTART;VALUE=DATE:20260414
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:institute of management accounting and strategy imas bursary Deadl
- ine
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/institute-of-management-accounting-and-strategy-imas-bursary
- /
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:institute of management accounting and strategy imas bursary D
- eadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/institute-of-management-accounting-and-strategy-imas-bursary/
+SUMMARY:INSTITUTE OF MANAGEMENT ACCOUNTING AND STRATEGY IMAS BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/institute-of-management-accounting-and-strategy-imas-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/institute-of-management-accounting-and-strategy-imas-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:c5999e7a-881d-473e-852c-92005d8d6b1d
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-5-20260626@stemclub.co.za
+DTSTAMP:20260626T000000Z
 DTSTART;VALUE=DATE:20260626
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:unisa bankseta bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/unisa-bankseta-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:unisa bankseta bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/unisa-bankseta-bursary/
+SUMMARY:UNISA BANKSETA BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/unisa-bankseta-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/unisa-bankseta-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:aaba1698-b8c0-4259-b1e2-69e0875550ef
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-6-20260630@stemclub.co.za
+DTSTAMP:20260630T000000Z
 DTSTART;VALUE=DATE:20260630
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:schoeman coetzee bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/schoeman-coetzee-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:schoeman coetzee bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/schoeman-coetzee-bursary/
+SUMMARY:SCHOEMAN COETZEE BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/schoeman-coetzee-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/schoeman-coetzee-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:3f62e9cc-dcca-48bd-8ec8-d4092dd3cf15
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20260731
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:afrox accounting engineering bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
- s-south-africa/afrox-accounting-engineering-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:afrox accounting engineering bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
- rica/afrox-accounting-engineering-bursary-south-africa/
-END:VEVENT
-BEGIN:VEVENT
-UID:5768f4e8-b034-4e34-a557-72f3ec689c3b
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20260731
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:afrox accounting engineering bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
- s-south-africa/afrox-accounting-engineering-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:afrox accounting engineering bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
- rica/afrox-accounting-engineering-bursary-south-africa/
-END:VEVENT
-BEGIN:VEVENT
-UID:1c4b15bd-0474-40a9-94cc-2f00f43ea477
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20260731
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:afrox accounting engineering bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
- s-south-africa/afrox-accounting-engineering-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:afrox accounting engineering bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
- rica/afrox-accounting-engineering-bursary-south-africa/
-END:VEVENT
-BEGIN:VEVENT
-UID:21e7067c-53d2-4bf2-a6b5-a21fc4a8c0f5
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20260731
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:afrox accounting engineering bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
- s-south-africa/afrox-accounting-engineering-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:afrox accounting engineering bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
- rica/afrox-accounting-engineering-bursary-south-africa/
-END:VEVENT
-BEGIN:VEVENT
-UID:84d7ee4a-874e-4f5f-a42e-57df98633ee9
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20260731
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:afrox accounting engineering bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
- s-south-africa/afrox-accounting-engineering-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:afrox accounting engineering bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
- rica/afrox-accounting-engineering-bursary-south-africa/
-END:VEVENT
-BEGIN:VEVENT
-UID:09ec3bf8-5cb7-444a-9132-acff1238ffec
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-7-20260831@stemclub.co.za
+DTSTAMP:20260831T000000Z
 DTSTART;VALUE=DATE:20260831
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:femef mike ilsley memorial scholarship Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/femef-mike-ilsley-memorial-scholarship/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:femef mike ilsley memorial scholarship Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/femef-mike-ilsley-memorial-scholarship/
+SUMMARY:FEMEF MIKE ILSLEY MEMORIAL SCHOLARSHIP DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/femef-mike-ilsley-memorial-scholarship/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/femef-mike-ilsley-memorial-scholarship/
 END:VEVENT
 BEGIN:VEVENT
-UID:6d3aa2bd-aa19-40fe-ab11-670bc0f224bf
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-8-20260831@stemclub.co.za
+DTSTAMP:20260831T000000Z
 DTSTART;VALUE=DATE:20260831
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:pricewaterhousecoopers bursary south africa Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/pricewaterhousecoopers-bursary-south-africa/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:pricewaterhousecoopers bursary south africa Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/pricewaterhousecoopers-bursary-south-africa/
+SUMMARY:PRICEWATERHOUSECOOPERS BURSARY SOUTH AFRICA DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/pricewaterhousecoopers-bursary-south-africa/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/pricewaterhousecoopers-bursary-south-africa/
 END:VEVENT
 BEGIN:VEVENT
-UID:d0bd909c-ef32-42ca-95d2-f12d8913c89b
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-9-20260831@stemclub.co.za
+DTSTAMP:20260831T000000Z
 DTSTART;VALUE=DATE:20260831
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:thuthuka bursary fund Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/thuthuka-bursary-fund/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:thuthuka bursary fund Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/thuthuka-bursary-fund/
+SUMMARY:THUTHUKA BURSARY FUND DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/thuthuka-bursary-fund/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/thuthuka-bursary-fund/
 END:VEVENT
 BEGIN:VEVENT
-UID:783518a1-100f-4137-a1f5-7b9e57c2eccd
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-10-20260930@stemclub.co.za
+DTSTAMP:20260930T000000Z
 DTSTART;VALUE=DATE:20260930
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:a2a kopano inc bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/a2a-kopano-inc-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:a2a kopano inc bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/a2a-kopano-inc-bursary/
+SUMMARY:A2A KOPANO INC BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/a2a-kopano-inc-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/a2a-kopano-inc-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:e3e668cb-1579-490b-81f4-5fea71870445
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-11-20260930@stemclub.co.za
+DTSTAMP:20260930T000000Z
 DTSTART;VALUE=DATE:20260930
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:old mutual accounting bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/old-mutual-accounting-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:old mutual accounting bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/old-mutual-accounting-bursary/
+SUMMARY:OLD MUTUAL ACCOUNTING BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/old-mutual-accounting-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/old-mutual-accounting-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:1c3b8646-02cc-441c-bcf3-43f6ae9e3a3e
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-12-20261005@stemclub.co.za
+DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261005
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:standard bank bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/standard-bank-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:standard bank bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/standard-bank-bursary/
+SUMMARY:STANDARD BANK BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/standard-bank-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/standard-bank-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:a6e78f9c-4270-47c0-bec6-900dcdcba12d
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20261005
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:standard bank bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/standard-bank-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:standard bank bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/standard-bank-bursary/
-END:VEVENT
-BEGIN:VEVENT
-UID:74150822-f271-4b40-b542-4c3c412fba47
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-13-20261015@stemclub.co.za
+DTSTAMP:20261015T000000Z
 DTSTART;VALUE=DATE:20261015
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:auditor general bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/auditor-general-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:auditor general bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/auditor-general-bursary/
+SUMMARY:AUDITOR GENERAL BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/auditor-general-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/auditor-general-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:7a60842c-a350-4305-9db7-e3116cdd3575
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20261015
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:rsm education trust bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/rsm-education-trust-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:rsm education trust bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/rsm-education-trust-bursary/
-END:VEVENT
-BEGIN:VEVENT
-UID:137e9c14-4fc4-4fb5-bb3e-3cf42e025622
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-14-20261030@stemclub.co.za
+DTSTAMP:20261030T000000Z
 DTSTART;VALUE=DATE:20261030
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:kpmg bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/kpmg-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:kpmg bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/kpmg-bursary/
+SUMMARY:KPMG BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/kpmg-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/kpmg-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:53609d94-3522-4ef2-ab6b-294a13a7c076
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-15-20261031@stemclub.co.za
+DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:manitou bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/manitou-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:manitou bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/manitou-bursary/
+SUMMARY:MANITOU BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/manitou-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/manitou-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:82291cf6-3037-41d3-be98-d798e8e4825e
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-16-20261031@stemclub.co.za
+DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:bdo south africa incorporated bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/bdo-south-africa-incorporated-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:bdo south africa incorporated bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/bdo-south-africa-incorporated-bursary/
+SUMMARY:BDO SOUTH AFRICA INCORPORATED BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/bdo-south-africa-incorporated-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/bdo-south-africa-incorporated-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:3e7322a5-220d-4397-a7df-b771949225ea
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-17-20261031@stemclub.co.za
+DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:ernst young bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/ernst-young-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:ernst young bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/ernst-young-bursary/
+SUMMARY:ERNST YOUNG BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/ernst-young-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/ernst-young-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:4ace0a82-ef7a-4f2b-b221-c071e803a4fa
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-18-20261031@stemclub.co.za
+DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:manitou bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/manitou-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:manitou bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/manitou-bursary/
+SUMMARY:MOMENTUM INVESTMENTS BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/momentum-investments-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/momentum-investments-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:f576a4b7-76d6-431d-9faa-ab94ca8f6c10
-SEQUENCE:0
-DTSTAMP:20260109T180258
-DTSTART;VALUE=DATE:20261031
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:momentum investments bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/momentum-investments-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:momentum investments bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/momentum-investments-bursary/
-END:VEVENT
-BEGIN:VEVENT
-UID:1f8a7f89-90a7-4b8c-b86a-567645e3b592
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-19-20261112@stemclub.co.za
+DTSTAMP:20261112T000000Z
 DTSTART;VALUE=DATE:20261112
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:mazars bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/mazars-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:mazars bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/mazars-bursary/
+SUMMARY:MAZARS BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/mazars-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/mazars-bursary/
 END:VEVENT
 BEGIN:VEVENT
-UID:c36156ac-4927-4916-aac6-27fb7ac00da7
-SEQUENCE:0
-DTSTAMP:20260109T180258
+UID:bursary-accounting-20-20261231@stemclub.co.za
+DTSTAMP:20261231T000000Z
 DTSTART;VALUE=DATE:20261231
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
-SUMMARY:fasset bursary Deadline
-DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
- -south-africa/fasset-bursary/
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:fasset bursary Deadline
-END:VALARM
-URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
- ica/fasset-bursary/
+SUMMARY:FASSET BURSARY DEADLINE
+DESCRIPTION:Apply online here: https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-bursary/
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-africa/fasset-bursary/
 END:VEVENT
 END:VCALENDAR
