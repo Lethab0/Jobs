@@ -39,18 +39,48 @@
         }
 
         header {
-            text-align: center;
             margin-bottom: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
         }
 
         header h1 {
             color: #0f172a;
             font-size: 2.5rem;
-            margin-bottom: 0.5rem;
         }
 
         header p {
             color: var(--text-light);
+            text-align: center;
+        }
+
+        /* Home button directly next to title styling */
+        .header-home-link {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.9rem;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .header-home-link:hover {
+            background: var(--accent);
+            border-color: var(--text-light);
         }
 
         /* 1. Faculty Choice Grid State */
@@ -144,7 +174,7 @@
             border: 1px solid var(--border);
         }
 
-        .nav-back-btn, .nav-home-link {
+        .nav-back-btn {
             background: transparent;
             border: 1px solid var(--border);
             padding: 0.5rem 1rem;
@@ -152,12 +182,10 @@
             cursor: pointer;
             font-weight: 600;
             color: var(--text);
-            text-decoration: none;
-            display: inline-block;
             transition: all 0.2s;
         }
 
-        .nav-back-btn:hover, .nav-home-link:hover {
+        .nav-back-btn:hover {
             background: var(--accent);
         }
 
@@ -272,7 +300,10 @@
 
 <div class="container">
     <header>
-        <h1 id="mainDisplayTitle">All Bursaries</h1>
+        <div class="title-container">
+            <h1 id="mainDisplayTitle">All Bursaries</h1>
+            <a href="https://stemclub.co.za" id="headerHomeBtn" class="header-home-link">Home</a>
+        </div>
         <p id="mainDisplaySubtitle">Select an academic faculty stream to explore closing dates.</p>
     </header>
 
@@ -312,7 +343,7 @@
         <div class="top-navbar">
             <button class="nav-back-btn" onclick="backToViewChoice()">← Change View Mode</button>
             <div class="current-view-badge" id="currentViewBadge"></div>
-            <a href="https://stemclub.co.za" class="nav-home-link">Home (Stem Club)</a>
+            <button class="nav-back-btn" onclick="resetToFaculties()">Back to Faculties</button>
         </div>
 
         <div id="calendarLayout" class="calendar-layout"></div>
@@ -418,6 +449,7 @@
     function handleFacultySelect(facultyId) {
         selectedFacultyId = facultyId;
         document.getElementById('mainDisplayTitle').innerText = facultyNames[facultyId];
+        document.getElementById('headerHomeBtn').style.display = 'none'; // Hide home button when in sub-menu
         document.getElementById('mainDisplaySubtitle').style.display = 'none';
         document.getElementById('facultySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'block';
@@ -521,6 +553,7 @@
         selectedFacultyId = null;
         selectedStyle = null;
         document.getElementById('mainDisplayTitle').innerText = "All Bursaries";
+        document.getElementById('headerHomeBtn').style.display = 'inline-block'; // Show home button on main screen
         document.getElementById('mainDisplaySubtitle').style.display = 'block';
         document.getElementById('contentDisplaySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'none';
