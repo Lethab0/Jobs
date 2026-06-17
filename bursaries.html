@@ -144,7 +144,7 @@
             border: 1px solid var(--border);
         }
 
-        .nav-back-btn {
+        .nav-back-btn, .nav-home-link {
             background: transparent;
             border: 1px solid var(--border);
             padding: 0.5rem 1rem;
@@ -152,10 +152,12 @@
             cursor: pointer;
             font-weight: 600;
             color: var(--text);
+            text-decoration: none;
+            display: inline-block;
             transition: all 0.2s;
         }
 
-        .nav-back-btn:hover {
+        .nav-back-btn:hover, .nav-home-link:hover {
             background: var(--accent);
         }
 
@@ -310,7 +312,7 @@
         <div class="top-navbar">
             <button class="nav-back-btn" onclick="backToViewChoice()">← Change View Mode</button>
             <div class="current-view-badge" id="currentViewBadge"></div>
-            <button class="nav-back-btn" onclick="resetToFaculties()">Home (Faculties)</button>
+            <a href="https://stemclub.co.za" class="nav-home-link">Home (Stem Club)</a>
         </div>
 
         <div id="calendarLayout" class="calendar-layout"></div>
