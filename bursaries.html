@@ -1,603 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Blue Calendar</title>
-  <style>
-    /* ----- reset & base ----- */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bursary Hub Portal</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+            --accent: #f1f5f9;
+        }
 
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
-      background: #f0f4f8;
-    }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    /* ----- light mode (default) ----- */
-    .calendar-app {
-      --bg-surface: #ffffff;
-      --bg-header: #eef2f7;
-      --bg-card: #ffffff;
-      --text-primary: #0b1a2e;
-      --text-secondary: #1f3a5f;
-      --text-muted: #3e5a7a;
-      --border-subtle: #dce3ed;
-      --shadow-sm: 0 8px 20px rgba(0, 20, 40, 0.06);
-      --shadow-hover: 0 12px 28px rgba(0, 20, 40, 0.10);
-      --accent: #1a3b6b;
-      --accent-light: #e5edf8;
-      --accent-text: #ffffff;
-      --toggle-bg: #d0d9e6;
-      --toggle-dot: #ffffff;
-      --event-dot: #1a3b6b;
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
 
-      background: var(--bg-surface);
-      border-radius: 2rem;
-      padding: 2rem 1.8rem;
-      max-width: 1000px;
-      width: 100%;
-      box-shadow: var(--shadow-sm);
-      border: 1px solid var(--border-subtle);
-    }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-    /* ----- dark mode (dark blue theme) ----- */
-    .calendar-app.dark {
-      --bg-surface: #0b1a2e;
-      --bg-header: #122b44;
-      --bg-card: #112b42;
-      --text-primary: #e6edf5;
-      --text-secondary: #b6cce3;
-      --text-muted: #8aa3bf;
-      --border-subtle: #1e3a57;
-      --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.5);
-      --shadow-hover: 0 12px 28px rgba(0, 0, 0, 0.7);
-      --accent: #3b7bb7;
-      --accent-light: #1d3b5a;
-      --accent-text: #ffffff;
-      --toggle-bg: #2a4b6e;
-      --toggle-dot: #b6d4f0;
-      --event-dot: #6ea8e0;
-    }
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
 
-    /* ----- layout & components ----- */
-    .app-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.2rem;
-      margin-bottom: 2rem;
-    }
+        header h1 {
+            color: #0f172a;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-    .app-header h1 {
-      font-size: 1.9rem;
-      font-weight: 600;
-      color: var(--text-primary);
-      letter-spacing: -0.01em;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
+        header p {
+            color: var(--text-light);
+        }
 
-    .app-header h1 span {
-      background: var(--accent);
-      color: var(--accent-text);
-      font-size: 1rem;
-      padding: 0.2rem 0.8rem;
-      border-radius: 30px;
-      margin-left: 0.5rem;
-      font-weight: 500;
-    }
+        /* 1. Faculty Choice Grid State */
+        .faculty-section {
+            display: block;
+        }
 
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 1.2rem;
-    }
+        .faculty-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
 
-    /* toggle switch */
-    .mode-toggle {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      color: var(--text-secondary);
-      font-weight: 500;
-      font-size: 0.9rem;
-    }
+        .faculty-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.25s ease;
+        }
 
-    .toggle-track {
-      width: 52px;
-      height: 28px;
-      background: var(--toggle-bg);
-      border-radius: 40px;
-      display: flex;
-      align-items: center;
-      padding: 0 4px;
-      cursor: pointer;
-      transition: background 0.2s;
-      box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
-    }
+        .faculty-box:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
+        }
 
-    .toggle-track .dot {
-      height: 22px;
-      width: 22px;
-      background: var(--toggle-dot);
-      border-radius: 50%;
-      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
+        .faculty-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #0f172a;
+        }
 
-    .calendar-app.dark .toggle-track .dot {
-      transform: translateX(24px);
-    }
+        /* 2. View Style Selection State */
+        .view-choice-section {
+            display: none;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
 
-    /* month navigator */
-    .month-nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--bg-header);
-      padding: 0.7rem 1.2rem;
-      border-radius: 60px;
-      margin-bottom: 2rem;
-      border: 1px solid var(--border-subtle);
-    }
+        .choice-title {
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+            color: #0f172a;
+        }
 
-    .month-nav button {
-      background: transparent;
-      border: none;
-      font-size: 1.6rem;
-      cursor: pointer;
-      color: var(--text-secondary);
-      padding: 0 0.4rem;
-      line-height: 1;
-      transition: color 0.15s;
-    }
+        .choice-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
 
-    .month-nav button:hover {
-      color: var(--accent);
-    }
+        .choice-box {
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem 3rem;
+            min-width: 260px;
+            cursor: pointer;
+            font-size: 1.25rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
 
-    .month-label {
-      font-size: 1.35rem;
-      font-weight: 600;
-      color: var(--text-primary);
-      letter-spacing: 0.3px;
-    }
+        .choice-box:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            background: #f0f5ff;
+        }
 
-    /* calendar grid */
-    .weekdays {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      gap: 4px;
-      margin-bottom: 0.6rem;
-      text-align: center;
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      letter-spacing: 0.3px;
-    }
+        /* 3. Main Data Content Display View State */
+        .content-display-section {
+            display: none;
+        }
 
-    .days-grid {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      gap: 4px;
-    }
+        .top-navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            background: var(--card-bg);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            border: 1px solid var(--border);
+        }
 
-    .day-cell {
-      aspect-ratio: 1 / 1;
-      background: var(--bg-card);
-      border-radius: 16px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-weight: 500;
-      font-size: 1rem;
-      color: var(--text-primary);
-      border: 1px solid var(--border-subtle);
-      transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
-      cursor: default;
-      position: relative;
-      padding: 4px 0;
-    }
+        .nav-back-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text);
+            transition: all 0.2s;
+        }
 
-    .day-cell.other-month {
-      color: var(--text-muted);
-      opacity: 0.55;
-    }
+        .nav-back-btn:hover {
+            background: var(--accent);
+        }
 
-    .day-cell.today {
-      border-color: var(--accent);
-      background: var(--accent-light);
-      font-weight: 700;
-      color: var(--accent);
-      box-shadow: 0 0 0 1px var(--accent);
-    }
+        .current-view-badge {
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
 
-    .day-cell .day-number {
-      font-size: 1.2rem;
-      line-height: 1.2;
-    }
+        /* Layout Structure: Layout A (Calendar Monthly Grid) */
+        .calendar-layout {
+            display: none;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+        }
 
-    .day-cell .event-indicator {
-      margin-top: 2px;
-      display: flex;
-      gap: 3px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+        .month-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
 
-    .day-cell .event-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 10px;
-      background: var(--event-dot);
-      display: inline-block;
-    }
+        .month-title {
+            font-size: 1.25rem;
+            color: #0f172a;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
 
-    /* events list (below calendar) */
-    .events-section {
-      margin-top: 2.2rem;
-      background: var(--bg-header);
-      border-radius: 24px;
-      padding: 1.2rem 1.5rem;
-      border: 1px solid var(--border-subtle);
-    }
+        .calendar-item {
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            background: var(--accent);
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    .events-section h3 {
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--text-muted);
-      margin-bottom: 0.8rem;
-      font-weight: 600;
-    }
+        .calendar-item-name {
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 75%;
+        }
 
-    .event-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-    }
+        .calendar-item-day {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            background: var(--card-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 700;
+            border: 1px solid var(--border);
+        }
 
-    .event-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.5rem 0.8rem;
-      background: var(--bg-card);
-      border-radius: 40px;
-      border-left: 5px solid var(--accent);
-      color: var(--text-primary);
-      font-size: 0.95rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.02);
-    }
+        /* Layout Structure: Layout B (The Original Cards Grid Way) */
+        .original-grid-layout {
+            display: none;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
 
-    .event-item .event-date {
-      color: var(--text-muted);
-      font-size: 0.8rem;
-      font-weight: 500;
-    }
+        .bursary-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-    .empty-events {
-      color: var(--text-muted);
-      font-style: italic;
-      padding: 0.6rem 0.4rem;
-      font-size: 0.95rem;
-    }
+        .bursary-title {
+            font-size: 1.2rem;
+            color: #0f172a;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
 
-    /* responsive */
-    @media (max-width: 550px) {
-      .calendar-app { padding: 1.2rem; }
-      .app-header { flex-direction: column; align-items: stretch; }
-      .header-actions { justify-content: space-between; }
-      .month-nav { padding: 0.5rem 0.8rem; }
-      .month-label { font-size: 1.1rem; }
-      .day-cell { border-radius: 12px; }
-      .day-cell .day-number { font-size: 1rem; }
-      .events-section { padding: 1rem; }
-    }
-  </style>
+        .deadline-info {
+            font-size: 0.95rem;
+            color: #dc2626;
+            font-weight: 600;
+        }
+
+        /* General Status Panels */
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-light);
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+        }
+    </style>
 </head>
 <body>
-  <div class="calendar-app" id="app">
-    <!-- header -->
-    <div class="app-header">
-      <h1>📅 Calendar <span>dark blue</span></h1>
-      <div class="header-actions">
-        <div class="mode-toggle">
-          <span>☀️</span>
-          <div class="toggle-track" id="toggleTrack" role="button" tabindex="0" aria-label="Toggle light/dark mode">
-            <div class="dot"></div>
-          </div>
-          <span>🌙</span>
+
+<div class="container">
+    <header>
+        <h1 id="mainDisplayTitle">All Bursaries</h1>
+        <p id="mainDisplaySubtitle">Select an academic faculty stream to explore closing dates.</p>
+    </header>
+
+    <div id="facultySection" class="faculty-section">
+        <div class="faculty-grid">
+            <div class="faculty-box" data-faculty="accounting">
+                <div class="faculty-title">Accounting</div>
+            </div>
+            <div class="faculty-box" data-faculty="education">
+                <div class="faculty-title">Education</div>
+            </div>
+            <div class="faculty-box" data-faculty="engineering">
+                <div class="faculty-title">Engineering</div>
+            </div>
+            <div class="faculty-box" data-faculty="it-computer-science">
+                <div class="faculty-title">IT & Computer Science</div>
+            </div>
+            <div class="faculty-box" data-faculty="law">
+                <div class="faculty-title">Law</div>
+            </div>
+            <div class="faculty-box" data-faculty="sciences">
+                <div class="faculty-title">Sciences</div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- month navigation -->
-    <div class="month-nav">
-      <button id="prevMonth" aria-label="Previous month">‹</button>
-      <span class="month-label" id="monthLabel">June 2026</span>
-      <button id="nextMonth" aria-label="Next month">›</button>
+    <div id="viewChoiceSection" class="view-choice-section">
+        <h3 class="choice-title">Choose display format:</h3>
+        <div class="choice-grid">
+            <div class="choice-box" data-style="calendar">📅 View as Calendar</div>
+            <div class="choice-box" data-style="grid">🗂️ View as Grid (Original Way)</div>
+        </div>
+        <button class="nav-back-btn" style="margin-top: 2.5rem;" onclick="resetToFaculties()">← Back to Faculties</button>
     </div>
 
-    <!-- weekdays -->
-    <div class="weekdays">
-      <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+    <div id="contentDisplaySection" class="content-display-section">
+        <div class="top-navbar">
+            <button class="nav-back-btn" onclick="backToViewChoice()">← Change View Mode</button>
+            <div class="current-view-badge" id="currentViewBadge"></div>
+            <button class="nav-back-btn" onclick="resetToFaculties()">Home (Faculties)</button>
+        </div>
+
+        <div id="calendarLayout" class="calendar-layout"></div>
+
+        <div id="originalGridLayout" class="original-grid-layout"></div>
     </div>
+</div>
 
-    <!-- calendar grid -->
-    <div class="days-grid" id="daysGrid"></div>
+<script>
+    // Server file mappings
+    const filesToLoad = [
+        { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
+        { id: 'education', name: 'Education', url: 'education.ics' },
+        { id: 'engineering', name: 'Engineering', url: 'engineering.ics' },
+        { id: 'it-computer-science', name: 'IT & Computer Science', url: 'IT and computer science.ics' },
+        { id: 'law', name: 'Law', url: 'law.ics' },
+        { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
+    ];
 
-    <!-- events list -->
-    <div class="events-section">
-      <h3>📋 events on selected day</h3>
-      <div class="event-list" id="eventList">
-        <div class="empty-events">✨ select a day to see events</div>
-      </div>
-    </div>
-  </div>
+    const months = [
+        "January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December"
+    ];
 
-  <script>
-    (function() {
-      'use strict';
+    let allBursaries = [];
+    let selectedFacultyId = null;
+    let selectedStyle = null;
 
-      // ----- state -----
-      let currentDate = new Date();        // today
-      let selectedDate = new Date();      // selected day (same day as currentDate initially)
-      let currentMonth = currentDate.getMonth();
-      let currentYear = currentDate.getFullYear();
+    const facultyNames = {
+        'accounting': 'Accounting',
+        'education': 'Education',
+        'engineering': 'Engineering',
+        'it-computer-science': 'IT & Computer Science',
+        'law': 'Law',
+        'sciences': 'Sciences'
+    };
 
-      // sample events (static, but feel free to extend)
-      const events = [
-        { date: new Date(2026, 5, 17), title: 'Design review', type: 'meeting' },
-        { date: new Date(2026, 5, 18), title: 'Team sync', type: 'work' },
-        { date: new Date(2026, 5, 20), title: 'Project deadline', type: 'deadline' },
-        { date: new Date(2026, 5, 22), title: 'Client call', type: 'call' },
-        { date: new Date(2026, 5, 25), title: 'Workshop', type: 'workshop' },
-        { date: new Date(2026, 5, 28), title: 'Monthly report', type: 'report' },
-        { date: new Date(2026, 6, 1), title: 'New month kick-off', type: 'meeting' },
-        { date: new Date(2026, 6, 3), title: 'Holiday', type: 'holiday' },
-        { date: new Date(2026, 6, 5), title: 'Board meeting', type: 'meeting' },
-        { date: new Date(2026, 6, 7), title: 'Sprint planning', type: 'planning' },
-        { date: new Date(2026, 6, 10), title: 'Demo day', type: 'demo' },
-      ];
+    // Clean iCalendar line-unfolding parser
+    function parseICS(icsText, fileConfig) {
+        const items = [];
+        const lines = icsText.split(/\r?\n/);
+        let currentItem = null;
 
-      // ----- DOM refs -----
-      const app = document.getElementById('app');
-      const toggleTrack = document.getElementById('toggleTrack');
-      const monthLabel = document.getElementById('monthLabel');
-      const daysGrid = document.getElementById('daysGrid');
-      const eventList = document.getElementById('eventList');
-      const prevBtn = document.getElementById('prevMonth');
-      const nextBtn = document.getElementById('nextMonth');
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i];
 
-      // ----- helpers -----
-      function getEventsForDate(date) {
-        return events.filter(e => 
-          e.date.getFullYear() === date.getFullYear() &&
-          e.date.getMonth() === date.getMonth() &&
-          e.date.getDate() === date.getDate()
-        );
-      }
-
-      function formatDateKey(date) {
-        return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
-      }
-
-      // ----- render calendar -----
-      function renderCalendar() {
-        const firstDayOfMonth = new Date(currentYear, currentMonth, 1);
-        const startDayOfWeek = firstDayOfMonth.getDay(); // 0 = sunday, we want monday first
-        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
-        const daysInPrevMonth = new Date(currentYear, currentMonth, 0).getDate();
-
-        // adjust to Monday first (if startDayOfWeek === 0 -> sunday, we shift)
-        let startOffset = startDayOfWeek === 0 ? 6 : startDayOfWeek - 1; // mon=0
-
-        // month label
-        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        monthLabel.textContent = `${monthNames[currentMonth]} ${currentYear}`;
-
-        // build grid
-        let gridHtml = '';
-        const today = new Date();
-        const todayDate = today.getDate();
-        const todayMonth = today.getMonth();
-        const todayYear = today.getFullYear();
-
-        // previous month days
-        const prevMonthDays = daysInPrevMonth - startOffset + 1;
-        for (let i = 0; i < startOffset; i++) {
-          const day = prevMonthDays + i;
-          gridHtml += `<div class="day-cell other-month"><span class="day-number">${day}</span></div>`;
-        }
-
-        // current month days
-        for (let d = 1; d <= daysInMonth; d++) {
-          const dateObj = new Date(currentYear, currentMonth, d);
-          const isToday = (d === todayDate && currentMonth === todayMonth && currentYear === todayYear);
-          const isSelected = (d === selectedDate.getDate() && currentMonth === selectedDate.getMonth() && currentYear === selectedDate.getFullYear());
-          
-          const dayEvents = getEventsForDate(dateObj);
-          const hasEvents = dayEvents.length > 0;
-
-          let classes = 'day-cell';
-          if (isToday) classes += ' today';
-          if (isSelected) classes += ' selected-day'; // additional style if needed
-
-          let dotHtml = '';
-          if (hasEvents) {
-            // show up to 2 dots
-            const dots = dayEvents.slice(0, 3).map(() => '<span class="event-dot"></span>').join('');
-            dotHtml = `<div class="event-indicator">${dots}</div>`;
-          }
-
-          gridHtml += `
-            <div class="${classes}" data-day="${d}" data-month="${currentMonth}" data-year="${currentYear}">
-              <span class="day-number">${d}</span>
-              ${dotHtml}
-            </div>
-          `;
-        }
-
-        // next month days (fill remaining)
-        const totalCells = startOffset + daysInMonth;
-        const remaining = (7 - (totalCells % 7)) % 7;
-        for (let i = 1; i <= remaining; i++) {
-          gridHtml += `<div class="day-cell other-month"><span class="day-number">${i}</span></div>`;
-        }
-
-        daysGrid.innerHTML = gridHtml;
-
-        // attach click listeners to day cells (only current month)
-        document.querySelectorAll('.day-cell:not(.other-month)').forEach(cell => {
-          cell.addEventListener('click', function(e) {
-            const day = parseInt(this.dataset.day, 10);
-            const month = parseInt(this.dataset.month, 10);
-            const year = parseInt(this.dataset.year, 10);
-            const newSelected = new Date(year, month, day);
-            selectedDate = newSelected;
-            renderCalendar(); // re-render to highlight
-            renderEvents(selectedDate);
-          });
-        });
-
-        // highlight selected day visually (add extra class)
-        document.querySelectorAll('.day-cell').forEach(cell => {
-          const day = parseInt(cell.dataset.day, 10);
-          const month = parseInt(cell.dataset.month, 10);
-          const year = parseInt(cell.dataset.year, 10);
-          if (day === selectedDate.getDate() && month === selectedDate.getMonth() && year === selectedDate.getFullYear()) {
-            cell.style.boxShadow = 'inset 0 0 0 2px var(--accent)';
-            cell.style.background = 'var(--accent-light)';
-          } else {
-            // reset if not selected (but keep today style)
-            if (!cell.classList.contains('today')) {
-              cell.style.boxShadow = '';
-              cell.style.background = '';
-            } else {
-              // keep today style but override selection border if needed
-              if (day === selectedDate.getDate() && month === selectedDate.getMonth() && year === selectedDate.getFullYear()) {
-                // already selected, keep accent border
-              } else {
-                cell.style.boxShadow = '';
-              }
+            while (i + 1 < lines.length && (lines[i + 1].startsWith(' ') || lines[i + 1].startsWith('\t'))) {
+                line += lines[i + 1].substring(1);
+                i++;
             }
-          }
-        });
 
-        // render events for selected date
-        renderEvents(selectedDate);
-      }
-
-      // ----- render events list -----
-      function renderEvents(date) {
-        const dayEvents = getEventsForDate(date);
-        if (dayEvents.length === 0) {
-          eventList.innerHTML = `<div class="empty-events">📭 no events on ${date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</div>`;
-          return;
+            if (line.startsWith('BEGIN:VEVENT')) {
+                currentItem = { category: fileConfig.name, categoryId: fileConfig.id };
+            } else if (line.startsWith('END:VEVENT') && currentItem) {
+                if (currentItem.title) items.push(currentItem);
+                currentItem = null;
+            } else if (currentItem) {
+                if (line.startsWith('SUMMARY:')) {
+                    currentItem.title = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
+                } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
+                    const rawDate = line.split(':').pop().trim();
+                    if (rawDate.length >= 8) {
+                        const y = rawDate.substring(0, 4);
+                        const m = rawDate.substring(4, 6);
+                        const d = rawDate.substring(6, 8);
+                        
+                        // Parse safely into structural formatting props
+                        currentItem.day = parseInt(d, 10);
+                        currentItem.monthIndex = parseInt(m, 10) - 1; 
+                        
+                        // Generate dynamic localized text string mapping alternative view
+                        const tempDate = new Date(`${y}-${m}-${d}`);
+                        currentItem.dateStr = tempDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'long', day: 'numeric' });
+                    }
+                }
+            }
         }
+        return items;
+    }
 
-        let html = '';
-        dayEvents.forEach(ev => {
-          const dateStr = ev.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-          html += `
-            <div class="event-item">
-              <span>${ev.title}</span>
-              <span class="event-date">${dateStr}</span>
-            </div>
-          `;
-        });
-        eventList.innerHTML = html;
-      }
-
-      // ----- navigation -----
-      function changeMonth(delta) {
-        currentMonth += delta;
-        if (currentMonth < 0) {
-          currentMonth = 11;
-          currentYear--;
-        } else if (currentMonth > 11) {
-          currentMonth = 0;
-          currentYear++;
-        }
-        // keep selected date in same month if possible, else fallback to 1st
-        const maxDay = new Date(currentYear, currentMonth + 1, 0).getDate();
-        const newDay = Math.min(selectedDate.getDate(), maxDay);
-        selectedDate = new Date(currentYear, currentMonth, newDay);
-        renderCalendar();
-      }
-
-      prevBtn.addEventListener('click', () => changeMonth(-1));
-      nextBtn.addEventListener('click', () => changeMonth(1));
-
-      // ----- dark/light mode toggle with cache (localStorage) -----
-      function setMode(mode) {
-        if (mode === 'dark') {
-          app.classList.add('dark');
-        } else {
-          app.classList.remove('dark');
-        }
+    // Direct fetch workflow sequence from target directories
+    async function preloadProductionData() {
         try {
-          localStorage.setItem('calendar-mode', mode);
-        } catch (e) {}
-      }
+            const loadPromises = filesToLoad.map(async (file) => {
+                try {
+                    const response = await fetch(file.url);
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    const text = await response.text();
+                    return parseICS(text, file);
+                } catch (err) {
+                    console.warn(`File stream skipped or unreachable: ${file.url}`);
+                    return [];
+                }
+            });
 
-      function getStoredMode() {
-        try {
-          return localStorage.getItem('calendar-mode') || 'light';
+            const results = await Promise.all(loadPromises);
+            allBursaries = results.flat();
         } catch (e) {
-          return 'light';
+            console.error("Critical directory read failure.", e);
         }
-      }
+    }
 
-      function toggleMode() {
-        const isDark = app.classList.contains('dark');
-        setMode(isDark ? 'light' : 'dark');
-      }
+    function handleFacultySelect(facultyId) {
+        selectedFacultyId = facultyId;
+        document.getElementById('mainDisplayTitle').innerText = facultyNames[facultyId];
+        document.getElementById('mainDisplaySubtitle').style.display = 'none';
+        document.getElementById('facultySection').style.display = 'none';
+        document.getElementById('viewChoiceSection').style.display = 'block';
+    }
 
-      toggleTrack.addEventListener('click', toggleMode);
-      toggleTrack.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          toggleMode();
+    function handleStyleSelect(style) {
+        selectedStyle = style;
+        document.getElementById('viewChoiceSection').style.display = 'none';
+        document.getElementById('contentDisplaySection').style.display = 'block';
+        renderDataView();
+    }
+
+    function renderDataView() {
+        const targetFacultyItems = allBursaries.filter(b => b.categoryId === selectedFacultyId);
+        const badge = document.getElementById('currentViewBadge');
+        const calLayout = document.getElementById('calendarLayout');
+        const gridLayout = document.getElementById('originalGridLayout');
+        
+        calLayout.style.display = 'none';
+        gridLayout.style.display = 'none';
+
+        if (selectedStyle === 'calendar') {
+            badge.innerText = "Layout Mode: Calendar";
+            calLayout.style.display = 'grid';
+            renderCalendarLayout(targetFacultyItems);
+        } else {
+            badge.innerText = "Layout Mode: Original Grid";
+            gridLayout.style.display = 'grid';
+            renderOriginalGridLayout(targetFacultyItems);
         }
-      });
+    }
 
-      // initialise mode from cache
-      const stored = getStoredMode();
-      if (stored === 'dark') {
-        app.classList.add('dark');
-      } else {
-        app.classList.remove('dark');
-      }
+    function renderCalendarLayout(items) {
+        const container = document.getElementById('calendarLayout');
+        container.innerHTML = '';
 
-      // ----- initial render -----
-      // set selected date to today
-      selectedDate = new Date(currentYear, currentMonth, currentDate.getDate());
-      renderCalendar();
+        if (items.length === 0) {
+            container.innerHTML = '<div class="no-results">No schedules parsed for this stream.</div>';
+            return;
+        }
 
-      // if today has events, show them; otherwise renderEvents will show empty
-      renderEvents(selectedDate);
+        const monthlyGroups = Array.from({ length: 12 }, () => []);
+        items.forEach(item => {
+            if (item.monthIndex >= 0 && item.monthIndex < 12) {
+                monthlyGroups[item.monthIndex].push(item);
+            }
+        });
 
-      // re-render on resize just for safety (no-op)
-      window.addEventListener('resize', () => {});
+        monthlyGroups.forEach((monthItems, index) => {
+            if (monthItems.length === 0) return;
 
-      // if user clicks on a day, we re-render in the listener above.
-      // ensure selected date is highlighted after navigation.
-    })();
-  </script>
+            const monthCard = document.createElement('div');
+            monthCard.className = 'month-card';
+            
+            let itemsHTML = '';
+            monthItems.sort((a,b) => a.day - b.day);
+            monthItems.forEach(item => {
+                itemsHTML += `
+                    <div class="calendar-item">
+                        <span class="calendar-item-name">${item.title}</span>
+                        <span class="calendar-item-day">Day ${item.day}</span>
+                    </div>
+                `;
+            });
+
+            monthCard.innerHTML = `
+                <div class="month-title">${months[index]}</div>
+                <div class="month-content">${itemsHTML}</div>
+            `;
+            container.appendChild(monthCard);
+        });
+    }
+
+    function renderOriginalGridLayout(items) {
+        const container = document.getElementById('originalGridLayout');
+        container.innerHTML = '';
+
+        if (items.length === 0) {
+            container.innerHTML = '<div class="no-results">No items parsed for this stream.</div>';
+            return;
+        }
+
+        items.sort((a,b) => a.monthIndex - b.monthIndex || a.day - b.day);
+        items.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'bursary-card';
+            card.innerHTML = `
+                <h2 class="bursary-title">${item.title}</h2>
+                <div class="deadline-info">⏳ Deadline: ${item.dateStr || 'Undated'}</div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function backToViewChoice() {
+        document.getElementById('contentDisplaySection').style.display = 'none';
+        document.getElementById('viewChoiceSection').style.display = 'block';
+    }
+
+    function resetToFaculties() {
+        selectedFacultyId = null;
+        selectedStyle = null;
+        document.getElementById('mainDisplayTitle').innerText = "All Bursaries";
+        document.getElementById('mainDisplaySubtitle').style.display = 'block';
+        document.getElementById('contentDisplaySection').style.display = 'none';
+        document.getElementById('viewChoiceSection').style.display = 'none';
+        document.getElementById('facultySection').style.display = 'block';
+    }
+
+    function setupEventListeners() {
+        document.querySelectorAll('.faculty-box').forEach(box => {
+            box.addEventListener('click', () => handleFacultySelect(box.getAttribute('data-faculty')));
+        });
+
+        document.querySelectorAll('.choice-box').forEach(box => {
+            box.addEventListener('click', () => handleStyleSelect(box.getAttribute('data-style')));
+        });
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+        setupEventListeners();
+        await preloadProductionData();
+    });
+</script>
 </body>
 </html>
