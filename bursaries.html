@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+    </script>
     <title>Bursary Hub Portal</title>
     <style>
         :root {
@@ -289,8 +289,10 @@
     </style>
 </head>
 <body>
+
 <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-1486635931470536">
+        data-ad-client="ca-pub-1486635931470536"
+        layout="nodisplay">
 </amp-auto-ads>
 
 <div class="container">
@@ -301,7 +303,6 @@
 
     <div id="facultySection" class="faculty-section">
         <div class="faculty-grid">
-            <!-- Home portal option integrated as the first grid element -->
             <a href="https://stemclub.co.za" class="home-box">
                 <div class="home-title">🏠 Home (Stem Club)</div>
             </a>
@@ -343,13 +344,11 @@
         </div>
 
         <div id="calendarLayout" class="calendar-layout"></div>
-
         <div id="originalGridLayout" class="original-grid-layout"></div>
     </div>
 </div>
 
 <script>
-    // Server file mappings
     const filesToLoad = [
         { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
         { id: 'education', name: 'Education', url: 'education.ics' },
@@ -377,7 +376,6 @@
         'sciences': 'Sciences'
     };
 
-    // Clean iCalendar line-unfolding parser
     function parseICS(icsText, fileConfig) {
         const items = [];
         const lines = icsText.split(/\r?\n/);
@@ -406,11 +404,9 @@
                         const m = rawDate.substring(4, 6);
                         const d = rawDate.substring(6, 8);
                         
-                        // Parse safely into structural formatting props
                         currentItem.day = parseInt(d, 10);
                         currentItem.monthIndex = parseInt(m, 10) - 1; 
                         
-                        // Generate dynamic localized text string mapping alternative view
                         const tempDate = new Date(`${y}-${m}-${d}`);
                         currentItem.dateStr = tempDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'long', day: 'numeric' });
                     }
@@ -420,7 +416,6 @@
         return items;
     }
 
-    // Direct fetch workflow sequence from target directories
     async function preloadProductionData() {
         try {
             const loadPromises = filesToLoad.map(async (file) => {
