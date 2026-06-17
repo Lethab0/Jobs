@@ -1,386 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bursary Finder & Navigator</title>
-    <style>
-        :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --bg: #f8fafc;
-            --card-bg: #ffffff;
-            --text: #1e293b;
-            --text-light: #64748b;
-            --border: #e2e8f0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Blue Calendar</title>
+  <style>
+    /* ----- reset & base ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      background: #f0f4f8;
+    }
 
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            padding: 2rem 1rem;
-            line-height: 1.5;
-        }
+    /* ----- light mode (default) ----- */
+    .calendar-app {
+      --bg-surface: #ffffff;
+      --bg-header: #eef2f7;
+      --bg-card: #ffffff;
+      --text-primary: #0b1a2e;
+      --text-secondary: #1f3a5f;
+      --text-muted: #3e5a7a;
+      --border-subtle: #dce3ed;
+      --shadow-sm: 0 8px 20px rgba(0, 20, 40, 0.06);
+      --shadow-hover: 0 12px 28px rgba(0, 20, 40, 0.10);
+      --accent: #1a3b6b;
+      --accent-light: #e5edf8;
+      --accent-text: #ffffff;
+      --toggle-bg: #d0d9e6;
+      --toggle-dot: #ffffff;
+      --event-dot: #1a3b6b;
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-        }
+      background: var(--bg-surface);
+      border-radius: 2rem;
+      padding: 2rem 1.8rem;
+      max-width: 1000px;
+      width: 100%;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-subtle);
+    }
 
-        header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
+    /* ----- dark mode (dark blue theme) ----- */
+    .calendar-app.dark {
+      --bg-surface: #0b1a2e;
+      --bg-header: #122b44;
+      --bg-card: #112b42;
+      --text-primary: #e6edf5;
+      --text-secondary: #b6cce3;
+      --text-muted: #8aa3bf;
+      --border-subtle: #1e3a57;
+      --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.5);
+      --shadow-hover: 0 12px 28px rgba(0, 0, 0, 0.7);
+      --accent: #3b7bb7;
+      --accent-light: #1d3b5a;
+      --accent-text: #ffffff;
+      --toggle-bg: #2a4b6e;
+      --toggle-dot: #b6d4f0;
+      --event-dot: #6ea8e0;
+    }
 
-        header h1 {
-            color: #0f172a;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
+    /* ----- layout & components ----- */
+    .app-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin-bottom: 2rem;
+    }
 
-        header p {
-            color: var(--text-light);
-        }
+    .app-header h1 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
 
-        /* Controls / Navigation Panel */
-        .controls {
-            background: var(--card-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            margin-bottom: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            align-items: center;
-        }
+    .app-header h1 span {
+      background: var(--accent);
+      color: var(--accent-text);
+      font-size: 1rem;
+      padding: 0.2rem 0.8rem;
+      border-radius: 30px;
+      margin-left: 0.5rem;
+      font-weight: 500;
+    }
 
-        .search-box {
-            flex: 1;
-            min-width: 250px;
-        }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
 
-        .filter-tabs {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
+    /* toggle switch */
+    .mode-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
 
-        input[type="text"] {
-            width: 100%;
-            padding: 0.75rem 1rem;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            font-size: 1rem;
-            outline: none;
-            transition: border-color 0.2s;
-        }
+    .toggle-track {
+      width: 52px;
+      height: 28px;
+      background: var(--toggle-bg);
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    }
 
-        input[type="text"]:focus {
-            border-color: var(--primary);
-        }
+    .toggle-track .dot {
+      height: 22px;
+      width: 22px;
+      background: var(--toggle-dot);
+      border-radius: 50%;
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
 
-        .tab-btn {
-            background: #f1f5f9;
-            border: 1px solid var(--border);
-            padding: 0.6rem 1.2rem;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 500;
-            color: var(--text-light);
-            transition: all 0.2s;
-        }
+    .calendar-app.dark .toggle-track .dot {
+      transform: translateX(24px);
+    }
 
-        .tab-btn:hover {
-            background: #e2e8f0;
-            color: var(--text);
-        }
+    /* month navigator */
+    .month-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-header);
+      padding: 0.7rem 1.2rem;
+      border-radius: 60px;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border-subtle);
+    }
 
-        .tab-btn.active {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
+    .month-nav button {
+      background: transparent;
+      border: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: var(--text-secondary);
+      padding: 0 0.4rem;
+      line-height: 1;
+      transition: color 0.15s;
+    }
 
-        /* Grid Results */
-        .bursary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
-        }
+    .month-nav button:hover {
+      color: var(--accent);
+    }
 
-        .bursary-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+    .month-label {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: 0.3px;
+    }
 
-        .bursary-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-        }
+    /* calendar grid */
+    .weekdays {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      margin-bottom: 0.6rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      letter-spacing: 0.3px;
+    }
 
-        .card-header {
-            margin-bottom: 1rem;
-        }
+    .days-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+    }
 
-        .category-badge {
-            display: inline-block;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
-        }
+    .day-cell {
+      aspect-ratio: 1 / 1;
+      background: var(--bg-card);
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--text-primary);
+      border: 1px solid var(--border-subtle);
+      transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+      cursor: default;
+      position: relative;
+      padding: 4px 0;
+    }
 
-        /* Dynamic badge coloring mapping */
-        .badge-accounting { background: #fee2e2; color: #991b1b; }
-        .badge-education { background: #fef3c7; color: #92400e; }
-        .badge-engineering { background: #dcfce7; color: #166534; }
-        .badge-it-computer-science { background: #e0f2fe; color: #075985; }
-        .badge-law { background: #f3e8ff; color: #6b21a8; }
-        .badge-sciences { background: #e2e8f0; color: #334155; }
+    .day-cell.other-month {
+      color: var(--text-muted);
+      opacity: 0.55;
+    }
 
-        .bursary-title {
-            font-size: 1.2rem;
-            color: #0f172a;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
+    .day-cell.today {
+      border-color: var(--accent);
+      background: var(--accent-light);
+      font-weight: 700;
+      color: var(--accent);
+      box-shadow: 0 0 0 1px var(--accent);
+    }
 
-        .deadline-info {
-            font-size: 0.9rem;
-            color: #dc2626;
-            font-weight: 500;
-        }
+    .day-cell .day-number {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
 
-        .apply-btn {
-            display: inline-block;
-            text-align: center;
-            background: var(--primary);
-            color: white;
-            text-decoration: none;
-            padding: 0.6rem 1rem;
-            border-radius: 6px;
-            font-weight: 500;
-            margin-top: 1rem;
-            transition: background 0.2s;
-        }
+    .day-cell .event-indicator {
+      margin-top: 2px;
+      display: flex;
+      gap: 3px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
-        .apply-btn:hover {
-            background: var(--primary-hover);
-        }
+    .day-cell .event-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 10px;
+      background: var(--event-dot);
+      display: inline-block;
+    }
 
-        .no-results {
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 3rem;
-            color: var(--text-light);
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px dashed var(--border);
-        }
+    /* events list (below calendar) */
+    .events-section {
+      margin-top: 2.2rem;
+      background: var(--bg-header);
+      border-radius: 24px;
+      padding: 1.2rem 1.5rem;
+      border: 1px solid var(--border-subtle);
+    }
 
-        .loading {
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 3rem;
-            font-size: 1.2rem;
-            color: var(--primary);
-            font-weight: 500;
-        }
-    </style>
+    .events-section h3 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .event-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0.8rem;
+      background: var(--bg-card);
+      border-radius: 40px;
+      border-left: 5px solid var(--accent);
+      color: var(--text-primary);
+      font-size: 0.95rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+    }
+
+    .event-item .event-date {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .empty-events {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 0.6rem 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    /* responsive */
+    @media (max-width: 550px) {
+      .calendar-app { padding: 1.2rem; }
+      .app-header { flex-direction: column; align-items: stretch; }
+      .header-actions { justify-content: space-between; }
+      .month-nav { padding: 0.5rem 0.8rem; }
+      .month-label { font-size: 1.1rem; }
+      .day-cell { border-radius: 12px; }
+      .day-cell .day-number { font-size: 1rem; }
+      .events-section { padding: 1rem; }
+    }
+  </style>
 </head>
 <body>
-
-<div class="container">
-    <header>
-        <h1>Bursary Portal</h1>
-        <p>Select your course field or search below to find active bursary opportunities.</p>
-    </header>
-
-    <div class="controls">
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search by bursary name...">
+  <div class="calendar-app" id="app">
+    <!-- header -->
+    <div class="app-header">
+      <h1>📅 Calendar <span>dark blue</span></h1>
+      <div class="header-actions">
+        <div class="mode-toggle">
+          <span>☀️</span>
+          <div class="toggle-track" id="toggleTrack" role="button" tabindex="0" aria-label="Toggle light/dark mode">
+            <div class="dot"></div>
+          </div>
+          <span>🌙</span>
         </div>
-        <div class="filter-tabs" id="filterTabs">
-            <button class="tab-btn active" data-category="all">All Courses</button>
-            <button class="tab-btn" data-category="accounting">Accounting</button>
-            <button class="tab-btn" data-category="education">Education</button>
-            <button class="tab-btn" data-category="engineering">Engineering</button>
-            <button class="tab-btn" data-category="it-computer-science">IT & CS</button>
-            <button class="tab-btn" data-category="law">Law</button>
-            <button class="tab-btn" data-category="sciences">Sciences</button>
-        </div>
+      </div>
     </div>
 
-    <div class="bursary-grid" id="bursaryGrid">
-        <div class="loading">Loading calendar configurations...</div>
+    <!-- month navigation -->
+    <div class="month-nav">
+      <button id="prevMonth" aria-label="Previous month">‹</button>
+      <span class="month-label" id="monthLabel">June 2026</span>
+      <button id="nextMonth" aria-label="Next month">›</button>
     </div>
-</div>
 
-<script>
-    // Configuration array referencing target live folder resources
-    const filesToLoad = [
-        { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
-        { id: 'education', name: 'Education', url: 'education.ics' },
-        { id: 'engineering', name: 'Engineering', url: 'engineering.ics' },
-        { id: 'it-computer-science', name: 'IT & Computer Science', url: 'IT and computer science.ics' },
-        { id: 'law', name: 'Law', url: 'law.ics' },
-        { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
-    ];
+    <!-- weekdays -->
+    <div class="weekdays">
+      <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+    </div>
 
-    let allBursaries = [];
-    let currentCategory = 'all';
+    <!-- calendar grid -->
+    <div class="days-grid" id="daysGrid"></div>
 
-    // Robust, line-unfolding iCalendar File Parser 
-    function parseICS(icsText, fileConfig) {
-        const items = [];
-        const lines = icsText.split(/\r?\n/);
-        let currentItem = null;
+    <!-- events list -->
+    <div class="events-section">
+      <h3>📋 events on selected day</h3>
+      <div class="event-list" id="eventList">
+        <div class="empty-events">✨ select a day to see events</div>
+      </div>
+    </div>
+  </div>
 
-        for (let i = 0; i < lines.length; i++) {
-            let line = lines[i];
+  <script>
+    (function() {
+      'use strict';
 
-            // Resolve folded multi-line properties
-            while (i + 1 < lines.length && (lines[i + 1].startsWith(' ') || lines[i + 1].startsWith('\t'))) {
-                line += lines[i + 1].substring(1);
-                i++;
-            }
+      // ----- state -----
+      let currentDate = new Date();        // today
+      let selectedDate = new Date();      // selected day (same day as currentDate initially)
+      let currentMonth = currentDate.getMonth();
+      let currentYear = currentDate.getFullYear();
 
-            if (line.startsWith('BEGIN:VEVENT')) {
-                currentItem = { category: fileConfig.name, categoryId: fileConfig.id };
-            } else if (line.startsWith('END:VEVENT') && currentItem) {
-                if (currentItem.title) items.push(currentItem);
-                currentItem = null;
-            } else if (currentItem) {
-                if (line.startsWith('SUMMARY:')) {
-                    currentItem.title = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/g, '').trim();
-                } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
-                    const rawDate = line.split(':').pop().trim();
-                    if (rawDate.length >= 8) {
-                        const y = rawDate.substring(0, 4);
-                        const m = rawDate.substring(4, 6);
-                        const d = rawDate.substring(6, 8);
-                        currentItem.dateStr = `${y}-${m}-${d}`;
-                        currentItem.dateObj = new Date(`${y}-${m}-${d}`);
-                    }
-                } else if (line.startsWith('DESCRIPTION:')) {
-                    let desc = line.replace('DESCRIPTION:', '').trim();
-                    const urlRegex = /(https?:\/\/[^\s]+)/g;
-                    const matches = desc.match(urlRegex);
-                    currentItem.link = matches ? matches[0] : '#';
-                }
-            }
+      // sample events (static, but feel free to extend)
+      const events = [
+        { date: new Date(2026, 5, 17), title: 'Design review', type: 'meeting' },
+        { date: new Date(2026, 5, 18), title: 'Team sync', type: 'work' },
+        { date: new Date(2026, 5, 20), title: 'Project deadline', type: 'deadline' },
+        { date: new Date(2026, 5, 22), title: 'Client call', type: 'call' },
+        { date: new Date(2026, 5, 25), title: 'Workshop', type: 'workshop' },
+        { date: new Date(2026, 5, 28), title: 'Monthly report', type: 'report' },
+        { date: new Date(2026, 6, 1), title: 'New month kick-off', type: 'meeting' },
+        { date: new Date(2026, 6, 3), title: 'Holiday', type: 'holiday' },
+        { date: new Date(2026, 6, 5), title: 'Board meeting', type: 'meeting' },
+        { date: new Date(2026, 6, 7), title: 'Sprint planning', type: 'planning' },
+        { date: new Date(2026, 6, 10), title: 'Demo day', type: 'demo' },
+      ];
+
+      // ----- DOM refs -----
+      const app = document.getElementById('app');
+      const toggleTrack = document.getElementById('toggleTrack');
+      const monthLabel = document.getElementById('monthLabel');
+      const daysGrid = document.getElementById('daysGrid');
+      const eventList = document.getElementById('eventList');
+      const prevBtn = document.getElementById('prevMonth');
+      const nextBtn = document.getElementById('nextMonth');
+
+      // ----- helpers -----
+      function getEventsForDate(date) {
+        return events.filter(e => 
+          e.date.getFullYear() === date.getFullYear() &&
+          e.date.getMonth() === date.getMonth() &&
+          e.date.getDate() === date.getDate()
+        );
+      }
+
+      function formatDateKey(date) {
+        return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
+      }
+
+      // ----- render calendar -----
+      function renderCalendar() {
+        const firstDayOfMonth = new Date(currentYear, currentMonth, 1);
+        const startDayOfWeek = firstDayOfMonth.getDay(); // 0 = sunday, we want monday first
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const daysInPrevMonth = new Date(currentYear, currentMonth, 0).getDate();
+
+        // adjust to Monday first (if startDayOfWeek === 0 -> sunday, we shift)
+        let startOffset = startDayOfWeek === 0 ? 6 : startDayOfWeek - 1; // mon=0
+
+        // month label
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        monthLabel.textContent = `${monthNames[currentMonth]} ${currentYear}`;
+
+        // build grid
+        let gridHtml = '';
+        const today = new Date();
+        const todayDate = today.getDate();
+        const todayMonth = today.getMonth();
+        const todayYear = today.getFullYear();
+
+        // previous month days
+        const prevMonthDays = daysInPrevMonth - startOffset + 1;
+        for (let i = 0; i < startOffset; i++) {
+          const day = prevMonthDays + i;
+          gridHtml += `<div class="day-cell other-month"><span class="day-number">${day}</span></div>`;
         }
-        return items;
-    }
 
-    // Server fetch initialization orchestration
-    async function initProductionPortal() {
-        const grid = document.getElementById('bursaryGrid');
-        
+        // current month days
+        for (let d = 1; d <= daysInMonth; d++) {
+          const dateObj = new Date(currentYear, currentMonth, d);
+          const isToday = (d === todayDate && currentMonth === todayMonth && currentYear === todayYear);
+          const isSelected = (d === selectedDate.getDate() && currentMonth === selectedDate.getMonth() && currentYear === selectedDate.getFullYear());
+          
+          const dayEvents = getEventsForDate(dateObj);
+          const hasEvents = dayEvents.length > 0;
+
+          let classes = 'day-cell';
+          if (isToday) classes += ' today';
+          if (isSelected) classes += ' selected-day'; // additional style if needed
+
+          let dotHtml = '';
+          if (hasEvents) {
+            // show up to 2 dots
+            const dots = dayEvents.slice(0, 3).map(() => '<span class="event-dot"></span>').join('');
+            dotHtml = `<div class="event-indicator">${dots}</div>`;
+          }
+
+          gridHtml += `
+            <div class="${classes}" data-day="${d}" data-month="${currentMonth}" data-year="${currentYear}">
+              <span class="day-number">${d}</span>
+              ${dotHtml}
+            </div>
+          `;
+        }
+
+        // next month days (fill remaining)
+        const totalCells = startOffset + daysInMonth;
+        const remaining = (7 - (totalCells % 7)) % 7;
+        for (let i = 1; i <= remaining; i++) {
+          gridHtml += `<div class="day-cell other-month"><span class="day-number">${i}</span></div>`;
+        }
+
+        daysGrid.innerHTML = gridHtml;
+
+        // attach click listeners to day cells (only current month)
+        document.querySelectorAll('.day-cell:not(.other-month)').forEach(cell => {
+          cell.addEventListener('click', function(e) {
+            const day = parseInt(this.dataset.day, 10);
+            const month = parseInt(this.dataset.month, 10);
+            const year = parseInt(this.dataset.year, 10);
+            const newSelected = new Date(year, month, day);
+            selectedDate = newSelected;
+            renderCalendar(); // re-render to highlight
+            renderEvents(selectedDate);
+          });
+        });
+
+        // highlight selected day visually (add extra class)
+        document.querySelectorAll('.day-cell').forEach(cell => {
+          const day = parseInt(cell.dataset.day, 10);
+          const month = parseInt(cell.dataset.month, 10);
+          const year = parseInt(cell.dataset.year, 10);
+          if (day === selectedDate.getDate() && month === selectedDate.getMonth() && year === selectedDate.getFullYear()) {
+            cell.style.boxShadow = 'inset 0 0 0 2px var(--accent)';
+            cell.style.background = 'var(--accent-light)';
+          } else {
+            // reset if not selected (but keep today style)
+            if (!cell.classList.contains('today')) {
+              cell.style.boxShadow = '';
+              cell.style.background = '';
+            } else {
+              // keep today style but override selection border if needed
+              if (day === selectedDate.getDate() && month === selectedDate.getMonth() && year === selectedDate.getFullYear()) {
+                // already selected, keep accent border
+              } else {
+                cell.style.boxShadow = '';
+              }
+            }
+          }
+        });
+
+        // render events for selected date
+        renderEvents(selectedDate);
+      }
+
+      // ----- render events list -----
+      function renderEvents(date) {
+        const dayEvents = getEventsForDate(date);
+        if (dayEvents.length === 0) {
+          eventList.innerHTML = `<div class="empty-events">📭 no events on ${date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</div>`;
+          return;
+        }
+
+        let html = '';
+        dayEvents.forEach(ev => {
+          const dateStr = ev.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+          html += `
+            <div class="event-item">
+              <span>${ev.title}</span>
+              <span class="event-date">${dateStr}</span>
+            </div>
+          `;
+        });
+        eventList.innerHTML = html;
+      }
+
+      // ----- navigation -----
+      function changeMonth(delta) {
+        currentMonth += delta;
+        if (currentMonth < 0) {
+          currentMonth = 11;
+          currentYear--;
+        } else if (currentMonth > 11) {
+          currentMonth = 0;
+          currentYear++;
+        }
+        // keep selected date in same month if possible, else fallback to 1st
+        const maxDay = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const newDay = Math.min(selectedDate.getDate(), maxDay);
+        selectedDate = new Date(currentYear, currentMonth, newDay);
+        renderCalendar();
+      }
+
+      prevBtn.addEventListener('click', () => changeMonth(-1));
+      nextBtn.addEventListener('click', () => changeMonth(1));
+
+      // ----- dark/light mode toggle with cache (localStorage) -----
+      function setMode(mode) {
+        if (mode === 'dark') {
+          app.classList.add('dark');
+        } else {
+          app.classList.remove('dark');
+        }
         try {
-            // Fetch and parse all files concurrently using Promise.all
-            const loadPromises = filesToLoad.map(async (file) => {
-                try {
-                    const response = await fetch(file.url);
-                    if (!response.ok) throw new Error(`Status ${response.status}`);
-                    const text = await response.text();
-                    return parseICS(text, file);
-                } catch (err) {
-                    console.error(`Failed to load server resource: ${file.url}`, err);
-                    return []; // Safe fallback per stream
-                }
-            });
+          localStorage.setItem('calendar-mode', mode);
+        } catch (e) {}
+      }
 
-            const results = await Promise.all(loadPromises);
-            // Merge all structural items into primary data state
-            allBursaries = results.flat();
-
-            if (allBursaries.length === 0) {
-                grid.innerHTML = '<div class="no-results">No calendar files found on the server directory.</div>';
-                return;
-            }
-
-            // Chronological sort ascending
-            allBursaries.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
-            
-            renderBursaries();
-            setupInterfaceEvents();
-
-        } catch (error) {
-            grid.innerHTML = '<div class="no-results">Critical initialization error tracking production files.</div>';
+      function getStoredMode() {
+        try {
+          return localStorage.getItem('calendar-mode') || 'light';
+        } catch (e) {
+          return 'light';
         }
-    }
+      }
 
-    function renderBursaries() {
-        const grid = document.getElementById('bursaryGrid');
-        const searchVal = document.getElementById('searchInput').value.toLowerCase();
-        
-        grid.innerHTML = '';
+      function toggleMode() {
+        const isDark = app.classList.contains('dark');
+        setMode(isDark ? 'light' : 'dark');
+      }
 
-        const filtered = allBursaries.filter(b => {
-            const matchesCategory = (currentCategory === 'all' || b.categoryId === currentCategory);
-            const matchesSearch = b.title.toLowerCase().includes(searchVal);
-            return matchesCategory && matchesSearch;
-        });
-
-        if (filtered.length === 0) {
-            grid.innerHTML = '<div class="no-results">No schedules match your current search/filter variables.</div>';
-            return;
+      toggleTrack.addEventListener('click', toggleMode);
+      toggleTrack.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleMode();
         }
+      });
 
-        filtered.forEach(b => {
-            const card = document.createElement('div');
-            card.className = 'bursary-card';
-            
-            const options = { year: 'numeric', month: 'long', day: 'numeric' };
-            const displayDate = b.dateObj ? b.dateObj.toLocaleDateString('en-ZA', options) : b.dateStr;
+      // initialise mode from cache
+      const stored = getStoredMode();
+      if (stored === 'dark') {
+        app.classList.add('dark');
+      } else {
+        app.classList.remove('dark');
+      }
 
-            card.innerHTML = `
-                <div class="card-header">
-                    <span class="category-badge badge-${b.categoryId}">${b.category}</span>
-                    <h2 class="bursary-title">${b.title}</h2>
-                    <div class="deadline-info">
-                        <span>⏳ Closing Date: ${displayDate}</span>
-                    </div>
-                </div>
-                <a href="${b.link || '#'}" target="_blank" class="apply-btn">View Application Link</a>
-            `;
-            grid.appendChild(card);
-        });
-    }
+      // ----- initial render -----
+      // set selected date to today
+      selectedDate = new Date(currentYear, currentMonth, currentDate.getDate());
+      renderCalendar();
 
-    function setupInterfaceEvents() {
-        document.getElementById('searchInput').addEventListener('input', renderBursaries);
+      // if today has events, show them; otherwise renderEvents will show empty
+      renderEvents(selectedDate);
 
-        const tabs = document.querySelectorAll('.tab-btn');
-        tabs.forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                tabs.forEach(t => t.classList.remove('active'));
-                e.target.classList.add('active');
-                currentCategory = e.target.getAttribute('data-category');
-                renderBursaries();
-            });
-        });
-    }
+      // re-render on resize just for safety (no-op)
+      window.addEventListener('resize', () => {});
 
-    window.addEventListener('DOMContentLoaded', initProductionPortal);
-</script>
+      // if user clicks on a day, we re-render in the listener above.
+      // ensure selected date is highlighted after navigation.
+    })();
+  </script>
 </body>
 </html>
