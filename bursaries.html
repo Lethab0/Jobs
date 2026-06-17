@@ -39,48 +39,18 @@
         }
 
         header {
+            text-align: center;
             margin-bottom: 2.5rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .title-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 0.5rem;
-            flex-wrap: wrap;
         }
 
         header h1 {
             color: #0f172a;
             font-size: 2.5rem;
+            margin-bottom: 0.5rem;
         }
 
         header p {
             color: var(--text-light);
-            text-align: center;
-        }
-
-        /* Home button directly next to title styling */
-        .header-home-link {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            padding: 0.4rem 0.9rem;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            color: var(--text);
-            text-decoration: none;
-            transition: all 0.2s;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-        }
-
-        .header-home-link:hover {
-            background: var(--accent);
-            border-color: var(--text-light);
         }
 
         /* 1. Faculty Choice Grid State */
@@ -95,7 +65,7 @@
             margin-top: 1rem;
         }
 
-        .faculty-box {
+        .faculty-box, .home-box {
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 12px;
@@ -104,6 +74,8 @@
             cursor: pointer;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
             transition: all 0.25s ease;
+            text-decoration: none;
+            display: block;
         }
 
         .faculty-box:hover {
@@ -112,10 +84,33 @@
             box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
         }
 
+        /* Unique visual treatment for the Home portal card */
+        .home-box {
+            border: 2px solid var(--primary);
+            background: #f0f5ff;
+        }
+
+        .home-box:hover {
+            transform: translateY(-4px);
+            background: var(--primary);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
+        }
+
+        .home-box:hover .home-title {
+            color: #ffffff;
+        }
+
         .faculty-title {
             font-size: 1.3rem;
             font-weight: 700;
             color: #0f172a;
+        }
+
+        .home-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+            transition: color 0.2s ease;
         }
 
         /* 2. View Style Selection State */
@@ -300,15 +295,16 @@
 
 <div class="container">
     <header>
-        <div class="title-container">
-            <h1 id="mainDisplayTitle">All Bursaries</h1>
-            <a href="https://stemclub.co.za" id="headerHomeBtn" class="header-home-link">Home</a>
-        </div>
+        <h1 id="mainDisplayTitle">All Bursaries</h1>
         <p id="mainDisplaySubtitle">Select an academic faculty stream to explore closing dates.</p>
     </header>
 
     <div id="facultySection" class="faculty-section">
         <div class="faculty-grid">
+            <!-- Home portal option integrated as the first grid element -->
+            <a href="https://stemclub.co.za" class="home-box">
+                <div class="home-title">🏠 Home (Stem Club)</div>
+            </a>
             <div class="faculty-box" data-faculty="accounting">
                 <div class="faculty-title">Accounting</div>
             </div>
@@ -449,7 +445,6 @@
     function handleFacultySelect(facultyId) {
         selectedFacultyId = facultyId;
         document.getElementById('mainDisplayTitle').innerText = facultyNames[facultyId];
-        document.getElementById('headerHomeBtn').style.display = 'none'; // Hide home button when in sub-menu
         document.getElementById('mainDisplaySubtitle').style.display = 'none';
         document.getElementById('facultySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'block';
@@ -553,7 +548,6 @@
         selectedFacultyId = null;
         selectedStyle = null;
         document.getElementById('mainDisplayTitle').innerText = "All Bursaries";
-        document.getElementById('headerHomeBtn').style.display = 'inline-block'; // Show home button on main screen
         document.getElementById('mainDisplaySubtitle').style.display = 'block';
         document.getElementById('contentDisplaySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'none';
