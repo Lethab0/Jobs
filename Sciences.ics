@@ -1,0 +1,4127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Engineering Bursary Deadlines
+X-WR-CALNAME:Engineering Bursary Deadlines
+TIMEZONE-ID:Africa/Johannesburg
+X-WR-TIMEZONE:Africa/Johannesburg
+BEGIN:VEVENT
+UID:a35c34eb-1b10-4956-a159-3d07a2ef1cd3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260106
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african statistical association sasa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-statistical-association-sasa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african statistical association sasa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-statistical-association-sasa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d6ce1a-f71d-4e8e-bee4-068ee1c90dbf
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260109
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:marula platinum bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/marula-platinum-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:marula platinum bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /marula-platinum-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cb60060b-767e-4dbb-afd0-67b8e040e8d6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:basf south africa trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/basf-south-africa-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:basf south africa trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /basf-south-africa-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:79a8bef3-6ef9-40b5-b975-229accdadeb0
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:basf south africa trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/basf-south-africa-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:basf south africa trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /basf-south-africa-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:80ad1ce5-42c8-430c-84fb-6072f1eb9c41
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260114
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:quantum foods bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/quantum-foods-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:quantum foods bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /quantum-foods-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e2bd02bd-fc72-4b91-bec4-4c70332e0007
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:omnia bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/omnia-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:omnia bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /omnia-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:005a7cea-5b63-4226-aa46-171117e66751
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:omnia bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/omnia-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:omnia bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /omnia-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6185eecc-5c2a-4956-8087-ac8aaf0bddf9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:astrazeneca bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/astrazeneca-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:astrazeneca bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /astrazeneca-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d659fedc-a1f0-4330-ada1-3ec5b1b892bd
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:omnia bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/omnia-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:omnia bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /omnia-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:81160174-0d90-4968-9b21-3b7836f55824
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260119
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ngodwana energy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/ngodwana-energy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ngodwana energy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /ngodwana-energy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:19c08d09-d578-49fa-8b00-e853b4728184
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260119
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ngodwana energy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/ngodwana-energy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ngodwana energy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /ngodwana-energy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:08babda2-8cae-4c78-bc15-a413289dad97
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260119
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:starke ayres bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/starke-ayres-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:starke ayres bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /starke-ayres-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:f579c320-949b-4c7c-9b30-e7f7b5ae1647
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:easypay everywhere bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/easypay-everywhere-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:easypay everywhere bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/easypay-everywhere-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0538ea5e-00f9-46ca-93e0-038aab0058d3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260127
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:east london idz bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/east-london-idz-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:east london idz bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /east-london-idz-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:42935a3d-2d60-455f-88cb-3fee80ffbc95
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:multichoice sa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/multichoice-sa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:multichoice sa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/multichoice-sa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:8b97dfe2-3f0a-4b85-92d6-e91bfc592624
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:multichoice sa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/multichoice-sa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:multichoice sa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/multichoice-sa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9e82c432-dc9c-419b-9847-aa044c3e1b41
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:african exploration mining and finance corporation aemfc bursary D
+ eadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/african-exploration-mining-and-finance-corporation-aemfc-bursar
+ y/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:african exploration mining and finance corporation aemfc bursa
+ ry Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /african-exploration-mining-and-finance-corporation-aemfc-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:95f1975f-d075-4e99-940f-79bb5bc7373b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:multichoice sa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/multichoice-sa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:multichoice sa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/multichoice-sa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:726eaa5c-81ca-4663-9281-5d2078d93ab0
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260129
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:african exploration mining and finance corporation aemfc bursary D
+ eadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/african-exploration-mining-and-finance-corporation-aemfc-bursar
+ y/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:african exploration mining and finance corporation aemfc bursa
+ ry Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /african-exploration-mining-and-finance-corporation-aemfc-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5a7bfe-ea6b-494a-8808-239d8beebf30
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sasseta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/sasseta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sasseta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/sasseta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a664cd25-cc1b-4bc1-9c8b-efffac392fa0
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:exness fintech scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/exness-fintech-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:exness fintech scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/exness-fintech-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2906ac-a00f-4c5a-b769-dd8dedcafb5b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sasseta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/sasseta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sasseta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/sasseta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cdcc0146-13b2-4cc2-99ac-7450e3e6c947
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:wesolve4x bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/wesolve4x-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:wesolve4x bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /wesolve4x-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c808c529-c070-48d4-8abc-33743dbe36a1
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:pps pioneer scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/pps-pioneer-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:pps pioneer scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /pps-pioneer-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:404779d7-7abf-45cb-8e5a-13d510e22423
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:entersekt bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/entersekt-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:entersekt bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/entersekt-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:59ca393d-6104-414d-9977-133eeb90fecc
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tech capital bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/tech-capital-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tech capital bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/tech-capital-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1a949c10-8464-485b-b0c2-a3facf447dff
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:digby wells environmental bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/digby-wells-environmental-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:digby wells environmental bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /digby-wells-environmental-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b60637-86c7-411f-b16b-d11985a50770
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:esri south africa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/esri-south-africa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:esri south africa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /esri-south-africa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:4bca6513-7095-42e8-8a90-ce9319a1caf9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ewseta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/ewseta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ewseta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /ewseta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3aee5849-7590-4d1a-b170-96986622dc6d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:food for mzansi bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/food-for-mzansi-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:food for mzansi bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /food-for-mzansi-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f8e5938-f5e3-4247-b95a-7589051c078a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:land bank bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/land-bank-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:land bank bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /land-bank-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9ed27cc2-0b5a-4de7-824d-46da209499d8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:pps pioneer scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/pps-pioneer-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:pps pioneer scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /pps-pioneer-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:a6bff408-961b-4c7d-b7fd-7b50b48bb68c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saafost bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saafost-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saafost bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saafost-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ce6dd2d1-2173-4585-a644-bb4b1f8c64ed
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saafost foundation bursary for part time students Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saafost-foundation-bursary-for-part-time-students/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saafost foundation bursary for part time students Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saafost-foundation-bursary-for-part-time-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:aa6289bc-8e54-4ca4-9539-95b7722e91fe
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saafost bursary for undergraduate students Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saafost-bursary-for-undergraduate-students/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saafost bursary for undergraduate students Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saafost-bursary-for-undergraduate-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:0444450e-0e29-42d5-94bd-0b5adb759245
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mutfsco basf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/mutfsco-basf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mutfsco basf bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /mutfsco-basf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3f9895-5714-469f-88fa-e2540af38629
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mutfsco basf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/mutfsco-basf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mutfsco basf bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /mutfsco-basf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ec04b129-d96b-482b-957f-6c112e6e587b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260216
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sita bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/sita-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sita bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/sita-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0fa49a01-4183-41f7-9607-8cd46befadf8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260217
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:garden cities bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/garden-cities-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:garden cities bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /garden-cities-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:646f610a-64af-4be6-9162-5b2b6d485dae
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:the document warehouse bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/the-document-warehouse-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:the document warehouse bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/the-document-warehouse-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9021c41d-0915-4c04-8d2b-32a8429c3faa
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260224
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:dynamics corporate consulting bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/dynamics-corporate-consulting-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:dynamics corporate consulting bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/dynamics-corporate-consulting-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc12d6d7-4044-4103-8d35-cec6c341f63f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260224
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:dynamics corporate consulting bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/dynamics-corporate-consulting-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:dynamics corporate consulting bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/dynamics-corporate-consulting-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:79b3644b-f980-4c67-bcac-628051be8fb6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260227
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saafost aubrey parsons study grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saafost-aubrey-parsons-study-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saafost aubrey parsons study grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saafost-aubrey-parsons-study-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:705fb9e6-e918-420b-b9c7-8c91fb62869a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:chieta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/chieta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:chieta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /chieta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:bf165c43-3c5f-4c80-854b-7221295caa99
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:chieta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/chieta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:chieta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /chieta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:995db296-b0b2-4cff-a915-31e72f13fa0a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:pretune sim card bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/pretune-sim-card-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:pretune sim card bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/pretune-sim-card-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:43d5c770-db02-4fa2-9254-79f950c9f8e4
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:thermo fisher scientific phambili trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/thermo-fisher-scientific-phambili-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:thermo fisher scientific phambili trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /thermo-fisher-scientific-phambili-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:081a7c7a-4046-4067-9c0d-3dd7a62241ae
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:chieta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/chieta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:chieta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /chieta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5c72b052-aea4-4aa5-a95b-020b13e959e2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:chieta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/chieta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:chieta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /chieta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a06fd6bd-47b4-4f9c-afc7-7bd4b3291226
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:pretune sim card bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/pretune-sim-card-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:pretune sim card bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/pretune-sim-card-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6b0e92e7-63fb-47cc-9b02-0db3ded05efd
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:chieta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/chieta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:chieta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /chieta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:753e1408-a9eb-40e4-aef0-139b95b93aa9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african association of botanists scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-association-of-botanists-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african association of botanists scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-association-of-botanists-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ef2bb23-7536-41d9-8ed7-881ec2470c4b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260228
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:thermo fisher scientific phambili trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/thermo-fisher-scientific-phambili-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:thermo fisher scientific phambili trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /thermo-fisher-scientific-phambili-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a6aa5eef-b872-41a4-8bfb-696525e05446
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260301
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african society for animal science sasas bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/sou
+ th-african-society-for-animal-science-sasas-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african society for animal science sasas bursary Deadlin
+ e
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/south-african
+ -society-for-animal-science-sasas-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b6eeb9af-d733-4951-acfb-e3d6bc7775fa
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260315
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mondia media bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/mondia-media-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mondia media bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/mondia-media-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d229df1c-a12e-4077-8e19-6ef9aaf19c48
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260315
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sascp bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sascp-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sascp bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sascp-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f329a1-057d-4439-8094-71159a981765
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260321
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:council for geoscience bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
+ s-south-africa/council-for-geoscience-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:council for geoscience bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
+ rica/council-for-geoscience-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ec79bd-ca2a-4d5b-85a3-cbd99e9a9886
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260331
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african nursery association bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-nursery-association-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african nursery association bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-nursery-association-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e43b9c77-5af2-4c7e-befd-507e751cb6c2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260411
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:gemalto bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/gemalto-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:gemalto bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /gemalto-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:43abb1a8-23c5-4059-8252-617b9dbc4e7d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260419
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:natasha joubert collective x asus coding bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/natasha-joubert-collective-x-asus-coding-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:natasha joubert collective x asus coding bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/natasha-joubert-collective-x-asus-coding-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0948ab97-26fe-412b-87aa-b6e5494b6f78
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260423
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:generation google scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/generation-google-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:generation google scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/generation-google-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:b490f118-3a7f-4955-854f-3348acdabf35
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260424
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:girlcodeza scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/girlcodeza-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:girlcodeza scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/girlcodeza-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:a98acdfa-6326-4515-acf6-086adee7165a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260430
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:milliman scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/milliman-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:milliman scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /milliman-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:41840115-7ad8-4f6f-9a6c-ea94bc6f53a7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260430
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:trans hex bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/trans-hex-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:trans hex bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /trans-hex-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:49c1fba3-bc64-42fc-9de2-0d4567adba5e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260506
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:isaca scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/isaca-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:isaca scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/isaca-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:c19ecef0-a77f-4c74-92dd-3451cb4f984f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260520
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:vermaak and partners pathologists bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/vermaak-and-partners-pathologists-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:vermaak and partners pathologists bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /vermaak-and-partners-pathologists-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b575eb0f-2222-4fab-86fa-7d72c635a5a9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6182b920-911d-4772-bdd0-5beb30d6cc10
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:705e6f51-f24b-47a7-861f-88ccb02d42a8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0b6cab3a-5629-4b73-b2ee-210d9e1a09d9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ea4f7e88-1467-48e8-9945-6d6adf0d107a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7c28043c-1490-4e9d-940a-d04f44e7eabb
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:226856d0-0586-4528-a529-66dd01e4e2cc
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e25470f8-ed9a-4468-84a4-c1558a869244
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c62c255f-00d6-4f59-9ef1-c6e41473a7f4
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260530
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sars bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sars-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sars bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sars-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b3e01bfb-86c5-4d81-b176-928a999b3691
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260531
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mezzanine bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/mezzanine-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mezzanine bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /mezzanine-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6e13f994-2243-4e80-a33f-07fa16155867
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260613
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:dvd quality mining bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/dvd-quality-mining-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:dvd quality mining bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /dvd-quality-mining-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfd0641-d14a-417d-8f49-c5186cc75d69
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260614
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:academy of digital arts bursaries Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/academy-of-digital-arts-bursaries/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:academy of digital arts bursaries Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/academy-of-digital-arts-bursaries/
+END:VEVENT
+BEGIN:VEVENT
+UID:fd037148-fe3a-43a1-ace5-7c389e818e7a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd4cb80-541e-4c0f-83b2-f51c8942ae0f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:27f7c15e-4941-4b2b-b91d-1ba2c611be83
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:151e388c-d1c0-4de1-9815-35b1c03b4420
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:51c13d17-a5f9-4b76-a0ab-b9adbd17d42a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:7d9ffedd-adf1-4919-83f1-5d4e33f708c9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:c58e425c-34cc-4f09-a5e7-1422fdf3e5d4
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:33a2dc8e-a780-404f-bb1f-b176feba885e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:loreal unesco for women in science south africa grant Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/lor
+ eal-unesco-for-women-in-science-south-africa-grant/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:loreal unesco for women in science south africa grant Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/loreal-unesco
+ -for-women-in-science-south-africa-grant/
+END:VEVENT
+BEGIN:VEVENT
+UID:db518159-6b7e-467e-ab38-e3d1f7da637f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260615
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:samsa south african maritime safety authority bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/samsa-south-african-maritime-safety-authority-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:samsa south african maritime safety authority bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /samsa-south-african-maritime-safety-authority-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3882c89e-e326-4f2b-9971-0be7d0877ea7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260616
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:forge academy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/forge-academy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:forge academy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/forge-academy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:2f64307f-359a-48b2-9544-f56e1b1e45e7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260630
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sanlam bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sanlam-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sanlam bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sanlam-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:f086bc30-b5fe-4d05-8c9a-3f80d1cd5102
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260728
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:alexander forbes bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/alexander-forbes-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:alexander forbes bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /alexander-forbes-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ae29b723-4d14-4be1-8f6e-e2dd13bc64e6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260730
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:heraeus bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/heraeus-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:heraeus bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /heraeus-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6c744d94-5dc0-4524-8356-5c296b525e1b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african astronomical observatory saao bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-astronomical-observatory-saao-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african astronomical observatory saao bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-astronomical-observatory-saao-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5961f9f2-6c84-45cf-9ed3-14e7b87462c0
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african astronomical observatory saao bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-astronomical-observatory-saao-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african astronomical observatory saao bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-astronomical-observatory-saao-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c9518535-ccc5-47b0-931f-bc1e1a999025
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260812
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:twk agri bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/twk-agri-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:twk agri bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /twk-agri-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:2225c21d-0c4a-427a-955b-4a2a9c460091
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:openserve bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/openserve-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:openserve bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/openserve-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:4c743a2a-3def-4c36-a9e3-bbf37a720b08
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ukzn college of agriculture engineering and science caes bursary D
+ eadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/ukzn-co
+ llege-of-agriculture-engineering-and-science-caes-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ukzn college of agriculture engineering and science caes bursa
+ ry Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/ukzn-college-of-a
+ griculture-engineering-and-science-caes-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:630f9187-ea76-404c-8d41-7c152b2f9711
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ukzn college of agriculture engineering and science caes bursary D
+ eadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/ukzn-co
+ llege-of-agriculture-engineering-and-science-caes-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ukzn college of agriculture engineering and science caes bursa
+ ry Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/ukzn-college-of-a
+ griculture-engineering-and-science-caes-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d97e2e9b-103e-4fb6-8e46-29b7e3bb73ba
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:openserve bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/openserve-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:openserve bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/openserve-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d7e8074e-bea3-44e6-b36b-3c640f3df767
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:hortgro bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/hortgro-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:hortgro bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /hortgro-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:628650fa-7775-4c60-9305-e4653d98443f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260815
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:ukzn college of agriculture engineering and science caes bursary D
+ eadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/ukzn-co
+ llege-of-agriculture-engineering-and-science-caes-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ukzn college of agriculture engineering and science caes bursa
+ ry Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/ukzn-college-of-a
+ griculture-engineering-and-science-caes-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:10c1aec5-7e2e-4482-96c5-9bdd4f62ee7d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260818
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sanparks bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sanparks-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sanparks bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sanparks-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3ccdcfca-8054-45f1-a100-0df294f619a7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260830
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:liberty life bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/liberty-life-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:liberty life bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /liberty-life-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a64b3ff6-0831-45f9-b0a1-297cda411df5
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:signa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/signa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:signa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/signa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6d95af4f-a0c7-48f1-b66f-a829f808a139
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:financial sector conduct authority fsca bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/financial-sector-conduct-authority-fsca-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:financial sector conduct authority fsca bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /financial-sector-conduct-authority-fsca-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ec8fa788-806d-445b-bc2c-c68d55d0661e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:fsca study bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/fsca-study-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:fsca study bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /fsca-study-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d6010f3d-96eb-4bed-9b78-f9e9d623a23d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:gwk ben scholtz bursary fund Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/gwk-ben-scholtz-bursary-fund/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:gwk ben scholtz bursary fund Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /gwk-ben-scholtz-bursary-fund/
+END:VEVENT
+BEGIN:VEVENT
+UID:7d8fc0b6-45c0-4ec2-99c6-739648c85be2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mmi holdings limited bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/mmi-holdings-limited-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mmi holdings limited bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /mmi-holdings-limited-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:313f79c1-b51c-4168-a092-f6ab0a86c078
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african actuaries development programme bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-actuaries-development-programme-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african actuaries development programme bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-actuaries-development-programme-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6462fc44-21f2-4b30-a027-b6b7f6c07486
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:winter cereal trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/winter-cereal-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:winter cereal trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /winter-cereal-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:54b91d02-4a17-41c9-b157-c24e5f0bb76f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260908
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:world sports betting bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/world-sports-betting-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:world sports betting bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/world-sports-betting-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:98209a6e-2d98-4a73-a7fb-eb313cf746c8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260908
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:southern farms bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/southern-farms-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:southern farms bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /southern-farms-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e840105-bcd2-43fc-a59b-41b6ca7ec684
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260915
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:citrus academy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/citrus-academy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:citrus academy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /citrus-academy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b90fa7c-581e-41b8-b736-59c7cc597afa
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260915
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:citrus academy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/citrus-academy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:citrus academy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /citrus-academy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5b226d64-3524-43de-aa52-a7b4357dbf63
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260915
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:agriseta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/agriseta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:agriseta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /agriseta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5c40e5ce-5418-4fc3-b652-7fec78860d66
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260915
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:citrus academy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/citrus-academy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:citrus academy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /citrus-academy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:10718e37-8637-491e-9aac-e2b5b0d8931f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260915
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mondi bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/mondi-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mondi bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /mondi-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:19b2ed40-0d9e-4d0b-864b-684ab6e6c9c9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260916
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:bet bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/bet-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:bet bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/bet-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3bd35bad-fa61-4941-b2ac-0b9d044aa78b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260918
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:knowbe4 women of colour in cybersecurity scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/knowbe4-women-of-colour-in-cybersecurity-scholarshi
+ p/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:knowbe4 women of colour in cybersecurity scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/knowbe4-women-of-colour-in-cybersecurity-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:7573b81d-7f29-4c28-95c2-02bb198f024a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:volkswagen group south africa vwsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/volkswagen-group-south-africa-vwsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:volkswagen group south africa vwsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/volkswagen-group-south-africa-vwsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:2f177b53-43e3-4aef-9b65-64bce2f55611
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:volkswagen group south africa vwsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/volkswagen-group-south-africa-vwsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:volkswagen group south africa vwsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/volkswagen-group-south-africa-vwsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:4a562ada-c4ce-4d41-b1f9-b6e95b66874a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:volkswagen group south africa vwsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/volkswagen-group-south-africa-vwsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:volkswagen group south africa vwsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/volkswagen-group-south-africa-vwsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:dd304870-d31a-4341-a201-4a68e56a79c3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:volkswagen group south africa vwsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/volkswagen-group-south-africa-vwsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:volkswagen group south africa vwsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/volkswagen-group-south-africa-vwsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6a2350a2-a20c-484c-a633-0c9b1eea7219
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:volkswagen group south africa vwsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/volkswagen-group-south-africa-vwsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:volkswagen group south africa vwsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/volkswagen-group-south-africa-vwsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:86bb483c-c4c6-4336-8d63-444b160f67aa
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1e79a6-4844-49bc-a08b-4c3323f158ab
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:01fed411-e960-4a0c-b8fa-cf93d2182013
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:160917cc-3589-4f94-a77c-5e42493b6db5
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:49d8a646-3311-4640-a136-898f9d019710
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9517f049-ab98-4565-a9dd-ca72f2a9ce03
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tronox bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tronox-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tronox bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tronox-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c1d3e9bb-726b-47e6-8b64-c4e9394ab4f1
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african civil aviation authority bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-civil-aviation-authority-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african civil aviation authority bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-civil-aviation-authority-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:82eac7e0-3dac-460a-a0b4-6d8f1a10416c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3711b4da-22b7-4164-9f41-0de3ca38fbae
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0bb77776-1a7d-4d35-a317-335e6e5f8d0e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:920c6ddf-1d70-40ec-ab3b-faeb7e3e552c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5aa1e5df-aa80-4a3d-a410-3f463e499306
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:56e1bdb4-53ed-437b-8f44-3f15d973bbee
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:iitpsa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/iitpsa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:iitpsa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/iitpsa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f4cc4ff-3673-4df2-b1f4-d4a00874f252
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:investec scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/investec-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:investec scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/investec-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:870e85a6-00f2-4bc7-abab-e9851c3fc2c2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:internet service providers association ispa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/internet-service-providers-association-ispa-bursary
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:internet service providers association ispa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/internet-service-providers-association-ispa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cd2aa1ca-72b3-4b11-8e16-dd6dcba7ae82
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:amsol bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/amsol-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:amsol bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /amsol-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:df1e109a-b968-4a9a-9343-922f1662c72a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:impala platinum implats bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/impala-platinum-implats-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:impala platinum implats bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /impala-platinum-implats-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b1b4d5d4-f95f-4747-a33b-7dd7edd9f05c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:metrohm sa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/metrohm-sa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:metrohm sa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /metrohm-sa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6c155226-e81a-4e83-9fae-c6e35487c126
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:old mutual actuarial bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/old-mutual-actuarial-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:old mutual actuarial bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /old-mutual-actuarial-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:41536aec-dadd-4a47-8149-6324363abed6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sacccs bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sacccs-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sacccs bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sacccs-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:bb640059-c219-492e-a337-ab3af75ef238
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:santam bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/santam-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:santam bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /santam-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e5f8ca-e3be-45c1-9885-8f0f239da455
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sasol agriculture trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sasol-agriculture-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sasol agriculture trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sasol-agriculture-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d0b1afe6-58e1-4b8d-956b-f1985af05a67
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sorghum trust scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sorghum-trust-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sorghum trust scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sorghum-trust-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b916fc2-1796-45a7-a28f-bc53eac18cce
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african civil aviation authority bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-civil-aviation-authority-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african civil aviation authority bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-civil-aviation-authority-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c18b69-f84f-4bc6-b3e8-418246479fe8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:southern african weed science society bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/southern-african-weed-science-society-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:southern african weed science society bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /southern-african-weed-science-society-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c3516fd4-855a-40f1-aae0-9bfcb97e6849
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261001
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:maize trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/maize-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:maize trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /maize-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b074238d-db8c-4b31-919a-b73adfbae040
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261001
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sa cultivar technology agency sacta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sa-cultivar-technology-agency-sacta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sa cultivar technology agency sacta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sa-cultivar-technology-agency-sacta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c29efce1-84e3-45e4-bda1-ccbaf8b2c4df
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261005
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:firstrand foundation trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/firstrand-foundation-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:firstrand foundation trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /firstrand-foundation-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e9b236e1-3b18-4541-9905-f7b6040d3ad8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261005
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:amazon bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/amazon-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:amazon bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/amazon-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:288f265e-b0cc-4939-b416-ebac828f8db2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261005
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:cisco charitable foundation trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/cisco-charitable-foundation-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:cisco charitable foundation trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/cisco-charitable-foundation-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f88499d-4cfb-49c7-8248-dab6b533d5d3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261005
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:firstrand foundation trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/firstrand-foundation-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:firstrand foundation trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /firstrand-foundation-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9eced703-32b2-4f14-8ef7-87329b6b9765
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261013
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:black management forum bmf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/black-management-forum-bmf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:black management forum bmf bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /black-management-forum-bmf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3ba70347-b9ff-42b8-a261-4f8bb3e89c8e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261013
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:black management forum bmf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/black-management-forum-bmf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:black management forum bmf bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /black-management-forum-bmf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:39749c2a-e9ef-4e79-a134-46cbc9a40e2e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261015
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tbwa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/tbwa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tbwa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/tbwa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3d2d02fc-a0ce-4122-a069-a010753a93c6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261017
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:energy mobility education trust scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/energy-mobility-education-trust-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:energy mobility education trust scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /energy-mobility-education-trust-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:f7c79806-3800-4f30-87c0-4a903eab673e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261017
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:energy mobility education trust scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/energy-mobility-education-trust-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:energy mobility education trust scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /energy-mobility-education-trust-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:d2245f32-8bae-4fd8-afc0-10bc76e4e201
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261020
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:motus mobility solutions bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/motus-mobility-solutions-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:motus mobility solutions bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/motus-mobility-solutions-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:8f7a0745-619b-404f-aa33-ae84d0e72762
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261025
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:naspers bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/naspers-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:naspers bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /naspers-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7416860f-7087-40db-9036-3c91e5c3f723
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261025
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:naspers bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/naspers-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:naspers bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /naspers-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a3eb01f2-bb75-43cf-894c-542f3aee7c2b
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261025
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tongaat hulett bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tongaat-hulett-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tongaat hulett bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tongaat-hulett-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:49f098bb-c828-40bc-a270-05570a7480dc
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261027
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sakata bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sakata-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sakata bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sakata-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1c85687a-5b34-415f-ae2c-65bf47f9a36d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261030
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:khulisa academy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/khulisa-academy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:khulisa academy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/khulisa-academy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:f0f66b49-36d9-416c-8d23-8c4b08c803e8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261030
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:women in it bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/women-in-it-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:women in it bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/women-in-it-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b581aa92-05c1-4252-b7d0-5e435537e829
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:hp inc bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/hp-inc-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:hp inc bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/hp-inc-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:641a3f1e-a559-42be-8d47-1a700c211647
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:metacom foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/metacom-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:metacom foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/metacom-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:eb516f39-6cd7-441c-ab37-dd21f2eecde3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sage bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/sage-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sage bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/sage-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:4f92046e-78fc-4b56-96b6-789fe4db8cf9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:uct department of information systems bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/uct-department-of-information-systems-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:uct department of information systems bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/uct-department-of-information-systems-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:8c59a50b-ce7b-4b21-9318-72627388a2f9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:cape wools sa bursary fund Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/cape-wools-sa-bursary-fund/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:cape wools sa bursary fund Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /cape-wools-sa-bursary-fund/
+END:VEVENT
+BEGIN:VEVENT
+UID:f39dfb68-ef55-4cb9-bf3a-4b8f0b534e1c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:corteva agriscience bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/corteva-agriscience-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:corteva agriscience bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /corteva-agriscience-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4b8a69-e4c8-4a02-b22a-2d2d70de48e8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:potato industry development trust bursaries Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/potato-industry-development-trust-bursaries/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:potato industry development trust bursaries Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /potato-industry-development-trust-bursaries/
+END:VEVENT
+BEGIN:VEVENT
+UID:6ee47173-f402-4cf6-8cfa-e67ed767f3d3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saafost bursary for matric students Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saafost-bursary-for-matric-students/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saafost bursary for matric students Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saafost-bursary-for-matric-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:e996a37b-fc72-4af2-98c3-f26e12011521
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:slr bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/slr-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:slr bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /slr-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:2cfcacc1-5eef-406e-b3a4-e9938ffe2ec2
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:soil science society of south africa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/soil-science-society-of-south-africa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:soil science society of south africa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /soil-science-society-of-south-africa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5b55f978-a317-4be5-95d8-fee67dbd114d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south africa wine bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-africa-wine-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south africa wine bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-africa-wine-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb3e0dc-b6a9-4b1a-bce8-882cde87ef5d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african table grape industry sati bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-table-grape-industry-sati-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african table grape industry sati bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-table-grape-industry-sati-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e7e7d1-67f0-4e4a-9e20-b3dce0b287bd
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:subtrop lindsey milne bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/subtrop-lindsey-milne-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:subtrop lindsey milne bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /subtrop-lindsey-milne-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:3189798b-6dc4-48f9-b58d-8ab6dad1c5f7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:subtrop saaga bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/subtrop-saaga-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:subtrop saaga bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /subtrop-saaga-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9f30a100-cb56-48be-ab89-fea4a22dd7ac
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:monocle foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/monocle-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:monocle foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /monocle-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:42c0733f-d1b8-4e77-b5fb-2e54333d4ecf
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:puma energy bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/puma-energy-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:puma energy bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /puma-energy-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ff93c1ab-b3ad-4c3e-ac1e-673cf412e8ee
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261105
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:pwc honours bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/pwc-honours-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:pwc honours bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /pwc-honours-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cccffcad-488e-4733-bc3e-d36c2c377c72
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:korbicom education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/korbicom-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:korbicom education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/korbicom-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b07dc25f-2023-4388-abcc-433c1385c968
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:kirstenbosch scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/kirstenbosch-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:kirstenbosch scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /kirstenbosch-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:74c2bf2f-74f5-4695-a64d-177d8acc37f4
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261115
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:african institute for mathematical sciences bursaries Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/african-institute-for-mathematical-sciences-bursaries/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:african institute for mathematical sciences bursaries Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /african-institute-for-mathematical-sciences-bursaries/
+END:VEVENT
+BEGIN:VEVENT
+UID:3cc41c88-0fdb-4d45-83f2-ffe17dc2b987
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:taylors halt quarry bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/taylors-halt-quarry-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:taylors halt quarry bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /taylors-halt-quarry-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:31d09b35-5072-4769-879d-c3d06f737438
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sugar industry trust fund for education sitfe bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sugar-industry-trust-fund-for-education-sitfe-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sugar industry trust fund for education sitfe bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sugar-industry-trust-fund-for-education-sitfe-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:caedef39-6342-4266-8537-b4bb8982f0e6
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:taylors halt quarry bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/taylors-halt-quarry-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:taylors halt quarry bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /taylors-halt-quarry-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:dd84c8f0-69c4-44b9-81c1-14690946d912
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:taylors halt quarry bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/taylors-halt-quarry-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:taylors halt quarry bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /taylors-halt-quarry-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cc5da526-427e-4e81-b959-2bd534787555
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:taylors halt quarry bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/taylors-halt-quarry-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:taylors halt quarry bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /taylors-halt-quarry-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:316aac13-5715-4dcc-99e3-5f2a9b868f77
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sugar industry trust fund for education sitfe bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sugar-industry-trust-fund-for-education-sitfe-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sugar industry trust fund for education sitfe bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sugar-industry-trust-fund-for-education-sitfe-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9f102d6b-6a5e-404e-a6cb-ce2d855c3885
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:taylors halt quarry bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/taylors-halt-quarry-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:taylors halt quarry bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /taylors-halt-quarry-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7933b2-5702-4f2e-ab7f-9c874e320813
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:siza water bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/siza-water-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:siza water bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /siza-water-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9725366f-8c18-4959-8544-db2003e31481
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:siza water bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/siza-water-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:siza water bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /siza-water-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1d649e65-bfe7-45f0-8af6-9185d7b171f1
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:siza water bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/siza-water-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:siza water bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /siza-water-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f42dc94-1c13-4fcf-9770-c448cbf095ea
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:siza water bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/siza-water-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:siza water bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /siza-water-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9b0e3ce0-1f14-4fda-8072-c5914b595d35
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:siza water bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/siza-water-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:siza water bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /siza-water-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5c8e5fff-53b2-4c4b-aa09-59fbf7e62326
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261128
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:xylem sa trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/xylem-sa-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:xylem sa trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /xylem-sa-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:b5a63c1f-d8a3-4cd5-933e-506cb94887c5
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:komatsu bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/komatsu-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:komatsu bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /komatsu-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5fe7a7c4-295a-4029-9f49-e774875effe3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:wiphold bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/wiphold-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:wiphold bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /wiphold-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:846fd9e2-fb95-4fc4-ae0e-45014506e07c
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:westfalia fruit bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/westfalia-fruit-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:westfalia fruit bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /westfalia-fruit-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a6446ab0-fe84-4e53-adf2-54f3639270a9
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:westfalia fruit bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/westfalia-fruit-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:westfalia fruit bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /westfalia-fruit-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:34ea90a4-3159-436c-bcec-8cbbec95b57a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:westfalia fruit bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/westfalia-fruit-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:westfalia fruit bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /westfalia-fruit-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:72c0e05b-df13-4aca-b669-076f095ff8bf
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:hwseta bursary competition Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/hwseta-bursary-competition/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:hwseta bursary competition Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /hwseta-bursary-competition/
+END:VEVENT
+BEGIN:VEVENT
+UID:b314637e-9edd-4bbb-8a2c-4efa9741320d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:komatsu bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/komatsu-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:komatsu bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /komatsu-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c3db8f8c-46d7-4858-9b83-a1482e042e69
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:westfalia fruit bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/westfalia-fruit-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:westfalia fruit bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /westfalia-fruit-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ebf9aca-7e4e-447c-8741-874f98a13b16
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:wiphold bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/wiphold-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:wiphold bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /wiphold-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c692ec1e-628a-4b8f-8124-d7372accbf5a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261205
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:saimi bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/saimi-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:saimi bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /saimi-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:29028b3a-d026-407b-9cbb-1e834f995f9e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261206
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south african landscapers institute sali bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/south-african-landscapers-institute-sali-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south african landscapers institute sali bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /south-african-landscapers-institute-sali-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:30d325d4-660c-46a6-a512-4aa747584380
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261208
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sanlam it bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/sanlam-it-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sanlam it bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/sanlam-it-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0f0f2482-81a0-42ca-a678-34a4c3b13e3a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261210
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:generation google scholarship women in gaming Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/generation-google-scholarship-women-in-gaming/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:generation google scholarship women in gaming Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/generation-google-scholarship-women-in-gaming/
+END:VEVENT
+BEGIN:VEVENT
+UID:a4c507fc-a2ef-484f-934a-e500e1e91603
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:globeleq education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/globeleq-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:globeleq education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /globeleq-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e1e689b-62b1-4cae-a4d8-475264ae8576
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:samac bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/samac-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:samac bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /samac-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0a1ed52b-2474-4be9-8cc9-ccff0ea1dcc5
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261215
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:samac bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/samac-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:samac bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /samac-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:78206fa1-f357-4ec4-97a9-bb728e86ef3e
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:waaw foundation scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/waaw-foundation-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:waaw foundation scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /waaw-foundation-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:6cc3f3f8-4ccd-4bea-b0d8-e9bd380f4bfd
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:mukuru bursary for foreign nationals Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/mukuru-bursary-for-foreign-nationals/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:mukuru bursary for foreign nationals Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/mukuru-bursary-for-foreign-nationals/
+END:VEVENT
+BEGIN:VEVENT
+UID:4341142d-c9bb-42b7-bf1e-30d03d24bb7f
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261219
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:waaw foundation scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/waaw-foundation-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:waaw foundation scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /waaw-foundation-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:545cd783-fdb5-473e-a525-5f2ec816e7d1
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261230
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:csg bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/csg-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:csg bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/csg-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:51f4de06-914d-4ad4-a795-02c6473b8f48
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261230
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:beefmaster group bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/beefmaster-group-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:beefmaster group bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /beefmaster-group-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0b6b97c4-7b3c-46f2-89c3-50725cb0050a
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261230
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:tshipi e ntle manganese mining bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/tshipi-e-ntle-manganese-mining-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:tshipi e ntle manganese mining bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /tshipi-e-ntle-manganese-mining-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:7ad3acda-b1f6-4dc4-be27-75caee50e71d
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:national research foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/national-research-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:national research foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /national-research-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:59e8a892-2ef4-4d1b-9193-c5ce014e41d3
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:national research foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/national-research-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:national research foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /national-research-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ebda88fb-1ab3-4e3f-b700-ad3156695bbd
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:national research foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/national-research-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:national research foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /national-research-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b53a970-8e34-4977-a48c-6d96b5535219
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:national research foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/national-research-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:national research foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /national-research-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0217d12a-5de5-4d93-8b53-818e581e7b81
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:thales southern africa bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/thales-southern-africa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:thales southern africa bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/thales-southern-africa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:cf8c1b7c-00f5-4f3a-8931-38e3371898c8
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:national research foundation bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/national-research-foundation-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:national research foundation bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /national-research-foundation-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:91d37026-dc31-4c30-a4ab-1f39b45e24d7
+SEQUENCE:0
+DTSTAMP:20260109T181617
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:western cape department of agriculture bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/western-cape-department-of-agriculture-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:western cape department of agriculture bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /western-cape-department-of-agriculture-bursary/
+END:VEVENT
+END:VCALENDAR

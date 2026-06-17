@@ -1,495 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-adsense-account" content="ca-pub-2755916028562913">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Find and apply for the latest bursaries and scholarships for students in South Africa">
-  <title>Available Bursaries - Comprehensive List of Student Funding Opportunities</title>
-
-  <style>
-    :root {
-      --primary-color: #003366;
-      --secondary-color: #e6f2ff;
-      --accent-color: #ff6b00;
-      --text-color: #333;
-      --light-gray: #f4f6f8;
-      --white: #ffffff;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      line-height: 1.6;
-      background-color: var(--light-gray);
-      color: var(--text-color);
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    header {
-      background-color: var(--primary-color);
-      color: var(--white);
-      padding: 20px 0;
-      margin-bottom: 30px;
-      border-radius: 8px;
-    }
-
-    .header-content {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 15px;
-    }
-
-    a.back-link {
-      display: inline-flex;
-      align-items: center;
-      margin-bottom: 15px;
-      color: var(--white);
-      text-decoration: none;
-      font-weight: bold;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 8px 12px;
-      border-radius: 4px;
-      transition: background-color 0.3s;
-    }
-
-    a.back-link:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      text-decoration: none;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 10px;
-    }
-
-    .page-description {
-      font-size: 1.1rem;
-      opacity: 0.9;
-      max-width: 800px;
-    }
-
-    .search-container {
-      margin: 25px 0;
-      background: var(--white);
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    }
-
-    #search-input {
-      width: 100%;
-      padding: 12px 15px;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-
-    .filter-options {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 15px;
-    }
-
-    .filter-btn {
-      padding: 8px 15px;
-      background: var(--secondary-color);
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      transition: all 0.3s;
-    }
-
-    .filter-btn:hover,
-    .filter-btn.active {
-      background: var(--primary-color);
-      color: var(--white);
-    }
-
-    .bursary-card {
-      background: var(--white);
-      padding: 25px;
-      margin-bottom: 20px;
-      border-left: 6px solid var(--primary-color);
-      border-radius: 8px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-    .bursary-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    .bursary-card h2 {
-      margin-top: 0;
-      color: var(--primary-color);
-      font-size: 1.5rem;
-    }
-
-    .bursary-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin: 15px 0;
-    }
-
-    .meta-item {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 0.9rem;
-    }
-
-    .meta-item i {
-      color: var(--primary-color);
-    }
-
-    .bursary-card p {
-      margin: 10px 0;
-    }
-
-    .bursary-card a {
-      display: inline-block;
-      margin-top: 15px;
-      color: var(--white);
-      background-color: var(--primary-color);
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-
-    .bursary-card a:hover {
-      background-color: #002855;
-    }
-
-    .urgent-tag {
-      background-color: var(--accent-color);
-      color: white;
-      padding: 3px 8px;
-      border-radius: 4px;
-      font-size: 0.8rem;
-      font-weight: bold;
-      margin-left: 10px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      padding: 20px;
-      color: #666;
-      font-size: 0.9rem;
-    }
-
-    /* Responsive styles */
-    @media (max-width: 768px) {
-      body {
-        padding: 15px;
-      }
-
-      h1 {
-        font-size: 1.8rem;
-      }
-
-      .bursary-card {
-        padding: 20px 15px;
-      }
-
-      .bursary-meta {
-        flex-direction: column;
-        gap: 8px;
-      }
-      
-      .ad-container {
-        margin: 20px 0;
-        padding: 10px;
-      }
-    }
-
-    /* Ad container styles */
-    .ad-container {
-      margin: 30px 0;
-      text-align: center;
-      background: var(--white);
-      padding: 15px;
-      border-radius: 8px;
-    }
-    
-    .ad-side-container {
-      margin: 20px 0;
-      text-align: center;
-      background: var(--white);
-      padding: 10px;
-      border-radius: 8px;
-      max-width: 300px;
-      float: right;
-      margin-left: 20px;
-    }
-    
-    .ad-feed-container {
-      margin: 25px 0;
-      text-align: center;
-      background: var(--white);
-      padding: 15px;
-      border-radius: 8px;
-    }
-
-    /* Loading animation */
-    .loading {
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .spinner {
-      width: 40px;
-      height: 40px;
-      border: 4px solid rgba(0, 0, 0, 0.1);
-      border-radius: 50%;
-      border-top-color: var(--primary-color);
-      animation: spin 1s ease-in-out infinite;
-    }
-
-    @keyframes spin {
-      to {
-        transform: rotate(360deg);
-      }
-    }
-    
-    .clearfix::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-  </style>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-  <header>
-    <div class="header-content">
-      <a href="index.html" class="back-link">
-        <i class="fas fa-arrow-left"></i>&nbsp;Back to Jobs
-      </a>
-      <h1>Available Bursaries & Scholarships</h1>
-      <p class="page-description">
-        Browse our comprehensive list of bursaries, scholarships, and financial aid opportunities for students in South Africa. 
-        Updated daily with new funding opportunities.
-      </p>
-    </div>
-  </header>
-
-  <!-- Ad 1: In-Feed Above -->
-  <div class="ad-feed-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-format="fluid"
-         data-ad-layout-key="-6t+ed+2i-1n-4w"
-         data-ad-client="ca-pub-2755916028562913"
-         data-ad-slot="7392603302"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <div class="search-container">
-    <input type="text" id="search-input" placeholder="Search bursaries by name, field of study, or organization...">
-    <div class="filter-options">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="closing-soon">Closing Soon</button>
-      <button class="filter-btn" data-filter="undergrad">Undergraduate</button>
-      <button class="filter-btn" data-filter="postgrad">Postgraduate</button>
-      <button class="filter-btn" data-filter="engineering">Engineering</button>
-      <button class="filter-btn" data-filter="health">Health Sciences</button>
-    </div>
-  </div>
-
-  <!-- Ad 2: Original Ad (Keeping existing) -->
-  <div class="ad-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2755916028562913"
-         data-ad-slot="6226242747"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <div id="bursary-list">
-    <!-- Loading placeholder -->
-    <div class="loading">
-      <div class="spinner"></div>
-    </div>
-  </div>
-
-  <!-- Ad 3: In-Article 
-  <div class="ad-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-layout="in-article"
-         data-ad-format="fluid"
-         data-ad-client="ca-pub-2755916028562913"
-         data-ad-slot="1561692123"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>  -->
-
-  <!-- Ad 4: Original Ad (Keeping existing) 
-  <div class="ad-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2755916028562913"
-         data-ad-slot="6226242747"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>   -->
-
-  <!-- Ad 5: Multiplex 
-  <div class="ad-container">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2755916028562913"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-format="autorelaxed"
-         data-ad-client="ca-pub-2755916028562913"
-         data-ad-slot="5668458092"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>   -->
-
-  <footer>
-    <p>&copy; 2023 Student Funding Opportunities. All rights reserved.</p>
-    <p>
-      <a href="about.html" style="color: var(--primary-color);">About Us</a> | 
-      <a href="contact.html" style="color: var(--primary-color);">Contact</a> | 
-      <a href="privacy.html" style="color: var(--primary-color);">Privacy Policy</a>
-    </p>
-  </footer>
-
-  <script src="bursaries.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const bursaryList = document.getElementById('bursary-list');
-      const searchInput = document.getElementById('search-input');
-      const filterButtons = document.querySelectorAll('.filter-btn');
-
-      // Sort bursaries by closing date (soonest first)
-      bursaries.sort((a, b) => new Date(a.closingDate) - new Date(b.closingDate));
-
-      // Display all bursaries initially
-      displayBursaries(bursaries);
-
-      // Search functionality
-      searchInput.addEventListener('input', function () {
-        const searchTerm = this.value.toLowerCase();
-        const filtered = bursaries.filter(bursary =>
-          bursary.title.toLowerCase().includes(searchTerm) ||
-          bursary.shortDescription.toLowerCase().includes(searchTerm) ||
-          (bursary.tags && bursary.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
-        );
-        displayBursaries(filtered);
-      });
-
-      // Filter functionality
-      filterButtons.forEach(button => {
-        button.addEventListener('click', function () {
-          filterButtons.forEach(btn => btn.classList.remove('active'));
-          this.classList.add('active');
-
-          const filter = this.dataset.filter;
-          let filtered = bursaries;
-
-          if (filter !== 'all') {
-            if (filter === 'closing-soon') {
-              const nextWeek = new Date();
-              nextWeek.setDate(nextWeek.getDate() + 7);
-              filtered = bursaries.filter(b => new Date(b.closingDate) <= nextWeek);
-            } else {
-              filtered = bursaries.filter(b => b.tags && b.tags.includes(filter));
-            }
-          }
-
-          displayBursaries(filtered);
-        });
-      });
-
-      function displayBursaries(bursariesToDisplay) {
-        if (bursariesToDisplay.length === 0) {
-          bursaryList.innerHTML = `
-            <div class="bursary-card">
-              <p>No bursaries match your search criteria. Please try different keywords or filters.</p>
-            </div>`;
-          return;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bursary Finder & Navigator</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
         }
 
-        bursaryList.innerHTML = '';
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-        bursariesToDisplay.forEach(bursary => {
-          const div = document.createElement('div');
-          div.className = 'bursary-card';
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
 
-          // Check if closing within 3 days
-          const closingDate = new Date(bursary.closingDate);
-          const today = new Date();
-          const timeDiff = closingDate - today;
-          const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
 
-          const urgentTag = daysDiff <= 3
-            ? `<span class="urgent-tag">Closing in ${daysDiff} day${daysDiff !== 1 ? 's' : ''}</span>`
-            : '';
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
 
-          div.innerHTML = `
-            <h2>${bursary.title} ${urgentTag}</h2>
-            <div class="bursary-meta">
-              <span class="meta-item">
-                <i class="fas fa-calendar-alt"></i>
-                <strong>Closing:</strong> ${closingDate.toLocaleDateString('en-ZA', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </span>
-              <span class="meta-item">
-                <i class="fas fa-graduation-cap"></i>
-                <strong>Level:</strong> ${bursary.level || 'Undergraduate'}
-              </span>
-              <span class="meta-item">
-                <i class="fas fa-university"></i>
-                <strong>Field:</strong> ${bursary.field || 'All fields'}
-              </span>
-              ${bursary.fundingAmount ? `
-              <span class="meta-item">
-                <i class="fas fa-money-bill-wave"></i>
-                <strong>Amount:</strong> R${bursary.fundingAmount.toLocaleString('en-ZA')}
-              </span>` : ''}
-            </div>
-            <p>${bursary.shortDescription}</p>
-            <a href="bursary.html?id=${bursary.id}">View Details & Apply</a>
-          `;
+        header h1 {
+            color: #0f172a;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-          bursaryList.appendChild(div);
+        header p {
+            color: var(--text-light);
+        }
+
+        /* Controls / Navigation Panel */
+        .controls {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .filter-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--primary);
+        }
+
+        .tab-btn {
+            background: #f1f5f9;
+            border: 1px solid var(--border);
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            color: var(--text-light);
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            background: #e2e8f0;
+            color: var(--text);
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Grid Results */
+        .bursary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .bursary-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .bursary-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+        }
+
+        .card-header {
+            margin-bottom: 1rem;
+        }
+
+        .category-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Dynamic badge coloring mapping */
+        .badge-accounting { background: #fee2e2; color: #991b1b; }
+        .badge-education { background: #fef3c7; color: #92400e; }
+        .badge-engineering { background: #dcfce7; color: #166534; }
+        .badge-it-computer-science { background: #e0f2fe; color: #075985; }
+        .badge-law { background: #f3e8ff; color: #6b21a8; }
+        .badge-sciences { background: #e2e8f0; color: #334155; }
+
+        .bursary-title {
+            font-size: 1.2rem;
+            color: #0f172a;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .deadline-info {
+            font-size: 0.9rem;
+            color: #dc2626;
+            font-weight: 500;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            text-align: center;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1rem;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+
+        .apply-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-light);
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+        }
+
+        .loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.2rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Bursary Portal</h1>
+        <p>Select your course field or search below to find active bursary opportunities.</p>
+    </header>
+
+    <div class="controls">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search by bursary name...">
+        </div>
+        <div class="filter-tabs" id="filterTabs">
+            <button class="tab-btn active" data-category="all">All Courses</button>
+            <button class="tab-btn" data-category="accounting">Accounting</button>
+            <button class="tab-btn" data-category="education">Education</button>
+            <button class="tab-btn" data-category="engineering">Engineering</button>
+            <button class="tab-btn" data-category="it-computer-science">IT & CS</button>
+            <button class="tab-btn" data-category="law">Law</button>
+            <button class="tab-btn" data-category="sciences">Sciences</button>
+        </div>
+    </div>
+
+    <div class="bursary-grid" id="bursaryGrid">
+        <div class="loading">Loading calendar configurations...</div>
+    </div>
+</div>
+
+<script>
+    // Configuration array referencing target live folder resources
+    const filesToLoad = [
+        { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
+        { id: 'education', name: 'Education', url: 'education.ics' },
+        { id: 'engineering', name: 'Engineering', url: 'engineering.ics' },
+        { id: 'it-computer-science', name: 'IT & Computer Science', url: 'IT and computer science.ics' },
+        { id: 'law', name: 'Law', url: 'law.ics' },
+        { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
+    ];
+
+    let allBursaries = [];
+    let currentCategory = 'all';
+
+    // Robust, line-unfolding iCalendar File Parser 
+    function parseICS(icsText, fileConfig) {
+        const items = [];
+        const lines = icsText.split(/\r?\n/);
+        let currentItem = null;
+
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i];
+
+            // Resolve folded multi-line properties
+            while (i + 1 < lines.length && (lines[i + 1].startsWith(' ') || lines[i + 1].startsWith('\t'))) {
+                line += lines[i + 1].substring(1);
+                i++;
+            }
+
+            if (line.startsWith('BEGIN:VEVENT')) {
+                currentItem = { category: fileConfig.name, categoryId: fileConfig.id };
+            } else if (line.startsWith('END:VEVENT') && currentItem) {
+                if (currentItem.title) items.push(currentItem);
+                currentItem = null;
+            } else if (currentItem) {
+                if (line.startsWith('SUMMARY:')) {
+                    currentItem.title = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/g, '').trim();
+                } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
+                    const rawDate = line.split(':').pop().trim();
+                    if (rawDate.length >= 8) {
+                        const y = rawDate.substring(0, 4);
+                        const m = rawDate.substring(4, 6);
+                        const d = rawDate.substring(6, 8);
+                        currentItem.dateStr = `${y}-${m}-${d}`;
+                        currentItem.dateObj = new Date(`${y}-${m}-${d}`);
+                    }
+                } else if (line.startsWith('DESCRIPTION:')) {
+                    let desc = line.replace('DESCRIPTION:', '').trim();
+                    const urlRegex = /(https?:\/\/[^\s]+)/g;
+                    const matches = desc.match(urlRegex);
+                    currentItem.link = matches ? matches[0] : '#';
+                }
+            }
+        }
+        return items;
+    }
+
+    // Server fetch initialization orchestration
+    async function initProductionPortal() {
+        const grid = document.getElementById('bursaryGrid');
+        
+        try {
+            // Fetch and parse all files concurrently using Promise.all
+            const loadPromises = filesToLoad.map(async (file) => {
+                try {
+                    const response = await fetch(file.url);
+                    if (!response.ok) throw new Error(`Status ${response.status}`);
+                    const text = await response.text();
+                    return parseICS(text, file);
+                } catch (err) {
+                    console.error(`Failed to load server resource: ${file.url}`, err);
+                    return []; // Safe fallback per stream
+                }
+            });
+
+            const results = await Promise.all(loadPromises);
+            // Merge all structural items into primary data state
+            allBursaries = results.flat();
+
+            if (allBursaries.length === 0) {
+                grid.innerHTML = '<div class="no-results">No calendar files found on the server directory.</div>';
+                return;
+            }
+
+            // Chronological sort ascending
+            allBursaries.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
+            
+            renderBursaries();
+            setupInterfaceEvents();
+
+        } catch (error) {
+            grid.innerHTML = '<div class="no-results">Critical initialization error tracking production files.</div>';
+        }
+    }
+
+    function renderBursaries() {
+        const grid = document.getElementById('bursaryGrid');
+        const searchVal = document.getElementById('searchInput').value.toLowerCase();
+        
+        grid.innerHTML = '';
+
+        const filtered = allBursaries.filter(b => {
+            const matchesCategory = (currentCategory === 'all' || b.categoryId === currentCategory);
+            const matchesSearch = b.title.toLowerCase().includes(searchVal);
+            return matchesCategory && matchesSearch;
         });
-      }
-    });
-  </script>
+
+        if (filtered.length === 0) {
+            grid.innerHTML = '<div class="no-results">No schedules match your current search/filter variables.</div>';
+            return;
+        }
+
+        filtered.forEach(b => {
+            const card = document.createElement('div');
+            card.className = 'bursary-card';
+            
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const displayDate = b.dateObj ? b.dateObj.toLocaleDateString('en-ZA', options) : b.dateStr;
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="category-badge badge-${b.categoryId}">${b.category}</span>
+                    <h2 class="bursary-title">${b.title}</h2>
+                    <div class="deadline-info">
+                        <span>⏳ Closing Date: ${displayDate}</span>
+                    </div>
+                </div>
+                <a href="${b.link || '#'}" target="_blank" class="apply-btn">View Application Link</a>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    function setupInterfaceEvents() {
+        document.getElementById('searchInput').addEventListener('input', renderBursaries);
+
+        const tabs = document.querySelectorAll('.tab-btn');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                tabs.forEach(t => t.classList.remove('active'));
+                e.target.classList.add('active');
+                currentCategory = e.target.getAttribute('data-category');
+                renderBursaries();
+            });
+        });
+    }
+
+    window.addEventListener('DOMContentLoaded', initProductionPortal);
+</script>
 </body>
 </html>

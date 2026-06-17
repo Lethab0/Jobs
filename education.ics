@@ -1,0 +1,988 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Engineering Bursary Deadlines
+X-WR-CALNAME:Engineering Bursary Deadlines
+TIMEZONE-ID:Africa/Johannesburg
+X-WR-TIMEZONE:Africa/Johannesburg
+BEGIN:VEVENT
+UID:7c57c4c0-0f68-4f87-a3a3-60617b06055f
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260126
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:the funza lushaka bursary programme south africa Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/the-funza-lushaka-bursary-programme-south-africa/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:the funza lushaka bursary programme south africa Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/the-funza-lushaka-bursary-programme-south-africa/
+END:VEVENT
+BEGIN:VEVENT
+UID:5f2a97e3-cda9-4d01-bf6a-39ba7b55f888
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260126
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:the funza lushaka bursary programme south africa Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/the-funza-lushaka-bursary-programme-south-africa/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:the funza lushaka bursary programme south africa Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/the-funza-lushaka-bursary-programme-south-africa/
+END:VEVENT
+BEGIN:VEVENT
+UID:c698b301-5681-45f2-8362-6ecb0a68040a
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:construction education and training authority ceta bursary Deadlin
+ e
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/construction-and-bui
+ lt-environment-bursaries-south-africa/construction-education-and-training-
+ authority-ceta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:construction education and training authority ceta bursary Dea
+ dline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/construction-and-built-environ
+ ment-bursaries-south-africa/construction-education-and-training-authority-
+ ceta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6a9abc92-0012-4ad8-91f6-c6638f03a553
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:construction education and training authority ceta bursary Deadlin
+ e
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/construction-and-bui
+ lt-environment-bursaries-south-africa/construction-education-and-training-
+ authority-ceta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:construction education and training authority ceta bursary Dea
+ dline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/construction-and-built-environ
+ ment-bursaries-south-africa/construction-education-and-training-authority-
+ ceta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9f3e6866-1904-4553-9d02-f5ef485d31c6
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:construction education and training authority ceta bursary Deadlin
+ e
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/construction-and-bui
+ lt-environment-bursaries-south-africa/construction-education-and-training-
+ authority-ceta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:construction education and training authority ceta bursary Dea
+ dline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/construction-and-built-environ
+ ment-bursaries-south-africa/construction-education-and-training-authority-
+ ceta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:436a0eaa-2190-4617-aaaf-ed200aa710ff
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260131
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:south deep education trust sdet bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/south-deep-education-trust-sdet-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:south deep education trust sdet bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /south-deep-education-trust-sdet-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:75da9df4-fa11-4106-a34d-cff10b9ec388
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:john davidson educational trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/john-da
+ vidson-educational-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:john davidson educational trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/john-davidson-edu
+ cational-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c5b73283-f147-473b-bd51-985198562f32
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260207
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:john davidson educational trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/john-da
+ vidson-educational-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:john davidson educational trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/john-davidson-edu
+ cational-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:873a661c-513f-4510-a7f8-c672e8765fa8
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260220
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:spes bona initiative for medical education vesalius scholarship De
+ adline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/medical-bursaries-so
+ uth-africa/spes-bona-initiative-for-medical-education-vesalius-scholarship
+ /
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:spes bona initiative for medical education vesalius scholarshi
+ p Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/medical-bursaries-south-africa
+ /spes-bona-initiative-for-medical-education-vesalius-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:3d099282-23c8-4814-accb-8bf010bf491d
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260618
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:cida empowerment trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/cida-empowerment-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:cida empowerment trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/cida-empowerment-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:c14dd142-ad60-41c4-afb7-4a4d58ec46c4
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260701
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:jb marks education trust fund bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/jb-marks-education-trust-fund-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:jb marks education trust fund bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /jb-marks-education-trust-fund-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:81987402-251e-4f47-ade6-3649ec2403e9
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260728
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:funza lushaka bursary district based Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/funza-lushaka-bursary-district-based/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:funza lushaka bursary district based Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/funza-lushaka-bursary-district-based/
+END:VEVENT
+BEGIN:VEVENT
+UID:554a0d00-7b15-42a4-8fb5-5b81334f316a
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:schauenburg education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
+ s-south-africa/schauenburg-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:schauenburg education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
+ rica/schauenburg-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:73ee159e-f47a-4fe4-9bd1-29539f90dcb8
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:schauenburg education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
+ s-south-africa/schauenburg-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:schauenburg education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
+ rica/schauenburg-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a591458b-4662-45e0-9253-6747739412f7
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:jakes gerwel fellowship bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/jakes-gerwel-fellowship-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:jakes gerwel fellowship bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/jakes-gerwel-fellowship-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:df41a63a-238d-4a03-8a42-d3c1697bdc5c
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sacee norah taylor bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/sacee-norah-taylor-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sacee norah taylor bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/sacee-norah-taylor-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:4a3e4055-0aad-47b6-b22d-e6d716979799
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:schauenburg education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
+ s-south-africa/schauenburg-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:schauenburg education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
+ rica/schauenburg-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:840a9a8a-22f0-46c7-9781-09678ef0cf11
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260731
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:africa cosmos education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/africa-cosmos-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:africa cosmos education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /africa-cosmos-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:12b63862-0b84-47a5-a129-33ba7f96ac52
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260831
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:old mutual education trust omet bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/old-mutual-education-trust-omet-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:old mutual education trust omet bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /old-mutual-education-trust-omet-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:392abb61-f579-48a2-b859-801069563d30
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260912
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:immerse education essay scholarship competition Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/immerse-education-essay-scholarship-competition/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:immerse education essay scholarship competition Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /immerse-education-essay-scholarship-competition/
+END:VEVENT
+BEGIN:VEVENT
+UID:cddafb54-33da-433e-a2c8-0d4b644c9842
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260912
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:milpark education wrseta bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/milpark
+ -education-wrseta-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:milpark education wrseta bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/milpark-education
+ -wrseta-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e8acfb77-78ce-4b7c-99ee-1b123a069922
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260914
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:margaret mcnamara education grants mmeg bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/margaret-mcnamara-education-grants-mmeg-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:margaret mcnamara education grants mmeg bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /margaret-mcnamara-education-grants-mmeg-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:e07cad78-3379-44ab-8f11-ee80efcf2fab
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:asset association for educational transformation sa bursary Deadli
+ ne
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/asset-association-for-educational-transformation-sa-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:asset association for educational transformation sa bursary De
+ adline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /asset-association-for-educational-transformation-sa-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:827bac2a-851b-4adc-996f-dc3bf5a70ccb
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20260930
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sheila brand educational trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/universities/sheila-
+ brand-educational-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sheila brand educational trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/universities/sheila-brand-educ
+ ational-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1fedde8c-2e04-49eb-b560-79970f44d89a
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261015
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:rsm education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/accounting-bursaries
+ -south-africa/rsm-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:rsm education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/accounting-bursaries-south-afr
+ ica/rsm-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:07dafcf1-6457-4271-ac91-72fafcbad8e5
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261017
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:energy mobility education trust scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/energy-mobility-education-trust-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:energy mobility education trust scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /energy-mobility-education-trust-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:acf55e6c-7e8b-4a0e-beae-fca9aa6c35db
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261017
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:energy mobility education trust scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/energy-mobility-education-trust-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:energy mobility education trust scholarship Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /energy-mobility-education-trust-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5bc460-6803-4b07-b19b-079c6bf87374
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:epilepsy south africa educational trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/epilepsy-south-africa-educational-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:epilepsy south africa educational trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /epilepsy-south-africa-educational-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:914cac78-79f8-4edc-9933-b3ed08da0840
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:neet national economic education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/neet-national-economic-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:neet national economic education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /neet-national-economic-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:5233606b-577c-4378-9f2d-5d030642bb73
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261031
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:spirit education foundation trust high school scholarship Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/spirit-education-foundation-trust-high-school-scholarship/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:spirit education foundation trust high school scholarship Dead
+ line
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /spirit-education-foundation-trust-high-school-scholarship/
+END:VEVENT
+BEGIN:VEVENT
+UID:f27dedf1-dbdb-4e19-875a-9717e7946e14
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:703cfc0f-2437-4724-b9d0-1ed73c95c6e1
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a727b32f-04d9-46f4-acd5-8a171a75429b
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d349f758-ca35-480d-ab8f-b4e06b8855ba
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1eefc607-c17e-4544-b790-ad9a2160ddae
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:18bb3804-5320-4acd-ad00-22cde9a20dd1
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:1d491003-934f-450d-989a-5c5a8e2fdc42
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab755121-477e-4b19-bca7-19a96bbd4103
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261101
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:education empowerment and development fund eedf bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/education-empowerment-and-development-fund-eedf-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:education empowerment and development fund eedf bursary Deadli
+ ne
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /education-empowerment-and-development-fund-eedf-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0245bc55-fce3-42f4-8494-656b8fb497dc
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261110
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:korbicom education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/computer-science-it-
+ bursaries-south-africa/korbicom-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:korbicom education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/computer-science-it-bursaries-
+ south-africa/korbicom-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:d9134548-7575-46eb-b57e-ba899420fd68
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261114
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:abb education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/engineering-bursarie
+ s-south-africa/abb-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:abb education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/engineering-bursaries-south-af
+ rica/abb-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:399d115e-f194-4a00-bf60-9dae21a05b94
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261116
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:advtech student teacher bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/advtech-student-teacher-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:advtech student teacher bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/advtech-student-teacher-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:a67b008d-dbdf-4dd5-8109-927657e8f663
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sugar industry trust fund for education sitfe bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sugar-industry-trust-fund-for-education-sitfe-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sugar industry trust fund for education sitfe bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sugar-industry-trust-fund-for-education-sitfe-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:f22f7322-4ad5-471d-b4e2-3fcfba2104a0
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:sugar industry trust fund for education sitfe bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/sugar-industry-trust-fund-for-education-sitfe-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:sugar industry trust fund for education sitfe bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /sugar-industry-trust-fund-for-education-sitfe-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:250c32fa-c7ad-45e9-b50b-bb49c4f369f7
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:brain jar skills development bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/education-bursaries-
+ south-africa/brain-jar-skills-development-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:brain jar skills development bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/education-bursaries-south-afri
+ ca/brain-jar-skills-development-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:071b99e7-628d-4a62-ab73-a40a2ba3e3b8
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:imfundo enhle education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/imfundo-enhle-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:imfundo enhle education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /imfundo-enhle-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ac509b8e-59f6-47bb-b2b2-f7d3b1a52da1
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261130
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:peermont education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/peermont-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:peermont education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /peermont-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:0214f34b-23a6-4e93-a86f-28b18cec9b10
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261202
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:eastern cape department of education ecdoe Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/government-bursaries
+ -south-africa/eastern-cape-department-of-education-ecdoe/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:eastern cape department of education ecdoe Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/government-bursaries-south-afr
+ ica/eastern-cape-department-of-education-ecdoe/
+END:VEVENT
+BEGIN:VEVENT
+UID:7fc3d953-2092-471e-bbf8-504b3b8541c2
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261203
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:uwc faculty of education bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/mba-postgraduate/uwc
+ -faculty-of-education-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:uwc faculty of education bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/mba-postgraduate/uwc-faculty-o
+ f-education-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:91499c5f-1653-4c7d-bcef-be02d5285bb5
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:globeleq education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/science-bursaries-so
+ uth-africa/globeleq-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:globeleq education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/science-bursaries-south-africa
+ /globeleq-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:9139dd5f-7c0d-4269-b2aa-e9d7be8a4d2f
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:cyril ramaphosa education trust cret bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/cyril-ramaphosa-education-trust-cret-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:cyril ramaphosa education trust cret bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /cyril-ramaphosa-education-trust-cret-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:6739a897-6170-4f0b-9f45-c0fda73acb04
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261213
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:cyril ramaphosa education trust cret bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/general-bursaries-so
+ uth-africa/cyril-ramaphosa-education-trust-cret-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:cyril ramaphosa education trust cret bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/general-bursaries-south-africa
+ /cyril-ramaphosa-education-trust-cret-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:13cfb283-5224-46e7-b955-419084ba105a
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:arup education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/construction-and-bui
+ lt-environment-bursaries-south-africa/arup-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:arup education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/construction-and-built-environ
+ ment-bursaries-south-africa/arup-education-trust-bursary/
+END:VEVENT
+BEGIN:VEVENT
+UID:92224eb6-e325-4f15-bb99-163b1f8b5382
+SEQUENCE:0
+DTSTAMP:20260109T183356
+DTSTART;VALUE=DATE:20261231
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:arup education trust bursary Deadline
+DESCRIPTION:Apply here: https://www.zabursaries.co.za/construction-and-bui
+ lt-environment-bursaries-south-africa/arup-education-trust-bursary/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:arup education trust bursary Deadline
+END:VALARM
+URL;VALUE=URI:https://www.zabursaries.co.za/construction-and-built-environ
+ ment-bursaries-south-africa/arup-education-trust-bursary/
+END:VEVENT
+END:VCALENDAR
