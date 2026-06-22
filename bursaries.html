@@ -442,6 +442,9 @@
         document.getElementById('mainDisplaySubtitle').style.display = 'none';
         document.getElementById('facultySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'block';
+
+        // Update the URL hash to notify Auto Ads of a virtual page view
+        window.location.hash = facultyId;
     }
 
     function handleStyleSelect(style) {
@@ -449,6 +452,9 @@
         document.getElementById('viewChoiceSection').style.display = 'none';
         document.getElementById('contentDisplaySection').style.display = 'block';
         renderDataView();
+
+        // Update URL hash with both faculty and style layout info
+        window.location.hash = `${selectedFacultyId}/${style}`;
     }
 
     function renderDataView() {
@@ -536,6 +542,9 @@
     function backToViewChoice() {
         document.getElementById('contentDisplaySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'block';
+
+        // Revert hash to just the faculty level
+        window.location.hash = selectedFacultyId;
     }
 
     function resetToFaculties() {
@@ -546,6 +555,9 @@
         document.getElementById('contentDisplaySection').style.display = 'none';
         document.getElementById('viewChoiceSection').style.display = 'none';
         document.getElementById('facultySection').style.display = 'block';
+
+        // Reset hash back to home state
+        window.location.hash = '';
     }
 
     function setupEventListeners() {
