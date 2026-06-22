@@ -346,7 +346,6 @@
     </style>
 </head>
 <body>
-    <!-- AMP Auto Ads -->
     <amp-auto-ads type="adsense"
             data-ad-client="ca-pub-1486635931470536"
             layout="nodisplay">
@@ -358,7 +357,6 @@
             <p id="pageSub">Select a faculty to explore closing dates</p>
         </header>
 
-        <!-- AdSense Ad Unit - Top Banner -->
         <div class="ads-container">
             <amp-ad width="100vw" height="90"
                 type="adsense"
@@ -370,7 +368,6 @@
             </amp-ad>
         </div>
 
-        <!-- FACULTY SELECTION -->
         <div id="facultyView">
             <div class="faculty-grid">
                 <a href="https://stemclub.co.za" class="home-card">
@@ -385,7 +382,6 @@
             </div>
         </div>
 
-        <!-- VIEW CHOICE (style selection) -->
         <div id="viewChoice" class="view-choice-section">
             <h3>📌 Choose display format</h3>
             <div class="choice-grid">
@@ -395,7 +391,6 @@
             <button class="back-btn" onclick="resetToFaculties()">← Back to Faculties</button>
         </div>
 
-        <!-- CONTENT DISPLAY -->
         <div id="contentDisplay" class="content-display">
             <div class="top-nav">
                 <button class="nav-btn" onclick="backToViewChoice()">← Change view</button>
@@ -403,7 +398,6 @@
                 <button class="nav-btn" onclick="resetToFaculties()">Back to Faculties</button>
             </div>
 
-            <!-- AdSense Ad Unit - In-feed -->
             <div class="ads-container">
                 <amp-ad width="100vw" height="90"
                     type="adsense"
@@ -415,12 +409,9 @@
                 </amp-ad>
             </div>
 
-            <!-- calendar container -->
             <div id="calendarContainer" class="calendar-grid"></div>
-            <!-- original grid container -->
             <div id="gridContainer" class="original-grid"></div>
 
-            <!-- AdSense Ad Unit - Bottom Banner -->
             <div class="ads-container">
                 <amp-ad width="100vw" height="90"
                     type="adsense"
@@ -684,9 +675,6 @@
                         handleFacultySelect(parts[0]);
                     } else if (parts.length === 2 && FACULTY_LABEL[parts[0]] && (parts[1]==='calendar'||parts[1]==='grid')) {
                         handleFacultySelect(parts[0]);
-                        // after faculty select, we need to set style and render
-                        // but handleFacultySelect only shows viewChoice, so we must simulate style select
-                        // we'll use a small timeout to let UI settle
                         setTimeout(() => {
                             if (selectedFacultyId === parts[0]) {
                                 handleStyleSelect(parts[1]);
