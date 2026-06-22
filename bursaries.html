@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
+     crossorigin="anonymous"></script>
     <title>Bursary Hub Portal</title>
     <style>
         * {
@@ -306,6 +308,25 @@
             border: 1px dashed #cbd5e1;
         }
 
+        /* AdSense container */
+        .ads-container {
+            margin: 2rem 0;
+            text-align: center;
+            min-height: 90px;
+            background: #f1f5f9;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            border: 1px dashed #cbd5e1;
+        }
+
+        .ads-container amp-ad {
+            display: block;
+        }
+
         /* utility */
         .hidden {
             display: none;
@@ -325,11 +346,29 @@
     </style>
 </head>
 <body>
+    <!-- AMP Auto Ads -->
+    <amp-auto-ads type="adsense"
+            data-ad-client="ca-pub-1486635931470536"
+            layout="nodisplay">
+    </amp-auto-ads>
+
     <div class="container">
         <header class="portal-header">
             <h1 id="pageTitle">🎓 Bursary Hub</h1>
             <p id="pageSub">Select a faculty to explore closing dates</p>
         </header>
+
+        <!-- AdSense Ad Unit - Top Banner -->
+        <div class="ads-container">
+            <amp-ad width="100vw" height="90"
+                type="adsense"
+                data-ad-client="ca-pub-1486635931470536"
+                data-ad-slot="1234567890"
+                data-auto-format="rspv"
+                data-full-width>
+                <div overflow></div>
+            </amp-ad>
+        </div>
 
         <!-- FACULTY SELECTION -->
         <div id="facultyView">
@@ -364,10 +403,34 @@
                 <button class="nav-btn" onclick="resetToFaculties()">Back to Faculties</button>
             </div>
 
+            <!-- AdSense Ad Unit - In-feed -->
+            <div class="ads-container">
+                <amp-ad width="100vw" height="90"
+                    type="adsense"
+                    data-ad-client="ca-pub-1486635931470536"
+                    data-ad-slot="0987654321"
+                    data-auto-format="rspv"
+                    data-full-width>
+                    <div overflow></div>
+                </amp-ad>
+            </div>
+
             <!-- calendar container -->
             <div id="calendarContainer" class="calendar-grid"></div>
             <!-- original grid container -->
             <div id="gridContainer" class="original-grid"></div>
+
+            <!-- AdSense Ad Unit - Bottom Banner -->
+            <div class="ads-container">
+                <amp-ad width="100vw" height="90"
+                    type="adsense"
+                    data-ad-client="ca-pub-1486635931470536"
+                    data-ad-slot="5678901234"
+                    data-auto-format="rspv"
+                    data-full-width>
+                    <div overflow></div>
+                </amp-ad>
+            </div>
         </div>
     </div>
 
