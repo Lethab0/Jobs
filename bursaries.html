@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        if (
-          window.location.hostname === "stemclub.co.za/bursaries" ||
-          window.location.hostname === "www.stemclub.co.za/bursaries"
-        ) {
-          window.location.replace("https://jobs-miy4.onrender.com/bursaries");
-        }
-      </script>
+    if (
+      window.location.hostname === "stemclub.co.za" ||
+      window.location.hostname === "www.stemclub.co.za"
+    ) {
+      if (window.location.pathname.startsWith("/bursaries")) {
+        window.location.replace("https://jobs-miy4.onrender.com/bursaries");
+      }
+    }
+</script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
      crossorigin="anonymous"></script>
     <title>Bursary Hub Portal</title>
