@@ -365,17 +365,6 @@
             <p id="pageSub">Select a faculty to explore closing dates</p>
         </header>
 
-      <!--  <div class="ads-container">
-            <amp-ad width="100vw" height="90"
-                type="adsense"
-                data-ad-client="ca-pub-1486635931470536"
-                data-ad-slot="1234567890"
-                data-auto-format="rspv"
-                data-full-width>
-                <div overflow></div>
-            </amp-ad>
-        </div>  -->
-
         <div id="facultyView">
             <div class="faculty-grid">
                 <a href="https://stemclub.co.za" class="home-card">
@@ -437,6 +426,7 @@
         (function() {
             // --------------------------------------------------------------
             // CONFIGURATION
+            // --------------------------------------------------------------
             const FACULTY_FILES = [
                 { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
                 { id: 'education', name: 'Education', url: 'education.ics' },
@@ -454,12 +444,14 @@
 
             // --------------------------------------------------------------
             // STATE
-            let allBursaries = [];                // flat array of { categoryId, category, title, day, monthIndex, dateStr }
+            // --------------------------------------------------------------
+            let allBursaries = [];
             let selectedFacultyId = null;
-            let selectedStyle = null;             // 'calendar' or 'grid'
+            let selectedStyle = null;
 
             // --------------------------------------------------------------
-            // DOM refs
+            // DOM REFS
+            // --------------------------------------------------------------
             const facultyView = document.getElementById('facultyView');
             const viewChoice = document.getElementById('viewChoice');
             const contentDisplay = document.getElementById('contentDisplay');
@@ -470,7 +462,8 @@
             const gridContainer = document.getElementById('gridContainer');
 
             // --------------------------------------------------------------
-            // PARSER
+            // ICS PARSER
+            // --------------------------------------------------------------
             function parseICS(icsText, fileConfig) {
                 const events = [];
                 const lines = icsText.split(/\r?\n/);
@@ -478,7 +471,6 @@
 
                 for (let i = 0; i < lines.length; i++) {
                     let line = lines[i];
-                    // fold continuation
                     while (i + 1 < lines.length && (lines[i+1].startsWith(' ') || lines[i+1].startsWith('\t'))) {
                         line += lines[i+1].substring(1);
                         i++;
@@ -512,6 +504,7 @@
 
             // --------------------------------------------------------------
             // DATA LOADER
+            // --------------------------------------------------------------
             async function preloadAllData() {
                 try {
                     const promises = FACULTY_FILES.map(async (file) => {
@@ -521,7 +514,6 @@
                             const txt = await resp.text();
                             return parseICS(txt, file);
                         } catch (_) {
-                            // silently skip missing files
                             return [];
                         }
                     });
@@ -533,15 +525,13 @@
             }
 
             // --------------------------------------------------------------
-            // RENDER FUNCTIONS
+            // RENDER LOGIC
+            // --------------------------------------------------------------
             function renderData() {
                 if (!selectedFacultyId || !selectedStyle) return;
                 const items = allBursaries.filter(b => b.categoryId === selectedFacultyId);
 
-                // update badge
                 viewBadge.textContent = selectedStyle === 'calendar' ? '📅 Calendar view' : '🗂️ Grid view';
-
-                // hide both containers
                 calendarContainer.style.display = 'none';
                 gridContainer.style.display = 'none';
 
@@ -561,7 +551,6 @@
                     return;
                 }
 
-                // group by month
                 const monthGroups = Array.from({ length: 12 }, () => []);
                 items.forEach(item => {
                     if (item.monthIndex !== undefined && item.monthIndex >= 0 && item.monthIndex < 12) {
@@ -613,7 +602,8 @@
             }
 
             // --------------------------------------------------------------
-            // NAVIGATION
+            // INTERNAL ROUTER ACTIONS
+            // --------------------------------------------------------------
             function handleFacultySelect(facultyId) {
                 selectedFacultyId = facultyId;
                 pageTitle.textContent = FACULTY_LABEL[facultyId] || facultyId;
@@ -621,7 +611,6 @@
                 facultyView.style.display = 'none';
                 viewChoice.style.display = 'block';
                 contentDisplay.style.display = 'none';
-                window.location.hash = facultyId;
             }
 
             function handleStyleSelect(style) {
@@ -629,70 +618,74 @@
                 viewChoice.style.display = 'none';
                 contentDisplay.style.display = 'block';
                 renderData();
-                window.location.hash = `${selectedFacultyId}/${style}`;
             }
 
+            // --------------------------------------------------------------
+            // ROUTE SYNC FROM URL HASH
+            // --------------------------------------------------------------
+            function parseAndSyncHash() {
+                const hash = window.location.hash.replace('#','');
+                if (!hash) {
+                    selectedFacultyId = null;
+                    selectedStyle = null;
+                    pageTitle.textContent = '🎓 Bursary Hub';
+                    pageSub.style.display = 'block';
+                    facultyView.style.display = 'block';
+                    viewChoice.style.display = 'none';
+                    contentDisplay.style.display = 'none';
+                } else {
+                    const parts = hash.split('/');
+                    if (parts.length === 1 && FACULTY_LABEL[parts[0]]) {
+                        handleFacultySelect(parts[0]);
+                        viewChoice.style.display = 'block';
+                        contentDisplay.style.display = 'none';
+                    } else if (parts.length === 2 && FACULTY_LABEL[parts[0]] && (parts[1] === 'calendar' || parts[1] === 'grid')) {
+                        handleFacultySelect(parts[0]);
+                        handleStyleSelect(parts[1]);
+                    }
+                }
+            }
+
+            // --------------------------------------------------------------
+            // EXPOSED CLICK HANDLERS (Updates URL only; hash listener handles view)
+            // --------------------------------------------------------------
             function backToViewChoice() {
-                contentDisplay.style.display = 'none';
-                viewChoice.style.display = 'block';
                 window.location.hash = selectedFacultyId;
             }
 
             function resetToFaculties() {
-                selectedFacultyId = null;
-                selectedStyle = null;
-                pageTitle.textContent = '🎓 Bursary Hub';
-                pageSub.style.display = 'block';
-                facultyView.style.display = 'block';
-                viewChoice.style.display = 'none';
-                contentDisplay.style.display = 'none';
                 window.location.hash = '';
             }
 
             // --------------------------------------------------------------
-            // EVENT LISTENERS
+            // DOM LIFECYCLE INITIALIZATION
+            // --------------------------------------------------------------
             function setupUI() {
-                // faculty cards
                 document.querySelectorAll('.faculty-card').forEach(card => {
                     card.addEventListener('click', function() {
                         const fid = this.getAttribute('data-faculty');
-                        if (fid) handleFacultySelect(fid);
+                        if (fid) window.location.hash = fid;
                     });
                 });
 
-                // choice buttons
                 document.querySelectorAll('.choice-btn').forEach(btn => {
                     btn.addEventListener('click', function() {
                         const style = this.getAttribute('data-style');
-                        if (style) handleStyleSelect(style);
+                        if (style) window.location.hash = `${selectedFacultyId}/${style}`;
                     });
                 });
             }
 
-            // --------------------------------------------------------------
-            // INIT
             window.addEventListener('DOMContentLoaded', async function() {
                 setupUI();
                 await preloadAllData();
-
-                // optional hash recovery
-                const hash = window.location.hash.replace('#','');
-                if (hash) {
-                    const parts = hash.split('/');
-                    if (parts.length === 1 && FACULTY_LABEL[parts[0]]) {
-                        handleFacultySelect(parts[0]);
-                    } else if (parts.length === 2 && FACULTY_LABEL[parts[0]] && (parts[1]==='calendar'||parts[1]==='grid')) {
-                        handleFacultySelect(parts[0]);
-                        setTimeout(() => {
-                            if (selectedFacultyId === parts[0]) {
-                                handleStyleSelect(parts[1]);
-                            }
-                        }, 20);
-                    }
-                }
+                
+                // Read hash on load or sync on historical popstate navigation events
+                parseAndSyncHash();
+                window.addEventListener('hashchange', parseAndSyncHash);
             });
 
-            // Expose for inline onclick
+            // Expose required methods globally for layout actions
             window.backToViewChoice = backToViewChoice;
             window.resetToFaculties = resetToFaculties;
         })();
