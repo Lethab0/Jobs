@@ -430,6 +430,206 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             grid-column: 1 / -1;
         }
+
+        /* ── WhatsApp Floating Button (Fully Integrated) ── */
+        .wa-floating-container {
+            position: fixed;
+            top: 50%;
+            right: 1.5rem;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+            z-index: 99999;
+        }
+
+        .wa-floating-btn {
+            width: 60px;
+            height: 60px;
+            background: #25d366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(37, 211, 102, 0.3);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            border: none;
+            line-height: 1;
+        }
+
+        .wa-floating-btn:hover {
+            background: #20ba56;
+            transform: scale(1.08);
+        }
+
+        .wa-floating-btn:active {
+            transform: scale(0.93);
+        }
+
+        .wa-text-label {
+            color: #1e293b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            white-space: nowrap;
+            text-align: center;
+            line-height: 1.3;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        /* ── Giant Green Modal Overlay Elements ── */
+        .giant-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 999999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+            padding: 20px;
+        }
+
+        .giant-modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .giant-green-popup {
+            background: linear-gradient(135deg, #15803d 0%, #166534 100%);
+            color: var(--white);
+            max-width: 650px;
+            width: 100%;
+            padding: 40px 30px;
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(34, 197, 94, 0.3);
+            border: 2px solid #22c55e;
+            position: relative;
+            transform: scale(0.85);
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .giant-modal-overlay.active .giant-green-popup {
+            transform: scale(1);
+        }
+
+        .giant-green-popup .popup-icon {
+            font-size: 4.5rem;
+            color: #4ade80;
+            margin-bottom: 20px;
+            animation: pulseIcon 2s infinite ease-in-out;
+        }
+
+        .giant-green-popup h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+        }
+
+        .giant-green-popup p {
+            font-size: 1.15rem;
+            color: #bbf7d0;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .popup-action-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background-color: #25d366;
+            color: var(--white);
+            width: 100%;
+            padding: 16px 30px;
+            border-radius: 14px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+            transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .popup-action-btn:hover {
+            background-color: #20ba56;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(37, 211, 102, 0.45);
+        }
+
+        .popup-close-trigger {
+            background: transparent;
+            border: none;
+            color: #bbf7d0;
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-top: 20px;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+
+        .popup-close-trigger:hover {
+            color: var(--white);
+        }
+
+        @keyframes pulseIcon {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+
+        @media (max-width: 480px) {
+            .wa-floating-container {
+                right: 0.75rem;
+            }
+            .wa-floating-btn {
+                width: 52px;
+                height: 52px;
+                font-size: 1.7rem;
+            }
+            .wa-text-label {
+                font-size: 0.65rem;
+                padding: 0.15rem 0.4rem;
+                max-width: 80px;
+            }
+            .giant-green-popup {
+                padding: 30px 20px;
+            }
+            .giant-green-popup h2 {
+                font-size: 1.5rem;
+            }
+            .giant-green-popup p {
+                font-size: 1rem;
+            }
+            .popup-action-btn {
+                font-size: 1.1rem;
+                padding: 14px 20px;
+            }
+        }
         
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
@@ -439,6 +639,19 @@
     <amp-auto-ads type="adsense"
         data-ad-client="ca-pub-1486635931470536">
 </amp-auto-ads>
+
+    <div id="oneTimePopupOverlay" class="giant-modal-overlay">
+        <div class="giant-green-popup">
+            <div class="popup-icon"><i class="fab fa-whatsapp"></i></div>
+            <h2>Looking for Jobs in Law, Education, Finance, Science, and All Fields?</h2>
+            <p>Stay up to date with immediate daily custom alerts from around South Africa directly inside our network.</p>
+            <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" id="popupJoinBtn" class="popup-action-btn">
+                <i class="fab fa-whatsapp"></i> Join Group
+            </a>
+            <button id="popupCloseBtn" class="popup-close-trigger">No thanks, skip this option</button>
+        </div>
+    </div>
+
     <header>
         <div class="header-content">
             <h1>Engineering & IT Job Portal</h1>
@@ -448,17 +661,7 @@
         </div>
     </header>
 
-    <!--  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-1486635931470536"
-     data-ad-slot="3440711584"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>   -->
-    
+    <div class="container">
         <div class="intro-section">
             <h2>Find Your Dream Career</h2>
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
@@ -474,18 +677,7 @@
 
         <div class="categories-grid" id="categories-grid"></div>
 
-     <!--  <div class="ad-container">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-format="fluid"
-                 data-ad-layout-key="-6t+ed+2i-1n-4w"
-                 data-ad-client="ca-pub-1486635931470536"
-                 data-ad-slot="7559742381"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>  -->
-        </div> 
+     </div> 
 
         <div class="jobs-section" id="jobs-section">
             <button class="back-button" id="back-button">
@@ -497,33 +689,12 @@
                 <h2 class="selected-category-title" id="selected-title"></h2>
             </div>
 
-        <!--     <div class="ad-container">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-                <ins class="adsbygoogle"
-                     style="display:block; text-align:center;"
-                     data-ad-layout="in-article"
-                     data-ad-format="fluid"
-                     data-ad-client="ca-pub-1486635931470536"
-                     data-ad-slot="2524389194"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>--> 
-            </div> 
+        </div> 
 
             <div class="job-listings" id="job-list"></div>
         </div>
 
-     <!-- <div class="ad-container">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-format="autorelaxed"
-                 data-ad-client="ca-pub-1486635931470536"
-                 data-ad-slot="3440711584"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script> -->
-        </div> 
+     </div> 
 
     </div>
 
@@ -537,10 +708,9 @@
         <p>&copy; <span id="current-year"></span> Student Funding Hub. All rights reserved.</p>
     </footer>
 
-    <!-- ── WhatsApp Floating ── -->
     <div class="wa-floating-container">
         <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
-            💬
+            <i class="fab fa-whatsapp"></i>
         </a>
         <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
     </div>
@@ -550,6 +720,27 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // ── One-Time Giant Popup Initialization Unit ──
+            const overlay = document.getElementById('oneTimePopupOverlay');
+            const closeBtn = document.getElementById('popupCloseBtn');
+            const joinBtn = document.getElementById('popupJoinBtn');
+
+            function dismissPopup() {
+                overlay.classList.remove('active');
+                localStorage.setItem('stemGroupPopupShown', 'true');
+            }
+
+            if (!localStorage.getItem('stemGroupPopupShown')) {
+                // Show with a slight comfortable delay for rendering engines
+                setTimeout(() => {
+                    overlay.classList.add('active');
+                }, 800);
+            }
+
+            closeBtn.addEventListener('click', dismissPopup);
+            joinBtn.addEventListener('click', dismissPopup);
+
+            // ── Original Core System Operations Logic ──
             if (typeof jobs === 'undefined' || !Array.isArray(jobs)) {
                 console.error("Error: 'jobs' data array not found.");
                 return;
