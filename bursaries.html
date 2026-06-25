@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Domain Redirection Script -->
     <script>
         if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
             if (window.location.pathname.startsWith("/bursaries")) {
@@ -11,7 +10,6 @@
             }
         }
     </script>
-    <!-- AdSense Auto Ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
     <title>Bursary Hub Portal - Stem Club</title>
     <style>
@@ -296,106 +294,29 @@
             border: 1px dashed #cbd5e1;
         }
 
-        /* WhatsApp Channels Modal Window Elements */
-        .wa-modal-overlay {
+        /* Always Floating WhatsApp Action Button */
+        .wa-floating-btn {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(4px);
-            z-index: 9999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0; pointer-events: none;
-            transition: opacity 0.3s ease;
-            padding: 1rem;
-        }
-
-        .wa-modal-overlay.active {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .wa-modal-content {
-            background: white;
-            border-radius: 24px;
-            padding: 2.5rem 2rem;
-            max-width: 440px;
-            width: 100%;
-            text-align: center;
-            position: relative;
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
-            transform: scale(0.9);
-            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .wa-modal-overlay.active .wa-modal-content {
-            transform: scale(1);
-        }
-
-        .wa-close-btn {
-            position: absolute;
-            top: 1rem; right: 1rem;
-            background: #f1f5f9;
-            border: none;
-            width: 32px; height: 32px;
-            border-radius: 50%;
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: #64748b;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background 0.2s;
-        }
-
-        .wa-close-btn:hover { background: #e2e8f0; color: #0f172a; }
-
-        .wa-icon-wrapper {
-            width: 70px; height: 70px;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
             background: #25d366;
             color: white;
-            font-size: 2.5rem;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 1.5rem;
-            box-shadow: 0 8px 16px rgba(37, 211, 102, 0.3);
-        }
-
-        .wa-modal-content h4 {
-            font-size: 1.4rem;
-            color: #0f172a;
-            margin-bottom: 0.75rem;
-            font-weight: 700;
-        }
-
-        .wa-modal-content p {
-            color: #475569;
-            font-size: 0.95rem;
-            line-height: 1.5;
-            margin-bottom: 1.75rem;
-        }
-
-        .wa-join-btn {
-            display: block;
-            background: #25d366;
-            color: white;
+            font-size: 2rem;
             text-decoration: none;
-            font-weight: 700;
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            font-size: 1.05rem;
-            transition: all 0.2s;
-            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(37, 211, 102, 0.3);
+            z-index: 99999;
+            transition: transform 0.2s ease, background-color 0.2s ease;
         }
 
-        .wa-join-btn:hover {
+        .wa-floating-btn:hover {
             background: #20ba56;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);
+            transform: scale(1.08) translateY(-2px);
         }
 
         /* Screen Breakpoints styling matches design instructions */
@@ -406,11 +327,17 @@
                 text-align: center;
                 border-radius: 24px;
             }
+            .wa-floating-btn {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                width: 54px;
+                height: 54px;
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Google AdSense Auto Anchor Slot Placement -->
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536" layout="nodisplay"></amp-auto-ads>
 
     <div class="container">
@@ -419,19 +346,16 @@
             <p id="dynamicSubtitle">Select a faculty to explore closing dates</p>
         </header>
 
-        <!-- Dynamic Control Bar (Views 2 & 3 only) -->
         <div id="navigationBar" class="top-nav hidden">
             <button id="navBackBtn" class="nav-btn">← Change view</button>
             <span class="badge" id="layoutBadge">Layout View</span>
             <button id="navHomeBtn" class="nav-btn">Back to Faculties</button>
         </div>
 
-        <!-- Upper Banner Ad Block -->
         <div class="ads-container">
             <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="1111111111" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
         </div>
 
-        <!-- VIEW 1: Directory Selection Window -->
         <div id="facultyView">
             <div class="faculty-grid">
                 <a href="https://stemclub.co.za" class="home-card">
@@ -446,7 +370,6 @@
             </div>
         </div>
 
-        <!-- VIEW 2: Selection Matrix Option Formatter -->
         <div id="formatView" class="hidden">
             <div class="view-choice-section">
                 <h3 id="choiceLabel">📌 Choose your desired formatting style</h3>
@@ -457,28 +380,18 @@
             </div>
         </div>
 
-        <!-- VIEW 3A: Modular Calendar Engine Display Box -->
         <div id="calendarContainer" class="calendar-grid hidden"></div>
 
-        <!-- VIEW 3B: List Layout Fallback Grid -->
         <div id="gridContainer" class="original-grid hidden"></div>
 
-        <!-- Lower Banner Ad Block -->
         <div class="ads-container">
             <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="2222222222" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
         </div>
     </div>
 
-    <!-- WhatsApp Channel Invite Interstitial Modal Pop-up -->
-    <div id="whatsappModal" class="wa-modal-overlay">
-        <div class="wa-modal-content">
-            <button id="closeWaModal" class="wa-close-btn" aria-label="Close popup">&times;</button>
-            <div class="wa-icon-wrapper">💬</div>
-            <h4>Join Our WhatsApp Channel!</h4>
-            <p>Never miss a closing date. Receive instant updates on opening bursaries, internships, and student opportunities directly on WhatsApp.</p>
-            <a id="joinWaBtn" href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-join-btn">Join Channel Now</a>
-        </div>
-    </div>
+    <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
+        💬
+    </a>
 
     <script>
         (function() {
@@ -510,8 +423,6 @@
             const choiceLabel = document.getElementById('choiceLabel');
             const layoutBadge = document.getElementById('layoutBadge');
 
-            const waModal = document.getElementById('whatsappModal');
-
             // Initialize Event Core Loops
             function init() {
                 // View 1 Handlers
@@ -534,34 +445,6 @@
                 // Control Bar Navigation Anchors
                 document.getElementById('navBackBtn').addEventListener('click', rollbackToFormatSelection);
                 document.getElementById('navHomeBtn').addEventListener('click', resetToHomeView);
-
-                // Modal Interstitial Close Routines
-                document.getElementById('closeWaModal').addEventListener('click', dismissWhatsAppModal);
-                document.getElementById('joinWaBtn').addEventListener('click', () => {
-                    localStorage.setItem('wa_joined_bursary', 'true');
-                    dismissWhatsAppModal();
-                });
-
-                // Trigger popup timing check rule
-                evalWhatsAppTrigger();
-            }
-
-            // WhatsApp Popup Management Engine
-            function evalWhatsAppTrigger() {
-                const globalDismiss = localStorage.getObj || localStorage.getItem('wa_dismissed_bursary');
-                const actionRegister = localStorage.getItem('wa_joined_bursary');
-                
-                // If they haven't explicitly closed it or joined, present it after 4 seconds
-                if (!globalDismiss && !actionRegister) {
-                    setTimeout(() => {
-                        waModal.classList.add('active');
-                    }, 4000);
-                }
-            }
-
-            function dismissWhatsAppModal() {
-                localStorage.setItem('wa_dismissed_bursary', 'true');
-                waModal.classList.remove('active');
             }
 
             // View Management Controllers
@@ -576,7 +459,7 @@
                 formatView.classList.remove('hidden');
                 
                 navBar.classList.remove('hidden');
-                document.getElementById('navBackBtn').classList.add('hidden'); // No formatting to roll back to yet
+                document.getElementById('navBackBtn').classList.add('hidden');
             }
 
             async function executeRenderFeed(style) {
@@ -656,7 +539,6 @@
                 for (let i = 0; i < trackingLines.length; i++) {
                     let currentLine = trackingLines[i];
                     
-                    // Unfold folded string maps
                     while (i + 1 < trackingLines.length && (trackingLines[i+1].startsWith(' ') || trackingLines[i+1].startsWith('\t'))) {
                         currentLine += trackingLines[i+1].substring(1);
                         i++;
