@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
+    <title>Bursary Details Display</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, system-ui, sans-serif; }
+        body { background: #f8fafc; min-height: 100vh; display: flex; justify-content: center; padding: 2rem 1rem; }
+        .container { max-width: 1300px; width: 100%; }
+        .portal-header { text-align: center; margin-bottom: 2.5rem; }
+        .portal-header h1 { font-size: 2.5rem; font-weight: 700; color: #0f172a; letter-spacing: -0.02em; }
+        .top-nav { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; background: white; padding: 0.9rem 1.8rem; border-radius: 60px; border: 1px solid #e2e8f0; margin-bottom: 2.25rem; box-shadow: 0 2px 6px rgba(0,0,0,0.02); }
+        .top-nav .badge { font-weight: 700; color: #0f172a; letter-spacing: 0.03em; background: #f1f5f9; padding: 0.25rem 1rem; border-radius: 30px; font-size: 0.9rem; }
+        .nav-btn { background: transparent; border: 2px solid #2563eb; padding: 0.4rem 1.2rem; border-radius: 40px; font-weight: 600; color: #2563eb; cursor: pointer; transition: 0.15s; font-size: 0.9rem; text-decoration: none; display: inline-block; }
+        .nav-btn:hover { background: #2563eb; color: white; }
+        .calendar-grid { display: none; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.8rem; }
+        .month-box { background: white; border-radius: 20px; border: 1px solid #e9edf2; padding: 1.3rem 1.2rem 1.2rem; box-shadow: 0 4px 8px -4px rgba(0,0,0,0.02); }
+        .month-title { font-size: 1.25rem; font-weight: 700; color: #0f172a; border-bottom: 2px solid #eef2f6; padding-bottom: 0.6rem; margin-bottom: 0.9rem; text-transform: uppercase; letter-spacing: 0.02em; }
+        .event-item { background: #f1f5f9; border-radius: 10px; padding: 0.6rem 0.9rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; }
+        .event-name { font-weight: 600; font-size: 0.95rem; word-break: break-word; flex: 1; }
+        .event-day { background: white; border: 1px solid #d1d9e6; padding: 0.1rem 0.6rem; border-radius: 30px; font-size: 0.75rem; font-weight: 700; color: #1e293b; }
+        .original-grid { display: none; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.8rem; }
+        .bursary-card { background: white; border-radius: 20px; padding: 1.6rem 1.4rem; border: 1px solid #e9edf2; box-shadow: 0 4px 8px -4px rgba(0,0,0,0.02); }
+        .bursary-title { font-size: 1.2rem; font-weight: 600; color: #0f172a; margin-bottom: 0.5rem; }
+        .deadline { color: #b91c1c; font-weight: 600; font-size: 0.95rem; }
+        .empty-state { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; background: white; border-radius: 40px; color: #64748b; border: 1px dashed #cbd5e1; }
+        .ads-container { margin: 2rem 0; text-align: center; min-height: 90px; background: #f1f5f9; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 0.9rem; border: 1px dashed #cbd5e1; }
+        @media (max-width: 480px) { .top-nav { flex-direction: column; align-items: stretch; text-align: center; border-radius: 24px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="portal-header">
+            <h1 id="pageTitle">🎓 Loading Details...</h1>
+        </header>
+
+        <div class="top-nav">
+            <a id="changeViewBtn" href="#" class="nav-btn">← Change view</a>
+            <span class="badge" id="viewBadge">Layout View</span>
+            <a href="bursur1.html" class="nav-btn">Back to Faculties</a>
+        </div>
+
+        <div class="ads-container">
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="0987654321" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+        </div>
+
+        <div id="calendarContainer" class="calendar-grid"></div>
+        <div id="gridContainer" class="original-grid"></div>
+
+        <div class="ads-container">
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="5678901234" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            const FACULTY_FILES = [
+                { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
+                { id: 'education', name: 'Education', url: 'education.ics' },
+                { id: 'engineering', name: 'Engineering', url: 'engineering.ics' },
+                { id: 'it-computer-science', name: 'IT & Computer Science', url: 'IT and computer science.ics' },
+                { id: 'law', name: 'Law', url: 'law.ics' },
+                { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
+            ];
+            const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+            const FACULTY_LABEL = {
+                'accounting':'Accounting','education':'Education','engineering':'Engineering',
+                'it-computer-science':'IT & Computer Science','law':'Law','sciences':'Sciences'
+            };
+
+            const params = new URLSearchParams(window.location.search);
+            const selectedFacultyId = params.get('faculty');
+            const selectedStyle = params.get('style') || 'calendar';
+
+            if(!selectedFacultyId || !FACULTY_LABEL[selectedFacultyId]) {
+                window.location.href = 'bursur1.html';
+                return;
+            }
+
+            document.getElementById('pageTitle').textContent = FACULTY_LABEL[selectedFacultyId];
+            document.getElementById('changeViewBtn').href = `bursur2.html?faculty=${selectedFacultyId}`;
+            document.getElementById('viewBadge').textContent = selectedStyle === 'calendar' ? '📅 Calendar view' : '🗂️ Grid view';
+
+            function parseICS(icsText, fileConfig) {
+                const events = [];
+                const lines = icsText.split(/\r?\n/);
+                let current = null;
+                for (let i = 0; i < lines.length; i++) {
+                    let line = lines[i];
+                    while (i + 1 < lines.length && (lines[i+1].startsWith(' ') || lines[i+1].startsWith('\t'))) {
+                        line += lines[i+1].substring(1);
+                        i++;
+                    }
+                    if (line.startsWith('BEGIN:VEVENT')) {
+                        current = { categoryId: fileConfig.id, category: fileConfig.name };
+                    } else if (line.startsWith('END:VEVENT') && current) {
+                        if (current.title) events.push(current);
+                        current = null;
+                    } else if (current) {
+                        if (line.startsWith('SUMMARY:')) {
+                            let raw = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
+                            current.title = raw || 'Untitled';
+                        } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
+                            const datePart = line.split(':').pop().trim();
+                            if (datePart.length >= 8) {
+                                const y = datePart.substring(0,4);
+                                const m = datePart.substring(4,6);
+                                const d = datePart.substring(6,8);
+                                current.day = parseInt(d, 10);
+                                current.monthIndex = parseInt(m, 10) - 1;
+                                const dateObj = new Date(`${y}-${m}-${d}`);
+                                current.dateStr = dateObj.toLocaleDateString('en-ZA', { year:'numeric', month:'long', day:'numeric' });
+                            }
+                        }
+                    }
+                }
+                return events;
+            }
+
+            async function loadAndRender() {
+                const fileConfig = FACULTY_FILES.find(f => f.id === selectedFacultyId);
+                if(!fileConfig) return;
+
+                const calContainer = document.getElementById('calendarContainer');
+                const gridContainer = document.getElementById('gridContainer');
+
+                try {
+                    const resp = await fetch(fileConfig.url);
+                    if (!resp.ok) throw new Error("File not found");
+                    const txt = await resp.text();
+                    const items = parseICS(txt, fileConfig);
+
+                    if(selectedStyle === 'calendar') {
+                        calContainer.style.display = 'grid';
+                        renderCalendar(items, calContainer);
+                    } else {
+                        gridContainer.style.display = 'grid';
+                        renderGrid(items, gridContainer);
+                    }
+                } catch(e) {
+                    calContainer.style.display = 'grid';
+                    calContainer.innerHTML = `<div class="empty-state">📭 Error loading or parsing data for this stream.</div>`;
+                }
+            }
+
+            function renderCalendar(items, container) {
+                container.innerHTML = '';
+                if (!items.length) {
+                    container.innerHTML = `<div class="empty-state">📭 No deadlines found for this faculty.</div>`;
+                    return;
+                }
+                const monthGroups = Array.from({ length: 12 }, () => []);
+                items.forEach(item => {
+                    if (item.monthIndex !== undefined && item.monthIndex >= 0 && item.monthIndex < 12) {
+                        monthGroups[item.monthIndex].push(item);
+                    }
+                });
+                monthGroups.forEach((group, idx) => {
+                    if (!group.length) return;
+                    const sorted = group.sort((a,b) => (a.day || 0) - (b.day || 0));
+                    const card = document.createElement('div');
+                    card.className = 'month-box';
+                    let html = `<div class="month-title">${MONTH_NAMES[idx]}</div>`;
+                    sorted.forEach(ev => {
+                        html += `
+                            <div class="event-item">
+                                <span class="event-name">${ev.title || 'Untitled'}</span>
+                                <span class="event-day">Day ${ev.day || '–'}</span>
+                            </div>`;
+                    });
+                    card.innerHTML = html;
+                    container.appendChild(card);
+                });
+            }
+
+            function renderGrid(items, container) {
+                container.innerHTML = '';
+                if (!items.length) {
+                    container.innerHTML = `<div class="empty-state">📭 No bursaries listed for this faculty.</div>`;
+                    return;
+                }
+                const sorted = items.slice().sort((a,b) => (a.monthIndex || 0) - (b.monthIndex || 0) || (a.day || 0) - (b.day || 0));
+                sorted.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'bursary-card';
+                    card.innerHTML = `
+                        <div class="bursary-title">${item.title || 'Untitled'}</div>
+                        <div class="deadline">⏳ ${item.dateStr || 'No date'}</div>`;
+                    container.appendChild(card);
+                });
+            }
+
+            window.addEventListener('DOMContentLoaded', loadAndRender);
+        })();
+    </script>
+</body>
+</html>
