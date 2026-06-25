@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Domain Redirection Script -->
     <script>
-    if (
-      window.location.hostname === "stemclub.co.za" ||
-      window.location.hostname === "www.stemclub.co.za"
-    ) {
-      if (window.location.pathname.startsWith("/bursaries")) {
-        window.location.replace("https://jobs-miy4.onrender.com/bursaries");
-      }
-    }
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
-     crossorigin="anonymous"></script>
-    <title>Bursary Hub Portal</title>
+        if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
+            if (window.location.pathname.startsWith("/bursaries")) {
+                window.location.replace("https://jobs-miy4.onrender.com/bursaries");
+            }
+        }
+    </script>
+    <!-- AdSense Auto Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
+    <title>Bursary Hub Portal - Stem Club</title>
     <style>
         * {
             margin: 0;
@@ -37,7 +35,7 @@
             width: 100%;
         }
 
-        /* header */
+        /* Header Components */
         .portal-header {
             text-align: center;
             margin-bottom: 2.5rem;
@@ -56,7 +54,54 @@
             margin-top: 0.25rem;
         }
 
-        /* faculty grid */
+        /* Navigation Menu Panel */
+        .top-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            background: white;
+            padding: 0.9rem 1.8rem;
+            border-radius: 60px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 2.25rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+
+        .top-nav .badge {
+            font-weight: 700;
+            color: #0f172a;
+            letter-spacing: 0.03em;
+            background: #f1f5f9;
+            padding: 0.25rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: 2px solid #2563eb;
+            padding: 0.4rem 1.2rem;
+            border-radius: 40px;
+            font-weight: 600;
+            color: #2563eb;
+            cursor: pointer;
+            transition: 0.15s;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-btn:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+        /* View Layouts */
+        .hidden { display: none !important; }
+
+        /* View 1: Faculty List Grid */
         .faculty-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -83,42 +128,25 @@
             box-shadow: 0 12px 20px -8px rgba(37, 99, 235, 0.25);
         }
 
-        .faculty-card:hover .faculty-name {
-            color: white;
-        }
+        .faculty-card:hover .faculty-name { color: white; }
 
-        .home-card {
-            background: #f0f5ff;
-            border-color: #2563eb;
-        }
-
+        .home-card { background: #f0f5ff; border-color: #2563eb; }
         .home-card:hover {
             background: #2563eb;
             transform: translateY(-3px);
             box-shadow: 0 12px 20px -8px rgba(37, 99, 235, 0.25);
         }
+        .home-card:hover .home-label { color: white; }
 
-        .home-card:hover .home-label {
-            color: white;
-        }
-
-        .faculty-name {
+        .faculty-name, .home-label {
             font-weight: 700;
             font-size: 1.2rem;
             color: #2563eb;
             transition: color 0.15s;
         }
 
-        .home-label {
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: #2563eb;
-            transition: color 0.15s;
-        }
-
-        /* view choice */
+        /* View 2: Format Intermediary Section */
         .view-choice-section {
-            display: none;
             text-align: center;
             padding: 2.5rem 1rem;
             background: white;
@@ -161,73 +189,9 @@
             box-shadow: 0 8px 14px -6px rgba(37, 99, 235, 0.25);
         }
 
-        .back-btn {
-            background: transparent;
-            border: 2px solid #2563eb;
-            padding: 0.6rem 1.4rem;
-            border-radius: 40px;
-            font-weight: 600;
-            color: #2563eb;
-            cursor: pointer;
-            transition: 0.15s;
-            margin-top: 2.5rem;
-            font-size: 0.95rem;
-        }
-
-        .back-btn:hover {
-            background: #2563eb;
-            color: white;
-        }
-
-        /* content display section */
-        .content-display {
-            display: none;
-        }
-
-        .top-nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 1rem;
-            background: white;
-            padding: 0.9rem 1.8rem;
-            border-radius: 60px;
-            border: 1px solid #e2e8f0;
-            margin-bottom: 2.25rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
-        }
-
-        .top-nav .badge {
-            font-weight: 700;
-            color: #0f172a;
-            letter-spacing: 0.03em;
-            background: #f1f5f9;
-            padding: 0.25rem 1rem;
-            border-radius: 30px;
-            font-size: 0.9rem;
-        }
-
-        .nav-btn {
-            background: transparent;
-            border: 2px solid #2563eb;
-            padding: 0.4rem 1.2rem;
-            border-radius: 40px;
-            font-weight: 600;
-            color: #2563eb;
-            cursor: pointer;
-            transition: 0.15s;
-            font-size: 0.9rem;
-        }
-
-        .nav-btn:hover {
-            background: #2563eb;
-            color: white;
-        }
-
-        /* calendar layout */
+        /* View 3 (Style A): Calendar Output Elements */
         .calendar-grid {
-            display: none;
+            display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.8rem;
         }
@@ -252,22 +216,22 @@
         }
 
         .event-item {
-    background: #f1f5f9;
-    border-radius: 10px;
-    padding: 0.6rem 0.9rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75rem; /* Adds healthy breathing room between text and day badge */
-}
+            background: #f1f5f9;
+            border-radius: 10px;
+            padding: 0.6rem 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.75rem;
+        }
 
-.event-name {
-    font-weight: 600;
-    font-size: 0.95rem;
-    word-break: break-word; /* Allows long text to split gracefully if needed */
-    flex: 1; /* Tells the text container to take up all remaining space */
-}
+        .event-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            word-break: break-word;
+            flex: 1;
+        }
 
         .event-day {
             background: white;
@@ -279,9 +243,9 @@
             color: #1e293b;
         }
 
-        /* original grid layout */
+        /* View 3 (Style B): List / Regular Grid Elements */
         .original-grid {
-            display: none;
+            display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1.8rem;
         }
@@ -317,7 +281,7 @@
             border: 1px dashed #cbd5e1;
         }
 
-        /* AdSense container */
+        /* Ad Presentation Containers */
         .ads-container {
             margin: 2rem 0;
             text-align: center;
@@ -332,15 +296,109 @@
             border: 1px dashed #cbd5e1;
         }
 
-        .ads-container amp-ad {
+        /* WhatsApp Channels Modal Window Elements */
+        .wa-modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease;
+            padding: 1rem;
+        }
+
+        .wa-modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .wa-modal-content {
+            background: white;
+            border-radius: 24px;
+            padding: 2.5rem 2rem;
+            max-width: 440px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+            transform: scale(0.9);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .wa-modal-overlay.active .wa-modal-content {
+            transform: scale(1);
+        }
+
+        .wa-close-btn {
+            position: absolute;
+            top: 1rem; right: 1rem;
+            background: #f1f5f9;
+            border: none;
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #64748b;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .wa-close-btn:hover { background: #e2e8f0; color: #0f172a; }
+
+        .wa-icon-wrapper {
+            width: 70px; height: 70px;
+            background: #25d366;
+            color: white;
+            font-size: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 8px 16px rgba(37, 211, 102, 0.3);
+        }
+
+        .wa-modal-content h4 {
+            font-size: 1.4rem;
+            color: #0f172a;
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+
+        .wa-modal-content p {
+            color: #475569;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 1.75rem;
+        }
+
+        .wa-join-btn {
             display: block;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.05rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
         }
 
-        /* utility */
-        .hidden {
-            display: none;
+        .wa-join-btn:hover {
+            background: #20ba56;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);
         }
 
+        /* Screen Breakpoints styling matches design instructions */
         @media (max-width: 480px) {
             .top-nav {
                 flex-direction: column;
@@ -348,86 +406,83 @@
                 text-align: center;
                 border-radius: 24px;
             }
-            .choice-btn {
-                min-width: 140px;
-            }
         }
     </style>
 </head>
 <body>
-    <amp-auto-ads type="adsense"
-            data-ad-client="ca-pub-1486635931470536"
-            layout="nodisplay">
-    </amp-auto-ads>
+    <!-- Google AdSense Auto Anchor Slot Placement -->
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536" layout="nodisplay"></amp-auto-ads>
 
     <div class="container">
         <header class="portal-header">
-            <h1 id="pageTitle">🎓 Bursary Hub</h1>
-            <p id="pageSub">Select a faculty to explore closing dates</p>
+            <h1 id="dynamicMainTitle">🎓 Bursary Hub</h1>
+            <p id="dynamicSubtitle">Select a faculty to explore closing dates</p>
         </header>
 
+        <!-- Dynamic Control Bar (Views 2 & 3 only) -->
+        <div id="navigationBar" class="top-nav hidden">
+            <button id="navBackBtn" class="nav-btn">← Change view</button>
+            <span class="badge" id="layoutBadge">Layout View</span>
+            <button id="navHomeBtn" class="nav-btn">Back to Faculties</button>
+        </div>
+
+        <!-- Upper Banner Ad Block -->
+        <div class="ads-container">
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="1111111111" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+        </div>
+
+        <!-- VIEW 1: Directory Selection Window -->
         <div id="facultyView">
             <div class="faculty-grid">
                 <a href="https://stemclub.co.za" class="home-card">
                     <span class="home-label">🏠 Home (Stem Club)</span>
                 </a>
-                <div class="faculty-card" data-faculty="accounting"><span class="faculty-name">Accounting</span></div>
-                <div class="faculty-card" data-faculty="education"><span class="faculty-name">Education</span></div>
-                <div class="faculty-card" data-faculty="engineering"><span class="faculty-name">Engineering</span></div>
-                <div class="faculty-card" data-faculty="it-computer-science"><span class="faculty-name">IT & Computer Science</span></div>
-                <div class="faculty-card" data-faculty="law"><span class="faculty-name">Law</span></div>
-                <div class="faculty-card" data-faculty="sciences"><span class="faculty-name">Sciences</span></div>
+                <div class="faculty-card" data-id="accounting"><span class="faculty-name">Accounting</span></div>
+                <div class="faculty-card" data-id="education"><span class="faculty-name">Education</span></div>
+                <div class="faculty-card" data-id="engineering"><span class="faculty-name">Engineering</span></div>
+                <div class="faculty-card" data-id="it-computer-science"><span class="faculty-name">IT & Computer Science</span></div>
+                <div class="faculty-card" data-id="law"><span class="faculty-name">Law</span></div>
+                <div class="faculty-card" data-id="sciences"><span class="faculty-name">Sciences</span></div>
             </div>
         </div>
 
-        <div id="viewChoice" class="view-choice-section">
-            <h3>📌 Choose display format</h3>
-            <div class="choice-grid">
-                <button class="choice-btn" data-style="calendar">📅 Calendar</button>
-                <button class="choice-btn" data-style="grid">🗂️ Grid (Original)</button>
+        <!-- VIEW 2: Selection Matrix Option Formatter -->
+        <div id="formatView" class="hidden">
+            <div class="view-choice-section">
+                <h3 id="choiceLabel">📌 Choose your desired formatting style</h3>
+                <div class="choice-grid">
+                    <button class="choice-btn" data-style="calendar">📅 Calendar</button>
+                    <button class="choice-btn" data-style="grid">🗂️ Grid (Original)</button>
+                </div>
             </div>
-            <button class="back-btn" onclick="resetToFaculties()">← Back to Faculties</button>
         </div>
 
-        <div id="contentDisplay" class="content-display">
-            <div class="top-nav">
-                <button class="nav-btn" onclick="backToViewChoice()">← Change view</button>
-                <span class="badge" id="viewBadge">Layout</span>
-                <button class="nav-btn" onclick="resetToFaculties()">Back to Faculties</button>
-            </div>
+        <!-- VIEW 3A: Modular Calendar Engine Display Box -->
+        <div id="calendarContainer" class="calendar-grid hidden"></div>
 
-            <div class="ads-container">
-                <amp-ad width="100vw" height="90"
-                    type="adsense"
-                    data-ad-client="ca-pub-1486635931470536"
-                    data-ad-slot="0987654321"
-                    data-auto-format="rspv"
-                    data-full-width>
-                    <div overflow></div>
-                </amp-ad>
-            </div>
+        <!-- VIEW 3B: List Layout Fallback Grid -->
+        <div id="gridContainer" class="original-grid hidden"></div>
 
-            <div id="calendarContainer" class="calendar-grid"></div>
-            <div id="gridContainer" class="original-grid"></div>
+        <!-- Lower Banner Ad Block -->
+        <div class="ads-container">
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="2222222222" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+        </div>
+    </div>
 
-            <div class="ads-container">
-                <amp-ad width="100vw" height="90"
-                    type="adsense"
-                    data-ad-client="ca-pub-1486635931470536"
-                    data-ad-slot="5678901234"
-                    data-auto-format="rspv"
-                    data-full-width>
-                    <div overflow></div>
-                </amp-ad>
-            </div>
+    <!-- WhatsApp Channel Invite Interstitial Modal Pop-up -->
+    <div id="whatsappModal" class="wa-modal-overlay">
+        <div class="wa-modal-content">
+            <button id="closeWaModal" class="wa-close-btn" aria-label="Close popup">&times;</button>
+            <div class="wa-icon-wrapper">💬</div>
+            <h4>Join Our WhatsApp Channel!</h4>
+            <p>Never miss a closing date. Receive instant updates on opening bursaries, internships, and student opportunities directly on WhatsApp.</p>
+            <a id="joinWaBtn" href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-join-btn">Join Channel Now</a>
         </div>
     </div>
 
     <script>
         (function() {
-            // --------------------------------------------------------------
-            // CONFIGURATION
-            // --------------------------------------------------------------
+            // Configuration Data
             const FACULTY_FILES = [
                 { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
                 { id: 'education', name: 'Education', url: 'education.ics' },
@@ -437,258 +492,259 @@
                 { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
             ];
 
-            const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-            const FACULTY_LABEL = {
-                'accounting':'Accounting','education':'Education','engineering':'Engineering',
-                'it-computer-science':'IT & Computer Science','law':'Law','sciences':'Sciences'
-            };
+            const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-            // --------------------------------------------------------------
-            // STATE
-            // --------------------------------------------------------------
-            let allBursaries = [];
-            let selectedFacultyId = null;
-            let selectedStyle = null;
+            // State Trackers
+            let currentFaculty = null;
+            let currentStyle = null; 
 
-            // --------------------------------------------------------------
-            // DOM REFS
-            // --------------------------------------------------------------
-            const facultyView = document.getElementById('facultyView');
-            const viewChoice = document.getElementById('viewChoice');
-            const contentDisplay = document.getElementById('contentDisplay');
-            const pageTitle = document.getElementById('pageTitle');
-            const pageSub = document.getElementById('pageSub');
-            const viewBadge = document.getElementById('viewBadge');
-            const calendarContainer = document.getElementById('calendarContainer');
+            // Structural Frame Engine Selectors
+            const fView = document.getElementById('facultyView');
+            const formatView = document.getElementById('formatView');
+            const calContainer = document.getElementById('calendarContainer');
             const gridContainer = document.getElementById('gridContainer');
+            const navBar = document.getElementById('navigationBar');
+            
+            const mainTitle = document.getElementById('dynamicMainTitle');
+            const subTitle = document.getElementById('dynamicSubtitle');
+            const choiceLabel = document.getElementById('choiceLabel');
+            const layoutBadge = document.getElementById('layoutBadge');
 
-            // --------------------------------------------------------------
-            // ICS PARSER
-            // --------------------------------------------------------------
-            function parseICS(icsText, fileConfig) {
-                const events = [];
-                const lines = icsText.split(/\r?\n/);
-                let current = null;
+            const waModal = document.getElementById('whatsappModal');
 
-                for (let i = 0; i < lines.length; i++) {
-                    let line = lines[i];
-                    while (i + 1 < lines.length && (lines[i+1].startsWith(' ') || lines[i+1].startsWith('\t'))) {
-                        line += lines[i+1].substring(1);
+            // Initialize Event Core Loops
+            function init() {
+                // View 1 Handlers
+                document.querySelectorAll('.faculty-grid .faculty-card').forEach(card => {
+                    card.addEventListener('click', () => {
+                        const targetId = card.getAttribute('data-id');
+                        const selected = FACULTY_FILES.find(f => f.id === targetId);
+                        if (selected) openFormatSelection(selected);
+                    });
+                });
+
+                // View 2 Handlers
+                document.querySelectorAll('.choice-grid .choice-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const targetStyle = btn.getAttribute('data-style');
+                        executeRenderFeed(targetStyle);
+                    });
+                });
+
+                // Control Bar Navigation Anchors
+                document.getElementById('navBackBtn').addEventListener('click', rollbackToFormatSelection);
+                document.getElementById('navHomeBtn').addEventListener('click', resetToHomeView);
+
+                // Modal Interstitial Close Routines
+                document.getElementById('closeWaModal').addEventListener('click', dismissWhatsAppModal);
+                document.getElementById('joinWaBtn').addEventListener('click', () => {
+                    localStorage.setItem('wa_joined_bursary', 'true');
+                    dismissWhatsAppModal();
+                });
+
+                // Trigger popup timing check rule
+                evalWhatsAppTrigger();
+            }
+
+            // WhatsApp Popup Management Engine
+            function evalWhatsAppTrigger() {
+                const globalDismiss = localStorage.getObj || localStorage.getItem('wa_dismissed_bursary');
+                const actionRegister = localStorage.getItem('wa_joined_bursary');
+                
+                // If they haven't explicitly closed it or joined, present it after 4 seconds
+                if (!globalDismiss && !actionRegister) {
+                    setTimeout(() => {
+                        waModal.classList.add('active');
+                    }, 4000);
+                }
+            }
+
+            function dismissWhatsAppModal() {
+                localStorage.setItem('wa_dismissed_bursary', 'true');
+                waModal.classList.remove('active');
+            }
+
+            // View Management Controllers
+            function openFormatSelection(facultyConfig) {
+                currentFaculty = facultyConfig;
+                
+                mainTitle.textContent = facultyConfig.name;
+                subTitle.textContent = "Format Selection Matrix";
+                choiceLabel.textContent = `📌 Choose display format for ${facultyConfig.name}`;
+
+                fView.classList.add('hidden');
+                formatView.classList.remove('hidden');
+                
+                navBar.classList.remove('hidden');
+                document.getElementById('navBackBtn').classList.add('hidden'); // No formatting to roll back to yet
+            }
+
+            async function executeRenderFeed(style) {
+                currentStyle = style;
+                
+                formatView.classList.add('hidden');
+                document.getElementById('navBackBtn').classList.remove('hidden');
+                
+                layoutBadge.textContent = style === 'calendar' ? '📅 Calendar View' : '🗂️ Grid View';
+                subTitle.textContent = style === 'calendar' ? 'Deadlines organized by calendar months' : 'Deadlines displayed alphabetically';
+
+                if (style === 'calendar') {
+                    calContainer.classList.remove('hidden');
+                    gridContainer.classList.add('hidden');
+                } else {
+                    gridContainer.classList.remove('hidden');
+                    calContainer.classList.add('hidden');
+                }
+
+                // Call Content Processing Unit
+                await loadAndProcessFeed();
+            }
+
+            function rollbackToFormatSelection() {
+                calContainer.classList.add('hidden');
+                gridContainer.classList.add('hidden');
+                document.getElementById('navBackBtn').classList.add('hidden');
+                
+                formatView.classList.remove('hidden');
+                
+                mainTitle.textContent = currentFaculty.name;
+                subTitle.textContent = "Format Selection Matrix";
+                layoutBadge.textContent = "Layout View";
+            }
+
+            function resetToHomeView() {
+                currentFaculty = null;
+                currentStyle = null;
+
+                formatView.classList.add('hidden');
+                calContainer.classList.add('hidden');
+                gridContainer.classList.add('hidden');
+                navBar.classList.add('hidden');
+
+                mainTitle.textContent = "🎓 Bursary Hub";
+                subTitle.textContent = "Select a faculty to explore closing dates";
+                fView.classList.remove('hidden');
+            }
+
+            // Content Engine Processing Unit (.ics Parser)
+            async function loadAndProcessFeed() {
+                const activeContainer = currentStyle === 'calendar' ? calContainer : gridContainer;
+                activeContainer.innerHTML = '<div class="empty-state">⏳ Loading structural arrays from feed stream...</div>';
+
+                try {
+                    const response = await fetch(currentFaculty.url);
+                    if (!response.ok) throw new Error("Resource not fetched cleanly");
+                    const rawText = await response.text();
+                    
+                    const collection = parseICS(rawText, currentFaculty);
+
+                    if (currentStyle === 'calendar') {
+                        renderCalendarLayout(collection, calContainer);
+                    } else {
+                        renderGridLayout(collection, gridContainer);
+                    }
+                } catch (err) {
+                    activeContainer.innerHTML = '<div class="empty-state">📭 Failed to extract calendar streams for this stream profile.</div>';
+                }
+            }
+
+            function parseICS(icsText, configuration) {
+                const dataset = [];
+                const trackingLines = icsText.split(/\r?\n/);
+                let activeEvent = null;
+
+                for (let i = 0; i < trackingLines.length; i++) {
+                    let currentLine = trackingLines[i];
+                    
+                    // Unfold folded string maps
+                    while (i + 1 < trackingLines.length && (trackingLines[i+1].startsWith(' ') || trackingLines[i+1].startsWith('\t'))) {
+                        currentLine += trackingLines[i+1].substring(1);
                         i++;
                     }
 
-                    if (line.startsWith('BEGIN:VEVENT')) {
-                        current = { categoryId: fileConfig.id, category: fileConfig.name };
-                    } else if (line.startsWith('END:VEVENT') && current) {
-                        if (current.title) events.push(current);
-                        current = null;
-                    } else if (current) {
-                        if (line.startsWith('SUMMARY:')) {
-                            let raw = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
-                            current.title = raw || 'Untitled';
-                        } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
-                            const datePart = line.split(':').pop().trim();
-                            if (datePart.length >= 8) {
-                                const y = datePart.substring(0,4);
-                                const m = datePart.substring(4,6);
-                                const d = datePart.substring(6,8);
-                                current.day = parseInt(d, 10);
-                                current.monthIndex = parseInt(m, 10) - 1;
-                                const dateObj = new Date(`${y}-${m}-${d}`);
-                                current.dateStr = dateObj.toLocaleDateString('en-ZA', { year:'numeric', month:'long', day:'numeric' });
+                    if (currentLine.startsWith('BEGIN:VEVENT')) {
+                        activeEvent = { categoryId: configuration.id, category: configuration.name };
+                    } else if (currentLine.startsWith('END:VEVENT') && activeEvent) {
+                        if (activeEvent.title) dataset.push(activeEvent);
+                        activeEvent = null;
+                    } else if (activeEvent) {
+                        if (currentLine.startsWith('SUMMARY:')) {
+                            let formattedSummary = currentLine.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
+                            activeEvent.title = formattedSummary || 'Untitled Item';
+                        } else if (currentLine.startsWith('DTSTART;VALUE=DATE:') || currentLine.startsWith('DTSTART:')) {
+                            const numericDateString = currentLine.split(':').pop().trim();
+                            if (numericDateString.length >= 8) {
+                                const yearSlice = numericDateString.substring(0, 4);
+                                const monthSlice = numericDateString.substring(4, 6);
+                                const daySlice = numericDateString.substring(6, 8);
+                                
+                                activeEvent.day = parseInt(daySlice, 10);
+                                activeEvent.monthIndex = parseInt(monthSlice, 10) - 1;
+                                
+                                const buildDate = new Date(`${yearSlice}-${monthSlice}-${daySlice}`);
+                                activeEvent.dateStr = buildDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'long', day: 'numeric' });
                             }
                         }
                     }
                 }
-                return events;
+                return dataset;
             }
 
-            // --------------------------------------------------------------
-            // DATA LOADER
-            // --------------------------------------------------------------
-            async function preloadAllData() {
-                try {
-                    const promises = FACULTY_FILES.map(async (file) => {
-                        try {
-                            const resp = await fetch(file.url);
-                            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                            const txt = await resp.text();
-                            return parseICS(txt, file);
-                        } catch (_) {
-                            return [];
-                        }
-                    });
-                    const results = await Promise.all(promises);
-                    allBursaries = results.flat();
-                } catch (e) {
-                    console.warn('Data preload issue:', e);
-                }
-            }
-
-            // --------------------------------------------------------------
-            // RENDER LOGIC
-            // --------------------------------------------------------------
-            function renderData() {
-                if (!selectedFacultyId || !selectedStyle) return;
-                const items = allBursaries.filter(b => b.categoryId === selectedFacultyId);
-
-                viewBadge.textContent = selectedStyle === 'calendar' ? '📅 Calendar view' : '🗂️ Grid view';
-                calendarContainer.style.display = 'none';
-                gridContainer.style.display = 'none';
-
-                if (selectedStyle === 'calendar') {
-                    calendarContainer.style.display = 'grid';
-                    renderCalendar(items);
-                } else {
-                    gridContainer.style.display = 'grid';
-                    renderGrid(items);
-                }
-            }
-
-            function renderCalendar(items) {
-                calendarContainer.innerHTML = '';
+            // Render Framework Engine Elements
+            function renderCalendarLayout(items, targetBox) {
+                targetBox.innerHTML = '';
                 if (!items.length) {
-                    calendarContainer.innerHTML = `<div class="empty-state">📭 No deadlines found for this faculty.</div>`;
+                    targetBox.innerHTML = '<div class="empty-state">📭 No active deadlines extracted under this category tracking segment.</div>';
                     return;
                 }
 
-                const monthGroups = Array.from({ length: 12 }, () => []);
-                items.forEach(item => {
-                    if (item.monthIndex !== undefined && item.monthIndex >= 0 && item.monthIndex < 12) {
-                        monthGroups[item.monthIndex].push(item);
+                const allocationMonths = Array.from({ length: 12 }, () => []);
+                items.forEach(node => {
+                    if (node.monthIndex !== undefined && node.monthIndex >= 0 && node.monthIndex < 12) {
+                        allocationMonths[node.monthIndex].push(node);
                     }
                 });
 
-                let hasContent = false;
-                monthGroups.forEach((group, idx) => {
-                    if (!group.length) return;
-                    hasContent = true;
-                    const sorted = group.sort((a,b) => (a.day || 0) - (b.day || 0));
-                    const card = document.createElement('div');
-                    card.className = 'month-box';
-                    let html = `<div class="month-title">${MONTH_NAMES[idx]}</div>`;
-                    sorted.forEach(ev => {
-                        html += `
+                allocationMonths.forEach((monthPool, index) => {
+                    if (!monthPool.length) return;
+                    
+                    const timelineSorted = monthPool.sort((x, y) => (x.day || 0) - (y.day || 0));
+                    const cardSection = document.createElement('div');
+                    cardSection.className = 'month-box';
+                    
+                    let codeBlockHTML = `<div class="month-title">${MONTH_NAMES[index]}</div>`;
+                    timelineSorted.forEach(item => {
+                        codeBlockHTML += `
                             <div class="event-item">
-                                <span class="event-name">${ev.title || 'Untitled'}</span>
-                                <span class="event-day">Day ${ev.day || '–'}</span>
-                            </div>
-                        `;
+                                <span class="event-name">${item.title}</span>
+                                <span class="event-day">Day ${item.day || '–'}</span>
+                            </div>`;
                     });
-                    card.innerHTML = html;
-                    calendarContainer.appendChild(card);
+                    
+                    cardSection.innerHTML = codeBlockHTML;
+                    targetBox.appendChild(cardSection);
                 });
-
-                if (!hasContent) {
-                    calendarContainer.innerHTML = `<div class="empty-state">📭 No scheduled items for this stream.</div>`;
-                }
             }
 
-            function renderGrid(items) {
-                gridContainer.innerHTML = '';
+            function renderGridLayout(items, targetBox) {
+                targetBox.innerHTML = '';
                 if (!items.length) {
-                    gridContainer.innerHTML = `<div class="empty-state">📭 No bursaries listed for this faculty.</div>`;
+                    targetBox.innerHTML = '<div class="empty-state">📭 No data models returned inside selected workspace profiles.</div>';
                     return;
                 }
-                const sorted = items.slice().sort((a,b) => (a.monthIndex || 0) - (b.monthIndex || 0) || (a.day || 0) - (b.day || 0));
-                sorted.forEach(item => {
-                    const card = document.createElement('div');
-                    card.className = 'bursary-card';
-                    card.innerHTML = `
-                        <div class="bursary-title">${item.title || 'Untitled'}</div>
-                        <div class="deadline">⏳ ${item.dateStr || 'No date'}</div>
-                    `;
-                    gridContainer.appendChild(card);
+
+                const structuralMatrix = items.slice().sort((x, y) => (x.monthIndex || 0) - (y.monthIndex || 0) || (x.day || 0) - (y.day || 0));
+                structuralMatrix.forEach(entry => {
+                    const blockItem = document.createElement('div');
+                    blockItem.className = 'bursary-card';
+                    blockItem.innerHTML = `
+                        <div class="bursary-title">${entry.title}</div>
+                        <div class="deadline">⏳ ${entry.dateStr || 'Date Specification Absent'}</div>`;
+                    targetBox.appendChild(blockItem);
                 });
             }
 
-            // --------------------------------------------------------------
-            // INTERNAL ROUTER ACTIONS
-            // --------------------------------------------------------------
-            function handleFacultySelect(facultyId) {
-                selectedFacultyId = facultyId;
-                pageTitle.textContent = FACULTY_LABEL[facultyId] || facultyId;
-                pageSub.style.display = 'none';
-                facultyView.style.display = 'none';
-                viewChoice.style.display = 'block';
-                contentDisplay.style.display = 'none';
-            }
-
-            function handleStyleSelect(style) {
-                selectedStyle = style;
-                viewChoice.style.display = 'none';
-                contentDisplay.style.display = 'block';
-                renderData();
-            }
-
-            // --------------------------------------------------------------
-            // ROUTE SYNC FROM URL HASH
-            // --------------------------------------------------------------
-            function parseAndSyncHash() {
-                const hash = window.location.hash.replace('#','');
-                if (!hash) {
-                    selectedFacultyId = null;
-                    selectedStyle = null;
-                    pageTitle.textContent = '🎓 Bursary Hub';
-                    pageSub.style.display = 'block';
-                    facultyView.style.display = 'block';
-                    viewChoice.style.display = 'none';
-                    contentDisplay.style.display = 'none';
-                } else {
-                    const parts = hash.split('/');
-                    if (parts.length === 1 && FACULTY_LABEL[parts[0]]) {
-                        handleFacultySelect(parts[0]);
-                        viewChoice.style.display = 'block';
-                        contentDisplay.style.display = 'none';
-                    } else if (parts.length === 2 && FACULTY_LABEL[parts[0]] && (parts[1] === 'calendar' || parts[1] === 'grid')) {
-                        handleFacultySelect(parts[0]);
-                        handleStyleSelect(parts[1]);
-                    }
-                }
-            }
-
-            // --------------------------------------------------------------
-            // EXPOSED CLICK HANDLERS (Updates URL only; hash listener handles view)
-            // --------------------------------------------------------------
-            function backToViewChoice() {
-                window.location.hash = selectedFacultyId;
-            }
-
-            function resetToFaculties() {
-                window.location.hash = '';
-            }
-
-            // --------------------------------------------------------------
-            // DOM LIFECYCLE INITIALIZATION
-            // --------------------------------------------------------------
-            function setupUI() {
-                document.querySelectorAll('.faculty-card').forEach(card => {
-                    card.addEventListener('click', function() {
-                        const fid = this.getAttribute('data-faculty');
-                        if (fid) window.location.hash = fid;
-                    });
-                });
-
-                document.querySelectorAll('.choice-btn').forEach(btn => {
-                    btn.addEventListener('click', function() {
-                        const style = this.getAttribute('data-style');
-                        if (style) window.location.hash = `${selectedFacultyId}/${style}`;
-                    });
-                });
-            }
-
-            window.addEventListener('DOMContentLoaded', async function() {
-                setupUI();
-                await preloadAllData();
-                
-                // Read hash on load or sync on historical popstate navigation events
-                parseAndSyncHash();
-                window.addEventListener('hashchange', parseAndSyncHash);
-            });
-
-            // Expose required methods globally for layout actions
-            window.backToViewChoice = backToViewChoice;
-            window.resetToFaculties = resetToFaculties;
+            window.addEventListener('DOMContentLoaded', init);
         })();
     </script>
 </body>
