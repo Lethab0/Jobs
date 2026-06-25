@@ -717,35 +717,38 @@
         <!-- ── VIEW 1: Faculty Selection ── -->
         <div id="facultyView">
             <div class="faculty-grid">
+                <!-- Updated Jobs Button with proper delayed WhatsApp redirect -->
                 <a href="#" class="home-card" id="homeJobsBtn">
-    <span class="home-label">🏠 Jobs</span>
-</a>
+                    <span class="home-label">🏠 Jobs</span>
+                </a>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const homeBtn = document.getElementById('homeJobsBtn');
-        if (!homeBtn) return;
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const homeBtn = document.getElementById('homeJobsBtn');
+                        if (!homeBtn) return;
 
-        homeBtn.addEventListener('click', function(e) {
-            e.preventDefault(); // Prevent default navigation
+                        homeBtn.addEventListener('click', function(e) {
+                            e.preventDefault();
 
-            // 1. Open the Jobs page in a new tab immediately
-            window.open('https://stemclub.co.za', '_blank');
+                            // 1. Open the Jobs page in a new tab immediately
+                            window.open('https://stemclub.co.za', '_blank');
 
-            // 2. Check if WhatsApp redirect has already been triggered
-            if (localStorage.getItem('whatsapp_redirect_done')) {
-                return; // Already done, nothing else to do
-            }
+                            // 2. Check if the WhatsApp redirect has already been triggered
+                            if (localStorage.getItem('whatsapp_redirect_done')) {
+                                return;
+                            }
 
-            // 3. Set a timer to open WhatsApp after 10 seconds
-            setTimeout(() => {
-                window.open('https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u', '_blank');
-                // 4. Store a flag so it never runs again
-                localStorage.setItem('whatsapp_redirect_done', 'true');
-            }, 10000); // 10 seconds
-        });
-    });
-</script>
+                            // 3. Mark as done immediately so it doesn't trigger again on subsequent clicks
+                            localStorage.setItem('whatsapp_redirect_done', 'true');
+
+                            // 4. Open WhatsApp in a new tab after 10 seconds
+                            setTimeout(() => {
+                                window.open('https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u', '_blank');
+                            }, 10000);
+                        });
+                    });
+                </script>
+
                 <div class="faculty-card" data-id="accounting"><span class="faculty-name">📊 Accounting</span></div>
                 <div class="faculty-card" data-id="education"><span class="faculty-name">📚 Education</span></div>
                 <div class="faculty-card" data-id="engineering"><span class="faculty-name">⚙️ Engineering</span></div>
