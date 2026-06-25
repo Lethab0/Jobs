@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Domain Redirection Script -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bursary Hub Portal · Stem Club</title>
+
+    <!-- Domain Redirection -->
     <script>
         if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
             if (window.location.pathname.startsWith("/bursaries")) {
@@ -11,292 +13,473 @@
             }
         }
     </script>
+
     <!-- AdSense Auto Ads -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
-    <title>Bursary Hub Portal - Stem Club</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous">
+    </script>
+
     <style>
+        /* ── Reset & Base ── */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
         }
 
         body {
-            background: #f8fafc;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(145deg, #f6f9fc 0%, #eef2f7 100%);
             min-height: 100vh;
+            padding: 2rem 1.25rem;
             display: flex;
             justify-content: center;
-            padding: 2rem 1rem;
+            color: #0b1a2e;
         }
 
         .container {
-            max-width: 1300px;
+            max-width: 1320px;
             width: 100%;
         }
 
-        /* Header Components */
+        /* ── Scrollbar polish ── */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+            border-radius: 12px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #b9c8e0;
+            border-radius: 12px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a9c9;
+        }
+
+        /* ── Typography ── */
         .portal-header {
             text-align: center;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2.25rem;
         }
 
         .portal-header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #0f172a;
-            letter-spacing: -0.02em;
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            background: linear-gradient(135deg, #0b1a2e 0%, #1f3a6b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+
+        .portal-header h1 .accent {
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .portal-header p {
-            color: #475569;
-            font-size: 1.1rem;
-            margin-top: 0.25rem;
+            color: #4b5e77;
+            font-size: 1.15rem;
+            font-weight: 450;
+            margin-top: 0.2rem;
+            letter-spacing: 0.01em;
         }
 
-        /* Navigation Menu Panel */
+        /* ── Navigation Bar ── */
         .top-nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            gap: 1rem;
-            background: white;
-            padding: 0.9rem 1.8rem;
-            border-radius: 60px;
-            border: 1px solid #e2e8f0;
-            margin-bottom: 2.25rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+            gap: 0.75rem 1.25rem;
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 0.6rem 1.6rem 0.6rem 1.8rem;
+            border-radius: 80px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 28px -10px rgba(0, 20, 50, 0.08), 0 1px 2px rgba(0, 0, 0, 0.02);
+            margin-bottom: 2rem;
+            transition: all 0.25s ease;
         }
 
         .top-nav .badge {
-            font-weight: 700;
-            color: #0f172a;
-            letter-spacing: 0.03em;
-            background: #f1f5f9;
-            padding: 0.25rem 1rem;
-            border-radius: 30px;
-            font-size: 0.9rem;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #1e3a6b;
+            background: rgba(37, 99, 235, 0.10);
+            padding: 0.3rem 1.2rem;
+            border-radius: 40px;
+            border: 1px solid rgba(37, 99, 235, 0.12);
+            letter-spacing: 0.02em;
         }
 
         .nav-btn {
             background: transparent;
-            border: 2px solid #2563eb;
-            padding: 0.4rem 1.2rem;
+            border: none;
+            padding: 0.45rem 1.4rem;
             border-radius: 40px;
             font-weight: 600;
+            font-size: 0.9rem;
             color: #2563eb;
             cursor: pointer;
-            transition: 0.15s;
-            font-size: 0.9rem;
+            transition: all 0.2s ease;
             text-decoration: none;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: rgba(37, 99, 235, 0.06);
+            border: 1px solid transparent;
         }
 
         .nav-btn:hover {
             background: #2563eb;
             color: white;
+            box-shadow: 0 6px 16px -6px rgba(37, 99, 235, 0.35);
+            transform: translateY(-1px);
         }
 
-        /* View Layouts */
-        .hidden { display: none !important; }
+        .nav-btn:active {
+            transform: scale(0.97);
+        }
 
-        /* View 1: Faculty List Grid */
+        /* ── Utility ── */
+        .hidden {
+            display: none !important;
+        }
+
+        /* ── View 1: Faculty Grid ── */
         .faculty-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 0.75rem;
+            grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+            gap: 1.4rem;
+            margin-top: 0.5rem;
         }
 
-        .faculty-card, .home-card {
-            background: white;
-            border: 2px solid #2563eb;
-            border-radius: 16px;
-            padding: 2rem 1rem;
+        .faculty-card,
+        .home-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border: 1.5px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            padding: 2rem 0.8rem;
             text-align: center;
             cursor: pointer;
-            transition: all 0.2s ease;
-            box-shadow: 0 4px 6px -2px rgba(0,0,0,0.03);
+            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+            box-shadow: 0 4px 12px -6px rgba(0, 20, 40, 0.04);
             text-decoration: none;
             display: block;
+            position: relative;
+            overflow: hidden;
         }
 
-        .faculty-card:hover {
-            background: #2563eb;
-            transform: translateY(-3px);
-            box-shadow: 0 12px 20px -8px rgba(37, 99, 235, 0.25);
+        .faculty-card::after,
+        .home-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 20px;
+            padding: 1.5px;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(59, 130, 246, 0.05));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
         }
 
-        .faculty-card:hover .faculty-name { color: white; }
-
-        .home-card { background: #f0f5ff; border-color: #2563eb; }
+        .faculty-card:hover,
         .home-card:hover {
-            background: #2563eb;
-            transform: translateY(-3px);
-            box-shadow: 0 12px 20px -8px rgba(37, 99, 235, 0.25);
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 20px 40px -14px rgba(37, 99, 235, 0.20), 0 4px 12px -4px rgba(0, 0, 0, 0.02);
+            background: #ffffff;
+            border-color: rgba(37, 99, 235, 0.20);
         }
-        .home-card:hover .home-label { color: white; }
 
-        .faculty-name, .home-label {
+        .faculty-card:active,
+        .home-card:active {
+            transform: scale(0.97) translateY(-2px);
+        }
+
+        .faculty-name,
+        .home-label {
             font-weight: 700;
-            font-size: 1.2rem;
-            color: #2563eb;
-            transition: color 0.15s;
+            font-size: 1.15rem;
+            color: #1a2f4e;
+            transition: color 0.2s;
+            letter-spacing: -0.01em;
         }
 
-        /* View 2: Format Intermediary Section */
+        .faculty-card:hover .faculty-name {
+            color: #2563eb;
+        }
+
+        .home-card {
+            background: linear-gradient(135deg, #f0f7ff, #e6eefa);
+            border-color: rgba(37, 99, 235, 0.15);
+        }
+
+        .home-card:hover .home-label {
+            color: #2563eb;
+        }
+
+        .faculty-card .icon-emoji,
+        .home-card .icon-emoji {
+            font-size: 1.8rem;
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+
+        /* ── View 2: Format Selection ── */
         .view-choice-section {
             text-align: center;
-            padding: 2.5rem 1rem;
-            background: white;
-            border-radius: 24px;
-            border: 1px solid #e2e8f0;
+            padding: 3rem 2rem;
+            background: rgba(255, 255, 255, 0.80);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 12px 40px -12px rgba(0, 20, 40, 0.06);
             max-width: 780px;
             margin: 0 auto;
         }
 
         .view-choice-section h3 {
             font-size: 1.8rem;
-            font-weight: 600;
-            color: #0f172a;
+            font-weight: 700;
+            color: #0b1a2e;
             margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .view-choice-section h3 .highlight {
+            color: #2563eb;
         }
 
         .choice-grid {
             display: flex;
             justify-content: center;
-            gap: 1.5rem;
+            gap: 1.25rem;
             flex-wrap: wrap;
         }
 
         .choice-btn {
             background: white;
-            border: 2px solid #2563eb;
-            border-radius: 40px;
-            padding: 0.9rem 2.5rem;
+            border: 1.5px solid #dce4ef;
+            border-radius: 60px;
+            padding: 0.85rem 2.6rem;
             font-weight: 600;
-            font-size: 1.15rem;
-            color: #2563eb;
+            font-size: 1.05rem;
+            color: #1a2f4e;
             cursor: pointer;
-            transition: all 0.15s;
-            min-width: 180px;
+            transition: all 0.2s ease;
+            min-width: 170px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
         }
 
         .choice-btn:hover {
             background: #2563eb;
             color: white;
-            box-shadow: 0 8px 14px -6px rgba(37, 99, 235, 0.25);
+            border-color: #2563eb;
+            box-shadow: 0 12px 28px -10px rgba(37, 99, 235, 0.30);
+            transform: translateY(-2px);
         }
 
-        /* View 3 (Style A): Calendar Output Elements */
+        .choice-btn:active {
+            transform: scale(0.96);
+        }
+
+        .choice-btn .emoji {
+            font-size: 1.2rem;
+        }
+
+        /* ── View 3A: Calendar ── */
         .calendar-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.8rem;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.6rem;
         }
 
         .month-box {
-            background: white;
-            border-radius: 20px;
-            border: 1px solid #e9edf2;
-            padding: 1.3rem 1.2rem 1.2rem;
-            box-shadow: 0 4px 8px -4px rgba(0,0,0,0.02);
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 1.4rem 1.3rem 1.1rem;
+            box-shadow: 0 6px 18px -8px rgba(0, 20, 40, 0.04);
+            transition: all 0.2s ease;
+        }
+
+        .month-box:hover {
+            box-shadow: 0 12px 32px -12px rgba(0, 20, 50, 0.08);
+            transform: translateY(-2px);
         }
 
         .month-title {
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             font-weight: 700;
-            color: #0f172a;
-            border-bottom: 2px solid #eef2f6;
-            padding-bottom: 0.6rem;
+            color: #0b1a2e;
+            border-bottom: 2px solid rgba(37, 99, 235, 0.12);
+            padding-bottom: 0.65rem;
             margin-bottom: 0.9rem;
             text-transform: uppercase;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.04em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .month-title .month-count {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #6b7f99;
+            background: #eef2f7;
+            padding: 0.1rem 0.7rem;
+            border-radius: 40px;
         }
 
         .event-item {
-            background: #f1f5f9;
-            border-radius: 10px;
+            background: rgba(241, 245, 250, 0.7);
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            border-radius: 12px;
             padding: 0.6rem 0.9rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.45rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 0.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.15s ease;
+        }
+
+        .event-item:hover {
+            background: #ffffff;
+            border-color: rgba(37, 99, 235, 0.10);
+            box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.02);
         }
 
         .event-name {
             font-weight: 600;
-            font-size: 0.95rem;
-            word-break: break-word;
+            font-size: 0.92rem;
+            color: #1a2f4e;
             flex: 1;
+            line-height: 1.3;
         }
 
         .event-day {
             background: white;
-            border: 1px solid #d1d9e6;
-            padding: 0.1rem 0.6rem;
+            border: 1px solid #dce4ef;
+            padding: 0.1rem 0.7rem;
             border-radius: 30px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 700;
-            color: #1e293b;
+            color: #2563eb;
+            white-space: nowrap;
+            letter-spacing: 0.02em;
         }
 
-        /* View 3 (Style B): List / Regular Grid Elements */
+        /* ── View 3B: Grid (original style) ── */
         .original-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.8rem;
+            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+            gap: 1.6rem;
         }
 
         .bursary-card {
-            background: white;
-            border-radius: 20px;
-            padding: 1.6rem 1.4rem;
-            border: 1px solid #e9edf2;
-            box-shadow: 0 4px 8px -4px rgba(0,0,0,0.02);
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 24px;
+            padding: 1.6rem 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 6px 18px -8px rgba(0, 20, 40, 0.04);
+            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .bursary-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 36px -14px rgba(0, 20, 50, 0.08);
+            background: #ffffff;
+            border-color: rgba(37, 99, 235, 0.10);
         }
 
         .bursary-title {
-            font-size: 1.2rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #0b1a2e;
+            margin-bottom: 0.4rem;
+            letter-spacing: -0.01em;
+        }
+
+        .bursary-title .badge-faculty {
+            display: inline-block;
+            font-size: 0.65rem;
             font-weight: 600;
-            color: #0f172a;
-            margin-bottom: 0.5rem;
+            background: rgba(37, 99, 235, 0.10);
+            color: #2563eb;
+            padding: 0.05rem 0.65rem;
+            border-radius: 40px;
+            margin-left: 0.4rem;
+            vertical-align: middle;
         }
 
         .deadline {
             color: #b91c1c;
             font-weight: 600;
-            font-size: 0.95rem;
+            font-size: 0.92rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
         }
 
+        .deadline .icon {
+            font-size: 1rem;
+        }
+
+        /* ── Empty State ── */
         .empty-state {
             grid-column: 1 / -1;
             text-align: center;
             padding: 4rem 2rem;
-            background: white;
+            background: rgba(255, 255, 255, 0.70);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
             border-radius: 40px;
-            color: #64748b;
-            border: 1px dashed #cbd5e1;
+            color: #5b6f89;
+            border: 1.5px dashed rgba(37, 99, 235, 0.15);
+            font-size: 1.05rem;
+            font-weight: 450;
         }
 
-        /* Ad Presentation Containers */
+        /* ── Ads Container ── */
         .ads-container {
             margin: 2rem 0;
             text-align: center;
             min-height: 90px;
-            background: #f1f5f9;
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.40);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #94a3b8;
-            font-size: 0.9rem;
-            border: 1px dashed #cbd5e1;
+            color: #8a9bb0;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.2s;
         }
 
-        /* Always Floating WhatsApp Action Container Centered Vertically */
+        /* ── WhatsApp Floating ── */
         .wa-floating-container {
             position: fixed;
             top: 50%;
@@ -310,134 +493,280 @@
         }
 
         .wa-floating-btn {
-            width: 60px;
-            height: 60px;
-            background: #25d366;
+            width: 62px;
+            height: 62px;
+            background: linear-gradient(135deg, #25d366, #1ebe5a);
             color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
+            font-size: 2.1rem;
             text-decoration: none;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(37, 211, 102, 0.3);
-            transition: transform 0.2s ease, background-color 0.2s ease;
+            box-shadow: 0 6px 24px -4px rgba(37, 211, 102, 0.35), 0 2px 8px rgba(0, 0, 0, 0.02);
+            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+            border: none;
+            line-height: 1;
         }
 
         .wa-floating-btn:hover {
-            background: #20ba56;
-            transform: scale(1.08);
+            background: linear-gradient(135deg, #1ebe5a, #17a84a);
+            transform: scale(1.06) rotate(-2deg);
+            box-shadow: 0 12px 36px -6px rgba(37, 211, 102, 0.45);
+        }
+
+        .wa-floating-btn:active {
+            transform: scale(0.93);
         }
 
         .wa-text-label {
-            color: #1e293b;
-            font-size: 0.75rem;
+            color: #1a2f4e;
+            font-size: 0.7rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.04em;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 0.2rem 0.5rem;
-            border-radius: 6px;
-            border: 1px solid #e2e8f0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            background: rgba(255, 255, 255, 0.90);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            padding: 0.25rem 0.65rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.02);
             white-space: nowrap;
             text-align: center;
+            line-height: 1.3;
+            max-width: 100px;
         }
 
-        /* Screen Breakpoints styling matches design instructions */
-        @media (max-width: 480px) {
+        /* ── Responsive ── */
+        @media (max-width: 640px) {
+            body {
+                padding: 1.25rem 0.9rem;
+            }
+
+            .portal-header h1 {
+                font-size: 2rem;
+            }
+
+            .portal-header p {
+                font-size: 1rem;
+            }
+
             .top-nav {
                 flex-direction: column;
                 align-items: stretch;
                 text-align: center;
+                border-radius: 28px;
+                padding: 0.75rem 1.25rem;
+                gap: 0.6rem;
+            }
+
+            .top-nav .badge {
+                font-size: 0.8rem;
+            }
+
+            .nav-btn {
+                justify-content: center;
+                padding: 0.4rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            .faculty-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 1rem;
+            }
+
+            .faculty-card,
+            .home-card {
+                padding: 1.4rem 0.6rem;
+            }
+
+            .faculty-name,
+            .home-label {
+                font-size: 1rem;
+            }
+
+            .view-choice-section {
+                padding: 2rem 1.25rem;
                 border-radius: 24px;
             }
+
+            .view-choice-section h3 {
+                font-size: 1.4rem;
+            }
+
+            .choice-btn {
+                padding: 0.7rem 1.6rem;
+                font-size: 0.95rem;
+                min-width: 140px;
+            }
+
+            .calendar-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .original-grid {
+                grid-template-columns: 1fr;
+            }
+
             .wa-floating-container {
                 right: 0.75rem;
             }
+
             .wa-floating-btn {
                 width: 52px;
                 height: 52px;
                 font-size: 1.7rem;
             }
+
             .wa-text-label {
-                font-size: 0.65rem;
-                padding: 0.15rem 0.4rem;
+                font-size: 0.6rem;
+                padding: 0.15rem 0.45rem;
+                max-width: 80px;
             }
+
+            .month-box {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .faculty-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.8rem;
+            }
+
+            .choice-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .choice-btn {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+
+        /* ── Subtle animation for content appearance ── */
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .faculty-grid .faculty-card,
+        .faculty-grid .home-card,
+        .calendar-grid .month-box,
+        .original-grid .bursary-card {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .faculty-grid .faculty-card:nth-child(2) {
+            animation-delay: 0.04s;
+        }
+        .faculty-grid .faculty-card:nth-child(3) {
+            animation-delay: 0.08s;
+        }
+        .faculty-grid .faculty-card:nth-child(4) {
+            animation-delay: 0.12s;
+        }
+        .faculty-grid .faculty-card:nth-child(5) {
+            animation-delay: 0.16s;
+        }
+        .faculty-grid .faculty-card:nth-child(6) {
+            animation-delay: 0.20s;
+        }
+        .faculty-grid .faculty-card:nth-child(7) {
+            animation-delay: 0.24s;
         }
     </style>
 </head>
 <body>
-    <!-- Google AdSense Auto Anchor Slot Placement -->
-    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536" layout="nodisplay"></amp-auto-ads>
+
+    <!-- AdSense Auto Anchor -->
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536" layout="nodisplay">
+    </amp-auto-ads>
 
     <div class="container">
+
+        <!-- ── Header ── -->
         <header class="portal-header">
-            <h1 id="dynamicMainTitle">🎓 Bursary Hub</h1>
+            <h1>🎓 <span class="accent">Bursary</span> Hub</h1>
             <p id="dynamicSubtitle">Select a faculty to explore closing dates</p>
         </header>
 
-        <!-- Dynamic Control Bar (Views 2 & 3 only) -->
+        <!-- ── Navigation Bar ── -->
         <div id="navigationBar" class="top-nav hidden">
             <button id="navBackBtn" class="nav-btn">← Change view</button>
             <span class="badge" id="layoutBadge">Layout View</span>
             <button id="navHomeBtn" class="nav-btn">Back to Faculties</button>
         </div>
 
-        <!-- Upper Banner Ad Block -->
+        <!-- ── Ads (Top) ── -->
         <div class="ads-container">
-            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="1111111111" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="1111111111" data-auto-format="rspv" data-full-width>
+                <div overflow></div>
+            </amp-ad>
         </div>
 
-        <!-- VIEW 1: Directory Selection Window -->
+        <!-- ── VIEW 1: Faculty Selection ── -->
         <div id="facultyView">
             <div class="faculty-grid">
                 <a href="https://stemclub.co.za" class="home-card">
-                    <span class="home-label">🏠 Home (Stem Club)</span>
+                    <span class="home-label">🏠 Home</span>
                 </a>
-                <div class="faculty-card" data-id="accounting"><span class="faculty-name">Accounting</span></div>
-                <div class="faculty-card" data-id="education"><span class="faculty-name">Education</span></div>
-                <div class="faculty-card" data-id="engineering"><span class="faculty-name">Engineering</span></div>
-                <div class="faculty-card" data-id="it-computer-science"><span class="faculty-name">IT & Computer Science</span></div>
-                <div class="faculty-card" data-id="law"><span class="faculty-name">Law</span></div>
-                <div class="faculty-card" data-id="sciences"><span class="faculty-name">Sciences</span></div>
+                <div class="faculty-card" data-id="accounting"><span class="faculty-name">📊 Accounting</span></div>
+                <div class="faculty-card" data-id="education"><span class="faculty-name">📚 Education</span></div>
+                <div class="faculty-card" data-id="engineering"><span class="faculty-name">⚙️ Engineering</span></div>
+                <div class="faculty-card" data-id="it-computer-science"><span class="faculty-name">💻 IT &amp; CS</span></div>
+                <div class="faculty-card" data-id="law"><span class="faculty-name">⚖️ Law</span></div>
+                <div class="faculty-card" data-id="sciences"><span class="faculty-name">🔬 Sciences</span></div>
             </div>
         </div>
 
-        <!-- VIEW 2: Selection Matrix Option Formatter -->
+        <!-- ── VIEW 2: Format Selection ── -->
         <div id="formatView" class="hidden">
             <div class="view-choice-section">
-                <h3 id="choiceLabel">📌 Choose your desired formatting style</h3>
+                <h3>📌 Choose your <span class="highlight">display style</span></h3>
                 <div class="choice-grid">
-                    <button class="choice-btn" data-style="calendar">📅 Calendar</button>
-                    <button class="choice-btn" data-style="grid">🗂️ Grid (Original)</button>
+                    <button class="choice-btn" data-style="calendar"><span class="emoji">📅</span> Calendar</button>
+                    <button class="choice-btn" data-style="grid"><span class="emoji">🗂️</span> Grid</button>
                 </div>
             </div>
         </div>
 
-        <!-- VIEW 3A: Modular Calendar Engine Display Box -->
+        <!-- ── VIEW 3A: Calendar ── -->
         <div id="calendarContainer" class="calendar-grid hidden"></div>
 
-        <!-- VIEW 3B: List Layout Fallback Grid -->
+        <!-- ── VIEW 3B: Grid ── -->
         <div id="gridContainer" class="original-grid hidden"></div>
 
-        <!-- Lower Banner Ad Block -->
+        <!-- ── Ads (Bottom) ── -->
         <div class="ads-container">
-            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="2222222222" data-auto-format="rspv" data-full-width><div overflow></div></amp-ad>
+            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="2222222222" data-auto-format="rspv" data-full-width>
+                <div overflow></div>
+            </amp-ad>
         </div>
+
     </div>
 
-    <!-- Permanent Floating WhatsApp Layout Container -->
+    <!-- ── WhatsApp Floating ── -->
     <div class="wa-floating-container">
         <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
             💬
         </a>
-        <div class="wa-text-label">Join Group</div>
+        <div class="wa-text-label">Join STEMclub<br />WhatsApp Group</div>
     </div>
 
+    <!-- ── Script ── -->
     <script>
         (function() {
-            // Configuration Data
+            // ── Data ──
             const FACULTY_FILES = [
                 { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
                 { id: 'education', name: 'Education', url: 'education.ics' },
@@ -447,27 +776,28 @@
                 { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
             ];
 
-            const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+                "October", "November", "December"
+            ];
 
-            // State Trackers
+            // ── State ──
             let currentFaculty = null;
-            let currentStyle = null; 
+            let currentStyle = null;
 
-            // Structural Frame Engine Selectors
+            // ── DOM refs ──
             const fView = document.getElementById('facultyView');
             const formatView = document.getElementById('formatView');
             const calContainer = document.getElementById('calendarContainer');
             const gridContainer = document.getElementById('gridContainer');
             const navBar = document.getElementById('navigationBar');
-            
-            const mainTitle = document.getElementById('dynamicMainTitle');
+            const mainTitle = document.querySelector('.portal-header h1');
             const subTitle = document.getElementById('dynamicSubtitle');
-            const choiceLabel = document.getElementById('choiceLabel');
+            const choiceLabel = document.querySelector('.view-choice-section h3');
             const layoutBadge = document.getElementById('layoutBadge');
 
-            // Initialize Event Core Loops
+            // ── Init ──
             function init() {
-                // View 1 Handlers
+                // Faculty cards
                 document.querySelectorAll('.faculty-grid .faculty-card').forEach(card => {
                     card.addEventListener('click', () => {
                         const targetId = card.getAttribute('data-id');
@@ -476,7 +806,7 @@
                     });
                 });
 
-                // View 2 Handlers
+                // Format buttons
                 document.querySelectorAll('.choice-grid .choice-btn').forEach(btn => {
                     btn.addEventListener('click', () => {
                         const targetStyle = btn.getAttribute('data-style');
@@ -484,34 +814,45 @@
                     });
                 });
 
-                // Control Bar Navigation Anchors
+                // Nav controls
                 document.getElementById('navBackBtn').addEventListener('click', rollbackToFormatSelection);
                 document.getElementById('navHomeBtn').addEventListener('click', resetToHomeView);
             }
 
-            // View Management Controllers
+            // ── View transitions ──
             function openFormatSelection(facultyConfig) {
                 currentFaculty = facultyConfig;
-                
-                mainTitle.textContent = facultyConfig.name;
-                subTitle.textContent = "Format Selection Matrix";
-                choiceLabel.textContent = `📌 Choose display format for ${facultyConfig.name}`;
 
+                // Update header
+                const span = mainTitle.querySelector('.accent') || mainTitle;
+                if (span.tagName === 'SPAN') {
+                    span.textContent = facultyConfig.name;
+                } else {
+                    mainTitle.innerHTML = `🎓 <span class="accent">${facultyConfig.name}</span>`;
+                }
+                subTitle.textContent = "Choose your display format";
+
+                // Toggle views
                 fView.classList.add('hidden');
                 formatView.classList.remove('hidden');
-                
+                calContainer.classList.add('hidden');
+                gridContainer.classList.add('hidden');
+
                 navBar.classList.remove('hidden');
                 document.getElementById('navBackBtn').classList.add('hidden');
+                layoutBadge.textContent = 'Format Selection';
             }
 
             async function executeRenderFeed(style) {
                 currentStyle = style;
-                
+
                 formatView.classList.add('hidden');
                 document.getElementById('navBackBtn').classList.remove('hidden');
-                
+
                 layoutBadge.textContent = style === 'calendar' ? '📅 Calendar View' : '🗂️ Grid View';
-                subTitle.textContent = style === 'calendar' ? 'Deadlines organized by calendar months' : 'Deadlines displayed alphabetically';
+                subTitle.textContent = style === 'calendar' ?
+                    'Deadlines organized by month' :
+                    'Deadlines listed alphabetically';
 
                 if (style === 'calendar') {
                     calContainer.classList.remove('hidden');
@@ -521,7 +862,6 @@
                     calContainer.classList.add('hidden');
                 }
 
-                // Call Content Processing Unit
                 await loadAndProcessFeed();
             }
 
@@ -529,12 +869,19 @@
                 calContainer.classList.add('hidden');
                 gridContainer.classList.add('hidden');
                 document.getElementById('navBackBtn').classList.add('hidden');
-                
+
                 formatView.classList.remove('hidden');
-                
-                mainTitle.textContent = currentFaculty.name;
-                subTitle.textContent = "Format Selection Matrix";
-                layoutBadge.textContent = "Layout View";
+
+                if (currentFaculty) {
+                    const span = mainTitle.querySelector('.accent') || mainTitle;
+                    if (span.tagName === 'SPAN') {
+                        span.textContent = currentFaculty.name;
+                    } else {
+                        mainTitle.innerHTML = `🎓 <span class="accent">${currentFaculty.name}</span>`;
+                    }
+                    subTitle.textContent = "Choose your display format";
+                }
+                layoutBadge.textContent = 'Format Selection';
             }
 
             function resetToHomeView() {
@@ -546,21 +893,21 @@
                 gridContainer.classList.add('hidden');
                 navBar.classList.add('hidden');
 
-                mainTitle.textContent = "🎓 Bursary Hub";
-                subTitle.textContent = "Select a faculty to explore closing dates";
+                mainTitle.innerHTML = '🎓 <span class="accent">Bursary</span> Hub';
+                subTitle.textContent = 'Select a faculty to explore closing dates';
                 fView.classList.remove('hidden');
             }
 
-            // Content Engine Processing Unit (.ics Parser)
+            // ── ICS Parser ──
             async function loadAndProcessFeed() {
                 const activeContainer = currentStyle === 'calendar' ? calContainer : gridContainer;
-                activeContainer.innerHTML = '<div class="empty-state">⏳ Loading structural arrays from feed stream...</div>';
+                activeContainer.innerHTML = '<div class="empty-state">⏳ Loading data …</div>';
 
                 try {
                     const response = await fetch(currentFaculty.url);
-                    if (!response.ok) throw new Error("Resource not fetched cleanly");
+                    if (!response.ok) throw new Error('Network response was not ok');
                     const rawText = await response.text();
-                    
+
                     const collection = parseICS(rawText, currentFaculty);
 
                     if (currentStyle === 'calendar') {
@@ -568,45 +915,47 @@
                     } else {
                         renderGridLayout(collection, gridContainer);
                     }
-                } catch (err) {
-                    activeContainer.innerHTML = '<div class="empty-state">📭 Failed to extract calendar streams for this stream profile.</div>';
+                } catch (_) {
+                    activeContainer.innerHTML =
+                        '<div class="empty-state">📭 Could not load deadline data for this faculty.</div>';
                 }
             }
 
-            function parseICS(icsText, configuration) {
+            function parseICS(icsText, config) {
                 const dataset = [];
-                const trackingLines = icsText.split(/\r?\n/);
+                const lines = icsText.split(/\r?\n/);
                 let activeEvent = null;
 
-                for (let i = 0; i < trackingLines.length; i++) {
-                    let currentLine = trackingLines[i];
-                    
-                    while (i + 1 < trackingLines.length && (trackingLines[i+1].startsWith(' ') || trackingLines[i+1].startsWith('\t'))) {
-                        currentLine += trackingLines[i+1].substring(1);
+                for (let i = 0; i < lines.length; i++) {
+                    let line = lines[i];
+                    while (i + 1 < lines.length && (lines[i + 1].startsWith(' ') || lines[i + 1].startsWith('\t'))) {
+                        line += lines[i + 1].substring(1);
                         i++;
                     }
 
-                    if (currentLine.startsWith('BEGIN:VEVENT')) {
-                        activeEvent = { categoryId: configuration.id, category: configuration.name };
-                    } else if (currentLine.startsWith('END:VEVENT') && activeEvent) {
+                    if (line.startsWith('BEGIN:VEVENT')) {
+                        activeEvent = { categoryId: config.id, category: config.name };
+                    } else if (line.startsWith('END:VEVENT') && activeEvent) {
                         if (activeEvent.title) dataset.push(activeEvent);
                         activeEvent = null;
                     } else if (activeEvent) {
-                        if (currentLine.startsWith('SUMMARY:')) {
-                            let formattedSummary = currentLine.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
-                            activeEvent.title = formattedSummary || 'Untitled Item';
-                        } else if (currentLine.startsWith('DTSTART;VALUE=DATE:') || currentLine.startsWith('DTSTART:')) {
-                            const numericDateString = currentLine.split(':').pop().trim();
-                            if (numericDateString.length >= 8) {
-                                const yearSlice = numericDateString.substring(0, 4);
-                                const monthSlice = numericDateString.substring(4, 6);
-                                const daySlice = numericDateString.substring(6, 8);
-                                
-                                activeEvent.day = parseInt(daySlice, 10);
-                                activeEvent.monthIndex = parseInt(monthSlice, 10) - 1;
-                                
-                                const buildDate = new Date(`${yearSlice}-${monthSlice}-${daySlice}`);
-                                activeEvent.dateStr = buildDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'long', day: 'numeric' });
+                        if (line.startsWith('SUMMARY:')) {
+                            let title = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
+                            activeEvent.title = title || 'Untitled';
+                        } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
+                            const raw = line.split(':').pop().trim();
+                            if (raw.length >= 8) {
+                                const y = raw.substring(0, 4);
+                                const m = raw.substring(4, 6);
+                                const d = raw.substring(6, 8);
+                                activeEvent.day = parseInt(d, 10);
+                                activeEvent.monthIndex = parseInt(m, 10) - 1;
+                                const dt = new Date(`${y}-${m}-${d}`);
+                                activeEvent.dateStr = dt.toLocaleDateString('en-ZA', {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric'
+                                });
                             }
                         }
                     }
@@ -614,60 +963,66 @@
                 return dataset;
             }
 
-            // Render Framework Engine Elements
-            function renderCalendarLayout(items, targetBox) {
-                targetBox.innerHTML = '';
+            // ── Renderers ──
+            function renderCalendarLayout(items, target) {
+                target.innerHTML = '';
                 if (!items.length) {
-                    targetBox.innerHTML = '<div class="empty-state">📭 No active deadlines extracted under this category tracking segment.</div>';
+                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
                     return;
                 }
 
-                const allocationMonths = Array.from({ length: 12 }, () => []);
-                items.forEach(node => {
-                    if (node.monthIndex !== undefined && node.monthIndex >= 0 && node.monthIndex < 12) {
-                        allocationMonths[node.monthIndex].push(node);
+                const buckets = Array.from({ length: 12 }, () => []);
+                items.forEach(item => {
+                    if (item.monthIndex !== undefined && item.monthIndex >= 0 && item.monthIndex < 12) {
+                        buckets[item.monthIndex].push(item);
                     }
                 });
 
-                allocationMonths.forEach((monthPool, index) => {
-                    if (!monthPool.length) return;
-                    
-                    const timelineSorted = monthPool.sort((x, y) => (x.day || 0) - (y.day || 0));
-                    const cardSection = document.createElement('div');
-                    cardSection.className = 'month-box';
-                    
-                    let codeBlockHTML = `<div class="month-title">${MONTH_NAMES[index]}</div>`;
-                    timelineSorted.forEach(item => {
-                        codeBlockHTML += `
+                buckets.forEach((monthItems, idx) => {
+                    if (!monthItems.length) return;
+                    monthItems.sort((a, b) => (a.day || 0) - (b.day || 0));
+
+                    const box = document.createElement('div');
+                    box.className = 'month-box';
+                    let html = `<div class="month-title">${MONTH_NAMES[idx]} <span class="month-count">${monthItems.length}</span></div>`;
+                    monthItems.forEach(item => {
+                        html += `
                             <div class="event-item">
                                 <span class="event-name">${item.title}</span>
                                 <span class="event-day">Day ${item.day || '–'}</span>
                             </div>`;
                     });
-                    
-                    cardSection.innerHTML = codeBlockHTML;
-                    targetBox.appendChild(cardSection);
+                    box.innerHTML = html;
+                    target.appendChild(box);
                 });
+
+                if (!target.children.length) {
+                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
+                }
             }
 
-            function renderGridLayout(items, targetBox) {
-                targetBox.innerHTML = '';
+            function renderGridLayout(items, target) {
+                target.innerHTML = '';
                 if (!items.length) {
-                    targetBox.innerHTML = '<div class="empty-state">📭 No data models returned inside selected workspace profiles.</div>';
+                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
                     return;
                 }
 
-                const structuralMatrix = items.slice().sort((x, y) => (x.monthIndex || 0) - (y.monthIndex || 0) || (x.day || 0) - (y.day || 0));
-                structuralMatrix.forEach(entry => {
-                    const blockItem = document.createElement('div');
-                    blockItem.className = 'bursary-card';
-                    blockItem.innerHTML = `
-                        <div class="bursary-title">${entry.title}</div>
-                        <div class="deadline">⏳ ${entry.dateStr || 'Date Specification Absent'}</div>`;
-                    targetBox.appendChild(blockItem);
+                const sorted = items.slice().sort((a, b) =>
+                    (a.monthIndex || 0) - (b.monthIndex || 0) || (a.day || 0) - (b.day || 0)
+                );
+
+                sorted.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'bursary-card';
+                    card.innerHTML = `
+                        <div class="bursary-title">${item.title}</div>
+                        <div class="deadline"><span class="icon">⏳</span> ${item.dateStr || 'Date not specified'}</div>`;
+                    target.appendChild(card);
                 });
             }
 
+            // ── Boot ──
             window.addEventListener('DOMContentLoaded', init);
         })();
     </script>
