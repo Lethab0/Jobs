@@ -4896,7 +4896,54 @@ const jobs = [
     shortDescription: "Rand Water is recruiting for multiple vacancies including an Automation Technologist, a Handyman, and various Graduate Programmes across Engineering, Finance, HR, Chemistry, and Water Care.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Rand Water has published its consolidated intake for July 2026, inviting applications for professional technical roles, general maintenance staff, and multiple graduate trainee tracks. These positions support bulk water utility infrastructure, administrative services, and operational logistics across Gauteng and the North West.</div><br><div><strong>FULL LIST OF VACANCIES & CLOSING DATES:</strong></div><div>• <strong>Automation Technologist (Glenvista | Closes 2026/07/09)</strong></div><div>• <strong>Handyman - Rustenburg (Johannesburg South | Closes 2026/07/07)</strong></div><div>• <strong>Principal Engineering Assistant x3 - Civil, Mechanical and Electrical (Glenvista | Closes 2026/07/01)</strong></div><div><br><strong>GRADUATE PROGRAMME ROLES (All Close 2026/07/10):</strong></div><div>• <strong>Graduate Programme - Advanced Diploma in Chemistry / Quality Assurance / Chemical Engineering x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - National Diploma S4, S6 / Degree in Electrical Engineering x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - BCom Finance x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - National Diploma: Instrumentation & Control or Equivalent x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - Degree in Human Resource x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - Advanced Diploma in Water Care / Water Science and Technology x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - BEng Tech or National Diploma in Mechanical Engineering x1 (Johannesburg)</strong></div><div>• <strong>Graduate Programme - N6 + Trade Test, or Diploma/Degree in Mechanical or Electrical Engineering x1 (Johannesburg)</strong></div><br><div><strong>GENERAL SELECTION CRITERIA:</strong></div><div>Graduate tracks require applicants to be currently unemployed South African citizens under the age of 35 who have not previously completed a formal corporate internship framework.</div>`
   },
-
+{
+    id: "adapt-it-multi-disciplinary-internships-2026",
+    title: "Graduate Internship Programme (Multiple Tracks)",
+    company: "Adapt IT (Pty) Ltd",
+    location: "Midrand, Gauteng, South Africa",
+    type: "Internship • Graduate Contract",
+    duration: "N/A",
+    reportTo: "Assigned Team Leads",
+    datePosted: "2026-07-13T00:00:00+02:00",
+    closingDate: "Until Filled",
+    applicationLink: "https://adaptit.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=8875f8d2-b918-42e8-b29a-1b478cc3ad63",
+    reference: "8875f8d2-b918-42e8-b29a-1b478cc3ad63",
+    tags: ["IT & Technology", "Computer Science", "Finance", "Business"],
+    shortDescription: "Adapt IT is recruiting interns across Software Development, Testing, IT Support, Business Analysis, Admin, and Finance for their Midrand office.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Adapt IT (Pty) Ltd is seeking motivated, enthusiastic, and dedicated individuals to join their growing team across a variety of corporate and technical disciplines in Midrand. This internship framework provides recent graduates with an environment to expand vertical market software knowledge, collaborate with specialized development and operations professionals, and work on live commercial projects.</div><br><div><strong>AVAILABLE OPPORTUNITIES & STREAMS:</strong></div><div>• Software Development</div><div>• Software Testing / Quality Assurance</div><div>• IT Support & Helpdesk Operations</div><div>• Business Analysis</div><div>• Finance Administration</div><div>• General Office Administration</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Must hold a completed relevant tertiary qualification matching the applied stream (e.g., Computer Science, Information Technology, Finance, Business Analysis, or Administration).</div><div>• <strong>Core Competencies:</strong> Strong communication and interpersonal skills, sharp diagnostic and problem-solving abilities, high attention to structural detail, and full proficiency in Microsoft Office applications.</div><div>• <strong>Attributes:</strong> A proactive attitude towards continuous professional growth, capability to work both independently and collaboratively within agile frameworks, and an interest in digital business enablement.</div>`
+  },
+  {
+    id: "one-capital-advisory-graduate-trainee-programme-2027",
+    title: "Advisory Graduate Trainee Programme 2027",
+    company: "One Capital",
+    location: "Illovo, Johannesburg, Gauteng, South Africa",
+    type: "Graduate Program • Corporate Finance",
+    duration: "24 Months",
+    reportTo: "Assigned Mentors / Advisory Directors",
+    datePosted: "2026-06-15T00:00:00+02:00",
+    closingDate: "2026-08-31",
+    applicationLink: "mailto:careers@onecapital.co.za",
+    reference: "N/A",
+    tags: ["Accounting", "Finance", "Statistics", "Actuarial Science", "Financial Mathematics", "Engineering"],
+    shortDescription: "One Capital is recruiting graduates for its 2027 Advisory Graduate Trainee Programme in Johannesburg. The 24-month program focuses on corporate finance, business valuations, and transactional advisory workflows.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>One Capital invites ambitious graduates to apply for its 2027 Advisory Graduate Trainee Programme based at their Head Office in Illovo, Johannesburg. This structured 24-month professional track offers intensive exposure to corporate finance infrastructure, complex transactional engineering, mergers and acquisitions (M&amp;A), capital raising mechanisms, and JSE regulatory advisory compliance. The framework initiates with a foundational 4-week specialist training curriculum before integrating trainees into operational project groups under direct executive mentorship.</div><br><div><strong>CORE EXPOSURE & LEARNING ARCS:</strong></div><div>• <strong>Advisory Mechanics:</strong> Deep deployment within corporate finance operations, financial modelling pipelines, and business valuation strategies.</div><div>• <strong>Transaction Analysis:</strong> Assisting execution teams with corporate actions compliance, transaction structuring, and financial transaction analysis.</div><div>• <strong>Regulatory Architecture:</strong> Exposure to JSE-listed compliance systems and corporate governance frameworks under specialized sponsor instruction.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Status:</strong> Must have recently completed, or be in the final stages of completing, a relevant undergraduate or postgraduate university qualification.</div><div>• <strong>Accepted Disciplines:</strong> Bachelor of Accounting (BAcc), BCom, Business Science (Accounting), Management Accounting, Finance, Financial Mathematics, Actuarial Science, Statistics, or Engineering degrees.</div><div>• <strong>Citizenship:</strong> Open to South African Citizens, Permanent Residents, or holders of a valid legal Work Permit.</div><div>• <strong>Competencies:</strong> Exemplary academic record with demonstrated analytical and data reasoning capabilities, clear interpersonal communication skills, and a passionate interest in financial markets.</div>`
+  },
+  {
+    id: "sab-brewing-in-service-trainee-2026",
+    title: "Brewing In-Service Trainee x3",
+    company: "South African Breweries (SAB) / AB InBev",
+    location: "Newlands Brewery, Cape Town, Western Cape, South Africa",
+    type: "Internship • Work Integrated Learning (WIL)",
+    duration: "Academic Requirement Dependent",
+    reportTo: "Control Room Operator (CRO) / Brewing Team Leads",
+    datePosted: "2026-07-08T00:00:00+02:00",
+    closingDate: "2026-07-20",
+    applicationLink: "https://wd1.myworkdaysite.com/recruiting/abinbev/SAB/job/Newlands-Brewery/Brewing-In--Service-Trainee-x3_30100619",
+    reference: "30100619",
+    tags: ["Chemical Engineering", "Mechanical Engineering"],
+    shortDescription: "SAB is hosting three Brewing In-Service Trainee opportunities at Newlands Brewery for 3rd-year students requiring experiential training in Chemical, Mechanical, or Food Science Engineering.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Breweries (SAB) has three (3) opening spots for Brewing In-Service Trainees at their historic Newlands Brewery in Cape Town. This structured plant placement integrates third-year students into active bulk production environments, managing core operations across the Brewhouse, Cellars, Filtration, and Bright Beer Tank sectors. Trainees will execute standard operating procedures, track chemical processing parameters, handle deep machine care assets, and troubleshoot technical plant deviations.</div><br><div><strong>KEY ROLES & RESPONSIBILITIES:</strong></div><div>• <strong>Process Control & Operations:</strong> Safely operate complex manufacturing machinery across dedicated brewing spaces under strict standard guidelines.</div><div>• <strong>Quality Validation:</strong> Perform routine raw fluid quality audits, process analytics, and technical sample evaluation, logging outcomes directly onto information systems.</div><div>• <strong>Autonomous Asset Care:</strong> Execute targeted plant cleaning, structural lubrication, and hardware inspections matching scheduled maintenance parameters.</div><div>• <strong>Problem Diagnosis:</strong> Track waste generation metrics, log infrastructure faults to the Control Room Operator (CRO), and deploy 5Y diagnostic exercises to map operational failures.</div><div>• <strong>Shift Interaction:</strong> Participate fully in continuous shift changeovers, progress handovers, and collaborative problem-solving team meetings.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Level:</strong> Must be a registered 3rd-year student currently completing modules toward a National Diploma in Chemical Engineering, Mechanical Engineering, or Food Science.</div><div>• <strong>Prerequisite Insight:</strong> Strong conceptual understanding of basic brewing systems, fluid handling dynamics, and industrial chemical transformations.</div><div>• <strong>Competencies:</strong> Foundational PC literacy, active team collaboration skills, and an explicit academic need to complete experiential plant exposure hours for qualification completion.</div>`
+  },
                 
 
   ];
