@@ -4975,7 +4975,71 @@ const jobs = [
   tags: [],
   shortDescription: "Sanlam Group is recruiting for multiple entry-level internships and professional roles across Group Technology, Forensic Services, Glacier International, and Succession Financial Planning.",
   fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Sanlam has consolidated its July 2026 intake, offering multiple graduate internships and professional tracks across engineering, data systems, finance, administration, and marketing. These roles are based primarily out of corporate hubs in Bellville and Cape Town.</div><br><div><strong>AVAILABLE OPPORTUNITIES & CLUSTERS:</strong></div><div>• <strong>Intern: Finance Assistant (Bellville):</strong> Focuses on financial processing, journal entries, and account reconciliations. Requires a Degree/Diploma in Finance or Accounting.</div><div>• <strong>Intern: Vendor Management Admin (Bellville):</strong> Supports IT contract architecture and vendor compliance metrics. Requires a Bachelor's degree (Procurement, Supply Chain, or Commerce preferred).</div><div>• <strong>Intern: Financial Data Analyst (Bellville):</strong> Combines data science with financial analytics using Excel, Power BI, and SQL pipelines. Requires a quantitative degree/diploma.</div><div>• <strong>Intern: Data Governance & Data Quality Analyst (Bellville):</strong> Monitors metadata validation and profiles enterprise data repositories. Requires an IT, Computer Science, or Data Science qualification.</div><div>• <strong>Intern: SharePoint Services (Bellville):</strong> Handles site configurations, document libraries, and Power Platform workflow engineering. Requires an IT qualification.</div><div>• <strong>Intern: Service Management (Bellville):</strong> Provides Tier 1 technical support and incident management logs for desktop environments. Requires an IT qualification.</div><div>• <strong>Data Science Graduate Intern - Forensic Services (Bellville):</strong> Constructs structured data architectures and predictive statistics to mitigate corporate fraud risks. Requires a Data Science, Maths, or Stats qualification.</div><div>• <strong>Graduate Intern: Graphic Design & Comms - SFP (Bellville):</strong> Translates marketing briefs into visual layouts and coordinates social channels. Requires a Graphic Design or Digital Marketing qualification.</div><div>• <strong>Graduate Intern: Recruitment Support - SFP (Bellville):</strong> Coordinates panel review scheduling, tracks candidate pipelines, and structures HR data. Requires a National Diploma/Degree in HR, Industrial Psychology, or Business Administration.</div><div>• <strong>Offshore Specialist - Glacier International (Cape Town):</strong> Professional role focused on expanding global investment fund tracks and training intermediaries. Requires an investment tertiary qualification and 5+ years of financial services experience.</div>`
-}
+},
+{
+  id: "siemens-genesis-programme-associate-consultant-2026",
+  title: "Genesis Programme - Associate Consultant",
+  company: "SIEMENS INDUSTRY SOFTWARE SA (PTY) LTD",
+  location: "Pretoria, Gauteng, South Africa",
+  type: "Fixed Term • Full-time",
+  duration: "10 months (1 February 2027 – 30 November 2027)",
+  reportTo: "N/A",
+  datePosted: "2026-07-10T00:00:00+02:00",
+  closingDate: "2026-08-01",
+  applicationLink: "https://jobs.siemens.com/en_US/externaljobs/JobDetail/512705?source=LinkedIn&sourceType=PREMIUM_POST_SITE",
+  reference: "512705",
+  tags: [],
+  shortDescription: "Siemens Digital Industries Software is recruiting an Associate Consultant for its 10-month Genesis Programme in Pretoria, offering hands-on experience with PLM tools and customer projects.",
+  fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Siemens Digital Industries Software offers the Genesis Programme, a 10-month professional development track for early-career professionals in Pretoria. Over the 10-month period (1 February 2027 – 30 November 2027), you will work alongside experienced consultants and project managers, gaining hands-on experience with industry-leading PLM tools while contributing to real customer projects.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Master PLM and CAD software through intensive, hands-on training from fundamentals to advanced applications.</div><div>• Contribute directly to customer-facing projects under the mentorship of skilled consultants.</div><div>• Support project delivery using Siemens' Project Management Methodology and best practices.</div><div>• Collaborate with cross-functional teams to solve complex engineering challenges.</div><div>• Build professional connections in the Pretoria office while developing technical expertise and soft skills.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Bachelor's or Master's degree in Mechanical Engineering, Computer Science, Industrial Engineering, Manufacturing, or a related technical field.</div><div>• <strong>Mindset:</strong> Genuine passion for learning, self-starter mentality, proactive mindset, and strong collaborative spirit.</div><div>• <strong>Availability:</strong> Must be available to attend an assessment centre in Pretoria in August/September 2026.</div><br><div><strong>COMPENSATION & ARRANGEMENTS:</strong></div><div>• Structured as a contingent worker arrangement through a third-party provider with an anticipated allowance of R 25 000 per month.</div>`
+},
+{
+  id: "schneider-electric-2027-graduate-programme-south-africa-126153",
+  title: "2027 Graduate Programme - South Africa",
+  company: "Schneider Electric",
+  location: "Gauteng, South Africa",
+  type: "Hybrid • Full-time",
+  duration: "24 months",
+  reportTo: "N/A",
+  datePosted: "2026-08-12T00:00:00+02:00",
+  closingDate: "Until Filled",
+  applicationLink: "https://careers.se.com/jobs/126153?lang=en-us&previousLocale=en-US",
+  reference: "126153",
+  tags: ["Engineering", "IT"],
+  shortDescription: "Schneider Electric is hiring for its 24-month 2027 Graduate Programme in Gauteng, open to recent engineering, IT, environmental science, and marketing graduates.",
+  fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Schneider Electric is launching its 24-month 2027 Graduate Programme in Gauteng, designed to accelerate early careers across electrification, automation, and digitization tracks. The structured development journey offers real business exposure, hands-on field experience, and technical mentorship.</div><br><div><strong>QUALIFICATION REQUIREMENTS:</strong></div><div>• <strong>Engineering & Sciences:</strong> BEng/BSc degree in Electrical Engineering, Industrial Engineering, or Environmental Sciences.</div><div>• <strong>Information Technology:</strong> Bachelor's degree in Information Technology.</div><div>• <strong>Business:</strong> BCom/BBA degree in Marketing Management.</div><div>• <strong>Academic Record:</strong> Minimum 65% academic average required.</div><div>• <strong>Graduation Status:</strong> Recent 2026 graduate or graduating within the next 6 months.</div><br><div><strong>KEY SKILLS & EXPECTATIONS:</strong></div><div>• Proactive mindset with strong analytical, problem-solving, and prioritization capabilities.</div><div>• Excellent interpersonal and collaboration skills in cross-functional team settings.</div><div>• Availability and commitment to working onsite with strong interest in hands-on, field-based technical work.</div>`
+},
+{
+  id: "zutari-graduate-talent-community-2026-1921",
+  title: "Zutari Graduate Talent Community 2026 | Engineering Graduate Programme",
+  company: "Zutari",
+  location: "Pretoria, Rosebank, Cape Town, Paarl & eThekwini, South Africa",
+  type: "Full-time • Graduate Programme",
+  duration: "Unspecified",
+  reportTo: "N/A",
+  datePosted: "2026-05-08T00:00:00+02:00",
+  closingDate: "Until Filled",
+  applicationLink: "https://zutari.hua.hrsmart.com/hr/ats/Posting/view/1921",
+  reference: "1921",
+  tags: ["Engineering"],
+  shortDescription: "Zutari is recruiting final-year BSc, BEng, and Master's graduates across 14 engineering and science disciplines for its Graduate Talent Community.",
+  fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Zutari is inviting applications for its Graduate Talent Community to bridge academic learning with professional practice. Graduates will work on live infrastructure project environments alongside senior engineering teams while setting a structured path toward professional registration.</div><br><div><strong>ELIGIBLE DISCIPLINES:</strong></div><div>• Civil Engineering (Infrastructure, Structures, Water, Transport)</div><div>• Structural Engineering (Bridges) & Geotechnical Engineering</div><div>• Mechanical Engineering & Chemical Engineering</div><div>• Electrical Engineering & Electrical (Electronic/Mechatronic Engineering)</div><div>• Data Science/Engineering & Geoinformatics</div><div>• Industrial Engineering</div><div>• Environmental & Engineering Geology</div><br><div><strong>QUALIFICATION REQUIREMENTS:</strong></div><div>• <strong>Education:</strong> Final-year BSc/BEng undergraduate degree or Master's degree in one of the specified disciplines.</div><div>• <strong>Academic Standard:</strong> Minimum overall aggregate average of 65% or above.</div><div>• <strong>Application Documentation:</strong> Comprehensive CV, South African ID or passport, certified copies of academic qualifications, and full transcripts.</div>`
+},
+{
+  id: "toyota-south-africa-gt27-graduate-programme-2027",
+  title: "GT27 Graduate Training Programme 2027",
+  company: "Toyota South Africa Motors (TSAM)",
+  location: "Durban & Johannesburg, South Africa",
+  type: "Full-time • Graduate Development Track",
+  duration: "24 Months (2 Years)",
+  reportTo: "N/A",
+  datePosted: "2026-08-07T00:00:00+02:00",
+  closingDate: "2026-08-21",
+  applicationLink: "https://my.wamly.io/careers/toyota-graduate-programme?sort=%5B%7B%22method%22%3A%22desc%22%2C%22sortField%22%3A%22startDate%22%7D%5D",
+  reference: "GT27",
+  tags: ["Engineering", "IT", "Finance", "Business"],
+  shortDescription: "Toyota South Africa Motors is recruiting for its 2-year GT27 Graduate Training Programme commencing February 2027 across Durban and Johannesburg.",
+  fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Toyota South Africa Motors (TSAM) has opened applications for its GT27 Graduate Training Programme starting in February 2027. Built on 'The Toyota Way' principles (Respect for People &amp; Continuous Improvement), this 24-month structured development track provides immersive exposure across manufacturing, commercial operations, and technical management.</div><br><div><strong>DEVELOPMENT FRAMEWORK:</strong></div><div>• <strong>70% Experiential Learning:</strong> Hands-on work assignments and business project delivery.</div><div>• <strong>20% Technical Training:</strong> Classroom-based instruction and technical skill-building.</div><div>• <strong>10% Mentorship:</strong> Direct coaching from executive leaders and subject matter experts.</div><br><div><strong>ACCEPTED QUALIFICATION STREAMS:</strong></div><div>• <strong>Engineering & Built Environment:</strong> Industrial, Mechatronics, Mechanical, Electro-Mechanical, Electrical, Civil Engineering, Motor Mechanic, Auto Body Repair/Spray Painting, Quantity Surveying, and Construction Management.</div><div>• <strong>IT & Quantitative:</strong> Information Technology, Computer Science, and Data Science.</div><div>• <strong>Finance & Accounting:</strong> Management Accounting, Financial Accounting, and Cost Management.</div><div>• <strong>Commercial & People Management:</strong> Marketing, Sales, Supply Chain, Communications, Graphic Design, Business Management, Industrial Psychology, and Human Resources.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• <strong>Academic Status:</strong> Final-year student graduating in 2026 or recent graduate from a recognized tertiary institution.</div><div>• <strong>Competencies:</strong> Agile learner with strong academic performance, leadership potential, and problem-solving drive.</div>`
+},
                 
 
   ];
