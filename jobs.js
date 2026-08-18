@@ -5136,6 +5136,22 @@ const jobs = [
     shortDescription: "Tribal Consulting is hiring a Software Developer for an onsite permanent role in V&A Waterfront, Cape Town. Apply via email at Monique@tribal.consulting.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Tribal Consulting is hiring a Software Developer for a permanent onsite role at their V&amp;A Waterfront Offices in Cape Town offering a competitive salary paid in USD.</div><br><div><strong>KEY SKILLS &amp; QUALIFICATIONS:</strong></div><div>• 0-3 Years Experience</div><div>• Skills: Python, AWS, JavaScript, Vue.js</div><div>• Bachelor's Degree in Computer Science, Engineering, or a related field</div><br><div><strong>HIGHLIGHTS:</strong></div><div>• Competitive salary paid in USD</div><div>• Onsite in V&amp;A Waterfront Offices</div><div>• Exceptional company culture</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your application to Monique@tribal.consulting.</div>`
   },
+  {
+    id: "graduate-internship-program-12-months-billetterie-software-midrand-gauteng",
+    title: "Graduate Internship Program (12 Months)",
+    company: "Billetterie Software",
+    location: "Midrand, Gauteng",
+    type: "Internship • Contract",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-08-18T09:45:42+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:info@billetteriesoftware.com",
+    reference: "N/A",
+    tags: ["Software Development", "IT & Technology"],
+    shortDescription: "Billetterie Software in Midrand is hiring university graduates for a 12-month Graduate Internship Program across multiple IT fields. Apply via email at info@billetteriesoftware.com.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Billetterie Software, based in Midrand, is looking for motivated and versatile university graduates to join their team for a 12-Month Graduate Internship Program.</div><br><div><strong>FIELDS AVAILABLE:</strong></div><div>• Business Analyst</div><div>• Software Developer</div><div>• AI Engineer</div><div>• Mobile Application Developer</div><div>• Systems Tester</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Must be a university graduate with a relevant qualification</div><div>• Must NOT have previously participated in an MICT SETA internship program</div><div>• Passionate, driven, and eager to learn in a dynamic IT environment</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates can send their CV and qualifications to info@billetteriesoftware.com with the subject line as the specific "Job title".</div>`
+  },
                 
 
   ];
