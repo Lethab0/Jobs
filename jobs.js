@@ -5152,6 +5152,54 @@ const jobs = [
     shortDescription: "Billetterie Software in Midrand is hiring university graduates for a 12-month Graduate Internship Program across multiple IT fields. Apply via email at info@billetteriesoftware.com.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Billetterie Software, based in Midrand, is looking for motivated and versatile university graduates to join their team for a 12-Month Graduate Internship Program.</div><br><div><strong>FIELDS AVAILABLE:</strong></div><div>• Business Analyst</div><div>• Software Developer</div><div>• AI Engineer</div><div>• Mobile Application Developer</div><div>• Systems Tester</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Must be a university graduate with a relevant qualification</div><div>• Must NOT have previously participated in an MICT SETA internship program</div><div>• Passionate, driven, and eager to learn in a dynamic IT environment</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates can send their CV and qualifications to info@billetteriesoftware.com with the subject line as the specific "Job title".</div>`
   },
+  {
+    id: "plant-metallurgist-internship-programme-ndalamo-coal-wonderfontein-mine-belfast-mpumalanga",
+    title: "Plant Metallurgist Internship Programme",
+    company: "Ndalamo Coal (Wonderfontein Mine)",
+    location: "Belfast, Mpumalanga",
+    type: "Internship • Contract",
+    duration: "24 Months (2 Years)",
+    reportTo: "N/A",
+    datePosted: "2026-08-19T00:00:00+02:00",
+    closingDate: "2026-08-26",
+    applicationLink: "mailto:jobs.wdf@ndalamo.com",
+    reference: "WFT009/2026",
+    tags: ["Mining & Metallurgy", "Chemical Engineering", "Industrial Engineering"],
+    shortDescription: "Ndalamo Coal’s Wonderfontein Mine is offering four 24-month Plant Metallurgist internships for unemployed BTech graduates. Apply via email at jobs.wdf@ndalamo.com.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Ndalamo Coal’s Wonderfontein Mine is offering four 24-month internship opportunities for unemployed South African graduates. This programme is designed to give young people a genuine entry point into the mining and metallurgical industry, combining structured mentorship with hands-on workplace experience.</div><br><div><strong>ACCEPTED QUALIFICATION STREAMS:</strong></div><div>• BTech in Metallurgical Engineering</div><div>• BTech in Chemical Engineering</div><div>• BTech in Logistics Management</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Unemployed South African graduate</div><div>• Have never previously participated in an internship programme</div><div>• Hold a completed BTech in Metallurgical Engineering, Chemical Engineering, or Logistics Management</div><br><div><strong>WHAT YOU'LL GAIN:</strong></div><div>• 24 months of structured, practical workplace experience</div><div>• Mentorship from experienced professionals in the mining and metallurgical sector</div><div>• Development of technical skills aligned to industry needs</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Updated CV</div><div>• Certified copy of ID</div><div>• Certified copies of qualifications</div><div>• Proof of residence</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Applications must be submitted via email to jobs.wdf@ndalamo.com. You MUST use the exact reference number <strong>WFT009/2026</strong> in the email subject line.</div>`
+  },
+  {
+    id: "it-internal-audit-technology-governance-risk-assurance-senior-consultant-deloitte-midrand-gauteng",
+    title: "IT Internal Audit, Technology Governance, Risk & Assurance Senior Consultant",
+    company: "Deloitte",
+    location: "Midrand, Gauteng",
+    type: "Full-time • Hybrid",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-08-20T06:35:39+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://jobs.smartrecruiters.com/Deloitte6/744000144256394-it-internal-audit-technology-governance-risk-assurance-senior-consultant",
+    reference: "744000144256394",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "Deloitte is recruiting a Senior Consultant for IT Internal Audit, Technology Governance, Risk & Assurance in Midrand under a hybrid work model.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Deloitte is looking for a Senior Consultant in IT Internal Audit, Technology Governance, Risk &amp; Assurance based in Midrand, South Africa. The ideal candidate combines technology risk expertise with strong business understanding to assess complex technology environments beyond traditional IT controls.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Lead and deliver assurance and advisory engagements across complex technology and digital transformation initiatives.</div><div>• Assess programme governance, delivery risks, benefits realization, change management, and stakeholder accountability.</div><div>• Evaluate whether technology investments and initiatives align with organizational objectives and strategic priorities.</div><div>• Review technology performance measurement, data governance frameworks, third-party technology risk management, and cloud adoption risks.</div><div>• Apply technology risk and controls knowledge across systems like SAP ECC, S/4, JDE, Oracle, Sage, and Coupa.</div><div>• Prepare high-quality Assurance/Advisory Reports clearly demonstrating value and impact.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor of Commerce Information Systems / Internal Auditing, or Bachelor of Science Computer Science (Honours or postgraduate diploma preferred)</div><div>• Professional certifications such as CISA and CRISC + relevant CPD</div><div>• 4–7 years experience in a client-facing role</div><div>• 4–7 years IT Audit, Third Party Assurance, and IT Controls Advisory experience</div>`
+  },
+  {
+    id: "psg-graduate-programme-2027-psg-financial-services-tygerfalls-the-edge-western-cape",
+    title: "PSG Graduate Programme | 2027",
+    company: "PSG Financial Services",
+    location: "Tygerfalls The Edge, Western Cape",
+    type: "Full-time • Graduate Track",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-01-07T00:00:00+02:00",
+    closingDate: "2026-11-30",
+    applicationLink: "https://myfocus.psg.co.za/CareerFocus/Vacancy/HRF_VACANCY_REPORT.aspx?qs=mlpeS3%2FjZLwAyYPCqyBIJYqcbtukORPruqiK2vk3Ca%2FhShJnFDTWsR2VR0a1%2FP9hNkNxn4X6h93oXtt7ka22gx%2Bj4Lhe%2FIa3hy7iqLpFEhiMh1XeMyjPQQkERRlnWba%2BbYuGMtHkK4%2BNZGsXTWz3gahruLS8otye0Crjq3lXqEo%3D",
+    reference: "POS06060",
+    tags: ["Accounting", "Finance", "Economics", "Financial Planning", "Information Systems", "Insurance & Risk Management", "Investments", "Law", "Computer Engineering", "Chemical Engineering", "Electrical Engineering", "Industrial Engineering", "Mechanical Engineering", "Actuarial Science", "Computer Science", "Mathematics & Statistics", "Applied Mathematics", "Data Science"],
+    shortDescription: "PSG Financial Services is recruiting top-performing graduates across Commerce, Engineering, and Science for its 2027 Graduate Programme in Gauteng and Western Cape.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>PSG Financial Services is recruiting top-performing graduates for its 12-month Graduate Programme commencing in 2027 across Gauteng and Western Cape. The program provides structured on-the-job training, soft skills and technical skills development, and mentorship.</div><br><div><strong>ACCEPTED QUALIFICATION STREAMS:</strong></div><div>• <strong>Commerce:</strong> Accounting, Economics &amp; Econometrics, Finance, Financial Planning, Information Systems, Insurance &amp; Risk Management, Investments, Law.</div><div>• <strong>Engineering:</strong> Computer Engineering, Chemical Engineering, Electrical &amp; Electronic Engineering, Industrial Engineering, Mechanical Engineering.</div><div>• <strong>Science:</strong> Actuarial Science, Computer Science, Mathematics &amp; Statistical Sciences, Applied Mathematics, Data Science.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Valid South African ID</div><div>• 65%+ academic average</div><div>• Completed Bachelor's, Honours, Master’s, or PhD in an eligible field of study</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• South African ID (certified copy preferable)</div><div>• Comprehensive CV</div><div>• Complete and updated academic record</div>`
+  }
                 
 
   ];
