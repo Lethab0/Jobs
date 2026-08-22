@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEJH88Q34D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-VEJH88Q34D');
-      gtag('config', 'G-TFF1ENHN6D');
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEJH88Q34D">
     </script>
-      </script> 
-      <script async custom-element="amp-auto-ads"
-      src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VEJH88Q34D');
+        gtag('config', 'G-TFF1ENHN6D');
+    </script>
+
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
     <meta name="google-adsense-account" content="ca-pub-1486635931470536">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,27 +37,27 @@
             --medium-gray: #e5e7eb;
             --white: #ffffff;
         }
-        
+
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
             line-height: 1.6;
             background-color: var(--light-gray);
             color: var(--text-color);
         }
-        
+
         header {
             background-color: var(--primary-dark);
             color: var(--white);
             padding: 20px;
             text-align: center;
         }
-        
+
         .header-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -65,7 +66,7 @@
             align-items: center;
             gap: 15px;
         }
-        
+
         @media (min-width: 768px) {
             .header-content {
                 flex-direction: row;
@@ -73,12 +74,12 @@
                 align-items: center;
             }
         }
-        
+
         header h1 {
             font-size: 1.8rem;
             margin: 0;
         }
-        
+
         .bursary-link {
             background-color: var(--white);
             color: var(--primary-dark);
@@ -91,34 +92,34 @@
             align-items: center;
             gap: 8px;
         }
-        
+
         .bursary-link:hover {
             background-color: var(--light-gray);
             transform: translateY(-2px);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 30px auto;
             padding: 0 20px;
         }
-        
+
         .intro-section {
             text-align: center;
             margin-bottom: 20px;
             padding: 30px;
             background-color: var(--white);
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
-        
+
         .intro-section h2 {
             font-size: 2rem;
             margin-bottom: 15px;
             color: var(--primary-dark);
         }
-        
+
         .intro-section p {
             font-size: 1.1rem;
             color: var(--text-color);
@@ -126,57 +127,97 @@
             margin: 0 auto;
         }
 
+        /* ── Enhanced CV Submission Section ── */
         .cv-submission-section {
             text-align: center;
             margin-bottom: 40px;
-            padding: 30px;
-            background-color: #dbeafe;
-            border-radius: 12px;
-            border: 1px solid var(--primary-color);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 40px 30px;
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            border-radius: 16px;
+            border: 2px solid #fca5a5;
+            box-shadow: 0 8px 24px rgba(220, 38, 38, 0.12);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .cv-submission-section:hover {
+            box-shadow: 0 12px 32px rgba(220, 38, 38, 0.18);
         }
 
         .cv-submission-section h3 {
-            font-size: 1.5rem;
-            color: var(--primary-dark);
-            margin-bottom: 10px;
+            font-size: 1.6rem;
+            color: #991b1b;
+            margin-bottom: 8px;
+            font-weight: 700;
         }
-        
-        .cv-submission-section p {
-            font-size: 1rem;
-            color: var(--text-color);
-            margin-bottom: 20px;
+
+        .cv-submission-section .sub-headline {
+            font-size: 1.05rem;
+            color: #7f1d1d;
+            margin-bottom: 24px;
+            opacity: 0.9;
         }
 
         .cv-submit-btn {
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            padding: 12px 25px;
-            background-color: var(--secondary-color);
+            justify-content: center;
+            gap: 12px;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
             color: var(--white);
-            border-radius: 8px;
+            border-radius: 50px;
             text-decoration: none;
             font-weight: 700;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
+            font-size: 1.15rem;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.6px;
+            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.4);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cv-submit-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            pointer-events: none;
         }
 
         .cv-submit-btn:hover {
-            background-color: #c5163b;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 10px 32px rgba(220, 38, 38, 0.5);
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
         }
-        
+
+        .cv-submit-btn:hover::after {
+            opacity: 1;
+        }
+
+        .cv-submit-btn:active {
+            transform: scale(0.95);
+        }
+
+        .cv-submit-btn i {
+            font-size: 1.3rem;
+        }
+
+        /* ── Categories Grid ── */
         .categories-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 25px;
             margin-bottom: 50px;
         }
-        
+
         .category-box {
             background: linear-gradient(135deg, var(--white) 0%, #f8fafc 100%);
             padding: 30px;
@@ -185,28 +226,28 @@
             cursor: pointer;
             transition: all 0.3s ease;
             border: 3px solid transparent;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
-        
+
         .category-box:hover {
             transform: translateY(-5px);
             border-color: var(--primary-color);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
-        
+
         .category-icon {
             font-size: 3rem;
             color: var(--primary-color);
             margin-bottom: 15px;
         }
-        
+
         .category-title {
             font-size: 1.3rem;
             font-weight: 600;
             margin-bottom: 10px;
             color: var(--primary-dark);
         }
-        
+
         .category-count {
             background-color: var(--secondary-color);
             color: white;
@@ -215,16 +256,16 @@
             font-size: 0.9rem;
             font-weight: 600;
         }
-        
+
         .jobs-section {
             display: none;
             margin-top: 40px;
         }
-        
+
         .jobs-section.active {
             display: block;
         }
-        
+
         .back-button {
             display: inline-flex;
             align-items: center;
@@ -239,12 +280,12 @@
             transition: all 0.3s ease;
             margin-bottom: 20px;
         }
-        
+
         .back-button:hover {
             background-color: var(--primary-color);
             color: var(--white);
         }
-        
+
         .selected-category {
             display: flex;
             align-items: center;
@@ -253,55 +294,55 @@
             padding: 20px;
             background-color: var(--white);
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-        
+
         .selected-category-icon {
             font-size: 2rem;
             color: var(--primary-color);
         }
-        
+
         .selected-category-title {
             font-size: 1.5rem;
             font-weight: 600;
             color: var(--primary-dark);
         }
-        
+
         .job-listings {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 20px;
         }
-        
+
         @media (max-width: 600px) {
             .job-listings {
                 grid-template-columns: 1fr;
             }
         }
-        
+
         .job-card {
             background-color: var(--white);
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             border-left: 4px solid var(--primary-color);
             transition: transform 0.3s ease;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
-        
+
         .job-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
-        
+
         .job-card h2 {
             font-size: 1.3rem;
             margin-bottom: 10px;
             color: var(--primary-dark);
         }
-        
+
         .job-meta {
             display: flex;
             flex-wrap: wrap;
@@ -310,13 +351,13 @@
             font-size: 0.9rem;
             color: var(--text-color);
         }
-        
+
         .job-meta span {
             display: flex;
             align-items: center;
             gap: 5px;
         }
-        
+
         .job-meta i {
             color: var(--primary-color);
             font-size: 0.9rem;
@@ -329,7 +370,7 @@
             flex-wrap: wrap;
             gap: 8px;
         }
-        
+
         .job-card .tag {
             background-color: var(--light-gray);
             color: var(--primary-dark);
@@ -341,16 +382,16 @@
 
         .job-card .date-info {
             font-size: 0.85rem;
-            color: #6b7280; 
+            color: #6b7280;
             margin-bottom: 15px;
         }
-        
+
         .job-card p {
             margin-bottom: 15px;
             color: var(--text-color);
             line-height: 1.5;
         }
-        
+
         .view-btn {
             display: inline-flex;
             align-items: center;
@@ -362,15 +403,15 @@
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s ease;
-            width: 100%; 
+            width: 100%;
             justify-content: center;
         }
-        
+
         .view-btn:hover {
             background-color: var(--primary-dark);
             transform: translateY(-2px);
         }
-        
+
         .view-btn.disabled {
             background-color: var(--medium-gray);
             cursor: not-allowed;
@@ -383,9 +424,9 @@
             padding: 20px;
             background: var(--white);
             border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
-        
+
         footer {
             text-align: center;
             margin-top: 60px;
@@ -393,7 +434,7 @@
             background-color: var(--primary-dark);
             color: var(--white);
         }
-        
+
         .footer-links {
             display: flex;
             justify-content: center;
@@ -401,18 +442,18 @@
             gap: 20px;
             margin: 20px 0;
         }
-        
+
         .footer-links a {
             color: var(--white);
             text-decoration: none;
             transition: color 0.2s;
         }
-        
+
         .footer-links a:hover {
             text-decoration: underline;
             color: var(--light-gray);
         }
-        
+
         .new-badge {
             background-color: var(--secondary-color);
             color: white;
@@ -422,7 +463,7 @@
             font-weight: bold;
             margin-left: 10px;
         }
-        
+
         .no-jobs {
             text-align: center;
             padding: 60px 40px;
@@ -430,7 +471,7 @@
             font-style: italic;
             background-color: var(--white);
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             grid-column: 1 / -1;
         }
 
@@ -483,126 +524,12 @@
             padding: 0.2rem 0.5rem;
             border-radius: 6px;
             border: 1px solid #e2e8f0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
             white-space: nowrap;
             text-align: center;
             line-height: 1.3;
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-        }
-
-        /* ── Giant Green Modal Overlay Elements ── */
-        .giant-modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(15, 23, 42, 0.85);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            z-index: 999999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.4s ease, visibility 0.4s ease;
-            padding: 20px;
-        }
-
-        .giant-modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .giant-green-popup {
-            background: linear-gradient(135deg, #15803d 0%, #166534 100%);
-            color: var(--white);
-            max-width: 650px;
-            width: 100%;
-            padding: 40px 30px;
-            border-radius: 24px;
-            text-align: center;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(34, 197, 94, 0.3);
-            border: 2px solid #22c55e;
-            position: relative;
-            transform: scale(0.85);
-            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .giant-modal-overlay.active .giant-green-popup {
-            transform: scale(1);
-        }
-
-        .giant-green-popup .popup-icon {
-            font-size: 4.5rem;
-            color: #4ade80;
-            margin-bottom: 20px;
-            animation: pulseIcon 2s infinite ease-in-out;
-        }
-
-        .giant-green-popup h2 {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            line-height: 1.3;
-            letter-spacing: -0.02em;
-        }
-
-        .giant-green-popup p {
-            font-size: 1.15rem;
-            color: #bbf7d0;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-
-        .popup-action-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background-color: #25d366;
-            color: var(--white);
-            width: 100%;
-            padding: 16px 30px;
-            border-radius: 14px;
-            font-size: 1.25rem;
-            font-weight: 700;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
-            transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
-            border: none;
-            cursor: pointer;
-        }
-
-        .popup-action-btn:hover {
-            background-color: #20ba56;
-            transform: translateY(-2px);
-            box-shadow: 0 12px 24px rgba(37, 211, 102, 0.45);
-        }
-
-        .popup-close-trigger {
-            background: transparent;
-            border: none;
-            color: #bbf7d0;
-            font-size: 0.95rem;
-            font-weight: 500;
-            margin-top: 20px;
-            cursor: pointer;
-            text-decoration: underline;
-            transition: color 0.2s;
-        }
-
-        .popup-close-trigger:hover {
-            color: var(--white);
-        }
-
-        @keyframes pulseIcon {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.08); }
         }
 
         @media (max-width: 480px) {
@@ -619,41 +546,28 @@
                 padding: 0.15rem 0.4rem;
                 max-width: 80px;
             }
-            .giant-green-popup {
-                padding: 30px 20px;
-            }
-            .giant-green-popup h2 {
-                font-size: 1.5rem;
-            }
-            .giant-green-popup p {
+            .cv-submit-btn {
+                padding: 14px 28px;
                 font-size: 1rem;
+                width: 100%;
+                justify-content: center;
             }
-            .popup-action-btn {
-                font-size: 1.1rem;
-                padding: 14px 20px;
+            .cv-submission-section {
+                padding: 30px 18px;
+            }
+            .cv-submission-section h3 {
+                font-size: 1.3rem;
             }
         }
-        
     </style>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous">
+    </script>
 </head>
 <body>
-    <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-1486635931470536">
-</amp-auto-ads>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536">
+    </amp-auto-ads>
 
-    <div id="oneTimePopupOverlay" class="giant-modal-overlay">
-        <div class="giant-green-popup">
-            <div class="popup-icon"><i class="fab fa-whatsapp"></i></div>
-            <h2>Looking for Jobs in Law, Education, Finance, Science, and All Fields?</h2>
-            <p>Stay up to date with immediate daily custom alerts from around South Africa directly inside our network.</p>
-            <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" id="popupJoinBtn" class="popup-action-btn">
-                <i class="fab fa-whatsapp"></i> Join Group
-            </a>
-            <button id="popupCloseBtn" class="popup-close-trigger">No thanks, skip this option</button>
-        </div>
-    </div>
+    <!-- ─── NO POPUP — removed ─── -->
 
     <header>
         <div class="header-content">
@@ -669,36 +583,30 @@
             <h2>Find Your Dream Career</h2>
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
-        
+
+        <!-- ─── Enhanced CV Submission Section ─── -->
         <div class="cv-submission-section">
-            <h3>Don't See Your Role Listed?</h3>
-            <p>Submit your CV/Resume to our database today. We share suitable candidates directly with recruiters.</p>
-            <a href="CV.html">
+            <h3>🚀 Don't See Your Role Listed?</h3>
+            <p class="sub-headline">Submit your CV to our recruiter database and get matched with the perfect opportunity.</p>
+            <a href="CV.html" class="cv-submit-btn">
                 <i class="fas fa-file-upload"></i> Submit Your CV Here
             </a>
         </div>
 
         <div class="categories-grid" id="categories-grid"></div>
 
-     </div> 
-
         <div class="jobs-section" id="jobs-section">
             <button class="back-button" id="back-button">
                 <i class="fas fa-arrow-left"></i> Back to Categories
             </button>
-            
+
             <div class="selected-category" id="selected-category-display">
                 <i class="fas selected-category-icon" id="selected-icon"></i>
                 <h2 class="selected-category-title" id="selected-title"></h2>
             </div>
 
-        </div> 
-
             <div class="job-listings" id="job-list"></div>
         </div>
-
-     </div> 
-
     </div>
 
     <footer>
@@ -711,6 +619,7 @@
         <p>&copy; <span id="current-year"></span> Student Funding Hub. All rights reserved.</p>
     </footer>
 
+    <!-- ─── WhatsApp Floating Button ─── -->
     <div class="wa-floating-container">
         <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
             <i class="fab fa-whatsapp"></i>
@@ -718,30 +627,11 @@
         <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
     </div>
 
-    
-    <script src="jobs.js"></script> 
+    <script src="jobs.js">
+    </script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // ── One-Time Giant Popup Initialization Unit ──
-            const overlay = document.getElementById('oneTimePopupOverlay');
-            const closeBtn = document.getElementById('popupCloseBtn');
-            const joinBtn = document.getElementById('popupJoinBtn');
-
-            function dismissPopup() {
-                overlay.classList.remove('active');
-                localStorage.setItem('stemGroupPopupShown', 'true');
-            }
-
-            if (!localStorage.getItem('stemGroupPopupShown')) {
-                // Show with a slight comfortable delay for rendering engines
-                setTimeout(() => {
-                    overlay.classList.add('active');
-                }, 800);
-            }
-
-            closeBtn.addEventListener('click', dismissPopup);
-            joinBtn.addEventListener('click', dismissPopup);
 
             // ── Original Core System Operations Logic ──
             if (typeof jobs === 'undefined' || !Array.isArray(jobs)) {
@@ -756,19 +646,33 @@
             const selectedIcon = document.getElementById('selected-icon');
             const selectedTitle = document.getElementById('selected-title');
             const jobList = document.getElementById('job-list');
-            
+
             const today = new Date();
             const oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
 
             const categories = {
                 'mechanical': { name: 'Mechanical Engineering', icon: 'fas fa-cogs', tags: ['Mechanical Engineering'] },
-                'electrical': { name: 'Electrical Engineering', icon: 'fas fa-bolt', tags: ['Electrical Engineering', 'Power Systems', 'Instrumentation'] },
-                'mining': { name: 'Mining & Metallurgy', icon: 'fas fa-mountain', tags: ['Mining & Metallurgy', 'Geology', 'Mining Engineering', 'Rock Engineering'] },
-                'software': { name: 'Software Development', icon: 'fas fa-code', tags: ['Software Development', 'Full Stack', 'Apps'] },
-                'it': { name: 'IT & Technology', icon: 'fas fa-laptop-code', tags: ['IT & Technology', 'Desktop Support', 'Technical Support'] },
-                'civil': { name: 'Civil Engineering', icon: 'fas fa-hard-hat', tags: ['Civil Engineering', 'Transport Infrastructure', 'Construction', 'Structural'] },
-                'industrial': { name: 'Industrial Engineering', icon: 'fas fa-industry', tags: ['Industrial Engineering', 'Supply Chain', 'Manufacturing', 'Process'] },
-                'chemical': { name: 'Chemical Engineering', icon: 'fas fa-flask', tags: ['Chemical Engineering', 'Process', 'Petrochemical'] }
+                'electrical': { name: 'Electrical Engineering', icon: 'fas fa-bolt', tags: ['Electrical Engineering',
+                        'Power Systems', 'Instrumentation'
+                    ] },
+                'mining': { name: 'Mining & Metallurgy', icon: 'fas fa-mountain', tags: ['Mining & Metallurgy',
+                        'Geology', 'Mining Engineering', 'Rock Engineering'
+                    ] },
+                'software': { name: 'Software Development', icon: 'fas fa-code', tags: ['Software Development',
+                        'Full Stack', 'Apps'
+                    ] },
+                'it': { name: 'IT & Technology', icon: 'fas fa-laptop-code', tags: ['IT & Technology',
+                        'Desktop Support', 'Technical Support'
+                    ] },
+                'civil': { name: 'Civil Engineering', icon: 'fas fa-hard-hat', tags: ['Civil Engineering',
+                        'Transport Infrastructure', 'Construction', 'Structural'
+                    ] },
+                'industrial': { name: 'Industrial Engineering', icon: 'fas fa-industry', tags: ['Industrial Engineering',
+                        'Supply Chain', 'Manufacturing', 'Process'
+                    ] },
+                'chemical': { name: 'Chemical Engineering', icon: 'fas fa-flask', tags: ['Chemical Engineering',
+                        'Process', 'Petrochemical'
+                    ] }
             };
 
             function countJobsInCategory(categoryKey) {
@@ -782,47 +686,53 @@
                 const isNew = jobDate > oneWeekAgo;
                 const closingDate = job.closingDate && job.closingDate !== 'N/A' ? new Date(job.closingDate) : null;
                 const isClosed = closingDate && closingDate < today;
-                const isClosingSoon = closingDate && closingDate >= today && (closingDate - today) / (1000 * 60 * 60 * 24) <= 7;
-                
-                const postedDate = jobDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short', day: 'numeric' });
+                const isClosingSoon = closingDate && closingDate >= today && (closingDate - today) / (1000 * 60 * 60 *
+                    24) <= 7;
+
+                const postedDate = jobDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short',
+                    day: 'numeric' });
                 let closingInfo = 'N/A';
                 let closingBadge = '';
                 let buttonClass = '';
 
                 if (isClosed) {
                     closingInfo = 'Closed';
-                    closingBadge = `<span class="tag" style="background-color: #fca5a5; color: #dc2626;">CLOSED</span>`;
+                    closingBadge =
+                    `<span class="tag" style="background-color: #fca5a5; color: #dc2626;">CLOSED</span>`;
                     buttonClass = 'disabled';
                 } else if (closingDate) {
-                    closingInfo = closingDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short', day: 'numeric' });
-                    if (isClosingSoon) closingBadge = `<span class="tag" style="background-color: #fcd34d; color: #b45309;">Closing Soon!</span>`;
+                    closingInfo = closingDate.toLocaleDateString('en-ZA', { year: 'numeric', month: 'short',
+                        day: 'numeric' });
+                    if (isClosingSoon) closingBadge =
+                        `<span class="tag" style="background-color: #fcd34d; color: #b45309;">Closing Soon!</span>`;
                 }
 
                 const metaHtml = `
-                    <span><i class="fas fa-map-marker-alt"></i> ${job.location || 'Not Specified'}</span>
-                    <span><i class="fas fa-clock"></i> ${job.type || 'N/A'}</span>
-                    <span><i class="fas fa-calendar-alt"></i> ${job.duration || 'N/A'}</span>
-                `;
+                            <span><i class="fas fa-map-marker-alt"></i> ${job.location || 'Not Specified'}</span>
+                            <span><i class="fas fa-clock"></i> ${job.type || 'N/A'}</span>
+                            <span><i class="fas fa-calendar-alt"></i> ${job.duration || 'N/A'}</span>
+                        `;
 
                 const excludedTags = ['Finance', 'Human Resources', 'Marketing'];
-                const tagsHtml = job.tags.filter(tag => !excludedTags.includes(tag)).map(tag => `<span class="tag">${tag}</span>`).join('');
+                const tagsHtml = job.tags.filter(tag => !excludedTags.includes(tag)).map(tag =>
+                    `<span class="tag">${tag}</span>`).join('');
                 const detailPageLink = `job.html?id=${job.id}`;
 
                 return `
-                    <div class="job-card">
-                        <div>
-                            <h2>${job.title} ${isNew ? '<span class="new-badge">NEW</span>' : ''}</h2>
-                            <p class="date-info">Posted: ${postedDate} | Closing: ${closingInfo} ${closingBadge}</p>
-                            <p><strong>Company:</strong> ${job.company}</p>
-                            <div class="job-meta">${metaHtml}</div>
-                            <p>${job.shortDescription}</p>
-                            <div class="tags-container">${tagsHtml}</div>
-                        </div>
-                        <a href="${detailPageLink}" class="view-btn ${buttonClass}" ${isClosed ? 'onclick="event.preventDefault();"' : ''}>
-                            <i class="fas fa-search"></i> ${isClosed ? 'Closed' : 'View Details'}
-                        </a>
-                    </div>
-                `;
+                            <div class="job-card">
+                                <div>
+                                    <h2>${job.title} ${isNew ? '<span class="new-badge">NEW</span>' : ''}</h2>
+                                    <p class="date-info">Posted: ${postedDate} | Closing: ${closingInfo} ${closingBadge}</p>
+                                    <p><strong>Company:</strong> ${job.company}</p>
+                                    <div class="job-meta">${metaHtml}</div>
+                                    <p>${job.shortDescription}</p>
+                                    <div class="tags-container">${tagsHtml}</div>
+                                </div>
+                                <a href="${detailPageLink}" class="view-btn ${buttonClass}" ${isClosed ? 'onclick="event.preventDefault();"' : ''}>
+                                    <i class="fas fa-search"></i> ${isClosed ? 'Closed' : 'View Details'}
+                                </a>
+                            </div>
+                        `;
             }
 
             function renderCategories() {
@@ -833,10 +743,10 @@
                     const categoryBox = document.createElement('div');
                     categoryBox.className = 'category-box';
                     categoryBox.innerHTML = `
-                        <i class="${category.icon} category-icon"></i>
-                        <h3 class="category-title">${category.name}</h3>
-                        <div class="category-count">${jobCount} Jobs</div>
-                    `;
+                                <i class="${category.icon} category-icon"></i>
+                                <h3 class="category-title">${category.name}</h3>
+                                <div class="category-count">${jobCount} Jobs</div>
+                            `;
                     categoryBox.addEventListener('click', () => showJobsByCategory(key));
                     categoriesGrid.appendChild(categoryBox);
                 });
@@ -849,7 +759,8 @@
 
                 selectedIcon.className = `fas selected-category-icon ${category.icon}`;
                 selectedTitle.textContent = `${category.name} Jobs (${filteredJobs.length})`;
-                jobList.innerHTML = filteredJobs.length === 0 ? '<div class="no-jobs">No jobs currently listed.</div>' : filteredJobs.map(job => createJobCardHTML(job)).join('');
+                jobList.innerHTML = filteredJobs.length === 0 ? '<div class="no-jobs">No jobs currently listed.</div>' :
+                    filteredJobs.map(job => createJobCardHTML(job)).join('');
 
                 categoriesGrid.style.display = 'none';
                 document.querySelector('.intro-section').style.display = 'none';
