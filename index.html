@@ -19,10 +19,10 @@
     <meta name="google-adsense-account" content="ca-pub-1486635931470536">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Find the latest job opportunities and bursaries for South African students and graduates. Updated daily with new listings.">
-    <meta name="keywords" content="jobs, careers, employment, bursaries, scholarships, South Africa, graduates">
+    <meta name="description" content="Find the latest job opportunities, bursaries, and interview practice questions for South African students and graduates.">
+    <meta name="keywords" content="jobs, careers, employment, bursaries, scholarships, interview questions, South Africa, graduates">
     <meta property="og:title" content="Latest Job Opportunities & Bursaries | StudentFunding.co.za">
-    <meta property="og:description" content="Discover current job openings and bursary opportunities for South African students and graduates.">
+    <meta property="og:description" content="Discover current job openings, bursary opportunities, and interview preparation guides for South African students and graduates.">
     <meta property="og:type" content="website">
     <title>Engineering & IT Job Portal | StudentFunding.co.za</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -67,6 +67,14 @@
             gap: 15px;
         }
 
+        .header-nav-links {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
         @media (min-width: 768px) {
             .header-content {
                 flex-direction: row;
@@ -83,7 +91,7 @@
         .bursary-link {
             background-color: var(--white);
             color: var(--primary-dark);
-            padding: 10px 20px;
+            padding: 10px 18px;
             text-decoration: none;
             border-radius: 6px;
             font-weight: 600;
@@ -91,12 +99,23 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
+            font-size: 0.95rem;
         }
 
         .bursary-link:hover {
             background-color: var(--light-gray);
             transform: translateY(-2px);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .interview-header-link {
+            background-color: #0284c7;
+            color: var(--white);
+        }
+
+        .interview-header-link:hover {
+            background-color: #0369a1;
+            color: var(--white);
         }
 
         .container {
@@ -125,6 +144,46 @@
             color: var(--text-color);
             max-width: 600px;
             margin: 0 auto;
+        }
+
+        /* ── Interview Prep Banner ── */
+        .interview-prep-section {
+            text-align: center;
+            margin-bottom: 25px;
+            padding: 35px 30px;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-radius: 16px;
+            border: 2px solid #38bdf8;
+            box-shadow: 0 8px 24px rgba(2, 132, 199, 0.12);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .interview-prep-section:hover {
+            box-shadow: 0 12px 32px rgba(2, 132, 199, 0.2);
+        }
+
+        .interview-prep-section h3 {
+            font-size: 1.6rem;
+            color: #0369a1;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .interview-prep-section .sub-headline {
+            font-size: 1.05rem;
+            color: #0c4a6e;
+            margin-bottom: 24px;
+            opacity: 0.9;
+        }
+
+        .interview-btn {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            box-shadow: 0 6px 20px rgba(2, 132, 199, 0.4);
+        }
+
+        .interview-btn:hover {
+            background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+            box-shadow: 0 10px 32px rgba(2, 132, 199, 0.5);
         }
 
         /* ── Enhanced CV Submission Section ── */
@@ -552,10 +611,10 @@
                 width: 100%;
                 justify-content: center;
             }
-            .cv-submission-section {
+            .cv-submission-section, .interview-prep-section {
                 padding: 30px 18px;
             }
-            .cv-submission-section h3 {
+            .cv-submission-section h3, .interview-prep-section h3 {
                 font-size: 1.3rem;
             }
         }
@@ -564,17 +623,33 @@
     </script>
 </head>
 <body>
+    <!-- Chosen Palette: Classic Blue & Slate (Primary Dark #1e40af, Primary Blue #2563eb, Accent Red #e11d48, Sky Highlight #0284c7) -->
+    <!-- Application Structure Plan:
+         1. Header Navigation: Includes direct buttons for Bursaries and the Interview Questions Hub.
+         2. Hero & Intro Section: Brief introduction to available career tools.
+         3. Interview Questions Hub Banner: Highlighted section directing candidates to 30 universal interview questions with STAR strategies.
+         4. CV Submission Section: Recruiter submission callout.
+         5. Dynamic Job Categories & Listings: Interactive category selector powered by jobs.js.
+    -->
+    <!-- Visualization & Content Choices:
+         - Standard responsive HTML grid layout and buttons without Mermaid JS or SVG images.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536">
     </amp-auto-ads>
-
-    <!-- ─── NO POPUP — removed ─── -->
 
     <header>
         <div class="header-content">
             <h1>Engineering & IT Job Portal</h1>
-            <a href="bursaries.html" class="bursary-link">
-                <i class="fas fa-graduation-cap"></i> Bursaries
-            </a>
+            <div class="header-nav-links">
+                <a href="bursaries.html" class="bursary-link">
+                    <i class="fas fa-graduation-cap"></i> Bursaries
+                </a>
+                <a href="academic_career_framework.html" class="bursary-link interview-header-link">
+                    <i class="fas fa-comments"></i> Interview Prep & Questions
+                </a>
+            </div>
         </div>
     </header>
 
@@ -584,8 +659,17 @@
             <p>Browse job opportunities by selecting your field of study or interest below. Click on any category to view available positions.</p>
         </div>
 
+        <!-- ─── Interview Prep & Questions Banner ─── -->
+        <div class="interview-prep-section" id="interview-prep-section">
+            <h3>🎯 Ace Your Next STEM Interview</h3>
+            <p class="sub-headline">Master 30 universal STEM, University & Bursary interview questions with instant STAR response strategies.</p>
+            <a href="academic_career_framework.html" class="cv-submit-btn interview-btn">
+                <i class="fas fa-clipboard-question"></i> Practice Interview Questions
+            </a>
+        </div>
+
         <!-- ─── Enhanced CV Submission Section ─── -->
-        <div class="cv-submission-section">
+        <div class="cv-submission-section" id="cv-submission-section">
             <h3>🚀 Don't See Your Role Listed?</h3>
             <p class="sub-headline">Submit your CV to our recruiter database and get matched with the perfect opportunity.</p>
             <a href="CV.html" class="cv-submit-btn">
@@ -611,6 +695,7 @@
 
     <footer>
         <div class="footer-links">
+            <a href="academic_career_framework.html">Interview Prep</a>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
             <a href="privacy.html">Privacy Policy</a>
@@ -627,8 +712,7 @@
         <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
     </div>
 
-    <script src="jobs.js">
-    </script>
+    <script src="jobs.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -764,7 +848,8 @@
 
                 categoriesGrid.style.display = 'none';
                 document.querySelector('.intro-section').style.display = 'none';
-                document.querySelector('.cv-submission-section').style.display = 'none';
+                document.getElementById('interview-prep-section').style.display = 'none';
+                document.getElementById('cv-submission-section').style.display = 'none';
                 jobsSection.classList.add('active');
             }
 
@@ -772,7 +857,8 @@
                 jobsSection.classList.remove('active');
                 categoriesGrid.style.display = 'grid';
                 document.querySelector('.intro-section').style.display = 'block';
-                document.querySelector('.cv-submission-section').style.display = 'block';
+                document.getElementById('interview-prep-section').style.display = 'block';
+                document.getElementById('cv-submission-section').style.display = 'block';
             }
 
             renderCategories();

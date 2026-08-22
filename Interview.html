@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEMClub — Interview Preparation Hub</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        stem: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#075985',
+                            800: '#0c4a6e',
+                            900: '#0f172a',
+                        },
+                        accent: '#8b5cf6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 340px;
+            }
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col">
+
+    <!-- Chosen Palette: STEM Teal & Slate (Background #f8fafc, Primary Teal #0284c7, Accent Purple #8b5cf6, Dark Navy Header #0f172a) -->
+    <!-- Application Structure Plan:
+         1. STEMClub Header & Intro: Professional welcoming banner for STEM students, graduates, bursary applicants, and early career professionals.
+         2. What STEM Interviewers Look For (Interactive Radar Chart): Simplifies candidate traits into 5 accessible dimensions (Problem-Solving, Teamwork, Technical Curiosity, Adaptability, Integrity).
+         3. The STAR Method Made Easy: Clear breakdown of Situation, Task, Action, Result with practical academic and professional project examples.
+         4. Interactive 30 Universal STEM Interview Questions: Features category filtering, keyword search, List View, and Flashcard Practice Mode with instant STAR guidance tips.
+         WHY THIS STRUCTURE: Removing high-school specific references makes the experience professional, encouraging, and readable for all university, bursary, and job candidates.
+    -->
+    <!-- Visualization & Content Choices:
+         - STEM Capability Model (Radar Chart / Chart.js Canvas): Visualizes core skills evaluators look for in candidates.
+         - Interactive 30 Question Bank (HTML/JS): 30 questions grouped into 6 categories with professional STAR answer tips.
+         - NO SVG graphics or Mermaid JS used. Standard HTML emojis and Chart.js canvas elements are used exclusively.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
+    <!-- Navigation Header -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <span class="bg-sky-500 text-white font-black px-2.5 py-1 rounded-lg text-base tracking-wide">STEMClub</span>
+                    <div>
+                        <h1 class="font-bold text-base sm:text-lg leading-tight">Interview Preparation Hub</h1>
+                        <p class="text-xs text-sky-300 hidden sm:block">A universal guide for university applicants, bursary candidates & STEM professionals</p>
+                    </div>
+                </div>
+
+                <!-- Global Search Trigger -->
+                <div class="relative w-44 sm:w-64">
+                    <input type="text" id="searchInput" onkeyup="renderQuestions()" placeholder="Search questions or keywords..." class="w-full bg-slate-800 text-slate-100 text-xs rounded-lg pl-8 pr-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-sky-400 placeholder-slate-400">
+                    <span class="absolute left-2.5 top-1.5 text-slate-400 text-xs">🔍</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+        <!-- ================= SECTION 1: WELCOME & OVERVIEW ================= -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div class="space-y-2 max-w-2xl">
+                    <span class="inline-block px-3 py-1 bg-sky-100 text-sky-800 rounded-full text-xs font-bold uppercase tracking-wider">Interview Preparation</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Welcome to STEMClub Interview Prep 🚀</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Preparing for a university admission interview, a STEM bursary, or a competitive technical role? STEM interviewers look beyond academic scores — they want to see how you <strong>think through complex problems</strong>, <strong>collaborate in teams</strong>, and <strong>adapt to unexpected challenges</strong>.
+                    </p>
+                </div>
+                <div class="w-full md:w-auto bg-slate-50 border border-slate-200 p-4 rounded-xl text-center space-y-1">
+                    <div class="text-3xl font-black text-sky-600">30</div>
+                    <div class="text-xs font-bold text-slate-700">Universal Questions</div>
+                    <div class="text-[11px] text-slate-500">With Practical Answer Guides</div>
+                </div>
+            </div>
+
+            <!-- Key Metric Pills -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-100 text-xs">
+                <div class="p-3 rounded-lg bg-sky-50 border border-sky-100">
+                    <span class="font-bold text-sky-900 block">🎯 Purpose</span>
+                    <span class="text-slate-600">Ace university admissions, bursaries & job interviews.</span>
+                </div>
+                <div class="p-3 rounded-lg bg-purple-50 border border-purple-100">
+                    <span class="font-bold text-purple-900 block">⭐ STAR Method</span>
+                    <span class="text-slate-600">Structure responses with logical precision.</span>
+                </div>
+                <div class="p-3 rounded-lg bg-emerald-50 border border-emerald-100">
+                    <span class="font-bold text-emerald-900 block">💡 Flashcards</span>
+                    <span class="text-slate-600">Interactive flashcards for self-guided practice.</span>
+                </div>
+                <div class="p-3 rounded-lg bg-amber-50 border border-amber-100">
+                    <span class="font-bold text-amber-900 block">💼 Career Ready</span>
+                    <span class="text-slate-600">Uses real academic, project & industry scenarios.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= SECTION 2: CHARTS & STAR METHODOLOGY ================= -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+            <!-- Radar Chart Card: Core STEM Traits -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-slate-900">What STEM Interviewers Look For</h3>
+                        <span class="text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-1 rounded">Interactive Model</span>
+                    </div>
+                    <p class="text-xs text-slate-500 mb-4">Evaluators assess candidates across these 5 core dimensions. Demonstrating balanced competencies and continuous growth builds candidate credibility.</p>
+                    
+                    <div class="chart-container">
+                        <canvas id="stemCompetencyChart"></canvas>
+                    </div>
+                </div>
+                <p class="text-[11px] text-slate-400 mt-3 pt-2 border-t border-slate-100 text-center">
+                    💡 Tip: Academic research, capstone projects, lab work, and extracurricular leadership demonstrate these traits effectively.
+                </p>
+            </div>
+
+            <!-- STAR Method Breakdown -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between space-y-4">
+                <div>
+                    <h3 class="text-base font-bold text-slate-900 mb-1">How to Answer Questions: The STAR Method ⭐</h3>
+                    <p class="text-xs text-slate-500 mb-4">When responding to behavioral or scenario questions (e.g., <em>"Describe a time when..."</em>), structure your narrative using this framework:</p>
+
+                    <div class="space-y-2 text-xs">
+                        <div class="p-3 bg-sky-50 border-l-4 border-sky-500 rounded-r-lg">
+                            <span class="font-extrabold text-sky-900 block mb-0.5">S — Situation (Set the Scene)</span>
+                            <span class="text-slate-700">Briefly outline the context, project, or environment. <em>(e.g., "During a group lab assignment, our team was tasked with building a working simulation within three days...")</em></span>
+                        </div>
+
+                        <div class="p-3 bg-indigo-50 border-l-4 border-indigo-500 rounded-r-lg">
+                            <span class="font-extrabold text-indigo-900 block mb-0.5">T — Task (Your Specific Responsibility)</span>
+                            <span class="text-slate-700">Define your role and the specific objective or obstacle faced. <em>(e.g., "My responsibility was to handle data calculations and verify material load limits.")</em></span>
+                        </div>
+
+                        <div class="p-3 bg-emerald-50 border-l-4 border-emerald-500 rounded-r-lg">
+                            <span class="font-extrabold text-emerald-900 block mb-0.5">A — Action (What YOU Did)</span>
+                            <span class="text-slate-700">Detail the specific technical and interpersonal steps you executed. <em>(e.g., "I tested three structural models using simulation software and recalculated stress tolerances.")</em></span>
+                        </div>
+
+                        <div class="p-3 bg-amber-50 border-l-4 border-amber-500 rounded-r-lg">
+                            <span class="font-extrabold text-amber-900 block mb-0.5">R — Result (The Outcome & Key Takeaway)</span>
+                            <span class="text-slate-700">Share quantifiable outcomes and lessons learned. <em>(e.g., "Our design met all safety criteria, ranked top in our cohort, and reinforced the importance of early validation.")</em></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ================= SECTION 3: 30 UNIVERSAL INTERVIEW QUESTIONS ================= -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5">
+            
+            <!-- Question Bank Header & Controls -->
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+                <div>
+                    <h3 class="text-lg font-bold text-slate-900">30 Universal STEM Interview Questions</h3>
+                    <p class="text-xs text-slate-500">Master these foundational behavioral and problem-solving questions for any technical or academic interview.</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <!-- Category Filter -->
+                    <select id="categoryFilter" onchange="renderQuestions()" class="bg-slate-100 border border-slate-300 text-xs font-semibold rounded-lg px-3 py-2 text-slate-700 focus:outline-none focus:ring-2 focus:ring-sky-500">
+                        <option value="ALL">All Categories (30 Questions)</option>
+                        <option value="Behavioral">1. Teamwork & Conflict (1-5)</option>
+                        <option value="Problem-Solving">2. Problem Solving & Logic (6-10)</option>
+                        <option value="Leadership">3. Leadership & Responsibility (11-15)</option>
+                        <option value="Adaptability">4. Learning & Adaptability (16-20)</option>
+                        <option value="Alignment">5. Passion & Future Goals (21-25)</option>
+                        <option value="Operational">6. Work Style & Time Management (26-30)</option>
+                    </select>
+
+                    <!-- View Mode Toggle -->
+                    <div class="flex rounded-lg border border-slate-300 overflow-hidden text-xs">
+                        <button onclick="setViewMode('list')" id="btn-view-list" class="px-3 py-2 bg-sky-600 text-white font-bold">List View</button>
+                        <button onclick="setViewMode('cards')" id="btn-view-cards" class="px-3 py-2 bg-slate-100 text-slate-700 font-bold hover:bg-slate-200">Practice Cards</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Questions Output Area -->
+            <div id="questionsContainer">
+                <!-- Dynamic Content Rendered Here -->
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-2">
+            <p class="font-bold text-slate-200">STEMClub Interview Preparation Hub</p>
+            <p>Empowering STEM Candidates, University Applicants & Professionals • 30 Universal Interview Questions & STAR Strategy</p>
+            <p class="text-slate-500 text-[11px]">Interactive Single-Page Guide • Built with Chart.js & Tailwind CSS</p>
+        </div>
+    </footer>
+
+    <!-- DATA & LOGIC JAVASCRIPT -->
+    <script>
+        /* ================= 30 UNIVERSAL QUESTIONS ================= */
+
+        const QUESTIONS = [
+            // CATEGORY 1: Behavioral & Working with Others (1-5)
+            {
+                id: 1,
+                cat: "Behavioral",
+                title: "Handling Group Project Conflict",
+                q: "Tell me about a time when you had a disagreement with a team member during a project. How did you resolve it?",
+                tip: "Highlight active listening and professionalism! Explain how you analyzed differing viewpoints objectively, focused on project objectives, and reached a constructive compromise."
+            },
+            {
+                id: 2,
+                cat: "Behavioral",
+                title: "Working Under Deadline Pressure",
+                q: "Describe a situation where you faced a tight deadline for a deliverable or examination. How did you manage your workload?",
+                tip: "Demonstrate structured planning! Discuss how you prioritized critical path tasks, minimized friction, and maintained work quality under stress."
+            },
+            {
+                id: 3,
+                cat: "Behavioral",
+                title: "Explaining a Complex Concept Simply",
+                q: "How would you explain a complex technical, scientific, or mathematical concept to a non-technical stakeholder?",
+                tip: "Focus on communication clarity! Choose a technical topic and explain how you use analogies, visual aids, and plain language without losing core precision."
+            },
+            {
+                id: 4,
+                cat: "Behavioral",
+                title: "Learning from a Failure or Error",
+                q: "Describe a time when a project, test, or analytical model failed or yielded unexpected results. How did you handle it?",
+                tip: "Show accountability and analytical resilience! Focus on conducting a root-cause analysis, learning from the outcome, and iterating for future success."
+            },
+            {
+                id: 5,
+                cat: "Behavioral",
+                title: "Receiving Constructive Criticism",
+                q: "Tell me about a time an advisor, peer, or manager provided critical feedback on your work. How did you apply it?",
+                tip: "Show coachability and growth mindset! Explain how you objectively evaluated the feedback, adjusted your approach, and integrated the improvements."
+            },
+
+            // CATEGORY 2: Problem-Solving & Logic (6-10)
+            {
+                id: 6,
+                cat: "Problem-Solving",
+                title: "Troubleshooting an Unfamiliar Problem",
+                q: "What systematic steps do you take when encountering a technical anomaly, software bug, or analytical problem you haven't seen before?",
+                tip: "Structure your problem-solving methodology: 1. Isolate parameters and gather data. 2. Formulate hypotheses. 3. Test incrementally until resolved."
+            },
+            {
+                id: 7,
+                cat: "Problem-Solving",
+                title: "Prioritizing Multiple Demands",
+                q: "How do you evaluate priorities when managing concurrent projects, deadlines, and technical responsibilities?",
+                tip: "Explain your framework for prioritization (e.g., urgency vs. impact matrix, critical path analysis, or milestone tracking tools)."
+            },
+            {
+                id: 8,
+                cat: "Problem-Solving",
+                title: "When Data Contradicts Expectations",
+                q: "Describe a situation where empirical data or experimental results contradicted your initial hypothesis. What were your next steps?",
+                tip: "Highlight scientific objectivity! Discuss verifying data integrity, re-evaluating underlying assumptions, and remaining open to unexpected findings."
+            },
+            {
+                id: 9,
+                cat: "Problem-Solving",
+                title: "Managing Scope and Complexity",
+                q: "Have you ever managed a project whose scope became overly complex? How did you bring it back on track?",
+                tip: "Explain how you re-defined core requirements, eliminated non-essential features, and focused resources on the key objectives."
+            },
+            {
+                id: 10,
+                cat: "Problem-Solving",
+                title: "Decision-Making with Incomplete Information",
+                q: "How do you make technical decisions or proceed with a project when complete information or instructions are unavailable?",
+                tip: "Demonstrate risk assessment and initiative! Mention establishing reasonable baseline assumptions, consulting domain resources, and proceeding iteratively."
+            },
+
+            // CATEGORY 3: Leadership & Responsibility (11-15)
+            {
+                id: 11,
+                cat: "Leadership",
+                title: "Taking Initiative in a Group Setting",
+                q: "Describe a situation where you took the initiative to lead an effort or resolve a problem without being explicitly assigned to do so.",
+                tip: "Leadership is about proactive ownership! Explain how you identified a bottleneck or opportunity, aligned the team, and drove execution."
+            },
+            {
+                id: 12,
+                cat: "Leadership",
+                title: "Mentoring or Supporting Peers",
+                q: "Tell me about a time you mentored a colleague or classmate in mastering a difficult concept or tool.",
+                tip: "Highlight patience, empathy, and effective communication! Discuss breaking down complex concepts and encouraging autonomous problem-solving."
+            },
+            {
+                id: 13,
+                cat: "Leadership",
+                title: "Ethics and Responsibility in STEM",
+                q: "Why are ethical standards, data integrity, and safety compliance critical in scientific and engineering practice?",
+                tip: "Emphasize public safety, trust, and accountability. Discuss how compromised data or skipped protocols impact real-world outcomes and professional standards."
+            },
+            {
+                id: 14,
+                cat: "Leadership",
+                title: "Influencing Teammates Without Authority",
+                q: "How do you gain buy-in and motivate team members toward a shared technical objective when you are not in a formal position of authority?",
+                tip: "Focus on leading through competence, clear reasoning, collaborative discussion, and setting a high standard through individual work."
+            },
+            {
+                id: 15,
+                cat: "Leadership",
+                title: "Value of Diverse Perspectives",
+                q: "Why is it important to incorporate multidisciplinary and diverse perspectives when designing STEM solutions?",
+                tip: "Diverse teams bring varied technical methods and reduce bias, uncovering creative solutions and edge-case errors that single perspectives miss."
+            },
+
+            // CATEGORY 4: Learning & Adaptability (16-20)
+            {
+                id: 16,
+                cat: "Adaptability",
+                title: "Rapidly Acquiring Technical Skills",
+                q: "Describe a project where you had to learn a new programming language, software tool, or laboratory technique on short notice.",
+                tip: "Show agility! Detail your learning process: consulting documentation, completing hands-on practice, leveraging peer knowledge, and rapid prototyping."
+            },
+            {
+                id: 17,
+                cat: "Adaptability",
+                title: "Adapting to Unexpected Changes",
+                q: "Tell me about a situation where project specifications, resource availability, or parameters changed abruptly. How did you adapt?",
+                tip: "Focus on flexibility and problem redirection! Show how you reassessed project constraints, adjusted workflows, and maintained output quality."
+            },
+            {
+                id: 18,
+                cat: "Adaptability",
+                title: "Evaluating Proven Methods vs. Innovation",
+                q: "When solving a technical problem, how do you balance using established standards versus experimenting with novel approaches?",
+                tip: "Show strategic balance! Standard methods offer reliability and predictability, while novel approaches are ideal when performance demands innovation within managed risk."
+            },
+            {
+                id: 19,
+                cat: "Adaptability",
+                title: "Industry Trends & Technological Curiosity",
+                q: "What recent technological advance, scientific discovery, or industry trend has caught your attention, and why?",
+                tip: "Choose a relevant topic (e.g., AI/ML models, renewable energy grids, biotech breakthroughs) and discuss its technical principles and broader impact."
+            },
+            {
+                id: 20,
+                cat: "Adaptability",
+                title: "Overcoming a Skill Deficiency",
+                q: "Describe a discipline or technical competency you initially found challenging. What deliberate steps did you take to master it?",
+                tip: "Highlight grit and structured study! Discuss targeted coursework, practice routines, seeking mentorship, and applying the skill practically."
+            },
+
+            // CATEGORY 5: Passion & Future Goals (21-25)
+            {
+                id: 21,
+                cat: "Alignment",
+                title: "Motivation for Choosing STEM",
+                q: "What drew you to your specific discipline in STEM, and what long-term impact do you hope to make in this field?",
+                tip: "Share your professional trajectory! Connect personal passion with real-world problems you aim to solve through your chosen field."
+            },
+            {
+                id: 22,
+                cat: "Alignment",
+                title: "Unique Value Proposition",
+                q: "What distinct combination of technical competencies, personal strengths, or experiences sets you apart as a candidate?",
+                tip: "Combine hard and soft skills! For instance, pairing rigorous analytical capabilities with strong cross-functional communication or creative problem-solving."
+            },
+            {
+                id: 23,
+                cat: "Alignment",
+                title: "Cross-Disciplinary Collaboration",
+                q: "How do you approach collaborating with specialists from other domains (e.g. engineers working alongside healthcare or business professionals)?",
+                tip: "Emphasize mutual respect, vocabulary alignment, and recognizing how cross-functional expertise produces holistic solutions."
+            },
+            {
+                id: 24,
+                cat: "Alignment",
+                title: "Optimal Work and Research Environment",
+                q: "In what type of work or academic environment do you perform at your highest technical potential?",
+                tip: "Be authentic! Express your preference for collaborative design spaces, autonomous research labs, or fast-paced iterative team settings."
+            },
+            {
+                id: 25,
+                cat: "Alignment",
+                title: "Measuring Professional Growth",
+                q: "How do you evaluate your personal and professional growth beyond formal performance metrics or grades?",
+                tip: "Discuss self-efficacy, expanding technical mastery, ability to tackle increasingly complex challenges, and mentoring others."
+            },
+
+            // CATEGORY 6: Work Style & Time Management (26-30)
+            {
+                id: 26,
+                cat: "Operational",
+                title: "Sustaining High Work Quality & Balance",
+                q: "How do you maintain precision and high performance across demanding technical workloads without experiencing burnout?",
+                tip: "Discuss structured workload management, clear boundaries, setting realistic milestones, and maintaining healthy recovery routines."
+            },
+            {
+                id: 27,
+                cat: "Operational",
+                title: "Documentation and Workflow Organization",
+                q: "What tools and practices do you utilize to ensure your technical documentation, code repositories, or lab data remain organized?",
+                tip: "Mention version control (e.g. Git), structured documentation (e.g. Wiki, Markdown, Notion), clean data logs, and reproducible workflows."
+            },
+            {
+                id: 28,
+                cat: "Operational",
+                title: "Managing Stress in Critical Situations",
+                q: "STEM environments can involve high-stakes deadlines and technical failures. How do you regulate stress during critical moments?",
+                tip: "Demonstrate emotional stability! Explain breaking overwhelming problems into manageable components and maintaining focus on facts over frustration."
+            },
+            {
+                id: 29,
+                cat: "Operational",
+                title: "Code Review & Technical Peer Audits",
+                q: "How do you approach having your calculations, code, or experimental designs rigorously reviewed by peers?",
+                tip: "Welcome peer review as a quality assurance standard! Frame code or peer audits as essential for catching edge cases and ensuring rigor."
+            },
+            {
+                id: 30,
+                cat: "Operational",
+                title: "Five-Year Professional Horizon",
+                q: "Where do you see your technical career evolving over the next five years, and how does this opportunity fit into that trajectory?",
+                tip: "Align your growth with the target role or program! Highlight continuous skill development, increasing technical ownership, and contributing value."
+            }
+        ];
+
+        /* ================= STATE MANAGEMENT & INITIALIZATION ================= */
+
+        let viewMode = 'list'; // 'list' or 'cards'
+
+        document.addEventListener("DOMContentLoaded", () => {
+            initRadarChart();
+            renderQuestions();
+        });
+
+        /* ================= RADAR CHART INITIALIZATION ================= */
+
+        function initRadarChart() {
+            const ctx = document.getElementById('stemCompetencyChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: [
+                        'Problem Solving',
+                        'Teamwork & Communication',
+                        'Technical Curiosity',
+                        'Adaptability',
+                        'Ethics & Integrity'
+                    ],
+                    datasets: [{
+                        label: 'Target Evaluator Score',
+                        data: [90, 85, 95, 80, 90],
+                        backgroundColor: 'rgba(2, 132, 199, 0.2)',
+                        borderColor: '#0284c7',
+                        pointBackgroundColor: '#0369a1',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#0284c7'
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        r: {
+                            suggestedMin: 0,
+                            suggestedMax: 100,
+                            ticks: { display: false },
+                            pointLabels: {
+                                font: { size: 11, weight: 'bold' },
+                                color: '#334155'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false }
+                    }
+                }
+            });
+        }
+
+        /* ================= RENDER & FILTER QUESTIONS ================= */
+
+        function setViewMode(mode) {
+            viewMode = mode;
+            document.getElementById('btn-view-list').className = mode === 'list' 
+                ? 'px-3 py-2 bg-sky-600 text-white font-bold' 
+                : 'px-3 py-2 bg-slate-100 text-slate-700 font-bold hover:bg-slate-200';
+            document.getElementById('btn-view-cards').className = mode === 'cards' 
+                ? 'px-3 py-2 bg-sky-600 text-white font-bold' 
+                : 'px-3 py-2 bg-slate-100 text-slate-700 font-bold hover:bg-slate-200';
+            renderQuestions();
+        }
+
+        function renderQuestions() {
+            const catFilter = document.getElementById('categoryFilter').value;
+            const searchKw = document.getElementById('searchInput').value.toLowerCase().trim();
+
+            let filtered = QUESTIONS;
+
+            if (catFilter !== 'ALL') {
+                filtered = filtered.filter(q => q.cat === catFilter);
+            }
+
+            if (searchKw) {
+                filtered = filtered.filter(q => 
+                    q.title.toLowerCase().includes(searchKw) || 
+                    q.q.toLowerCase().includes(searchKw) ||
+                    q.tip.toLowerCase().includes(searchKw)
+                );
+            }
+
+            const container = document.getElementById('questionsContainer');
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="p-8 text-center text-slate-400 bg-slate-50 rounded-xl border border-slate-200 text-xs">
+                        No questions matched your search criteria. Try typing a different keyword!
+                    </div>
+                `;
+                return;
+            }
+
+            if (viewMode === 'list') {
+                let html = `<div class="space-y-3">`;
+                filtered.forEach(q => {
+                    const badgeColor = getCategoryBadgeClass(q.cat);
+                    html += `
+                        <div class="p-4 bg-slate-50 hover:bg-sky-50/40 border border-slate-200 rounded-xl transition-colors">
+                            <div class="flex items-center justify-between mb-1.5">
+                                <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${badgeColor}">
+                                    Q${q.id} • ${getCategoryLabel(q.cat)}
+                                </span>
+                                <button onclick="toggleTip('tip-${q.id}')" class="text-xs font-bold text-sky-600 hover:text-sky-800 flex items-center gap-1">
+                                    <span>Response Guidance</span>
+                                    <span>💡</span>
+                                </button>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-sm mb-1">${q.title}</h4>
+                            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed">${q.q}</p>
+
+                            <!-- Expandable STAR Tip -->
+                            <div id="tip-${q.id}" class="hidden mt-3 p-3 bg-white border border-sky-200 rounded-lg text-xs text-slate-700 space-y-1">
+                                <span class="font-bold text-sky-900 block">⭐ STAR Response Strategy:</span>
+                                <p>${q.tip}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+                container.innerHTML = html;
+            } else {
+                // Practice Flashcard Mode
+                let html = `<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">`;
+                filtered.forEach(q => {
+                    const badgeColor = getCategoryBadgeClass(q.cat);
+                    html += `
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                            <div>
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${badgeColor}">
+                                        Card #${q.id}
+                                    </span>
+                                    <span class="text-[10px] font-semibold text-slate-400">
+                                        ${getCategoryLabel(q.cat)}
+                                    </span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-2">${q.title}</h4>
+                                <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">${q.q}</p>
+                            </div>
+                            <div>
+                                <button onclick="toggleTip('card-tip-${q.id}')" class="w-full py-2 bg-sky-50 hover:bg-sky-100 text-sky-700 font-bold text-xs rounded-lg transition-colors text-center block">
+                                    Reveal Strategy Tip 💡
+                                </button>
+                                <div id="card-tip-${q.id}" class="hidden mt-3 p-3 bg-slate-50 border border-sky-200 rounded-lg text-xs text-slate-700">
+                                    <strong>STAR Strategy:</strong> ${q.tip}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+                container.innerHTML = html;
+            }
+        }
+
+        /* ================= HELPER FUNCTIONS ================= */
+
+        function toggleTip(id) {
+            const el = document.getElementById(id);
+            if (el) el.classList.toggle('hidden');
+        }
+
+        function getCategoryLabel(cat) {
+            switch(cat) {
+                case 'Behavioral': return 'Teamwork & Conflict';
+                case 'Problem-Solving': return 'Problem Solving';
+                case 'Leadership': return 'Leadership & Integrity';
+                case 'Adaptability': return 'Learning & Adaptability';
+                case 'Alignment': return 'Passion & Goals';
+                case 'Operational': return 'Work Style & Time Mgmt';
+                default: return cat;
+            }
+        }
+
+        function getCategoryBadgeClass(cat) {
+            switch(cat) {
+                case 'Behavioral': return 'bg-sky-100 text-sky-800';
+                case 'Problem-Solving': return 'bg-indigo-100 text-indigo-800';
+                case 'Leadership': return 'bg-purple-100 text-purple-800';
+                case 'Adaptability': return 'bg-emerald-100 text-emerald-800';
+                case 'Alignment': return 'bg-amber-100 text-amber-800';
+                case 'Operational': return 'bg-rose-100 text-rose-800';
+                default: return 'bg-slate-100 text-slate-800';
+            }
+        }
+    </script>
+</body>
+</html>
