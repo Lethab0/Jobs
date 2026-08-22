@@ -7,7 +7,7 @@
     <title>CareerConnect | CV Upload</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <style>
-        /* ── all styles are the same as the previous mobile‑first version ── */
+        /* ── all styles unchanged – same as before ── */
         :root {
             --primary: #2563eb;
             --primary-dark: #1d4ed8;
@@ -592,279 +592,281 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
 
-            // ── DOM refs ──
-            const form = document.getElementById('uploadForm');
-            const fileInput = document.getElementById('fileInput');
-            const uploadArea = document.getElementById('uploadArea');
-            const browseBtn = document.querySelector('.browse-btn');
-            const fileInfo = document.getElementById('fileInfo');
-            const fileName = document.getElementById('fileName');
-            const fileSize = document.getElementById('fileSize');
-            const submitBtn = document.getElementById('submitBtn');
-            const btnText = document.getElementById('btnText');
-            const btnSpinner = document.getElementById('btnSpinner');
-            const message = document.getElementById('message');
-            const folders = document.querySelectorAll('.main-folder');
-            const selectedDisplay = document.getElementById('selectedFieldDisplay');
-            const selectedIcon = document.getElementById('selectedFieldIcon');
-            const selectedName = document.getElementById('selectedFieldName');
-            const selectedCategory = document.getElementById('selectedFieldCategory');
-            const changeFieldBtn = document.getElementById('changeFieldBtn');
-            const confirmModal = document.getElementById('confirmModal');
-            const modalText = document.getElementById('modalText');
-            const confirmYes = document.getElementById('confirmYes');
-            const confirmNo = document.getElementById('confirmNo');
+        const form = document.getElementById('uploadForm');
+        const fileInput = document.getElementById('fileInput');
+        const uploadArea = document.getElementById('uploadArea');
+        const browseBtn = document.querySelector('.browse-btn');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const fileSize = document.getElementById('fileSize');
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = document.getElementById('btnText');
+        const btnSpinner = document.getElementById('btnSpinner');
+        const message = document.getElementById('message');
+        const folders = document.querySelectorAll('.main-folder');
+        const selectedDisplay = document.getElementById('selectedFieldDisplay');
+        const selectedIcon = document.getElementById('selectedFieldIcon');
+        const selectedName = document.getElementById('selectedFieldName');
+        const selectedCategory = document.getElementById('selectedFieldCategory');
+        const changeFieldBtn = document.getElementById('changeFieldBtn');
+        const confirmModal = document.getElementById('confirmModal');
+        const modalText = document.getElementById('modalText');
+        const confirmYes = document.getElementById('confirmYes');
+        const confirmNo = document.getElementById('confirmNo');
+        const emailInput = document.getElementById('email');
+        const phoneInput = document.getElementById('phone');
 
-            // Contact fields
-            const emailInput = document.getElementById('email');
-            const phoneInput = document.getElementById('phone');
+        let selectedFile = null;
 
-            let selectedFile = null;
+        // ── 1. CHECK IF DEVICE ALREADY SUBMITTED ──
+        checkDeviceSubmission();
 
-            // ── Helper: hide all folders except the given one ──
-            function hideOtherFolders(keepFolder) {
-                folders.forEach(f => {
-                    if (f !== keepFolder) {
-                        f.classList.add('hidden-folder');
-                        f.classList.remove('active');
-                    } else {
-                        f.classList.remove('hidden-folder');
-                    }
-                });
+        function checkDeviceSubmission() {
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') {
+                lockForm('⚠️ You have already submitted a CV from this device.');
             }
+        }
 
-            // ── Helper: show all folders (remove hidden-folder) ──
-            function showAllFolders() {
-                folders.forEach(f => f.classList.remove('hidden-folder'));
-            }
+        function lockForm(msg) {
+            submitBtn.disabled = true;
+            btnText.textContent = 'Already Submitted';
+            showMessage(msg, 'warning');
+            
+            // Disable all form controls
+            emailInput.disabled = true;
+            phoneInput.disabled = true;
+            fileInput.disabled = true;
+            browseBtn.disabled = true;
+            uploadArea.style.pointerEvents = 'none';
+            uploadArea.style.opacity = '0.6';
+        }
 
-            // ── Add tooltips to field-options so full text is visible on hover ──
-            document.querySelectorAll('.field-option').forEach(opt => {
-                const label = opt.querySelector('.field-label');
-                if (label) {
-                    opt.setAttribute('title', label.textContent);
+        // ── UI Helper functions ──
+        function hideOtherFolders(keepFolder) {
+            folders.forEach(f => {
+                if (f !== keepFolder) {
+                    f.classList.add('hidden-folder');
+                    f.classList.remove('active');
+                } else {
+                    f.classList.remove('hidden-folder');
                 }
             });
+        }
 
-            // ── Accordion: folder header click ──
-            folders.forEach(folder => {
-                const header = folder.querySelector('.folder-header');
-                header.addEventListener('click', (e) => {
-                    if (e.target.closest('.field-option')) return;
+        function showAllFolders() {
+            folders.forEach(f => f.classList.remove('hidden-folder'));
+        }
 
-                    const isActive = folder.classList.contains('active');
+        document.querySelectorAll('.field-option').forEach(opt => {
+            const label = opt.querySelector('.field-label');
+            if (label) opt.setAttribute('title', label.textContent);
+        });
 
-                    if (isActive) {
-                        const checkedRadio = folder.querySelector('input[type="radio"]:checked');
-                        if (!checkedRadio) {
-                            showAllFolders();
-                        }
-                        folder.classList.remove('active');
-                    } else {
-                        hideOtherFolders(folder);
-                        folder.classList.add('active');
-                    }
-                });
+        folders.forEach(folder => {
+            const header = folder.querySelector('.folder-header');
+            header.addEventListener('click', (e) => {
+                if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
+                if (e.target.closest('.field-option')) return;
+                const isActive = folder.classList.contains('active');
+                if (isActive) {
+                    const checkedRadio = folder.querySelector('input[type="radio"]:checked');
+                    if (!checkedRadio) showAllFolders();
+                    folder.classList.remove('active');
+                } else {
+                    hideOtherFolders(folder);
+                    folder.classList.add('active');
+                }
             });
+        });
 
-            // ── Field selection: update display ──
-            document.querySelectorAll('.field-option').forEach(option => {
-                option.addEventListener('click', function() {
-                    document.querySelectorAll('.field-option').forEach(opt => opt.classList.remove('selected'));
-                    this.classList.add('selected');
-
-                    const radio = this.querySelector('.field-radio');
-                    radio.checked = true;
-
-                    const icon = this.querySelector('.field-icon').textContent;
-                    const label = this.querySelector('.field-label').textContent;
-                    const category = this.closest('.main-folder').querySelector('.folder-title').textContent
-                        .trim();
-
-                    selectedIcon.textContent = icon;
-                    selectedName.textContent = label;
-                    selectedCategory.textContent = category;
-                    selectedDisplay.classList.add('show');
-
-                    const currentFolder = this.closest('.main-folder');
-                    hideOtherFolders(currentFolder);
-                    currentFolder.classList.add('active');
-                });
-            });
-
-            // ── "Change" button: clear selection, show all folders ──
-            changeFieldBtn.addEventListener('click', () => {
-                selectedDisplay.classList.remove('show');
+        document.querySelectorAll('.field-option').forEach(option => {
+            option.addEventListener('click', function(e) {
+                if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
                 document.querySelectorAll('.field-option').forEach(opt => opt.classList.remove('selected'));
-                document.querySelectorAll('.field-radio').forEach(r => r.checked = false);
-                showAllFolders();
-                folders.forEach(f => f.classList.remove('active'));
-                message.style.display = 'none';
+                this.classList.add('selected');
+                const radio = this.querySelector('.field-radio');
+                radio.checked = true;
+                const icon = this.querySelector('.field-icon').textContent;
+                const label = this.querySelector('.field-label').textContent;
+                const category = this.closest('.main-folder').querySelector('.folder-title').textContent.trim();
+                selectedIcon.textContent = icon;
+                selectedName.textContent = label;
+                selectedCategory.textContent = category;
+                selectedDisplay.classList.add('show');
+                const currentFolder = this.closest('.main-folder');
+                hideOtherFolders(currentFolder);
+                currentFolder.classList.add('active');
             });
+        });
 
-            // ── File Upload: drag / drop / browse ──
-            browseBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                fileInput.click();
-            });
+        changeFieldBtn.addEventListener('click', () => {
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
+            selectedDisplay.classList.remove('show');
+            document.querySelectorAll('.field-option').forEach(opt => opt.classList.remove('selected'));
+            document.querySelectorAll('.field-radio').forEach(r => r.checked = false);
+            showAllFolders();
+            folders.forEach(f => f.classList.remove('active'));
+            hideMessage();
+        });
 
-            uploadArea.addEventListener('click', () => fileInput.click());
+        // ── File Upload Events ──
+        browseBtn.addEventListener('click', (e) => { 
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
+            e.stopPropagation(); 
+            fileInput.click(); 
+        });
+        
+        uploadArea.addEventListener('click', () => {
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
+            fileInput.click();
+        });
 
-            ['dragenter', 'dragover'].forEach(ev => {
-                uploadArea.addEventListener(ev, (e) => {
-                    e.preventDefault();
-                    uploadArea.classList.add('dragover');
-                }, false);
-            });
+        ['dragenter', 'dragover'].forEach(ev => {
+            uploadArea.addEventListener(ev, (e) => { e.preventDefault(); e.stopPropagation(); uploadArea.classList.add('dragover'); }, false);
+        });
 
-            ['dragleave', 'drop'].forEach(ev => {
-                uploadArea.addEventListener(ev, (e) => {
-                    e.preventDefault();
-                    uploadArea.classList.remove('dragover');
-                }, false);
-            });
+        ['dragleave', 'drop'].forEach(ev => {
+            uploadArea.addEventListener(ev, (e) => { e.preventDefault(); e.stopPropagation(); uploadArea.classList.remove('dragover'); }, false);
+        });
 
-            uploadArea.addEventListener('drop', (e) => {
-                const dt = e.dataTransfer;
-                const files = dt.files;
-                if (files.length > 0) handleFiles(files[0]);
-            });
+        uploadArea.addEventListener('drop', (e) => {
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') return;
+            const dt = e.dataTransfer;
+            if (dt && dt.files && dt.files.length > 0) handleFiles(dt.files[0]);
+        });
 
-            fileInput.addEventListener('change', (e) => {
-                if (e.target.files.length > 0) handleFiles(e.target.files[0]);
-            });
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) handleFiles(e.target.files[0]);
+        });
 
-            function handleFiles(file) {
-                const validTypes = [
-                    'application/pdf',
-                    'application/msword',
-                    'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-                ];
-                if (!validTypes.includes(file.type)) {
-                    showMessage('Please upload a PDF, DOC, or DOCX file.', 'error');
-                    return;
-                }
-                if (file.size > 5 * 1024 * 1024) {
-                    showMessage('File size exceeds the 5MB limit.', 'error');
-                    return;
-                }
+        function handleFiles(file) {
+            const validTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+            const fileNameLower = file.name.toLowerCase();
+            const validExtensions = ['.pdf', '.doc', '.docx'];
+            const hasValidExt = validExtensions.some(ext => fileNameLower.endsWith(ext));
 
-                selectedFile = file;
-                fileName.textContent = file.name;
-                fileSize.textContent = (file.size / (1024 * 1024)).toFixed(2) + ' MB';
-                fileInfo.classList.add('show');
-                message.style.display = 'none';
+            if (!validTypes.includes(file.type) && !hasValidExt) {
+                showMessage('Please upload a PDF, DOC, or DOCX file.', 'error');
+                return;
+            }
+            if (file.size > 5 * 1024 * 1024) {
+                showMessage('File size exceeds the 5MB limit.', 'error');
+                return;
+            }
+            selectedFile = file;
+            fileName.textContent = file.name;
+            fileSize.textContent = (file.size / (1024 * 1024)).toFixed(2) + ' MB';
+            fileInfo.classList.add('show');
+            hideMessage();
+        }
+
+        // ── Form Submission ──
+        let storedField = '';
+        let storedEmail = '';
+        let storedPhone = '';
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            if (localStorage.getItem('careerconnect_cv_submitted') === 'true') {
+                showMessage('⚠️ You have already submitted a CV from this device.', 'warning');
+                return;
             }
 
-            // ── Form submit: validate and show modal ──
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
+            const selectedRadio = document.querySelector('input[name="field"]:checked');
+            if (!selectedRadio) { showMessage('Please select a career field.', 'warning'); return; }
+            if (!selectedFile) { showMessage('Please select a file to upload.', 'warning'); return; }
 
-                const selectedRadio = document.querySelector('input[name="field"]:checked');
-                if (!selectedRadio) {
-                    showMessage('Please select a career field.', 'warning');
-                    return;
+            const email = emailInput.value.trim();
+            const phone = phoneInput.value.trim();
+
+            if (!email || !phone) { showMessage('Please provide both email and phone number.', 'warning'); return; }
+            if (!email.includes('@') || !email.includes('.')) { showMessage('Please enter a valid email address.', 'warning'); return; }
+            if (!/^[\+\d\s\-\(\)]{7,20}$/.test(phone)) { showMessage('Please enter a valid phone number.', 'warning'); return; }
+
+            storedField = selectedRadio.value;
+            storedEmail = email;
+            storedPhone = phone;
+
+            modalText.textContent = `Are you sure you want to upload your CV to "${storedField}"?`;
+            confirmModal.classList.add('show');
+        });
+
+        confirmNo.addEventListener('click', () => confirmModal.classList.remove('show'));
+
+        confirmYes.addEventListener('click', () => {
+            confirmModal.classList.remove('show');
+            executeUpload(storedField, storedEmail, storedPhone);
+        });
+
+        function executeUpload(field, email, phone) {
+            submitBtn.disabled = true;
+            btnText.textContent = 'Uploading...';
+            btnSpinner.style.display = 'block';
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                let base64Data = e.target.result;
+                if (base64Data.indexOf(',') !== -1) {
+                    base64Data = base64Data.split(',')[1];
                 }
-                if (!selectedFile) {
-                    showMessage('Please select a file to upload.', 'warning');
-                    return;
-                }
 
-                const email = emailInput.value.trim();
-                const phone = phoneInput.value.trim();
-                if (!email || !phone) {
-                    showMessage('Please provide both email and phone number.', 'warning');
-                    return;
-                }
-                if (!email.includes('@') || !email.includes('.')) {
-                    showMessage('Please enter a valid email address.', 'warning');
-                    return;
-                }
-                if (!/^[\+\d\s\-\(\)]{7,20}$/.test(phone)) {
-                    showMessage('Please enter a valid phone number.', 'warning');
-                    return;
-                }
-
-                modalText.textContent = `Are you sure you want to upload your CV to "${selectedRadio.value}"?`;
-                confirmModal.classList.add('show');
-            });
-
-            confirmNo.addEventListener('click', () => confirmModal.classList.remove('show'));
-
-            confirmYes.addEventListener('click', () => {
-                confirmModal.classList.remove('show');
-                executeUpload();
-            });
-
-            // ── Execute upload ──
-            function executeUpload() {
-                submitBtn.disabled = true;
-                btnText.textContent = 'Uploading...';
-                btnSpinner.style.display = 'block';
-
-                const selectedField = document.querySelector('input[name="field"]:checked').value;
-                const email = emailInput.value.trim();
-                const phone = phoneInput.value.trim();
-
-                const reader = new FileReader();
-
-                reader.onload = function(e) {
-                    const base64Data = e.target.result.split(',')[1];
-                    const filePayload = {
-                        name: selectedFile.name,
-                        mimeType: selectedFile.type,
-                        data: base64Data
-                    };
-
-                    if (typeof google !== 'undefined' && google.script && google.script.run) {
-                        google.script.run
-                            .withSuccessHandler(onSuccess)
-                            .withFailureHandler(onFailure)
-                            .uploadCV(selectedField, filePayload, email, phone);
-                    } else {
-                        // Fallback simulation (for testing outside Apps Script)
-                        setTimeout(() => {
-                            onSuccess({
-                                status: 'success',
-                                message: `✅ Your CV has been uploaded to "${selectedField}". A confirmation email has been sent to ${email}.`
-                            });
-                        }, 1500);
-                    }
+                const filePayload = {
+                    name: selectedFile.name,
+                    mimeType: selectedFile.type || 'application/pdf',
+                    data: base64Data
                 };
 
-                reader.readAsDataURL(selectedFile);
-            }
+                if (typeof google !== 'undefined' && google.script && google.script.run) {
+                    google.script.run
+                        .withSuccessHandler(onSuccess)
+                        .withFailureHandler(onFailure)
+                        .uploadCV(field, filePayload, email, phone);
+                }
+            };
+            reader.readAsDataURL(selectedFile);
+        }
 
-            function onSuccess(response) {
+        function onSuccess(response) {
+            btnSpinner.style.display = 'none';
+
+            if (response && response.status === 'duplicate') {
                 submitBtn.disabled = false;
                 btnText.textContent = 'Submit CV';
-                btnSpinner.style.display = 'none';
-
-                showMessage(response.message, 'success');
-                fileInfo.classList.remove('show');
-                selectedFile = null;
-                fileInput.value = '';
-                // Optionally clear contact fields
-                // emailInput.value = '';
-                // phoneInput.value = '';
+                showMessage(response.message, 'warning');
+                return;
             }
 
-            function onFailure(error) {
-                submitBtn.disabled = false;
-                btnText.textContent = 'Submit CV';
-                btnSpinner.style.display = 'none';
-                showMessage(error.message || 'An error occurred during upload.', 'error');
-            }
+            // Mark device as submitted permanently
+            localStorage.setItem('careerconnect_cv_submitted', 'true');
+            
+            const msgText = (response && response.message) ? response.message : '✅ Upload completed successfully!';
+            lockForm(msgText);
+        }
 
-            function showMessage(text, type) {
-                message.textContent = text;
-                message.className = 'message ' + type;
-            }
+        function onFailure(error) {
+            submitBtn.disabled = false;
+            btnText.textContent = 'Submit CV';
+            btnSpinner.style.display = 'none';
+            const errorMsg = (error && error.message) ? error.message : 'An error occurred during upload.';
+            showMessage(errorMsg, 'error');
+        }
 
-        });
-    </script>
+        function showMessage(text, type) {
+            message.textContent = text;
+            message.className = 'message ' + type;
+            message.style.display = 'block';
+        }
 
+        function hideMessage() {
+            message.textContent = '';
+            message.className = 'message';
+            message.style.display = 'none';
+        }
+
+    });
+</script>
 </body>
 </html>
