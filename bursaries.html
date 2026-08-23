@@ -1,485 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
-    <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEJH88Q34D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-VEJH88Q34D');
-      gtag('config', 'G-TFF1ENHN6D');
+    <!-- Google AdSense Auto Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
+            crossorigin="anonymous">
     </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bursary Hub Portal · Stem Club</title>
-
-    <!-- Domain Redirection -->
-    <script>
-        if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
-            if (window.location.pathname.startsWith("/bursaries")) {
-                window.location.replace("https://jobs-miy4.onrender.com/bursaries");
-            }
-        }
-    </script>
-
-    <!-- AdSense Auto Ads -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous">
-    </script>
-
+    <title>STEMclub – Bursary Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
     <style>
-        /* ── Reset & Base ── */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        /* ─── RESET & BASE ─── */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: linear-gradient(145deg, #f6f9fc 0%, #eef2f7 100%);
-            min-height: 100vh;
-            padding: 2rem 1.25rem;
-            display: flex;
-            justify-content: center;
-            color: #0b1a2e;
+            font-family: 'Inter', sans-serif;
+            background: #eef2f7;
+            color: #1a2a3a;
+            padding: 0 20px 40px;
+            line-height: 1.5;
         }
-
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
         .container {
-            max-width: 1320px;
-            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 16px;
         }
+        .hidden { display: none !important; }
 
-        /* ── Scrollbar polish ── */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #e2e8f0;
-            border-radius: 12px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #b9c8e0;
-            border-radius: 12px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #94a9c9;
-        }
-
-        /* ── Typography ── */
-        .portal-header {
-            text-align: center;
-            margin-bottom: 2.25rem;
-        }
-
-        .portal-header h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            letter-spacing: -0.025em;
-            background: linear-gradient(135deg, #0b1a2e 0%, #1f3a6b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            display: inline-block;
-        }
-
-        .portal-header h1 .accent {
-            background: linear-gradient(135deg, #2563eb, #3b82f6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .portal-header p {
-            color: #4b5e77;
-            font-size: 1.15rem;
-            font-weight: 450;
-            margin-top: 0.2rem;
-            letter-spacing: 0.01em;
-        }
-
-        /* ── Navigation Bar ── */
-        .top-nav {
+        /* ─── HEADER (STEMclub) ─── */
+        .page-header {
+            background: linear-gradient(135deg, #0b2b5e 0%, #1a73e8 100%);
+            color: #fff;
+            border-radius: 24px;
+            padding: 32px 40px 28px;
+            margin: 24px 0 32px;
+            position: relative;
+            overflow: hidden;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 0.75rem 1.25rem;
-            background: rgba(255, 255, 255, 0.75);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            padding: 0.6rem 1.6rem 0.6rem 1.8rem;
-            border-radius: 80px;
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 8px 28px -10px rgba(0, 20, 50, 0.08), 0 1px 2px rgba(0, 0, 0, 0.02);
-            margin-bottom: 2rem;
-            transition: all 0.25s ease;
         }
-
-        .top-nav .badge {
-            font-weight: 600;
-            font-size: 0.85rem;
-            color: #1e3a6b;
-            background: rgba(37, 99, 235, 0.10);
-            padding: 0.3rem 1.2rem;
+        .page-header::after {
+            content: '';
+            position: absolute;
+            top: -60%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: rgba(255,255,255,0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .page-header .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            position: relative;
+            z-index: 1;
+        }
+        .page-header .logo span {
+            background: rgba(255,255,255,0.15);
+            padding: 2px 14px;
             border-radius: 40px;
-            border: 1px solid rgba(37, 99, 235, 0.12);
-            letter-spacing: 0.02em;
+            font-size: 1rem;
+            font-weight: 600;
         }
-
-        .nav-btn {
-            background: transparent;
-            border: none;
-            padding: 0.45rem 1.4rem;
+        .page-header .header-right {
+            display: flex;
+            gap: 12px;
+            position: relative;
+            z-index: 1;
+            flex-wrap: wrap;
+        }
+        .header-btn {
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #fff;
+            padding: 8px 20px;
             border-radius: 40px;
             font-weight: 600;
             font-size: 0.9rem;
-            color: #2563eb;
             cursor: pointer;
             transition: all 0.2s ease;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.35rem;
-            background: rgba(37, 99, 235, 0.06);
-            border: 1px solid transparent;
+            backdrop-filter: blur(4px);
         }
-
-        .nav-btn:hover {
-            background: #2563eb;
-            color: white;
-            box-shadow: 0 6px 16px -6px rgba(37, 99, 235, 0.35);
+        .header-btn:hover {
+            background: #fff;
+            color: #0b2b5e;
+            border-color: #fff;
             transform: translateY(-1px);
         }
-
-        .nav-btn:active {
-            transform: scale(0.97);
-        }
-
-        /* ── Utility ── */
-        .hidden {
-            display: none !important;
-        }
-
-        /* ── View 1: Faculty Grid ── */
-        .faculty-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
-            gap: 1.4rem;
-            margin-top: 0.5rem;
-        }
-
-        .faculty-card,
-        .home-card {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            border: 1.5px solid rgba(255, 255, 255, 0.5);
-            border-radius: 20px;
-            padding: 2rem 0.8rem;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-            box-shadow: 0 4px 12px -6px rgba(0, 20, 40, 0.04);
-            text-decoration: none;
-            display: block;
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 4px;
             position: relative;
-            overflow: hidden;
+            z-index: 1;
+            width: 100%;
         }
-
-        .faculty-card::after,
-        .home-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            border-radius: 20px;
-            padding: 1.5px;
-            background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(59, 130, 246, 0.05));
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask-composite: exclude;
-            pointer-events: none;
-        }
-
-        .faculty-card:hover,
-        .home-card:hover {
-            transform: translateY(-6px) scale(1.01);
-            box-shadow: 0 20px 40px -14px rgba(37, 99, 235, 0.20), 0 4px 12px -4px rgba(0, 0, 0, 0.02);
-            background: #ffffff;
-            border-color: rgba(37, 99, 235, 0.20);
-        }
-
-        .faculty-card:active,
-        .home-card:active {
-            transform: scale(0.97) translateY(-2px);
-        }
-
-        .faculty-name,
-        .home-label {
-            font-weight: 700;
-            font-size: 1.15rem;
-            color: #1a2f4e;
-            transition: color 0.2s;
-            letter-spacing: -0.01em;
-        }
-
-        .faculty-card:hover .faculty-name {
-            color: #2563eb;
-        }
-
-        .home-card {
-            background: linear-gradient(135deg, #f0f7ff, #e6eefa);
-            border-color: rgba(37, 99, 235, 0.15);
-        }
-
-        .home-card:hover .home-label {
-            color: #2563eb;
-        }
-
-        .faculty-card .icon-emoji,
-        .home-card .icon-emoji {
-            font-size: 1.8rem;
-            display: block;
-            margin-bottom: 0.4rem;
-        }
-
-        /* ── View 2: Format Selection ── */
-        .view-choice-section {
-            text-align: center;
-            padding: 3rem 2rem;
-            background: rgba(255, 255, 255, 0.80);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            border-radius: 32px;
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 12px 40px -12px rgba(0, 20, 40, 0.06);
-            max-width: 780px;
-            margin: 0 auto;
-        }
-
-        .view-choice-section h3 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #0b1a2e;
-            margin-bottom: 2rem;
-            letter-spacing: -0.02em;
-        }
-
-        .view-choice-section h3 .highlight {
-            color: #2563eb;
-        }
-
-        .choice-grid {
-            display: flex;
-            justify-content: center;
-            gap: 1.25rem;
-            flex-wrap: wrap;
-        }
-
-        .choice-btn {
-            background: white;
-            border: 1.5px solid #dce4ef;
-            border-radius: 60px;
-            padding: 0.85rem 2.6rem;
-            font-weight: 600;
-            font-size: 1.05rem;
-            color: #1a2f4e;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            min-width: 170px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-        }
-
-        .choice-btn:hover {
-            background: #2563eb;
-            color: white;
-            border-color: #2563eb;
-            box-shadow: 0 12px 28px -10px rgba(37, 99, 235, 0.30);
-            transform: translateY(-2px);
-        }
-
-        .choice-btn:active {
-            transform: scale(0.96);
-        }
-
-        .choice-btn .emoji {
-            font-size: 1.2rem;
-        }
-
-        /* ── View 3A: Calendar ── */
-        .calendar-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.6rem;
-        }
-
-        .month-box {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            padding: 1.4rem 1.3rem 1.1rem;
-            box-shadow: 0 6px 18px -8px rgba(0, 20, 40, 0.04);
-            transition: all 0.2s ease;
-        }
-
-        .month-box:hover {
-            box-shadow: 0 12px 32px -12px rgba(0, 20, 50, 0.08);
-            transform: translateY(-2px);
-        }
-
-        .month-title {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: #0b1a2e;
-            border-bottom: 2px solid rgba(37, 99, 235, 0.12);
-            padding-bottom: 0.65rem;
-            margin-bottom: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .month-title .month-count {
-            font-size: 0.75rem;
-            font-weight: 500;
-            color: #6b7f99;
-            background: #eef2f7;
-            padding: 0.1rem 0.7rem;
-            border-radius: 40px;
-        }
-
-        .event-item {
-            background: rgba(241, 245, 250, 0.7);
-            backdrop-filter: blur(2px);
-            -webkit-backdrop-filter: blur(2px);
-            border-radius: 12px;
-            padding: 0.6rem 0.9rem;
-            margin-bottom: 0.45rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 0.75rem;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            transition: all 0.15s ease;
-        }
-
-        .event-item:hover {
-            background: #ffffff;
-            border-color: rgba(37, 99, 235, 0.10);
-            box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.02);
-        }
-
-        .event-name {
-            font-weight: 600;
-            font-size: 0.92rem;
-            color: #1a2f4e;
-            flex: 1;
-            line-height: 1.3;
-        }
-
-        .event-day {
-            background: white;
-            border: 1px solid #dce4ef;
-            padding: 0.1rem 0.7rem;
-            border-radius: 30px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            color: #2563eb;
-            white-space: nowrap;
-            letter-spacing: 0.02em;
-        }
-
-        /* ── View 3B: Grid (original style) ── */
-        .original-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-            gap: 1.6rem;
-        }
-
-        .bursary-card {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
-            border-radius: 24px;
-            padding: 1.6rem 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            box-shadow: 0 6px 18px -8px rgba(0, 20, 40, 0.04);
-            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        .bursary-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 18px 36px -14px rgba(0, 20, 50, 0.08);
-            background: #ffffff;
-            border-color: rgba(37, 99, 235, 0.10);
-        }
-
-        .bursary-title {
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: #0b1a2e;
-            margin-bottom: 0.4rem;
-            letter-spacing: -0.01em;
-        }
-
-        .bursary-title .badge-faculty {
-            display: inline-block;
-            font-size: 0.65rem;
-            font-weight: 600;
-            background: rgba(37, 99, 235, 0.10);
-            color: #2563eb;
-            padding: 0.05rem 0.65rem;
-            border-radius: 40px;
-            margin-left: 0.4rem;
-            vertical-align: middle;
-        }
-
-        .deadline {
-            color: #b91c1c;
-            font-weight: 600;
-            font-size: 0.92rem;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-
-        .deadline .icon {
+        .page-header p {
             font-size: 1rem;
+            opacity: 0.92;
+            max-width: 660px;
+            margin-top: 4px;
+            position: relative;
+            z-index: 1;
         }
-
-        /* ── Empty State ── */
-        .empty-state {
-            grid-column: 1 / -1;
-            text-align: center;
-            padding: 4rem 2rem;
-            background: rgba(255, 255, 255, 0.70);
+        .page-header .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.18);
             backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
+            padding: 4px 16px;
             border-radius: 40px;
-            color: #5b6f89;
-            border: 1.5px dashed rgba(37, 99, 235, 0.15);
-            font-size: 1.05rem;
-            font-weight: 450;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 12px;
+            position: relative;
+            z-index: 1;
         }
 
-        /* ── Ads Container ── */
+        /* ─── ADS CONTAINERS ─── */
         .ads-container {
-            margin: 2rem 0;
+            margin: 1.5rem 0;
             text-align: center;
             min-height: 90px;
             background: rgba(255, 255, 255, 0.40);
             backdrop-filter: blur(4px);
-            -webkit-backdrop-filter: blur(4px);
             border-radius: 16px;
             display: flex;
             align-items: center;
@@ -487,584 +141,1468 @@
             color: #8a9bb0;
             font-size: 0.85rem;
             border: 1px solid rgba(255, 255, 255, 0.3);
-            transition: all 0.2s;
         }
 
-        /* ── WhatsApp Floating ── */
-        .wa-floating-container {
-            position: fixed;
+        /* ─── FILTER BAR ─── */
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 16px;
+            background: #fff;
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-bottom: 28px;
+            box-shadow: 0 2px 12px rgba(26, 115, 232, 0.08);
+            align-items: center;
+        }
+        .filter-bar .search-wrap {
+            flex: 1 1 220px;
+            position: relative;
+        }
+        .filter-bar .search-wrap input {
+            width: 100%;
+            padding: 10px 16px 10px 44px;
+            border: 1.5px solid #d0dbe8;
+            border-radius: 40px;
+            font-size: 0.95rem;
+            background: #f8faff;
+            transition: 0.2s;
+            font-family: inherit;
+        }
+        .filter-bar .search-wrap input:focus {
+            outline: none;
+            border-color: #1a73e8;
+            background: #fff;
+            box-shadow: 0 0 0 3px rgba(26,115,232,0.12);
+        }
+        .filter-bar .search-wrap .icon {
+            position: absolute;
+            left: 16px;
             top: 50%;
-            right: 1.5rem;
             transform: translateY(-50%);
+            color: #6b8db5;
+            font-size: 1.1rem;
+            pointer-events: none;
+        }
+        .filter-bar .filter-select {
+            flex: 0 0 auto;
+            min-width: 150px;
+        }
+        .filter-bar .filter-select select {
+            width: 100%;
+            padding: 10px 36px 10px 16px;
+            border: 1.5px solid #d0dbe8;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            background: #f8faff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b8db5' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 14px center;
+            background-size: 12px;
+            appearance: none;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+        }
+        .filter-bar .filter-select select:focus {
+            outline: none;
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 3px rgba(26,115,232,0.12);
+        }
+        .filter-bar .filter-count {
+            font-size: 0.9rem;
+            color: #3a5a7a;
+            margin-left: auto;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .filter-bar .filter-count span {
+            color: #1a73e8;
+            font-weight: 700;
+        }
+
+        /* ─── GRID ─── */
+        .bursary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        /* ─── CARD ─── */
+        .bursary-card {
+            background: #fff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(26, 115, 232, 0.07);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 0.4rem;
-            z-index: 99999;
+            height: 100%;
+            min-height: 340px;
+            border: 1px solid rgba(26,115,232,0.06);
         }
-
-        .wa-floating-btn {
-            width: 62px;
-            height: 62px;
-            background: linear-gradient(135deg, #25d366, #1ebe5a);
-            color: white;
-            border-radius: 50%;
+        .bursary-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 32px rgba(26, 115, 232, 0.15);
+        }
+        .bursary-card .card-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            background-color: #c5d5e8;
+            position: relative;
+            flex-shrink: 0;
+        }
+        .bursary-card .card-image .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(11,43,94,0.1) 30%, rgba(11,43,94,0.7) 100%);
+        }
+        .bursary-card .card-image .closing-badge {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            background: rgba(11,43,94,0.8);
+            backdrop-filter: blur(4px);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 40px;
+            letter-spacing: 0.02em;
+            border: 1px solid rgba(255,255,255,0.15);
+            z-index: 2;
+        }
+        .bursary-card .card-body {
+            padding: 18px 20px 20px;
+            flex: 1;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.1rem;
-            text-decoration: none;
-            box-shadow: 0 6px 24px -4px rgba(37, 211, 102, 0.35), 0 2px 8px rgba(0, 0, 0, 0.02);
-            transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-            border: none;
-            line-height: 1;
+            flex-direction: column;
         }
-
-        .wa-floating-btn:hover {
-            background: linear-gradient(135deg, #1ebe5a, #17a84a);
-            transform: scale(1.06) rotate(-2deg);
-            box-shadow: 0 12px 36px -6px rgba(37, 211, 102, 0.45);
-        }
-
-        .wa-floating-btn:active {
-            transform: scale(0.93);
-        }
-
-        .wa-text-label {
-            color: #1a2f4e;
-            font-size: 0.7rem;
+        .bursary-card .card-body h3 {
+            font-size: 1.1rem;
             font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            background: rgba(255, 255, 255, 0.90);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            padding: 0.25rem 0.65rem;
-            border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.02);
-            white-space: nowrap;
-            text-align: center;
             line-height: 1.3;
-            max-width: 100px;
+            margin-bottom: 6px;
+            color: #0b2b5e;
+        }
+        .bursary-card .card-body .meta {
+            font-size: 0.85rem;
+            color: #4a6a8a;
+            margin-bottom: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 12px;
+        }
+        .bursary-card .card-body .meta .tag {
+            display: inline-block;
+            background: #e6edf6;
+            padding: 2px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #1a4a7a;
+            letter-spacing: 0.01em;
+        }
+        .bursary-card .card-body .btn-wrap {
+            margin-top: auto;
+        }
+        .bursary-card .card-body .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #1a73e8;
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 8px 20px;
+            border-radius: 40px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.15s;
+            font-family: inherit;
+            text-decoration: none;
+        }
+        .bursary-card .card-body .btn:hover {
+            background: #0d5bbd;
+            transform: scale(1.02);
+            text-decoration: none;
+        }
+        .bursary-card .card-body .btn .arrow {
+            transition: transform 0.2s;
+        }
+        .bursary-card .card-body .btn:hover .arrow {
+            transform: translateX(4px);
         }
 
-        /* ── Responsive ── */
-        @media (max-width: 640px) {
-            body {
-                padding: 1.25rem 0.9rem;
-            }
-
-            .portal-header h1 {
-                font-size: 2rem;
-            }
-
-            .portal-header p {
-                font-size: 1rem;
-            }
-
-            .top-nav {
-                flex-direction: column;
-                align-items: stretch;
-                text-align: center;
-                border-radius: 28px;
-                padding: 0.75rem 1.25rem;
-                gap: 0.6rem;
-            }
-
-            .top-nav .badge {
-                font-size: 0.8rem;
-            }
-
-            .nav-btn {
-                justify-content: center;
-                padding: 0.4rem 1rem;
-                font-size: 0.85rem;
-            }
-
-            .faculty-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 1rem;
-            }
-
-            .faculty-card,
-            .home-card {
-                padding: 1.4rem 0.6rem;
-            }
-
-            .faculty-name,
-            .home-label {
-                font-size: 1rem;
-            }
-
-            .view-choice-section {
-                padding: 2rem 1.25rem;
-                border-radius: 24px;
-            }
-
-            .view-choice-section h3 {
-                font-size: 1.4rem;
-            }
-
-            .choice-btn {
-                padding: 0.7rem 1.6rem;
-                font-size: 0.95rem;
-                min-width: 140px;
-            }
-
-            .calendar-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .original-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .wa-floating-container {
-                right: 0.75rem;
-            }
-
-            .wa-floating-btn {
-                width: 52px;
-                height: 52px;
-                font-size: 1.7rem;
-            }
-
-            .wa-text-label {
-                font-size: 0.6rem;
-                padding: 0.15rem 0.45rem;
-                max-width: 80px;
-            }
-
-            .month-box {
-                padding: 1rem;
-            }
+        /* ─── DETAIL VIEW ─── */
+        #detailView {
+            background: #fff;
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+            max-width: 860px;
+            margin: 0 auto;
+            border: 1px solid rgba(26,115,232,0.08);
+        }
+        #detailView .detail-back {
+            margin-bottom: 1.5rem;
+        }
+        #detailView .detail-img {
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin: 1rem 0 1.5rem;
+            background: #e6edf6;
+        }
+        #detailView .detail-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #0b2b5e;
+            margin-bottom: 0.5rem;
+        }
+        #detailView .detail-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.5rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 2px solid #e6edf6;
+        }
+        #detailView .detail-meta span {
+            background: #eef2f7;
+            padding: 0.2rem 1rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #1a4a7a;
+        }
+        #detailView .detail-section {
+            margin: 1.2rem 0;
+        }
+        #detailView .detail-section h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #0b2b5e;
+            margin-bottom: 0.2rem;
+        }
+        #detailView .detail-section p {
+            color: #2a4a6a;
+            line-height: 1.6;
+        }
+        /* Back button (replaces Apply Now) */
+        .detail-back-btn {
+            display: inline-block;
+            background: #1a73e8;
+            color: #fff;
+            font-weight: 700;
+            padding: 12px 32px;
+            border-radius: 60px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.15s;
+            margin-top: 0.5rem;
+            text-decoration: none;
+        }
+        .detail-back-btn:hover {
+            background: #0d5bbd;
+            transform: scale(1.02);
         }
 
-        @media (max-width: 420px) {
-            .faculty-grid {
-                grid-template-columns: 1fr 1fr;
-                gap: 0.8rem;
-            }
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: #4a6a8a;
+        }
+        .empty-state h3 {
+            font-size: 1.4rem;
+            color: #0b2b5e;
+            margin-bottom: 8px;
+        }
 
-            .choice-grid {
+        /* ─── FOOTER ─── */
+        .site-footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #d0dbe8;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #4a6a8a;
+        }
+        .site-footer a {
+            color: #1a73e8;
+            font-weight: 500;
+        }
+        .site-footer .brand {
+            font-weight: 700;
+            color: #0b2b5e;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 768px) {
+            .page-header {
+                padding: 24px 20px 20px;
                 flex-direction: column;
-                align-items: center;
+                align-items: flex-start;
+                gap: 12px;
             }
-
-            .choice-btn {
+            .page-header .header-right {
                 width: 100%;
-                max-width: 280px;
+                justify-content: flex-start;
             }
+            .page-header .logo { font-size: 1.4rem; }
+            .page-header h1 { font-size: 1.6rem; }
+            .page-header p { font-size: 0.95rem; }
+            .filter-bar { flex-direction: column; align-items: stretch; }
+            .filter-bar .search-wrap { flex: 1 1 auto; }
+            .filter-bar .filter-select { min-width: unset; }
+            .filter-bar .filter-count { margin-left: 0; text-align: center; }
+            .bursary-grid { grid-template-columns: 1fr; gap: 18px; }
+            .bursary-card .card-image { height: 170px; }
+            #detailView { padding: 1.5rem; }
+            #detailView .detail-title { font-size: 1.5rem; }
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .bursary-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
-        /* ── Subtle animation for content appearance ── */
-        @keyframes fadeUp {
-            0% {
-                opacity: 0;
-                transform: translateY(12px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .faculty-grid .faculty-card,
-        .faculty-grid .home-card,
-        .calendar-grid .month-box,
-        .original-grid .bursary-card {
-            animation: fadeUp 0.4s ease both;
-        }
-
-        .faculty-grid .faculty-card:nth-child(2) {
-            animation-delay: 0.04s;
-        }
-        .faculty-grid .faculty-card:nth-child(3) {
-            animation-delay: 0.08s;
-        }
-        .faculty-grid .faculty-card:nth-child(4) {
-            animation-delay: 0.12s;
-        }
-        .faculty-grid .faculty-card:nth-child(5) {
-            animation-delay: 0.16s;
-        }
-        .faculty-grid .faculty-card:nth-child(6) {
-            animation-delay: 0.20s;
-        }
-        .faculty-grid .faculty-card:nth-child(7) {
-            animation-delay: 0.24s;
-        }
+        .loading-spinner { grid-column: 1 / -1; text-align: center; padding: 40px; font-size: 1.2rem; color: #1a73e8; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
     </style>
 </head>
 <body>
+<div class="container">
 
-    <!-- AdSense Auto Anchor -->
-    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1486635931470536" layout="nodisplay">
-    </amp-auto-ads>
-
-    <div class="container">
-
-        <!-- ── Header ── -->
-        <header class="portal-header">
-            <h1>🎓 <span class="accent">Bursary</span> Hub</h1>
-            <p id="dynamicSubtitle">Select a faculty to explore closing dates</p>
-        </header>
-
-        <!-- ── Navigation Bar ── -->
-        <div id="navigationBar" class="top-nav hidden">
-            <button id="navBackBtn" class="nav-btn">← Change view</button>
-            <span class="badge" id="layoutBadge">Layout View</span>
-            <button id="navHomeBtn" class="nav-btn">Back to Faculties</button>
-        </div>
-
-       <!--  ── Ads (Top) ── 
-        <div class="ads-container">
-            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="1111111111" data-auto-format="rspv" data-full-width>
-                <div overflow></div>
-            </amp-ad>
-        </div> -->
-
-        <!-- ── VIEW 1: Faculty Selection ── -->
-        <div id="facultyView">
-            <div class="faculty-grid">
-                <!-- Updated Jobs Button with proper delayed WhatsApp redirect -->
-                <a href="#" class="home-card" id="homeJobsBtn">
-                    <span class="home-label">🏠 Jobs</span>
-                </a>
-
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const homeBtn = document.getElementById('homeJobsBtn');
-                        if (!homeBtn) return;
-
-                        homeBtn.addEventListener('click', function(e) {
-                            e.preventDefault();
-
-                            // 1. Open the Jobs page in a new tab immediately
-                            window.open('https://stemclub.co.za', '_blank');
-
-                            // 2. Check if the WhatsApp redirect has already been triggered
-                            if (localStorage.getItem('whatsapp_redirect_done')) {
-                                return;
-                            }
-
-                            // 3. Mark as done immediately so it doesn't trigger again on subsequent clicks
-                            localStorage.setItem('whatsapp_redirect_done', 'true');
-
-                            // 4. Open WhatsApp in a new tab after 10 seconds
-                            setTimeout(() => {
-                                window.open('https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u', '_blank');
-                            }, 10000);
-                        });
-                    });
-                </script>
-
-                <div class="faculty-card" data-id="accounting"><span class="faculty-name">📊 Accounting</span></div>
-                <div class="faculty-card" data-id="education"><span class="faculty-name">📚 Education</span></div>
-                <div class="faculty-card" data-id="engineering"><span class="faculty-name">⚙️ Engineering</span></div>
-                <div class="faculty-card" data-id="it-computer-science"><span class="faculty-name">💻 IT &amp; CS</span></div>
-                <div class="faculty-card" data-id="law"><span class="faculty-name">⚖️ Law</span></div>
-                <div class="faculty-card" data-id="sciences"><span class="faculty-name">🔬 Sciences</span></div>
+    <!-- HEADER (STEMclub) with Back to Index -->
+    <header class="page-header">
+        <div>
+            <div class="logo">
+                🧪 STEMclub
+                <span>Bursary Hub</span>
             </div>
+            <h1>South African Bursaries</h1>
+            <p>Curated funding opportunities for South African students.</p>
+            <div class="badge">📚 200+ bursaries • 2024–2027</div>
         </div>
+        <div class="header-right">
+            <button class="header-btn" onclick="window.location.href='index.html'">🏠 Back to Index</button>
+        </div>
+    </header>
 
-        <!-- ── VIEW 2: Format Selection ── -->
-        <div id="formatView" class="hidden">
-            <div class="view-choice-section">
-                <h3>📌 Choose your <span class="highlight">display style</span></h3>
-                <div class="choice-grid">
-                    <button class="choice-btn" data-style="calendar"><span class="emoji">📅</span> Calendar</button>
-                    <button class="choice-btn" data-style="grid"><span class="emoji">🗂️</span> Grid</button>
+    <!-- TOP AD -->
+    <div class="ads-container">
+        <amp-ad width="100vw" height="90"
+                type="adsense"
+                data-ad-client="ca-pub-1486635931470536"
+                data-ad-slot="1234567890"
+                data-auto-format="rspv"
+                data-full-width>
+            <div overflow></div>
+        </amp-ad>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div id="filterBar" class="filter-bar">
+        <div class="search-wrap">
+            <span class="icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by title or field…" />
+        </div>
+        <div class="filter-select">
+            <select id="monthFilter">
+                <option value="all">All months</option>
+                <!-- filled by JS -->
+            </select>
+        </div>
+        <div class="filter-select">
+            <select id="fieldFilter">
+                <option value="all">All fields</option>
+                <!-- filled by JS -->
+            </select>
+        </div>
+        <div class="filter-count" id="resultCount">Showing <span id="countNum">0</span> bursaries</div>
+    </div>
+
+    <!-- GRID -->
+    <div id="bursaryGrid" class="bursary-grid">
+        <div class="loading-spinner">⏳ Loading bursaries…</div>
+    </div>
+
+    <!-- DETAIL VIEW (hidden by default) -->
+    <div id="detailView" class="hidden">
+        <div class="detail-back">
+            <button class="header-btn" onclick="hideDetail()" style="background:#e6edf6; color:#0b2b5e; border:1px solid #d0dbe8; padding:8px 20px; border-radius:40px; font-weight:600; cursor:pointer;">
+                ← Back to list
+            </button>
+        </div>
+        <h2 id="detailTitle" class="detail-title"></h2>
+        <img id="detailImage" class="detail-img" src="" alt="" />
+        <div class="detail-meta">
+            <span id="detailField"></span>
+            <span id="detailClosing"></span>
+        </div>
+        <div class="detail-section">
+            <h4>📖 Description</h4>
+            <p id="detailDesc"></p>
+        </div>
+        <div class="detail-section">
+            <h4>✅ Requirements</h4>
+            <p id="detailReqs"></p>
+        </div>
+        <div class="detail-section">
+            <h4>📍 How to Apply</h4>
+            <p id="detailApply"></p>
+        </div>
+        <!-- Back button (replaces Apply Now) -->
+        <button onclick="hideDetail()" class="detail-back-btn">← Back to all bursaries</button>
+    </div>
+
+    <!-- BOTTOM AD -->
+    <div class="ads-container">
+        <amp-ad width="100vw" height="90"
+                type="adsense"
+                data-ad-client="ca-pub-1486635931470536"
+                data-ad-slot="0987654321"
+                data-auto-format="rspv"
+                data-full-width>
+            <div overflow></div>
+        </amp-ad>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>
+            <span class="brand">STEMclub</span> &bull; Empowering future innovators.
+            <br />Data curated by STEMclub &bull; Images from <a href="https://picsum.photos" target="_blank">picsum.photos</a>
+        </p>
+    </footer>
+</div>
+
+<script>
+    // ──────────────────────────────────────────────────────────────
+    //  RAW DATA – extracted from the original text file
+    // ──────────────────────────────────────────────────────────────
+    const rawText = `Closes in December 2026
+2027 Bowmans Law Bursary
+View Bursary
+Closes in December 2026
+2027 KPMG Chartered Accountancy Bursary
+View Bursary
+Closes in October 2026
+2027 AGSA Chartered Accountancy Bursary
+View Bursary
+Closes in September 2026
+2027 SANRAL Bursary
+View Bursary
+Closes in August 2026
+2027 Masakh’iSizwe Bursary
+View Bursary
+Closes in August 2026
+2027 Potatoes South Africa Bursary
+View Bursary
+2027 CSIR Sasol Foundation Bursary
+View Bursary
+2027 CSIR Bursary
+View Bursary
+Closes in October 2026
+2027 BBD Bursary
+View Bursary
+Closes in September 2026
+2027 Tomorrow Trust Bursary
+View Bursary
+Closes in August 2026
+2027 Impala Platinum Refineries Bursary
+View Bursary
+Closes in September 2026
+2027 Industrial Development Corporation Bursary
+View Bursary
+Closes in August 2026
+2027 Capitec Bursary
+View Bursary
+Closes in September 2026
+2026 Allan Gray Grade 6 Scholarship
+View Bursary
+Closes in September 2026
+2027 Sage Bursary
+View Bursary
+Closes in August 2026
+2027 Wilmar SA Bursary
+View Bursary
+Closes in October 2026
+2027 ISFAP Bursary
+View Bursary
+Closes in August 2026
+2027 SAICA Thuthuka Bursary
+View Bursary
+Closes in August 2026
+2027 NFVF Bursary
+View Bursary
+Closes in July 2026
+2027 Royal Bafokeng Holdings Bursary
+View Bursary
+Closes in July 2026
+2027 Jones & Wagener Bursary
+View Bursary
+Closes in October 2026
+2027 Reserve Bank Data Science & Machine Learning Scholarship
+View Bursary
+Closes in September 2026
+2027 South African Reserve Bank Art Scholarship
+View Bursary
+Closes in September 2026
+2027 South African Reserve Bank Bursary
+View Bursary
+Closes in September 2026
+2027 South African Reserve Bank ERD Economics Bursary
+View Bursary
+Closes in June 2026
+2027 Exxaro Bursary
+View Bursary
+Closes in August 2026
+2027 Ninety One Bursary
+View Bursary
+Closes in September 2026
+2027 Investec Bursary
+View Bursary
+Closes in September 2026
+2027 Old Mutual Imfundo Trust Scholarship
+View Bursary
+Closes in September 2026
+2027 Cisco Bursary
+View Bursary
+Closes in September 2026
+2027 Toyota SA Motors Bursary
+View Bursary
+Closes in September 2026
+2027 Santam Bursary
+View Bursary
+Closes in September 2026
+2027 Standard Bank Bursary
+View Bursary
+Closes in September 2026
+2027 Amazon Recruitment Bursary
+View Bursary
+Closes in September 2026
+2027 Department of Agriculture Bursary
+View Bursary
+Closes in May 2026
+2027 Sasol Bursary
+View Bursary
+Closes in October 2026
+2027 EY CA Stream Bursary
+View Bursary
+Closes in August 2026
+2027 Nedbank Bursary
+View Bursary
+Closes in June 2026
+2027 Sanlam Actuarial Bursary
+View Bursary
+Closes in July 2026
+2027 WBHO Bursary
+View Bursary
+Closes in September 2026
+2027 Sappi Engineering Bursary
+View Bursary
+Closes in August 2026
+2027 Vodacom Bursary
+View Bursary
+Closes in September 2026
+2027 SANSA Bursary
+View Bursary
+Closes in August 2026
+2027 Hortgro Bursary
+View Bursary
+Closes in September 2026
+2027 JG Afrika Bursary
+View Bursary
+Closes in April 2026
+2027 Australian Government International Scholarship
+View Bursary
+Closes in April 2026
+2027 Fulbright Foreign Student Program Scholarship
+View Bursary
+Closes in April 2026
+2026 Trans Hex Bursary
+View Bursary
+Closes in April 2026
+2026 City of Ekurhuleni Bursary
+View Bursary
+Closes in March 2026
+2026 AfriSam Engineering Bursary
+View Bursary
+Closes in August 2026
+2027 PwC Bursary
+View Bursary
+Closes in March 2026
+2027 MISA Technical Bursary
+View Bursary
+Closes in March 2026
+2026 Department of Tourism Bursary
+View Bursary
+Closes in March 2026
+2026 Sasria Bursary
+View Bursary
+Closes in March 2026
+2026 South African Society of Crop Production (SASCP) Bursary
+View Bursary
+Closes in May 2026
+2026 Shoprite Supply Chain & Logistics Bursary
+View Bursary
+Closes in May 2026
+2026 Shoprite Retail Business Management Bursary
+View Bursary
+Closes in May 2026
+2026 Shoprite Agricultural Sciences Bursary
+View Bursary
+Closes in May 2026
+2026 Shoprite Accounting Bursary
+View Bursary
+Closes in April 2026
+2027 Allan Gray Fellowship
+View Bursary
+Closes in February 2026
+2026 Two Rivers Platinum (TRP) Bursary
+View Bursary
+Closes in January 2026
+2026 Clockwork Bursary
+View Bursary
+Closes in February 2026
+2026 Bryan Montgomery Bursary
+View Bursary
+Closes in February 2026
+2026 KwaZulu-Natal Government Bursary
+View Bursary
+Closes in February 2026
+2026 Valterra Platinum Bursary
+View Bursary
+Closes in February 2026
+2026 Myrtle L Aron Bursary
+View Bursary
+Closes in February 2026
+2026 Goldwind 4RE Bursary
+View Bursary
+Closes in February 2026
+2026 Goldwind NESA Bursary
+View Bursary
+Closes in January 2026
+2026 Mercedes-Benz (Pretoria) Bursary
+View Bursary
+Closes in January 2026
+2026 SANAS External Bursary
+View Bursary
+Closes in January 2026
+2026 Milkor Bursary
+View Bursary
+Closes in January 2026
+2026 Thapelo Madibeng Bursary
+View Bursary
+Closes in February 2026
+2026 Sol Plaatje University Postgraduate Merit Award Bursary
+View Bursary
+Closes in January 2026
+2026 Department of Human Settlements Scholarship
+View Bursary
+Closes in February 2026
+2026 Armscor Bursary
+View Bursary
+Closes in March 2026
+2026 South African Nursery Association (SANA) Tom Arnold Bursary
+View Bursary
+Closes in January 2026
+2026 Makhuduthamaga Bursary
+View Bursary
+Closes in January 2026
+2026 Nestlé Future Talent Bursary
+View Bursary
+Closes in January 2026
+2026 DSAC Heritage Bursary
+View Bursary
+Closes in January 2026
+2026 W&RSETA Bursary
+View Bursary
+Closes in February 2026
+2026 GCRA Bursary
+View Bursary
+Closes in January 2026
+2026/2027 SASSETA Unemployed Bursary
+View Bursary
+Closes in January 2026
+2026 Grassroots Youth Development (GYD) Bursary
+View Bursary
+Closes in November 2025
+2026 Exxaro Feeder Bursary
+View Bursary
+Closes in November 2025
+2026 LGSETA Bursary
+View Bursary
+Closes in December 2025
+2026 PPS Foundation Bursary
+View Bursary
+Closes in January 2026
+2026 Air Traffic Services (ATS) Bursary
+View Bursary
+Closes in November 2025
+2026 Rosond Bursary
+View Bursary
+Closes in November 2025
+2026 ACTOM Bursary
+View Bursary
+Closes in November 2025
+2026 Hesto Bursary
+View Bursary
+Closes in November 2025
+2026 African Rainbow Minerals (ARM) Bursary
+View Bursary
+Closes in December 2025
+2026 Vulamathuba Empumelelo Bursary Fund
+View Bursary
+Closes in November 2025
+2026 Ruwacon Bursary
+View Bursary
+Closes in November 2025
+2026 Emalahleni Local Municipality External Bursary
+View Bursary
+Closes in November 2025
+2026 PwC SATIC Bursary
+View Bursary
+Closes in November 2025
+2026 Sugar Industry Trust Fund for Education (SITFE) Bursary
+View Bursary
+Closes in December 2025
+2026 PSIRA Bursary
+View Bursary
+Closes in December 2026
+2026 Compensation Fund External Bursary
+View Bursary
+Closes in December 2025
+2026 FirstRand Empowerment Foundation (FREF) Postgraduate Bursary
+View Bursary
+Closes in December 2025
+2026 Bakwena Bursary
+View Bursary
+Closes in December 2025
+2026 Agbiz Centenary Bursary
+View Bursary
+Closes in November 2025
+2026 Eastern Cape Department of Agriculture Bursary
+View Bursary
+Closes in November 2025
+2026 Eskom Bursary
+View Bursary
+Closes in November 2025
+2026 Steve Tshwete Local Municipality Bursary
+View Bursary
+Closes in November 2025
+2026 PSG Financial Services Bursary
+View Bursary
+Closes in November 2025
+2026 Xylem SA Trust Bursary
+View Bursary
+Closes in November 2025
+2026 Mercedes-Benz South Africa Bursary
+View Bursary
+Closes in November 2025
+2026 Victor Thebe Sifora Provincial Bursary
+View Bursary
+Closes in November 2025
+2026 Monocle Foundation Bursary
+View Bursary
+Closes in October 2025
+2026 Magalies Water External Bursary
+View Bursary
+Closes in October 2025
+2026 KZN Tourism and Film Authority Bursary
+View Bursary
+Closes in October 2025
+2026 JSE Empowerment Fund (JSE Bursary)
+View Bursary
+Closes in October 2025
+2026 City of Johannesburg Bursary
+View Bursary
+Closes in November 2025
+2026 BopCons Civil Engineering Bursary
+View Bursary
+Closes in October 2025
+2026 SAIV Property Valuation Bursary
+View Bursary
+Closes in November 2025
+2025 Solarpop Bursary
+View Bursary
+Closes in November 2025
+2026 SIOC-CDT Bursary Fund
+View Bursary
+Closes in October 2025
+2026 Momentum Phambili 2.0 Bursary
+View Bursary
+Closes in October 2025
+2026 Fasken Law Bursary
+View Bursary
+Closes in October 2025
+2026 Public Investment Corporation (PIC) Bursary
+View Bursary
+Closes in January 2026
+2026 Toyota Tsusho Africa Bursary
+View Bursary
+Closes in September 2025
+2026 Deloitte Bursary
+View Bursary
+Closes in September 2025
+2026 Hollywood Foundation Bursary
+View Bursary
+Closes in September 2025
+2026 TETA Unemployed Learner Bursary
+View Bursary
+Closes in September 2025
+2026 FASSET Employed Learner Bursary
+View Bursary
+Closes in September 2025
+2026 Doug Banks Renewable Vision Scholarship
+View Bursary
+Closes in August 2025
+2026 Valterra Platinum Mechanical Engineering Bursary
+View Bursary
+Closes in August 2025
+2026 Valterra Platinum Information Management Bursary
+View Bursary
+Closes in August 2025
+2026 Valterra Platinum Geomatics Mine Survey Bursary
+View Bursary
+Closes in August 2025
+2026 Valterra Platinum Electrical Engineering Bursary
+View Bursary
+Closes in December 2025
+2026 Moshal Scholarship
+View Bursary
+Closes in September 2025
+2026 ASSET Bursary
+View Bursary
+Closes in September 2025
+2026 SANRAL External Bursary
+View Bursary
+Closes in October 2025
+2026 Transnet Non-Technical Bursary
+View Bursary
+Closes in October 2025
+2026 Transnet Technical Bursary
+View Bursary
+Closes in August 2025
+2026 CSIR-Sasol Foundation Bursary
+View Bursary
+Closes in July 2025
+2026 MQA Bursary
+View Bursary
+Closes in September 2025
+2026 Western Cape Government Health and Wellness Full-Time Bursary
+View Bursary
+Closes in July 2025
+2026 WBHO Bursary
+View Bursary
+Closes in August 2025
+2026 Hortgro Bursary
+View Bursary
+Closes in August 2025
+2026 South African Road Federation Bursary
+View Bursary
+Closes in August 2025
+2026 Liberty Actuarial Bursary
+View Bursary
+Closes in August 2025
+2026 Momentum Actuarial Science Bursary
+View Bursary
+Closes in August 2025
+2026 SAICA Thuthuka Bursary
+View Bursary
+Closes in August 2025
+2026 University of the Free State Matriculant of the Year Competition
+View Bursary
+Closes in July 2025
+2026 TuksSport Performance Support Bursary
+View Bursary
+Closes in July 2025
+2026 National Film & Video Foundation (NFVF) Bursary
+View Bursary
+Closes in July 2025
+2026 Ninety One Bursary
+View Bursary
+Closes in July 2025
+2026 Mediclinic and ER24 Healthcare Bursary
+View Bursary
+Closes in July 2025
+2026 Jones & Wagener Bursary
+View Bursary
+Closes in September 2025
+2026/2027 Chinese Government Scholarship
+View Bursary
+Closes in September 2025
+2026 Department of Water and Sanitation (DWS) Bursary
+View Bursary
+Closes in September 2025
+2026 Amazon Recruitment Bursary
+View Bursary
+Closes in September 2025
+2026 Department of Agriculture Bursary
+View Bursary
+Closes in June 2024
+2025 MISA Technical Bursary Scheme
+View Bursary
+Closes in July 2025
+2026 Schauenburg Education Trust Bursary
+View Bursary
+Closes in July 2025
+2026 Glencore Coal SA Bursary
+View Bursary
+Closes in September 2025
+2026 SANSA Postgraduate Bursary
+View Bursary
+Closes in June 2025
+2026 PAMSA Master’s in Chemical Engineering Bursary
+View Bursary
+Closes in September 2025
+2026 Old Mutual Accounting Bursary
+View Bursary
+Closes in September 2025
+2026 Old Mutual Actuarial Bursary
+View Bursary
+Closes in September 2025
+2026 Kangnas Wind Farm Bursary
+View Bursary
+Closes in October 2025
+2026 Kathu Solar Park Bursary
+View Bursary
+Closes in September 2025
+2026 Solar Capital Orange Bursary
+View Bursary
+Closes in September 2025
+2026 Standard Bank Group Bursary
+View Bursary
+Closes in August 2025
+2026 Vodacom Bursary Programme
+View Bursary
+Closes in September 2025
+2026 AWS Skills Development Bursary
+View Bursary
+Closes in September 2025
+2026 HP Inc Bursary
+View Bursary
+Closes in September 2025
+2026 Promaths Bursary
+View Bursary
+Closes in September 2025
+2026 Toyota South Africa Motors Bursary
+View Bursary
+Closes in June 2025
+2026 NRF-Sasol Young Academics Accelerator Programme
+View Bursary
+Closes in June 2025
+2026 Sanlam Actuarial Bursary
+View Bursary
+Closes in May 2025
+2025 Dube TradePort Bursary
+View Bursary
+Closes in June 2025
+2026 Motsepe Foundation Bursary
+View Bursary
+Closes in August 2025
+2026 Nedbank External Bursary
+View Bursary
+Closes in 2025
+2026 BBD Bursary
+View Bursary
+Closes in May 2025
+2025 Bateleur Capital Bursary
+View Bursary
+Closes in September 2025
+2026 Shoprite Accounting (CA Stream – SAICA) Bursary
+View Bursary
+Closes in April 2025
+2025 Shoprite Bursary
+View Bursary
+Closes in April 2025
+2025 Africa Wetu Foundation (AWF) Bursary
+View Bursary
+Closes in March 2025
+2025 South African Nursery Association (SANA) Bursary
+View Bursary
+Closes in March 2025
+2025 SABS ARSO Essay Competition
+View Bursary
+Closes in March 2025
+2025 Compensation Fund Bursary
+View Bursary
+Closes in March 2025
+2025 Council for Geoscience Bursary
+View Bursary
+Closes in March 2025
+2025 BEKA Schréder Bursary
+View Bursary
+Closes in February 2025
+2025 KwaZulu-Natal Government Bursary
+View Bursary
+Closes in February 2025
+2025 Armscor Bursary
+View Bursary
+Closes in February 2025
+2025 AFHCO Bursary
+View Bursary
+Closes in February 2025
+2025 N3TC Community Bursary
+View Bursary
+Closes in 2025
+2025 eMedia Bursary
+View Bursary
+Closes in January 2025
+2025 ELIDZ Bursary
+View Bursary
+Closes in January 2025
+2025 SANBS Bursary
+View Bursary
+Closes in January 2025
+2025 Mercedes-Benz (Pretoria) Bursary
+View Bursary
+Closes in 2025
+2025 UFS Materials Science PhD Bursary
+View Bursary
+Closes in January 2025
+2025 Johannesburg Water Bursary
+View Bursary
+Closes in January 2025
+2025 Midvaal Mayoral Student Financial Aid
+View Bursary
+Closes in January 2025
+2025 Free State Provincial Government Full-Time Bursary
+View Bursary
+Closes in January 2025
+2025 BCE Bursary
+View Bursary
+Closes in February 2025
+2025 Gauteng City Region Academy (GCRA) Bursary
+View Bursary
+Closes in January 2025
+2025 Vhembe District Municipality Mayoral Bursary
+View Bursary
+Closes in January 2025
+2025 Makhuduthamaga Local Municipality Bursary
+View Bursary
+Closes in January 2025
+2025 Royal Bafokeng Holdings (RBH) Bursary
+View Bursary
+Closes in January 2025
+2025 eThekwini Municipality Bursary
+View Bursary
+Closes in January 2025
+2025 PSiRA Bursary
+View Bursary
+Closes in January 2025
+2025 Siemens Bursary
+View Bursary
+Closes in January 2025
+2025 African Rainbow Minerals (ARM) Bursary
+View Bursary
+Closes in January 2025
+2025 For Coloured Girls Bursary
+View Bursary
+Closes in January 2025
+2025 City Power Johannesburg Bursary
+View Bursary
+Closes in January 2025
+2025 Trans-Caledon Tunnel Authority (TCTA) Bursary
+View Bursary
+Closes in January 2025
+2025 Wits University Hardship Fund
+View Bursary
+Closes in January 2025
+2025 North West Provincial Government (NWPG) Bursary
+View Bursary
+Closes in January 2025
+2025 Funza Lushaka Bursary (New Applicants)
+View Bursary
+Closes in January 2025
+2025 DSAC Bursary
+View Bursary
+Closes in January 2025
+2025 CTICC Bursary
+View Bursary
+Closes in January 2025
+2025 SASRIA Bursary
+View Bursary
+Closes in December 2024
+2025 DMRE Bursary
+View Bursary
+Closes in January 2025
+2025 MultiChoice Bursary
+View Bursary
+Closes in December 2024
+2025 FASSET Learner Bursary
+View Bursary
+Closes in January 2025
+2025 Vulamathuba Empumelelo Bursary
+View Bursary
+Closes in December 2024
+2025 Rand Refinery Bursary
+View Bursary
+Closes in December 2024
+2025 Hexagon Trust Bursary
+View Bursary
+Closes in December 2024
+2025 FirstRand Empowerment Foundation Undergraduate Bursary
+View Bursary
+Closes in November 2024
+2025 Gauteng Department of Social Development Bursary
+View Bursary
+Closes in November 2024
+2025 SACAP Bursary
+View Bursary
+Closes in January 2025
+2025 Eskom Bursary
+View Bursary
+Closes in November 2024
+2025 South African Society of Physiotherapy (SASP) Bursary
+View Bursary
+Closes in November 2024
+2025 TFG Fellowship Bursary
+View Bursary
+Closes in November 2024
+2025 South African Medical Association (SAMA) Bursary
+View Bursary
+Closes in November 2024
+2025 Bosch Holdings Bursary
+View Bursary
+Closes in November 2024
+2025 PRASA Bursary
+View Bursary
+Closes in November 2024
+2025 DSV Empowerment Bursary
+View Bursary
+Closes in November 2024
+2025 Mercedes-Benz Bursary
+View Bursary
+Closes in November 2024
+2025 Astron Energy Bursary
+View Bursary
+Closes in November 2024
+2025 Rietkloof and Brandvalley Wind Farm Bursary
+View Bursary
+Closes in November 2024
+2025 Publishers Association of South Africa (PASA) Bursary
+View Bursary
+Closes in November 2024
+2025 Daimler Truck Southern Africa (DTSA) Bursary
+View Bursary
+Closes in December 2024
+2025 Agbiz Centenary Bursary
+View Bursary
+Closes in October 2024
+2025 Department of Forestry, Fisheries, and the Environment (DFFE) Bursary
+View Bursary
+Closes in December 2024
+2025 Cyril Ramaphosa Education Trust (CRET) Bursary
+View Bursary
+Closes in December 2024
+2025 NSFAS Bursary
+View Bursary
+Closes in September 2024
+2025 Old Mutual Chartered Accounting Bursary Programme
+View Bursary
+Closes in September 2024
+2025 Old Mutual Actuarial Bursary Programme
+View Bursary
+Closes in November 2024
+2025 AWS Skills Development Bursary
+View Bursary
+Closes in November 2024
+2025 HP Bursary
+View Bursary
+Closes in November 2024
+2025 Sage External Bursary
+View Bursary
+Closes in September 2024
+2025 Standard Bank Bursary Fund
+View Bursary
+Closes in September 2024
+2025 Santam Bursary Programme
+View Bursary
+Closes in September 2024
+2025 Department of Agriculture, Land Reform and Rural Development (DALRRD) Bursary
+View Bursary
+Closes in October 2024
+2025 Monocle Foundation Bursary
+View Bursary
+Closes in September 2024
+2025 South African Reserve Bank (SARB) External Bursary
+View Bursary
+Closes in October 2024
+2025 ISFAP Bursary
+View Bursary
+Closes in October 2024
+2025 Old Mutual Bursary
+View Bursary
+Closes in September 2024
+2025 SANRAL Bursary
+View Bursary
+Closes in September 2024
+2025 Amazon Recruitment Bursary
+View Bursary
+Closes in September 2024
+2025 HCI Foundation Bursary Programme
+View Bursary
+Closes in August 2024
+2025 SAICA Thuthuka Bursary
+View Bursary
+Closes in August 2024
+2025 Nedbank External Bursary Programme
+View Bursary
+Closes in 2024
+2025 BBD Bursary Programme
+View Bursary
+Closes in November 2024
+2025 FASSET Employed Bursary
+View Bursary
+Closes in June 2024
+2025 PAMSA Chemical Engineering Bursary
+View Bursary
+Closes in April 2024
+2025 South African Veterinary Foundation (SAVF) Bursary
+View Bursary
+Closes in September 2024
+Shoprite 2025 Accounting Bursary (CA Stream – SAICA)`;
+
+    // ──────────────────────────────────────────────────────────────
+    //  PARSER
+    // ──────────────────────────────────────────────────────────────
+    function parseBursaries(text) {
+        const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+        const bursaries = [];
+        let current = null;
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.startsWith('Closes in ')) {
+                if (current && current.title) bursaries.push(current);
+                current = { closing: line.replace('Closes in ', '').trim(), title: null };
+                continue;
+            }
+            if (line === 'View Bursary') continue;
+            if (current && !current.title) {
+                current.title = line;
+            } else if (current && current.title) {
+                bursaries.push(current);
+                current = { closing: null, title: line };
+            } else {
+                current = { closing: null, title: line };
+            }
+        }
+        if (current && current.title) bursaries.push(current);
+        return bursaries;
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  INFER FIELD & GENERATE DETAILS
+    // ──────────────────────────────────────────────────────────────
+    function inferField(title) {
+        const l = title.toLowerCase();
+        if (l.includes('engineering')) return 'Engineering';
+        if (l.includes('accounting')) return 'Accounting';
+        if (l.includes('finance')) return 'Finance';
+        if (l.includes('law')) return 'Law';
+        if (l.includes('medical') || l.includes('health') || l.includes('nursing')) return 'Health Sciences';
+        if (l.includes('actuarial')) return 'Actuarial Science';
+        if (l.includes('data science') || l.includes('machine learning')) return 'Data Science';
+        if (l.includes('computer') || l.includes('it') || l.includes('tech')) return 'Computer Science / IT';
+        if (l.includes('agriculture') || l.includes('agri')) return 'Agriculture';
+        if (l.includes('environment') || l.includes('sustainable')) return 'Environmental Science';
+        if (l.includes('economics')) return 'Economics';
+        if (l.includes('business') || l.includes('commerce')) return 'Business';
+        if (l.includes('marketing')) return 'Marketing';
+        if (l.includes('arts') || l.includes('design') || l.includes('film') || l.includes('media')) return 'Arts & Design';
+        if (l.includes('education') || l.includes('teaching')) return 'Education';
+        if (l.includes('social') || l.includes('psychology')) return 'Social Sciences';
+        if (l.includes('geology') || l.includes('mine') || l.includes('mining')) return 'Geology / Mining';
+        if (l.includes('chemistry') || l.includes('chemical')) return 'Chemistry';
+        if (l.includes('physics')) return 'Physics';
+        if (l.includes('mathematics') || l.includes('maths')) return 'Mathematics';
+        return 'General';
+    }
+
+    function getProvider(title) {
+        const parts = title.replace(/2027|2026|2025/, '').trim().split(' ');
+        let provider = parts[0] || 'The provider';
+        if (parts[1] && ['South', 'African', 'Reserve', 'Industrial', 'Development'].includes(parts[0])) {
+            provider = parts.slice(0, 2).join(' ');
+        }
+        return provider;
+    }
+
+    function generateDetails(b) {
+        const field = inferField(b.title);
+        const provider = getProvider(b.title);
+        const desc = `The ${b.title} is designed to support talented South African students pursuing a career in ${field}. This bursary is offered by ${provider} and covers tuition, books, and accommodation.`;
+        const reqs = `- South African citizen or permanent resident\n- Strong academic record (minimum 60-70% depending on the field)\n- Accepted or enrolled at a recognised South African university or TVET college\n- Specific subject requirements apply for ${field} programmes`;
+        const apply = `Applications are typically submitted online via the ${provider} website or the STEMclub portal. Late applications are not accepted.`;
+        return { field, description: desc, requirements: reqs, howToApply: apply, provider };
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  BUILD DATA
+    // ──────────────────────────────────────────────────────────────
+    const raw = parseBursaries(rawText);
+    const seen = new Set();
+    const unique = [];
+    for (const b of raw) {
+        if (!seen.has(b.title)) {
+            seen.add(b.title);
+            unique.push(b);
+        }
+    }
+
+    const bursaries = unique.map((b, index) => {
+        let month = null;
+        if (b.closing) {
+            const parts = b.closing.split(' ');
+            month = parts[0];
+        }
+        const details = generateDetails(b);
+        return {
+            id: index + 1,
+            title: b.title,
+            closingFull: b.closing,
+            month: month,
+            field: details.field,
+            description: details.description,
+            requirements: details.requirements,
+            howToApply: details.howToApply,
+            provider: details.provider,
+            image: `https://picsum.photos/seed/${index + 1}/600/400`,
+        };
+    });
+
+    // ──────────────────────────────────────────────────────────────
+    //  RENDER
+    // ──────────────────────────────────────────────────────────────
+    const grid = document.getElementById('bursaryGrid');
+    const searchInput = document.getElementById('searchInput');
+    const monthFilter = document.getElementById('monthFilter');
+    const fieldFilter = document.getElementById('fieldFilter');
+    const countSpan = document.getElementById('countNum');
+    const filterBar = document.getElementById('filterBar');
+
+    // Detail refs
+    const detailView = document.getElementById('detailView');
+    const detailTitle = document.getElementById('detailTitle');
+    const detailImage = document.getElementById('detailImage');
+    const detailField = document.getElementById('detailField');
+    const detailClosing = document.getElementById('detailClosing');
+    const detailDesc = document.getElementById('detailDesc');
+    const detailReqs = document.getElementById('detailReqs');
+    const detailApply = document.getElementById('detailApply');
+
+    // Populate month dropdown
+    const months = [...new Set(bursaries.map(b => b.month).filter(Boolean))];
+    const monthOrder = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    months.sort((a, b) => monthOrder.indexOf(a) - monthOrder.indexOf(b));
+    months.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        monthFilter.appendChild(opt);
+    });
+
+    // Populate field dropdown
+    const fields = [...new Set(bursaries.map(b => b.field))].sort();
+    fields.forEach(f => {
+        const opt = document.createElement('option');
+        opt.value = f;
+        opt.textContent = f;
+        fieldFilter.appendChild(opt);
+    });
+
+    function renderBursaries(items) {
+        if (!items.length) {
+            grid.innerHTML = `<div class="empty-state"><h3>😕 No bursaries match your filters</h3><p>Try adjusting your search or filter.</p></div>`;
+            countSpan.textContent = '0';
+            return;
+        }
+        let html = '';
+        for (const b of items) {
+            const closingDisplay = b.month ? `Closes in ${b.month}` : 'Closing date TBC';
+            const fieldTag = `<span class="tag">${b.field}</span>`;
+            html += `
+                <div class="bursary-card" data-id="${b.id}">
+                    <div class="card-image" style="background-image: url('${b.image}');">
+                        <div class="overlay"></div>
+                        <div class="closing-badge">📅 ${closingDisplay}</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>${b.title}</h3>
+                        <div class="meta">${fieldTag}</div>
+                        <div class="btn-wrap">
+                            <button class="btn" onclick="showDetail(${b.id})">View Bursary <span class="arrow">→</span></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            `;
+        }
+        grid.innerHTML = html;
+        countSpan.textContent = items.length;
+    }
 
-        <!-- ── VIEW 3A: Calendar ── -->
-        <div id="calendarContainer" class="calendar-grid hidden"></div>
+    // ─── SHOW DETAIL ───
+    window.showDetail = function(id) {
+        const b = bursaries.find(item => item.id === id);
+        if (!b) return;
 
-        <!-- ── VIEW 3B: Grid ── -->
-        <div id="gridContainer" class="original-grid hidden"></div>
+        detailTitle.textContent = b.title;
+        detailImage.src = b.image;
+        detailImage.alt = b.title;
+        detailField.textContent = `📂 ${b.field}`;
+        detailClosing.textContent = `📅 ${b.closingFull || 'Date TBC'}`;
+        detailDesc.textContent = b.description;
+        detailReqs.textContent = b.requirements;
+        detailApply.textContent = b.howToApply;
 
-        <!-- ── Ads (Bottom) ── -->
-        <div class="ads-container">
-            <amp-ad width="100vw" height="90" type="adsense" data-ad-client="ca-pub-1486635931470536" data-ad-slot="2222222222" data-auto-format="rspv" data-full-width>
-                <div overflow></div>
-            </amp-ad>
-        </div>
+        // Hide list, show detail
+        filterBar.classList.add('hidden');
+        grid.classList.add('hidden');
+        detailView.classList.remove('hidden');
 
-    </div>
+        // Smooth scroll to top of detail
+        detailView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
 
-    <!-- ── WhatsApp Floating ── -->
-    <div class="wa-floating-container">
-        <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
-            💬
-        </a>
-        <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
-    </div>
+    // ─── HIDE DETAIL ───
+    window.hideDetail = function() {
+        detailView.classList.add('hidden');
+        filterBar.classList.remove('hidden');
+        grid.classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
-    <!-- ── Script ── -->
-    <script>
-        (function() {
-            // ── Data ──
-            const FACULTY_FILES = [
-                { id: 'accounting', name: 'Accounting', url: 'accounting.ics' },
-                { id: 'education', name: 'Education', url: 'education.ics' },
-                { id: 'engineering', name: 'Engineering', url: 'engineering.ics' },
-                { id: 'it-computer-science', name: 'IT & Computer Science', url: 'IT and computer science.ics' },
-                { id: 'law', name: 'Law', url: 'law.ics' },
-                { id: 'sciences', name: 'Sciences', url: 'Sciences.ics' }
-            ];
+    function filterBursaries() {
+        const query = searchInput.value.toLowerCase().trim();
+        const month = monthFilter.value;
+        const field = fieldFilter.value;
+        const filtered = bursaries.filter(b => {
+            const matchTitle = b.title.toLowerCase().includes(query);
+            const matchField = b.field.toLowerCase().includes(query);
+            const searchMatch = matchTitle || matchField;
+            const monthMatch = month === 'all' || b.month === month;
+            const fieldMatch = field === 'all' || b.field === field;
+            return searchMatch && monthMatch && fieldMatch;
+        });
+        renderBursaries(filtered);
+    }
 
-            const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
-                "October", "November", "December"
-            ];
+    searchInput.addEventListener('input', filterBursaries);
+    monthFilter.addEventListener('change', filterBursaries);
+    fieldFilter.addEventListener('change', filterBursaries);
 
-            // ── State ──
-            let currentFaculty = null;
-            let currentStyle = null;
+    // Initial render
+    renderBursaries(bursaries);
 
-            // ── DOM refs ──
-            const fView = document.getElementById('facultyView');
-            const formatView = document.getElementById('formatView');
-            const calContainer = document.getElementById('calendarContainer');
-            const gridContainer = document.getElementById('gridContainer');
-            const navBar = document.getElementById('navigationBar');
-            const mainTitle = document.querySelector('.portal-header h1');
-            const subTitle = document.getElementById('dynamicSubtitle');
-            const choiceLabel = document.querySelector('.view-choice-section h3');
-            const layoutBadge = document.getElementById('layoutBadge');
-
-            // ── Init ──
-            function init() {
-                // Faculty cards
-                document.querySelectorAll('.faculty-grid .faculty-card').forEach(card => {
-                    card.addEventListener('click', () => {
-                        const targetId = card.getAttribute('data-id');
-                        const selected = FACULTY_FILES.find(f => f.id === targetId);
-                        if (selected) openFormatSelection(selected);
-                    });
-                });
-
-                // Format buttons
-                document.querySelectorAll('.choice-grid .choice-btn').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const targetStyle = btn.getAttribute('data-style');
-                        executeRenderFeed(targetStyle);
-                    });
-                });
-
-                // Nav controls
-                document.getElementById('navBackBtn').addEventListener('click', rollbackToFormatSelection);
-                document.getElementById('navHomeBtn').addEventListener('click', resetToHomeView);
-            }
-
-            // ── View transitions ──
-            function openFormatSelection(facultyConfig) {
-                currentFaculty = facultyConfig;
-
-                // Update header
-                const span = mainTitle.querySelector('.accent') || mainTitle;
-                if (span.tagName === 'SPAN') {
-                    span.textContent = facultyConfig.name;
-                } else {
-                    mainTitle.innerHTML = `🎓 <span class="accent">${facultyConfig.name}</span>`;
-                }
-                subTitle.textContent = "Choose your display format";
-
-                // Toggle views
-                fView.classList.add('hidden');
-                formatView.classList.remove('hidden');
-                calContainer.classList.add('hidden');
-                gridContainer.classList.add('hidden');
-
-                navBar.classList.remove('hidden');
-                document.getElementById('navBackBtn').classList.add('hidden');
-                layoutBadge.textContent = 'Format Selection';
-            }
-
-            async function executeRenderFeed(style) {
-                currentStyle = style;
-
-                formatView.classList.add('hidden');
-                document.getElementById('navBackBtn').classList.remove('hidden');
-
-                layoutBadge.textContent = style === 'calendar' ? '📅 Calendar View' : '🗂️ Grid View';
-                subTitle.textContent = style === 'calendar' ?
-                    'Deadlines organized by month' :
-                    'Deadlines listed alphabetically';
-
-                if (style === 'calendar') {
-                    calContainer.classList.remove('hidden');
-                    gridContainer.classList.add('hidden');
-                } else {
-                    gridContainer.classList.remove('hidden');
-                    calContainer.classList.add('hidden');
-                }
-
-                await loadAndProcessFeed();
-            }
-
-            function rollbackToFormatSelection() {
-                calContainer.classList.add('hidden');
-                gridContainer.classList.add('hidden');
-                document.getElementById('navBackBtn').classList.add('hidden');
-
-                formatView.classList.remove('hidden');
-
-                if (currentFaculty) {
-                    const span = mainTitle.querySelector('.accent') || mainTitle;
-                    if (span.tagName === 'SPAN') {
-                        span.textContent = currentFaculty.name;
-                    } else {
-                        mainTitle.innerHTML = `🎓 <span class="accent">${currentFaculty.name}</span>`;
-                    }
-                    subTitle.textContent = "Choose your display format";
-                }
-                layoutBadge.textContent = 'Format Selection';
-            }
-
-            function resetToHomeView() {
-                currentFaculty = null;
-                currentStyle = null;
-
-                formatView.classList.add('hidden');
-                calContainer.classList.add('hidden');
-                gridContainer.classList.add('hidden');
-                navBar.classList.add('hidden');
-
-                mainTitle.innerHTML = '🎓 <span class="accent">Bursary</span> Hub';
-                subTitle.textContent = 'Select a faculty to explore closing dates';
-                fView.classList.remove('hidden');
-            }
-
-            // ── ICS Parser ──
-            async function loadAndProcessFeed() {
-                const activeContainer = currentStyle === 'calendar' ? calContainer : gridContainer;
-                activeContainer.innerHTML = '<div class="empty-state">⏳ Loading data …</div>';
-
-                try {
-                    const response = await fetch(currentFaculty.url);
-                    if (!response.ok) throw new Error('Network response was not ok');
-                    const rawText = await response.text();
-
-                    const collection = parseICS(rawText, currentFaculty);
-
-                    if (currentStyle === 'calendar') {
-                        renderCalendarLayout(collection, calContainer);
-                    } else {
-                        renderGridLayout(collection, gridContainer);
-                    }
-                } catch (_) {
-                    activeContainer.innerHTML =
-                        '<div class="empty-state">📭 Could not load deadline data for this faculty.</div>';
-                }
-            }
-
-            function parseICS(icsText, config) {
-                const dataset = [];
-                const lines = icsText.split(/\r?\n/);
-                let activeEvent = null;
-
-                for (let i = 0; i < lines.length; i++) {
-                    let line = lines[i];
-                    while (i + 1 < lines.length && (lines[i + 1].startsWith(' ') || lines[i + 1].startsWith('\t'))) {
-                        line += lines[i + 1].substring(1);
-                        i++;
-                    }
-
-                    if (line.startsWith('BEGIN:VEVENT')) {
-                        activeEvent = { categoryId: config.id, category: config.name };
-                    } else if (line.startsWith('END:VEVENT') && activeEvent) {
-                        if (activeEvent.title) dataset.push(activeEvent);
-                        activeEvent = null;
-                    } else if (activeEvent) {
-                        if (line.startsWith('SUMMARY:')) {
-                            let title = line.replace('SUMMARY:', '').replace(/\s*[Dd]eadline\s*/gi, '').trim();
-                            activeEvent.title = title || 'Untitled';
-                        } else if (line.startsWith('DTSTART;VALUE=DATE:') || line.startsWith('DTSTART:')) {
-                            const raw = line.split(':').pop().trim();
-                            if (raw.length >= 8) {
-                                const y = raw.substring(0, 4);
-                                const m = raw.substring(4, 6);
-                                const d = raw.substring(6, 8);
-                                activeEvent.day = parseInt(d, 10);
-                                activeEvent.monthIndex = parseInt(m, 10) - 1;
-                                const dt = new Date(`${y}-${m}-${d}`);
-                                activeEvent.dateStr = dt.toLocaleDateString('en-ZA', {
-                                    year: 'numeric',
-                                    month: 'long',
-                                    day: 'numeric'
-                                });
-                            }
-                        }
-                    }
-                }
-                return dataset;
-            }
-
-            // ── Renderers ──
-            function renderCalendarLayout(items, target) {
-                target.innerHTML = '';
-                if (!items.length) {
-                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
-                    return;
-                }
-
-                const buckets = Array.from({ length: 12 }, () => []);
-                items.forEach(item => {
-                    if (item.monthIndex !== undefined && item.monthIndex >= 0 && item.monthIndex < 12) {
-                        buckets[item.monthIndex].push(item);
-                    }
-                });
-
-                buckets.forEach((monthItems, idx) => {
-                    if (!monthItems.length) return;
-                    monthItems.sort((a, b) => (a.day || 0) - (b.day || 0));
-
-                    const box = document.createElement('div');
-                    box.className = 'month-box';
-                    let html = `<div class="month-title">${MONTH_NAMES[idx]} <span class="month-count">${monthItems.length}</span></div>`;
-                    monthItems.forEach(item => {
-                        html += `
-                            <div class="event-item">
-                                <span class="event-name">${item.title}</span>
-                                <span class="event-day">Day ${item.day || '–'}</span>
-                            </div>`;
-                    });
-                    box.innerHTML = html;
-                    target.appendChild(box);
-                });
-
-                if (!target.children.length) {
-                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
-                }
-            }
-
-            function renderGridLayout(items, target) {
-                target.innerHTML = '';
-                if (!items.length) {
-                    target.innerHTML = '<div class="empty-state">📭 No deadlines found for this faculty.</div>';
-                    return;
-                }
-
-                const sorted = items.slice().sort((a, b) =>
-                    (a.monthIndex || 0) - (b.monthIndex || 0) || (a.day || 0) - (b.day || 0)
-                );
-
-                sorted.forEach(item => {
-                    const card = document.createElement('div');
-                    card.className = 'bursary-card';
-                    card.innerHTML = `
-                        <div class="bursary-title">${item.title}</div>
-                        <div class="deadline"><span class="icon">⏳</span> ${item.dateStr || 'Date not specified'}</div>`;
-                    target.appendChild(card);
-                });
-            }
-
-            // ── Boot ──
-            window.addEventListener('DOMContentLoaded', init);
-        })();
-    </script>
+    // Keyboard shortcut: Ctrl+/
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === '/') {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
+</script>
 </body>
 </html>
