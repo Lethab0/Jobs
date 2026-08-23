@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
 <head>
-    <!-- Domain Redirection -->
-    <script>
-        if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
-            if (window.location.pathname.startsWith("/bursaries")) {
-                window.location.replace("https://jobs-miy4.onrender.com/bursaries");
-            }
-        }
-    </script>
     <!-- Google AdSense Auto Ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
             crossorigin="anonymous">
@@ -820,8 +812,8 @@
     });
 
     // ─── SUBMIT EMAIL + AGE TO GOOGLE SHEETS ───
-    // 👇 REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-    const GOOGLE_SCRIPT_URL = 'YOUR_WEB_APP_URL_HERE';
+    // ✅ Your Google Apps Script URL
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwCUM5lYJjeIdTPim55-pYeklCluJ_8A0wwswTC58Ygi2Cf2utOgqx3PaX2JTykK6y82g/exec';
 
     async function submitEmail(e) {
         e.preventDefault();
