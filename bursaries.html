@@ -555,7 +555,6 @@
             margin-bottom: -4px;
         }
         #emailModal input[type="email"],
-        #emailModal input[type="number"],
         #emailModal input[type="date"] {
             padding: 12px 18px;
             border: 1.5px solid #d0dbe8;
@@ -773,7 +772,7 @@
     <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
 </div>
 
-<!-- ─── UPDATED EMAIL CAPTURE MODAL ─── -->
+<!-- ─── UPDATED EMAIL CAPTURE MODAL (Age removed, Field of Interest added) ─── -->
 <div id="emailModalOverlay">
     <div id="emailModal">
         <button class="modal-close" onclick="closeEmailModal()">✕</button>
@@ -783,15 +782,43 @@
         <form id="emailForm" onsubmit="submitEmail(event)">
             <div class="form-group">
                 <input type="email" id="emailInput" placeholder="Your email address" required />
-                <input type="number" id="ageInput" placeholder="Your age" required min="10" max="100" />
+
+                <label for="fieldOfInterest">Field of Interest</label>
+                <select id="fieldOfInterest" required>
+                    <option value="">-- Select a field --</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Actuarial Science">Actuarial Science</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Arts & Design">Arts & Design</option>
+                    <option value="Business / Commerce">Business / Commerce</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Computer Science / IT">Computer Science / IT</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Education / Teaching">Education / Teaching</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Environmental Science">Environmental Science</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Geology / Mining">Geology / Mining</option>
+                    <option value="Health Sciences">Health Sciences</option>
+                    <option value="Law">Law</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Social Sciences">Social Sciences</option>
+                    <option value="Other">Other</option>
+                </select>
+
                 <label for="dobInput">Date of Birth</label>
                 <input type="date" id="dobInput" required />
+
                 <label for="matricStatus">Matric status</label>
                 <select id="matricStatus" required>
                     <option value="">-- Select --</option>
                     <option value="Currently in Matric">✅ Currently in Matric</option>
                     <option value="Completed Matric">🎓 Completed Matric</option>
                 </select>
+
                 <button type="submit" class="subscribe-btn" id="subscribeBtn">Subscribe →</button>
             </div>
             <div id="formMessage" class="form-message"></div>
@@ -840,26 +867,26 @@
         }
     });
 
-    // ─── SUBMIT EMAIL + AGE + DOB + MATRIC STATUS TO GOOGLE SHEETS ───
+    // ─── SUBMIT TO GOOGLE SHEETS ───
     // ✅ UPDATED with your new Google Apps Script URL
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzs7YpHUJCwyK-Ss70_MoWG4BejXvd55ZSNZXlFF_HT6T8IbxsEF_4iN-sEoCp2juNVDg/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzshtIXVjaYOzAnXu71PbP2YVGCnPLtchR9tPX7rRT2OG2_7qI_hUpe9Kmkd8O8N21yXA/exec';
 
     async function submitEmail(e) {
         e.preventDefault();
 
         const emailInput = document.getElementById('emailInput');
-        const ageInput = document.getElementById('ageInput');
+        const fieldSelect = document.getElementById('fieldOfInterest');
         const dobInput = document.getElementById('dobInput');
         const matricSelect = document.getElementById('matricStatus');
         const btn = document.getElementById('subscribeBtn');
         const msg = document.getElementById('formMessage');
 
         const email = emailInput.value.trim();
-        const age = ageInput.value.trim();
+        const fieldOfInterest = fieldSelect.value;
         const dob = dobInput.value;          // YYYY-MM-DD
         const matricStatus = matricSelect.value;
 
-        if (!email || !age || !dob || !matricStatus) {
+        if (!email || !fieldOfInterest || !dob || !matricStatus) {
             msg.textContent = '❌ Please fill in all fields.';
             msg.className = 'form-message error';
             return;
@@ -877,7 +904,7 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     email: email,
-                    age: age,
+                    fieldOfInterest: fieldOfInterest,
                     dob: dob,
                     matricStatus: matricStatus,
                     source: 'Bursary Hub',
@@ -889,7 +916,7 @@
             msg.className = 'form-message success';
             // Clear fields
             emailInput.value = '';
-            ageInput.value = '';
+            fieldSelect.value = '';
             dobInput.value = '';
             matricSelect.value = '';
             setTimeout(closeEmailModal, 3000);
