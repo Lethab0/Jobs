@@ -396,7 +396,6 @@
             color: #2a4a6a;
             line-height: 1.6;
         }
-        /* Back button (replaces Apply Now) */
         .detail-back-btn {
             display: inline-block;
             background: #1a73e8;
@@ -446,6 +445,169 @@
             color: #0b2b5e;
         }
 
+        /* ─── WHATSAPP FLOATING ─── */
+        .wa-floating-container {
+            position: fixed;
+            top: 50%;
+            right: 1.5rem;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+            z-index: 99999;
+        }
+        .wa-floating-btn {
+            width: 62px;
+            height: 62px;
+            background: linear-gradient(135deg, #25d366, #1ebe5a);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.1rem;
+            text-decoration: none;
+            box-shadow: 0 6px 24px -4px rgba(37, 211, 102, 0.35);
+            transition: all 0.25s ease;
+            border: none;
+            line-height: 1;
+        }
+        .wa-floating-btn:hover {
+            transform: scale(1.06);
+            box-shadow: 0 12px 36px -6px rgba(37, 211, 102, 0.45);
+        }
+        .wa-text-label {
+            color: #1a2f4e;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-align: center;
+            background: rgba(255,255,255,0.90);
+            backdrop-filter: blur(8px);
+            padding: 0.25rem 0.65rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.6);
+            box-shadow: 0 2px 8px -4px rgba(0,0,0,0.02);
+            white-space: nowrap;
+            max-width: 100px;
+            line-height: 1.3;
+        }
+
+        /* ─── EMAIL POPUP MODAL ─── */
+        #emailModalOverlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(11,43,94,0.55);
+            backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 100000;
+            animation: fadeIn 0.4s ease;
+        }
+        #emailModalOverlay.active {
+            display: flex;
+        }
+        #emailModal {
+            background: #fff;
+            border-radius: 28px;
+            max-width: 480px;
+            width: 94%;
+            padding: 2.5rem 2rem 2rem;
+            box-shadow: 0 24px 60px -20px rgba(0,0,0,0.4);
+            text-align: center;
+            position: relative;
+            animation: slideUp 0.4s ease;
+        }
+        #emailModal .modal-close {
+            position: absolute;
+            top: 14px;
+            right: 20px;
+            font-size: 1.6rem;
+            background: none;
+            border: none;
+            color: #6b8db5;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        #emailModal .modal-close:hover {
+            transform: rotate(90deg);
+        }
+        #emailModal .modal-icon {
+            font-size: 3rem;
+            margin-bottom: 0.2rem;
+        }
+        #emailModal h3 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #0b2b5e;
+            margin-bottom: 0.3rem;
+        }
+        #emailModal p {
+            color: #4a6a8a;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+        #emailModal .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #emailModal input[type="email"],
+        #emailModal input[type="number"] {
+            padding: 12px 18px;
+            border: 1.5px solid #d0dbe8;
+            border-radius: 60px;
+            font-size: 1rem;
+            font-family: inherit;
+            background: #f8faff;
+            transition: 0.2s;
+            width: 100%;
+        }
+        #emailModal input:focus {
+            outline: none;
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 3px rgba(26,115,232,0.12);
+        }
+        #emailModal .subscribe-btn {
+            background: #1a73e8;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 60px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.15s;
+            font-family: inherit;
+            width: 100%;
+        }
+        #emailModal .subscribe-btn:hover {
+            background: #0d5bbd;
+            transform: scale(1.02);
+        }
+        #emailModal .subscribe-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        #emailModal .form-message {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        #emailModal .form-message.success { color: #16a637; }
+        #emailModal .form-message.error { color: #d93025; }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideUp {
+            0% { opacity: 0; transform: translateY(30px) scale(0.96); }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
         /* ─── RESPONSIVE ─── */
         @media (max-width: 768px) {
             .page-header {
@@ -469,6 +631,11 @@
             .bursary-card .card-image { height: 170px; }
             #detailView { padding: 1.5rem; }
             #detailView .detail-title { font-size: 1.5rem; }
+            .wa-floating-container { right: 0.75rem; }
+            .wa-floating-btn { width: 52px; height: 52px; font-size: 1.7rem; }
+            .wa-text-label { font-size: 0.6rem; max-width: 80px; }
+            #emailModal { padding: 2rem 1.2rem; }
+            #emailModal h3 { font-size: 1.3rem; }
         }
         @media (min-width: 769px) and (max-width: 1024px) {
             .bursary-grid { grid-template-columns: repeat(2, 1fr); }
@@ -481,7 +648,7 @@
 <body>
 <div class="container">
 
-    <!-- HEADER (STEMclub) with Back to Index -->
+    <!-- HEADER (STEMclub) with Back to Index & Jobs -->
     <header class="page-header">
         <div>
             <div class="logo">
@@ -493,6 +660,7 @@
             <div class="badge">📚 200+ bursaries • 2024–2027</div>
         </div>
         <div class="header-right">
+            <button class="header-btn" id="homeJobsBtn" style="background:rgba(255,255,255,0.2); border-color:rgba(255,255,255,0.3);">💼 Jobs</button>
             <button class="header-btn" onclick="window.location.href='index.html'">🏠 Back to Index</button>
         </div>
     </header>
@@ -560,7 +728,6 @@
             <h4>📍 How to Apply</h4>
             <p id="detailApply"></p>
         </div>
-        <!-- Back button (replaces Apply Now) -->
         <button onclick="hideDetail()" class="detail-back-btn">← Back to all bursaries</button>
     </div>
 
@@ -585,7 +752,126 @@
     </footer>
 </div>
 
+<!-- ─── WHATSAPP FLOATING BUTTON ─── -->
+<div class="wa-floating-container">
+    <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
+        💬
+    </a>
+    <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
+</div>
+
+<!-- ─── EMAIL CAPTURE MODAL ─── -->
+<div id="emailModalOverlay">
+    <div id="emailModal">
+        <button class="modal-close" onclick="closeEmailModal()">✕</button>
+        <div class="modal-icon">📬</div>
+        <h3>Don't miss a bursary!</h3>
+        <p>Subscribe to get the latest bursary alerts, deadlines, and opportunities straight to your inbox.</p>
+        <form id="emailForm" onsubmit="submitEmail(event)">
+            <div class="form-group">
+                <input type="email" id="emailInput" placeholder="Your email address" required />
+                <input type="number" id="ageInput" placeholder="Your age" required min="10" max="100" />
+                <button type="submit" class="subscribe-btn" id="subscribeBtn">Subscribe →</button>
+            </div>
+            <div id="formMessage" class="form-message"></div>
+        </form>
+    </div>
+</div>
+
 <script>
+    // ─── JOBS BUTTON REDIRECT ───
+    document.addEventListener('DOMContentLoaded', function() {
+        const homeBtn = document.getElementById('homeJobsBtn');
+        if (homeBtn) {
+            homeBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.open('https://stemclub.co.za', '_blank');
+                if (!localStorage.getItem('whatsapp_redirect_done')) {
+                    localStorage.setItem('whatsapp_redirect_done', 'true');
+                    setTimeout(() => {
+                        window.open('https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u', '_blank');
+                    }, 10000);
+                }
+            });
+        }
+
+        // ─── SHOW EMAIL MODAL IMMEDIATELY ───
+        showEmailModal();
+    });
+
+    // ─── EMAIL MODAL LOGIC ───
+    let modalShown = false;
+
+    function showEmailModal() {
+        if (modalShown) return;
+        modalShown = true;
+        document.getElementById('emailModalOverlay').classList.add('active');
+    }
+
+    function closeEmailModal() {
+        document.getElementById('emailModalOverlay').classList.remove('active');
+    }
+
+    // Close if user clicks outside the modal
+    document.getElementById('emailModalOverlay').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeEmailModal();
+        }
+    });
+
+    // ─── SUBMIT EMAIL + AGE TO GOOGLE SHEETS ───
+    // 👇 REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
+    const GOOGLE_SCRIPT_URL = 'YOUR_WEB_APP_URL_HERE';
+
+    async function submitEmail(e) {
+        e.preventDefault();
+        const emailInput = document.getElementById('emailInput');
+        const ageInput = document.getElementById('ageInput');
+        const btn = document.getElementById('subscribeBtn');
+        const msg = document.getElementById('formMessage');
+        const email = emailInput.value.trim();
+        const age = ageInput.value.trim();
+
+        if (!email || !age) {
+            msg.textContent = '❌ Please fill in both fields.';
+            msg.className = 'form-message error';
+            return;
+        }
+
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        msg.textContent = '';
+        msg.className = 'form-message';
+
+        try {
+            await fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    email: email,
+                    age: age,
+                    source: 'Bursary Hub',
+                    userAgent: navigator.userAgent
+                })
+            });
+
+            msg.textContent = '✅ You\'re subscribed! Check your inbox.';
+            msg.className = 'form-message success';
+            emailInput.value = '';
+            ageInput.value = '';
+            setTimeout(closeEmailModal, 2000);
+
+        } catch (err) {
+            msg.textContent = '❌ Something went wrong. Please try again.';
+            msg.className = 'form-message error';
+            console.error(err);
+        }
+
+        btn.disabled = false;
+        btn.textContent = 'Subscribe →';
+    }
+
     // ──────────────────────────────────────────────────────────────
     //  RAW DATA – extracted from the original text file
     // ──────────────────────────────────────────────────────────────
@@ -1565,12 +1851,9 @@ Shoprite 2025 Accounting Bursary (CA Stream – SAICA)`;
         detailReqs.textContent = b.requirements;
         detailApply.textContent = b.howToApply;
 
-        // Hide list, show detail
         filterBar.classList.add('hidden');
         grid.classList.add('hidden');
         detailView.classList.remove('hidden');
-
-        // Smooth scroll to top of detail
         detailView.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 
