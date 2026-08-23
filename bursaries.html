@@ -437,54 +437,6 @@
             color: #0b2b5e;
         }
 
-        /* ─── WHATSAPP FLOATING ─── */
-        .wa-floating-container {
-            position: fixed;
-            top: 50%;
-            right: 1.5rem;
-            transform: translateY(-50%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.4rem;
-            z-index: 99999;
-        }
-        .wa-floating-btn {
-            width: 62px;
-            height: 62px;
-            background: linear-gradient(135deg, #25d366, #1ebe5a);
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.1rem;
-            text-decoration: none;
-            box-shadow: 0 6px 24px -4px rgba(37, 211, 102, 0.35);
-            transition: all 0.25s ease;
-            border: none;
-            line-height: 1;
-        }
-        .wa-floating-btn:hover {
-            transform: scale(1.06);
-            box-shadow: 0 12px 36px -6px rgba(37, 211, 102, 0.45);
-        }
-        .wa-text-label {
-            color: #1a2f4e;
-            font-size: 0.7rem;
-            font-weight: 700;
-            text-align: center;
-            background: rgba(255,255,255,0.90);
-            backdrop-filter: blur(8px);
-            padding: 0.25rem 0.65rem;
-            border-radius: 8px;
-            border: 1px solid rgba(255,255,255,0.6);
-            box-shadow: 0 2px 8px -4px rgba(0,0,0,0.02);
-            white-space: nowrap;
-            max-width: 100px;
-            line-height: 1.3;
-        }
-
         /* ─── EMAIL POPUP MODAL ─── */
         #emailModalOverlay {
             position: fixed;
@@ -503,7 +455,7 @@
         #emailModal {
             background: #fff;
             border-radius: 28px;
-            max-width: 480px;
+            max-width: 500px;
             width: 94%;
             padding: 2.5rem 2rem 2rem;
             box-shadow: 0 24px 60px -20px rgba(0,0,0,0.4);
@@ -535,11 +487,14 @@
             color: #0b2b5e;
             margin-bottom: 0.3rem;
         }
-        #emailModal p {
+        #emailModal .sub-text {
             color: #4a6a8a;
             font-size: 0.95rem;
             margin-bottom: 1.5rem;
             line-height: 1.5;
+        }
+        #emailModal .sub-text strong {
+            color: #1a73e8;
         }
         #emailModal .form-group {
             display: flex;
@@ -547,7 +502,8 @@
             gap: 10px;
         }
         #emailModal input[type="email"],
-        #emailModal input[type="number"] {
+        #emailModal input[type="date"],
+        #emailModal select {
             padding: 12px 18px;
             border: 1.5px solid #d0dbe8;
             border-radius: 60px;
@@ -556,11 +512,33 @@
             background: #f8faff;
             transition: 0.2s;
             width: 100%;
+            appearance: auto;
         }
-        #emailModal input:focus {
+        #emailModal input:focus,
+        #emailModal select:focus {
             outline: none;
             border-color: #1a73e8;
             box-shadow: 0 0 0 3px rgba(26,115,232,0.12);
+        }
+        #emailModal .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-align: left;
+            padding: 4px 4px 4px 0;
+        }
+        #emailModal .checkbox-group input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: #1a73e8;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        #emailModal .checkbox-group label {
+            font-size: 0.95rem;
+            color: #1a2a3a;
+            cursor: pointer;
+            font-weight: 500;
         }
         #emailModal .subscribe-btn {
             background: #1a73e8;
@@ -590,6 +568,7 @@
         }
         #emailModal .form-message.success { color: #16a637; }
         #emailModal .form-message.error { color: #d93025; }
+        #emailModal .form-message.duplicate { color: #f59e0b; }
 
         @keyframes fadeIn {
             0% { opacity: 0; }
@@ -623,9 +602,6 @@
             .bursary-card .card-image { height: 170px; }
             #detailView { padding: 1.5rem; }
             #detailView .detail-title { font-size: 1.5rem; }
-            .wa-floating-container { right: 0.75rem; }
-            .wa-floating-btn { width: 52px; height: 52px; font-size: 1.7rem; }
-            .wa-text-label { font-size: 0.6rem; max-width: 80px; }
             #emailModal { padding: 2rem 1.2rem; }
             #emailModal h3 { font-size: 1.3rem; }
         }
@@ -744,26 +720,37 @@
     </footer>
 </div>
 
-<!-- ─── WHATSAPP FLOATING BUTTON ─── -->
-<div class="wa-floating-container">
-    <a href="https://whatsapp.com/channel/0029Vb5xKpBDzgTKQG5Qlv3u" target="_blank" class="wa-floating-btn" title="Join our WhatsApp Channel" aria-label="Join our WhatsApp Channel">
-        💬
-    </a>
-    <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
-</div>
-
 <!-- ─── EMAIL CAPTURE MODAL ─── -->
 <div id="emailModalOverlay">
     <div id="emailModal">
         <button class="modal-close" onclick="closeEmailModal()">✕</button>
-        <div class="modal-icon">📬</div>
-        <h3>Don't miss a bursary!</h3>
-        <p>Subscribe to get the latest bursary alerts, deadlines, and opportunities straight to your inbox.</p>
+        <div class="modal-icon">🎓</div>
+        <h3>Get access to <strong>262+</strong> bursaries!</h3>
+        <p class="sub-text">
+            Subscribe now and we'll send you the latest bursary alerts, deadlines, and exclusive funding opportunities — <strong>straight to your inbox</strong>.
+        </p>
         <form id="emailForm" onsubmit="submitEmail(event)">
             <div class="form-group">
                 <input type="email" id="emailInput" placeholder="Your email address" required />
-                <input type="number" id="ageInput" placeholder="Your age" required min="10" max="100" />
-                <button type="submit" class="subscribe-btn" id="subscribeBtn">Subscribe →</button>
+                <input type="date" id="dobInput" required />
+                <select id="fieldSelect" required>
+                    <option value="">Select your field of interest</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Law">Law</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Business & Commerce">Business & Commerce</option>
+                    <option value="Health Sciences">Health Sciences</option>
+                    <option value="Education">Education</option>
+                    <option value="Arts & Design">Arts & Design</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="matricCheck" required />
+                    <label for="matricCheck">I am currently in Matric or have completed Matric</label>
+                </div>
+                <button type="submit" class="subscribe-btn" id="subscribeBtn">Subscribe now →</button>
             </div>
             <div id="formMessage" class="form-message"></div>
         </form>
@@ -787,45 +774,52 @@
             });
         }
 
-        // ─── SHOW EMAIL MODAL IMMEDIATELY ───
-        showEmailModal();
+        // ─── SHOW EMAIL MODAL – ONLY ONCE ───
+        const modalShown = localStorage.getItem('stemclub_modal_shown');
+        if (!modalShown) {
+            setTimeout(showEmailModal, 500);
+        }
     });
 
     // ─── EMAIL MODAL LOGIC ───
-    let modalShown = false;
+    let modalOpen = false;
 
     function showEmailModal() {
-        if (modalShown) return;
-        modalShown = true;
+        if (modalOpen) return;
+        modalOpen = true;
         document.getElementById('emailModalOverlay').classList.add('active');
     }
 
     function closeEmailModal() {
         document.getElementById('emailModalOverlay').classList.remove('active');
+        localStorage.setItem('stemclub_modal_shown', 'true');
+        modalOpen = false;
     }
 
-    // Close if user clicks outside the modal
     document.getElementById('emailModalOverlay').addEventListener('click', function(e) {
-        if (e.target === this) {
-            closeEmailModal();
-        }
+        if (e.target === this) closeEmailModal();
     });
 
-    // ─── SUBMIT EMAIL + AGE TO GOOGLE SHEETS ───
-    // ✅ Your Google Apps Script URL
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwCUM5lYJjeIdTPim55-pYeklCluJ_8A0wwswTC58Ygi2Cf2utOgqx3PaX2JTykK6y82g/exec';
+    // ─── SUBMIT EMAIL ───
+    // ✅ UPDATED with your new Google Apps Script URL
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyVTf2w4x_neaU_ZpK7495pE-gCPQS4TPgj3kUQIZmu2EM3RtLrsQNC7gVhN2Ffwp_L/exec';
 
     async function submitEmail(e) {
         e.preventDefault();
-        const emailInput = document.getElementById('emailInput');
-        const ageInput = document.getElementById('ageInput');
+        const email = document.getElementById('emailInput').value.trim();
+        const dob = document.getElementById('dobInput').value;
+        const field = document.getElementById('fieldSelect').value;
+        const matricCheck = document.getElementById('matricCheck');
         const btn = document.getElementById('subscribeBtn');
         const msg = document.getElementById('formMessage');
-        const email = emailInput.value.trim();
-        const age = ageInput.value.trim();
 
-        if (!email || !age) {
-            msg.textContent = '❌ Please fill in both fields.';
+        if (!email || !dob || !field) {
+            msg.textContent = '❌ Please fill in all fields.';
+            msg.className = 'form-message error';
+            return;
+        }
+        if (!matricCheck.checked) {
+            msg.textContent = '❌ Please confirm your Matric status.';
             msg.className = 'form-message error';
             return;
         }
@@ -836,23 +830,37 @@
         msg.className = 'form-message';
 
         try {
-            await fetch(GOOGLE_SCRIPT_URL, {
+            const response = await fetch(GOOGLE_SCRIPT_URL, {
                 method: 'POST',
-                mode: 'no-cors',
+                mode: 'cors',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     email: email,
-                    age: age,
+                    dob: dob,
+                    field: field,
+                    matricStatus: matricCheck.checked ? 'Matric / Completed Matric' : 'Not in Matric',
                     source: 'Bursary Hub',
                     userAgent: navigator.userAgent
                 })
             });
 
-            msg.textContent = '✅ You\'re subscribed! Check your inbox.';
-            msg.className = 'form-message success';
-            emailInput.value = '';
-            ageInput.value = '';
-            setTimeout(closeEmailModal, 2000);
+            const result = await response.json();
+
+            if (result.status === 'duplicate') {
+                msg.textContent = '✅ You\'re already subscribed! Check your inbox.';
+                msg.className = 'form-message success';
+                setTimeout(closeEmailModal, 1500);
+            } else if (result.status === 'success') {
+                msg.textContent = '✅ You\'re subscribed! Check your email for confirmation.';
+                msg.className = 'form-message success';
+                document.getElementById('emailInput').value = '';
+                document.getElementById('dobInput').value = '';
+                document.getElementById('fieldSelect').value = '';
+                matricCheck.checked = false;
+                setTimeout(closeEmailModal, 2500);
+            } else {
+                throw new Error(result.message || 'Unknown error');
+            }
 
         } catch (err) {
             msg.textContent = '❌ Something went wrong. Please try again.';
@@ -861,11 +869,11 @@
         }
 
         btn.disabled = false;
-        btn.textContent = 'Subscribe →';
+        btn.textContent = 'Subscribe now →';
     }
 
     // ──────────────────────────────────────────────────────────────
-    //  RAW DATA – extracted from the original text file
+    //  RAW DATA – extracted from the original text file (full list)
     // ──────────────────────────────────────────────────────────────
     const rawText = `Closes in December 2026
 2027 Bowmans Law Bursary
