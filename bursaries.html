@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
 <head>
-    <!-- Domain Redirection -->
-    <script>
-        if (window.location.hostname === "stemclub.co.za" || window.location.hostname === "www.stemclub.co.za") {
-            if (window.location.pathname.startsWith("/bursaries")) {
-                window.location.replace("https://jobs-miy4.onrender.com/bursaries");
-            }
-        }
-    </script>
     <!-- Google AdSense Auto Ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536"
             crossorigin="anonymous">
@@ -780,7 +772,7 @@
     <div class="wa-text-label">Join STEMclub<br />On WhatsApp</div>
 </div>
 
-<!-- ─── UPDATED EMAIL CAPTURE MODAL (Age removed, Field of Interest added) ─── -->
+<!-- ─── EMAIL CAPTURE MODAL ─── -->
 <div id="emailModalOverlay">
     <div id="emailModal">
         <button class="modal-close" onclick="closeEmailModal()">✕</button>
@@ -851,8 +843,10 @@
             });
         }
 
-        // ─── SHOW EMAIL MODAL IMMEDIATELY ───
-        showEmailModal();
+        // ─── CHECK LOCAL STORAGE BEFORE SHOWING MODAL ───
+        if (!localStorage.getItem('stemclub_subscribed')) {
+            showEmailModal();
+        }
     });
 
     // ─── EMAIL MODAL LOGIC ───
@@ -876,7 +870,7 @@
     });
 
     // ─── SUBMIT TO GOOGLE SHEETS ───
-    // ✅ UPDATED with your new Google Apps Script URL
+    // ✅ Updated with your Google Apps Script URL
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzshtIXVjaYOzAnXu71PbP2YVGCnPLtchR9tPX7rRT2OG2_7qI_hUpe9Kmkd8O8N21yXA/exec';
 
     async function submitEmail(e) {
@@ -920,6 +914,9 @@
                 })
             });
 
+            // ─── SET LOCAL STORAGE FLAG ──────────────────
+            localStorage.setItem('stemclub_subscribed', 'true');
+
             msg.textContent = '✅ Subscribed! Check your email for confirmation.';
             msg.className = 'form-message success';
             // Clear fields
@@ -940,7 +937,7 @@
     }
 
     // ──────────────────────────────────────────────────────────────
-    //  RAW DATA – extracted from the original text file
+    //  BURSARY DATA – (unchanged, includes all bursaries)
     // ──────────────────────────────────────────────────────────────
     const rawText = `Closes in December 2026
 2027 Bowmans Law Bursary
