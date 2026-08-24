@@ -5199,7 +5199,39 @@ const jobs = [
     tags: ["Accounting", "Finance", "Economics", "Financial Planning", "Information Systems", "Insurance & Risk Management", "Investments", "Law", "Computer Engineering", "Chemical Engineering", "Electrical Engineering", "Industrial Engineering", "Mechanical Engineering", "Actuarial Science", "Computer Science", "Mathematics & Statistics", "Applied Mathematics", "Data Science"],
     shortDescription: "PSG Financial Services is recruiting top-performing graduates across Commerce, Engineering, and Science for its 2027 Graduate Programme in Gauteng and Western Cape.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>PSG Financial Services is recruiting top-performing graduates for its 12-month Graduate Programme commencing in 2027 across Gauteng and Western Cape. The program provides structured on-the-job training, soft skills and technical skills development, and mentorship.</div><br><div><strong>ACCEPTED QUALIFICATION STREAMS:</strong></div><div>• <strong>Commerce:</strong> Accounting, Economics &amp; Econometrics, Finance, Financial Planning, Information Systems, Insurance &amp; Risk Management, Investments, Law.</div><div>• <strong>Engineering:</strong> Computer Engineering, Chemical Engineering, Electrical &amp; Electronic Engineering, Industrial Engineering, Mechanical Engineering.</div><div>• <strong>Science:</strong> Actuarial Science, Computer Science, Mathematics &amp; Statistical Sciences, Applied Mathematics, Data Science.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Valid South African ID</div><div>• 65%+ academic average</div><div>• Completed Bachelor's, Honours, Master’s, or PhD in an eligible field of study</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• South African ID (certified copy preferable)</div><div>• Comprehensive CV</div><div>• Complete and updated academic record</div>`
-  }
+  },
+  {
+    id: "technician-development-programme-tdp-sasol-south-africa",
+    title: "Technician Development Programme (TDP)",
+    company: "Sasol",
+    location: "South Africa",
+    type: "Full-time • Traineeship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-24T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.sasolbursaries.com/welcome/technician-training-programme/#how-do-i-qualify",
+    reference: "N/A",
+    tags: ["Chemical Engineering", "Mechanical Engineering", "Electrical Engineering", "Civil Engineering"],
+    shortDescription: "Sasol is inviting applications for its Technician Development Programme (TDP) for engineering graduates holding an NQF Level 6 qualification or higher.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Sasol is accepting applications for the Technician Development Programme (TDP). This programme is designed to develop qualified engineering graduates across various technical disciplines.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African Citizen</div><div>• Valid driver’s license (learner’s licenses are not accepted)</div><div>• National Senior Certificate (Grade 12 / N3) including Pure Mathematics, Physical Science, and English</div><div>• SAQA-registered Engineering Qualification at NQF Level 6 or higher (National Diploma, B.Eng. Tech., BTech, etc.)</div><br><div><strong>ACCEPTED ENGINEERING DISCIPLINES:</strong></div><div>• Chemical Engineering</div><div>• Mechanical Engineering</div><div>• Civil Engineering</div><div>• Electrical Engineering (Heavy Current / Light Current - Majoring in Instrumentation and/or Process Control)</div><br><div><strong>IMPORTANT NOTES:</strong></div><div>• Pure Mathematics, Technical Mathematics, and Engineering Mathematics are recognized (Maths Literacy and Functional Maths are NOT accepted).</div><div>• Physical Science, Technical Physical Science, and Engineering Science are recognized.</div><div>• International qualifications must be evaluated by SAQA equivalent to NQF Level 6+.</div>`
+  },
+  {
+    id: "graduate-intern-it-pps-parktown-gauteng",
+    title: "Graduate Intern: IT",
+    company: "PPS",
+    location: "Parktown, Gauteng",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-23T00:00:00+02:00",
+    closingDate: "2026-08-28",
+    applicationLink: "https://www.jobopportunitiessa.com/2026/08/pps-graduate-intern-it-build-practical-skills-in-insurance-technology/",
+    reference: "PPS260819-2",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "PPS is recruiting a Graduate Intern: IT within its Group IT department in Parktown, offering hands-on experience in cloud, cybersecurity, and data analytics.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>PPS is offering a Graduate Intern: IT position within its Group IT department (PPS InsCo business unit) in Parktown, Gauteng. The role provides practical exposure across cloud computing, cybersecurity, data analytics, and digital transformation.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist with hardware, software, and network troubleshooting.</div><div>• Support cloud-based applications and infrastructure.</div><div>• Participate in cybersecurity initiatives, vulnerability assessments, and incident response.</div><div>• Support data analytics projects using Power BI, Python, or SQL.</div><div>• Document IT processes, configurations, and user guides while collaborating with cross-functional teams.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor’s degree in IT, Computer Science, Information Systems, or a related discipline (Postgraduate degree preferred)</div><div>• Strong analytical and problem-solving ability</div><div>• AI literacy (responsible prompting, tool evaluation, bias awareness)</div><div>• Knowledge of low-code/no-code development</div><div>• Learning agility, resilience, attention to detail, and ethical integrity</div>`
+  },
                 
 
   ];
