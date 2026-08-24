@@ -5226,7 +5226,7 @@ const jobs = [
     reportTo: "N/A",
     datePosted: "2026-08-23T00:00:00+02:00",
     closingDate: "2026-08-28",
-    applicationLink: "https://www.jobopportunitiessa.com/2026/08/pps-graduate-intern-it-build-practical-skills-in-insurance-technology/",
+    applicationLink: "https://pps.erecruit.co/candidateapp/Jobs/View/PPS260819-2?source=Indeed",
     reference: "PPS260819-2",
     tags: ["IT & Technology", "Software Development"],
     shortDescription: "PPS is recruiting a Graduate Intern: IT within its Group IT department in Parktown, offering hands-on experience in cloud, cybersecurity, and data analytics.",
