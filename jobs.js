@@ -5232,6 +5232,54 @@ const jobs = [
     shortDescription: "PPS is recruiting a Graduate Intern: IT within its Group IT department in Parktown, offering hands-on experience in cloud, cybersecurity, and data analytics.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>PPS is offering a Graduate Intern: IT position within its Group IT department (PPS InsCo business unit) in Parktown, Gauteng. The role provides practical exposure across cloud computing, cybersecurity, data analytics, and digital transformation.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist with hardware, software, and network troubleshooting.</div><div>• Support cloud-based applications and infrastructure.</div><div>• Participate in cybersecurity initiatives, vulnerability assessments, and incident response.</div><div>• Support data analytics projects using Power BI, Python, or SQL.</div><div>• Document IT processes, configurations, and user guides while collaborating with cross-functional teams.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor’s degree in IT, Computer Science, Information Systems, or a related discipline (Postgraduate degree preferred)</div><div>• Strong analytical and problem-solving ability</div><div>• AI literacy (responsible prompting, tool evaluation, bias awareness)</div><div>• Knowledge of low-code/no-code development</div><div>• Learning agility, resilience, attention to detail, and ethical integrity</div>`
   },
+  {
+    id: "engineer-in-training-eit-eskom-majuba-power-station-mpumalanga",
+    title: "Engineer in Training (EIT)",
+    company: "Eskom",
+    location: "Mpumalanga",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-27T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://eskomcareers.ci.hr/?controller=Listings&method=view&listingid=690b78d9-e6ca-4792-8852-b02229a3d75b",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
+    shortDescription: "Eskom’s Majuba Power Station is recruiting an Engineer in Training (EIT) with a completed B.Eng / B.Sc degree in Mechanical, Electrical, Process, or Chemical Engineering.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Eskom is hiring an Engineer in Training (EIT) at Majuba Power Station in Mpumalanga. The successful candidate will participate in institutionalized and on-the-job training within the energy and electricity generation sector.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Participate in institutionalized and on-the-job training modules.</div><div>• Adhere to Eskom's operational procedures, policies, and safety guidelines.</div><div>• Engage with cross-functional teams to build practical technical competencies.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Fully completed B.Eng / B.Sc Degree in Mechanical, Electrical, Process, or Chemical Engineering</div><div>• Knowledge of Eskom's policies and procedures</div><div>• Strong interpersonal, communication, negotiation, and liaising skills</div><div>• Team player with high integrity, professionalism, and a self-starter mindset</div>`
+  },
+  {
+    id: "graduate-engineers-3c-metal-belmet-cape-town-western-cape",
+    title: "Graduate Engineers",
+    company: "3C Metal Belmet",
+    location: "Cape Town, Western Cape",
+    type: "Full-time • Graduate Track",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-27T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:recruit@3cmetal.com",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Industrial Engineering"],
+    shortDescription: "3C Metal Belmet in Cape Town is recruiting Graduate Engineers with BEng qualifications in Mechanical, Mechatronic, or Industrial Engineering.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>3C Metal Belmet (Ortec Group) based in Triangle Farm, Stikland, Cape Town, is recruiting Graduate Engineers across multiple engineering disciplines to join their team.</div><br><div><strong>ACCEPTED QUALIFICATIONS:</strong></div><div>• BEng Mechanical Engineering</div><div>• BEng Mechatronic Engineering</div><div>• BEng Industrial Engineering</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Interested candidates can apply directly by sending their applications via email to <strong>recruit@3cmetal.com</strong> or visiting their careers page.</div>`
+  },
+  {
+    id: "it-graduate-programme-iton-resourcing-south-africa",
+    title: "IT Graduate Programme",
+    company: "Iton Resourcing",
+    location: "South Africa",
+    type: "Full-time • Graduate Track",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-27T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:recruitment@itongaresourcing.co.za",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development", "Cloud & Infrastructure"],
+    shortDescription: "Iton Resourcing is hiring 15 IT graduates across 3 streams (Cloud, Testing, Monitoring) with a salary of R15,000 per month.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Iton Resourcing is offering an IT Graduate Programme with 15 total opportunities across 3 streams (5 graduates per stream) to kick-start a career in technology with real-world experience, mentorship, and global impact.</div><br><div><strong>SALARY:</strong></div><div>• R15,000 per month</div><br><div><strong>CHOOSE YOUR PATH (STREAMS):</strong></div><div>• <strong>Cloud & Infrastructure (5 Vacancies):</strong> Work with leading cloud platforms and infrastructure technologies (Azure, Red Hat RHEL, VMware).</div><div>• <strong>Testing, Quality & Automation (5 Vacancies):</strong> Ensure quality, reliability, and performance through testing, automation, and code quality tools (SonarQube, Postman, Testing & Automation).</div><div>• <strong>Monitoring & Programming (5 Vacancies):</strong> Monitor systems and build solutions with scripting and programming technologies (Splunk, Python, Log & Data Monitoring).</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Relevant Degree or Diploma in IT, Computer Science, or a related field</div><div>• Strong academic record</div><div>• Passion for technology and innovation</div><div>• Problem solver with a growth mindset</div><div>• Excellent communication and teamwork skills</div><div>• Own transport is essential</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV via email to <strong>recruitment@itongaresourcing.co.za</strong>. Please indicate the specific technology stream you are applying for in your email.</div>`
+  },
                 
 
   ];
