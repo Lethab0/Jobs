@@ -5280,6 +5280,38 @@ const jobs = [
     shortDescription: "Iton Resourcing is hiring 15 IT graduates across 3 streams (Cloud, Testing, Monitoring) with a salary of R15,000 per month.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Iton Resourcing is offering an IT Graduate Programme with 15 total opportunities across 3 streams (5 graduates per stream) to kick-start a career in technology with real-world experience, mentorship, and global impact.</div><br><div><strong>SALARY:</strong></div><div>• R15,000 per month</div><br><div><strong>CHOOSE YOUR PATH (STREAMS):</strong></div><div>• <strong>Cloud & Infrastructure (5 Vacancies):</strong> Work with leading cloud platforms and infrastructure technologies (Azure, Red Hat RHEL, VMware).</div><div>• <strong>Testing, Quality & Automation (5 Vacancies):</strong> Ensure quality, reliability, and performance through testing, automation, and code quality tools (SonarQube, Postman, Testing & Automation).</div><div>• <strong>Monitoring & Programming (5 Vacancies):</strong> Monitor systems and build solutions with scripting and programming technologies (Splunk, Python, Log & Data Monitoring).</div><br><div><strong>REQUIREMENTS:</strong></div><div>• Relevant Degree or Diploma in IT, Computer Science, or a related field</div><div>• Strong academic record</div><div>• Passion for technology and innovation</div><div>• Problem solver with a growth mindset</div><div>• Excellent communication and teamwork skills</div><div>• Own transport is essential</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV via email to <strong>recruitment@itongaresourcing.co.za</strong>. Please indicate the specific technology stream you are applying for in your email.</div>`
   },
+  {
+    id: "intern-junior-bi-analyst-cubix-gbs-durban-kwazulu-natal",
+    title: "Intern Junior BI Analyst",
+    company: "Cubix (GBS)",
+    location: "Durban, KwaZulu-Natal",
+    type: "Full-time • Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-08-21T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://cubix.simplify.hr/Vacancy/199400",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "Cubix is offering a 12-month paid Intern Junior BI Analyst position in Durban for IT, Computer Science, and Data Analytics graduates.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Cubix is offering a 12-month paid internship for a Junior Business Intelligence (BI) Analyst in Durban, KwaZulu-Natal. The intern will work closely with senior team members to gain exposure to complex BI projects, analyzing business insights, and using Power BI, SSRS, SQL, and SSIS.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Develop and execute SQL queries for data extraction, manipulation, and analysis.</div><div>• Develop, maintain, and enhance reports and dashboards using Power BI and SSRS.</div><div>• Automate lead allocation and data-processing activities using SSIS.</div><div>• Maintain data integrity, consistency, and accessibility across databases.</div><div>• Analyze data trends and engage with stakeholders to deliver custom reporting solutions.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African Citizen aged 18 to 35</div><div>• Completed Diploma or Degree in Information Technology, Computer Science, Data Analytics, Information Systems, Business Intelligence, or a related field</div><div>• Knowledge of SQL, Power BI, SSRS, SSIS, and data analysis</div><div>• Clear criminal record and clear ITC record</div><div>• Must NOT currently be employed or participating in another internship/learnership</div>`
+  },
+  {
+    id: "analytics-reporting-intern-cubix-gbs-durban-kwazulu-natal",
+    title: "Analytics & Reporting Intern",
+    company: "Cubix (GBS)",
+    location: "Durban, KwaZulu-Natal",
+    type: "Full-time • Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-08-20T00:00:00+02:00",
+    closingDate: "2026-09-04",
+    applicationLink: "https://cubix.simplify.hr/Vacancy/199227",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "Cubix is offering a 12-month paid Analytics & Reporting Internship in Durban for graduates in Data Science, Information Systems, or Computer Science.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Cubix is seeking an Analytics & Reporting Intern for a 12-month paid internship in Durban, KwaZulu-Natal. The role supports the delivery of reporting, dashboards, and business insights across sales, lead management, customer operations, and contact centre performance using Microsoft Power BI and SQL.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support the development and maintenance of Power BI reports and dashboards.</div><div>• Gather, validate, and analyze data from various business systems.</div><div>• Produce recurring and ad hoc reports for business stakeholders.</div><div>• Monitor key operational and sales performance metrics to identify trends and patterns.</div><div>• Collaborate with Data Engineers and business teams to improve reporting processes and data accessibility.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African Citizen aged 18 to 35</div><div>• Degree or diploma in Business Analytics, Information Systems, Data Science, Statistics, Mathematics, Computer Science, or a related field</div><div>• Basic SQL and Excel skills with an understanding of databases</div><div>• Clear criminal record and clear ITC record</div><div>• Must NOT currently be employed or participating in another internship/learnership programme</div>`
+  },
                 
 
   ];
