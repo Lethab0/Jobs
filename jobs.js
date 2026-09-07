@@ -5312,6 +5312,54 @@ const jobs = [
     shortDescription: "Cubix is offering a 12-month paid Analytics & Reporting Internship in Durban for graduates in Data Science, Information Systems, or Computer Science.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Cubix is seeking an Analytics & Reporting Intern for a 12-month paid internship in Durban, KwaZulu-Natal. The role supports the delivery of reporting, dashboards, and business insights across sales, lead management, customer operations, and contact centre performance using Microsoft Power BI and SQL.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Support the development and maintenance of Power BI reports and dashboards.</div><div>• Gather, validate, and analyze data from various business systems.</div><div>• Produce recurring and ad hoc reports for business stakeholders.</div><div>• Monitor key operational and sales performance metrics to identify trends and patterns.</div><div>• Collaborate with Data Engineers and business teams to improve reporting processes and data accessibility.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African Citizen aged 18 to 35</div><div>• Degree or diploma in Business Analytics, Information Systems, Data Science, Statistics, Mathematics, Computer Science, or a related field</div><div>• Basic SQL and Excel skills with an understanding of databases</div><div>• Clear criminal record and clear ITC record</div><div>• Must NOT currently be employed or participating in another internship/learnership programme</div>`
   },
+  {
+    id: "graduate-programme-2027-sirius-engineering-paarl-western-cape",
+    title: "Graduate Programme 2027",
+    company: "Sirius Engineering (Pty) Ltd",
+    location: "Paarl, Western Cape",
+    type: "Full-time • Graduate Track",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-04T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:personnel@siriuseng.co.za",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Chemical Engineering", "Industrial Engineering"],
+    shortDescription: "Sirius Engineering is accepting applications for its 2027 Graduate Programme in Paarl for final-year Mechanical, Chemical, and Industrial Engineering students.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Sirius Engineering (Pty) Ltd is opening applications for its 2027 Graduate Programme in Paarl, Western Cape. The program offers final-year students and recent graduates hands-on experience on live food and beverage projects, full project lifecycle exposure, and a pathway toward Pr. Eng. (ECSA) registration.</div><br><div><strong>WHAT YOU'LL GAIN:</strong></div><div>• Work on live projects within South Africa’s leading food and beverage industry.</div><div>• Exposure to the full project lifecycle — from concept and design through to construction and commissioning.</div><div>• Practical, high-level project management skills working alongside experienced engineers.</div><div>• A structured pathway toward ECSA professional registration (Pr. Eng.).</div><br><div><strong>ACCEPTED QUALIFICATION STREAMS:</strong></div><div>• Final-year Mechanical Engineering students / graduates</div><div>• Final-year Chemical Engineering students / graduates</div><div>• Final-year Industrial Engineering students / graduates</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your application via email including your CV, updated academic record, and a recent photograph.</div>`
+  },
+  {
+    id: "engineering-in-service-opportunities-p1-p2-afrisam-cape-operations-rheebok-peninsula",
+    title: "Engineering In-Service Opportunities (P1/P2)",
+    company: "AfriSam",
+    location: "Western Cape",
+    type: "Internship • Contract",
+    duration: "24 Months (2 Years)",
+    reportTo: "N/A",
+    datePosted: "2026-09-06T00:00:00+02:00",
+    closingDate: "2026-09-11",
+    applicationLink: "mailto:cape.recruitment@za.afrisam.com",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering"],
+    shortDescription: "AfriSam Construction Materials Cape Operations is offering 24-month P1/P2 in-service training opportunities for Mechanical, Electrical, and Civil Engineering students at Rheebok x2 and Peninsula x1 quarries.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>AfriSam (South Africa) (Pty) Ltd has 24-month In-Service Training (P1/P2) opportunities available within its Construction Materials Cape Operations. The selected candidates will join the Construction Materials Team at Rheebok Quarry (x2 positions) or Peninsula Quarry (x1 position) to gain the practical experiential training needed to complete their qualifications.</div><br><div><strong>ACCEPTED STUDY FIELDS:</strong></div><div>• Mechanical Engineering Studies</div><div>• Electrical Engineering Studies</div><div>• Civil Engineering Studies</div><br><div><strong>LOCATIONS & VACANCIES:</strong></div><div>• Rheebok Quarry (x2)</div><div>• Peninsula Quarry (x1)</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Students currently requiring experiential learning (P1/P2) for qualification completion</div><div>• Excellent academic record of accomplishment</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Updated CV / Resume</div><div>• Certified copy of ID</div><div>• Full academic record</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit applications via email to <strong>cape.recruitment@za.afrisam.com</strong>. You MUST use the email subject line: <strong>Mechanical/Electrical or Civil Engineering In-Service Training</strong>.</div>`
+  },
+  {
+    id: "solution-engineer-bbbee-internship-microsoft-johannesburg-gauteng",
+    title: "Solution Engineer - BBBEE Internship",
+    company: "Microsoft",
+    location: "Johannesburg, Gauteng",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-08-31T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://apply.careers.microsoft.com/careers/job/1970393556972909?utm_source=indeed&domain=microsoft.com",
+    reference: "200049850",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "Microsoft South Africa is recruiting final-year students and recent IT/Computer Science graduates for a Solution Engineer BBBEE Internship in Johannesburg.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The Microsoft South Africa BBBEE Internship Programme offers talented graduates the opportunity to gain hands-on experience as a Solution Engineer in Johannesburg, Gauteng. Interns engage with customers, shadow stakeholder interactions, build product expertise, and contribute to technical presentations with mentorship from experienced professionals.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Engage with customers with direct coaching and shadow customer stakeholder interactions.</div><div>• Research customer context to gain understanding and build deep product expertise.</div><div>• Assist in technical demonstrations of specific Microsoft products.</div><div>• Leverage readiness materials to expand domain knowledge and promote internal team readiness.</div><div>• Build foundational awareness of working with reference architectures and compete strategies.</div><br><div><strong>ELIGIBILITY & REQUIREMENTS:</strong></div><div>• South African Citizen meeting BBBEE Internship Programme criteria</div><div>• Currently pursuing (final year with ≤ 6 months remaining) OR completed a Bachelor's degree in the last 6 months in Information Technology, Computer Science, or a related field</div><div>• Fluency in English with proficient verbal and written communication skills</div><div>• Strong problem-solving and analytical capabilities</div><div>• Passion for technology and customer engagement</div>`
+  },
                 
 
   ];
