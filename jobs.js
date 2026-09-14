@@ -5360,6 +5360,54 @@ const jobs = [
     shortDescription: "Microsoft South Africa is recruiting final-year students and recent IT/Computer Science graduates for a Solution Engineer BBBEE Internship in Johannesburg.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The Microsoft South Africa BBBEE Internship Programme offers talented graduates the opportunity to gain hands-on experience as a Solution Engineer in Johannesburg, Gauteng. Interns engage with customers, shadow stakeholder interactions, build product expertise, and contribute to technical presentations with mentorship from experienced professionals.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Engage with customers with direct coaching and shadow customer stakeholder interactions.</div><div>• Research customer context to gain understanding and build deep product expertise.</div><div>• Assist in technical demonstrations of specific Microsoft products.</div><div>• Leverage readiness materials to expand domain knowledge and promote internal team readiness.</div><div>• Build foundational awareness of working with reference architectures and compete strategies.</div><br><div><strong>ELIGIBILITY & REQUIREMENTS:</strong></div><div>• South African Citizen meeting BBBEE Internship Programme criteria</div><div>• Currently pursuing (final year with ≤ 6 months remaining) OR completed a Bachelor's degree in the last 6 months in Information Technology, Computer Science, or a related field</div><div>• Fluency in English with proficient verbal and written communication skills</div><div>• Strong problem-solving and analytical capabilities</div><div>• Passion for technology and customer engagement</div>`
   },
+  {
+    id: "engineering-in-service-opportunities-p1-p2-afrisam-cape-operations-rheebok-peninsula",
+    title: "Engineering In-Service Opportunities (P1/P2)",
+    company: "AfriSam",
+    location: "Western Cape",
+    type: "Internship • Contract",
+    duration: "24 Months (2 Years)",
+    reportTo: "N/A",
+    datePosted: "2026-09-06T00:00:00+02:00",
+    closingDate: "2026-09-11",
+    applicationLink: "mailto:cape.recruitment@za.afrisam.com",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering"],
+    shortDescription: "AfriSam Construction Materials Cape Operations is offering 24-month P1/P2 in-service training opportunities for Mechanical, Electrical, and Civil Engineering students at Rheebok x2 and Peninsula x1 quarries.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>AfriSam (South Africa) (Pty) Ltd has 24-month In-Service Training (P1/P2) opportunities available within its Construction Materials Cape Operations. The selected candidates will join the Construction Materials Team at Rheebok Quarry (x2 positions) or Peninsula Quarry (x1 position) to gain the practical experiential training needed to complete their qualifications.</div><br><div><strong>ACCEPTED STUDY FIELDS:</strong></div><div>• Mechanical Engineering Studies</div><div>• Electrical Engineering Studies</div><div>• Civil Engineering Studies</div><br><div><strong>LOCATIONS & VACANCIES:</strong></div><div>• Rheebok Quarry (x2)</div><div>• Peninsula Quarry (x1)</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Students currently requiring experiential learning (P1/P2) for qualification completion</div><div>• Excellent academic record of accomplishment</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Updated CV / Resume</div><div>• Certified copy of ID</div><div>• Full academic record</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit applications via email. You MUST use the email subject line: <strong>Mechanical/Electrical or Civil Engineering In-Service Training</strong>.</div>`
+  },
+  {
+    id: "facilities-intern-momentum-group-centurion-gauteng",
+    title: "Facilities Intern",
+    company: "Momentum Group",
+    location: "Centurion, Gauteng",
+    type: "Full-time • Internship",
+    duration: "Temporary",
+    reportTo: "N/A",
+    datePosted: "2026-09-14T00:00:00+02:00",
+    closingDate: "2026-09-30",
+    applicationLink: "https://momentumgroupltd.erecruit.co/candidateapp/Jobs/View/MMH260409-14",
+    reference: "MMH260409-14",
+    tags: ["Mechanical Engineering", "Industrial Engineering", "Civil Engineering"],
+    shortDescription: "Momentum Group is recruiting a Facilities Intern in Centurion for graduates holding a National Diploma or Degree in Engineering, Project Management, or Built Environment.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Momentum Group’s Group Facilities Management team is offering a Facilities Internship in Centurion, Gauteng. The intern will support operational, maintenance, project coordination, and facilities-related activities across company sites.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist with the coordination and administration of facilities management activities and site inspections.</div><div>• Support maintenance planning and follow up on preventative and reactive maintenance tasks.</div><div>• Track projects, handle scheduling, and coordinate with external contractors.</div><div>• Monitor service provider activities to ensure compliance with company standards and safety requirements.</div><div>• Assist with health, safety, compliance, sustainability, and energy efficiency initiatives.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Grade 12 or equivalent qualification</div><div>• National Diploma or Degree in Facilities Management, Project Management, Engineering, Built Environment, or related field</div><div>• Basic understanding of facilities operations, maintenance principles, and project coordination</div><div>• Strong administrative, organizational, and MS Office skills</div>`
+  },
+  {
+    id: "field-service-engineer-internship-abbott-johannesburg-gauteng",
+    title: "Field Service Engineer Internship",
+    company: "Abbott",
+    location: "Johannesburg, Gauteng",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-14T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.jobs.abbott/us/en/job/ABLAUS31160708ENUSEXTERNAL/Field-Service-Engineer-Internship?utm_source=indeed&utm_medium=phenom-feeds",
+    reference: "ABLAUS31160708ENUSEXTERNAL",
+    tags: ["Electrical Engineering"],
+    shortDescription: "Abbott Core Diagnostics is recruiting a Field Service Engineer Intern in Johannesburg for graduates in Electrical, Clinical, Mechatronics, or Biomedical Engineering.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Abbott Core Diagnostics is seeking a Field Service Engineer Intern to join their team in Johannesburg, Gauteng. The intern will receive hands-on exposure to the installation, maintenance, troubleshooting, and servicing of advanced diagnostic instruments used in hospitals, laboratories, and clinics.</div><br><div><strong>KEY LEARNING RESPONSIBILITIES:</strong></div><div>• Perform system installations, repairs, and servicing at customer sites.</div><div>• Support major product upgrades on diagnostic systems and provide technical troubleshooting.</div><div>• Assist customers with basic operational and troubleshooting guidance.</div><div>• Deliver proactive maintenance and service interventions while developing technical expertise on Abbott diagnostic technologies.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed National Diploma or Degree in Electrical Engineering, Clinical Engineering, Mechatronics Engineering, or Biomedical Engineering (Must NOT be currently studying)</div><div>• Valid driver's license and ideally own reliable vehicle (daily access to a vehicle)</div><div>• Residing in Gauteng and willing to travel within surrounding areas</div><div>• Available to start immediately</div><div>• Must NOT be currently employed or participating in another internship</div>`
+  }
                 
 
   ];
