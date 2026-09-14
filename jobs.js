@@ -5407,6 +5407,22 @@ const jobs = [
     tags: ["Electrical Engineering"],
     shortDescription: "Abbott Core Diagnostics is recruiting a Field Service Engineer Intern in Johannesburg for graduates in Electrical, Clinical, Mechatronics, or Biomedical Engineering.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Abbott Core Diagnostics is seeking a Field Service Engineer Intern to join their team in Johannesburg, Gauteng. The intern will receive hands-on exposure to the installation, maintenance, troubleshooting, and servicing of advanced diagnostic instruments used in hospitals, laboratories, and clinics.</div><br><div><strong>KEY LEARNING RESPONSIBILITIES:</strong></div><div>• Perform system installations, repairs, and servicing at customer sites.</div><div>• Support major product upgrades on diagnostic systems and provide technical troubleshooting.</div><div>• Assist customers with basic operational and troubleshooting guidance.</div><div>• Deliver proactive maintenance and service interventions while developing technical expertise on Abbott diagnostic technologies.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed National Diploma or Degree in Electrical Engineering, Clinical Engineering, Mechatronics Engineering, or Biomedical Engineering (Must NOT be currently studying)</div><div>• Valid driver's license and ideally own reliable vehicle (daily access to a vehicle)</div><div>• Residing in Gauteng and willing to travel within surrounding areas</div><div>• Available to start immediately</div><div>• Must NOT be currently employed or participating in another internship</div>`
+  },
+  {
+    id: "ict-internship-programme-oculeit-south-africa",
+    title: "ICT Internship Programme",
+    company: "OculeIT",
+    location: "South Africa",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-14T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:Bongeka.ngcongo@oculeit.com",
+    reference: "N/A",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "OculeIT is accepting applications for its ICT Internship Programme for graduates aged 29 and below holding ICT-related qualifications.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>OculeIT is inviting applications for its ICT Internship Programme aimed at giving graduates hands-on experience in the technology industry to build their career foundation.</div><br><div><strong>WHO CAN APPLY:</strong></div><div>• Must have already graduated</div><div>• Aged 29 and below</div><div>• Relevant Qualification in ICT</div><br><div><strong>ACCEPTED QUALIFICATIONS INCLUDE:</strong></div><div>• Information Technology (IT) / Information & Communication Technology (ICT)</div><div>• Computer Science / Software Development / Applications Development</div><div>• Information Systems / Business Information Technology (BIT)</div><div>• Networking / Network Administration</div><div>• Cybersecurity / Information Security</div><div>• Data Science / Database Administration</div><div>• Web Development / Systems Analysis</div><div>• Marketing and Media / Other relevant ICT qualifications</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your CV along with your qualifications via email to <strong>Bongeka.ngcongo@oculeit.com</strong>.</div>`
   }
                 
 
