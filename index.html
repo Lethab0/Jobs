@@ -1053,18 +1053,22 @@
                     filteredJobs.map(job => createJobCardHTML(job)).join('');
 
                 categoriesGrid.style.display = 'none';
-                document.querySelector('.intro-section').style.display = 'none';
-                document.getElementById('interview-prep-section').style.display = 'none';
-                document.getElementById('cv-submission-section').style.display = 'none';
+                const intro = document.querySelector('.intro-section');
+                if (intro) intro.style.display = 'none';
+                
+                document.getElementById('interview-prep-section')?.style.setProperty('display', 'none');
+                document.getElementById('cv-submission-section')?.style.setProperty('display', 'none');
                 jobsSection.classList.add('active');
             }
 
             function showCategories() {
                 jobsSection.classList.remove('active');
                 categoriesGrid.style.display = 'grid';
-                document.querySelector('.intro-section').style.display = 'block';
-                document.getElementById('interview-prep-section').style.display = 'block';
-                document.getElementById('cv-submission-section').style.display = 'block';
+                const intro = document.querySelector('.intro-section');
+                if (intro) intro.style.display = 'block';
+
+                document.getElementById('interview-prep-section')?.style.setProperty('display', 'block');
+                document.getElementById('cv-submission-section')?.style.setProperty('display', 'block');
             }
 
             renderCategories();
