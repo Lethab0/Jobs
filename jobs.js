@@ -5423,6 +5423,22 @@ const jobs = [
     tags: ["IT & Technology", "Software Development"],
     shortDescription: "OculeIT is accepting applications for its ICT Internship Programme for graduates aged 29 and below holding ICT-related qualifications.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>OculeIT is inviting applications for its ICT Internship Programme aimed at giving graduates hands-on experience in the technology industry to build their career foundation.</div><br><div><strong>WHO CAN APPLY:</strong></div><div>• Must have already graduated</div><div>• Aged 29 and below</div><div>• Relevant Qualification in ICT</div><br><div><strong>ACCEPTED QUALIFICATIONS INCLUDE:</strong></div><div>• Information Technology (IT) / Information & Communication Technology (ICT)</div><div>• Computer Science / Software Development / Applications Development</div><div>• Information Systems / Business Information Technology (BIT)</div><div>• Networking / Network Administration</div><div>• Cybersecurity / Information Security</div><div>• Data Science / Database Administration</div><div>• Web Development / Systems Analysis</div><div>• Marketing and Media / Other relevant ICT qualifications</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your CV along with your qualifications via email to <strong>Bongeka.ngcongo@oculeit.com</strong>.</div>`
+  },
+  {
+    id: "2027-graduate-in-training-programme-sarao-cape-town-northern-cape-gauteng",
+    title: "2027 SARAO Graduate-In-Training Programme",
+    company: "SARAO (South African Radio Astronomy Observatory)",
+    location: "Cape Town, Northern Cape & Gauteng",
+    type: "Full-time • Graduate Track",
+    duration: "3 Years",
+    reportTo: "N/A",
+    datePosted: "2026-09-20T00:00:00+02:00",
+    closingDate: "2026-09-21",
+    applicationLink: "https://www.sarao.ac.za/vacancies/graduate-training-opportunities/",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "IT & Technology", "Software Development"],
+    shortDescription: "SARAO is accepting applications for its 3-year 2027 Graduate-In-Training Programme across Cape Town, Klerefontein, and Hartebeesthoek.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Radio Astronomy Observatory (SARAO) Graduate In-Training Programme is a 3-year contract starting on 1 March 2027. It offers recent graduates and final-year students practical experience, mentorship, and project involvement in radio astronomy, engineering, software development, data science, and construction management. Placements are based at SARAO Cape Town (Western Cape), Karoo Support Base in Klerefontein (Northern Cape), and Hartebeesthoek site (Gauteng).</div><br><div><strong>PROGRAMME BENEFITS:</strong></div><div>• Structured mentorship, hands-on training, and participation in cutting-edge SARAO projects.</div><div>• Financial assistance available for graduates who register for a part-time Master's degree at a South African university during the programme.</div><br><div><strong>ELIGIBILITY & QUALIFICATIONS:</strong></div><div>Must be a South African citizen who has completed or is in their final year of:</div><div>• BSc / BSc Eng / B-Tech / Advanced Diploma in Software, Computer Science, or Data</div><div>• B.Eng / BSc Eng in Mechanical or Mechatronic Engineering</div><div>• B.Eng / B-Tech Eng in Electrical or Electronic Engineering</div><div>• B.Eng in Civil Engineering</div><div>• Honours Degree in Quantity Surveying or Construction Management</div><div>• Honours Degree in Cybersecurity, Information Security, Computer Science, Information Systems, or Computer Engineering</div><br><div><strong>SELECTION PROCESS:</strong></div><div>Shortlisted candidates will be required to complete a mandatory online assessment.</div>`
   }
                 
 
