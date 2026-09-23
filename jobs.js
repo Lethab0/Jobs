@@ -5439,7 +5439,71 @@ const jobs = [
     tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "IT & Technology", "Software Development"],
     shortDescription: "SARAO is accepting applications for its 3-year 2027 Graduate-In-Training Programme across Cape Town, Klerefontein, and Hartebeesthoek.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Radio Astronomy Observatory (SARAO) Graduate In-Training Programme is a 3-year contract starting on 1 March 2027. It offers recent graduates and final-year students practical experience, mentorship, and project involvement in radio astronomy, engineering, software development, data science, and construction management. Placements are based at SARAO Cape Town (Western Cape), Karoo Support Base in Klerefontein (Northern Cape), and Hartebeesthoek site (Gauteng).</div><br><div><strong>PROGRAMME BENEFITS:</strong></div><div>• Structured mentorship, hands-on training, and participation in cutting-edge SARAO projects.</div><div>• Financial assistance available for graduates who register for a part-time Master's degree at a South African university during the programme.</div><br><div><strong>ELIGIBILITY & QUALIFICATIONS:</strong></div><div>Must be a South African citizen who has completed or is in their final year of:</div><div>• BSc / BSc Eng / B-Tech / Advanced Diploma in Software, Computer Science, or Data</div><div>• B.Eng / BSc Eng in Mechanical or Mechatronic Engineering</div><div>• B.Eng / B-Tech Eng in Electrical or Electronic Engineering</div><div>• B.Eng in Civil Engineering</div><div>• Honours Degree in Quantity Surveying or Construction Management</div><div>• Honours Degree in Cybersecurity, Information Security, Computer Science, Information Systems, or Computer Engineering</div><br><div><strong>SELECTION PROCESS:</strong></div><div>Shortlisted candidates will be required to complete a mandatory online assessment.</div>`
-  }
+  },
+  {
+    id: "work-integrated-learning-p1-p2-csir-chieta-scientia-pretoria",
+    title: "CSIR/CHIETA: Work Integrated Learning (P1/P2)",
+    company: "Council for Scientific and Industrial Research (CSIR)",
+    location: "Scientia, Pretoria, Gauteng",
+    type: "Full-time • Temporary Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-23T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://candidate.csir.co.za/psc/hr/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&",
+    reference: "315194",
+    tags: ["Electrical Engineering", "Chemical Engineering"],
+    shortDescription: "CSIR in partnership with CHIETA is offering Work Integrated Learning (P1/P2) opportunities in Pretoria for Electrical, Electronic, and Chemical Engineering students.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The Council for Scientific and Industrial Research (CSIR), in partnership with CHIETA, is offering Work Integrated Learning (WIL) opportunities to students seeking practical work experience (P1 and P2) as part of their academic requirements in Pretoria, Gauteng.</div><br><div><strong>ACCEPTED STUDY FIELDS:</strong></div><div>• Electrical Engineering</div><div>• Electronic Engineering</div><div>• Chemical Engineering</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African Citizenship</div><div>• Must have completed theoretical modules in Electrical, Electronic, or Chemical Engineering requiring practical P1/P2 training</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Copy of Identity Document (ID)</div><div>• Complete Resume / CV</div><div>• Official University WIL Confirmation Letter</div><div>• Updated Academic Record</div>`
+  },
+  {
+    id: "internship-mechanical-mechatronics-technologist-csir-scientia-pretoria",
+    title: "Internship: Mechanical/ Mechatronics Technologist",
+    company: "Council for Scientific and Industrial Research (CSIR)",
+    location: "Scientia, Pretoria, Gauteng",
+    type: "Part-time • Temporary Internship",
+    duration: "N/A",
+    reportTo: "Research Group Leader: Laser Enabled Manufacturing",
+    datePosted: "2026-09-23T00:00:00+02:00",
+    closingDate: "2026-09-27",
+    applicationLink: "https://candidate.csir.co.za/psc/hr/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&",
+    reference: "N/A",
+    tags: ["Mechanical Engineering"],
+    shortDescription: "The CSIR Photonics Center is offering a Mechanical/Mechatronics Technologist Internship in Pretoria for graduates or final-year students in Mechatronics or Metallurgical Engineering.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>The Council for Scientific and Industrial Research (CSIR) Photonics Center, Laser Enabled Manufacturing (LEM) group is seeking a motivated Mechanical/Mechatronics Technologist Intern in Scientia, Pretoria. The role provides technical support to senior Scientists, Engineers, and Technologists (SET) staff across additive manufacturing (AM), detonics, ballistics, and vehicle/soldier safety technology projects.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Assist in designing, developing, and testing prototype systems related to explosive science, vehicle mobility, and protection technologies.</div><div>• Perform computational modeling tasks including multibody dynamic and finite element analysis (FEA).</div><div>• Support preparation and execution of field experiments at the Detonics, Ballistics, and Explosives Laboratory (DBEL) using high-speed cameras and sensors.</div><div>• Conduct literature reviews, execute laboratory experiments, troubleshoot equipment, and write technical reports.</div><br><div><strong>REQUIREMENTS:</strong></div><div>• BSc, BEng, BTech, or Degree in Mechatronics, Metallurgical Engineering, or equivalent (Final-year students may apply if graduating before commencement).</div><div>• At least 12 months of working experience in an engineering environment (includes university lab or industry experience).</div><div>• SAQA evaluation report required for international qualifications.</div><br><div><strong>REQUIRED DOCUMENTS:</strong></div><div>• Certified copies of latest academic transcripts and tertiary qualifications</div><div>• Updated Curriculum Vitae (CV)</div><div>• Proof of university registration or confirmation letter (if applicable)</div>`
+  },
+  {
+    id: "technician-in-training-x7-eskom-lethabo-power-station-free-state",
+    title: "Technician in Training X7",
+    company: "Eskom",
+    location: "Deneysville / Lethabo Power Station, Free State",
+    type: "Full-time • Internship",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-23T00:00:00+02:00",
+    closingDate: "2026-10-05",
+    applicationLink: "https://eskomcareers.ci.hr/?controller=Listings&method=view&listingid=12282d2a-f724-467b-a035-2233a3b99438",
+    reference: "eskom_007107",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Chemical Engineering"],
+    shortDescription: "Eskom Lethabo Power Station is recruiting 7 Technicians in Training in Performance & Testing (x2), Chemical Engineering (x3), and C&I Maintenance (x2).",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Eskom has 7 Technician in Training opportunities (Task Grade TR2) available at Lethabo Power Station in the Free State (Deneysville). The program provides institutionalized and on-the-job training across specialized technical operational streams.</div><br><div><strong>AVAILABLE VACANCIES & STREAMS:</strong></div><div>• Performance & Testing (x2)</div><div>• Chemical Engineering (x3)</div><div>• C&I Maintenance (x2)</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete institutionalized training and active on-the-job experiential development within assigned Eskom power plant operations.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Must be a South African Citizen</div><div>• Fully completed S4 / S5 / National Diploma in Mechanical Engineering, Electrical Engineering (Light Current), or Chemical Engineering</div><div>• Good communication, interpersonal, and liaising skills</div>`
+  },
+  {
+    id: "data-engineer-coca-cola-beverages-africa-bryanston-gauteng",
+    title: "Data: Engineer",
+    company: "Coca-Cola Beverages Africa (Group Office)",
+    location: "Bryanston, Gauteng",
+    type: "Full-time • Permanent",
+    duration: "N/A",
+    reportTo: "N/A",
+    datePosted: "2026-09-17T00:00:00+02:00",
+    closingDate: "2026-09-24",
+    applicationLink: "https://ccba.erecruit.co/candidateapp/Jobs/View/CCB260917-2",
+    reference: "CCB260917-2",
+    tags: ["IT & Technology", "Software Development"],
+    shortDescription: "Coca-Cola Beverages Africa is hiring a Data Engineer in Bryanston to design, build, and optimize enterprise data pipelines and ETL/ELT processes.",
+    fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Coca-Cola Beverages Africa (CCBA) has an exciting opportunity for a Data Engineer to join their Digital & Technology team at the Group Office in Bryanston, Gauteng. The Data Engineer is responsible for designing, developing, maintaining, and optimizing enterprise data pipelines and integration processes to enable reliable, accurate, and timely data delivery across reporting, analytics, and business intelligence platforms.</div><br><div><strong>KEY DUTIES & RESPONSIBILITIES:</strong></div><div>• Develop, manage, and optimize scalable data pipelines and ETL/ELT integration processes.</div><div>• Ensure accurate extraction, transformation, and loading of data across enterprise systems.</div><div>• Maintain database and data warehouse environments, ensuring high reliability and availability.</div><div>• Monitor and validate data quality, consistency, and integrity to resolve data issues.</div><div>• Implement automation and continuous improvement across data engineering workflows.</div><div>• Collaborate with data architects, analytics teams, and business stakeholders.</div><br><div><strong>REQUIREMENTS & EXPERIENCE:</strong></div><div>• Bachelor’s degree in Computer Science, Data Engineering, Information Systems, or a related field</div><div>• 6–8 years’ experience in data engineering or database development roles</div><div>• Hands-on experience with MS Azure technologies, Microsoft Fabric, SQL, and cloud data platforms</div><div>• Proficiency in ETL/ELT development, data integration, scripting, and database management</div><div>• FMCG or enterprise data environment experience is advantageous</div>`
+  },
                 
 
   ];
