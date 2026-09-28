@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Job Data Formatter — Offline</title>
+<style>
+  :root {
+    --bg: #0e1117; 
+    --panel: #161b22; 
+    --panel2: #1c2230; 
+    --line: #2a3344;
+    --txt: #e6edf3; 
+    --dim: #8b98a9; 
+    --blue: #4da6ff; 
+    --green: #25d366; 
+    --amber: #ffb648;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); 
+    color: var(--txt); 
+    margin: 0; 
+    padding: 18px 14px 60px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; color: var(--blue); letter-spacing: -.3px; }
+  .sub { color: var(--dim); font-size: 13px; margin: 0 0 22px; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  @media(min-width: 1000px) { .grid { grid-template-columns: 1fr 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .8px; color: var(--dim); margin: 0 0 12px; font-weight: 700; }
+  label { display: block; font-size: 12px; font-weight: 600; color: var(--dim); margin: 0 0 6px; text-transform: uppercase; letter-spacing: .5px; }
+  textarea, input[type=text] {
+    width: 100%; background: var(--panel2); color: var(--txt); border: 1px solid var(--line);
+    border-radius: 8px; padding: 11px; font-size: 13px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    outline: none; transition: border-color .15s;
+  }
+  textarea:focus, input[type=text]:focus { border-color: var(--blue); }
+  textarea { height: 250px; resize: vertical; line-height: 1.5; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .row > * { flex: 1 1 auto; }
+  .field { margin-bottom: 14px; }
+  .hint { font-size: 11px; color: var(--dim); margin-top: 5px; }
+  button {
+    background: var(--blue); color: #04121f; border: none; padding: 11px 16px; font-size: 14px;
+    border-radius: 8px; cursor: pointer; font-weight: 700; transition: .15s;
+  }
+  button:hover { background: #7cc0ff; }
+  button:active { transform: translateY(1px); }
+  button.ghost { background: transparent; color: var(--dim); border: 1px solid var(--line); }
+  button.ghost:hover { color: var(--txt); border-color: var(--blue); background: transparent; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  .actions button { flex: 0 0 auto; }
+  pre {
+    background: var(--panel2); border: 1px solid var(--line); border-radius: 8px;
+    padding: 14px; white-space: pre-wrap; word-wrap: break-word; font-size: 12.5px; line-height: 1.55;
+    color: #a6e22e; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    max-height: 420px; overflow: auto; margin: 0;
+  }
+  pre.wa { color: var(--green); font-family: inherit; font-size: 13.5px; }
+  .outhead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .outhead h2 { margin: 0; }
+  .mini { font-size: 11px; padding: 6px 10px; border-radius: 6px; background: #232b3a; color: var(--dim); border: 1px solid var(--line); cursor: pointer; font-weight: 600; }
+  .mini:hover { color: var(--txt); border-color: var(--blue); }
+  .chk { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--dim); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; cursor: pointer; }
+  .chk input { width: 16px; height: 16px; accent-color: var(--blue); cursor: pointer; }
+  #toast {
+    position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%) translateY(20px);
+    background: #232b3a; border: 1px solid var(--blue); color: var(--txt); padding: 10px 18px; border-radius: 8px;
+    font-size: 13px; font-weight: 600; opacity: 0; pointer-events: none; transition: .25s; z-index: 99; max-width: 90vw; text-align: center;
+  }
+  #toast.on { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .warn { background: #2a1f10; border: 1px solid #6b4a10; color: var(--amber); padding: 10px 12px; border-radius: 8px; font-size: 12px; margin-bottom: 12px; display: none; }
+  .warn.on { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Pro Job Data Formatter</h1>
+  <p class="sub">Advanced Offline Parser — Extract high-fidelity job structures for any vacancy.</p>
+
+  <div class="grid">
+    <!-- INPUT -->
+    <div class="card">
+      <h2>Input</h2>
+
+      <div class="field">
+        <label for="rawText">Raw Job Posting Text</label>
+        <textarea id="rawText" placeholder="Paste full job posting here..."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="tagsInput">Prompt Tags (Comma Separated)</label>
+        <input type="text" id="tagsInput" placeholder="e.g. Electrical Engineering, Mechanical Engineering">
+        <div class="hint">Strict: Only tags specified here will be included in the output.</div>
+      </div>
+
+      <div class="field">
+        <label for="applyLink">Application Link Override (Optional)</label>
+        <input type="text" id="applyLink" placeholder="https://example.com/apply">
+      </div>
+
+      <div class="field">
+        <div class="row">
+          <label class="chk" style="flex:0 0 auto"><input type="checkbox" id="multi"> Multiple Jobs</label>
+          <input type="text" id="delim" value="---" style="max-width:120px" title="Separator line">
+        </div>
+        <div class="hint">Separate multiple postings with a line containing <code>---</code></div>
+      </div>
+
+      <div class="actions">
+        <button onclick="processAll()">Generate Output</button>
+        <button class="ghost" onclick="clearAll()">Clear</button>
+      </div>
+      <div class="warn" id="warnBox"></div>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="card">
+      <div class="outhead">
+        <h2>JavaScript Object</h2>
+        <button class="mini" onclick="copyEl('jsOutput')">Copy</button>
+      </div>
+      <pre id="jsOutput">// JS output will appear here...</pre>
+
+      <div class="outhead" style="margin-top:22px">
+        <h2>WhatsApp Message</h2>
+        <button class="mini" onclick="copyEl('waOutput')">Copy</button>
+      </div>
+      <pre id="waOutput" class="wa">// WhatsApp message will appear here...</pre>
+
+      <div class="actions" style="margin-top:16px">
+        <button class="ghost" onclick="copyBoth()">Copy Both (JS + WhatsApp)</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const clean = s => (s || '').replace(/\s+/g, ' ').trim();
+const pad2 = n => String(n).padStart(2, '0');
+const isoDate = d => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+const escapeHtml = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const stripBullet = s => s.replace(/^[\s\u2022\u25CF\u25AA\u25E6\u2043>·*+\-–—]+/, '').replace(/\s+/g, ' ').trim();
+
+const PROVINCES = ['Gauteng','Western Cape','KwaZulu-Natal','Free State','Eastern Cape','Limpopo','Mpumalanga','North West','Northern Cape'];
+
+const CITY_PROVINCE = {
+  'johannesburg':'Gauteng','pretoria':'Gauteng','centurion':'Gauteng','sandton':'Gauteng','randburg':'Gauteng','midrand':'Gauteng',
+  'deneysville':'Free State','sasolburg':'Free State','bloemfontein':'Free State','welkom':'Free State',
+  'cape town':'Western Cape','stellenbosch':'Western Cape','paarl':'Western Cape','george':'Western Cape',
+  'durban':'KwaZulu-Natal','pietermaritzburg':'KwaZulu-Natal','richards bay':'KwaZulu-Natal',
+  'port elizabeth':'Eastern Cape','gqeberha':'Eastern Cape','east london':'Eastern Cape',
+  'polokwane':'Limpopo','tzaneen':'Limpopo','lephalale':'Limpopo',
+  'nelspruit':'Mpumalanga','secunda':'Mpumalanga','witbank':'Mpumalanga','emalahleni':'Mpumalanga','kriel':'Mpumalanga',
+  'rustenburg':'North West','potchefstroom':'North West',
+  'kimberley':'Northern Cape','upington':'Northern Cape'
+};
+
+const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+const MONTH_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+function extractLocation(text) {
+  for (const [city, prov] of Object.entries(CITY_PROVINCE)) {
+    if (new RegExp('\\b' + city + '\\b', 'i').test(text)) {
+      const cityTitle = city.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      return cityTitle + ', ' + prov;
+    }
+  }
+  for (const p of PROVINCES) {
+    if (new RegExp('\\b' + p + '\\b', 'i').test(text)) return 'South Africa, ' + p;
+  }
+  return 'South Africa';
+}
+
+function extractCompany(text, lines, link) {
+  // 1. Look for known corporate formats in text
+  const mCorp = text.match(/([A-Z][A-Za-z0-9&\s.'\-]{2,30}\s+(?:SOC Ltd|Pty Ltd|\(Pty\)\s+Ltd|Holdings|Group|Limited|Corporation))/i);
+  if (mCorp) return clean(mCorp[1]);
+
+  // 2. Look for "Company:" or "Employer:" field labels
+  const mLabel = text.match(/(?:company|employer|organisation)\s*[:\-]\s*([A-Za-z0-9&\s.'\-]{2,35})/i);
+  if (mLabel) return clean(mLabel[1]);
+
+  // 3. Extract from domain name in application URL (e.g., eskomcareers -> Eskom)
+  if (link) {
+    const domainMatch = link.match(/https?:\/\/(?:www\.)?([a-zA-Z0-9\-]+)\./);
+    if (domainMatch) {
+      let brand = domainMatch[1].replace(/careers|jobs|recruitment|ci/gi, '');
+      if (brand.length >= 3) return brand.charAt(0).toUpperCase() + brand.slice(1);
+    }
+  }
+
+  // 4. First line fallback if separated by '|' or '-'
+  const first = lines[0] || '';
+  if (first.includes('|') || first.includes('-')) {
+    const parts = first.split(/[-|]/);
+    if (parts.length >= 2) {
+      const p1 = clean(parts[0]), p2 = clean(parts[1]);
+      if (/engineer|technician|officer|manager|trainee|intern|analyst/i.test(p1)) return p2;
+      return p1;
+    }
+  }
+
+  return 'Company';
+}
+
+function extractReference(text) {
+  const m = text.match(/(?:reference|ref|listing id|listing reference)\s*[:\-]?\s*([A-Za-z0-9_\-]{3,25})/i);
+  return m ? m[1] : 'N/A';
+}
+
+function extractDates(text) {
+  const today = new Date();
+  let closing = null;
+  const m = text.match(/(?:closing date|closes|apply by|expires)[:\s]*(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}|\d{4}-\d{2}-\d{2})/i);
+  if (m) {
+    const parsed = new Date(m[1]);
+    if (!isNaN(parsed.getTime())) closing = parsed;
+  }
+  return { posted: today, closing };
+}
+
+function extractRequirements(lines) {
+  const reqs = [];
+  lines.forEach(l => {
+    if (/^(must|qualification|diploma|degree|s4|btech|n6|matric|experience|citizen)/i.test(l) || /^[\u2022\-\*]/.test(l)) {
+      const c = stripBullet(l);
+      if (c.length > 8 && c.length < 120 && !reqs.includes(c)) reqs.push(c);
+    }
+  });
+  return reqs.slice(0, 4);
+}
+
+function buildFullDescription(rawLines, company, title, location) {
+  let overview = '', reqs = [], resp = [];
+  
+  rawLines.forEach(l => {
+    const cleanL = stripBullet(l);
+    if (!cleanL) return;
+    if (/^(duties|responsibilities|key performance|tasks)/i.test(cleanL) || (resp.length && /^[\u2022\-\*]/.test(l))) {
+      resp.push(cleanL);
+    } else if (/^(requirements|qualifications|minimum|must have)/i.test(cleanL) || (reqs.length && /^[\u2022\-\*]/.test(l))) {
+      reqs.push(cleanL);
+    } else if (!overview && cleanL.length > 30) {
+      overview = cleanL;
+    }
+  });
+
+  let html = `<div><strong>ROLE OVERVIEW:</strong></div><div>${escapeHtml(company)} is recruiting for a ${escapeHtml(title)} position based in ${escapeHtml(location)}. ${escapeHtml(overview)}</div>`;
+
+  if (resp.length) {
+    html += `<br><div><strong>KEY RESPONSIBILITIES:</strong></div>` + resp.slice(0, 4).map(r => `<div>• ${escapeHtml(r)}</div>`).join('');
+  }
+  if (reqs.length) {
+    html += `<br><div><strong>MINIMUM REQUIREMENTS:</strong></div>` + reqs.slice(0, 4).map(r => `<div>• ${escapeHtml(r)}</div>`).join('');
+  }
+
+  return html;
+}
+
+function parseJob(rawText, overrideLink, userTags) {
+  const original = rawText.replace(/\r/g, '');
+  const lines = original.split('\n').map(l => l.trim()).filter(Boolean);
+  if (!lines.length) return { skip: true, reason: 'Empty input' };
+
+  // Rule: Ignore job postings containing telephone numbers[cite: 4]
+  const phoneRe = /(?:\+27[\s\-]?\d{2}[\s\-]?\d{3}[\s\-]?\d{4})|(?:\b0\d{2}[\s\-]?\d{3}[\s\-]?\d{4}\b)/;
+  if (phoneRe.test(original)) {
+    return { skip: true, reason: 'Contains a telephone number (Ignored per rule)' };
+  }
+
+  const flat = lines.join(' ');
+  let applyLink = (overrideLink || '').trim();
+  if (!applyLink) {
+    const allLinks = (original.match(/https?:\/\/[^\s<>")\]]+/gi) || []);
+    applyLink = allLinks[0] || '';
+  }
+
+  let title = lines[0] || 'Graduate Opportunity';
+  if (title.includes('-') && !title.toLowerCase().includes('technician')) {
+    title = clean(title.split('-')[0]);
+  } else if (title.includes('|')) {
+    title = clean(title.split('|')[0]);
+  }
+
+  const company = extractCompany(flat, lines, applyLink);
+  const location = extractLocation(flat);
+  const reference = extractReference(flat);
+  const { posted, closing } = extractDates(flat);
+  const reqs = extractRequirements(lines);
+
+  const id = slugify(title + ' ' + company + ' ' + location).slice(0, 90);
+  const shortDescription = `${company} is recruiting for a ${title} position in ${location}.`;
+  const fullDescription = buildFullDescription(lines, company, title, location);
+
+  const job = {
+    id,
+    title,
+    company,
+    location,
+    type: 'Full-time',
+    duration: 'N/A',
+    reportTo: 'N/A',
+    datePosted: isoDate(posted) + 'T00:00:00+02:00',
+    closingDate: closing ? isoDate(closing) : 'N/A',
+    applicationLink: applyLink || 'https://jobs-miy4.onrender.com',
+    reference,
+    tags: userTags,
+    shortDescription,
+    fullDescription
+  };
+
+  // Build WhatsApp output strictly excluding emails and direct application links[cite: 4]
+  const baseUrl = 'https://jobs-miy4.onrender.com/job.html?id=';
+  const waLines = [
+    `📢 *${title.toUpperCase()}* 📢`,
+    '',
+    `*${title}*`,
+    `🏢 *Company:* ${company}`,
+    `📍 *Location:* ${location}`,
+    `📌 *Type:* Full-time`,
+    closing ? `⏰ *Closes:* ${closing.getDate()} ${MONTH_FULL[closing.getMonth()]} ${closing.getFullYear()}` : '',
+    reference !== 'N/A' ? `🆔 *Ref:* ${reference}` : '',
+    '',
+    shortDescription,
+    reqs.length ? '\n🎓 *Requirements:*\n' + reqs.map(r => `• ${r}`).join('\n') : '',
+    '',
+    '🔗 *Apply & Full Details:*',
+    baseUrl + id,
+    '',
+    userTags.map(t => '#' + t.replace(/[^A-Za-z0-9]/g, '')).join(' ')
+  ].filter(l => l !== null && l !== '');
+
+  return { job, wa: waLines.join('\n').trim() };
+}
+
+let lastJS = '', lastWA = '';
+
+function processAll() {
+  const raw = $('rawText').value.trim();
+  if (!raw) { toast('Paste job text first'); return; }
+
+  const overrideLink = $('applyLink').value.trim();
+  const rawTags = $('tagsInput').value.split(',').map(t => t.trim()).filter(Boolean);
+  const multi = $('multi').checked;
+  const delim = $('delim').value.trim() || '---';
+
+  let chunks = multi ? raw.split(new RegExp('^' + delim + '$', 'm')).map(s => s.trim()).filter(Boolean) : [raw];
+  const jobs = [], waMsgs = [], skipped = [];
+
+  chunks.forEach((chunk, i) => {
+    const res = parseJob(chunk, overrideLink, rawTags);
+    if (res.skip) { skipped.push(`Job ${i + 1}: ${res.reason}`); return; }
+    jobs.push(res.job);
+    waMsgs.push(res.wa);
+  });
+
+  const warn = $('warnBox');
+  if (skipped.length) {
+    warn.textContent = '⚠ ' + skipped.join(' | ');
+    warn.classList.add('on');
+  } else {
+    warn.classList.remove('on');
+  }
+
+  if (!jobs.length) {
+    $('jsOutput').textContent = '// No valid jobs processed.';$('waOutput').textContent = '// No valid jobs processed.';
+    return;
+  }
+
+  lastJS = 'const jobs = ' + JSON.stringify(jobs, null, 2) + ';';
+  lastWA = waMsgs.join('\n\n━━━━━━━━━━━━━━━━━━━━\n\n');
+
+  $('jsOutput').textContent = lastJS;
+  $('waOutput').textContent = lastWA;
+}
+
+function clearAll() {
+  $('rawText').value = '';$('tagsInput').value = '';
+  $('applyLink').value = '';$('jsOutput').textContent = '// JS output will appear here...';
+  $('waOutput').textContent = '// WhatsApp message will appear here...';$('warnBox').classList.remove('on');
+}
+
+function copyEl(id) {
+  const text = $(id).textContent;
+  navigator.clipboard.writeText(text).then(() => toast('Copied to clipboard'));
+}
+
+function copyBoth() {
+  if (!lastJS && !lastWA) return;
+  navigator.clipboard.writeText(lastJS + '\n\n' + lastWA).then(() => toast('Copied JS + WhatsApp'));
+}
+
+function toast(msg) {
+  const t = $('toast');
+  t.textContent = msg;
+  t.classList.add('on');
+  setTimeout(() => t.classList.remove('on'), 1900);
+}
+</script>
+</body>
+</html>

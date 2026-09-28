@@ -5504,6 +5504,22 @@ const jobs = [
     shortDescription: "Coca-Cola Beverages Africa is hiring a Data Engineer in Bryanston to design, build, and optimize enterprise data pipelines and ETL/ELT processes.",
     fullDescription: `<div><strong>ROLE OVERVIEW:</strong></div><div>Coca-Cola Beverages Africa (CCBA) has an exciting opportunity for a Data Engineer to join their Digital & Technology team at the Group Office in Bryanston, Gauteng. The Data Engineer is responsible for designing, developing, maintaining, and optimizing enterprise data pipelines and integration processes to enable reliable, accurate, and timely data delivery across reporting, analytics, and business intelligence platforms.</div><br><div><strong>KEY DUTIES & RESPONSIBILITIES:</strong></div><div>• Develop, manage, and optimize scalable data pipelines and ETL/ELT integration processes.</div><div>• Ensure accurate extraction, transformation, and loading of data across enterprise systems.</div><div>• Maintain database and data warehouse environments, ensuring high reliability and availability.</div><div>• Monitor and validate data quality, consistency, and integrity to resolve data issues.</div><div>• Implement automation and continuous improvement across data engineering workflows.</div><div>• Collaborate with data architects, analytics teams, and business stakeholders.</div><br><div><strong>REQUIREMENTS & EXPERIENCE:</strong></div><div>• Bachelor’s degree in Computer Science, Data Engineering, Information Systems, or a related field</div><div>• 6–8 years’ experience in data engineering or database development roles</div><div>• Hands-on experience with MS Azure technologies, Microsoft Fabric, SQL, and cloud data platforms</div><div>• Proficiency in ETL/ELT development, data integration, scripting, and database management</div><div>• FMCG or enterprise data environment experience is advantageous</div>`
   },
+  {
+    id: "gibb-group-yes-programme-and-engineering-vacancies-gibb-johannesburg-gauteng",
+    title: "GIBB Group YES Programmes & Engineering Vacancies",
+    company: "GIBB Group of Companies",
+    location: "Johannesburg, Gauteng",
+    type: "Full-time",
+    duration: "12 Months (YES) / Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-09-09T00:00:00+02:00",
+    closingDate: "2026-09-30",
+    applicationLink: "https://gibbjobs.mcidirecthire.com/Vacancy/Application?parameters=q4%2f37VDQTFWXnK7wNIeCPTpkZjxP4PEqDxtMgoT%2fWQLPLx%2fQEfP800mbZnKKI4is5tv3gJZRQRpw%2fga40ecJBxoSC%2fyAPfzs8aOPjyIUd7gyA6JaTZDNB2ehmxjaRo2cafheR47Uc9JCw2eNqONKURkbQ%2fKGFBe4cdI3mFVfA%2bZnAiOLkE0tdJKy4WHQeN60WFRdv5oSr0aPAxnCmtWclueB43xbqbTQbH6K7Crl8iM%3d",
+    reference: "GIB-468 / GIB-448 / GIB-446 / GIB-445 / GIBB",
+    tags: [],
+    shortDescription: "GIBB Group is recruiting for multiple YES Programme traineeships and professional engineering positions in Johannesburg, Gauteng.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>GIBB Group of Companies is inviting applications for their Youth Employment Service (YES) Programme alongside several experienced engineering and administrative roles based in Johannesburg, Gauteng.</div><br><div><strong>OPEN POSITIONS INCLUDED:</strong></div><div>• YES Programme - Civil Engineering (WIIG Department) [Ref: GIB-468 & GIB-446]</div><div>• YES Programme - Civil Engineering (GIBB Power) [Ref: GIB-448]</div><div>• YES Programme - Electrical Engineering (4 Positions - GIBB Power) [Ref: GIB-445]</div><div>• YES Programme - Business Admin (2 Positions) [Ref: GIBB]</div><div>• Business Development Coordinator [Ref: GIB-441]</div><div>• Mining Electrical Engineer [Ref: GIB-414]</div><div>• Resident Engineer (WIIG Department) [Ref: GIB-406]</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Relevant National Diploma, BTech, or Degree in Civil Engineering, Electrical Engineering, or Business Administration.</div><div>• South African Citizenship (Mandatory for YES Programme positions).</div><div>• Strong technical, administrative, and problem-solving skills.</div>"
+  },
                 
 
   ];
