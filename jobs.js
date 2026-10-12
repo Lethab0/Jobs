@@ -5584,5 +5584,21 @@ const jobs = [
     shortDescription: "STS is recruiting for a Test Engineer Graduate Programme in South Africa. Apply via email to careers@stsafrica.com with the subject line: STS Graduate Programme Application.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>STS is offering an exceptional Test Engineer Graduate Programme opportunity for high-performing graduates to gain practical experience, structured training, mentorship, and exposure to cutting-edge technologies.</div><br><div><strong>KEY RESPONSIBILITIES & WHAT TO EXPECT:</strong></div><div>• Participate in structured training in new programming languages, tools, and frameworks.</div><div>• Receive mentorship from experienced software engineers.</div><div>• Work on impactful projects within modern development environments.</div><div>• Develop both technical and professional competencies in software testing and development.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed BSc Computer Science degree from a recognised South African university.</div><div>• Strong academic record with distinctions.</div><div>• Self-driven, proactive, and committed to continuous learning.</div><div>• Ability to work collaboratively within a team environment.</div><div>• Strong attention to detail and a disciplined approach to work.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit a comprehensive CV and full academic transcript via email to careers@stsafrica.com with the subject line: STS Graduate Programme Application.</div>"
   },
+  {
+    id: "2027-graduate-programmes-growthpoint-properties-sandton-gauteng",
+    title: "2027 Graduate Programmes",
+    company: "Growthpoint Properties",
+    location: "Sandton, Gauteng",
+    type: "Full-time • Graduate Programme",
+    duration: "Permanent/Contract",
+    reportTo: "N/A",
+    datePosted: "2026-10-09T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://growthpoint.mcidirecthire.com/default/External/CurrentOpportunities?Ref=U7h8Y15NRAg9GcFaaSEpeUIpFIxQVlrjbsvKKIbQntTaxnu38G167wH7sEJsBZ8aobNSJwLmx8Ri3pVHa7_b0A",
+    reference: "N/A",
+    tags: ["Civil Engineering", "Electrical Engineering", "Mechanical Engineering", "IT & Technology"],
+    shortDescription: "Growthpoint Properties is recruiting for various 2027 Graduate Programmes across Facilities Management, Sustainability, IT, Fund Management, and Investor Relations in Sandton, Gauteng.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Growthpoint Properties, the largest South African primary REIT listed on the JSE, is inviting applications for its 2027 Graduate Programmes based in Sandton and Johannesburg, Gauteng.</div><br><div><strong>OPEN GRADUATE POSITIONS:</strong></div><div>• Facilities Management – Industrial (Sandton)</div><div>• Sustainability and Energy (Sandton)</div><div>• Facilities Management – Retail (Johannesburg)</div><div>• Fund Management (Sandton)</div><div>• IT (Sandton)</div><div>• Investor Relations (Sandton)</div><br><div><strong>QUALIFICATIONS REQUIRED:</strong></div><div>• Qualifications range from Construction Studies, Building Science, and Civil Engineering to Electrical Engineering, Mechanical Engineering, Accounting, Economics, Information Systems, and Finance.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Participate in structured graduate rotation plans and practical on-the-job training.</div><div>• Support operational, engineering, property management, and technical teams on commercial assets.</div>"
+  },
 
   ];
