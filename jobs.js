@@ -5600,5 +5600,21 @@ const jobs = [
     shortDescription: "Growthpoint Properties is recruiting for various 2027 Graduate Programmes across Facilities Management, Sustainability, IT, Fund Management, and Investor Relations in Sandton, Gauteng.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Growthpoint Properties, the largest South African primary REIT listed on the JSE, is inviting applications for its 2027 Graduate Programmes based in Sandton and Johannesburg, Gauteng.</div><br><div><strong>OPEN GRADUATE POSITIONS:</strong></div><div>• Facilities Management – Industrial (Sandton)</div><div>• Sustainability and Energy (Sandton)</div><div>• Facilities Management – Retail (Johannesburg)</div><div>• Fund Management (Sandton)</div><div>• IT (Sandton)</div><div>• Investor Relations (Sandton)</div><br><div><strong>QUALIFICATIONS REQUIRED:</strong></div><div>• Qualifications range from Construction Studies, Building Science, and Civil Engineering to Electrical Engineering, Mechanical Engineering, Accounting, Economics, Information Systems, and Finance.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Participate in structured graduate rotation plans and practical on-the-job training.</div><div>• Support operational, engineering, property management, and technical teams on commercial assets.</div>"
   },
+  {
+    id: "graduate-trainee-newmont-merian-suriname",
+    title: "Graduate Trainee",
+    company: "Newmont",
+    location: "Merian, Sipaliwini",
+    type: "Full-time • Rotational Contract",
+    duration: "24 Months",
+    reportTo: "N/A",
+    datePosted: "2026-10-06T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://career4.successfactors.com/sfcareer/jobreqcareer?jobId=45062&company=Newmont&utm_source=chatgpt.com",
+    reference: "45062",
+    tags: ["Mining & Metallurgy", "Mechanical Engineering", "Electrical Engineering", "Civil Engineering"],
+    shortDescription: "Newmont is recruiting for a Graduate Trainee position in Merian, Sipaliwini.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Newmont is offering a structured two-year rotational Graduate Trainee program at the Merian open-pit gold mine operation in Suriname to support safe operational activities, technical tasks, and improvement projects.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete planned rotations within the assigned technical discipline to gain broad operational experience.</div><div>• Support operational, technical, engineering, business improvement, and project initiatives.</div><div>• Collect, analyze, interpret, and communicate technical and operational data.</div><div>• Participate in field activities to develop practical knowledge of operational processes.</div><div>• Identify opportunities to improve safety, productivity, reliability, quality, and cost performance.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor's or Master's degree in Mining, Metallurgical, Chemical, Mechanical, Electrical, or Civil Engineering, Geosciences, or related field.</div><div>• 0 to 2 years of professional work experience in a relevant technical or engineering role.</div><div>• Foundational understanding of health, safety, risk management, and engineering principles.</div><div>• Foundational proficiency with discipline-relevant software and Microsoft Office.</div>"
+  },
 
   ];
