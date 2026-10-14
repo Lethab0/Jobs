@@ -5616,5 +5616,21 @@ const jobs = [
     shortDescription: "Newmont is recruiting for a Graduate Trainee position in Merian, Sipaliwini.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Newmont is offering a structured two-year rotational Graduate Trainee program at the Merian open-pit gold mine operation in Suriname to support safe operational activities, technical tasks, and improvement projects.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete planned rotations within the assigned technical discipline to gain broad operational experience.</div><div>• Support operational, technical, engineering, business improvement, and project initiatives.</div><div>• Collect, analyze, interpret, and communicate technical and operational data.</div><div>• Participate in field activities to develop practical knowledge of operational processes.</div><div>• Identify opportunities to improve safety, productivity, reliability, quality, and cost performance.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Bachelor's or Master's degree in Mining, Metallurgical, Chemical, Mechanical, Electrical, or Civil Engineering, Geosciences, or related field.</div><div>• 0 to 2 years of professional work experience in a relevant technical or engineering role.</div><div>• Foundational understanding of health, safety, risk management, and engineering principles.</div><div>• Foundational proficiency with discipline-relevant software and Microsoft Office.</div>"
   },
+  {
+    id: "software-engineer-retipuj-zoft-johannesburg-gauteng",
+    title: "Software Engineer",
+    company: "RETIPUJ ZOFT",
+    location: "Johannesburg, Gauteng",
+    type: "Full-Stack • Graduate Programme",
+    duration: "Graduate Programme",
+    reportTo: "N/A",
+    datePosted: "2026-10-14T00:00:00+02:00",
+    closingDate: "2026-10-30",
+    applicationLink: "https://retipujzoft.co.za/careers",
+    reference: "RZ-26-002",
+    tags: ["Software Development", "IT & Technology", "Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "Chemical Engineering", "Industrial Engineering"],
+    shortDescription: "RETIPUJ ZOFT is recruiting for a Software Engineer (Full-Stack Graduate Programme) in Johannesburg, Gauteng. Apply via email to recruitment@retipujzoft.co.za.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>RETIPUJ ZOFT is hiring a Software Engineer under their Full-Stack Graduate Programme based in Johannesburg, SA (Remote work mode). No experience required; university and personal projects count.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Build front-end and back-end applications.</div><div>• Develop and integrate APIs, and work with databases.</div><div>• Test, debug, and help deploy software.</div><div>• Take part in code reviews and Agile teams.</div><div>• Work with senior engineers on real projects in AI, automation, and cloud.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Final-year student or recent graduate in Computer Science, Software Engineering, IT, Engineering (including Mechanical, Electrical, Civil, Chemical, and Industrial Engineering), or a related field.</div><div>• Basic understanding of programming and software development concepts.</div><div>• Strong analytical and problem-solving ability.</div><div>• Good communication, and able to work independently in a remote team[cite: 4].</div><div>• Reliable internet and a suitable remote working environment[cite: 4].</div><div>• Advantageous: Python, Java, JavaScript, TypeScript, C#, React, Node.js, SQL, Git[cite: 4].</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online at retipujzoft.co.za/careers or email recruitment@retipujzoft.co.za[cite: 4]. Closing date: 30 October 2026[cite: 4].</div>"
+  },
 
   ];
