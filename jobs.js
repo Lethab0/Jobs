@@ -5632,5 +5632,53 @@ const jobs = [
     shortDescription: "RETIPUJ ZOFT is recruiting for a Software Engineer (Full-Stack Graduate Programme) in Johannesburg, Gauteng. Apply via email to recruitment@retipujzoft.co.za.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>RETIPUJ ZOFT is hiring a Software Engineer under their Full-Stack Graduate Programme based in Johannesburg, SA (Remote work mode). No experience required; university and personal projects count.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Build front-end and back-end applications.</div><div>• Develop and integrate APIs, and work with databases.</div><div>• Test, debug, and help deploy software.</div><div>• Take part in code reviews and Agile teams.</div><div>• Work with senior engineers on real projects in AI, automation, and cloud.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Final-year student or recent graduate in Computer Science, Software Engineering, IT, Engineering (including Mechanical, Electrical, Civil, Chemical, and Industrial Engineering), or a related field.</div><div>• Basic understanding of programming and software development concepts.</div><div>• Strong analytical and problem-solving ability.</div><div>• Good communication, and able to work independently in a remote team[cite: 4].</div><div>• Reliable internet and a suitable remote working environment[cite: 4].</div><div>• Advantageous: Python, Java, JavaScript, TypeScript, C#, React, Node.js, SQL, Git[cite: 4].</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online at retipujzoft.co.za/careers or email recruitment@retipujzoft.co.za[cite: 4]. Closing date: 30 October 2026[cite: 4].</div>"
   },
+  {
+    id: "mqa-intern-mintek-randburg-gauteng",
+    title: "MQA Intern",
+    company: "Mintek",
+    location: "Randburg, Gauteng",
+    type: "Full-time • Internship",
+    duration: "Internship",
+    reportTo: "N/A",
+    datePosted: "2026-10-19T00:00:00+02:00",
+    closingDate: "2026-10-27",
+    applicationLink: "https://mintek.ci.hr/applicant/index.php?controller=Listings&method=view&listingid=52ea9162-8708-43d4-b517-d307d5cb840c",
+    reference: "minte_000470",
+    tags: ["Mining & Metallurgy", "Chemical Engineering", "Mechanical Engineering", "Electrical Engineering"],
+    shortDescription: "Mintek is recruiting for an MQA Intern position in Randburg, Gauteng.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Mintek is offering an exciting internship opportunity to provide practical work experience to suitable candidates who have completed their degree within their technical division at the Randburg Offices.</div><br><div><strong>KEY RESPONSIBILITIES & SKILLS:</strong></div><div>• Computer Literacy - MS Word, Excel, PowerPoint.</div><div>• Strong communication skills, numerical aptitude, and analytical abilities.</div><div>• Attention to detail.</div><div>• Willingness to undergo psychometric testing.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Excellent academic record (academic average of 60%) and a completed degree in Metallurgical Engineering or Chemical Engineering.</div><div>• South African citizenship.</div><div>• Required documents: Curriculum Vitae, certified academic record, certified Degree certificate, and certified copy of ID.</div>"
+  },
+  {
+    id: "2027-software-dev-engineer-intern-zaf-amazon-south-africa",
+    title: "2027 Software Dev Engineer Intern",
+    company: "Amazon Development Centre (South Africa)",
+    location: "South Africa",
+    type: "Full-time • Internship",
+    duration: "Internship",
+    reportTo: "N/A",
+    datePosted: "2026-10-19T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://www.amazon.jobs/en/jobs/10576864/2027-software-dev-engineer-intern-zaf?cmpid=DA_INAD200785B",
+    reference: "10576864",
+    tags: ["Software Development", "IT & Technology"],
+    shortDescription: "Amazon Development Centre is recruiting for a 2027 Software Dev Engineer Intern in South Africa.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Amazon is seeking curious minds for their 2027 Software Dev Engineer (SDE) Intern role in South Africa. Interns use modern technology to solve complex problems, owning the entire lifecycle of their code from design through deployment.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Collaborate with cross-disciplinary Amazonians to design, build, and operate innovative products and services.</div><div>• Break down complex problems and contribute to scalable, reliable distributed systems.</div><div>• Participate in code reviews, write clean and maintainable code, and use GenAI and AI-powered tools to enhance development productivity.</div><div>• Work in an agile environment practicing CI/CD principles.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Currently enrolled in a Bachelor's or Master's degree in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields.</div><div>• Knowledge of at least one general-purpose programming language (Java, Python, C++, C#, Go, Rust, or TypeScript).</div><div>• Knowledge of computer science fundamentals (data structures, basic algorithm development, object-oriented design).</div><div>• Experience using AI-assisted development tools in academic or professional settings.</div><div>• Minimum of one quarter/semester/trimester remaining in studies after the internship concludes.</div>"
+  },
+  {
+    id: "customer-service-engineer-trainee-siemens-healthineers-durban-kwazulu-natal",
+    title: "Customer Service Engineer Trainee",
+    company: "Siemens Healthineers",
+    location: "Durban, KwaZulu-Natal",
+    type: "Full-time • Internship",
+    duration: "Trainee Contract",
+    reportTo: "N/A",
+    datePosted: "2026-10-14T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "https://careers.siemens-healthineers.com/global/en/job/SHDSHWUSP100811EXTERNALENGLOBAL/Customer-Service-Engineer-Trainee?utm_source=indeed&utm_medium=phenom-feeds",
+    reference: "P-100811",
+    tags: ["Electrical Engineering", "Mechanical Engineering", "IT & Technology"],
+    shortDescription: "Siemens Healthineers is recruiting for a Customer Service Engineer Trainee in Durban, KwaZulu-Natal.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Siemens Healthineers is looking for a Customer Service Engineer Trainee based in Durban, South Africa, to perform technical tasks including installation, commissioning, maintenance, and evaluation of customer equipment and systems under supervision.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete installation/commissioning, maintenance, and evaluation of customer equipment and systems.</div><div>• Provide remote and onsite customer support (2nd and 3rd level support).</div><div>• Contribute to internal tools, equipment, processes, and data repositories.</div><div>• Participate in training courses, self-study, and skills development within the Customer Service Team.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Diploma in Electronics, Mechatronics, Electrical Engineering, or Clinical Engineering.</div><div>• Valid driver’s license (own vehicle advantageous).</div><div>• Willingness to work overtime during the week, weekends, and public holidays.</div><div>• Must be a South African Citizen.</div>"
+  },
 
   ];
