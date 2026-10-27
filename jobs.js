@@ -5680,5 +5680,21 @@ const jobs = [
     shortDescription: "Siemens Healthineers is recruiting for a Customer Service Engineer Trainee in Durban, KwaZulu-Natal.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Siemens Healthineers is looking for a Customer Service Engineer Trainee based in Durban, South Africa, to perform technical tasks including installation, commissioning, maintenance, and evaluation of customer equipment and systems under supervision.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Complete installation/commissioning, maintenance, and evaluation of customer equipment and systems.</div><div>• Provide remote and onsite customer support (2nd and 3rd level support).</div><div>• Contribute to internal tools, equipment, processes, and data repositories.</div><div>• Participate in training courses, self-study, and skills development within the Customer Service Team.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Diploma in Electronics, Mechatronics, Electrical Engineering, or Clinical Engineering.</div><div>• Valid driver’s license (own vehicle advantageous).</div><div>• Willingness to work overtime during the week, weekends, and public holidays.</div><div>• Must be a South African Citizen.</div>"
   },
+  {
+    id: "wind-industry-internship-programme-wiip-2027-graduate-programme-sawea-south-africa",
+    title: "Wind Industry Internship Programme (WIIP) 2027: Graduate Programme",
+    company: "South African Wind Energy Association (SAWEA)",
+    location: "South Africa",
+    type: "Full-time • Internship",
+    duration: "Graduate Internship",
+    reportTo: "N/A",
+    datePosted: "2026-10-21T00:00:00+02:00",
+    closingDate: "2026-10-30",
+    applicationLink: "https://sawea.org.za/form/wiip-intern-2027",
+    reference: "N/A",
+    tags: ["Electrical Engineering", "Mechanical Engineering", "Civil Engineering", "Industrial Engineering","Software Development", "IT & Technology"],
+    shortDescription: "SAWEA and EWSETA are recruiting graduates for the Wind Industry Internship Programme (WIIP) 2027 across South Africa.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Wind Energy Association (SAWEA), with funding from EWSETA, is offering the Wind Industry Internship Programme (WIIP) 2027. The program places unemployed TVET and university graduates with SAWEA member and host companies to gain practical workplace experience in South Africa's growing wind energy sector.</div><br><div><strong>ELIGIBLE FIELDS OF STUDY:</strong></div><div>• Engineering & Science: Electrical, Mechanical, Civil, Industrial Engineering, Energy, Chemistry, Environmental Science/Development.</div><div>• Technology: Computer Science, Software Engineering, MIS, IT.</div><div>• Business & Commerce: Business Admin, Accounting, Finance, Procurement, HR, Marketing & Communication.</div><div>• Social Sciences & Law: International Relations, Gender Studies, Law.</div><br><div><strong>KEY BENEFITS & WHAT YOU WILL GAIN:</strong></div><div>• Practical workplace experience in your field of study.</div><div>• Exposure to South Africa's renewable energy industry.</div><div>• Professional skill building and industry networking opportunities.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African citizenship.</div><div>• Graduated from a TVET college or university in one of the approved fields.</div><div>• Currently unemployed.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your application online before the extended closing date of 30 October 2026. Only successful applicants will be contacted.</div>"
+  },
 
   ];
