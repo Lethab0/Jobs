@@ -5696,5 +5696,21 @@ const jobs = [
     shortDescription: "SAWEA and EWSETA are recruiting graduates for the Wind Industry Internship Programme (WIIP) 2027 across South Africa.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>The South African Wind Energy Association (SAWEA), with funding from EWSETA, is offering the Wind Industry Internship Programme (WIIP) 2027. The program places unemployed TVET and university graduates with SAWEA member and host companies to gain practical workplace experience in South Africa's growing wind energy sector.</div><br><div><strong>ELIGIBLE FIELDS OF STUDY:</strong></div><div>• Engineering & Science: Electrical, Mechanical, Civil, Industrial Engineering, Energy, Chemistry, Environmental Science/Development.</div><div>• Technology: Computer Science, Software Engineering, MIS, IT.</div><div>• Business & Commerce: Business Admin, Accounting, Finance, Procurement, HR, Marketing & Communication.</div><div>• Social Sciences & Law: International Relations, Gender Studies, Law.</div><br><div><strong>KEY BENEFITS & WHAT YOU WILL GAIN:</strong></div><div>• Practical workplace experience in your field of study.</div><div>• Exposure to South Africa's renewable energy industry.</div><div>• Professional skill building and industry networking opportunities.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• South African citizenship.</div><div>• Graduated from a TVET college or university in one of the approved fields.</div><div>• Currently unemployed.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your application online before the extended closing date of 30 October 2026. Only successful applicants will be contacted.</div>"
   },
+  {
+    id: "epiroc-south-africa-2027-internship-programme-jet-park-and-springs",
+    title: "Epiroc South Africa 2027 Internship Programme",
+    company: "Epiroc South Africa",
+    location: "Jet Park and Springs, Gauteng",
+    type: "Full-time • Internship",
+    duration: "2027 Internship",
+    reportTo: "N/A",
+    datePosted: "2026-10-21T00:00:00+02:00",
+    closingDate: "2026-10-31",
+    applicationLink: "mailto:InternapplicationsZA@epiroc.com",
+    reference: "N/A",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Mining & Metallurgy", "Industrial Engineering", "IT & Technology"],
+    shortDescription: "Epiroc South Africa is accepting applications for its 2027 Internship Programme in Jet Park and Springs. Apply via email to InternapplicationsZA@epiroc.com.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Epiroc South Africa is offering young South Africans the opportunity to join its 2027 Internship Programme at its Jet Park and Springs operations. The programme gives graduates practical workplace experience at a global industrial company across multiple technical, engineering, and business disciplines.</div><br><div><strong>QUALIFICATIONS ACCEPTED:</strong></div><div>• Engineering & Metallurgy: Mining Engineering, Industrial Engineering, Electrical Engineering, Mechanical Engineering, Physical Metallurgy Engineering.</div><div>• IT & Analytics: Information Technology, Data Analytics.</div><div>• Business & Operations: Marketing, Communications, Supply Chain, Logistics, Accounting, Finance, SHEQ.</div><div>• Human & Social Sciences: Human Resources (HR), Psychology, Social Sciences.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Degree or Diploma in any of the accepted fields listed above.</div><div>• Open to young South African graduates seeking their first workplace experience.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Email your updated CV and a cover letter to InternapplicationsZA@epiroc.com before 31 October 2026. Your email subject line must follow this format exactly: <strong>Internship – Your hometown – Qualification</strong> (e.g., <em>Internship – Polokwane – Diploma in Electrical Engineering</em>).</div>"
+  },
 
   ];
