@@ -5712,5 +5712,53 @@ const jobs = [
     shortDescription: "Epiroc South Africa is accepting applications for its 2027 Internship Programme in Jet Park and Springs. Apply via email to InternapplicationsZA@epiroc.com.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Epiroc South Africa is offering young South Africans the opportunity to join its 2027 Internship Programme at its Jet Park and Springs operations. The programme gives graduates practical workplace experience at a global industrial company across multiple technical, engineering, and business disciplines.</div><br><div><strong>QUALIFICATIONS ACCEPTED:</strong></div><div>• Engineering & Metallurgy: Mining Engineering, Industrial Engineering, Electrical Engineering, Mechanical Engineering, Physical Metallurgy Engineering.</div><div>• IT & Analytics: Information Technology, Data Analytics.</div><div>• Business & Operations: Marketing, Communications, Supply Chain, Logistics, Accounting, Finance, SHEQ.</div><div>• Human & Social Sciences: Human Resources (HR), Psychology, Social Sciences.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Degree or Diploma in any of the accepted fields listed above.</div><div>• Open to young South African graduates seeking their first workplace experience.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Email your updated CV and a cover letter to InternapplicationsZA@epiroc.com before 31 October 2026. Your email subject line must follow this format exactly: <strong>Internship – Your hometown – Qualification</strong> (e.g., <em>Internship – Polokwane – Diploma in Electrical Engineering</em>).</div>"
   },
+  {
+    id: "technician-engineering-generic-eskom-rosherville-rtd-gauteng",
+    title: "TECHNICIAN ENGINEERING GENERIC",
+    company: "Eskom",
+    location: "Rosherville / RT&D, Gauteng",
+    type: "Full-time • Permanent",
+    duration: "Permanent",
+    reportTo: "N/A",
+    datePosted: "2026-10-21T00:00:00+02:00",
+    closingDate: "2026-11-13",
+    applicationLink: "https://eskomcareers.ci.hr/?controller=Listings&method=view&listingid=1836e517-e26c-4542-8d95-3534b324f3fb",
+    reference: "eskom_007652 / 50933307ZK",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Civil Engineering", "Chemical Engineering", "Industrial Engineering", "Mining & Metallurgy", "Software Development", "IT & Technology"],
+    shortDescription: "Eskom is recruiting for a Technician Engineering Generic in Rosherville / RT&D, Gauteng.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Eskom is hiring a Technician Engineering Generic (Grade T11) based at Rosherville / RT&D, Gauteng. The role involves providing technical services for the ambient air quality monitoring network related to instrument maintenance, repair, and calibration.</div><br><div><strong>KEY RESPONSIBILITIES:</strong></div><div>• Provide technical services for ambient air quality monitoring networks.</div><div>• Provide professional engineering designs.</div><div>• Contribute to the asset base integrity and deliver standardized outputs.</div><div>• Consult on discipline-related issues and technical problem-solving.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• National Diploma / National N Diploma in Engineering at NQF 6 (240 credits).</div><div>• Practical training experience (P1 and P2).</div><div>• Knowledge of power plant systems, basic laboratory management systems, and ISO 17025 / ISO 9001 standards.</div><div>• Knowledge of air quality and environmental management principles.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Apply online through the Eskom careers portal before 13 November 2026. Reference Number: 50933307ZK.</div>"
+  },
+  {
+    id: "bmw-group-sa-graduate-programme-2027-rosslyn-gauteng",
+    title: "BMW Group SA Graduate Programme 2027",
+    company: "BMW Group South Africa",
+    location: "Rosslyn, Gauteng",
+    type: "Full-time • Graduate Programme",
+    duration: "2027 Graduate Programme",
+    reportTo: "N/A",
+    datePosted: "2026-11-02T00:00:00+02:00",
+    closingDate: "2026-11-13",
+    applicationLink: "https://jobs.bmwgroup.com/job/BMW-Group-SA-Graduate-Programme-2027/199689-en_US",
+    reference: "199689",
+    tags: ["Mechanical Engineering", "Electrical Engineering", "Industrial Engineering", "Chemical Engineering", "Software Development", "IT & Technology"],
+    shortDescription: "BMW Group South Africa is inviting enthusiastic, talented, and ambitious graduates to apply for its 2027 Graduate Programme across Gauteng locations.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>BMW Group South Africa is accepting applications for its 2027 Graduate Programme across its Gauteng locations (Plant Rosslyn, Vehicle Distribution Centre Rosslyn, National Sales Company Midrand, BMW Financial Services Midrand, and BMW IT Hub Menlyn). The programme offers practical, on-the-job training, technical and leadership development, and mentorship within a global premium automotive brand.</div><br><div><strong>QUALIFICATIONS ACCEPTED:</strong></div><div>• Engineering: BSc or Diploma in Electrical, Mechanical, Industrial, Mechatronic, or Chemical Engineering.</div><div>• IT & Data: IT Operations, Computer Science, Data Science, Data Analytics, Business Intelligence, Information Systems.</div><div>• Business, Supply Chain & Law: Finance, Accounting, Business Management, Supply Chain, Logistics, LLB, BCom Law, Internal Audit, HR.</div><div>• Other Fields: Architecture, Education, Occupational Health & Safety, Media & Communications.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Completed studies by end of 2026 or within the past 18 months.</div><div>• Currently unemployed and have not previously completed a graduate programme.</div><div>• Minimum 65% academic average.</div><div>• Computer literate with strong analytical, communication, and problem-solving skills.</div><br><div><strong>APPLICATION REQUIREMENTS:</strong></div><div>Apply online via the BMW Group career portal before 13 November 2026. Attach your CV, certified ID, full academic record, qualification certificate(s), and Matric certificate.</div>"
+  },
+  {
+    id: "software-developer-intern-java-kraduate-johannesburg",
+    title: "Software Developer Intern (Java)",
+    company: "KRADuate",
+    location: "Johannesburg, Gauteng",
+    type: "Full-time • Hybrid Internship",
+    duration: "12 Months",
+    reportTo: "N/A",
+    datePosted: "2026-11-05T00:00:00+02:00",
+    closingDate: "N/A",
+    applicationLink: "mailto:careers@kraduate.co.za",
+    reference: "Software Developer Intern (Java)",
+    tags: ["Software Development", "IT & Technology"],
+    shortDescription: "KRADuate is recruiting for a Software Developer Intern (Java) in Johannesburg for a 12-month, full-time hybrid role. Apply via email to careers@kraduate.co.za.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>KRADuate is looking for a Software Developer Intern (Java) to join their product engineering team in Johannesburg for a 12-month, full-time hybrid internship (2 days in-office, 3 days remote).</div><br><div><strong>PERKS & BENEFITS:</strong></div><div>• Structured mentorship from a senior Java engineer.</div><div>• Paid Oracle certifications.</div><div>• Competitive stipend.</div><div>• Clear path to a permanent junior role.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Tech graduate or final-year student.</div><div>• Strong foundation in Java, Spring Boot basics, Git, and SQL.</div><div>• Passionate about writing clean code and building backend software features.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV, GitHub profile, and a short paragraph about a Java project you are proud of to careers@kraduate.co.za. Subject Line: Software Developer Intern (Java) - [Your Name].</div>"
+  },
 
   ];
