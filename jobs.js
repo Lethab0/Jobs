@@ -5760,5 +5760,21 @@ const jobs = [
     shortDescription: "KRADuate is recruiting for a Software Developer Intern (Java) in Johannesburg for a 12-month, full-time hybrid role. Apply via email to careers@kraduate.co.za.",
     fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>KRADuate is looking for a Software Developer Intern (Java) to join their product engineering team in Johannesburg for a 12-month, full-time hybrid internship (2 days in-office, 3 days remote).</div><br><div><strong>PERKS & BENEFITS:</strong></div><div>• Structured mentorship from a senior Java engineer.</div><div>• Paid Oracle certifications.</div><div>• Competitive stipend.</div><div>• Clear path to a permanent junior role.</div><br><div><strong>MINIMUM REQUIREMENTS:</strong></div><div>• Tech graduate or final-year student.</div><div>• Strong foundation in Java, Spring Boot basics, Git, and SQL.</div><div>• Passionate about writing clean code and building backend software features.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Send your CV, GitHub profile, and a short paragraph about a Java project you are proud of to careers@kraduate.co.za. Subject Line: Software Developer Intern (Java) - [Your Name].</div>"
   },
+  {
+    id: "graduate-trainee-programme-2027-datacentrix-midrand-cape-town-durban",
+    title: "Graduate Trainee Programme - 2027",
+    company: "Datacentrix",
+    location: "Midrand / Cape Town / Durban",
+    type: "Full-time • Graduate Trainee Programme",
+    duration: "12 Months",
+    reportTo: "Business Unit/Departmental Managers",
+    datePosted: "2026-11-02T00:00:00+02:00",
+    closingDate: "2026-11-30",
+    applicationLink: "mailto:LearningAcademy@datacentrix.co.za",
+    reference: "Graduate Trainee Programme - 2027",
+    tags: ["Software Development", "IT & Technology", "Electrical Engineering"],
+    shortDescription: "Datacentrix is inviting unemployed ICT graduates to apply for its 2027 Graduate Trainee Programme across Midrand, Cape Town, and Durban main offices.",
+    fullDescription: "<div><strong>ROLE OVERVIEW:</strong></div><div>Datacentrix is inviting unemployed ICT graduates to join its specialized teams through the 12-month Graduate Trainee Programme 2027, based across their main offices in Midrand, Cape Town, and Durban.</div><br><div><strong>QUALIFICATIONS & FIELDS OF STUDY:</strong></div><div>• Bachelor's Degree, BTech Degree, Diploma, or National Diploma in Information and Communication Technology, Information/Electronics Engineering, Information Systems/Informatics, Information Technology, Network and Security, or Computer Sciences.</div><div>• Additional Certifications: DevOps Certification; proficiency in Java, JavaScript, and HTML (or other coding certifications).</div><br><div><strong>CANDIDATE REQUIREMENTS:</strong></div><div>• No prior work experience required (0 years).</div><div>• Must not have previously participated in any Graduate / Internship / Learnership Programme.</div><div>• Age between 20-35 years.</div><div>• Good organizational, interpersonal, and communication skills.</div><br><div><strong>APPLICATION PROCESS:</strong></div><div>Submit your detailed CV (with contact details and email address), certified copy of South African ID, Grade 12 certificate, University/Diploma certificates, academic results/transcripts, and post-matric qualifications to LearningAcademy@datacentrix.co.za before 30 November 2026.</div>"
+  },
 
   ];
