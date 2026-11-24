@@ -49,6 +49,7 @@
             line-height: 1.6;
             background-color: var(--light-gray);
             color: var(--text-color);
+            overflow-x: hidden;
         }
 
         /* ── HEADER ── */
@@ -126,10 +127,12 @@
             color: var(--white);
         }
 
+        /* ── CONTAINER ── */
         .container {
             max-width: 1200px;
             margin: 20px auto;
             padding: 0 14px;
+            width: 100%;
         }
 
         @media (min-width: 600px) {
@@ -286,6 +289,7 @@
             position: relative;
             overflow: hidden;
             width: 100%;
+            text-align: center;
         }
 
         .cv-submit-btn::after {
@@ -497,10 +501,13 @@
             }
         }
 
-        /* ── JOBS SECTION ── */
+        /* ══════════════════════════════════════════════════════
+           JOBS SECTION — FULLY RESPONSIVE FOR ALL SCREENS
+           ══════════════════════════════════════════════════════ */
         .jobs-section {
             display: none;
             margin-top: 10px;
+            width: 100%;
         }
 
         .jobs-section.active {
@@ -513,6 +520,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* ── Back button ── */
         .back-button {
             display: inline-flex;
             align-items: center;
@@ -524,9 +532,10 @@
             border-radius: 8px;
             cursor: pointer;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             transition: all 0.3s ease;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .back-button:hover {
@@ -538,28 +547,34 @@
             font-size: 0.85rem;
         }
 
+        /* ── Selected category header ── */
         .selected-category {
             display: flex;
             align-items: center;
             gap: 12px;
-            margin-bottom: 20px;
-            padding: 16px 18px;
+            margin-bottom: 16px;
+            padding: 14px 16px;
             background-color: var(--white);
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            min-width: 0;
         }
 
         .selected-category-icon {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             color: var(--primary-color);
             flex-shrink: 0;
         }
 
         .selected-category-title {
-            font-size: 1.15rem;
+            font-size: 1.05rem;
             font-weight: 700;
             color: var(--primary-dark);
             line-height: 1.3;
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         @media (min-width: 600px) {
@@ -576,11 +591,12 @@
             }
         }
 
-        /* ── JOB LISTINGS GRID ── */
+        /* ── Job listings grid: 1 col on mobile, auto on tablet+ ── */
         .job-listings {
             display: grid;
             grid-template-columns: 1fr;
             gap: 14px;
+            width: 100%;
         }
 
         @media (min-width: 640px) {
@@ -590,9 +606,10 @@
             }
         }
 
+        /* ── Job card: mobile-first, no overflow ── */
         .job-card {
             background-color: var(--white);
-            padding: 18px 16px;
+            padding: 16px 14px;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             border-left: 4px solid var(--primary-color);
@@ -600,6 +617,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            width: 100%;
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .job-card:hover {
@@ -607,23 +628,29 @@
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
         }
 
+        .job-card > div {
+            min-width: 0;
+        }
+
         .job-card h2 {
-            font-size: 1.05rem;
-            margin-bottom: 8px;
+            font-size: 1.02rem;
+            margin-bottom: 6px;
             color: var(--primary-dark);
             line-height: 1.35;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             gap: 6px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .job-meta {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px 14px;
-            margin-bottom: 10px;
-            font-size: 0.82rem;
+            gap: 8px 12px;
+            margin-bottom: 8px;
+            font-size: 0.8rem;
             color: var(--text-color);
         }
 
@@ -631,16 +658,20 @@
             display: flex;
             align-items: center;
             gap: 4px;
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .job-meta i {
             color: var(--primary-color);
-            font-size: 0.78rem;
+            font-size: 0.75rem;
+            flex-shrink: 0;
         }
 
         .job-card .tags-container {
-            margin-top: 8px;
-            margin-bottom: 12px;
+            margin-top: 6px;
+            margin-bottom: 10px;
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
@@ -649,41 +680,51 @@
         .job-card .tag {
             background-color: var(--light-gray);
             color: var(--primary-dark);
-            padding: 4px 9px;
+            padding: 3px 8px;
             border-radius: 5px;
-            font-size: 0.7rem;
+            font-size: 0.68rem;
             font-weight: 500;
+            line-height: 1.4;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .job-card .date-info {
-            font-size: 0.78rem;
+            font-size: 0.75rem;
             color: #6b7280;
-            margin-bottom: 10px;
-            line-height: 1.4;
+            margin-bottom: 8px;
+            line-height: 1.45;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .job-card p {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             color: var(--text-color);
             line-height: 1.5;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         .view-btn {
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
-            padding: 11px 16px;
+            padding: 11px 14px;
             background-color: var(--primary-color);
             color: var(--white);
             border-radius: 8px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             transition: all 0.3s ease;
             width: 100%;
-            justify-content: center;
             margin-top: auto;
+            -webkit-tap-highlight-color: transparent;
+            text-align: center;
         }
 
         .view-btn:hover {
@@ -696,6 +737,21 @@
             cursor: not-allowed;
             color: #9ca3af;
             pointer-events: none;
+        }
+
+        @media (min-width: 480px) {
+            .job-card {
+                padding: 18px 16px;
+            }
+            .job-card h2 {
+                font-size: 1.1rem;
+            }
+            .job-card p {
+                font-size: 0.92rem;
+            }
+            .job-meta {
+                font-size: 0.84rem;
+            }
         }
 
         @media (min-width: 600px) {
@@ -711,6 +767,10 @@
             .job-meta {
                 font-size: 0.88rem;
             }
+            .view-btn {
+                padding: 12px 18px;
+                font-size: 0.95rem;
+            }
         }
 
         .new-badge {
@@ -718,9 +778,10 @@
             color: white;
             padding: 2px 7px;
             border-radius: 4px;
-            font-size: 0.65rem;
+            font-size: 0.62rem;
             font-weight: bold;
             vertical-align: middle;
+            white-space: nowrap;
         }
 
         .no-jobs {
@@ -733,6 +794,48 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             grid-column: 1 / -1;
             font-size: 1rem;
+        }
+
+        /* ── Extra small screens (≤380px) ── */
+        @media (max-width: 380px) {
+            .container {
+                padding: 0 10px;
+            }
+            .job-card {
+                padding: 13px 12px;
+                border-left-width: 3px;
+            }
+            .job-card h2 {
+                font-size: 0.95rem;
+            }
+            .job-card p {
+                font-size: 0.84rem;
+            }
+            .job-meta {
+                gap: 6px 10px;
+                font-size: 0.75rem;
+            }
+            .job-card .tag {
+                font-size: 0.63rem;
+                padding: 3px 7px;
+            }
+            .job-card .date-info {
+                font-size: 0.7rem;
+            }
+            .view-btn {
+                font-size: 0.82rem;
+                padding: 10px 12px;
+            }
+            .selected-category-title {
+                font-size: 0.95rem;
+            }
+            .selected-category-icon {
+                font-size: 1.3rem;
+            }
+            .back-button {
+                font-size: 0.82rem;
+                padding: 9px 14px;
+            }
         }
 
         /* ── AD ── */
@@ -779,7 +882,7 @@
         .wa-floating-container {
             position: fixed;
             top: 50%;
-            right: 1rem;
+            right: 0.75rem;
             transform: translateY(-50%);
             display: flex;
             flex-direction: column;
@@ -789,15 +892,15 @@
         }
 
         .wa-floating-btn {
-            width: 52px;
-            height: 52px;
+            width: 48px;
+            height: 48px;
             background: #25d366;
             color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             text-decoration: none;
             box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(37, 211, 102, 0.3);
             transition: transform 0.2s ease, background-color 0.2s ease;
@@ -816,12 +919,12 @@
 
         .wa-text-label {
             color: #1e293b;
-            font-size: 0.65rem;
+            font-size: 0.6rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.04em;
             background: rgba(255, 255, 255, 0.9);
-            padding: 0.15rem 0.4rem;
+            padding: 0.12rem 0.35rem;
             border-radius: 6px;
             border: 1px solid #e2e8f0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -830,7 +933,7 @@
             line-height: 1.3;
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-            max-width: 80px;
+            max-width: 70px;
         }
 
         @media (min-width: 480px) {
@@ -956,44 +1059,6 @@
             from { opacity: 0; transform: translateY(40px) scale(0.95); }
             to { opacity: 1; transform: translateY(0) scale(1); }
         }
-
-        /* ── EXTRA MOBILE POLISH ── */
-        @media (max-width: 380px) {
-            .category-box {
-                padding: 14px 8px;
-            }
-            .category-title {
-                font-size: 0.8rem;
-            }
-            .job-card {
-                padding: 15px 13px;
-            }
-            .job-card h2 {
-                font-size: 0.98rem;
-            }
-            .view-btn {
-                font-size: 0.85rem;
-                padding: 10px 14px;
-            }
-        }
-
-        /* Ensure jobs section is comfortable on small screens */
-        @media (max-width: 639px) {
-            .job-card {
-                border-left-width: 3px;
-            }
-            .job-card .date-info {
-                font-size: 0.74rem;
-            }
-            .job-meta {
-                gap: 8px 12px;
-                font-size: 0.78rem;
-            }
-            .job-card .tag {
-                font-size: 0.66rem;
-                padding: 3px 8px;
-            }
-        }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486635931470536" crossorigin="anonymous"></script>
 </head>
@@ -1086,108 +1151,18 @@
         </div>
     </div>
 
-    <!-- Placeholder for external jobs data – in production this would be loaded from jobs.js -->
+    <!-- Fallback jobs data (only used if jobs.js is missing) -->
     <script>
-        // Simulated jobs data if jobs.js is not present (for preview purpose)
-        // In real usage, jobs.js will define the global `jobs` array.
         if (typeof jobs === 'undefined') {
             window.jobs = [
-                {
-                    id: 1,
-                    title: "Graduate Mechanical Engineer",
-                    company: "Transnet",
-                    location: "Johannesburg, Gauteng",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-10",
-                    closingDate: "2025-04-15",
-                    shortDescription: "Assist in maintenance planning and reliability engineering for heavy rail equipment.",
-                    tags: ["Mechanical Engineering"]
-                },
-                {
-                    id: 2,
-                    title: "Electrical Engineer (Power Systems)",
-                    company: "Eskom",
-                    location: "Midrand, Gauteng",
-                    type: "Full-time",
-                    duration: "24 months",
-                    datePosted: "2025-03-08",
-                    closingDate: "2025-04-01",
-                    shortDescription: "Support power system studies and grid integration of renewable energy projects.",
-                    tags: ["Electrical Engineering", "Power Systems"]
-                },
-                {
-                    id: 3,
-                    title: "Software Developer (React/Node)",
-                    company: "DVT",
-                    location: "Cape Town, Western Cape",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-12",
-                    closingDate: "2025-05-01",
-                    shortDescription: "Build modern web applications using React and Node.js for financial services clients.",
-                    tags: ["Software Development", "Full Stack"]
-                },
-                {
-                    id: 4,
-                    title: "IT Support Technician",
-                    company: "Datacentrix",
-                    location: "Pretoria, Gauteng",
-                    type: "Contract",
-                    duration: "6 months",
-                    datePosted: "2025-03-05",
-                    closingDate: "2025-03-30",
-                    shortDescription: "Provide desktop and network support to internal users and clients.",
-                    tags: ["IT & Technology", "Technical Support"]
-                },
-                {
-                    id: 5,
-                    title: "Mining Engineer (Graduate)",
-                    company: "Anglo American",
-                    location: "Rustenburg, North West",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-11",
-                    closingDate: "2025-04-20",
-                    shortDescription: "Join the mining team to optimise extraction processes and ensure safety compliance.",
-                    tags: ["Mining & Metallurgy", "Mining Engineering"]
-                },
-                {
-                    id: 6,
-                    title: "Civil Engineer (Structural)",
-                    company: "AECOM",
-                    location: "Durban, KwaZulu-Natal",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-07",
-                    closingDate: "2025-04-10",
-                    shortDescription: "Design and analyse structural systems for commercial and infrastructure projects.",
-                    tags: ["Civil Engineering", "Structural"]
-                },
-                {
-                    id: 7,
-                    title: "Industrial Engineer (Supply Chain)",
-                    company: "Massmart",
-                    location: "Johannesburg, Gauteng",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-13",
-                    closingDate: "2025-04-25",
-                    shortDescription: "Optimise supply chain operations and warehouse processes using Lean methodologies.",
-                    tags: ["Industrial Engineering", "Supply Chain"]
-                },
-                {
-                    id: 8,
-                    title: "Chemical Engineer (Process)",
-                    company: "Sasol",
-                    location: "Secunda, Mpumalanga",
-                    type: "Full-time",
-                    duration: "Permanent",
-                    datePosted: "2025-03-09",
-                    closingDate: "2025-04-18",
-                    shortDescription: "Monitor and improve chemical processes in a petrochemical plant environment.",
-                    tags: ["Chemical Engineering", "Process"]
-                }
+                { id: 1, title: "Graduate Mechanical Engineer", company: "Transnet", location: "Johannesburg, Gauteng", type: "Full-time", duration: "Permanent", datePosted: "2025-03-10", closingDate: "2025-04-15", shortDescription: "Assist in maintenance planning and reliability engineering for heavy rail equipment.", tags: ["Mechanical Engineering"] },
+                { id: 2, title: "Electrical Engineer (Power Systems)", company: "Eskom", location: "Midrand, Gauteng", type: "Full-time", duration: "24 months", datePosted: "2025-03-08", closingDate: "2025-04-01", shortDescription: "Support power system studies and grid integration of renewable energy projects.", tags: ["Electrical Engineering", "Power Systems"] },
+                { id: 3, title: "Software Developer (React/Node)", company: "DVT", location: "Cape Town, Western Cape", type: "Full-time", duration: "Permanent", datePosted: "2025-03-12", closingDate: "2025-05-01", shortDescription: "Build modern web applications using React and Node.js for financial services clients.", tags: ["Software Development", "Full Stack"] },
+                { id: 4, title: "IT Support Technician", company: "Datacentrix", location: "Pretoria, Gauteng", type: "Contract", duration: "6 months", datePosted: "2025-03-05", closingDate: "2025-03-30", shortDescription: "Provide desktop and network support to internal users and clients.", tags: ["IT & Technology", "Technical Support"] },
+                { id: 5, title: "Mining Engineer (Graduate)", company: "Anglo American", location: "Rustenburg, North West", type: "Full-time", duration: "Permanent", datePosted: "2025-03-11", closingDate: "2025-04-20", shortDescription: "Join the mining team to optimise extraction processes and ensure safety compliance.", tags: ["Mining & Metallurgy", "Mining Engineering"] },
+                { id: 6, title: "Civil Engineer (Structural)", company: "AECOM", location: "Durban, KwaZulu-Natal", type: "Full-time", duration: "Permanent", datePosted: "2025-03-07", closingDate: "2025-04-10", shortDescription: "Design and analyse structural systems for commercial and infrastructure projects.", tags: ["Civil Engineering", "Structural"] },
+                { id: 7, title: "Industrial Engineer (Supply Chain)", company: "Massmart", location: "Johannesburg, Gauteng", type: "Full-time", duration: "Permanent", datePosted: "2025-03-13", closingDate: "2025-04-25", shortDescription: "Optimise supply chain operations and warehouse processes using Lean methodologies.", tags: ["Industrial Engineering", "Supply Chain"] },
+                { id: 8, title: "Chemical Engineer (Process)", company: "Sasol", location: "Secunda, Mpumalanga", type: "Full-time", duration: "Permanent", datePosted: "2025-03-09", closingDate: "2025-04-18", shortDescription: "Monitor and improve chemical processes in a petrochemical plant environment.", tags: ["Chemical Engineering", "Process"] }
             ];
         }
     </script>
@@ -1196,7 +1171,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Ensure jobs array exists (fallback from inline above or external jobs.js)
             if (typeof jobs === 'undefined' || !Array.isArray(jobs)) {
                 console.error("Error: 'jobs' data array not found.");
                 return;
@@ -1313,8 +1287,10 @@
                 document.getElementById('cv-submission-section')?.style.setProperty('display', 'none');
                 jobsSection.classList.add('active');
 
-                // Scroll to top of jobs section smoothly on mobile
-                jobsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Smoothly scroll to the jobs section on mobile
+                setTimeout(() => {
+                    jobsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 60);
             }
 
             function showCategories() {
@@ -1348,18 +1324,12 @@
             hireBtn.addEventListener('click', openModal);
             closeBtn.addEventListener('click', closeModal);
 
-            // Close when clicking outside the modal box
             modal.addEventListener('click', function(e) {
-                if (e.target === modal) {
-                    closeModal();
-                }
+                if (e.target === modal) closeModal();
             });
 
-            // Close with Escape key
             document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && modal.classList.contains('active')) {
-                    closeModal();
-                }
+                if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
             });
         });
     </script>
